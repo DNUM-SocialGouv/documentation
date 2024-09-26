@@ -1,8 +1,8 @@
 # Intégration continue (CI)
 
-L'intégration continue est la pratique de validation qualimétrique (quality gates) de l'application, typiquement à chaque commit / merge request / release.
+L'intégration continue est la pratique de validation qualimétrique (quality gates) de l'application, effectuée typiquement à chaque commit / merge request / release.
 
-Validations :
+Validations à inclure dans chaque CI :
 
 - exécution des tests (unitaires, intégration, end-to-end)
   - Attention particulière portée à la partie API et authentification en particulier
