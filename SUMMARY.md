@@ -8,6 +8,7 @@
   * [Catalogue de standards et de communs](readme/catalogue-de-standards-et-de-communs.md)
 * [DevSecOps](DevSecOps/README.md)
   * [Application cloud native](DevSecOps/cloud-native.md)
+  * [Hébergement & Cloud](DevSecOps/Cloud.md)
   * [Intégration continue (CI)](DevSecOps/CI.md)
   * [Déploiement continu (CD)](DevSecOps/CD.md)
   * [Observabilité](DevSecOps/observabilite.md)
