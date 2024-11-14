@@ -39,7 +39,7 @@ Les KPI permettent d’adapter le produit aux besoins réels des utilisateurs et
 
 Une approche itérative favorise la souplesse, en permettant d’ajuster le produit en continu grâce aux retours utilisateurs et aux évolutions réglementaires ou technologiques.
 
-L’approche itérative se coordonne naturellement avec [le cycle de vie produit](/introduction/cycle-de-vie-produit) en offrant une méthode structurée pour améliorer et valider le produit à chaque phase.
+L’approche itérative se coordonne naturellement avec [le cycle de vie produit](/introduction/cycle-de-vie-produit.md) en offrant une méthode structurée pour améliorer et valider le produit à chaque phase.
 * Dès la preuve de concept (POC), les équipes peuvent tester des idées, adapter les solutions à chaque retour et affiner les fonctionnalités.
 * Lors du MVP et du développement, les itérations permettent d’intégrer le feedback utilisateur et d’ajuster les priorités. 
 * Enfin, en phases d’industrialisation et de maturité, l’approche itérative permet d’optimiser le produit et de prolonger sa valeur pour les utilisateurs finaux.
