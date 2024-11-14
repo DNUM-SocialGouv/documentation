@@ -15,7 +15,7 @@ Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationn
 
 ## Contribuer
 
-Vous êtes bienvenus pour contribuer à cette documentation, proposer de nouvelles choses ou challenger son contenu. Pour ce faire, vous pouvez simplement proposer des [_pull requests_](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) (PR) sur [ce dépôt](https://github.com/DNUM-SocialGouv/documentation).&#x20;
+Vous êtes bienvenus pour contribuer à cette documentation, proposer de nouvelles choses ou challenger son contenu. Pour ce faire, vous pouvez simplement proposer des _[pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)_ (PR) sur [ce dépôt](https://github.com/DNUM-SocialGouv/documentation).
 
 ***
 
