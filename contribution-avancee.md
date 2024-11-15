@@ -10,7 +10,7 @@ Une fois cela fait, il vous reste à récupérer [le dépôt](https://github.com
 git clone git@github.com:DNUM-SocialGouv/documentation.git
 ```
 
-Ensuite, une copie (fork) du dépôt devra être faîte vers votre compte GitHub, et il existe un bouton présent sur la page
+Ensuite, une copie (fork) du dépôt devra être faite vers votre compte GitHub, et il existe un bouton présent sur la page
 d'un dépôt pour le faire.
 
 Maintenant sur le poste local, il faut lier le dépôt copié sur votre compte au code qui a été cloné précédemment :
