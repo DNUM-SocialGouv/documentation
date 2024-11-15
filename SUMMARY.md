@@ -21,5 +21,6 @@
   * [Déploiement continu (CD)](DevSecOps/CD.md)
   * [Observabilité](DevSecOps/observabilite.md)
   * [Sécurité](DevSecOps/securite.md)
+  * [Structure d'un dépôt](DevSecOps/structure-repo.md)
 * [Hébergement](Hebergement/README.md)
   * [Cloud](Hebergement/Cloud.md)
