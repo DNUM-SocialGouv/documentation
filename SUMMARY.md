@@ -21,7 +21,7 @@
 * [Data](data.md)
 * [Accessibilité](Design/Accessibilite.md)
 * [Design et Recherche Utilisateur](Design/README.MD)
-  * [Processus général](<Design/Processus de design.md>)
+  * [Processus général](Design/Processus-de-design.md)
   * [Recherche Utilisateur](RU/README.md)
     * [Principes](RU/RU_principes.md)
     * [Application](RU/RU_application.md)
