@@ -18,28 +18,22 @@ MFA : Oui avec KeyCloack
 **Solution Maison - spécifique** repose sur une gestion locale des comptes utilisateurs. Cette solution ne DEVRAIT PAS être mise en oeuvre, ou alors de manière provisoire pour un MVP.\
 MFA : Non
 
-**FranceConnect** permet de déléguer l'authentification d'un Particulier à un Fournisseur d'Identité connu. Il convient cependant de réconcilier les identités à la première connexion (création ou rapprochement de compte dans l'application) et lors des connexions suivantes.\
-https://franceconnect.gouv.fr/franceconnect\
+[**FranceConnect**](https://franceconnect.gouv.fr/franceconnect) permet de déléguer l'authentification d'un Particulier à un Fournisseur d'Identité connu. Il convient cependant de réconcilier les identités à la première connexion (création ou rapprochement de compte dans l'application) et lors des connexions suivantes.\
 MFA : Non
 
-**FranceConnect+** est utilisé par le Founrisseur de Service dans le cas de démarches avec données sensibles, données de santé et flux financiers. Dans ce cas un 2nd facteur d'authentification (App mobile France Identité) entre en jeu.\
-https://franceconnect.gouv.fr/franceconnect-plus\
+[**FranceConnect+**](https://franceconnect.gouv.fr/franceconnect-plus) est utilisé par le Founrisseur de Service dans le cas de démarches avec données sensibles, données de santé et flux financiers. Dans ce cas un 2nd facteur d'authentification (App mobile France Identité) entre en jeu.\
 MFA : Oui
 
-**ProConnect** sert à identifier tout professionnel du public ou du privé. Cela dit le fonctionnement est très différent pour le public et le privé (cf. comparaison infra). Il convient de choisir la surface d'exposition de ProConnect pour chaque fournisseur de service : Internet, RIE, Hybride.\
-https://www.proconnect.gouv.fr/\
+[**ProConnect**](https://www.proconnect.gouv.fr/) sert à identifier tout professionnel du public ou du privé. Cela dit le fonctionnement est très différent pour le public et le privé (cf. comparaison infra). Il convient de choisir la surface d'exposition de ProConnect pour chaque fournisseur de service : Internet, RIE, Hybride.\
 MFA : T1 2025 
 
-**EFPConnect** conjointement à MesDémarchesEmploi est le vecteur d'authentificaiton actuel pour les démarches de la sphère Emploi (DGEFP). Il convient de clarifier sa cible et sa trajectoire.\
-https://info.efpconnect.emploi.gouv.fr/\
+[**EFPConnect**](https://info.efpconnect.emploi.gouv.fr/) conjointement à MesDémarchesEmploi est le vecteur d'authentificaiton actuel pour les démarches de la sphère Emploi (DGEFP). Il convient de clarifier sa cible et sa trajectoire.\
 MFA : Non
 
-**Pro Santé Connect** authentifie et identifie obligatoirement les Professionnels de Santé dans l'exercice de leur métier. Il repose sur les cartes professionnelles CPS et e-CPS, et le répertoire RPPS. Le raccordement d'un service est très lourd.\
-https://esante.gouv.fr/produits-services/pro-sante-connect\
+[**Pro Santé Connect**](https://esante.gouv.fr/produits-services/pro-sante-connect) authentifie et identifie obligatoirement les Professionnels de Santé dans l'exercice de leur métier. Il repose sur les cartes professionnelles CPS et e-CPS, et le répertoire RPPS. Le raccordement d'un service est très lourd.\
 MFA : Oui
 
-**Plage** conjointement avec le portail e-MPSI sert à identifier les Etablissements de Santé et leurs collaborateurs, dans la sphère Santé et Médico-Social donc. Il repose sur le répertoire FINESS des Etablissements de Santé.\
-https://connect-pasrel.atih.sante.fr/cas/login\
+[**Plage**](https://connect-pasrel.atih.sante.fr/cas/login) conjointement avec le portail e-MPSI sert à identifier les Etablissements de Santé et leurs collaborateurs, dans la sphère Santé et Médico-Social donc. Il repose sur le répertoire FINESS des Etablissements de Santé.\
 MFA : Non
 
 ## ProConnect Public vs Privé
@@ -67,7 +61,7 @@ MonComptePro, InclusionConnect et AgentConnect fusionnent pour devenir ProConnec
 ## Transition EFPConnect vers ProConnect (à décider)
 |Scénario|Avantages|Inconvénients|
 |---|---|---|
-|I. ProConnect sur MesDémarches|Scénario pouvant servir de solution transitoire tout au long du scénario 2. Réconciliation de comptes à implémenter seulement sur EFPConnect dans un premier temps (effort centralisé). L’utilisateur n’a plus besoin de créer explicitement un compte EFPConnect et retenir un mot de passe EFPConnect. Permet de dérisquer un « plouf » de ProConnect|Ajoute des redirections à l’utilisateur dans la cinématique d’authentification. Moindre lisibilité et compréhension de la cinématique par l’utilisateur|
-|II. ProConnect remplace EFPConnect|Implémentation progressive de ProConnect, service par service. Décommissionnement progressif puis définitif d’EFPConnect|- Réconciliation de comptes à implémenter seulement sur EFPConnect (pratique de réconciliation à harmoniser)
+|I. ProConnect sur MesDémarches|Scénario pouvant servir de solution transitoire tout au long du scénario 2.</br>Réconciliation de comptes à implémenter seulement sur EFPConnect dans un premier temps (effort centralisé).</br>L’utilisateur n’a plus besoin de créer explicitement un compte EFPConnect et retenir un mot de passe EFPConnect.</br>Permet de dérisquer un « plouf » de ProConnect|Ajoute des redirections à l’utilisateur dans la cinématique d’authentification.</br>Moindre lisibilité et compréhension de la cinématique par l’utilisateur|
+|II. ProConnect remplace EFPConnect|Implémentation progressive de ProConnect, service par service.</br>Décommissionnement progressif puis définitif d’EFPConnect|Réconciliation de comptes à implémenter seulement sur EFPConnect (pratique de réconciliation à harmoniser)
 
 A noter : beaucoup de liens morts sur MesDémarches/EFPConnect. Combien de services actifs parmi les 20 listés sur MesDémarches ? Est-il déjà acté de décommissionner MesDémarches?
