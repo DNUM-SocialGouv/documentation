@@ -18,3 +18,5 @@ Des guides, tels que le [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/
 développement :
 
 - Les notices d'intégration de [AcceDe Web](https://www.accede-web.com/notices/html-et-css/) ;
+
+## Outillage et pratiques
