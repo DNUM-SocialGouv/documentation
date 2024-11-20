@@ -30,6 +30,7 @@
   * [Application cloud native](Developpement/cloud-native.md)
   * [Accessibilité](Developpement/accessibilite.md)
   * [Documentation](Developpement/documentation.md)
+  * [Qualité du code](Developpement/qualite-du-code.md)
   * [Sécurité](Developpement/securite.md)
   * [Tests](Developpement/tests.md)
 * [DevSecOps](DevSecOps/README.md)
