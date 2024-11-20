@@ -13,4 +13,6 @@
   - [ ] Est-ce que le fichier `SUMMARY.md` a bien été mis à jour ?
     - _Pour que votre page soit accessible_
 
+- [ ] Je confirme que ce que j'ai ajouté n'introduit aucun problème de sécurité
+
 ---
