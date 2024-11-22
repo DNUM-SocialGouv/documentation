@@ -13,12 +13,12 @@ A ce titre les objectifs principaux sont :
 ## Processus RADAR pour une nouvelle application
 
 {% hint style="info" %}
-Ce processus est en constante évolution et ce fait toujours sur la base d'une impression holistique d'un projet et de ses problématiques spécifiques
+Ce processus est en constante évolution et se fait toujours sur la base d'une impression holistique d'un projet et de ses problématiques spécifiques
 {% endhint %}
 
 RADAR pour Réutiliser, Adapter, Développer, Acheter et Reformuler est un framework simple pour attaquer le sujet de la dette technique et de la rationalisation des applications. 
 
-L'objectif est de fournir des orientations sur la meilleur manière de traiter un besoin métier à travers une solution technologique en indiquant un ordre clair de préférence quant au choix de la solution.
+L'objectif est de fournir des orientations sur la meilleure manière de traiter un besoin métier à travers une solution technologique en indiquant un ordre clair de préférence quant au choix de la solution.
 
 
 <details>
@@ -57,7 +57,7 @@ Quand le besoin est trop spécifique on peut alors considérer la construction d
   
 Il peut être pertinent de choisir une solution tierce venant du privé pour répondre à certains besoins.
 
-* Dans ce cas sauf contraintes spécifiques le SaaS est à privilégié tant que celui-ci est en mesure de s'aligner avec nos normes et standards applicables
+* Dans ce cas sauf contraintes spécifiques le SaaS est à privilégier tant que celui-ci est en mesure de s'aligner avec nos normes et standards applicables
 * Une réflexion doit être menée également sur la volonté ou non d'investir sur la solution en question vis-à-vis du reste de l'écosystème avec lequel il s'intègre s'il s'agit d'un besoin ponctuel (amélioration continue)
 
 </details>
