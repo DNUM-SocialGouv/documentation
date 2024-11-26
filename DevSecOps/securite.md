@@ -26,7 +26,7 @@
 
 ### Checklist
 - [ ] signé l'intégralité des commits via des clés gpg/gpg2
-  - ceci à des fins de truster la source des commits et/ou d'identifier le développeur
+  - objectif : certifier l'auteur des commits
 
 ## Authentification 2FA (github, gitlab ...)
 
