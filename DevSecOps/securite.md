@@ -31,4 +31,5 @@
 ## Authentification 2FA (github, gitlab ...)
 
 ### Checklist
+
 - [ ] sécurisation des comptes via une méthode 2FA
