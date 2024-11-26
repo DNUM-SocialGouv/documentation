@@ -25,7 +25,8 @@
 ## Confiance des commits
 
 ### Checklist
-- [ ] signé l'intégralité des commits via des clés gpg/gpg2
+
+- [ ] signer l'intégralité des commits via des clés gpg / ssh / autre
   - objectif : certifier l'auteur des commits
 
 ## Authentification 2FA (github, gitlab ...)
