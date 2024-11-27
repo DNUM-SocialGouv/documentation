@@ -20,3 +20,6 @@ développement :
 - Les notices d'intégration de [AcceDe Web](https://www.accede-web.com/notices/html-et-css/) ;
 
 ## Outillage et pratiques
+
+Certains projets utilisent [Lighthouse](https://github.com/GoogleChrome/lighthouse) afin de vérifier le niveau
+d'accessibilité, notamment comme étape du processus de CI.
