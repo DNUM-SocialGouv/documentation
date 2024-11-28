@@ -71,6 +71,8 @@ Ces indicateurs permettent de vérifier que l'on progresse dans la bonne directi
 - Une durée de session sur un site de consultation peut mesurer l'intérêt des utilisateurs pour le contenu proposé.
 </details>
 
+[Vous pouvez retrouver dans cette page des exemples d'indicateurs par typologies de produit.](principes.md#indicateurs-dimpact)
+
 {% hint style="info" %}
 
 **Distinction entre objectifs et indicateurs :**
