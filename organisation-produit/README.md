@@ -9,4 +9,4 @@ Cette approche favorise l’amélioration continue, facilite la prise de décisi
   * [Vision et objectifs](principes.md#vision-et-objectifs)
   * [Indicateurs d'impact](principes.md#indicateurs-dimpact)
   * [Itérations courtes](principes.md#iterations-courtes)
-* [Indicateurs](indicateurs.md)
+* [Exemples d'indicateurs](indicateurs.md)
