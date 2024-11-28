@@ -72,7 +72,8 @@ Ces indicateurs permettent de vérifier que l'on progresse dans la bonne directi
 </details>
 
 {% hint style="info" %}
-### Distinction entre objectifs et indicateurs :
+
+**Distinction entre objectifs et indicateurs :**
 - **Les objectifs** définissent une ambition ou un résultat qualitatif précis (par exemple : améliorer l’expérience utilisateur, réduire le temps de traitement d’une tâche).
 - **Les indicateurs (ou KPIs)** mesurent l’avancement concret vers ces objectifs (par exemple : augmentation de 20 % de la satisfaction utilisateur, réduction de 30 % du temps de traitement).
 {% endhint %}
