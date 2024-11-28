@@ -157,6 +157,7 @@ Application spécialisée dans la production et la gestion de documents imprimé
 * Réduction des erreurs ou pertes de docs (docs manquants, doublons, erreurs de version...)
 </details>
 
+<details>
 <summary><strong>💶 Gestion financière</strong></summary>
 
 Application pour suivre les dépenses, les budgets, et les opérations financières, incluant la planification budgétaire, la comptabilité et la gestion des paiements et factures.
