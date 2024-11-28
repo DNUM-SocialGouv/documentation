@@ -6,7 +6,7 @@ En structurant chaque produit autour d’objectifs clairs, de mesures d’impact
 Cette approche favorise l’amélioration continue, facilite la prise de décisions éclairées et assure que chaque produit réponde efficacement aux besoins des usagers tout en respectant les standards de qualité et de sécurité.
 
 * [Principes](organisation-produit/principes.md)
-  * [Vision et objectifs](organisation-produit/principes#vision-et-objectifs)
-  * [Indicateurs d'impact](organisation-produit/principes#indicateurs-dimpact)
-  * [Itérations courtes](organisation-produit/principes#iterations-courtes)
+  * [Vision et objectifs](organisation-produit/principes.md#vision-et-objectifs)
+  * [Indicateurs d'impact](organisation-produit/principes.md#indicateurs-dimpact)
+  * [Itérations courtes](organisation-produit/principes.md#iterations-courtes)
 * [Indicateurs](organisation-produit/indicateurs.md)
