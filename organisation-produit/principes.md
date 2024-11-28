@@ -1,13 +1,4 @@
-# Organisation produit
-
-La démarche produit et l’implémentation de ces pratiques répondent à un besoin de clarté, d’alignement et d’efficacité dans la conception et le suivi des produits numériques des ministères.
-
-En structurant chaque produit autour d’objectifs clairs, de mesures d’impact et de cycles itératifs, ces pratiques permettent aux équipes de concentrer leurs efforts sur des résultats concrets et mesurables.  
-Cette approche favorise l’amélioration continue, facilite la prise de décisions éclairées et assure que chaque produit réponde efficacement aux besoins des usagers tout en respectant les standards de qualité et de sécurité.
-
----
-
-## Vision et objectifs
+# Vision et objectifs
 
 La vision produit définit un cap clair, aligné avec les priorités des ministères sociaux et les besoins des usagers, qu’il s’agisse des citoyens, agents publics ou métiers. Elle permet de fixer des objectifs clairs et concrets.
 
@@ -31,7 +22,7 @@ Elle donne une direction partagée et cohérente, assurant un alignement d'équi
 
 ---
 
-## Indicateurs d’impact
+# Indicateurs d’impact
 
 ### À quoi servent les indicateurs ?
 Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.  
@@ -87,7 +78,7 @@ Ces indicateurs permettent de vérifier que l'on progresse dans la bonne directi
 
 ---
 
-## Itérations courtes
+# Itérations courtes
 
 Une approche itérative favorise la souplesse, en permettant d’ajuster le produit en continu grâce aux retours utilisateurs et aux évolutions réglementaires ou technologiques.
 
