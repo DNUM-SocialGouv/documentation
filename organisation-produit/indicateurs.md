@@ -86,6 +86,100 @@ Application fournissant une interface visuelle pour visualiser et analyser des d
 * l'app répond aux besoins des métiers
 </details>
 
+<details>
+<summary><strong>🗺️ Cartographie</strong></summary>
+
+Application utilisant des systèmes d'information géographique (SIG) pour la création, la gestion et l'analyse de données géospatiales, permettant de visualiser et interpréter ces données à l'aide de cartes interactives.
+Distinguer si la carte est à usage public ou métier. 
+
+**🎯Indicateurs de succès**
+* Nb d'utilisateurs de la carte et nb de vue
+* Si personnalisation possible, % d'utilisateurs qui personnalisent les cartes (selon licences)
+
+**👊 Indicateurs d'impact**
+* ==> Déclaratif (enquêtes de sat...) 
+* Prise de décisions grâce aux cartes
+* Nb d'interventions sur le terrain suite à l'usage des cartes
+* L'app répond aux besoins des métiers
+
+</details>
+
+<details>
+<summary><strong>📈 Mise à disposition de données</strong></summary>
+
+Application permettant de partager et diffuser des données de manière sécurisée et accessible, souvent via des API, pour faciliter l'accès et l'utilisation des données par différents services ou utilisateurs externes.
+
+**🎯Indicateurs de succès**
+* Sat utilisateur (sur la simplicité d'utilisation, documentation, intégration...)
+* Taux de dispo de l'app (% de temps où elle est opérationnelle sans interruption)
+* Taux d'erreurs des requêtes (part des requêtes qui ont échoué vs requêtes reçues)
+* Volume de data partagée sur une période ==> jour/semaine ?
+
+
+**👊 Indicateurs d'impact**
+* % d'apps/utilisateurs actifs ==> C'est à dire le nb d'apps/utilisateurs qui utilisent l'app de mise à dispo de données sur une fréquence/periode donnée vs le nb d'apps/utilisateurs qui ont accès à l'app de mise à dispo des données
+* Nb de nouveaux cas d'usage identifiés grâce à la date/déclaratif (ajustement des politiques pub)
+* Utiliser = faire des requêtes et/ou intégrer les données pour les exploiter et générer de nouveaux reportings
+* Actif ==> définir la fréquence/periode (par jour, sur un trimestre..)
+
+</details>
+
+<details>
+<summary><strong>📉 Statistiques </strong></summary>
+
+Application dédiée à la collecte, au traitement, à l'analyse et à la présentation de données statistiques, permettant de générer des rapports détaillés, des analyses et des prévisions basées sur les données collectées.
+
+**🎯Indicateurs de succès**
+* Sat utilisateur ("je donne mon avis")
+* % d'utilisateurs actifs vs nb total  enregistrés==> "actif" à définir selon sujet (ex: mensuel, hebdo..)
+
+
+**👊 Indicateurs d'impact**
+* ==> Déclaratif (enquêtes de sat...) ou tracking (ex: export...)
+* Proportion de rapports détaillés/analyses et prévisions utilisés activement par les demandeurs (ex: pour des cas d'usage, générer des rapports...)
+
+</details>
+
+<details>
+<summary><strong>🗃️ Gestion de documents</strong></summary>
+
+Application permettant de stocker, organiser, gérer et partager des documents électroniques, incluant des fonctionnalités de recherche, de versioning, de collaboration et de contrôle des accès.
+Application spécialisée dans la production et la gestion de documents imprimés ou numériques personnalisés, souvent en grande quantité.
+
+**🎯Indicateurs de succès**
+* Sat utilisateur ("je donne mon avis") 
+* Taux  d'utiisateurs actifs ==> "actif" à définir selon sujet (ex: mensuel, hebdo..)
+* Taux d'usage des fonctionnalités collaboratives (partage, gestion des droits...) 
+
+**👊 Indicateurs d'impact**
+* ==> Déclaratif (enquêtes de sat...) 
+* Gain de temps/productivité grâce à l'app
+* Réduction des erreurs ou pertes de docs (docs manquants, doublons, erreurs de version...)
+</details>
+
+<summary><strong>💶 Gestion financière</strong></summary>
+
+Application pour suivre les dépenses, les budgets, et les opérations financières, incluant la planification budgétaire, la comptabilité et la gestion des paiements et factures.
+
+**🎯Indicateurs de succès**
+* Sat utilisateur ("je donne mon avis")
+* % de tâches réalisées automatiquement 
+* Temps moyen de traitement d'une facture (entre la réception, validation et paiement)
+* Taux d’erreurs ou d’anomalies détectées dans les budgets/factures
+
+**👊 Indicateurs d'impact**
+* Réduction des coûts opérationnels liés à la gestion financière (retard de paiement, erreurs facture, effort...)
+* ==> Déclaratif (enquêtes de sat...) 
+* Meilleure visibilité& gestion financière
+</details>
+
+
+
+
+
+
+
+
 
 
 
