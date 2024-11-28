@@ -10,7 +10,7 @@
 * [Communs numériques](communs-numeriques.md)
 * [Organisation produit](organisation-produit/README.md)
   * [Principes](organisation-produit/principes.md) 
-  * [Indicateurs](organisation-produit/indicateurs.md)
+  * [Exemples d'indicateurs](organisation-produit/indicateurs.md)
 * [Architecture](Architecture/README.MD)
   * [Démarche](Architecture/demarche.md)
   * [Normes](Architecture/normes/README.md)
