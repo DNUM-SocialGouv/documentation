@@ -1,7 +1,7 @@
 La recherche utilisateur est essentielle à la conception de produits numériques. Elle analyse les comportements, attentes et usages des usagers pour proposer des interfaces adaptées aux besoins réels. Grâce à cette démarche, chaque parcours est conçu pour garantir une navigation fluide, intuitive et alignée sur les réalités professionnelles des agents, des professionnels et des citoyens.
 
 {% hint style="info" %}
-L’utilisabilité désigne la capacité d’un produit numérique à permettre à ses utilisateurs d’atteindre leurs objectifs de manière :
+*L’utilisabilité* désigne la capacité d’un produit numérique à permettre à ses utilisateurs d’atteindre leurs objectifs de manière :
 
 - Efficace (réalisation sans erreur),
 - Efficiente (avec un effort minimal),

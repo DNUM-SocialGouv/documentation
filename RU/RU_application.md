@@ -1,4 +1,26 @@
 
+# Une refonte envisagée ? Une recherche exploratoire indispensable
+La recherche exploratoire est indispensable dans le cadre des refontes, car elle permet de **comprendre en profondeur les besoins** et les contextes d’usage avant toute phase de conception.
+
+## Méthode
+
+- **Entretiens qualitatifs** : recueillir les attentes et les retours d’expérience des usagers pour cerner leurs priorités.
+- **Observation** : comprendre le contexte réel de travail des usagers du produit pour identifier les contraintes spécifiques (matérielles, organisationnelles, environnementales) et observer leur utilisation du produit en condition.
+
+# Mise en place 
+
+- [ ] Contactez votre expert en RU afin de **planifier la recherche exploratoire dans les premières phases du projet** et mobiliser des équipes multidisciplinaires.
+- [ ] Validez le **cadrage** transmis par votre expert en RU
+- [ ] Validez le **guide de recherche** 
+– [ ] Assistez à la **restitution** 
+- [ ] Mettez à disposition le livrable
+
+{% hint style="info" %}
+- Votre expert en RU vous guide pas à pas dans le déploiement de la démarche 
+- Nos méthodes sont peu invasives, elle nécessite votre mobilisation à des moments bien préçis
+- 12 jours environs sont nécessaires à nos experts pour vous livrer l'exploration
+{% endhint %}
+
 # Score d’utilisabilité (F-SUS ≥65)
 Le F-SUS (French System Usability Scale) est une échelle normalisée permettant de **mesurer l’utilisabilité** perçue des interfaces numériques. Il s’appuie sur un questionnaire simple (7 questions fermées) rempli par les utilisateurs après un test de l’interface.
 
@@ -15,17 +37,7 @@ Un score élevé (≥65) indique que **l’interface est fonctionnelle, intuitiv
 - [ ] Mise à disposition du formulaire + notice explicative + mail pré-rédigé par votre expert en RU.
 - [ ] Restitution des **Résultats sous 2 semaines** à l'issue des participations.
 
-# Recherche exploratoire obligatoire
-La recherche exploratoire est indispensable dans le cadre des refontes, car elle permet de **comprendre en profondeur les besoins** et les contextes d’usage avant toute phase de conception.
 
-## Quelles méthodes ?
-- **Entretiens qualitatifs** : recueillir les attentes et les retours d’expérience des usagers pour cerner leurs priorités.
-- **Observation sur le terrain** : analyser le contexte réel de travail des usagers pour identifier les contraintes spécifiques (matérielles, organisationnelles, environnementales).
-
-## Pourquoi est-ce essentiel ?
-- **Éviter de concevoir des solutions basées sur des hypothèses** ou des idées préconçues.
-- **Identifier** dès le départ les **freins potentiels** à l’utilisation des outils numériques.
-- Aligner les **choix de conception sur les besoins réels**, augmentant ainsi l’efficacité et l’adhésion des usagers.
 
 ## Comment la mettre en œuvre ?
 - [ ] Contactez votre expert en RU afin de **planifier la recherche exploratoire dans les premières phases du projet** et mobiliser des équipes multidisciplinaires.
