@@ -1,14 +1,27 @@
-La recherche utilisateur est essentielle à la conception de produits numériques. Elle analyse les comportements, attentes et usages des usagers pour proposer des interfaces adaptées aux besoins réels. Grâce à cette démarche, chaque parcours est conçu pour garantir une navigation fluide, intuitive et alignée sur les réalités professionnelles des agents, des professionnels et des citoyens.
 
-## Les bénéfices d’une démarche centrée sur l’utilisateur
-La recherche utilisateur ne se limite pas à la participation de la création de parcours fluides. Elle a un impact direct sur la qualité des produits numériques et le quotidien des usagers des produits :
+# Comprendre les besoins et les motivations des utilisateurs
+Prendre le temps d'écouter et d'observer vos utilisateurs pour comprendre :
 
-- **Pour les citoyens et les professionnels** : les outils conçus en fonction de leurs usages réels renforcent leur satisfaction et leur confiance dans les services publics numériques.
+- Leurs besoins explicites (ce qu'ils disent vouloir).
+- Leurs besoins implicites (ce qu'ils n'expriment pas toujours directement, mais qui influence leur comportement).
+- Leurs objectifs, leurs frustrations et leurs motivations profondes.
 
-- **Pour les agents** : 
+{% hint style="info" %}
+Cela passe par des méthodes comme les entretiens, les observations, et l’analyse des comportements réels pour aller au-delà des hypothèses.
+{% endhint %}
 
-    - Réduction de la charge cognitive : des interfaces intuitives diminuent le stress lié aux erreurs ou aux manipulations complexes.
-    - Simplification des tâches répétitives : en optimisant les parcours, les actions inutiles sont éliminées, permettant aux agents de se concentrer sur des missions à plus forte valeur ajoutée.
-    - Diminution de la fatigue : une navigation fluide et des outils adaptés réduisent l’effort physique et mental nécessaire à l’exécution des tâches. 
-    
-Ces gains se traduisent directement par une amélioration de la qualité de vie au travail, tout en renforçant l’efficacité des missions.
+# Adopter une approche empathique et centrée sur l'utilisateur
+La recherche utilisateur exige de se mettre à la place des utilisateurs pour comprendre leur contexte :
+
+- Empathie : connaître leurs contraintes, leurs émotions et leur quotidien.
+- Neutralité : Éviter de biaiser les résultats en projetant ses propres idées ou attentes.
+- Inclusion : S'assurer que tous les types d'utilisateurs sont représentés, y compris les minorités ou les personnes avec des besoins spécifiques.
+
+# Baser les décisions sur des données concrètes
+Les résultats de la recherche doivent être fondés sur des observations solides :
+
+- Collecter des données qualitatives (émotions, récits, expériences personnelles) et quantitatives (statistiques, indicateurs, données mesurables).
+- Analyser et synthétiser ces données pour en tirer des insights actionnables.
+- Tester et valider les conclusions avec les utilisateurs pour s'assurer de leur pertinence.
+
+En somme, la recherche utilisateur repose sur une démarche rigoureuse, humaine et axée sur des résultats tangibles pour orienter la conception et répondre aux vrais besoins des utilisateurs.
