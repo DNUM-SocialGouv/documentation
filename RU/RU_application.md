@@ -43,7 +43,7 @@ Un score élevé (≥65) indique que **l’interface est fonctionnelle, intuitiv
 - [ ] Contactez votre expert en RU afin de **planifier la recherche exploratoire dans les premières phases du projet** et mobiliser des équipes multidisciplinaires.
 - [ ] Validez le **cadrage** transmis par votre expert en RU
 - [ ] Validez le **guide de recherche** 
-– [ ] Assistez à la **restitution** 
+- [ ] Assistez à la **restitution** 
 - [ ] Mettez à disposition le livrable
 
 # Tests utilisateurs réguliers
