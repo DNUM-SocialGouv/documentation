@@ -5,7 +5,7 @@ Il est recommandé de lire la définition de l'accessibilité présente dans la 
 ## DSFR et portages
 
 Le [DSFR](https://www.systeme-de-design.gouv.fr/), qui est le Système de Design de l'État, est
-[porté](https://www.systeme-de-design.gouv.fr/communaute/portages-en-cours) sur divers outils tels que React, Vue ou
+[porté](design.md#dsfr) sur divers outils tels que React, Vue ou
 encore Angular.
 
 Au-delà du caractère [obligatoire](../Design/Processus-de-design.md#utilisation-obligatoire-du-design-system-dsfr) de
