@@ -11,10 +11,11 @@ Une application doit pouvoir se lancer en local avec seulement 2 étapes :
 ## Organisation du dépôt 
 
 Pour une application ayant : 
-    - un backend java
-    - un frontend react
-    - une base de données postgres
-    - un service keycloak
+
+- un backend java
+- un frontend react
+- une base de données postgres
+- un service keycloak
 
 on doit avoir l'organisation suivante :
 

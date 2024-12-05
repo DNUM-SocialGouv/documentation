@@ -21,7 +21,7 @@ La conception doit inclure notamment :
 * Collaboration étendue : Travail en amont et en aval avec les différents partenaires (métier, produit, accessibilité, développement) pour évaluer les hypothèses, les fonctionnalités, le niveau d'effort de développement.
 
 ## Utilisation obligatoire du Design System, DSFR
-Le DSFR est un cadre de travail qui permet la réutilisation de composants standardisés. Les composants sont connus et reconnus par les utilisateurs assurant une meilleure utilisabilité des produits développés. Il garantit la cohérence des interfaces et facilite la maintenance des applications :
+Le [DSFR](https://www.systeme-de-design.gouv.fr/) est un cadre de travail qui permet la réutilisation de composants standardisés. Les composants sont connus et reconnus par les utilisateurs assurant une meilleure utilisabilité des produits développés. Il garantit la cohérence des interfaces et facilite la maintenance des applications :
 * Composants réutilisables : Boutons, formulaires, icônes, etc., sont conçus pour être accessibles et respecter les normes RGAA (Référentiel Général d’Accessibilité pour les Administrations).
 * Modularité : Chaque composant peut être adapté aux besoins spécifiques des différents projets tout en respectant les principes de base du design centré sur l’utilisateur.
 * Accessibilité : Tous les composants sont conçus avec des critères d'accessibilité dès le début, incluant des tests de contraste, des tailles de police adaptées, et une navigation au clavier. Cependant, l'utlisation du DSFR n'assure qu'une partie des besoins en accessibilité. Se référer à la partie accessibilité pour plus d'information

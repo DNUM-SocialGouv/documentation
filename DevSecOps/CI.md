@@ -10,8 +10,7 @@ La CI doit inclure :
   - Attention particulière portée à la partie API et authentification
   - Avoir un scenario complet "standard" en test end-to-end
   - Inclure des tests d'accessibilité pour le frontend
-  - Ajouter un test lighthouse pour le frontend 
-    - notamment pour l'accessibilité, le test doit être à 100%
+  - Pour le frontend, ajouter un test automatisé de Lighthouse (par exemple via une [GitHub Action](https://github.com/GoogleChrome/lighthouse-ci)) et avoir obligatoirement un résultat de 100% pour l'accessibilité
 - [ ] le formatage du code (ex: prettier en js)
 - [ ] qualité de code (analyse statique du code)
   - [ ] linter

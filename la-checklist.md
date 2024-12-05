@@ -1,8 +1,9 @@
----
-description: En construction
----
-
 # La checklist
+
+{% hint style="warning" %}
+**En construction** 
+{% endhint %}
+
 
 Tous nos produits doivent suivre ces exigences :
 
@@ -29,7 +30,7 @@ Tous nos produits doivent suivre ces exigences :
 <details>
 <summary><strong>Accessibilité</strong></summary>
  
-  * [ ] 100% RGAA
+  * [ ] les critères du RGAA sont respectés pour les produits et leurs contenus (durant la conception, les développements et lors de la recette)
 
 </details>
 
@@ -46,11 +47,11 @@ Tous nos produits doivent suivre ces exigences :
 <details>
 <summary><strong>Design et Recherche Utilisateur</strong></summary>
 
-* [ ] synthèse de l'ensemble des problèmes rencontrés par les utilisateurs sur le produits (sur le périmètre de recherche défini)
-* [ ] profils utilisateurs (analyse des tâches et de l'activité)
-* [ ] recommandations et pistes de solutions permettant d'améliorer l'utilisabilité globale
 * [ ] hébergement des designs sur le Figma de la DNUM
 * [ ] respect du cadre de cohérence de design (en cours de rédaction)
+* [ ] Score d'utilisabilité (F-SUS) supérieur à 65
+* [ ] Mise à disposition de la recherche exploratoire (entretiens+observation) dans le cas d'une refonte 
+* [ ] Réalisation de tests utilisateurs réguliers en amélioration continue (cohorte d'environ 10 utilisateurs)
 
 </details>
 
@@ -83,7 +84,7 @@ Tous nos produits doivent suivre ces exigences :
 <details>
 <summary><strong>Respect des référentiels</strong></summary>
   
-* [ ] audit d'accessibilité (cible conformité au RGAA = 100%)
+* [ ] audit d'accessibilité (tendre vers le 100% de conformité au RGAA)
 * [ ] publication AIPD (RGPD)
 * [ ] homologation de sécurité (RGS)
 

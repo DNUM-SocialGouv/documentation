@@ -9,7 +9,10 @@ Voici un ensemble de ressources destiné aux agents de la sous-direction des pro
 
 Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationnel.
 
-<mark style="background-color:yellow;">Ce document est ouvert et accessible à toutes et tous, par design. Il ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations, ou bien donner envie à des personnes de nous rejoindre, alors tant mieux. 💛</mark>
+{% hint style="warning" %}
+**Ce document est ouvert et accessible à toutes et tous, par design. Il ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations, ou bien donner envie à des personnes de nous rejoindre, alors tant mieux. 💛**
+{% endhint %}
+
 
 ***
 
