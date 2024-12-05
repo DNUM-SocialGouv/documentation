@@ -4,7 +4,7 @@ L'API Management répond à de nombreux enjeux autour des APIs. Le sous-domaine 
 Une API Gateway peut-être vu comme un **middleware de type Reverse Proxy spécialisé dans l'exposition d'API** (protocole HTTPS ou autre, load balancing)
 
 ## Fonctionnalités d'une API Gateway
-- Sécurisation des échanges (protocoles de sécurité, authentification, provisionning de comptes et d'habilitations...)
+- Sécurisation des échanges (protocoles de sécurité, authentification, provisionnement de comptes et d'habilitations...)
 - Protection des échanges (quotas, anti-DoS...)
 - Pré-validation des trames et renvoi d'erreurs HTTP
 - Supervision (traçabilité, audit...)
@@ -13,14 +13,14 @@ _la transformation des flux et l'implémentation de règles métier dans la Gate
 ## Enjeux des API dans le contexte du MAS
 - Plusieurs centaines d'applications métier
 - Toujours plus d'ouverture des SI (dématérialisation, OpenData par défaut, DLNUF, coopération et réutilisation inter-administrations...)
-- De plus en plus d'hébergements (Dusquene, Rosny, Cegedim, RIE, OVH, Scalingo, SaaS...)
+- De plus en plus d'hébergements (Duquesne, Rosny, Cegedim, RIE, OVH, Scalingo, SaaS...)
 - De plus en plus d'interconnexions réseau et d'échanges de données entre ces hébergements (intra-intra, cloud-cloud, intra-cloud, cloud-intra)
 - Des cybermenaces croissantes
 - Une efficacité budgétaire à optimiser
 
 ## Stratégie d'API Gateway proposée
 1. **Limiter en amont les cas où on a besoin d’une API Gateway**
-- Rationalisation des applications métier pour en limiter le nombre : découpage en modules ou éventuellement microservices collocalisés, plutôt qu'en applications/SI distincts
+- Rationalisation des applications métier pour en limiter le nombre : découpage en modules ou éventuellement microservices, plutôt qu'en applications/SI distincts
 - Colocalisation des Front-Office et Back-Office sur un même hébergement pour limiter les interconnexions
 - Appels directs d’APIs en environnement maîtrisé (ex: API dédiée au backoffice + 2 Way SSL)
 2. **Stratégie Microgateway plutôt que API Gateway centralisée**
@@ -34,10 +34,10 @@ _la transformation des flux et l'implémentation de règles métier dans la Gate
 4. **Utiliser PISTE dans certains cas**
 - API critique d'envergure nationale
 - API partenaire ou API publique massivement utilisée
-- Exposer transitoirement l'API d'une application legacy à Dusquene ou Rosny
+- Exposer transitoirement l'API d'une application legacy à Duquesne ou Rosny
 _Ce positionnement de PISTE tiens compte des conseils de la DINUM mais la DINUM n'a pas de recommandation officielle concernant PISTE (hors catalogue)_
 5. **Industrialiser le déploiement de microgateways pour accélérer les projets et limiter l’impact Ops** pour les autres cas
-- Concevoir une « Minimum Viable Gateway » (ex Kong DB-less ou Gravitee) : images docker, fichiers de configuration type, pipeline CI/CD, etc.
+- Concevoir une « Minimum Viable Gateway » (Kong DB-less ou Gravitee) : images docker, fichiers de configuration type, pipeline CI/CD, etc.
 
 ## Solutions d'API Management en lien avec le contexte MAS
 - PISTE (DGFIP)
