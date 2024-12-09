@@ -11,12 +11,13 @@ apprentissages qui pourront être partagés.
 ### Accès
 
 Les accès suivants ont été accordés :
-<!-- Rayer les mentions inutiles -->
+<!-- Rayer les mentions inutiles et renseigner les liens pertinents -->
 - [ ] Dépôt GitHub
 - [ ] Figma
 - [ ] Jira
 - [ ] Mattermost
 - [ ] Miro
+- [ ] Sharepoint
 
 ### Montée en compétence
 
