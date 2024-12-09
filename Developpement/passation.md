@@ -13,6 +13,12 @@ apprentissages qui pourront être partagés.
 - [ ] Des tickets avec un périmètre cadré, et relativement simples à réaliser, sont présents dans Jira afin de permettre
   une montée en compétence progressive sur le projet ;
 
+### Partage d'informations
+
+- [ ] Des choix techniques importants pour l'équipe sont documentés dans le même dépôt que le code ;
+- [ ] La gestion de la dette technique est visibilisée sous forme de tickets sur Jira ou de documentation dans le même
+  dépôt que le code ;
+
 ### Prise en main initiale
 
 - [ ] Le projet tourne avec docker et docker-compose, conformément à ce qui est précisé [ici](cloud-native.md) ;
@@ -21,9 +27,3 @@ apprentissages qui pourront être partagés.
 ### Production de valeur continue
 
 - [ ] Des tickets priorisés et suffisamment clairs sont présents dans le backlog sur Jira ;
-
-### Vie du projet
-
-- [ ] Des choix techniques importants pour l'équipe sont documentés dans le même dépôt que le code ;
-- [ ] La gestion de la dette technique est visibilisée sous forme de tickets sur Jira ou de documentation dans le même
-  dépôt que le code ;
