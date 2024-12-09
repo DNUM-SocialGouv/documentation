@@ -21,6 +21,10 @@ Les accès suivants ont été accordés :
 - [ ] Miro
 - [ ] Sharepoint
 
+### Inclusion
+
+- [ ] Les invitations aux dailies et autres rituels ont été envoyées
+
 ### Montée en compétence
 
 - [ ] Des tickets avec un périmètre cadré, et relativement simples à réaliser, sont présents dans Jira afin de permettre
