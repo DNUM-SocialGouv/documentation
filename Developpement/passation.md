@@ -8,6 +8,16 @@ apprentissages qui pourront être partagés.
 
 ## Checklist
 
+### Accès
+
+Les accès suivants ont été accordés :
+<!-- Rayer les mentions inutiles -->
+- [ ] Dépôt GitHub
+- [ ] Figma
+- [ ] Jira
+- [ ] Mattermost
+- [ ] Miro
+
 ### Montée en compétence
 
 - [ ] Des tickets avec un périmètre cadré, et relativement simples à réaliser, sont présents dans Jira afin de permettre
