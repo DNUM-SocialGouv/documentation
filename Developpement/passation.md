@@ -6,14 +6,28 @@ une continuité dans leur évolution, et aussi de pouvoir prioriser d'autres suj
 Nous suivons une checklist afin de nous assurer que la passation se déroule bien, et de tirer de ce processus des
 apprentissages qui pourront être partagés.
 
+## Utilisation
+
 Cette checklist est partagée entre les membres de l'équipe et la ou les personnes arrivant sur le projet.
+Pour chacune des cases à cocher, sentez-vous libre de supprimer les mentions inutiles et d'ajouter des porteurs et des
+dates de réalisation pour chacune des actions.
+
+Exemple :
+```markdown
+### Accès
+
+Les accès suivants ont été accordés :
+- [ ] @JohnDoe - 31/02/2042 : Dépôt GitHub
+- [ ] @JaneDoe - 32/02/2042 : Figma
+```
+
+---
 
 ## Checklist
 
 ### Accès
 
 Les accès suivants ont été accordés :
-<!-- Rayer les mentions inutiles et renseigner les liens pertinents -->
 - [ ] Dépôt GitHub
 - [ ] Figma
 - [ ] Jira
@@ -35,6 +49,7 @@ Les accès suivants ont été accordés :
 - [ ] Des choix techniques importants pour l'équipe sont documentés dans le même dépôt que le code ;
 - [ ] La gestion de la dette technique est visibilisée sous forme de tickets sur Jira ou de documentation dans le même
   dépôt que le code ;
+- [ ] Le contexte du projet et sa proposition de valeur ont été expliqués ;
 
 ### Prise en main initiale
 
