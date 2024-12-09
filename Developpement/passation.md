@@ -6,6 +6,8 @@ une continuité dans leur évolution, et aussi de pouvoir prioriser d'autres suj
 Nous suivons une checklist afin de nous assurer que la passation se déroule bien, et de tirer de ce processus des
 apprentissages qui pourront être partagés.
 
+Cette checklist est partagée entre les membres de l'équipe et la ou les personnes arrivant sur le projet.
+
 ## Checklist
 
 ### Accès
