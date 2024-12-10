@@ -48,6 +48,10 @@ Les accès suivants ont été accordés :
 
 ### Nettoyage du travail existant
 
+Il manque pas une pas une page GIT dans développement pour définir des bases communes mais légères ou légères mais communes ?
+Idéalement il faudrait éviter d'avoir des branches en cours dans une passation. 
+Dans notre cas nous tendrons à ne pas en avoir.
+
 - [ ] Toutes les branches mergées, ou inutiles, ont été supprimées ;
 - [ ] Toutes les branches ont été poussées sur le dépôt git, quel que soit leur état d'avancement ;
   - [ ] Un statut sur leur contenu a été fourni dans une PR ;
