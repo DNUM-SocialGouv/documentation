@@ -30,6 +30,7 @@ Les accès suivants ont été accordés :
 Les accès suivants ont été accordés :
 - [ ] Dépôt GitHub
 - [ ] Figma
+- [ ] Groupe Teams
 - [ ] Jira
 - [ ] Mattermost
 - [ ] Miro
