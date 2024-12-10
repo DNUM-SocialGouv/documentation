@@ -56,10 +56,7 @@ Les accès suivants ont été accordés :
 
 ### Nettoyage du travail existant
 
-Il manque pas une page GIT dans développement pour définir des bases légères mais communes ?
-Idéalement il faudrait éviter d'avoir des branches en cours dans une passation.
-Dans notre cas nous tendrons à ne pas en avoir.
-
+- [ ] Aucune branche en cours n'est présente lors de la passation ;
 - [ ] Toutes les branches déjà intégrées à la branche principale, ou inutiles, sont supprimées ;
 - [ ] Toutes les branches sont poussées sur le dépôt git, quel que soit leur état d'avancement ;
     - [ ] Un statut sur leur contenu est fourni dans une PR ;
@@ -68,9 +65,10 @@ Dans notre cas nous tendrons à ne pas en avoir.
 ### Partage d'informations
 
 - [ ] Des choix techniques importants pour l'équipe sont documentés dans le même dépôt que le code ;
-    - [ ] La stratégie de tests est présente ;
-    - [ ] Le Dossier d'Architecture est commenté ;
-    - [ ] Si applicable, les requêtes particulièrement complexes vers la base de données sont documentées ;
+  - [ ] Des pratiques communes, standards pour l'équipe, sont présentes ; 
+  - [ ] La stratégie de tests est présente ;
+  - [ ] Le Dossier d'Architecture est commenté ;
+  - [ ] Si applicable, les requêtes particulièrement complexes vers la base de données sont documentées ;
 - [ ] La chaîne de CI est présentée, ainsi que ses étapes ;
 - [ ] La gestion de la dette technique est visibilisée sous forme de tickets sur Jira ou de documentation dans le même
   dépôt que le code ;
