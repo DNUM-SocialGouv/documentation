@@ -38,7 +38,8 @@ Les accès suivants ont été accordés :
 
 ### Inclusion
 
-- [ ] Les invitations aux dailies et autres rituels ont été envoyées
+- [ ] Les invitations aux dailies et autres rituels ont été envoyées ;
+- [ ] Les membres de l'équipe, ainsi que les stakeholders et les personnes clés ont été présentées ;
 
 ### Montée en compétence
 
