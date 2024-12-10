@@ -9,8 +9,8 @@ apprentissages qui pourront être partagés.
 ## Utilisation
 
 Cette checklist est partagée entre les membres de l'équipe et la ou les personnes arrivant sur le projet.
-Pour chacune des cases à cocher, sentez-vous libre de supprimer les mentions inutiles et d'ajouter des porteurs et des
-dates de réalisation pour chacune des actions.
+Pour chacune des cases à cocher, sentez-vous libre de supprimer les mentions inutiles, d'en ajouter de nouvelles propres
+au projet et d'ajouter des porteurs et des dates de réalisation pour chacune des actions.
 
 Exemple :
 ```markdown
