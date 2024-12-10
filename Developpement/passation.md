@@ -31,15 +31,23 @@ Les accès suivants ont été accordés :
 - [ ] Dépôt GitHub
 - [ ] Figma
 - [ ] Groupe Teams
+- Hébergement :
+  - [ ] Cegedim
+  - [ ] Scalingo
 - [ ] Jira
 - [ ] Mattermost
+- [ ] Mattomo
 - [ ] Miro
+- [ ] Sentry
+- [ ] Sonar
 - [ ] Sharepoint
 
 ### Inclusion
 
 - [ ] Les invitations aux dailies et autres rituels sont envoyées ;
 - [ ] Les membres de l'équipe, ainsi que les stakeholders et les personnes clés sont présentées ;
+- [ ] Une personne de l'équipe est désignée comme "[Buddy](https://factorial.fr/blog/buddy-parrainage/)" afin de
+      faciliter l'intégration dans l'équipe ;
 
 ### Montée en compétence
 
@@ -57,13 +65,17 @@ Les accès suivants ont été accordés :
 
 - [ ] Des choix techniques importants pour l'équipe sont documentés dans le même dépôt que le code ;
   - [ ] La stratégie de tests est présente ;
+  - [ ] Le Dossier d'Architecture est commenté ;
   - [ ] Si applicable, les requêtes particulièrement complexes vers la base de données sont documentées ;
 - [ ] La chaîne de CI est présentée, ainsi que ses étapes ;
 - [ ] La gestion de la dette technique est visibilisée sous forme de tickets sur Jira ou de documentation dans le même
   dépôt que le code ;
 - [ ] La stratégie de gestion des branches git est précisée dans une documentation dans le dépôt ;
-- [ ] Le contexte du projet et sa proposition de valeur est présentés, ainsi que le domaine fonctionnel et le
-      périmètre existant ;
+- [ ] Le contexte du projet et sa proposition de valeur, ainsi que le domaine fonctionnel et le
+      périmètre existant sont présentés grâce à une démonstration du projet ;
+  - [ ] L'historique (pertinent) du projet est expliqué ;
+- [ ] Les tickets sur Jira sont présentés, ainsi que leur thématique fonctionnelle ;
+- [ ] Si applicable, les éventuelles échéances à venir sont présentées avec leurs finalités ;
 - [ ] Une description des environnements est faîte, et la procédure de déploiement sur les différents environnements est
       documentée ;
 
