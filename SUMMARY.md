@@ -25,7 +25,7 @@
   * [Recherche Utilisateur](RU/README.md)
     * [Principes](RU/RU_principes.md)
     * [Application](RU/RU_application.md)
-  * [Cadre de cohérence de design](Design/Cadre-de-coherence-de-design.md)
+  * [Normes et standards de design](Design/normes-et-standards.md)
 * [Développement](Developpement/README.md)
   * [Application cloud native](Developpement/cloud-native.md)
   * [Accessibilité](Developpement/accessibilite.md)

@@ -1,6 +1,10 @@
-# Cadre de cohérence de design
+# Normes et standards de design
 
-Ce cadre de cohérence de design garantit que chaque projet respecte des principes communs tout en restant centré sur les besoins des utilisateurs. 
+Ces normes et standards de design garantissent que chaque projet respecte des principes de base de conception d'expérience utilisateur numérique. 
+
+{% hint style="info" %}
+**A noter :** Ces normes et standards doivent être mis en oeuvre par les designers en charge du projet en collaboration avec le ou la cheffe de produit ainsi que les responsables métier et dev.
+{% endhint %}
 
 ---
 
@@ -22,7 +26,7 @@ Ce cadre de cohérence de design garantit que chaque projet respecte des princip
 - [ ] Documentation à jour dans les espaces partagés (Doc de design, Figma, Figjam, etc.).
 
 {% hint style="info" %}
-**Astuce :** Les designers sont en charge de mener et de valider chaque étape avec vous et l'équipe afin de garantir une collaboration fluide et un produit final de qualité !
+**Astuce :** Demandez à votre designer de suivre cette checklist et de l'utiliser pour créer un planning de ses actions. Les designers sont en charge de mener et de valider chaque étape avec vous et l'équipe afin de garantir une collaboration fluide et un produit final de qualité !
 {% endhint %}
 
 
@@ -91,9 +95,11 @@ Le Design System est obligatoire pour les sites communiquant au nom de l'État (
 ---
 
 ### 7. **Idéation**
-L'idéation, ou recherche de solution aux besoins des utilisateurs, doit se faire avec toutes les parties prenantes qui ont un impact sur le produit fini (responsable métier, responsable produit, expert recherche utilisateur, développeurs, etc.).
+L'idéation, ou recherche de solutions adaptées aux besoins des utilisateurs, doit se faire avec toutes les parties prenantes qui ont un impact sur le produit fini (responsable métier, responsable produit, expert recherche utilisateur, développeurs, etc.).
 - Co-créer au moins 3 idées d’UX/UI différentes pour les parcours principaux.
 - Encourager des approches innovantes et collaboratives pour répondre aux besoins identifiés.
+- Encourager l'utilisation de FranceConnect ou équivalent.
+- S'assurer que l'application 
 
 {% hint style="info" %}
 **Astuce :** Intégrez la simplification du langage à ce stade afin de pouvoir tester vos hypothèses avec vos utilisateurs. Ressource utile : [Sensibiliser et s’exercer aux méthodes de simplification des documents](
@@ -126,6 +132,7 @@ https://www.modernisation.gouv.fr/outils-et-formations/simplifier-les-documents-
 
 {% hint style="info" %}
 **Astuce :** Pensez à organiser les maquettes en parcours utilisateurs afin de faciliter la compréhension par les développeurs. 
+**A noter :** Même si votre application n'est utilisable que sur ordinateur, elle doit pouvoir être utilisable à un zoom de 200%
 {% endhint %}
 
 ---

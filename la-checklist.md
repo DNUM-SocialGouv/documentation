@@ -47,11 +47,11 @@ Tous nos produits doivent suivre ces exigences :
 <details>
 <summary><strong>Design et Recherche Utilisateur</strong></summary>
 
-* [ ] hébergement des designs sur le Figma de la DNUM
-* [ ] respect du cadre de cohérence de design (en cours de rédaction)
 * [ ] Score d'utilisabilité (F-SUS) supérieur à 65
 * [ ] Mise à disposition de la recherche exploratoire (entretiens+observation) dans le cas d'une refonte 
 * [ ] Réalisation de tests utilisateurs réguliers en amélioration continue (cohorte d'environ 10 utilisateurs)
+* [ ] hébergement des designs sur le Figma de la DNUM
+* [ ] respect des [normes et standards de design](Design/normes-et-standards.md)
 
 </details>
 
