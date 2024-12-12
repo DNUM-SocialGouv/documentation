@@ -30,6 +30,7 @@
   * [Application cloud native](Developpement/cloud-native.md)
   * [Accessibilité](Developpement/accessibilite.md)
   * [Design](Developpement/design)
+  * [Passation des projets](Developpement/passation.md)
 * [DevSecOps](DevSecOps/README.md)
   * [Intégration continue (CI)](DevSecOps/CI.md)
   * [Déploiement continu (CD)](DevSecOps/CD.md)
