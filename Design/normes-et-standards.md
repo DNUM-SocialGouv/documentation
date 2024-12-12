@@ -99,7 +99,7 @@ L'idéation, ou recherche de solutions adaptées aux besoins des utilisateurs, d
 - Co-créer au moins 3 idées d’UX/UI différentes pour les parcours principaux.
 - Encourager des approches innovantes et collaboratives pour répondre aux besoins identifiés.
 - Encourager l'utilisation de FranceConnect ou équivalent.
-- S'assurer que l'application 
+- S'assurer que l'application respecte le ["Dites le nous une fois"](https://www.numerique.gouv.fr/services/guichet-dites-le-nous-une-fois/)
 
 {% hint style="info" %}
 **Astuce :** Intégrez la simplification du langage à ce stade afin de pouvoir tester vos hypothèses avec vos utilisateurs. Ressource utile : [Sensibiliser et s’exercer aux méthodes de simplification des documents](
