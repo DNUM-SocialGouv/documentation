@@ -21,6 +21,10 @@ _[dataesr/react-dsfr](https://github.com/dataesr/react-dsfr)_.
 
 Des deux bibliothèques, nous avons trouvé que _[codegouv.fr/react-dsfr](https://github.com/codegouvfr/react-dsfr)_
 était celle qui devait être privilégiée dans nos développements en raison de ses contributions fréquentes.
+Le site officiel est disponible sur [ce lien](https://react-dsfr.codegouv.studio/).
+
+Une présentation/tutoriel de la bibliothèque a été faîte en décembre 2022, et la vidéo est disponible
+[ici](https://code.gouv.fr/fr/bluehats/react-dsfr/).
 
 ### Portage Vue : vue-dsfr
 
