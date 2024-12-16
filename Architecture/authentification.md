@@ -4,22 +4,25 @@ Normes et standard pour l'authentification des différentes populations d'utilis
 ## Standard pour l'authentification des populations
 |Population cible|Solution(s) préconisée(s)|
 |---|---|
-|**Agent du MAS,</br>Service déconcentré de l'Etat**|Solution spécifique ET/OU ProConnect</br>(surtout si besoin de ProConnect par ailleurs)|
-|**Agent d'autres Ministères,</br>Collectivité territoriale**|ProConnect ET/OU Solution spécifique|
-|**Entreprise du secteur privé,</br>Association loi 1901**|ProConnect|
-|**Particulier**|FranceConnect OU FranceConnect+|
-|**Professionnel de Santé**</br>dans l'exercice de la médecine|Pro Santé Connect|
-|**Santé et Médico-Social**</br>hors champ médical stricte|Plage|
+|**Agent du MAS</br>Agent d'autres Ministères</br>Service déconcentré de l'Etat**|Si dispo EBIOS 1 à 3 : ProConnect seul</br>Si dispo EBIOS 4 : Solution spécifique (nécessaire) ET ProConnect (facultatif)|
+|**Collectivité territoriale (région, département, commune)**|Solution spécifique</br>_(pas de FI ProConnect identifié à date)_|
+|**Entreprise du secteur privé**|ProConnect|
+|**Association loi 1901 avec/sans SIRET**|ProConnect|
+|**Particulier**|Nécessaire : Solution spécifique (email, lien magique)</br>Facultatif : FranceConnect OU FranceConnect+|
+|**Professionnel de Santé**</br>dans l'exercice de la médecine|Pro Santé Connect (carte CPS / e-CPS)|
+|**Santé et Médico-Social**</br>hors champ médical stricte|Plage / Pasrel|
 
 ## Solutions existantes
 
-**Solution spécifique - SSO LDAP** repose sur des annuaires LDAP et un système d'authentification intégré à l'application : framework type Spring Security et/ou serveur IAM dédié Keycloak).\
+**Solution spécifique - SSO LDAP** repose sur des annuaires LDAP et un système d'authentification intégré à l'application : framework type Spring Security et/ou serveur IAM dédié Keycloak.\
 _ConfNum étudie la faisabilité d'un Keycloak partagé_\
 MFA : Oui avec Keycloak
 
-**Solution spécifique - Sans SSO** repose sur une gestion locale des comptes utilisateurs. Cette solution ne DEVRAIT PAS être mise en œuvre, ou alors de manière provisoire pour un POC/MVP.\
-Lorsque les utilisateurs se connectent seulement de manière occasionnelle (ex: mise à jour périodique de référentiels, de coordonnées), envisager une solution sans mot de passe (ex: jeton d'accès à usage unique sous forme de lien magique envoyé par email).\
+**Solution spécifique - Sans SSO** repose sur une gestion locale des comptes utilisateurs sans. Cette solution ne DEVRAIT PAS être mise en œuvre, ou alors de manière provisoire pour un POC/MVP.\
 MFA : Oui avec Keycloak
+
+**Solution spécifique - Lien magique** : lorsque les utilisateurs se connectent seulement de manière occasionnelle (ex: mise à jour périodique de référentiels), envisager une solution sans mot de passe (ex: jeton d'accès à usage unique sous forme de lien magique envoyé par email).\
+MFA : Non
 
 [**FranceConnect**](https://franceconnect.gouv.fr/franceconnect) permet de déléguer l'authentification d'un Particulier à un Fournisseur d'Identité connu. Il convient cependant de réconcilier les identités à la première connexion (création ou rapprochement de compte dans l'application) et lors des connexions suivantes.\
 MFA : Non
@@ -28,7 +31,7 @@ MFA : Non
 MFA : Oui
 
 [**ProConnect**](https://www.proconnect.gouv.fr/) sert à identifier tout professionnel du public ou du privé. Cela dit le fonctionnement est très différent pour le public et le privé (cf. comparaison infra). A noter aussi que le Fournisseur de Service choisit sa surface d'exposition lors du raccordement à ProConnect : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), Hybride (accès FS public via FI @RIE).\
-MFA : T1 2025
+MFA : Oui
 
 [**EFPConnect**](https://info.efpconnect.emploi.gouv.fr/) conjointement à MesDémarchesEmploi est le vecteur d'authentificaiton actuel pour les démarches de la sphère Emploi (DGEFP). Il convient de clarifier sa cible et sa trajectoire.\
 MFA : Non
@@ -49,13 +52,13 @@ Le fonctionnement de ProConnect est différent suivant les cas d'utilisateurs pu
 |Entité(s) de rattachement|Fournie(s) par le FI.|Gestion libre des SIRET sur le compte ProConnect. Certification du dirigeant à venir (2025)|
 
 ## Points ouverts
-- **Cartographie des annuaires** : En cours
-- **Gestion des habilitations** : L’authentification d’agents publics et d’entreprises privées ne dispensent pas forcément de provisionner des comptes dans les apps (gestion des habilitations). Il est cependant possible d’automatiser certaines habilitations via les données fournies par le vecteur d’authentification (unités d’appartenance, FQDN de l’email, SIRET…)
+- **Cartographie des annuaires** : en cours
+- **EFPConnect vs ProConnect** : en cours
+- **Gestion des habilitations** : en cours
 - **Harmoniser les pratiques d’implémentation FranceConnect et ProConnect** :
     - Réconciliation de compte avec FranceConnect/ProConnect lors de la création puis à chaque authentification (y a-t-il déjà un compte existant, quels champs pour le rapprochement, etc.)
     - Ajouter une matrice pour la cohabitation de différents vecteurs d’authentification (ex. FranceConnect + ProConnect + email)
-- **EFPConnect vs ProConnect** : _Sollicitation à la DGEFP sans réponse_
-- **Délégation de gestion** la connexion par un mandataire, expert-comptable, juriste/avocat, tuteur, etc. n’est pas étudiée à ce stade (ex : AidantsConnect)
+- **Délégation de gestion** : la connexion par un mandataire, expert-comptable, juriste/avocat, tuteur, etc. n’est pas étudiée à ce stade (ex : AidantsConnect)
 
 ## Transition EFPConnect vers ProConnect (à décider)
 |Scénario|Avantages|Inconvénients|
