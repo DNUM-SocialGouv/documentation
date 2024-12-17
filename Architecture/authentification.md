@@ -5,7 +5,7 @@ Normes et standard pour l'authentification des différentes populations d'utilis
 |Population cible|Solution(s) préconisée(s)|
 |---|---|
 |**Agent du MAS</br>Agent d'autres Ministères</br>Service déconcentré de l'Etat**|Si dispo EBIOS 1 à 3 : ProConnect seul</br>Si dispo EBIOS 4 : Solution spécifique (nécessaire) ET ProConnect (facultatif)|
-|**Collectivité territoriale (région, département, commune)**|ProConnect Identité_(pas de FI ProConnect identifié)_|
+|**Collectivité territoriale**</br>(région, département, commune)|ProConnect Identité</br>_(pas de FI ProConnect identifié)_|
 |**Entreprise du secteur privé**|ProConnect|
 |**Association loi 1901 avec/sans SIRET**|ProConnect|
 |**Particulier**|Nécessaire : Solution spécifique (email, lien magique)</br>Facultatif : FranceConnect OU FranceConnect+|
