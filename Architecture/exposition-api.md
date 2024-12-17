@@ -30,7 +30,10 @@ Ci-dessous se trouvent quelques-unes des questions qu'il pourrait être utile de
 La réponse (ou non-réponse) à ces questions nous apportent des informations sur les modalités d'exposition, telles que :
 
 - Quel type de sécurité devra-t-on mettre en place pour garantir la bonne consommation de la donnée ?
+  - Cela pourra dépendre du type d'API, la nature de la donnée, l'architecture réseau, etc.
 - Quels seraient les usages "normaux" qui mettraient en évidence les usages "anormaux" ?
+  - Exemple : nous savons que la donnée _D_ n'est consommée que tous les jours à la même heure, donc une consommation à
+    une heure différente pourra être envisagé comme anormal.
 - De quel niveau de traçabilité aurons-nous besoin ?
   - Qui a appelé, comment identifie-t-on, quand, d'où, sur quel point ?
 - Comment les versions de l'API devront-elles être gérées et communiquées ?
@@ -39,3 +42,16 @@ La réponse (ou non-réponse) à ces questions nous apportent des informations s
 
 Ces questions ne sont pas exhaustives, mais donnent une idée des points à aborder lors de la conception et l'exposition 
 d'une API.
+
+## Types d'API selon l'usage
+
+Nous distinguons plusieurs types d'API selon la population qui consommera la donnée :
+
+- Les APIs publiques, où aucune authentification ou validation des comptes n'est généralement nécessaire ;
+  - Exception faîte des APIs qui pourront demander des informations sur leurs consommateurs.
+- Les APIs partenaires, où une création et/ou une validation des comptes pourra être envisagée ;
+  - Exemples : autres organismes publics, éditeurs de logiciels, etc.
+- Les APIs privées, donc non-ouvertes à l'extérieur.
+
+Pour ce dernier type, la sécurité qu'on pourra mettre en place dépendra de plusieurs facteurs. Ces facteurs pourront
+être identifiés grâce aux questions précédentes.
