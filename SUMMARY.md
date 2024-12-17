@@ -33,6 +33,7 @@
   * [Application cloud native](Developpement/cloud-native.md)
   * [Accessibilité](Developpement/accessibilite.md)
   * [Design](Developpement/design)
+  * [Licences](Developpement/licences.md)
   * [Outillage sur les projets](Developpement/outillage-projet.md)
   * [Passation des projets](Developpement/passation.md)
 * [DevSecOps](DevSecOps/README.md)
