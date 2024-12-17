@@ -5,11 +5,13 @@
 Quand on souhaite ouvrir une API, nous pouvons utiliser les questions "[QQOQCCP](https://fr.wikipedia.org/wiki/QQOQCCP)"
 qui nous permettent de mieux comprendre la situation et de définir une solution pertinente par rapport au besoin.
 
-Ci-dessous se trouvent quelques-unes des questions qu'il pourrait être utile de se poser :
+Ci-dessous se trouvent quelques-unes des questions qu'il pourrait être utile de se poser.
+_À noter que ces questions peuvent ne pas être pertinentes suivant les phases de développement du produit._
 
 - **Quoi :** qu'est-ce qui sera consommé ? 
   - Quelle donnée ?
-  - Pour quelle criticité ?
+  - Quelle sensibilité ?
+- **Pourquoi :** Quel sera l'usage de la donnée ?
 - **Qui :** Par qui la donnée sera-t-elle consommée ?
   - Des applications front-ends / back-ends ?
 - **Où :** Où la donnée sera-t-elle demandée ?
@@ -18,12 +20,11 @@ Ci-dessous se trouvent quelques-unes des questions qu'il pourrait être utile de
     - Plage horaire ?
     - À quel moment dans une journée, semaine, etc. ?
 - **Comment :** comment la donnée sera-t-elle consommée ?
-  - Quel protocole d'échange (HTTP + JSON ? GraphQL ? gRPC ?) ?
+  - Quel protocole d'échange (HTTP + JSON, GraphQL, gRPC) ?
     - Plus d'informations pourront être trouvées [ici](normes/norme-api.md).
   - Lecture et/ou écriture ? Si écriture, pour quel type ? (mise à jour ou soumission de donnée entière)
 - **Combien :** À quelle fréquence sera-t-elle consommée ?
   - Par jour, semaine, etc.
-- **Pourquoi :** Quel sera l'usage de la donnée ?
 
 ### Utilisation des réponses
 
@@ -55,3 +56,7 @@ Nous distinguons plusieurs types d'API selon la population qui consommera la don
 
 Pour ce dernier type, la sécurité qu'on pourra mettre en place dépendra de plusieurs facteurs. Ces facteurs pourront
 être identifiés grâce aux questions précédentes.
+
+## Ressources supplémentaires
+
+- Comment désigner une API, d'Octo : https://blog.octo.com/designer-une-api-rest
