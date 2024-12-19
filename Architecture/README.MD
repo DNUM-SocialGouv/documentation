@@ -12,7 +12,7 @@
     - [Exposition d'API](api-exposition.md)
     - [API Gateway](api-gateway.md)
     - [Sécurisation des API](api-securite.md)
-- [Data Stockage et accès aux données](data-stockage.md)
+- [Stockage de données](data-stockage.md)
 
 ## La raison d'être
 L'architecture est à la croisée des chemins entre les différents métiers du numérique pouvant intervenir tout au long du cycle de vie du produit.

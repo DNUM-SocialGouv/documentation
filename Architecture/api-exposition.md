@@ -1,3 +1,7 @@
+---
+icon: door
+---
+
 # Exposition d'API
 
 ## Les questions à se poser

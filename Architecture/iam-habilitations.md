@@ -1,3 +1,7 @@
+---
+icon: lock
+---
+
 # Habilitations
 
 Information à accès restreint :

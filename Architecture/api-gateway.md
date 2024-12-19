@@ -1,3 +1,7 @@
+---
+icon: door
+---
+
 # API Gateway
 L'API Management répond à de nombreux enjeux autour des APIs. Le sous-domaine **API Gateway** adresse les enjeux d'interopérabilité et de sécurité des échanges**. C'est ce sur quoi nous nous concentrons ici.
 
