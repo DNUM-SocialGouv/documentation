@@ -1,3 +1,7 @@
+---
+icon: door
+---
+
 # Sécurisation des API
 
 Information restreinte :

@@ -1,3 +1,7 @@
+---
+icon: bulb
+---
+
 # Principes d'architecture
 
 Il est impératif de poser quelques grands principes apportant des garanties sur les aspects techniques ou organisationnels afin de répondre à plusieurs ambitions : 

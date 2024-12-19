@@ -1,3 +1,7 @@
+---
+icon: bulb
+---
+
 # Démarche de rationalisation
 
 ## L'enjeu de cette démarche

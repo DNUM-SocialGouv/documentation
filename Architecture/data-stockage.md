@@ -1,3 +1,7 @@
+---
+icon: floppy_disk
+---
+
 # Stockage et accès aux données
 
 ## Choix par défaut pour le stockage de données

@@ -1,3 +1,7 @@
+---
+icon: lock
+---
+
 # Solutions d'authentification
 
 Information à accès restreint :
