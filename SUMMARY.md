@@ -18,6 +18,7 @@
   * [Principes](Architecture/principes.md)
   * [Authentification](Architecture/authentification.md)
   * [API Management](Architecture/api-management.md)
+  * [Exposition d'API](Architecture/exposition-api.md)
 * [Data](data.md)
 * [Accessibilité](Design/Accessibilite.md)
 * [Design et Recherche Utilisateur](Design/README.MD)
