@@ -18,6 +18,7 @@
   * [IAM - Gestion des habilitations](Architecture/iam-habilitations.md)
   * [IAM - Cartographie des annuaires](Architecture/iam-annuaires.md)
   * [API - Normes](Architecture/api-normes.md)
+  * [API - Exposition](Architecture/exposition-api.md)
   * [API - Gateway](Architecture/api-gateway.md)
   * [API - Sécurisation](Architecture/api-securite.md)
   * [Data - Stockage](Architecture/data-stockage.md)
