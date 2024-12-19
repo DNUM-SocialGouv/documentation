@@ -11,5 +11,5 @@ Une application métier devrait systématiquement utiliser un framework de Mappi
 - **Normalisation et réduction du code** d'accès aux données, meilleure maintenabilité (ex: renommage en un point) et testabilité (test unitaire auto des DAO, pas du code SQL). Moins de code = moins de bug!
 - **Performance** : configuration d'un cache de niveau 2 pour les données à variation lente (données référentielles) et éventuellement d'un cache de niveau 1 pour les données métier vivantes (transactions)
 - **Sécurisation** : protection native contre les injections SQL et les rafales de requêtes
-- Moindre adhérence à la technologie de base de données
+- Moindre adhérence à la technologie de base de données\
 _ex: Hibernate_

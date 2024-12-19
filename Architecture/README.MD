@@ -9,6 +9,7 @@
     - [Cartographie des annuaires](iam-annuaires.md)
 - API Management
     - [Normes d'API](api-normes.md)
+    - [Exposition d'API](api-exposition.md)
     - [API Gateway](api-gateway.md)
     - [Sécurisation des API](api-securite.md)
 - [Data Stockage et accès aux données](data-stockage.md)
