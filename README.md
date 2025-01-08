@@ -28,8 +28,5 @@ Pour les personnes familières avec les collaborations sur les projets Git et qu
 
 1. [Pourquoi cette démarche](introduction/pourquoi-cette-demarche.md)
 2. [Nouveau cadre organisationnel](introduction/comite-produit-beta.md)
-3. [La checklist](la-checklist.md)
+3. [Cycle de vie des produits](introduction/cycle-de-vie-produit.md)
 4. [Je suis chef de projet/produit](introduction/je-suis-chef.fe-de-produit-projet.md)
-
-
-
