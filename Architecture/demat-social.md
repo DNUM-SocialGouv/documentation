@@ -1,5 +1,5 @@
 # Démat Social
-Démat Social est un fork de Démarches Simplifiées, déployé au MAS.\
+Démat Social est un fork de Démarches Simplifiées, déployé au MAS.
 [Documentation complète de Démarches Simplifiées](https://doc.demarches-simplifiees.fr/)
 
 ## Recommandations fortes
