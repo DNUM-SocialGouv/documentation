@@ -3,6 +3,7 @@
 ## Table des matières
 - [Principes d'architecture](principes.md)
 - [Démarche de rationalisation](demarche.md)
+- [Démat Social](demat-social.md.md)
 - IAM - Gestion des identités et des accès
     - [Solutions d'authentification](iam-authentification.md)
     - [Gestion des habilitations](iam-habilitations.md)

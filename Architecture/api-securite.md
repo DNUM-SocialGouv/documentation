@@ -1,5 +1,5 @@
 ---
-icon: door
+icon: lock
 ---
 
 # Sécurisation des API
