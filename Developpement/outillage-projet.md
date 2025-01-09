@@ -22,8 +22,8 @@ structurer le code en ensembles relativement indépendants et potentiellement r�
 Pour les projets en TS, nous utilisons [yarn](https://yarnpkg.com/) ou [pnpm](https://pnpm.io/) comme gestinnaire de dépendances.
 Nous utilisons d'autre outils qui nous permettent de vérifier automatiquement la qualité du code :
 
-- [Eslint](https://eslint.org/) qui permet de valider une centaines de régles. Eslint, permet aussi de valider une partie des régles d'A11y.
+- [Eslint](https://eslint.org/) qui permet de valider une centaines de règles, permet aussi de valider une partie des règles d'accessibilité.
 - [Prettier](https://prettier.io/) qui permet de formatter son code en fonction des standards de l'équipe.
 
-Nous vous recommandons de mettre en place des hooks de pré-commit. Nous vous invition à utiliser [Husky](https://typicode.github.io/husky/), [CommitLint](https://commitlint.js.org/) et [Pre-commit](https://pre-commit.com/).  
-Ainsi vous vous assurez que votre pipeline(CI) ne va pas fail et vous vous assurez que toute l'équipe respecte les mêmes standards.
+Nous vous recommandons de mettre en place des hooks de pré-commit, et d'utiliser [Husky](https://typicode.github.io/husky/) pour les mettre en place, [CommitLint](https://commitlint.js.org/) pour la validation des commits et [Pre-commit](https://pre-commit.com/) pour les hooks sur différents fichiers du projet.
+Ainsi vous vous assurez que votre pipeline (CI) ne va pas échouer et vous vous assurez que toute l'équipe respecte les mêmes standards.
