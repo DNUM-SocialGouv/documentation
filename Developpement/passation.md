@@ -8,15 +8,17 @@ apprentissages qui pourront être partagés.
 
 ## Utilisation
 
-Cette checklist est partagée entre les membres de l'équipe et la ou les personnes arrivant sur le projet.
-Pour chacune des cases à cocher, sentez-vous libre de supprimer les mentions inutiles, d'en ajouter de nouvelles propres
-au projet et d'ajouter des porteurs et des dates de réalisation pour chacune des actions.
+Cette checklist est partagée entre les membres de l'équipe et la ou les personnes arrivant sur le projet. Pour chacune
+des cases à cocher, sentez-vous libre de supprimer les mentions inutiles, d'en ajouter de nouvelles propres au projet et
+d'ajouter des porteurs et des dates de réalisation pour chacune des actions.
 
 Exemple :
+
 ```markdown
 ### Accès
 
 Les accès suivants ont été accordés :
+
 - [ ] @JohnDoe - 31/02/2042 : Dépôt GitHub
 - [ ] @JaneDoe - 32/02/2042 : Figma
 ```
@@ -28,6 +30,7 @@ Les accès suivants ont été accordés :
 ### Accès
 
 Les accès suivants ont été accordés :
+
 - [ ] Dépôt GitHub
 - [ ] Figma
 - [ ] Groupe Teams
@@ -47,12 +50,12 @@ Les accès suivants ont été accordés :
 - [ ] Les invitations aux dailies et autres rituels sont envoyées ;
 - [ ] Les membres de l'équipe, ainsi que les stakeholders et les personnes clés sont présentées ;
 - [ ] Une personne de l'équipe est désignée comme "[Buddy](https://factorial.fr/blog/buddy-parrainage/)" afin de
-  faciliter l'intégration dans l'équipe ;
+      faciliter l'intégration dans l'équipe ;
 
 ### Montée en compétence
 
 - [ ] Des tickets avec un périmètre cadré, et relativement simples à réaliser, sont présents sur Jira afin de permettre
-  une montée en compétence progressive sur le projet ;
+      une montée en compétence progressive sur le projet ;
 
 ### Nettoyage du travail existant
 
@@ -65,21 +68,21 @@ Les accès suivants ont été accordés :
 ### Partage d'informations
 
 - [ ] Des choix techniques importants pour l'équipe sont documentés dans le même dépôt que le code ;
-  - [ ] Des pratiques communes, standards pour l'équipe, sont présentes ; 
+  - [ ] Des pratiques communes, standards pour l'équipe, sont présentes ;
   - [ ] La stratégie de tests est présente ;
   - [ ] Le Dossier d'Architecture est commenté ;
   - [ ] Si applicable, les requêtes particulièrement complexes vers la base de données sont documentées ;
 - [ ] La chaîne de CI est présentée, ainsi que ses étapes ;
 - [ ] La gestion de la dette technique est visibilisée sous forme de tickets sur Jira ou de documentation dans le même
-  dépôt que le code ;
+      dépôt que le code ;
 - [ ] La stratégie de gestion des branches git est précisée dans une documentation dans le dépôt ;
-- [ ] Le contexte du projet et sa proposition de valeur, ainsi que le domaine fonctionnel et le
-  périmètre existant sont présentés grâce à une démonstration du projet ;
+- [ ] Le contexte du projet et sa proposition de valeur, ainsi que le domaine fonctionnel et le périmètre existant sont
+      présentés grâce à une démonstration du projet ;
   - [ ] L'historique (pertinent) du projet est expliqué ;
 - [ ] Les tickets sur Jira sont présentés, ainsi que leur thématique fonctionnelle ;
 - [ ] Si applicable, les éventuelles échéances à venir sont présentées avec leurs finalités ;
 - [ ] Une description des environnements est faîte, et la procédure de déploiement sur les différents environnements est
-  documentée ;
+      documentée ;
 
 ### Prise en main initiale
 
@@ -94,4 +97,4 @@ Les accès suivants ont été accordés :
 ### Production de valeur continue
 
 - [ ] Des tickets priorisés et suffisamment clairs sont présents dans le backlog sur Jira, afin qu'ils puissent être
-  réalisés une fois la passation terminée ;
+      réalisés une fois la passation terminée ;

@@ -1,16 +1,15 @@
 # Structure d'un dépôt git d'une application
 
-{% hint style="info" %}
-**Important :** 
+{% hint style="info" %} **Important :**
 
-Une application doit pouvoir se lancer en local avec seulement 2 étapes : 
+Une application doit pouvoir se lancer en local avec seulement 2 étapes :
+
 - `git checkout ...`
-- `docker compose up -d`
-{% endhint %}
+- `docker compose up -d` {% endhint %}
 
-## Organisation du dépôt 
+## Organisation du dépôt
 
-Pour une application ayant : 
+Pour une application ayant :
 
 - un backend java
 - un frontend react
