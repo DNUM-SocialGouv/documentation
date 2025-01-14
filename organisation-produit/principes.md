@@ -5,6 +5,8 @@ La vision produit définit un cap clair, aligné avec les priorités des minist�
 ### Pourquoi c’est important ?
 Elle donne une direction partagée et cohérente, assurant un alignement d'équipe et garantissant que chaque produit contribue aux objectifs de transformation numérique des ministères.
 
+COUCOU
+
 {% hint style="info" %}
 
 **Bonnes pratiques :**
