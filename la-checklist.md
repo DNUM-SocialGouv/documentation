@@ -18,6 +18,17 @@ Tous nos produits doivent suivre ces exigences :
 </details>
 
 <details>
+<summary><strong>Organisation Produit</strong></summary>
+
+* [ ] Vision
+* [ ] Objectifs et indicateurs
+* [ ] Méthodologie Produit
+* [ ] Rôles et responsabilité de l'équipe
+* [ ] Roadmap courte terme
+
+</details>
+
+<details>
 <summary><strong>Code</strong></summary>
   
 * [ ] respect du cadre de cohérence technique (en cours de rédaction)
@@ -25,22 +36,13 @@ Tous nos produits doivent suivre ces exigences :
 * [ ] pratiques de dev : revues de code, tests
 * [ ] application cloud native
 
+
 </details>
 
 <details>
 <summary><strong>Accessibilité</strong></summary>
  
   * [ ] les critères du RGAA sont respectés pour les produits et leurs contenus (durant la conception, les développements et lors de la recette)
-
-</details>
-
-<details>
-<summary><strong>Organisation Produit</strong></summary>
-
-* [ ] Vision
-* [ ] Objectifs et indicateurs
-* [ ] Rôles et responsabilité de l'équipe
-* [ ] Roadmap courte terme
 
 </details>
 
