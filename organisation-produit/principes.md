@@ -1,4 +1,4 @@
-# Vision et objectifs
+# Vision
 
 La vision produit définit un cap clair, aligné avec les priorités des ministères sociaux et les besoins des usagers, qu’il s’agisse des citoyens, agents publics ou métiers. Elle permet de fixer des objectifs clairs et concrets.
 
@@ -119,7 +119,7 @@ Elle aide les équipes à prioriser les initiatives clés, à s’aligner sur de
 
 ---
 
-## Les rôles et responsabilités
+# Les rôles et responsabilités
 
 ### Pourquoi structurer les rôles ?
 Une clarification des rôles et responsabilités permet d’assurer une coordination efficace, d’éviter les zones de flou et de maximiser la collaboration entre les membres de l’équipe produit.  
