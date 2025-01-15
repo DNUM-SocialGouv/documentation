@@ -16,7 +16,7 @@ Elle donne une direction partagée et cohérente, assurant un alignement d'équi
 **Quelques pistes pour matérialiser cette vision :**
 - [ ] Une phrase qui clarifie la raison d’être du produit.
 - [ ] Préciser qui sont les utilisateurs.
-- [ ] Identifier les besoins adressés.
+- [ ] Identifier les problèmes/besoins à adresser.
 - [ ] Définir la solution et sa proposition de valeur : quel est son axe différenciant ?
 - [ ] Décrire l’impact attendu.
 {% endhint %}
