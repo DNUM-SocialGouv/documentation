@@ -81,8 +81,11 @@ Ces indicateurs permettent de vérifier que l'on progresse dans la bonne directi
 {% endhint %}
 
 ---
+# Démarche Produit
 
-# Itérations courtes
+La démarche produit repose sur une approche incrémentale et expérimentale qui visent à maximiser la création de valeur tout en réduisant les risques. 
+
+## Itérations courtes
 
 Une approche itérative favorise la souplesse, en permettant d’ajuster le produit en continu grâce aux retours utilisateurs et aux évolutions réglementaires ou technologiques.
 
