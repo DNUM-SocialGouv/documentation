@@ -1,11 +1,10 @@
 # Table of contents
 
 * [Introduction](README.md)
-  * [A faire](introduction/a-faire.md)
   * [Pourquoi cette démarche](introduction/pourquoi-cette-demarche.md)
-  * [Nouveau cadre organisationnel](introduction/comite-produit-beta.md)
+  * [Nouveau cadre organisationnel](introduction/comite-produit.md)
   * [Cycle de vie produit](introduction/cycle-de-vie-produit.md)
-  * [Je suis chef.fe de produit/projet](introduction/je-suis-chef.fe-de-produit-projet.md)
+  * [Je suis chef.fe de produit](introduction/je-suis-chef.fe-de-produit.md)
 * [La checklist](la-checklist.md)
 * [Communs numériques](communs-numeriques.md)
 * [Organisation produit](organisation-produit/README.md)

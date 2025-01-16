@@ -1,12 +1,13 @@
 # Cycle de vie produit
+Les produits doivent suivre un cycle de vie standard, incluant des étapes de validation par le comité​ produit.
 
-Les produits/projets doivent suivre un cycle de vie standard, incluant des étapes de validation par le comité​ produit.
-
-Les phases du cycle de vie produit sont les suivantes :\
-1. **Idée** : produit en cours d'investigation, d'analyse, de cadrage
-2. **POC** (preuve de concept) pour valider une idée ou la faisabilité technique d'une implémentation
-3. **MVP** : développer une première version avec les fonctionnalités de base dans le but d'obtenir des retours utilisateurs
-4. **Développement** : développer le produit et le mettre à disposition d'un ensemble d'utilisateurs
-5. **Industrialisation** : étendre le produit à 100 % de la cible
-6. **Maturité** : entretenir et/ou optimiser le produit
-7. **Retrait** : le produit ne touche plus son audience ou bien est remplacé
+## Phases du cycle de vie produit
+*NB : un produit peut s'arrêter à chaque étape pour des raisons de pertinence, de contexte, de budget...*
+||Objectif|Livrables-type|
+|---|---|---|
+|**1. Idée**|Comprendre et évaluer l’intérêt/pertinence avant de s’engager davantage en termes de temps et de ressources.|vision produit</br>analyse d'un besoin</br>note de cadrage</br>simple prise de contact</br>démarche de rationalisation|
+|**2. POC**</br>Preuve de concept|Valider l’intérêt et la pertinence d’une idée et/ou démontrer la faisabilité technique. Le PoC est une bonne pratique pour réduire le risque, mais n'est pas obligatoire.|parcours utilisateur</br>maquettes statiques ou interactives</br>démonstrateur</br>code source</br>règles de gestion documentées|
+|**3. MVP**</br>Produit Minimum Viable|Développer et déployer en production, une première version avec les fonctionnalités de base afin de valider les hypothèses.</br>- **Produit** : un produit opérationnel (en production) mis dans la main d’utilisateurs qui peuvent l’utiliser pour réaliser leurs tâches</br>- **Minimum** : minimum en temps, effort (devs, ressources), coûts, fonctionnalités</br>- **Viable** : valeur réelle pour les 1ers utilisateurs, valeur d’apprentissage sur le besoin et la pertinence des solutions, stabilité fonctionnelle et technique|produit opérationnel (site, app...)</br>documentation fonctionnelle associée</br>documentation technique (dossiers d'architecture)|
+|**4. Construction**|Continuer à développer le produit par incréments stables||
+|**5. Généralisation**|Etendre le produit à 100% de la cible||
+|**6. Arrêt**|Le produit ne touche plus son audience ou bien est remplacé. Le produit peut s'arrêter à chaque étape|calendrier d'arrêt</br>post-mortem</br>documentations à jour</br>communication interne/externe|
