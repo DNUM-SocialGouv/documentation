@@ -3,7 +3,7 @@
 ## Table des matières
 - [Principes d'architecture](principes.md)
 - [Démarche de rationalisation](demarche.md)
-- [Démat Social](demat-social.md.md)
+- [Démat Social](demat-social.md)
 - IAM - Gestion des identités et des accès
     - [Solutions d'authentification](iam-authentification.md)
     - [Gestion des habilitations](iam-habilitations.md)
@@ -16,9 +16,7 @@
 - [Stockage de données](data-stockage.md)
 
 ## La raison d'être
-L'architecture est à la croisée des chemins entre les différents métiers du numérique pouvant intervenir tout au long du cycle de vie du produit.
-
-Un produit numérique se faisant rarement en isolation il est nécessaire de s'inscrire dans un écosystème dans lequel il est parfois compliqué de connaître toutes les règles.
+L'architecture est à la croisée des chemins entre les différents métiers du numérique. Un produit numérique se faisant rarement en isolation il est nécessaire de s'inscrire dans un écosystème complexe.
 
 Que ce soit sur la partie amont lors de la captation du besoin ou pendant les phases de développement voire de maintenance les architectes sont là pour **fluidifier les échanges** entre équipes et s'assurer de l'adéquation entre le besoin et la façon d'y répondre.
 

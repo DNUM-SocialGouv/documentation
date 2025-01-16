@@ -3,7 +3,6 @@ icon: bulb
 ---
 
 # Principes d'architecture
-
 Il est impératif de poser quelques grands principes apportant des garanties sur les aspects techniques ou organisationnels afin de répondre à plusieurs ambitions : 
 * proposer une meilleure expérience sur nos SI pour les citoyens et les agents
 * faciliter le travail des équipes de la DNUM et de nos partenaires
@@ -28,13 +27,11 @@ Les SI doivent être responsables de la création, gestion et consommation de la
 Une application doit proposer par défaut lors de sa conception le niveau de sécurité nécessaire pour ses usagers et les systèmes qui en dépendent.
 
 ### 4 - Transparence et interdépendance
-
-Les applications communiquent clairement sur leurs évolutions, leur état de santé et proposent de la donnée (sous forme de KPI, log, traces, ...) permettant aux systèmes ou équipes qui en dépendent d'avoir de manière transparente les informations nécessaires à leur activité.
+Les applications communiquent clairement sur leurs évolutions, leur état de santé et proposent de la donnée (sous forme de KPI, log, traces...) permettant aux systèmes ou équipes qui en dépendent d'avoir de manière transparente les informations nécessaires à leur activité.
 
 Les décisions structurantes et leurs implications, particulièrement en matière d'architecture et conception, sont partagées et documentées ; par exemple par des ADR ([Architecture Decision Record voire Any Decision Record](https://adr.github.io/)).
 
 ### 5 - L'art de l'essentiel
-
 Il est nécessaire d'être évolutif dans la conception de la solution, le juste niveau de complexité, d'exigences ou de ressources doit être jugé à l'aune du besoin réel.
 
 Une application en microservices sous kubernetes n'est sans doute pas nécessaire pour faire un formulaire de contact.
