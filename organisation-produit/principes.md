@@ -3,7 +3,7 @@
 La vision produit définit un cap clair, aligné avec les priorités des ministères sociaux et les besoins des usagers,
 qu’il s’agisse des citoyens, agents publics ou métiers. Elle permet de fixer des objectifs clairs et concrets.
 
-### Pourquoi c’est important ?
+## Pourquoi c’est important ?
 
 Elle donne une direction partagée et cohérente, assurant un alignement d'équipe et garantissant que chaque produit
 contribue aux objectifs de transformation numérique des ministères.
@@ -29,7 +29,7 @@ contribue aux objectifs de transformation numérique des ministères.
 
 # Indicateurs d’impact
 
-### À quoi servent les indicateurs ?
+## À quoi servent les indicateurs ?
 
 Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.  
 Fixer des indicateurs permet d’aligner toutes les parties prenantes sur la stratégie, de prendre des décisions éclairées
@@ -37,7 +37,7 @@ et de s’améliorer en continu.
 
 > « On ne peut améliorer que ce que l’on mesure ».
 
-### Les différents types d'indicateurs
+## Les différents types d'indicateurs
 
 <details>
 <summary><strong>Les indicateurs de succès (ou KPIs)</strong></summary>
@@ -45,7 +45,7 @@ et de s’améliorer en continu.
 Ces indicateurs mesurent si un produit atteint ses objectifs stratégiques. Ils traduisent la vision produit en résultats
 concrets et mesurables.
 
-#### Exemples :
+### Exemples °1 :
 
 - Taux d’usage.
 - Audience.
@@ -62,7 +62,7 @@ Les KPIs répondent à une question clé :
 Ces indicateurs servent à évaluer les effets des initiatives produit sur les utilisateurs ou sur l’organisation. Ils
 permettent de valider que vos actions apportent une valeur réelle.
 
-#### Exemples :
+### Exemples °2 :
 
 - Économies réalisées : évaluer les gains financiers, notamment via l'utilisation de
   [communs numériques](/communs-numeriques.md) et la réduction des doublons.
@@ -81,7 +81,7 @@ Ces indicateurs d’impact relient directement vos décisions produit à des ré
 Ces indicateurs permettent de vérifier que l'on progresse dans la bonne direction. Ils agissent comme des garde-fous et
 des signaux d'alerte pour garantir que vous avancez vers vos objectifs.
 
-#### Exemple :
+### Exemples °3 :
 
 - Une durée de session sur un site de consultation peut mesurer l'intérêt des utilisateurs pour le contenu proposé.
 </details>
@@ -156,20 +156,20 @@ malgré les imprévus ou les évolutions rapides.
 
 # Les rôles et responsabilités
 
-### Pourquoi structurer les rôles ?
+## Pourquoi structurer les rôles ?
 
 Une clarification des rôles et responsabilités permet d’assurer une coordination efficace, d’éviter les zones de flou et
 de maximiser la collaboration entre les membres de l’équipe produit.  
 Chaque rôle apporte une expertise et un regard spécifique, contribuant à la réussite du produit.
 
-### Lister l'ensemble des personnes impliquées dans l'organisation du produit
+## Lister l'ensemble des personnes impliquées dans l'organisation du produit
 
 - Les équipes au sein de la DNUM
 - Les équipes "métiers"
 - Les équipes prestataires
 - Les parties prenantes
 
-### Bonnes pratiques pour gérer les rôles
+## Bonnes pratiques pour gérer les rôles
 
 - **Clarification des attentes** : Définir clairement les responsabilités de chaque rôle dès le début du projet.
 - **Favoriser la collaboration** : Encourager un dialogue régulier et transparent entre les rôles.
