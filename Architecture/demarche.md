@@ -46,7 +46,8 @@ les duplications.
 <details>
 <summary><strong>Adapter</strong></summary>
   
-Si le besoin sort suffisamment de ce qui est faisable avec une solution actuellement dans le SI avec un effort raisonnable de configuration on peut alors considérer l'adaptation d'une solution tierce.
+Si le besoin sort suffisamment de ce qui est faisable avec une solution actuellement dans le SI avec un effort
+raisonnable de configuration on peut alors considérer l'adaptation d'une solution tierce.
 
 - Il peut s'agir d'une solution opensource, venant d'une autre source gouvernementale ou potentiellement d'un partenaire
   existant
@@ -59,9 +60,12 @@ Si le besoin sort suffisamment de ce qui est faisable avec une solution actuelle
 <details>
 <summary><strong>Développer</strong></summary>
   
-Quand le besoin est trop spécifique on peut alors considérer la construction d'un produit dédié pouvant porter cette fonction. 
+Quand le besoin est trop spécifique on peut alors considérer la construction d'un produit dédié pouvant porter cette
+fonction. 
 * Ce produit doit alors respecter nos [principes d'architectures](./principes.md) pour garantir sa valorisation dans le temps
-* Si des options de sécurité/hébergement spécifiques sont nécessaires alors l'option spécifique est préférable autrement une analyse technico-financière plus précise doit également être réalisée pour identifier si l'option "Acheter" est plus pertinente.
+* Si des options de sécurité/hébergement spécifiques sont nécessaires alors l'option spécifique est préférable autrement
+  une analyse technico-financière plus précise doit également être réalisée pour identifier si l'option "Acheter" est
+  plus pertinente.
 
 </details>
 
@@ -80,7 +84,9 @@ Il peut être pertinent de choisir une solution tierce venant du privé pour ré
 <details>
 <summary><strong>Reformuler</strong></summary>
   
-Parfois un besoin peut être tellement spécifique qu'il devient déraisonnable techniquement ou financièrement de le traiter tel quel. Il convient alors de repartir du besoin initial et l'analyser de manière plus précise pour identifier une manière plus pragmatique d'approcher le sujet de manière plus itérative.
+Parfois un besoin peut être tellement spécifique qu'il devient déraisonnable techniquement ou financièrement de le
+traiter tel quel. Il convient alors de repartir du besoin initial et l'analyser de manière plus précise pour identifier
+une manière plus pragmatique d'approcher le sujet de manière plus itérative.
 
 De cette manière on arrive alors à créer un produit complet en partant d'une solution plus basique mais en restant
 aligné avec notre capacité à livrer.
