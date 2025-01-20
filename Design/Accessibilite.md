@@ -12,7 +12,7 @@ assurer que les services numériques publics sont accessibles aux personnes ayan
 Il est aligné sur les normes internationales telles que les WCAG (Web Content Accessibility Guidelines) et est
 régulièrement mis à jour pour répondre aux nouvelles exigences et technologies.
 
-**Méthodologie de Mise en Œuvre**
+## Méthodologie de Mise en Œuvre
 
 L'adoption de l'accessibilité numérique suit généralement ces étapes clés :
 
