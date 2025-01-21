@@ -24,6 +24,6 @@ Afin de bien tester les appels API, nous vous recomandons
 [JestFetchMock](https://www.npmjs.com/package/jest-fetch-mock) si vous utilisez Fetch. Ces plugins vous permettrons de
 tester les différents cas :
 
-- Le cas d'une réponse 200(ok)
-- Le cas d'une erreur métier(4XX)
-- Le cas d'une erreur 500
+- Le cas d'une réponse 200 (ok)
+- Le cas d'une erreur métier (4XX)
+- Le cas d'une erreur serveur (5XX)
