@@ -9,10 +9,10 @@ icon: door
 Quand on souhaite ouvrir une API, nous pouvons utiliser les questions "[QQOQCCP](https://fr.wikipedia.org/wiki/QQOQCCP)"
 qui nous permettent de mieux comprendre la situation et de définir une solution pertinente par rapport au besoin.
 
-Ci-dessous se trouvent quelques-unes des questions qu'il pourrait être utile de se poser.
-_À noter que ces questions peuvent ne pas être pertinentes suivant les phases de développement du produit._
+Ci-dessous se trouvent quelques-unes des questions qu'il pourrait être utile de se poser. _À noter que ces questions
+peuvent ne pas être pertinentes suivant les phases de développement du produit._
 
-- **Quoi :** qu'est-ce qui sera consommé ? 
+- **Quoi :** qu'est-ce qui sera consommé ?
   - Quelle donnée ?
   - Quelle sensibilité ?
 - **Pourquoi :** Quel sera l'usage de la donnée ?
@@ -21,8 +21,8 @@ _À noter que ces questions peuvent ne pas être pertinentes suivant les phases 
 - **Où :** Où la donnée sera-t-elle demandée ?
   - Clients internes et/ou externes ?
 - **Quand :** Quand sera-t-elle être consommée ?
-    - Plage horaire ?
-    - À quel moment dans une journée, semaine, etc. ?
+  - Plage horaire ?
+  - À quel moment dans une journée, semaine, etc. ?
 - **Comment :** comment la donnée sera-t-elle consommée ?
   - Quel protocole d'échange (HTTP + JSON, GraphQL, gRPC) ?
     - Plus d'informations pourront être trouvées [ici](normes/norme-api.md).
@@ -45,7 +45,7 @@ La réponse (ou non-réponse) à ces questions nous apportent des informations s
 - De quelle disponibilité aura-t-on besoin ?
 - À quelle fréquence faudra-t-il mettre à jour la donnée ?
 
-Ces questions ne sont pas exhaustives, mais donnent une idée des points à aborder lors de la conception et l'exposition 
+Ces questions ne sont pas exhaustives, mais donnent une idée des points à aborder lors de la conception et l'exposition
 d'une API.
 
 ## Types d'API selon l'usage

@@ -1,0 +1,27 @@
+{
+  "name": "documentation",
+  "version": "1.0.0",
+  "description": "--- icon: face-smiling-hands description: Bienvenue ! ---",
+  "private": true,
+  "scripts": {
+    "lint": "markdownlint-cli2 \"**/*.md\" \"#node_modules\" --config .markdownlint.json --fix",
+    "prettify": "prettier --write --ignore-unknown --config .prettierrc.json **/*.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DNUM-SocialGouv/documentation.git"
+  },
+  "homepage": "https://github.com/DNUM-SocialGouv/documentation#readme",
+  "lint-staged": {
+    "**/*.md": [
+      "npm run prettify",
+      "npm run lint"
+    ]
+  },
+  "devDependencies": {
+    "husky": "9.1.7",
+    "lint-staged": "15.4.1",
+    "markdownlint-cli2": "0.17.2",
+    "prettier": "3.4.2"
+  }
+}
