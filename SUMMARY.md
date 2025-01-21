@@ -20,6 +20,7 @@
   - [API - Gateway](Architecture/api-gateway.md)
   - [API - Sécurisation](Architecture/api-securite.md)
   - [Data - Stockage](Architecture/data-stockage.md)
+  - [Outils](Architecture/outils/README.md)
 - [Accessibilité](Accessibilite/README.md)
   - [Développement](Accessibilite/developpement.md)
 - [Design et Recherche Utilisateur](Design/README.MD)
