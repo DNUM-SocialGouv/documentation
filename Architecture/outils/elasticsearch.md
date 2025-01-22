@@ -12,18 +12,28 @@ stack existante :
 
 - Quels besoins de l'application ElasticSearch couvre-t-il, et comment ?
 - Par rapport à d'autres outils du marché, comment ES se démarque dans la couverture des besoins ?
-- Si ES est considéré pour remplacer une solution existante, quels efforts (coûts, temps, ressources humaines, etc.)
-  sont nécessaires pour ce remplacement ?
 
 ### Performance
 
-- Compte-tenu des besoins, en quoi ES est plus performant que d'autres solutions ?
-- Comment l'opérabilité d'ES a été pris en compte ?
-  - Observabilité, redondance, résilience, compétences, etc.
+- Comment peut-on mesurer la performance d'ES par rapport à d'autres solutions répondant également au besoin ?
+- Quels sont ces mesures ?
+
+### Maintenabilité
+
+- Comment l'opérabilité d'ES a été prise en compte ?
+  - Observabilité, redondance, résilience, etc.
+- À quel point l'hébergeur est-il capable de supporter ES ?
 
 ### Sécurité et conformité
 
-TODO
+- Quelles données seront stockées dans ES ?
+- Quel est leur niveau de criticité ?
+
+### Coût
+
+- Si ES est considéré pour remplacer une solution existante, quels efforts (coûts, temps, ressources humaines, etc.)
+  sont nécessaires pour ce remplacement ?
+- Quels efforts sont nécessaires pour maintenir ES dans le temps ?
 
 ## Incident dû à la licence
 
