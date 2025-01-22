@@ -1,9 +1,6 @@
-# Design
+# Utilisation du DSFR
 
-## DSFR
-
-Nos produits utilisent le [DSFR](https://www.systeme-de-design.gouv.fr/) et nous nous sommes demandés quels portages
-seraient les plus pertinents.
+Nos produits utilisent le [DSFR](https://www.systeme-de-design.gouv.fr/) et nous nous sommes demandés quels portages seraient les plus pertinents.
 
 Pour cela, nous avons choisi différents critères :
 
@@ -12,6 +9,8 @@ Pour cela, nous avons choisi différents critères :
 - La qualité de la documentation,
 - Le nombre de composants implémentés, par rapport aux composants proposés par le DSFR,
 - La bibliothèque/framework dans lequel le portage est développé.
+
+## Les portages
 
 ### Portage React : codegouv.fr/react-dsfr
 

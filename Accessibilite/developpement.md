@@ -1,15 +1,4 @@
-# Accessibilité
-
-Il est recommandé de lire la définition de l'accessibilité présente dans la
-[section Design](../Design/Accessibilite.md).
-
-## DSFR et portages
-
-Le [DSFR](https://www.systeme-de-design.gouv.fr/), qui est le Système de Design de l'État, est [porté](design.md#dsfr)
-sur divers outils tels que React, Vue ou encore Angular.
-
-Au-delà du caractère [obligatoire](../Design/Processus-de-design.md#utilisation-obligatoire-du-design-system-dsfr) de
-son utilisation, les composants du système de design sont conçus avec l'accessibilité au cœur.
+# Développement
 
 ## Guides des pratiques de développement
 
