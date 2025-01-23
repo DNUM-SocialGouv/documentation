@@ -12,6 +12,15 @@ C'est un SGBD relationnel, c'est-à-dire que les entités sont liées par des re
 
 PostgreSQL est le choix **par défaut** quand un nouveau produit a besoin d'une base de données. Ainsi, si nous
 considérons d'autres options (autres bases relationnelles, bases non-relationnelles, etc.), celles-ci sont toujours
-comparées par rapport à ce qu'elles pourraient apporter de plus par rapport à PostgreSQL.
+comparées par rapport à ce qu'elles pourraient apporter de plus par rapport à PostgreSQL, et chaque comparaison doit
+être **solidement argumentée** sur des points tels que :
 
-Un exemple est présent sur la [page d'ElasticSearch](elasticsearch.md).
+- La sécurité,
+- Le coût d'ajout,
+- La performance,
+- La maintenabilité,
+- etc.
+
+Solidement, ici, signifie que des arguments mesurables, concrets et ciblés, et argumentés doivent être apportés.
+
+Un exemple de questionnement est présent sur la [page d'ElasticSearch](elasticsearch.md).
