@@ -1,19 +1,22 @@
 # Vision
 
-La vision produit définit un cap clair, aligné avec les priorités des ministères sociaux et les besoins des usagers,
-qu’il s’agisse des citoyens, agents publics ou métiers. Elle permet de fixer des objectifs clairs et concrets.
+La vision produit exprime de manière claire et inspirante l'objectif ultime que le produit cherche à atteindre, ainsi que la valeur qu'il apporte aux utilisateurs et à l'organisation.
+Elle définit un cap clair, aligné avec les priorités des ministères sociaux et les besoins des usagers (qu’il s’agisse des citoyens, agents publics ou métiers).
+
 
 ## Pourquoi c’est important ?
 
-Elle donne une direction partagée et cohérente, assurant un alignement d'équipe et garantissant que chaque produit
-contribue aux objectifs de transformation numérique des ministères.
+La vision produit est essentielle car elle fournit **une direction claire et partagée** , ce qui réduit le risque d'avoir des produits qui manquent de cohérence ou de s'éparpiller sur des initiatives ou fonctionnalités non pertinentes;
+Elle rappelle aux équipes **pourquoi elles travaillent sur un sujet**, ce qui permet d'aligner les efforts sur ce qui est vraiment important et facilite ainsi la priorisation
 
 {% hint style="info" %}
 
 **Bonnes pratiques :**
 
-- Co-construire une vision inspirante avec les parties prenantes.
-- Définir des objectifs clairs et compréhensibles par tous.
+- Co-construite avec les équipes (métiers, chefs de produit..) afin d'engager les parties prenantes et garantir l'alignement
+- Définir une vision inspirante avec les parties prenantes et la formuler sous forme de phrase concise et compréhensible par tous.Elle doit pouvoir être communiquée sans ambiguïté.
+- Définir des objectifs ambitieux mais réalistes, clairs et compréhensibles par tous
+- Iterer et ajuster : une vision peut évoluer en fonction des retours utilisateurs, et des changements d’environnement. Il est essentiel de la revisiter régulièrement pour s’assurer qu’elle reste pertinente.
 
 ---
 
