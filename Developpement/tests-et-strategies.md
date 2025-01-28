@@ -4,7 +4,8 @@
 
 ### Outillage
 
-Nous utilisons [Jest](https://jestjs.io/) ou [Vite](https://vite.dev/), et **Vite** est notre choix par défaut :
+Nous utilisons [Jest](https://jestjs.io/) ou [Vitest](https://vitest.dev/guide/), et **Vitest** est notre choix par
+défaut :
 
 - Temps d'éxécution des tests inférieur à Jest ;
 - Moins de dépendances lourdes, car Vite fourni plus de choses "out-of-the-box" ;
