@@ -3,7 +3,7 @@
 ## Front
 
 Vous pouvez utiliser [Jest](https://jestjs.io/) ou [Vite](https://vite.dev/). Cependant, nous vous recommandons
-**Vite**. Nous recommandons l'utilisation de Vite, pour des raisons de performances (temps d'éxécution des tests, moins
+**Vite** pour des raisons de performance (temps d'éxécution des tests, moins
 de dépendances lourdes) mais aussi par ce que la mise en place de Vite est plus simple que celle de Jest. En effet,
 l'intégration de Vite est plus fluide. Nous vous recommandons de bien configurer votre collecte de coverage, celà vous
 permet de voir les composants peu ou pas testés. Ce qui vous donnera une idée de là où vous devez mettre l'effort. Nous
@@ -21,9 +21,9 @@ Si vous utilisez des contextes, nous vous recommandons de tester chaque composan
 
 Afin de bien tester les appels API, nous vous recommandons
 [JestMockAdapter](https://www.npmjs.com/package/jest-mock-axios) si vous utilisez Axios ou
-[JestFetchMock](https://www.npmjs.com/package/jest-fetch-mock) si vous utilisez Fetch. Ces plugins vous permettrons de
+[JestFetchMock](https://www.npmjs.com/package/jest-fetch-mock) si vous utilisez Fetch. Ces plugins vous permettront de
 tester les différents cas :
 
-- Le cas d'une réponse 200 (ok)
-- Le cas d'une erreur métier (4XX)
-- Le cas d'une erreur serveur (5XX)
+- cas d'une réponse 200 (ok)
+- cas d'une erreur métier (4XX)
+- cas d'une erreur serveur (5XX)
