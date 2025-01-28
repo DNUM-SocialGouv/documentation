@@ -35,7 +35,7 @@
   - [Dépendances projet](Developpement/dependances-projet.md)
   - [Outillage sur les projets](Developpement/outillage-projet.md)
   - [Passation des projets](Developpement/passation.md)
-  - [Tests et stratégie](Developpement/tests-et-strategies)
+  - [Tests et stratégies](Developpement/tests-et-strategies.md)
   - [Utilisation du DSFR](Developpement/utilisation-du-dsfr.md)
 - [DevSecOps](DevSecOps/README.md)
   - [Intégration continue (CI)](DevSecOps/CI.md)
