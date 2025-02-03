@@ -25,7 +25,7 @@ peuvent ne pas être pertinentes suivant les phases de développement du produit
   - À quel moment dans une journée, semaine, etc. ?
 - **Comment :** comment la donnée sera-t-elle consommée ?
   - Quel protocole d'échange (HTTP + JSON, GraphQL, gRPC) ?
-    - Plus d'informations pourront être trouvées [ici](normes/norme-api.md).
+    - Plus d'informations pourront être trouvées [ici](api-normes.md#solutions-proposées).
   - Lecture et/ou écriture ? Si écriture, pour quel type ? (mise à jour ou soumission de donnée entière)
 - **Combien :** À quelle fréquence sera-t-elle consommée ?
   - Par jour, semaine, etc.

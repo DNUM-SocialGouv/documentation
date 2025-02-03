@@ -9,7 +9,7 @@ Cette approche favorise l’amélioration continue, facilite la prise de décisi
 réponde efficacement aux besoins des usagers tout en respectant les standards de qualité et de sécurité.
 
 - [Principes](principes.md)
-  - [Vision et objectifs](principes.md#vision-et-objectifs)
+  - [Vision et objectifs](principes.md#pourquoi-cest-important-)
   - [Indicateurs d'impact](principes.md#indicateurs-dimpact)
-  - [Itérations courtes](principes.md#iterations-courtes)
+  - [Itérations courtes](principes.md#itérations-courtes)
 - [Exemples d'indicateurs](indicateurs.md)
