@@ -10,9 +10,9 @@ la direction du numérique des ministères sociaux.
 
 Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationnel.
 
-{% hint style="warning" %} **Ce document est ouvert et accessible à toutes et tous, par design. Il ne contient pas
-d'informations confidentielles. S'il peut inspirer d'autres organisations, ou bien donner envie à des personnes de nous
-rejoindre, alors tant mieux.💛** {% endhint %}
+{% hint style="warning" %}
+**Ce document est ouvert et accessible à toutes et tous, par design. Il ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations, ou bien donner envie à des personnes de nous rejoindre, alors tant mieux.💛**
+{% endhint %}
 
 ---
 
