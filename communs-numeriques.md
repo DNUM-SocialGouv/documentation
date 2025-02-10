@@ -1,5 +1,5 @@
 # Communs Numériques
-Tout projet DOIT tenter de réutiliser des communs numériques, en suivre l'arbre de décision ci-dessous, avant d'engager des développements spécifiques.
+Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arbre de décision ci-dessous, avant d'engager des développements spécifiques.
 
 ## Arbre de décision suivant la nature du projet
 - **Site éditorial**
@@ -16,7 +16,8 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivre l'arbr
       - envisager d'enrichir GLPI ou demander son adaptation
       - envisager le développement spécifique complet du back-office
 - **Projet Référentiel**
-  - Soit 
+  - Soit GLPI pour les besoins simple (gestion de parc, inventaire) sans contrôle précis sur la modélisation des données en base
+  - Soit développement spécifique
 
 ## Nos communs numériques
 - [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) est une solution de dématérialisation des démarches administratives. Elle est inter-ministérielle, générique et hébergée en mode SaaS.
