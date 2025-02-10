@@ -11,7 +11,6 @@
 - [Architecture](Architecture/README.MD)
   - [Principes d'architecture](Architecture/principes.md)
   - [Démarche de rationalisation](Architecture/demarche.md)
-  - [Démat Social](Architecture/demat-social.md)
   - [Solutions d'authentification](Architecture/iam-authentification.md)
   - [Gestion des habilitations](Architecture/iam-habilitations.md)
   - [Cartographie des annuaires](Architecture/iam-annuaires.md)
