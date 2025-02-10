@@ -1,3 +1,37 @@
-# Communs numériques
+# Communs Numériques
+Tout projet DOIT tenter de réutiliser des communs numériques, en suivre l'arbre de décision ci-dessous, avant d'engager des développements spécifiques.
 
-TODO : lister les briques existantes ré-utilisables DNUM et hors DNUM​.
+## Arbre de décision
+- **Front usagers** : utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque
+  besoin métier
+  - Utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir les [différences entre Démarches Simplifiées et Démat Social](#différences-entre-démarches-simplifiées-et-démat-social).
+- **Back-office agents** : si le back-office de Démarches Simplifiées (ou Démat Social) ne suffisent vraiment pas à couvrir les besoins des agents envisager en sus un back-office de traitement
+  - Privilégier GLPI comme back-office de traitement
+  - Si malgré la recherche de compromis, GLPI présente toujours trop de limites :
+    - envisager le développement spécifique autour de GLPI
+    - envisager d'enrichir GLPI ou demander son adaptation
+    - envisager le développement spécifique complet du back-office
+
+## Nos communs numériques
+- [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) est une solution de dématérialisation des démarches administratives. Elle est inter-ministérielle, générique et hébergée en mode SaaS.
+- [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé au MAS.
+- [**GLPI**](https://glpi-project.org/fr/) est une solution open source générique de gestion de parc matériel et de gestion de demandes et incidents
+
+## Différences entre Démarches Simplifiées et Démat Social
+|                                     | [Démarches Simplifiées](https://www.demarches-simplifiees.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                              |
+| ----------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| Entité responsable                  | SPM/DINUM                                                      | MAS/DNUM                                                                                   |
+| Hébergement HDS                     | Non                                                            | Oui                                                                                        |
+| Connexion FranceConnect             | Oui                                                            | Non                                                                                        |
+| Connexion ProConnect                | Oui                                                            | Non                                                                                        |
+| Champs spécifiques                  | n/a                                                            | Champ NIR sécurisé</br>Champ FINESS (avec lookup FINESS)</br>Champ RPPS (avec lookup RPPS) |
+| Montées de version                  | ~tous les jours                                                | 3-12 mois de retard                                                                        |
+| Numérotation des versions           | AAAA-MM-DD-version                                             | x.y.z                                                                                      |
+| Accès Administrateur et Instructeur | Internet                                                       | RIE seulement                                                                              |
+
+## Limites de GLPI
+_En cours_
+- Volumétrie / Performance
+- Complexité des workflow
+- Accessibilité
+- Disponibilité sur les hébergements
