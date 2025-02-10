@@ -1,16 +1,22 @@
 # Communs Numériques
 Tout projet DOIT tenter de réutiliser des communs numériques, en suivre l'arbre de décision ci-dessous, avant d'engager des développements spécifiques.
 
-## Arbre de décision
-- **Front usagers** : utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque
-  besoin métier
-  - Utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir les [différences entre Démarches Simplifiées et Démat Social](#différences-entre-démarches-simplifiées-et-démat-social).
-- **Back-office agents** : si le back-office de Démarches Simplifiées (ou Démat Social) ne suffisent vraiment pas à couvrir les besoins des agents envisager en sus un back-office de traitement
-  - Privilégier GLPI comme back-office de traitement
-  - Si malgré la recherche de compromis, GLPI présente toujours trop de limites :
-    - envisager le développement spécifique autour de GLPI (API et webhook)
-    - envisager d'enrichir GLPI ou demander son adaptation
-    - envisager le développement spécifique complet du back-office
+## Arbre de décision suivant la nature du projet
+- **Site éditorial**
+  - Soit socle ONDINE du MAS (Drupal)
+  - Soit [Sites faciles](https://sites-faciles.beta.numerique.gouv.fr/)
+- **Démarche administrative en ligne**
+  - **Front usager** : utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque
+    besoin métier
+    - Utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir les [différences entre Démarches Simplifiées et Démat Social](#différences-entre-démarches-simplifiées-et-démat-social).
+  - **Back-office agent** : si Démarches Simplifiées (ou Démat Social) ne put pas couvrir les besoins des agents, envisager en sus un back-office de traitement
+    - Privilégier GLPI comme back-office de traitement
+    - Si malgré la recherche de compromis, GLPI présente toujours trop de limites :
+      - envisager le développement spécifique autour de GLPI (API et webhook)
+      - envisager d'enrichir GLPI ou demander son adaptation
+      - envisager le développement spécifique complet du back-office
+- **Projet Référentiel**
+  - Soit 
 
 ## Nos communs numériques
 - [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) est une solution de dématérialisation des démarches administratives. Elle est inter-ministérielle, générique et hébergée en mode SaaS.
