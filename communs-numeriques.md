@@ -8,7 +8,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivre l'arbr
 - **Back-office agents** : si le back-office de Démarches Simplifiées (ou Démat Social) ne suffisent vraiment pas à couvrir les besoins des agents envisager en sus un back-office de traitement
   - Privilégier GLPI comme back-office de traitement
   - Si malgré la recherche de compromis, GLPI présente toujours trop de limites :
-    - envisager le développement spécifique autour de GLPI
+    - envisager le développement spécifique autour de GLPI (API et webhook)
     - envisager d'enrichir GLPI ou demander son adaptation
     - envisager le développement spécifique complet du back-office
 
