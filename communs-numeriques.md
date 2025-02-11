@@ -28,10 +28,10 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
 |                                     | [Démarches Simplifiées](https://www.demarches-simplifiees.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                              |
 | ----------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | Entité responsable                  | SPM/DINUM                                                      | MAS/DNUM                                                                                   |
-| Hébergement HDS                     | Non                                                            | Oui                                                                                        |
+| Hébergement                         | SecNumCloud@OVH                                                | HDS@Cegedim                                                                                |
 | Connexion FranceConnect             | Oui                                                            | Non                                                                                        |
 | Connexion ProConnect                | Oui                                                            | Non                                                                                        |
-| Champs spécifiques                  | n/a                                                            | Champ NIR sécurisé</br>Champ FINESS (avec lookup FINESS)</br>Champ RPPS (avec lookup RPPS) |
+| Champs spécifiques                  | n/a                                                            | Champ NIR sécurisé</br>2 champs FINESS (avec lookup FINESS)</br>Champ RPPS (avec lookup RPPS) |
 | Montées de version                  | ~tous les jours                                                | 3-12 mois de retard                                                                        |
 | Numérotation des versions           | AAAA-MM-DD-version                                             | x.y.z                                                                                      |
 | Accès Administrateur et Instructeur | Internet                                                       | RIE seulement                                                                              |
