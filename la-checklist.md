@@ -39,7 +39,7 @@ Tous nos produits doivent suivre ces exigences :
 <summary><strong>Accessibilité</strong></summary>
  
   * [ ] les critères du RGAA sont respectés pour les produits et leurs contenus (durant la conception, les
-    développements et lors de la recette)
+    développements, lors de la recette, de la contribution sur le site et avant le déploiement)
 
 </details>
 
