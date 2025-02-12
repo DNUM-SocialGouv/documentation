@@ -11,9 +11,14 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 _Les attaques sont souvent dépersonnalisées, opportunistes, mais pas toujours. Elles peuvent être ciblées ou systématiques._ 
 
 ## Recommandations
+
 - [**Solutions au niveau réseau**](#solutions-anti-bots-au-niveau-réseau) : sauf bonne raison d'appliquer l'approche ZeroTrust, il n'est pas nécessaire de réimplémenter un anti-DDoS au niveau applicatif. Celui-ci étant déjà actif au niveau de l'hébergement.
 - [**Solutions au niveau applicatif**](#solutions-anti-bots-au-niveau-applicatif) : le choix d'une solution de captcha est un savent mélange entre ergonomie, accessibilité, sécurité, coût et performance.
 - **Observation des logs** : Quels que soient les mécanismes en place, il convient de continuer à observer les logs techniques et applicatifs pour déceler les comportements inhabituels. Une stratégie vise à autoriser uniquement les comportements considérés comme habituels, plutôt que de bloquer les comportements inhabituels.
+
+Ces recommandations de solution sont à appliquer selon votre contexte :
+* Au niveau réseau, avec votre infogérant / fournisseur de service d'hébergement
+* Au niveau applicatif, avec l'aide de votre architecte solution ou lead tech (ou en sollicitant [un accompagnement SDPSN / DD](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Notreoffre.aspx))
 
 ## Solutions anti-bots au niveau réseau
 Ces mécanismes sont pris en charge en amont par l'hébergeur, ou plus localement par une [API Gateway](../Architecture/api-gateway.md) ou un [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) du projet :
@@ -32,8 +37,8 @@ Ces mécanismes sont pris en charge en amont par l'hébergeur, ou plus localemen
     - Inconvénients : déclenchement systématique, paramétrage dans PISTE
     - Avis : tombe en désuétude, à voir si une v3 intelligente est prévue
 - [**Friendly Captcha**](https://friendlycaptcha.com/fr/#features)
-    - Avantages : analyse en arrière plan (aucun défi utilisateur), RGPD, européen
-    - Inconvénients : payant
+    - Avantages : analyse en arrière plan (aucun défi utilisateur), RGPD, européen, accessible (relativement au WCAG, [d'après la déclaration de l'éditeur](https://friendlycaptcha.com/insights/captcha-accessibility/) ; non évalué au RGAA)
+    - Inconvénients : payant, [référencé à l'UGAP](https://www.ugap.fr/editeurs-logiciels/friendly-captcha-gmbh-f31479)
     - Avis : option viable
 - [**hCaptcha**](https://www.hcaptcha.com/#comprehensive)
     - Avantages : analyse en arrière plan (défi circonstancié seulement), effort d'accessibilité
