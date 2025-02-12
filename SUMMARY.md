@@ -21,7 +21,7 @@
   - [Data - Stockage](Architecture/data-stockage.md)
   - [Outils](Architecture/outils/README.md)
     - [PostgreSQL](Architecture/outils/postgresql.md)
-  - [Sécurité anti-bots](DevSecOps/anti-bots.md)
+  - [Sécurité anti-bots](Architecture/anti-bots.md)
 - [Accessibilité](Accessibilite/README.md)
   - [Intro](Accessibilite/Introduction.md)
   - [Développement](Accessibilite/developpement.md)
