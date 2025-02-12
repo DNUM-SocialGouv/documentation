@@ -22,19 +22,28 @@ Ces mécanismes sont pris en charge en amont par l'hébergeur, ou plus localemen
 - **Rate-limiting** : limiter de manière statique ou dynamique le nombre de requêtes d'un même client sur un temps donné.
 
 ## Solutions anti-bots au niveau applicatif
-- **Captcha** : vise à distinguer les humains des bots par un challenge visuel ou auditif. Le captcha est une vraie douleur en terme d'ergonomie et d'accessibilité, et est de moins en moins efficace face à la complexité des bots.
-- **reCaptcha** : Captcha invisible qui analyse en arrière-plan le comportement de l'utilisateur, et peut déclencher un captcha pour confirmer l'humanité de l'utilisateur. L'avenir est à ce genre de solutions intelligentes, discrètes, passives, qui se basent sur un faisceau d'indices.
+- **Captcha** : vise à distinguer les humains des bots par l'analyse en arrière-plan d'un faisceau d'indices (comme le comportement de l'utilisateur) et/ou par un défi utilisateur visuel ou auditif. Le défi utilisateur est une vraie douleur en terme d'ergonomie et d'accessibilité, et est de moins en moins efficace face à la complexité des bots. L'avenir est aux solutions intelligentes et discrètes.
 - **Honeypot** : consiste à cacher un champ de formulaire qui n'est pas sensé être utilisé. S'il est utilisé, le client est considéré comme un bot. L'approche présente peu d'intérêt car il est facilement identifiable et contournable. Il présente par ailleurs un problème bloquant d'accessibilité. Ne pas confondre Honeypot et [Honey Bucket](https://dec.alaska.gov/eh/solid-waste/how-do-i-dispose-of/honeybucket-waste/) qui servent des objectifs différents.
 - **2FA/MFA** : l'authentification à 2 facteurs peut-être présentée à la connexion et/ou lors d'une opération sensible et constitue une protection anti-bots importante.
 
 ## Comparaison de différents Captcha
-- [**Captchétat v2**](https://static.piste.gouv.fr/captchEtat/docs/CAPTCHA_v2_GUIDE_IMPLEMENTATION.pdf) (AIFE)
-    - Avantages : solution étatique, accessibilité prise en compte
+- [**CaptchÉtat v2**](https://static.piste.gouv.fr/captchEtat/docs/CAPTCHA_v2_GUIDE_IMPLEMENTATION.pdf) (AIFE)
+    - Avantages : solution étatique, accessibilité prise en compte (ex : défi audio)
     - Inconvénients : déclenchement systématique, paramétrage dans PISTE
-- **hCaptcha**
-- [**Cloudflare**](https://www.cloudflare.com/fr-fr/plans/)
-    - Avantages : solution complète, déclenchement contextuel
-    - Inconvénient : payant, fullstack (WAF)
-- [**Google reCAPTCHA 2**](https://cloud.google.com/security/products/recaptcha)
-    Avantages : ergonomie, sécurité, performance, gratuit
-    Inconvénients : pas de garantie vie privée
+    - Avis : tombe en désuétude, à voir si une v3 intelligente est prévue
+- [**Friendly Captcha**](https://friendlycaptcha.com/fr/#features)
+    - Avantages : analyse en arrière plan (aucun défi utilisateur), RGPD, européen
+    - Inconvénients : payant
+    - Avis : option viable
+- [**hCaptcha**](https://www.hcaptcha.com/#comprehensive)
+    - Avantages : analyse en arrière plan (défi circonstancié seulement), effort d'accessibilité
+    - Inconvénients : payant
+    - Avis : option viable
+- [**Cloudflare Turnstile**](https://www.cloudflare.com/application-services/products/turnstile/) (repose sur hcaptcha)
+    - Avantages : analyse en arrière plan (aucun défi utilisateur), version gratuite
+    - Inconvénient : payant pour retirer le logo Cloudflare, plus lourd à installer (écosystème éditeur)
+    - Avis : option viable
+- [**Google reCAPTCHA 3**](https://cloud.google.com/security/products/recaptcha)
+    - Avantages : analyse en arrière plan (défi circonstancié seulement), gratuit
+    - Inconvénients : pas conforme RGPD, tracking commercial
+    - Avis : prohibé
