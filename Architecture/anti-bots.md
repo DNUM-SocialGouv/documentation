@@ -15,7 +15,7 @@ _Les attaques sont souvent dépersonnalisées, opportunistes, mais pas toujours.
 - **Rate-limiting + Honeypot pour l'IHM** : malgré les problèmes d'accessibilité de l'approche Honeypot, cette combinaison reste efficace pour protéger l'IHM.
 
 ## Solutions anti-bots au niveau réseau/middleware
-Ces mécanismes sont pris en charge en amont par l'hébergeur, ou plus localement par une [API Gateway](../Architecture/api-gateway.md) ou un [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) du projet :
+Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, ou plus localement par une [API Gateway](../Architecture/api-gateway.md) ou un [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) du projet :
 - **Filtrage IP (whitelist)** : limiter l'accès à un nombre fini de clients connus ou déclarés.
 - **Blocage IP** : bloquer l'accès à des bots déjà identifiés, ou des sources habituelles d'intrusion.
 - **Rate-limiting** : limiter de manière statique ou dynamique le nombre de requêtes d'un même client sur un temps donné. Le rate-limiting est à définir route par route
