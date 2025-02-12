@@ -9,7 +9,7 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 _Les attaques sont souvent dépersonnalisées, opportunistes, mais pas toujours. Elles peuvent donc être ciblées ou systématiques._ 
 
 ## Recommandations
-- [**Des solutions au niveau réseau/middleware**](#solutions-anti-bots-au-niveau-réseaumiddleware) sont à appliquer selon le contexte avec l'infogérant et/ou l'hébergeur. Sauf à appliquer l'approche ZeroTrust, il n'est pas nécessaire d'implémenter un anti-DDoS au niveau applicatif. Celui-ci étant déjà actif au niveau de l'hébergement.
+- [**Des solutions au niveau réseau/middleware**](#solutions-anti-bots-au-niveau-réseaumiddleware) sont à appliquer selon le contexte avec l'infogérant et/ou l'hébergeur. Sauf à appliquer l'approche ZeroTrust, il est déconseillé d'implémenter un anti-DDoS au niveau applicatif. Celui-ci étant déjà actif au niveau de l'hébergement.
 - [**Des solutions au niveau applicatif**](#solutions-anti-bots-au-niveau-applicatif) sont à appliquer selon le contexte avec l'architecte solution ou lead tech du projet (ou en sollicitant un [accompagnement SDPSN / DD](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Notreoffre.aspx))
 - **Rate-limiting pour l'API** : le Rate-limiting au niveau [API Gateway](../Architecture/api-gateway.md) ou [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) est la solution à privilégier pour protéger une API des bots.
 - **Rate-limiting + Honeypot pour l'IHM** : malgré les problèmes d'accessibilité de l'approche Honeypot, cette combinaison reste efficace pour protéger l'IHM.
