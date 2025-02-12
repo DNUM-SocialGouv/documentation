@@ -19,7 +19,7 @@ Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, 
 - **Filtrage IP (whitelist)** : limiter l'accès à un nombre fini de clients connus ou déclarés.
 - **Blocage IP** : bloquer l'accès à des bots déjà identifiés, ou des sources habituelles d'intrusion.
 - **Rate-limiting** : limiter de manière statique ou dynamique le nombre de requêtes d'un même client sur un temps donné. Le rate-limiting est à définir route par route
-- **Observation du traffic et des logs** : quels que soient les autres mécanismes en place, il convient de continuer à observer l'activité pour déceler les comportements inhabituels et apprendre en continu. Une stratégie prudente vise à autoriser uniquement les comportements considérés comme habituels, plutôt que de bloquer les comportements inhabituels.
+- **Observabilité applicative** : observer l'activité applicative grâce aux logs, pour déceler les comportements inhabituels et apprendre en continu. Une stratégie prudente vise à autoriser uniquement les comportements considérés comme habituels, plutôt que de bloquer les comportements inhabituels.
 
 ## Solutions anti-bots au niveau applicatif
 - **Captcha** : vise à distinguer les humains des bots par l'analyse en arrière-plan d'un faisceau d'indices (comme le comportement de l'utilisateur) et/ou par un défi utilisateur visuel ou auditif. Le défi utilisateur est une vraie douleur en terme d'ergonomie et d'accessibilité, et est de moins en moins efficace face à la complexité des bots. Le choix d'une solution de captcha est un savant mélange entre ergonomie, accessibilité, sécurité, coût et performance. L'avenir est aux solutions intelligentes et discrètes.
