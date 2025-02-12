@@ -23,7 +23,7 @@ Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, 
 
 ## Solutions anti-bots au niveau applicatif
 - **Captcha** : vise à distinguer les humains des bots par l'analyse en arrière-plan d'un faisceau d'indices (comme le comportement de l'utilisateur) et/ou par un défi utilisateur visuel ou auditif. Le défi utilisateur est une vraie douleur en terme d'ergonomie et d'accessibilité, et est de moins en moins efficace face à la complexité des bots. Le choix d'une solution de captcha est un savant mélange entre ergonomie, accessibilité, sécurité, coût et performance. L'avenir est aux solutions intelligentes et discrètes.
-- **Honeypot** : consiste à cacher un champ de formulaire qui n'est pas sensé être utilisé. S'il est utilisé, le client est considéré comme un bot. L'approche présente peu d'intérêt car il est facilement identifiable et contournable. Il présente par ailleurs un problème bloquant d'accessibilité. Ne pas confondre Honeypot et [Honey Bucket](https://dec.alaska.gov/eh/solid-waste/how-do-i-dispose-of/honeybucket-waste/) qui servent des objectifs différents.
+- **Honeypot** : consiste à cacher un champ de formulaire qui n'est pas censé être utilisé. S'il est utilisé, le client est considéré comme un bot. L'approche présente peu d'intérêt car il est facilement identifiable et contournable. Il présente par ailleurs un problème bloquant d'accessibilité. Ne pas confondre Honeypot et [Honey Bucket](https://dec.alaska.gov/eh/solid-waste/how-do-i-dispose-of/honeybucket-waste/) qui servent des objectifs différents.
 - **2FA/MFA** : l'authentification à 2 facteurs, présentée à la connexion et/ou lors d'une opération sensible et constitue une protection anti-bots importante.
 
 ## Comparaison de différents Captcha
