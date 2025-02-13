@@ -97,7 +97,8 @@ et propose des fonctionnalités avancées en particulier la gestion des transact
 
 ### Webhook
 
-Un webhook est un mécanisme de callout HTTP permettant de recevoir des notifications depuis un service externe. C'est une API REST simple, souvent sans payload.
+Un webhook est un mécanisme de callout HTTP permettant de recevoir des notifications depuis un service externe. C'est
+une API REST simple, souvent sans payload.
 
 <details>
 <summary>Avantages</summary>
