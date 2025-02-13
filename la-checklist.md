@@ -1,6 +1,10 @@
+---
+hidden: true
+---
+
 # La checklist
 
-{% hint style="warning" %} **En construction** {% endhint %}
+{% hint style="warning" %} **Page en cours de retrait** {% endhint %}
 
 Tous nos produits doivent suivre ces exigences :
 
@@ -50,7 +54,6 @@ Tous nos produits doivent suivre ces exigences :
 - [ ] Mise à disposition de la recherche exploratoire (entretiens+observation) dans le cas d'une refonte
 - [ ] Réalisation de tests utilisateurs réguliers en amélioration continue (cohorte d'environ 10 utilisateurs)
 - [ ] hébergement des designs sur le Figma de la DNUM
-- [ ] respect des [normes et standards de design](Design/normes-et-standards.md)
 
 </details>
 
@@ -60,23 +63,6 @@ Tous nos produits doivent suivre ces exigences :
 - [ ] publication de données sur data.gouv.fr
 - [ ] mise en place de solution analytique (Matomo)
 - [ ] publication des analytiques (lien footer)
-
-</details>
-
-<details>
-<summary><strong>Hébergement</strong></summary>
-
-- [ ] Cloud first ([détails](Hebergement/Cloud.md))
-
-</details>
-
-<details>
-<summary><strong>DevSecOps</strong></summary>
-  
-* [ ] intégration continue ([détails](DevSecOps/CI.md))
-* [ ] déploiement continu ([détails](DevSecOps/CD.md))
-* [ ] observabilité ([détails](DevSecOps/observabilite.md))
-* [ ] sécurité ([détails](DevSecOps/securite.md))
 
 </details>
 
