@@ -26,8 +26,7 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 - **Rate-limiting pour l'API** : le Rate-limiting au niveau [API Gateway](../Architecture/api-gateway.md) ou
   [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) est la solution à privilégier pour protéger une API des
   bots.
-- **Rate-limiting + Honeypot pour l'IHM** : malgré les problèmes d'accessibilité de l'approche Honeypot, cette
-  combinaison reste efficace pour protéger l'IHM.
+- **Rate-limiting + Honeypot pour l'IHM** : combinaison efficace pour protéger l'IHM. Attention cependant à ne pas créer de problème d'accessibilité avec Honeypot.
 
 ## Solutions anti-bots au niveau réseau/middleware
 
@@ -38,47 +37,38 @@ projet :
 - **Filtrage IP (whitelist)** : limiter l'accès à un nombre fini de clients connus ou déclarés.
 - **Blocage IP** : bloquer l'accès à des bots déjà identifiés, ou des sources habituelles d'intrusion.
 - **Rate-limiting** : limiter de manière statique ou dynamique le nombre de requêtes d'un même client sur un temps
-  donné. Le rate-limiting est à définir route par route
+  donné. Le rate-limiting est à définir route par route par l'équipe projet en charge de l'application.
 - **Observabilité applicative** : observer l'activité applicative grâce aux logs, pour déceler les comportements
   inhabituels et apprendre en continu. Une stratégie prudente vise à autoriser uniquement les comportements considérés
   comme habituels, plutôt que de bloquer les comportements inhabituels.
 
 ## Solutions anti-bots au niveau applicatif
 
-- **Captcha** : vise à distinguer les humains des bots par l'analyse en arrière-plan d'un faisceau d'indices (comme le
-  comportement de l'utilisateur) et/ou par un défi utilisateur visuel ou auditif. Le défi utilisateur est une vraie
-  douleur en terme d'ergonomie et d'accessibilité, et est de moins en moins efficace face à la complexité des bots. Le
-  choix d'une solution de captcha est un savant mélange entre ergonomie, accessibilité, sécurité, coût et performance.
-  L'avenir est aux solutions intelligentes et discrètes.
-- **Honeypot** : consiste à cacher un champ de formulaire qui n'est pas censé être utilisé. S'il est utilisé, le client
-  est considéré comme un bot. L'approche présente peu d'intérêt car il est facilement identifiable et contournable. Il
-  présente par ailleurs un problème bloquant d'accessibilité. Ne pas confondre Honeypot et
-  [Honey Bucket](https://dec.alaska.gov/eh/solid-waste/how-do-i-dispose-of/honeybucket-waste/) qui servent des objectifs
-  différents.
+- **Honeypot** : consiste à cacher un champ de formulaire qui n'est pas censé être utilisé. S'il est utilisé, le client web est considéré comme un bot. Le honeypot est cependant identifiable et contournable par un robot plus sophistiqué.
+Il peut présenter un problème d'accessibilité s'il n'est pas bien implémenté.
 - **2FA/MFA** : l'authentification à 2 facteurs, présentée à la connexion et/ou lors d'une opération sensible et
   constitue une protection anti-bots importante.
+- **Captcha** : vise à distinguer les humains des bots par l'analyse en arrière-plan d'un faisceau d'indices (comme le comportement de l'utilisateur) et/ou par un défi utilisateur visuel ou auditif. **Le défi utilisateur est une vraie douleur en terme d'ergonomie et d'accessibilité**, et est de moins en moins efficace face à la complexité des bots. L'avenir est aux solutions intelligentes et discrètes.
 
 ## Comparaison de différents Captcha
 
-- [**CaptchÉtat v2**](https://static.piste.gouv.fr/captchEtat/docs/CAPTCHA_v2_GUIDE_IMPLEMENTATION.pdf) (AIFE)
-  - Avantages : solution étatique, accessibilité prise en compte (ex : défi audio)
-  - Inconvénients : défi déclenché systématiquement, paramétrage dans PISTE
-  - Avis : tombe en désuétude, à voir si une v3 intelligente est prévue
 - [**Friendly Captcha**](https://friendlycaptcha.com/fr/#features)
-  - Avantages : analyse en arrière-plan (aucun défi utilisateur), RGPD, européen, accessible (relativement au WCAG
-    [d'après la déclaration de l'éditeur](https://friendlycaptcha.com/insights/captcha-accessibility/), non évalué au
-    RGAA)
-  - Inconvénients : payant (mais
+  - Avantages : analyse en arrière-plan (aucun défi utilisateur), RGPD, européen
+  - Inconvénients : non évalué au RGAA, payant (mais
     [référencé à l'UGAP](https://www.ugap.fr/editeurs-logiciels/friendly-captcha-gmbh-f31479))
-  - Avis : option viable
+  - Avis : option viable, mais à évaluer au RGAA
 - [**hCaptcha**](https://www.hcaptcha.com/#comprehensive)
   - Avantages : analyse en arrière-plan (défi déclenché si besoin), effort d'accessibilité
-  - Inconvénients : payant
-  - Avis : option viable
-- [**Cloudflare Turnstile**](https://www.cloudflare.com/application-services/products/turnstile/) (repose sur hcaptcha)
+  - Inconvénients : non évalué au RGAA, payant
+  - Avis : option viable, mais à évaluer au RGAA
+- [**Cloudflare Turnstile**](https://www.cloudflare.com/application-services/products/turnstile/)
   - Avantages : analyse en arrière-plan (aucun défi utilisateur), version gratuite
-  - Inconvénient : payant pour retirer le logo Cloudflare, plus lourd à installer (écosystème éditeur)
-  - Avis : option viable
+  - Inconvénient : non évalué au RGAA, payant pour retirer le logo Cloudflare
+  - Avis : option viable, mais à évaluer au RGAA
+- [**CaptchÉtat v2**](https://static.piste.gouv.fr/captchEtat/docs/CAPTCHA_v2_GUIDE_IMPLEMENTATION.pdf) (AIFE)
+  - Avantages : solution étatique, accessibilité partielle (ex : défi audio)
+  - Inconvénients : défi déclenché systématiquement, pas complètement accessible, paramétrage dans PISTE
+  - Avis : à éviter, sauf si une v3 intelligente est prévue
 - [**Google reCAPTCHA 3**](https://cloud.google.com/security/products/recaptcha)
   - Avantages : analyse en arrière-plan (défi déclenché si besoin), gratuit
   - Inconvénients : pas conforme RGPD, tracking commercial
