@@ -6,13 +6,12 @@ icon: bulb
 
 ## L'enjeu de cette démarche
 
-L'architecture est uniquement positionnée pour répondre aux enjeux de gestion du patrimoine applicatif du fait de sa
+L'architecture est positionnée pour répondre aux enjeux de gestion du patrimoine applicatif du fait de sa
 vision globale sur les applications, SI, services et les besoins auxquels ils répondent.
 
 A ce titre les objectifs principaux sont :
-
-- expliciter les critères de décision pour les ajouts de nouvelles applications
 - valoriser au mieux les solutions existantes
+- expliciter les critères de décision pour les ajouts de nouvelles applications
 - dessiner une trajectoire de convergence de notre parc vers la cible de notre stratégie
 - supporter l'organisation dans sa transformation sur la base de nos principes d'architecture
 
@@ -61,7 +60,7 @@ raisonnable de configuration on peut alors considérer l'adaptation d'une soluti
 <summary><strong>Développer</strong></summary>
   
 Quand le besoin est trop spécifique on peut alors considérer la construction d'un produit dédié pouvant porter cette
-fonction. 
+fonction.
 * Ce produit doit alors respecter nos [principes d'architectures](./principes.md) pour garantir sa valorisation dans le temps
 * Si des options de sécurité/hébergement spécifiques sont nécessaires alors l'option spécifique est préférable autrement
   une analyse technico-financière plus précise doit également être réalisée pour identifier si l'option "Acheter" est
@@ -73,9 +72,8 @@ fonction.
 <summary><strong>Acheter</strong></summary>
   
 Il peut être pertinent de choisir une solution tierce venant du privé pour répondre à certains besoins.
-
 - Dans ce cas sauf contraintes spécifiques le SaaS est à privilégier tant que celui-ci est en mesure de s'aligner avec
-  nos normes et standards applicables
+  nos normes et standards
 - Une réflexion doit être menée également sur la volonté ou non d'investir sur la solution en question vis-à-vis du
   reste de l'écosystème avec lequel il s'intègre s'il s'agit d'un besoin ponctuel (amélioration continue)
 
@@ -85,10 +83,7 @@ Il peut être pertinent de choisir une solution tierce venant du privé pour ré
 <summary><strong>Reformuler</strong></summary>
   
 Parfois un besoin peut être tellement spécifique qu'il devient déraisonnable techniquement ou financièrement de le
-traiter tel quel. Il convient alors de repartir du besoin initial et l'analyser de manière plus précise pour identifier
-une manière plus pragmatique d'approcher le sujet de manière plus itérative.
-
-De cette manière on arrive alors à créer un produit complet en partant d'une solution plus basique mais en restant
-aligné avec notre capacité à livrer.
+traiter tel quel. Il convient alors de repartir du besoin initial et l'analyser de manière plus objective pour identifier
+une manière plus pragmatique d'approcher le sujet.
 
 </details>

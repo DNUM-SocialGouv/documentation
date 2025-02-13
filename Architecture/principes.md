@@ -7,9 +7,9 @@ icon: bulb
 Il est impératif de poser quelques grands principes apportant des garanties sur les aspects techniques ou
 organisationnels afin de répondre à plusieurs ambitions :
 
-- proposer une meilleure expérience sur nos SI pour les citoyens et les agents
-- faciliter le travail des équipes de la DNUM et de nos partenaires
-- simplifier notre SI
+- Offrir une meilleure expérience sur nos SI pour les usagers et les agents
+- Faciliter le travail des équipes de la DNUM et de ses partenaires
+- Simplifier notre SI
 
 ## La raison d'être
 
