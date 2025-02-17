@@ -1,4 +1,4 @@
-# Hébergement & Cloud
+# Cloud
 
 ## Pourquoi une stratégie Hébergement et Cloud pour les ministères sociaux ?
 
