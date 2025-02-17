@@ -2,11 +2,11 @@
 
 ## Pourquoi une stratégie Hébergement et Cloud pour les ministères sociaux ?
 
-- Des enjeux de « modernisation » de l’action publique via la mise à disposition de services fluides et performants
+- Des enjeux de modernisation de l’action publique via la mise à disposition de services fluides et performants
 - Des besoins applicatifs forts, que ce soit en termes d’agilité ou de composantes technologiques, nécessitant des
   cibles Cloud et des modes de fonctionnement DevOps
-- Une doctrine de l’Etat faisant du Cloud le socle d’hébergement par défaut
-  [Doctrine Cloud au Centre](https://www.numerique.gouv.fr/services/cloud/doctrine/)
+- La [Doctrine Cloud au Centre](https://www.numerique.gouv.fr/services/cloud/doctrine/) de l’Etat faisant du Cloud le socle d’hébergement par défaut
+
 
 ## Les grands principes de la stratégie hébergement et Cloud de la DNUM
 

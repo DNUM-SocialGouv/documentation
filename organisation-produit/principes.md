@@ -39,7 +39,7 @@ sur ce qui est vraiment important et facilite ainsi la priorisation.
 
 ## À quoi servent les indicateurs ?
 
-Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.  
+Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.
 Fixer des indicateurs permet d’aligner toutes les parties prenantes sur la stratégie, de prendre des décisions éclairées
 et de s’améliorer en continu.
 
@@ -66,7 +66,7 @@ Les KPIs répondent à une question clé : « Est-ce que notre produit atteint l
 <details>
 <summary><strong>Les indicateurs d’impact</strong></summary>
 
-Ces indicateurs servent à évaluer les effets des initiatives produit sur les utilisateurs ou sur l’organisation. Ils
+Ces indicateurs servent à évaluer les effets des initiatives produit sur les usagers, les utilisateurs ou sur l’organisation. Ils
 permettent de valider que vos actions apportent une valeur réelle.
 
 ### Exemples °2 :
@@ -99,9 +99,9 @@ des signaux d'alerte pour garantir que vous avancez vers vos objectifs.
 
 **Distinction entre objectifs et indicateurs :**
 
-- **Les objectifs** définissent une ambition ou un résultat qualitatif précis (par exemple : améliorer l’expérience
+- **Les objectifs** définissent une ambition ou un résultat qualitatif précis (ex: améliorer l’expérience
   utilisateur, réduire le temps de traitement d’une tâche).
-- **Les indicateurs (ou KPIs)** mesurent l’avancement concret vers ces objectifs (par exemple : augmentation de 20 % de
+- **Les indicateurs (ou KPIs)** mesurent l’avancement concret vers ces objectifs (ex: augmentation de 20 % de
   la satisfaction utilisateur, réduction de 30 % du temps de traitement). {% endhint %}
 
 ---
@@ -121,10 +121,9 @@ offrant une méthode structurée pour améliorer et valider le produit à chaque
 
 - Dès la preuve de concept (POC), les équipes peuvent tester des idées, adapter les solutions à chaque retour et affiner
   les fonctionnalités.
-- Lors du MVP et du développement, les itérations permettent d’intégrer le feedback utilisateur et d’ajuster les
+- Lors du MVP et de la phase de construction, les itérations permettent d’intégrer le feedback utilisateur et d’ajuster les
   priorités.
-- Enfin, en phases d’industrialisation et de maturité, l’approche itérative permet d’optimiser le produit et de
-  prolonger sa valeur pour les utilisateurs finaux.
+- Enfin, en phase de généralisation, l’approche itérative permet d’optimiser le produit et de prolonger sa valeur pour les utilisateurs finaux.
 
 ---
 
@@ -133,8 +132,7 @@ offrant une méthode structurée pour améliorer et valider le produit à chaque
 ### Pourquoi une roadmap court terme ?
 
 Une roadmap court terme permet de définir une vision claire et actionnable sur une période limitée, généralement de 3 à 6
-mois.  
-Elle aide les équipes à prioriser les initiatives clés, à s’aligner sur des objectifs réalistes et à garder un cap
+mois. Elle aide les équipes à prioriser les initiatives clés, à s’aligner sur des objectifs réalistes et à garder un cap
 malgré les imprévus ou les évolutions rapides.
 
 ### Contenu d'une roadmap court terme
@@ -146,7 +144,7 @@ malgré les imprévus ou les évolutions rapides.
 
 #### Exemples :
 
-- Livraison d’un MVP d’une fonctionnalité critique dans les 3 prochains mois.
+- Livraison du MVP d’une fonctionnalité critique dans les 3 prochains mois.
 - Intégration de retours utilisateurs prioritaires collectés lors des tests.
 - Réduction du temps de traitement d’un processus interne clé d’ici 2 mois.
 
@@ -166,15 +164,14 @@ malgré les imprévus ou les évolutions rapides.
 ## Pourquoi structurer les rôles ?
 
 Une clarification des rôles et responsabilités permet d’assurer une coordination efficace, d’éviter les zones de flou et
-de maximiser la collaboration entre les membres de l’équipe produit.  
-Chaque rôle apporte une expertise et un regard spécifique, contribuant à la réussite du produit.
+de maximiser la collaboration entre les membres de l’équipe produit. Chaque rôle apporte une expertise et un regard spécifique, contribuant à la réussite du produit.
 
 ## Lister l'ensemble des personnes impliquées dans l'organisation du produit
 
 - Les équipes au sein de la DNUM
 - Les équipes "métiers"
 - Les équipes prestataires
-- Les parties prenantes
+- Les autres parties prenantes
 
 ## Bonnes pratiques pour gérer les rôles
 
