@@ -12,7 +12,7 @@ icon: floppy_disk
 
 ## Mapping objet-relationnel (ORM)
 
-Une application métier devrait systématiquement utiliser un framework de Mapping Objet-Relationnel (ORM) pour de
+Une application métier devrait utiliser un framework de Mapping Objet-Relationnel (ORM) pour de
 nombreuses raisons :
 
 - **Normalisation et réduction du code** d'accès aux données, meilleure maintenabilité (ex : renommage en un point) et
