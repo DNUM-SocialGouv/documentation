@@ -1,4 +1,4 @@
-Voici des exemples d'indicateurs par typologies de produit. Vous pouvez piochez ou vous inspirer de ces exemples pour
+Voici des exemples d'indicateurs par typologies de produit. Vous pouvez piocher ou vous inspirer de ces exemples pour
 construire vos indicateurs.
 
 <details>
