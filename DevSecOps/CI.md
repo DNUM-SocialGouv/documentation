@@ -12,7 +12,7 @@ La CI doit inclure :
   - Avoir un scenario complet "standard" en test end-to-end
   - Inclure des tests d'accessibilité pour le frontend
   - Pour le frontend, ajouter un test automatisé de Lighthouse (par exemple via une
-    [GitHub Action](https://github.com/GoogleChrome/lighthouse-ci)) et avoir obligatoirement un résultat de 100% pour
+    [GitHub Action](https://github.com/GoogleChrome/lighthouse-ci)) et avoir obligatoirement un résultat de 100 % pour
     l'accessibilité
 - [ ] le formatage du code (ex: prettier en js)
 - [ ] qualité de code (analyse statique du code)
