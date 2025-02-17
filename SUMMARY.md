@@ -32,7 +32,7 @@
   - [Normes et standards de design](Design/normes-et-standards.md)
 - [Développement](Developpement/README.md)
   - [Application cloud native](Developpement/cloud-native.md)
-  - [Dépendances projet](Developpement/dependances-projet.md)
+  - [Open Source](Developpement/open-source.md)
   - [Outillage sur les projets](Developpement/outillage-projet.md)
   - [Passation des projets](Developpement/passation.md)
   - [Tests et stratégies](Developpement/tests-et-strategies.md)
