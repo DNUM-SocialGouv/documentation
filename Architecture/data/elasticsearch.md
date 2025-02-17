@@ -1,16 +1,16 @@
-# Elasticsearch
+# ElasticSearch
 
-[Elasticsearch](https://www.elastic.co/fr/elasticsearch) est une base de données optimisée pour les recherches et
+[ElasticSearch](https://www.elastic.co/fr/elasticsearch) ou "ES" est une base de données optimisée pour les recherches et
 l'analytique.
 
 ## Questions à se poser
 
-Ci-dessous des questions à se poser lorsqu'il est considéré d'intégrer ElasticSearch dans une nouvelle stack, ou une
+Ci-dessous des questions à se poser lorsqu'il est considéré d'intégrer ES dans une nouvelle stack, ou une
 stack existante :
 
 ### Besoin
 
-- Quels besoins de l'application ElasticSearch couvre-t-il, et comment ?
+- Quels besoins de l'application ES couvre-t-il, et comment ?
 - PostgreSQL étant notre base de donnée relationnelle par défaut, comment ES se démarque-t-il dans la couverture des
   besoins ?
 
@@ -40,11 +40,11 @@ stack existante :
 
 ## Incident dû à la licence
 
-Elastic, l'entreprise proposant l'offre commerciale autour d'ELasticSearch et d'autres produits (Kibana, Logstash, etc.)
+Elastic, l'entreprise proposant l'offre commerciale autour d'ES et d'autres produits (Kibana, Logstash, etc.)
 a décidé en 2021 de ne plus proposer de mise à jour sous licence open-source. AWS (Amazon Web Services) lance alors,
 avec le soutien d'autres acteurs, [OpenSearch](https://aws.amazon.com/what-is/opensearch/), qui est un fork (déviation),
-une version basée sur la dernière version open-source d'Elasticsearch tout en continuant à la faire évoluer grâce à la
+une version basée sur la dernière version open-source d'ES tout en continuant à la faire évoluer grâce à la
 communauté.
 
-Depuis Elastic s'est ravisé et a proposé qu'Elasticsearch soit de nouveau
+Depuis Elastic s'est ravisé et a proposé qu'ES soit de nouveau
 [open-source](https://www.elastic.co/blog/elasticsearch-is-open-source-again) (sous conditions).

@@ -2,13 +2,13 @@
 icon: floppy_disk
 ---
 
-# Stockage et accès aux données
+# Stockage de données
 
 ## Choix par défaut pour le stockage de données
 
-- SGBDR : [PostgreSQL](outils/postgresql.md)
-- NoSQL : MongoDB
-- Stockage de documents : S3 compatible plutôt que NAS _Privilégier les stockages managés_ si l'hébergement le permet.
+- SGBDR : [PostgreSQL](/postgresql.md)
+- Stockage de documents : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet.
+- NoSQL : pas de besoin fort identifié à date
 
 ## Mapping objet-relationnel (ORM)
 

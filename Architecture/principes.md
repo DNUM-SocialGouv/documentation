@@ -47,11 +47,6 @@ unique système/SI agissant comme source de vérité pour l'ensemble des autres 
 de la création, gestion et consommation de la donnée. En valorisant au mieux les sources existantes il devient plus
 simple pour tous de simplifier l'expérience utilisateur ainsi que réduire nos problématiques d'intégration.
 
-### 3 - Sécurisé par défaut
-
-Une application doit proposer par défaut lors de sa conception le niveau de sécurité nécessaire pour ses utilisateurs et les
-systèmes qui en dépendent.
-
 ### 4 - Transparence et interdépendance
 
 Les applications communiquent clairement sur leurs évolutions, leur état de santé et proposent de la donnée (sous forme
