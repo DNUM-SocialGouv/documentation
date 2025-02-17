@@ -50,8 +50,17 @@ Pour répondre à ces typologies, 3 offres ont été identifiées :
 
 ## Plateforme Cloud FabNum
 
-- A venir
+- Plateforme type PaaS (on pousse du code, pas des images)
+- Sur cloud public OVH
+- Niveaux EBIOS 2-3-3-2
+- Services :
+  - Stockage objet
+  - BDD Managée ou pas
+  - Pas de NAS : considérer qu'il n'y a pas de système de fichier accessible aux applications
 
 ## Cegedim.Cloud
 
-- A venir
+- Plateforme IaaS/CaaS
+- Services
+  - Stockage objet
+  - BDD Managée ou pas
