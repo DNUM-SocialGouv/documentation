@@ -17,7 +17,7 @@ projet en collaboration avec le ou la cheffe de produit ainsi que les responsabl
 - [ ] **Cartographies des usages** (parcours en diagrammes, journey map, carte d'empathie, etc.) disponibles.
 - [ ] **Inspirations et adhérences** documentées (benchmark, solutions similaires ou associées).
 - [ ] **Vision de design** rédigée, claire et partagée avec les équipes.
-- [ ] **Maquettes 100% DSFR** ou nouveaux composants respectant le DSFR.
+- [ ] **Maquettes 100 % DSFR** ou nouveaux composants respectant le DSFR.
 - [ ] **Idéation** réalisée avec au moins 3 idées UX/UI pour chaque parcours principal.
 - [ ] **Tests utilisateurs** menés (au moins 5 tests par profil utilisateur).
 - [ ] **Accessibilité** prise en compte dans les designs et annotations ajoutées.
@@ -96,7 +96,7 @@ qualité d'expérience utilisateurs.
 
 ---
 
-### 6. **100% DSFR, le système de design de l'état français**
+### 6. **100 % DSFR, le système de design de l'état français**
 
 Le Design System est obligatoire pour les sites communiquant au nom de l'État (en .gouv.fr).
 
@@ -154,7 +154,7 @@ hypothèses avec vos utilisateurs. Ressource utile :
 
 {% hint style="info" %} **Astuce :** Pensez à organiser les maquettes en parcours utilisateurs afin de faciliter la
 compréhension par les développeurs. **A noter :** Même si votre application n'est utilisable que sur ordinateur, elle
-doit pouvoir être utilisable à un zoom de 200% {% endhint %}
+doit pouvoir être utilisable à un zoom de 200 % {% endhint %}
 
 ---
 
