@@ -51,9 +51,9 @@ usagers à chaque étape de développement.
 
 {% hint style="info" %}
 
-- Votre expert en RU vous guide pas à pas dans le déploiement de la démarche
-- Nos méthodes sont peu invasives, elle nécessite votre mobilisation qu'à des moments bien préçis
-- 8 jours environs sont nécessaires à nos experts pour vous livrer les résultats des tests utilisateurs {% endhint %}
+- Votre expert en RU vous guide pas-à-pas dans le déploiement de la démarche
+- Nos méthodes sont peu invasives, elles ne nécessitent votre mobilisation qu'à des moments bien précis
+- 8 jours environ sont nécessaires à nos experts pour vous livrer les résultats des tests utilisateurs {% endhint %}
 
 ---
 
