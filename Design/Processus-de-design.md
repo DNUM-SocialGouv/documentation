@@ -6,7 +6,7 @@ hypothèses avant le lancement des développements.
 
 ## Nos utilisateurs
 
-Nous concevons pour les usagers suivants :
+Nous concevons pour les utilisateurs suivants :
 
 - Usagers particuliers (citoyens) : Cherchent des services administratifs (allocations, déclarations, informations) et
   ont besoin d’une navigation simple, claire et inclusive.
@@ -15,7 +15,7 @@ Nous concevons pour les usagers suivants :
   formation.
 - Agents publics : Agents d'ARS ou de DREETs qui utilisent des outils internes pour exécuter leurs missions. Leurs
   attentes sont orientées vers la performance, la simplicité et un besoin en formation minimal.
-- Partenaires Métier : Profils spécifiques au sein des ministères (juristes, pilotes de politique public, etc.) ou des
+- Partenaires métier : Profils spécifiques au sein des ministères (juristes, pilotes de politique public, etc.) ou des
   collectivités locale (Directions Départementales, Directions Régionales) avec des besoins parfois complexes ou
   inédits.
 

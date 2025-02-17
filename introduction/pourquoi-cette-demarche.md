@@ -34,5 +34,5 @@ Nous souhaitons donc expérimenter avec la mise en place d'un nouveau cadre orga
 2. Construire un **catalogue de standards et de communs numériques** et ainsi identifier les points de mutualisation
    entre différents besoins ou services (librairies, plateformes, référentiels)
 3. **[Accompagner les équipes](https://msociauxfr.sharepoint.com/teams/ProductTeams-DevDesignAccessibilitRechercheutilisateurCoachi/SitePages/Accueil.aspx)**
-   en continu pour offrir un appui technique, d'architecture, de DevSecOps, de data, de design, d'accessibilité, de
+   en continu pour offrir un appui technique, d'architecture, de DevSecOps, de gestion des données, de design, d'accessibilité, de
    recherche utilisateur

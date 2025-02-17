@@ -2,7 +2,7 @@
 
 La vision produit exprime de manière claire et inspirante l'objectif ultime que le produit cherche à atteindre, ainsi
 que la valeur qu'il apporte aux utilisateurs et à l'organisation. Elle définit un cap clair, aligné avec les priorités
-des ministères sociaux et les besoins des usagers (qu’il s’agisse des citoyens, agents publics ou métiers).
+des ministères sociaux et les besoins des utilisateurs, qu’il s’agisse des usagers (citoyens et entreprises) ou des agents publics.
 
 ## Pourquoi c’est important ?
 
@@ -16,10 +16,10 @@ sur ce qui est vraiment important et facilite ainsi la priorisation.
 **Bonnes pratiques :**
 
 - Co-construite avec les équipes (métiers, chefs de produit...) afin d'engager les parties prenantes et garantir
-  l'alignement
-- Définir une vision inspirante avec les parties prenantes et la formuler sous forme de phrase concise et compréhensible
+  l'alignement.
+- Définir une vision inspirante avec les parties prenantes et la formuler en une phrase concise et compréhensible
   par tous. Elle doit pouvoir être communiquée sans ambiguïté.
-- Définir des objectifs ambitieux, mais réalistes, clairs et compréhensibles par tous
+- Définir des objectifs ambitieux, mais réalistes, clairs et compréhensibles par tous.
 - Itérer et ajuster : une vision peut évoluer en fonction des retours utilisateurs, et des changements d’environnement.
   Il est essentiel de la revisiter régulièrement pour s’assurer qu’elle reste pertinente.
 
@@ -59,8 +59,7 @@ concrets et mesurables.
 - Audience.
 - NPS (Net Promoter Score) ou note de satisfaction pour mesurer la satisfaction client.
 
-Les KPIs répondent à une question clé :  
-« Est-ce que notre produit atteint les résultats attendus ? »
+Les KPIs répondent à une question clé : « Est-ce que notre produit atteint les résultats attendus ? »
 
 </details>
 
@@ -133,7 +132,7 @@ offrant une méthode structurée pour améliorer et valider le produit à chaque
 
 ### Pourquoi une roadmap court terme ?
 
-Une roadmap court terme permet de définir une vision claire et actionable sur une période limitée, généralement de 3 à 6
+Une roadmap court terme permet de définir une vision claire et actionnable sur une période limitée, généralement de 3 à 6
 mois.  
 Elle aide les équipes à prioriser les initiatives clés, à s’aligner sur des objectifs réalistes et à garder un cap
 malgré les imprévus ou les évolutions rapides.

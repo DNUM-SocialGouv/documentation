@@ -5,9 +5,9 @@ les besoins** et les contextes d’usage avant toute phase de conception.
 
 ## Méthode
 
-- **Entretiens qualitatifs** : recueillir les attentes et les retours d’expérience des usagers pour cerner leurs
+- **Entretiens qualitatifs** : recueillir les attentes et les retours d’expérience des utilisateurs pour cerner leurs
   priorités.
-- **Observation** : comprendre le contexte réel de travail des usagers du produit pour identifier les contraintes
+- **Observation** : comprendre le contexte réel de travail des utilisateurs du produit pour identifier les contraintes
   spécifiques (matérielles, organisationnelles, environnementales) et observer leur utilisation du produit en condition.
 
 ## Mise en place
@@ -22,7 +22,7 @@ les besoins** et les contextes d’usage avant toute phase de conception.
 {% hint style="info" %}
 
 - Votre expert en RU vous guide pas à pas dans le déploiement de la démarche
-- Nos méthodes sont peu invasives, elle nécessite votre mobilisation qu'à des moments bien préçis
+- Nos méthodes sont peu invasives, elle nécessite votre mobilisation qu'à des moments bien précis
 - 12 jours environs sont nécessaires à nos experts pour vous livrer la restitution de l'exploration {% endhint %}
 
 ---
@@ -30,7 +30,7 @@ les besoins** et les contextes d’usage avant toute phase de conception.
 # Des tests utilisateurs en amélioration continue
 
 Les tests utilisateurs récurrents garantissent **une amélioration continue des interfaces** en intégrant les retours des
-usagers à chaque étape de développement.
+utilisateurs à chaque étape de développement.
 
 ## Méthode
 
@@ -75,7 +75,7 @@ Le F-SUS (French System Usability Scale) est une échelle normalisée permettant
 interfaces numériques. Il s’appuie sur un questionnaire simple (7 questions fermées) rempli par les utilisateurs après
 un test de l’interface.
 
-**Un score supérieur à 65 indique que l’interface est fonctionnelle, intuitive et bien acceptée** par les usagers du
+**Un score supérieur à 65 indique que l’interface est fonctionnelle, intuitive et bien acceptée** par les utilisateurs du
 produit. Il constitue une norme reconnue internationalement pour évaluer la qualité de l’expérience utilisateur.
 
 ### Méthode

@@ -100,7 +100,7 @@ performance à travers des graphiques, des rapports et des statistiques en temps
 **👊 Indicateurs d'impact**
 
 - ==> Déclaratif (enquêtes de sat...) ou tracking (ex: export...)
-- Proportion des tableaux de bord utilisés activement par les demandeurs (ex: réunions, ateliers, reportings...)
+- Proportion des tableaux de bord utilisés activement par les demandeurs (ex: réunions, ateliers, rapports...)
 - Nb d'insights, actions ou décisions directement prises à partir des tableaux de bord
 - l'app répond aux besoins des métiers
 </details>
@@ -137,15 +137,15 @@ faciliter l'accès et l'utilisation des données par différents services ou uti
 - Sat utilisateur (sur la simplicité d'utilisation, documentation, intégration...)
 - Taux de dispo de l'app (% de temps où elle est opérationnelle sans interruption)
 - Taux d'erreurs des requêtes (part des requêtes qui ont échoué vs requêtes reçues)
-- Volume de data partagée sur une période ==> jour/semaine ?
+- Volume de données partagées sur une période ==> jour/semaine ?
 
 **👊 Indicateurs d'impact**
 
 - % d'apps/utilisateurs actifs ==> C'est à dire le nb d'apps/utilisateurs qui utilisent l'app de mise à dispo de données
-  sur une fréquence/periode donnée vs le nb d'apps/utilisateurs qui ont accès à l'app de mise à dispo des données
+  sur une fréquence/période donnée vs le nb d'apps/utilisateurs qui ont accès à l'app de mise à dispo des données
 - Nb de nouveaux cas d'usage identifiés grâce à la date/déclaratif (ajustement des politiques pub)
-- Utiliser = faire des requêtes et/ou intégrer les données pour les exploiter et générer de nouveaux reportings
-- Actif ==> définir la fréquence/periode (par jour, sur un trimestre..)
+- Utiliser = faire des requêtes et/ou intégrer les données pour les exploiter et générer de nouveaux rapports
+- Actif ==> définir la fréquence/période (par jour, sur un trimestre...)
 
 </details>
 
@@ -158,7 +158,7 @@ générer des rapports détaillés, des analyses et des prévisions basées sur 
 **🎯Indicateurs de succès**
 
 - Sat utilisateur ("je donne mon avis")
-- % d'utilisateurs actifs vs nb total enregistrés==> "actif" à définir selon sujet (ex: mensuel, hebdo..)
+- % d'utilisateurs actifs vs nb total enregistrés==> "actif" à définir selon sujet (ex: mensuel, hebdo...)
 
 **👊 Indicateurs d'impact**
 
@@ -178,7 +178,7 @@ production et la gestion de documents imprimés ou numériques personnalisés, s
 **🎯Indicateurs de succès**
 
 - Sat utilisateur ("je donne mon avis")
-- Taux d'utiisateurs actifs ==> "actif" à définir selon sujet (ex: mensuel, hebdo..)
+- Taux d'utilisateurs actifs ==> "actif" à définir selon sujet (ex: mensuel, hebdo..)
 - Taux d'usage des fonctionnalités collaboratives (partage, gestion des droits...)
 
 **👊 Indicateurs d'impact**

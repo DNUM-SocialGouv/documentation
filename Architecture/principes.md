@@ -49,7 +49,7 @@ simple pour tous de simplifier l'expérience utilisateur ainsi que réduire nos 
 
 ### 3 - Sécurisé par défaut
 
-Une application doit proposer par défaut lors de sa conception le niveau de sécurité nécessaire pour ses usagers et les
+Une application doit proposer par défaut lors de sa conception le niveau de sécurité nécessaire pour ses utilisateurs et les
 systèmes qui en dépendent.
 
 ### 4 - Transparence et interdépendance

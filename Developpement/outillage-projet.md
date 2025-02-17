@@ -1,6 +1,6 @@
 # Outillage sur les projets
 
-## Managers de packages
+## Gestionnaires de packages
 
 ### Java
 

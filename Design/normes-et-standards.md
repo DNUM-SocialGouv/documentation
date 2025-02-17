@@ -33,8 +33,8 @@ garantir une collaboration fluide et un produit final de qualité ! {% endhint %
 
 ## Etapes essentielles
 
-Ce guide rassemble les étapes essentielles à suivre, de la compréhension des usagers jusqu’à la mise en accessibilité.
-Il permet une collaboration fluide entre les parties prenantes et assure que nos produits répondent aà nos exigences de
+Ce guide rassemble les étapes essentielles à suivre, de la compréhension des utilisateurs jusqu’à la mise en accessibilité.
+Il permet une collaboration fluide entre les parties prenantes et assure que nos produits répondent à nos exigences de
 qualité d'expérience utilisateurs.
 
 ---
