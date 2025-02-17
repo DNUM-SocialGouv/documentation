@@ -3,7 +3,7 @@
 L'enjeu est d'identifier les différentes menaces impliquant des bots (automates logiciels) et les solutions pour y faire
 face.
 
-## Enjeux et menaces dans le contexte du Ministère
+## Enjeux et menaces dans notre contexte
 
 Les bots sont prévus pour mener différents types d'attaques et servent différents objectifs malveillants :
 
