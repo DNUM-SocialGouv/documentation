@@ -16,7 +16,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
       - envisager d'enrichir GLPI ou demander son adaptation
       - envisager le développement spécifique complet du back-office
 - **Projet Référentiel**
-  - Soit GLPI pour les besoins simple (gestion de parc, inventaire) sans contrôle précis sur la modélisation des données en base
+  - Soit GLPI pour les besoins simples (gestion de parc, inventaire) sans contrôle précis sur la modélisation des données en base
   - Soit développement spécifique
 
 ## Nos communs numériques
