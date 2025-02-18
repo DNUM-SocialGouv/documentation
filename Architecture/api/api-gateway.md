@@ -1,7 +1,7 @@
 # API Gateway
 
 L'API Management répond à de nombreux enjeux autour des APIs. Le sous-domaine API Gateway adresse les enjeux
-d'interopérabilité et de sécurisation des échanges. Une API Gateway peut-être vu comme un **middleware de type Reverse
+d'interopérabilité et de sécurisation des échanges. Une API Gateway peut être vue comme un **middleware de type Reverse
 Proxy, spécialisé dans l'exposition d'API**
 
 ## Fonctionnalités d'une API Gateway

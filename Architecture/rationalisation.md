@@ -31,7 +31,7 @@ La sécurité (ex: besoin d'hébergement HDS) et la gouvernance (ex: PISTE@DGFIP
 ## 2. Adapter
 
 **Adresser le besoin par l'évolution raisonnable et maitrisée d'une solution existante.**
-La solution à adapter et à redéployer peut-être :
+La solution à adapter et à redéployer peut être :
 - une application interne (ex?)
 - une solution open source interministérielle (ex: Démat Social comme fork de Démarches Simplifiées, Sites Faciles)
 - une solution open source grand public (ex: GLPI, Keycloack)
