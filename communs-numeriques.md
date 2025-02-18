@@ -24,7 +24,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
 - [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé au MAS.
 - [**GLPI**](https://glpi-project.org/fr/) est une solution open source générique de gestion de parc matériel et de gestion de demandes et incidents
 
-## Différences entre Démarches Simplifiées et Démat Social
+## Ecarts entre Démarches Simplifiées et Démat Social
 |                                     | [Démarches Simplifiées](https://www.demarches-simplifiees.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                              |
 | ----------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | Entité responsable                  | SPM/DINUM                                                      | MAS/DNUM                                                                                   |
