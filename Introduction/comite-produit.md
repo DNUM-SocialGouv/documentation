@@ -1,7 +1,6 @@
 # Comité produit
 
-{% hint style="warning" %} **Le comité produit est toujours en version "bêta" et son organisation est susceptible
-d'évoluer. Il se réunit chaque semaine depuis le 1ᵉʳ octobre 2024.** {% endhint %}
+{% hint style="warning" %} **Le comité produit est toujours en version "bêta" et son organisation est susceptible d'évoluer. Il se réunit chaque semaine depuis le 1ᵉʳ octobre 2024.** {% endhint %}
 
 <mark style="background-color:purple;">**Le comité produit accompagne et soutient les équipes en identifiant leurs
 besoins, en les orientant, en les aidant et surtout en leur proposant des solutions.**</mark>
