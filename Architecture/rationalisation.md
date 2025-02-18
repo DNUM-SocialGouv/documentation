@@ -16,7 +16,7 @@ Ses principaux objectifs sont :
 
 ## Processus RADAR pour une nouvelle application
 
-**RADAR pour Réutiliser, Adapter, Développer, Acheter et Reformuler** est un framework simple pour adresser l'obsolescence et la rationalisation des applications. L'objectif est de fournir des orientations sur la meilleure manière de traiter un besoin métier ou technique à travers une solution
+**RADAR pour Réutiliser, Adapter, Développer, Acheter et Reformuler** est un moyen mnémotechnique simple pour adresser la complexité et la rationalisation des applications. L'objectif est de fournir des orientations sur la meilleure manière de traiter un besoin métier ou technique à travers une solution
 technologique.
 
 ## 1. Réutiliser
