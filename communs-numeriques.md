@@ -16,7 +16,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
       - envisager d'enrichir GLPI ou demander son adaptation
       - envisager le développement spécifique complet du back-office
 - **Projet Référentiel**
-  - Soit GLPI pour les besoins simple (gestion de parc, inventaire) sans contrôle précis sur la modélisation des données en base
+  - Soit GLPI pour les besoins simples (gestion de parc, inventaire) sans contrôle précis sur la modélisation des données en base
   - Soit développement spécifique
 
 ## Nos communs numériques
@@ -24,7 +24,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
 - [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé au MAS.
 - [**GLPI**](https://glpi-project.org/fr/) est une solution open source générique de gestion de parc matériel et de gestion de demandes et incidents
 
-## Différences entre Démarches Simplifiées et Démat Social
+## Ecarts entre Démarches Simplifiées et Démat Social
 |                                     | [Démarches Simplifiées](https://www.demarches-simplifiees.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                              |
 | ----------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | Entité responsable                  | SPM/DINUM                                                      | MAS/DNUM                                                                                   |

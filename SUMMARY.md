@@ -9,7 +9,7 @@
   - [Exemples d'indicateurs](organisation-produit/indicateurs.md)
 - [Architecture](Architecture/README.MD)
   - [Principes d'architecture](Architecture/principes.md)
-  - [Démarche de rationalisation](Architecture/demarche.md)
+  - [Démarche de rationalisation](Architecture/rationalisation.md)
   - [API](Architecture/api/README.md)
     - [Normes](Architecture/api/api-normes.md)
     - [Exposition](Architecture/api/api-exposition.md)
