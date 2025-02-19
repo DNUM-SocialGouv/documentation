@@ -35,3 +35,40 @@ Si l'application utilise des contextes, nous testons chaque composant, onglet et
 
 1. Avec les valeurs par défaut du contexte ;
 2. Avec des valeurs différentes.
+
+## Back(Nodejs)
+
+### Outilliage
+
+Pour tester un backend en TypeScript, nous d'utilisons [Jest](https://jestjs.io/) comme framework principal. 
+Jest offre une excellente compatibilité avec TypeScript, des fonctionnalités de mocking avancées et un écosystème mature.
+Cependant, d'autres outils comme [Vitest](https://vitest.dev/guide/) peuvent également être utilisés si vous souhaitez 
+bénéficier de meilleures performances dans certains scénarios.
+
+**Outils recommandés**  
+
+- Jest : Framework de test principal.
+- [Supertest](https://www.npmjs.com/package/supertest) : Pour tester vos routes HTTP.
+- [MSW](https://mswjs.io/) : Pour simuler les appels API externes.
+- [Sinon](https://sinonjs.org/) : Pour créer des spies, stubs et mocks afin de tester le comportement des fonctions, 
+des dépendances et des appels d’API sans réellement exécuter leur logique complète.
+- [ts-jest](https://www.npmjs.com/package/ts-jest) : Pour gérer le transpileur TypeScript.
+
+### Stratégie
+
+1. **Les tests unitaires** doivent couvrir chaque fonction ou méthode isolée. 
+Utilisez des mocks pour simuler les dépendances externes (bases de données, services tiers, etc.).
+
+2. **Tests d'intégration** ces tests vérifient l’interaction entre plusieurs modules (routes, contrôleurs, services, etc.).
+
+3. **Tests de bout en bout** (E2E) ces tests vérifient l'ensemble du flux applicatif, du point d'entrée (API ou interface)
+aux couches inférieures (base de données, services externes, etc.). 
+Utilisez des outils comme Supertest pour tester vos API.
+- Tests des erreurs :
+Testez systématiquement les scénarios d'erreur :
+    - Réponses 4XX (erreurs utilisateur)
+    - Réponses 5XX (erreurs serveur)
+- Utilisation de bases de données en mémoire :
+Pour éviter d'utiliser une base de données réelle, employez des solutions comme **SQLite** en mémoire
+ou des librairies **comme Mongo Memory Server**.
+
