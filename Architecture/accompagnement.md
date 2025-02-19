@@ -1,7 +1,16 @@
 # Accompagnement technique
 
-## Nos engagements
-Quelle que soit l'accompagnement que nous vous proposons, nos engagements sont les mêmes :
+# Offre d'accompagnement technique
+Nous proposons différents accompagnements techniques pour répondre à chacune de vos situations
+- **Orientation** : réponse à une question rapide, à une demande d'orientation
+- **Second avis sur un devis** : analyse et recommandations sur le devis d'un sous-traitant
+- **Problème technique** : diagnostic et recommandations sur un problème technique ou de performance
+- **Accompagnement d'architecture** : accompagnement complet pour la définition de l'architecture de votre produit
+- **Mise en œuvre** : nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec votre équipe
+Pour une information détaillée, rdv sur la [page dédiée aux offres](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Technologie.aspx)
+
+## Engagements de l'équipe
+Quelle que soit l'accompagnement proposé, nos engagements sont les mêmes :
 - Nous faisons notre maximum pour ne pas ralentir votre projet
 - Nous assumons pleinement toutes nos préconisations
 - Nous ne nous substituons pas aux experts du projet
@@ -12,7 +21,7 @@ Quelle que soit l'accompagnement que nous vous proposons, nos engagements sont l
 Vous formulez une demande d'accompagnement par le canal de votre choix :
 - Sur la page du [Bureau Design et Développement](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/AccueilDD.aspx)
 - Par email à l'un des membres du bureau (adresse partagée à venir)
-- Oralement lors d'un Comité Produit
+- Sous forme de décision lors d'un Comité Produit
 
 ## 2. Cadrage
 - **Prise de connaissance** : nous prenons connaissance de votre demande et du DA du projet, s'il existe.
@@ -27,6 +36,6 @@ Vous formulez une demande d'accompagnement par le canal de votre choix :
 - **Livrable** : email récapitulatif ou document de synthèse
 
 ## 4. Conclusion
-- **Feedback** : nous collectons votre feedback formel ou informel
+- **Feedback** : nous recueillons votre feedback formel ou informel
 - **Capitalisation** : nous tirons des enseignements de l'accompagnement, et mettons à jour cette documentation, pour en faire profiter les autres projets
 - **Suivi** : nous menons des actions de suivi à votre demande ou de manière opportune
