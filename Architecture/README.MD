@@ -25,7 +25,7 @@ L'architecture a 3 missions principales pour la DNUM et son écosystème :
   [DevSecOps](../DevSecOps/README.md) et [hébergement](../Hebergement/README.md)
 - Travailler à l'amélioration continue des SI et applications en développant un catalogue de solutions réutilisables et
   d'offres de services communes centrés sur des cas d'usages s'inscrivant dans une
-  [démarche de rationalisation](./demarche.md)
+  [démarche de rationalisation](./rationalisation.md)
 - Accompagner les équipes projets dans leurs besoins via notre offre de services
 
 ## Grands principes

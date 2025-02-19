@@ -1,7 +1,3 @@
----
-icon: bulb
----
-
 # Démarche de rationalisation
 
 ## Enjeu et objectifs
