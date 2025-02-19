@@ -18,7 +18,7 @@ informations, outils et méthodes dont ils ont besoin pour interagir de manière
 
 ### Les missions de l'architecture dans l'organisation
 
-L'architecture à 3 missions principales pour la DNUM et son écosystème :
+L'architecture a 3 missions principales pour la DNUM et son écosystème :
 
 - Faire vivre un référentiel de standards et normes partagés sur son périmètre et en alignement avec les autres parties
   prenantes en particulier concernant les aspects [développement](../Developpement/README.md),
