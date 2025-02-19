@@ -21,4 +21,4 @@ nombreuses raisons :
   éventuellement d'un cache de niveau 1 pour les données métier vivantes (transactions)
 - **Sécurisation** : protection native contre les injections SQL et les rafales de requêtes
 - Moindre adhérence à la technologie de base de données\
-  _ex : Hibernate_
+  _ex : Hibernate pour Java, TypeORM pour TypeScript_
