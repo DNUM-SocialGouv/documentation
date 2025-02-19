@@ -13,7 +13,7 @@ L'architecture est à la croisée des chemins entre les différents métiers du 
 rarement en isolation, il s'inscrit dans un écosystème complexe. Que ce soit sur la partie amont lors
 de la captation du besoin ou pendant les phases de développement voire de maintenance, les architectes sont là pour
 **fluidifier les échanges** entre équipes et s'assurer de l'adéquation entre le besoin et la façon d'y répondre. Pour se
-faire l'architecture se positionne comme un accélérateur pour fournir aux chefs de produits/projets et leurs équipes les
+faire, l'architecture se positionne comme un accélérateur pour fournir aux chefs de produits/projets et leurs équipes les
 informations, outils et méthodes dont ils ont besoin pour interagir de manière sereine avec notre écosystème.
 
 ### Les missions de l'architecture dans l'organisation
