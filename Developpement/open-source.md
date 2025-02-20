@@ -2,12 +2,13 @@
 
 ## Code source ouvert par défaut
 
-**code source ouvert par défaut** sur GitHub pour toutes les nouvelles applications, sauf contrainte de sécurité motivée.
+**Le code source est ouvert par défaut** sur GitHub pour toutes les nouvelles applications, sauf contrainte de sécurité
+motivée.
 
-# Les dépendances projet
+## Les dépendances projet
 
-L'ouverture par défaut s'étend également aux dépendances projet :
-les bibliothèques logicielles utilisées pour assurer le fonctionnement des produits.
+L'ouverture par défaut s'étend également aux dépendances projet : les bibliothèques logicielles utilisées pour assurer
+le fonctionnement des produits.
 
 Ces bibliothèques sont utilisées par exemple : pour la génération de fichiers PDF, l'envoi de mails, la génération de
 contrat d'API, etc.
