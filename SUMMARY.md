@@ -30,7 +30,7 @@
   * [Intro](Accessibilite/introduction.md)
   * [Développement](Accessibilite/developpement.md)
 * [Design et Recherche Utilisateur](Design/README.MD)
-  * [Processus général](design/processus-general.md)
+  * [Processus général](Design/processus-general.md)
   * [Recherche Utilisateur](Design/RU/README.md)
     * [Principes](Design/RU/RU_principes.md)
     * [Application](Design/RU/RU_application.md)
