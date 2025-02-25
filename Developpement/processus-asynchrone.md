@@ -4,7 +4,8 @@
 2. [Avantages et inconvénients](#avantages-et-inconvénients)
 3. [Quand utiliser un fonctionnement asynchrone](#quand-utiliser-un-fonctionnement-asynchrone)
 4. [Quels moyens de récupérer une information](#quels-moyens-de-récupérer-une-information)
-5. [En conclusion](#en-conclusion)
+5. [Considérations non-techniques](#considérations-non-techniques)
+6. [En conclusion](#en-conclusion)
 
 ---
 
@@ -97,6 +98,6 @@ Ces éléments sont en général fréquents dans des applications de type e-comm
 
 ## Quels moyens de récupérer une information
 
-## Considérations autres que techniques
+## Considérations non-techniques
 
 ## En conclusion
