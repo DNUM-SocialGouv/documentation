@@ -98,6 +98,38 @@ Ces éléments sont en général fréquents dans des applications de type e-comm
 
 ## Quels moyens de récupérer une information
 
+### Requêtes à intervalles réguliers, ou "polling"
+
+Le principe de ce moyen est de faire une requête à intervalles réguliers au serveur afin de récupérer les dernières
+informations.
+
+![polling.png](img/polling.png)
+
+Pour un intervalle de 5 secondes :
+
+- Le client effectue une requête,
+- Le serveur répond qu'elle a été prise en compte,
+- Le serveur la traite,
+- Le client effectue toutes les 5 secondes une requête pour vérifier la présence du résultat,
+- Si le résultat n'est pas prêt, le client effectue un nouvel essai 5 secondes plus tard,
+- Si le résultat est disponible, le client peut arrêter de re-demander et traite l'information.
+
+Si la ressource est mise à jour par une autre source, alors le polling peut continuer pour récupérer la donnée la plus à
+jour, jusqu'à quitter la page.
+
+Les avantages de cette manière sont que ce n'est pas coûteux et facile à implémenter.
+
+En revanche, si l'information n'est pas disponible rapidement, le client va lancer un certain nombre de requêtes afin
+d'obtenir ce qu'il veut. De plus, l'utilisateur devra rester sur son application, voire sa page, pour récupérer
+l'information. Enfin, cette application doit avoir au moins 2 points d'entrées : l'un pour lancer un traitement, et un
+nombre suffisant pour récupérer les autres informations.
+
+### Connexion persistante unidirectionnelle, ou "Server-sent events"
+
+### Connexion persistante bidirectionnelle, ou "Websockets"
+
+### Notifications push
+
 ## Considérations non-techniques
 
 ## En conclusion
