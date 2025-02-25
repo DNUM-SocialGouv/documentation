@@ -1,5 +1,13 @@
 # Processus asynchrone
 
+1. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
+2. [Avantages et inconvénients](#avantages-et-inconvénients)
+3. [Quand utiliser un process asynchrone](#quand-utiliser-un-process-asynchrone)
+4. [Quels moyens de récupérer une information](#quels-moyens-de-récupérer-une-information)
+5. [En conclusion](#en-conclusion)
+
+---
+
 ## Différences avec un processus synchrone
 
 Dans le cas d'un processus synchrone, lorsqu'un utilisateur utilise une interface pour envoyer une requête quelconque,
@@ -37,6 +45,15 @@ Pour résumer les différences :
 
 ## Avantages et inconvénients
 
+Un mode de fonctionnement asynchrone a plusieurs avantages. Le premier est le fait que l'utilisateur peut continuer
+d'utiliser le produit sans pour autant attendre la fin d'un long processus. 
+
+Similairement au premier avantage, un désavantage de ce type de fonctionnement est la **fraîcheur des données** : le
+temps de traitement pouvant être indéfini, il faudra récupérer dans un second temps les données les plus à jour. Cela
+pourra être contraignant si ce fonctionnement se fait dans le cadre d'un processus bloquant.
+
 ## Quand utiliser un process asynchrone
 
 ## Quels moyens de récupérer une information
+
+## En conclusion
