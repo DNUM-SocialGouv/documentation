@@ -126,6 +126,8 @@ nombre suffisant pour récupérer les autres informations.
 
 ### Connexion persistante unidirectionnelle, ou "Server-sent events"
 
+![SSE.png](img/SSE.png)
+
 ### Connexion persistante bidirectionnelle, ou "Websockets"
 
 ### Notifications push
