@@ -27,6 +27,14 @@ pourra continuer d'utiliser le produit.
 4. L'utilisateur a de nouveau la main pour manipuler l'interface,
 5. Le serveur a terminé de traiter la requête et le résultat est disponible.
 
+Pour résumer les différences :
+
+1. Le serveur rend la main à l'utilisateur afin qu'il puisse continuer d'utiliser l'application,
+2. Le serveur choisit le moment le plus opportun pour traiter la requête,
+3. La réponse n'est pas renvoyée aussitôt, mais peut être récupérée dans un second temps par l'utilisateur.
+   1. Comme indiqué [plus bas](#quels-moyens-de-récupérer-une-information), la réponse pourra également être renvoyée
+      l'utilisateur dans un temps indéfini.
+
 ## Avantages et inconvénients
 
 ## Quand utiliser un process asynchrone
