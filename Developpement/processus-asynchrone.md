@@ -2,7 +2,7 @@
 
 1. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
 2. [Avantages et inconvénients](#avantages-et-inconvénients)
-3. [Quand utiliser un process asynchrone](#quand-utiliser-un-process-asynchrone)
+3. [Quand utiliser un fonctionnement asynchrone](#quand-utiliser-un-fonctionnement-asynchrone)
 4. [Quels moyens de récupérer une information](#quels-moyens-de-récupérer-une-information)
 5. [En conclusion](#en-conclusion)
 
@@ -81,8 +81,22 @@ processus, etc. Cela pourra avoir des impacts sur l'expérience utilisateur.
 | Souvent performant               | Complexité technique variable selon les solutions choisies |
 |                                  | Gestion des erreurs                                        |
 
-## Quand utiliser un process asynchrone
+## Quand utiliser un fonctionnement asynchrone
+
+Voici quelques éléments qui pourraient indiquer qu'un mode de fonctionnement asynchrone serait pertinent :
+
+- Nous avons une tâche qui prend plusieurs secondes avant de se terminer (au moins environ 10 secondes) ou nous ne
+  savons au bout de combien de temps elle pourra aboutir,
+- Nous faisons appel à des systèmes (tierces) qui ont un temps de réponse élevé, ou indéfini,
+- Des systèmes tierces ont eux-mêmes un fonctionnement asynchrone et nous devons avoir un fonctionnement compatible pour
+  s'intégrer avec eux.
+
+Ces éléments sont en général fréquents dans des applications de type e-commerce.
+
+À noter que lorsqu'il est possible de ne pas avoir de processus asynchrone, il est préférable de s'en passer.
 
 ## Quels moyens de récupérer une information
+
+## Considérations autres que techniques
 
 ## En conclusion
