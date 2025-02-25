@@ -45,12 +45,41 @@ Pour résumer les différences :
 
 ## Avantages et inconvénients
 
-Un mode de fonctionnement asynchrone a plusieurs avantages. Le premier est le fait que l'utilisateur peut continuer
-d'utiliser le produit sans pour autant attendre la fin d'un long processus. 
+### Avantages
 
-Similairement au premier avantage, un désavantage de ce type de fonctionnement est la **fraîcheur des données** : le
-temps de traitement pouvant être indéfini, il faudra récupérer dans un second temps les données les plus à jour. Cela
-pourra être contraignant si ce fonctionnement se fait dans le cadre d'un processus bloquant.
+Un mode de fonctionnement asynchrone a plusieurs avantages pour l'utilisateur. Le premier est le fait qu'il peut
+continuer d'utiliser le produit sans pour autant attendre la fin d'un processus à durée indéterminée (exemple : import
+de fichiers, attente de réponse d'un fournisseur tierce, etc.).
+
+Un second avantage est qu'il est possible pour le serveur de paralléliser les tâches asynchrones, afin de les exécuter
+à un moment différé, où les ressources ne sont pas mobilisées pour l'utilisateur, offrant ainsi un temps de réponse bas.
+
+Cela amène donc à une performance globale supérieure aux processus synchrones : temps d'attente limité pour
+l'utilisateur, tout le travail se fait côté serveur.
+
+### Désavantages
+
+Un premier désavantage de ce type de fonctionnement est la **fraîcheur des données** : le temps de traitement pouvant
+être indéfini, il faudra récupérer dans un second temps les données les plus à jour. Cela pourra être contraignant si ce
+fonctionnement se fait dans le cadre d'un processus bloquant.
+
+Un autre désavantage est la récupération de ces données. Dans le cas d'un processus synchrone, la donnée à jour revient
+suite à la requête envoyée et elle pourra être présentée à l'utilisateur. Dans le cas d'un processus asynchrone, il
+faudra prévoir un [mécanisme de récupération](#quels-moyens-de-récupérer-une-information) supplémentaire, qui pourra
+impacter l'expérience utilisateur et la complexité technique de l'application.
+
+La gestion des erreurs est également l'un des désavantages. Il faudra se poser les questions suivantes lors de la
+conception du parcours utilisateur : comment notifier d'un traitement qui a échoué, faut-il permettre la reprise du
+processus, etc. Cela pourra avoir des impacts sur l'expérience utilisateur.
+
+### En synthèse
+
+| Avantages                        | Inconvénients                                              |
+|----------------------------------|------------------------------------------------------------|
+| Non-bloquant pour l'utilisateur  | Fraîcheur des données                                      |
+| Possibilité d'exécution différée | Récupération des données                                   |
+| Souvent performant               | Complexité technique variable selon les solutions choisies |
+|                                  | Gestion des erreurs                                        |
 
 ## Quand utiliser un process asynchrone
 
