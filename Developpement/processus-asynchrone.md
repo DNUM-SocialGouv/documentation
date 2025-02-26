@@ -2,7 +2,7 @@
 
 Cette page documente diverses solutions possibles lorsqu'un processus asynchrone est considéré.
 
-Avant tout, il convient de bien comprendre le problème adressé avant de considérer un tel choix.
+Il convient de bien comprendre le problème adressé avant de considérer un tel choix.
 
 1. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
 2. [Avantages et inconvénients](#avantages-et-inconvénients)
