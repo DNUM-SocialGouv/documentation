@@ -120,17 +120,81 @@ jour, jusqu'à quitter la page.
 Les avantages de cette manière sont que ce n'est pas coûteux et facile à implémenter.
 
 En revanche, si l'information n'est pas disponible rapidement, le client va lancer un certain nombre de requêtes afin
-d'obtenir ce qu'il veut. De plus, l'utilisateur devra rester sur son application, voire sa page, pour récupérer
-l'information. Enfin, cette application doit avoir au moins 2 points d'entrées : l'un pour lancer un traitement, et un
-nombre suffisant pour récupérer les autres informations.
+d'obtenir ce qu'il veut. De plus, l'utilisateur devra garder son application ouverte pour récupérer l'information.
+Enfin, cette application doit avoir au moins 2 points d'entrées : l'un pour lancer un traitement, et un autre pour
+récupérer les autres informations.
 
-### Connexion persistante unidirectionnelle, ou "Server-sent events"
+### Connexion persistante unidirectionnelle, ou "Server-sent events (SSE)"
+
+Les SSE sont un moyen de transmettre de l'information en flux (ou "stream"). C'est particulièrement utile si on veut
+récupérer des informations au fil de l'eau.
 
 ![SSE.png](img/SSE.png)
 
+- Le client effectue une requête et ouvre ainsi une connexion persistante,
+- Le serveur en recevant la connexion envoie des données au fil de l'eau, à intervalles potentiellement indéfinis,
+- Une fois que le serveur n'a plus rien à envoyer, il envoie une dernière information au client : la fin de la
+  connexion.
+
+Les avantages sont multiples ici : on n'a qu'une connexion ouverte entre le client et le serveur, les informations
+arrivent au fil de l'eau (c'est particulièrement utile si on possède plusieurs sources de données, à des délais de
+réponses variés) et c'est le serveur qui termine la connexion.
+
+En revanche, garder cette connexion ouverte a un prix : cela peut paraître acceptable pour un nombre restreint de
+clients, mais plus on augmente le nombre de connexions plus les ressources mobilisées côté serveur augmenteront.
+De plus, certains outils ou frameworks peuvent ne pas supporter ce mode de communication : il faudra donc vérifier cela
+et tester, car l'infrastructure requise pour ce genre de pattern peut être coûteuse à mettre en place.
+Enfin, c'est un mode de communication unidirectionnel : le serveur est le seul à pouvoir envoyer des informations.
+
 ### Connexion persistante bidirectionnelle, ou "Websockets"
 
+Similairement aux SSE, les connexions bidirectionnelles permettent d'envoyer et de recevoir des informations au fil de
+l'eau.
+
+![websockets.png](img/websockets.png)
+
+L'avantage principal est la bidirectionnalité des échanges. En revanche, les désavantages sont les mêmes, si ce n'est
+qu'ils sont accentués : le coût de maintien des connexions ouvertes est plus lourd ici, souvent des bibliothèques
+logicielles spécifiques sont nécessaires pour supporter les websockets, ou passer par un prestataire externe qui permet
+d'abstraire cela.
+
 ### Notifications push
+
+À la différence des modes de communication précédentes, les notifications "push" (car le serveur pousse les événements
+au lieu que le client les tire du serveur) sont un mode de communication où l'asynchronisme est au centre de
+l'architecture.
+
+À noter que le schéma suivant est très simplifié, et souvent d'autres briques techniques peuvent apparaître (fil de
+message, bases de données, etc.)
+
+![push.png](img/push.png)
+
+- Le client envoie une requête au serveur,
+- Le serveur répond qu'elle a été prise en compte pour rendre la main à l'utilisateur,
+- Le serveur la traîte à un moment opportun,
+- Une fois traitée, le serveur met à jour l'état du système et envoie l'information de la fin du traitement à un système
+  de notification,
+- Ce système de notification se chargera d'envoyer au client l'information que sa requête a été adressée et que le
+  client peut récupérer l'information qui l'intéresse.
+
+L'avantage principal ici est le fait que le client ne patiente jamais : il n'envoie qu'une requête. C'est seulement
+après qu'il reçoit une notification qu'il peut continuer d'adresser le parcours utilisateur.
+De plus, le serveur est libre de traiter la requête comme bon lui semble et se contentera de demander au système de
+notification d'avertir le client de la fin du traitement.
+
+Bien que ce mode de communication soit intéressant d'un point architectural, il présente néanmoins des désavantages de 
+taille. Le premier est le coût d'une telle architecture : il faut se doter d'un mécanisme d'envoi de notifications aux
+clients, potentiellement le tester pour inclure des mécanismes de récupération de données si les notifications ne sont
+pas envoyées dans un temps "normal". L'observabilité devra également être adressée : il faudra en effet s'assurer de
+l'état de tout le SI.
+Le parcours utilisateur devra aussi être adapté pour permettre la réception de la notification ainsi que l'adaptation
+de l'interface.
+
+Le schéma précédent étant simplifié, les architectures modernes sont en général accompagnées par l'ajout :
+
+- d'une file de messages,
+- d'une brique applicative qui récupérera les notifications de la file de messages,
+- d'un outil d'envoi des notifications. 
 
 ## Considérations non-techniques
 
