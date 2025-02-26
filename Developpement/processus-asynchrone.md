@@ -6,7 +6,7 @@ Il convient de bien comprendre le problème adressé avant de considérer un tel
 
 1. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
 2. [Avantages et inconvénients](#avantages-et-inconvénients)
-3. [Quand utiliser un fonctionnement asynchrone](#quand-utiliser-un-fonctionnement-asynchrone)
+3. [Cas d'utilisation](#cas-dutilisation)
 4. [Quels moyens de récupérer une information](#quels-moyens-de-récupérer-une-information)
 5. [Considérations non-techniques](#considérations-non-techniques)
 6. [En conclusion](#en-conclusion)
@@ -45,26 +45,23 @@ réception. Cela lui permet de la traiter à un moment opportun et surtout de re
 - **Gain de productivité éventuel** pour l'utilisateur, qui peut continuer à utiliser l'application. Cela ne vaut que si l'action asynchrone n'est pas bloquante pour son travail (import de fichiers, attente de réponse d'un fournisseur tierce, etc.)
 - **Performance globale supérieure** : parallélisation possible des tâches côté serveur, traitement à un moment de faible charge pour privilégier les interactions utilisateurs.
 
-### Désavantages
+### Inconvénients
 
 - **Moindre fraîcheur des données** : le temps de traitement n'étant pas complètement prévisible, il se peut que les données en sortie du traitement asynchrone ne soient pas les plus à jour.
 - **Récupération des données / du résultat** : dans le cas d'un processus asynchrone, il faut prévoir un [mécanisme de récupération](#quels-moyens-de-récupérer-une-information) supplémentaire, qui peut
 impacter l'expérience utilisateur, la complexité technique de l'application, et son coût de développement.
 - **Gestion des erreurs plus complexe**. Il faut se poser les questions suivantes lors du design : comment notifier qu'un traitement a échoué ? faut-il permettre la reprise du processus ? etc.
 
-## Quand utiliser un fonctionnement asynchrone
+## Cas d'utilisation
 
-Voici quelques éléments qui peuvent indiquer qu'un mode de fonctionnement asynchrone serait pertinent :
+Un fonctionnement asynchrone peut être pertinent dans certains cas typiques :
 
-- Nous avons une tâche qui prend plusieurs secondes avant de se terminer (au moins 10 secondes) ou nous ne
-  savons pas au bout de combien de temps elle peut aboutir,
-- Nous faisons appel à des systèmes (tierces) qui ont un temps de réponse élevé, ou indéfini,
+- Une tâche prend au moins 10 secondes pour se terminer, ou nous ne savons pas sous combien de temps elle peut aboutir,
+- Nous faisons appel à des systèmes tierces qui ont un temps de réponse élevé, ou indéfini,
 - Des systèmes tierces ont eux-mêmes un fonctionnement asynchrone et nous devons avoir un fonctionnement compatible pour
   s'intégrer avec eux.
 
-Ces éléments sont en général fréquents dans des applications de type e-commerce.
-
-À noter que lorsqu'il est possible de ne pas avoir de processus asynchrone, il est préférable de s'en passer.
+**À noter que lorsqu'il est possible de ne pas avoir de processus asynchrone, il est préférable de s'en passer.**
 
 ## Quels moyens de récupérer une information
 
