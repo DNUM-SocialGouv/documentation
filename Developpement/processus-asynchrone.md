@@ -1,5 +1,9 @@
 # Processus asynchrone
 
+Cette page documente diverses solutions possibles lorsqu'un processus asynchrone est considéré.
+
+Avant tout, il convient de bien comprendre le problème adressé avant de considérer un tel choix.
+
 1. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
 2. [Avantages et inconvénients](#avantages-et-inconvénients)
 3. [Quand utiliser un fonctionnement asynchrone](#quand-utiliser-un-fonctionnement-asynchrone)
@@ -198,4 +202,35 @@ Le schéma précédent étant simplifié, les architectures modernes sont en gé
 
 ## Considérations non-techniques
 
+Outre les considérations techniques à avoir en tête lors du choix d'une solution dans le cadre d'un processus
+asynchrone, des questions différentes se posent :
+
+Expérience utilisateur :
+
+- Quel est l'impact sur l'expérience utilisateur si _tel_ parcours inclut de l'asynchronisme ?
+- Comment savoir si un accompagnement au changement est nécessaire ? Auprès de qui et pour qui ?
+- Quid de l'accessibilité ?
+
+Design :
+
+- Quid du design et quels changements sont nécessaires ?
+
+Organisationnel :
+
+- Qui doit maintenir quelles applications ?
+- Si plusieurs équipes doivent maintenir une partie du SI, comment communiquent-t-elles ensemble ?
+
+Technique :
+
+- Comment pouvons-nous garantir d'être en conformité avec les standards existants ?
+- Comment être sûrs que le système ne connaît pas d'anomalies ? 
+
+Sécurité :
+
+- Comment s'assurer de ne pas introduire de risques de sécurité ?
+- Comment pouvons-nous garantir que nous sommes en conformité ?
+
 ## En conclusion
+
+Si un processus asynchrone doit être conçu dans une application existante parce que cela ne peut pas être évitée, il est
+fortement recommandé d'utiliser la solution de moindre coût le [polling](#requêtes-à-intervalles-réguliers-ou-polling).
