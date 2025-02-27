@@ -2,8 +2,6 @@
 
 Cette page documente diverses solutions possibles lorsqu'un processus asynchrone est considéré.
 
-Il convient de bien comprendre le problème adressé avant de considérer un tel choix.
-
 1. [Cas d'utilisation](#cas-dutilisation)
 2. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
 3. [Avantages et inconvénients](#avantages-et-inconvénients)
@@ -16,54 +14,67 @@ Il convient de bien comprendre le problème adressé avant de considérer un tel
 
 Un fonctionnement asynchrone peut être pertinent dans certains cas typiques :
 
-- Une tâche prend au moins 10 secondes pour se terminer, ou nous ne savons pas sous combien de temps elle peut aboutir,
-- Nous faisons appel à des systèmes tierces qui ont un temps de réponse élevé, ou indéfini,
+- Une tâche prend au moins 10 secondes pour se terminer, ou nous ne savons pas sous combien de temps elle peut aboutir.
+- Nous faisons appel à des systèmes tierces qui ont un temps de réponse élevé, ou indéfini.
 - Des systèmes tierces ont eux-mêmes un fonctionnement asynchrone et nous devons avoir un fonctionnement compatible pour
   s'intégrer avec eux.
 
 Néanmoins :
-- **s'il est possible de ne pas avoir de processus asynchrone, il est préférable de s'en passer.**
-- Si un processus asynchrone doit être conçu dans une application existante parce que cela ne peut pas être évitée, il est
-fortement recommandé d'utiliser la solution de moindre coût : le [polling](#requêtes-à-intervalles-réguliers-ou-polling).
+
+- **S'il est possible de ne pas avoir de processus asynchrone, il est préférable de s'en passer.**
+- Si un processus asynchrone doit être conçu dans une application existante parce que cela ne peut pas être évité, il
+  est fortement recommandé d'utiliser la solution de moindre coût : le
+  [polling](#requêtes-à-intervalles-réguliers-ou-polling).
 
 ## Différences avec un processus synchrone
 
-Dans le cas d'un processus synchrone, lorsqu'un utilisateur envoie une requête via l'interface,
-sa réponse arrive lorsque le serveur a terminé de la traiter.
+Dans le cas d'un processus synchrone, lorsqu'un utilisateur envoie une requête via l'interface, sa réponse arrive
+lorsque le serveur a terminé de la traiter.
 
 ![sync.png](img/sync.png)
 
-1. L'utilisateur exécute une action sur l'interface.
-2. Une requête est envoyée au serveur.
-3. Le serveur la traite.
-4. Le serveur renvoie une réponse.
+1. L'utilisateur exécute une action sur l'interface,
+2. Une requête est envoyée au serveur,
+3. Le serveur la traite,
+4. Le serveur renvoie une réponse,
 5. L'utilisateur peut continuer à utiliser l'application.
 
 En revanche, dans le cas d'un processus asynchrone, le serveur répond qu'il a tenu compte de la requête lors de sa
-réception. Cela lui permet de la traiter à un moment opportun et surtout de redonner immédiatement la main à l'utilisateur, pour utiliser l'application.
+réception. Cela lui permet de la traiter à un moment opportun et surtout de redonner immédiatement la main à 
+l'utilisateur, pour utiliser l'application.
 
 ![async.png](img/async.png)
 
-1. L'utilisateur excéute une action sur l'interface.
-2. Une requête est envoyée au serveur.
-3. **Le serveur confirme immédiatement à l'utilisateur que sa requête va être traitée**, avant même de la traiter. Il "rend la main" à l'utilisateur.
-4. **L'utilisateur peut continuer à utiliser l'application**, même si le résultat de l'action n'est pas encore disponible. 
-5. **Le résultat de l'action est disponible ultérieurement**, lorsque le serveur termine de traiter la requête. Comme indiqué [plus bas](#quels-moyens-de-récupérer-une-information), le résultat peut être envoyé à l'utilisateur dans un temps indéfini.
+1. L'utilisateur exécute une action sur l'interface,
+2. Une requête est envoyée au serveur,
+3. **Le serveur confirme immédiatement à l'utilisateur que sa requête va être traitée**, avant même de la traiter. Il
+  "rend la main" à l'utilisateur,
+4. **L'utilisateur peut continuer à utiliser l'application**, même si le résultat de l'action n'est pas encore
+  disponible,
+5. **Le résultat de l'action est disponible ultérieurement**, lorsque le serveur termine de traiter la requête. Comme
+  indiqué [plus bas](#quels-moyens-de-récupérer-une-information), le résultat peut être envoyé à l'utilisateur dans un
+  temps indéfini.
 
 ## Avantages et inconvénients
 
 ### Avantages
 
 - **Non-bloquant pour l'utilisateur** : le temps d'attente limité rassure, et évite la frustration et le doute.
-- **Gain de productivité éventuel** pour l'utilisateur, qui peut continuer à utiliser l'application. Cela ne vaut que si l'action asynchrone n'est pas bloquante pour son travail (import de fichiers, attente de réponse d'un fournisseur tierce, etc.)
-- **Performance globale supérieure** : parallélisation possible des tâches côté serveur, traitement à un moment de faible charge pour privilégier les interactions utilisateurs.
+- **Gain de productivité éventuel** pour l'utilisateur, qui peut continuer à utiliser l'application. Cela ne vaut que si
+  l'action asynchrone n'est pas bloquante pour son travail (import de fichiers, attente de réponse d'un fournisseur
+  tierce, etc.)
+- **Performance globale supérieure** : parallélisation possible des tâches côté serveur, traitement à un moment de
+  faible charge pour privilégier les interactions utilisateurs.
 
 ### Inconvénients
 
-- **Moindre fraîcheur des données** : le temps de traitement n'étant pas complètement prévisible, il se peut que les données en sortie du traitement asynchrone ne soient pas les plus à jour.
-- **Récupération des données / du résultat** : dans le cas d'un processus asynchrone, il faut prévoir un [mécanisme de récupération](#quels-moyens-de-récupérer-une-information) supplémentaire, qui peut
-impacter l'expérience utilisateur, la complexité technique de l'application, et son coût de développement.
-- **Gestion des erreurs plus complexe**. Il faut se poser les questions suivantes lors du design : comment notifier qu'un traitement a échoué ? faut-il permettre la reprise du processus ? etc.
+- **Moindre fraîcheur des données** : le temps de traitement n'étant pas complètement prévisible, il se peut que les
+  données en sortie du traitement asynchrone ne soient pas les plus à jour.
+- **Récupération des données / du résultat** : dans le cas d'un processus asynchrone, il faut prévoir un
+  [mécanisme de récupération](#quels-moyens-de-récupérer-une-information) supplémentaire, qui peut impacter l'expérience
+  utilisateur, la complexité technique de l'application, et son coût de développement.
+- **Gestion des erreurs plus complexe** : il faut se poser les questions suivantes lors du design : Comment notifier
+  qu'un traitement a échoué ? Faut-il permettre la reprise du processus ?
 
 ## Quels moyens de récupérer une information
 
@@ -141,8 +152,8 @@ message, base de données, etc.)
 - Le client envoie une requête au serveur,
 - Le serveur répond qu'elle a été prise en compte pour rendre la main à l'utilisateur,
 - Le serveur la traîte à un moment opportun,
-- Une fois la requête traitée, le serveur met à jour l'état du système et envoie l'information de fin du traitement à un système
-  de notification,
+- Une fois la requête traitée, le serveur met à jour l'état du système et envoie l'information de fin du traitement à un
+  système de notification,
 - Ce système de notification se charge d'envoyer au client l'information que sa requête a été traitée et que le
   client peut récupérer l'information qui l'intéresse.
 
@@ -151,8 +162,8 @@ après qu'il reçoit une notification qu'il peut continuer son parcours utilisat
 De plus, le serveur est libre de traiter la requête comme bon lui semble et se contente de demander au système de
 notification d'avertir le client de la fin du traitement.
 
-Bien que ce mode de communication soit intéressant d'un point de vue architectural, il présente néanmoins des désavantages de 
-taille. Le premier est le coût : il faut se doter d'un mécanisme d'envoi de notifications aux
+Bien que ce mode de communication soit intéressant d'un point de vue architectural, il présente néanmoins des 
+désavantages de taille. Le premier est le coût : il faut se doter d'un mécanisme d'envoi de notifications aux
 clients, potentiellement le tester pour inclure des mécanismes de récupération de données si les notifications ne sont
 pas envoyées dans un temps "normal". L'observabilité doit également être adressée : il faut en effet s'assurer de
 l'état de tout le SI.
@@ -160,9 +171,9 @@ Le parcours et l'interface utilisateur doivent aussi être adaptés pour permett
 
 Le schéma précédent étant simplifié, les architectures modernes sont en général accompagnées par l'ajout :
 
-- d'une file de messages,
-- d'une brique applicative qui récupère les notifications de la file de messages,
-- d'un outil d'envoi des notifications.
+- D'une file de messages,
+- D'une brique applicative qui récupère les notifications de la file de messages,
+- D'un outil d'envoi des notifications.
 
 ## Considérations non-techniques
 
