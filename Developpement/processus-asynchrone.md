@@ -4,14 +4,27 @@ Cette page documente diverses solutions possibles lorsqu'un processus asynchrone
 
 Il convient de bien comprendre le problème adressé avant de considérer un tel choix.
 
-1. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
-2. [Avantages et inconvénients](#avantages-et-inconvénients)
-3. [Cas d'utilisation](#cas-dutilisation)
+1. [Cas d'utilisation](#cas-dutilisation)
+2. [Différences avec un processus synchrone](#différences-avec-un-processus-synchrone)
+3. [Avantages et inconvénients](#avantages-et-inconvénients)
 4. [Quels moyens de récupérer une information](#quels-moyens-de-récupérer-une-information)
 5. [Considérations non-techniques](#considérations-non-techniques)
-6. [En conclusion](#en-conclusion)
 
 ---
+
+## Cas d'utilisation
+
+Un fonctionnement asynchrone peut être pertinent dans certains cas typiques :
+
+- Une tâche prend au moins 10 secondes pour se terminer, ou nous ne savons pas sous combien de temps elle peut aboutir,
+- Nous faisons appel à des systèmes tierces qui ont un temps de réponse élevé, ou indéfini,
+- Des systèmes tierces ont eux-mêmes un fonctionnement asynchrone et nous devons avoir un fonctionnement compatible pour
+  s'intégrer avec eux.
+
+Néanmoins :
+- **s'il est possible de ne pas avoir de processus asynchrone, il est préférable de s'en passer.**
+- Si un processus asynchrone doit être conçu dans une application existante parce que cela ne peut pas être évitée, il est
+fortement recommandé d'utiliser la solution de moindre coût : le [polling](#requêtes-à-intervalles-réguliers-ou-polling).
 
 ## Différences avec un processus synchrone
 
@@ -51,17 +64,6 @@ réception. Cela lui permet de la traiter à un moment opportun et surtout de re
 - **Récupération des données / du résultat** : dans le cas d'un processus asynchrone, il faut prévoir un [mécanisme de récupération](#quels-moyens-de-récupérer-une-information) supplémentaire, qui peut
 impacter l'expérience utilisateur, la complexité technique de l'application, et son coût de développement.
 - **Gestion des erreurs plus complexe**. Il faut se poser les questions suivantes lors du design : comment notifier qu'un traitement a échoué ? faut-il permettre la reprise du processus ? etc.
-
-## Cas d'utilisation
-
-Un fonctionnement asynchrone peut être pertinent dans certains cas typiques :
-
-- Une tâche prend au moins 10 secondes pour se terminer, ou nous ne savons pas sous combien de temps elle peut aboutir,
-- Nous faisons appel à des systèmes tierces qui ont un temps de réponse élevé, ou indéfini,
-- Des systèmes tierces ont eux-mêmes un fonctionnement asynchrone et nous devons avoir un fonctionnement compatible pour
-  s'intégrer avec eux.
-
-**À noter que lorsqu'il est possible de ne pas avoir de processus asynchrone, il est préférable de s'en passer.**
 
 ## Quels moyens de récupérer une information
 
@@ -108,7 +110,7 @@ arrivent au fil de l'eau (c'est particulièrement utile si on possède plusieurs
 réponses variés) et c'est le serveur qui termine la connexion.
 
 En revanche, garder cette connexion ouverte a un prix : cela peut paraître acceptable pour un nombre restreint de
-clients, mais plus on augmente le nombre de connexions plus les ressources mobilisées côté serveur augmenteront.
+clients, mais plus on augmente le nombre de connexions plus les ressources mobilisées côté serveur augmentent.
 De plus, certains outils ou frameworks peuvent ne pas supporter ce mode de communication : il faut donc vérifier cela
 et tester, car l'infrastructure requise pour ce genre de pattern peut être coûteuse à mettre en place.
 Enfin, c'est un mode de communication unidirectionnel : le serveur est le seul à pouvoir envoyer des informations.
@@ -127,72 +129,59 @@ d'abstraire cela.
 
 ### Notifications push
 
-À la différence des modes de communication précédentes, les notifications "push" (car le serveur pousse les événements
+À la différence des modes de communication précédents, les notifications "push" (car le serveur pousse les événements
 au lieu que le client les tire du serveur) sont un mode de communication où l'asynchronisme est au centre de
 l'architecture.
 
-À noter que le schéma suivant est très simplifié, et souvent d'autres briques techniques peuvent apparaître (fil de
-message, bases de données, etc.)
+À noter que le schéma suivant est très simplifié, et souvent d'autres briques techniques peuvent apparaître (file de
+message, base de données, etc.)
 
 ![push.png](img/push.png)
 
 - Le client envoie une requête au serveur,
 - Le serveur répond qu'elle a été prise en compte pour rendre la main à l'utilisateur,
 - Le serveur la traîte à un moment opportun,
-- Une fois traitée, le serveur met à jour l'état du système et envoie l'information de la fin du traitement à un système
+- Une fois la requête traitée, le serveur met à jour l'état du système et envoie l'information de fin du traitement à un système
   de notification,
-- Ce système de notification se charge d'envoyer au client l'information que sa requête a été adressée et que le
+- Ce système de notification se charge d'envoyer au client l'information que sa requête a été traitée et que le
   client peut récupérer l'information qui l'intéresse.
 
 L'avantage principal ici est le fait que le client ne patiente jamais : il n'envoie qu'une requête. C'est seulement
-après qu'il reçoit une notification qu'il peut continuer d'adresser le parcours utilisateur.
+après qu'il reçoit une notification qu'il peut continuer son parcours utilisateur.
 De plus, le serveur est libre de traiter la requête comme bon lui semble et se contente de demander au système de
 notification d'avertir le client de la fin du traitement.
 
-Bien que ce mode de communication soit intéressant d'un point architectural, il présente néanmoins des désavantages de 
-taille. Le premier est le coût d'une telle architecture : il faut se doter d'un mécanisme d'envoi de notifications aux
+Bien que ce mode de communication soit intéressant d'un point de vue architectural, il présente néanmoins des désavantages de 
+taille. Le premier est le coût : il faut se doter d'un mécanisme d'envoi de notifications aux
 clients, potentiellement le tester pour inclure des mécanismes de récupération de données si les notifications ne sont
 pas envoyées dans un temps "normal". L'observabilité doit également être adressée : il faut en effet s'assurer de
 l'état de tout le SI.
-Le parcours utilisateur doit aussi être adapté pour permettre la réception de la notification ainsi que l'interface.
+Le parcours et l'interface utilisateur doivent aussi être adaptés pour permettre la réception de la notification.
 
 Le schéma précédent étant simplifié, les architectures modernes sont en général accompagnées par l'ajout :
 
 - d'une file de messages,
 - d'une brique applicative qui récupère les notifications de la file de messages,
-- d'un outil d'envoi des notifications. 
+- d'un outil d'envoi des notifications.
 
 ## Considérations non-techniques
 
 Outre les considérations techniques à avoir en tête lors du choix d'une solution dans le cadre d'un processus
-asynchrone, des questions différentes se posent :
+asynchrone, d'autres questions se posent :
 
-Expérience utilisateur :
+**Design et expérience utilisateur** :
 
 - Quel est l'impact sur l'expérience utilisateur si _tel_ parcours inclut de l'asynchronisme ?
 - Comment savoir si un accompagnement au changement est nécessaire ? Auprès de qui et pour qui ?
 - Quid de l'accessibilité ?
 
-Design :
+**Exploitation** :
 
-- Quid du design et quels changements sont nécessaires ?
+- Qui maintient quels composants de l'application ?
+- Si plusieurs équipes maintiennent une partie du SI, comment communiquent-t-elles ensemble ?
+- Comment être sûrs que le système ne connaît pas d'anomalies ?
 
-Organisationnel :
-
-- Qui doit maintenir quelles applications ?
-- Si plusieurs équipes doivent maintenir une partie du SI, comment communiquent-t-elles ensemble ?
-
-Technique :
-
-- Comment pouvons-nous garantir d'être en conformité avec les standards existants ?
-- Comment être sûrs que le système ne connaît pas d'anomalies ? 
-
-Sécurité :
+**Sécurité** :
 
 - Comment s'assurer de ne pas introduire de risques de sécurité ?
 - Comment pouvons-nous garantir que nous sommes en conformité ?
-
-## En conclusion
-
-Si un processus asynchrone doit être conçu dans une application existante parce que cela ne peut pas être évitée, il est
-fortement recommandé d'utiliser la solution de moindre coût le [polling](#requêtes-à-intervalles-réguliers-ou-polling).
