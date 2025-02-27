@@ -1,4 +1,4 @@
-# Processus asynchrone
+# Processus asynchrones
 
 Cette page documente diverses solutions possibles lorsqu'un processus asynchrone est considéré.
 
