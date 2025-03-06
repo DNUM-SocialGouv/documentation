@@ -23,7 +23,7 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 - [**Des solutions au niveau applicatif**](#solutions-anti-bots-au-niveau-applicatif) sont à appliquer selon le contexte
   avec l'architecte solution ou lead tech du projet (ou en sollicitant un
   [accompagnement SDPSN / DD](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Notreoffre.aspx))
-- **Rate-limiting pour l'API** : le Rate-limiting au niveau [API Gateway](../Architecture/api-gateway.md) ou
+- **Rate-limiting pour l'API** : le Rate-limiting au niveau [API Gateway](../api/api-gateway.md) ou
   [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) est la solution à privilégier pour protéger une API des
   bots.
 - **Rate-limiting + Honeypot pour l'IHM** : combinaison efficace pour protéger l'IHM. Attention cependant à ne pas créer de problème d'accessibilité avec Honeypot.
@@ -31,7 +31,7 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 ## Solutions anti-bots au niveau réseau/middleware
 
 Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, ou plus localement par une
-[API Gateway](../Architecture/api-gateway.md) ou un [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) du
+[API Gateway](../api/api-gateway.md) ou un [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) du
 projet :
 
 - **Filtrage IP (whitelist)** : limiter l'accès à un nombre fini de clients connus ou déclarés.

@@ -6,7 +6,7 @@ icon: floppy_disk
 
 ## Choix par défaut pour le stockage de données
 
-- SGBDR : [PostgreSQL](/postgresql.md)
+- SGBDR : [PostgreSQL](/postgresql.md) <!-- Lien cassé laissé exprès pour tester -->
 - Stockage de documents : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet.
 - NoSQL : pas de besoin fort identifié à date
 

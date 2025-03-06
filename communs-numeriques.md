@@ -13,7 +13,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
   * Soit [Sites faciles](https://sites-faciles.beta.numerique.gouv.fr/)
 * **Démarche administrative en ligne**
   * **Front usager** : utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
-    * Utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir les [différences entre Démarches Simplifiées et Démat Social](communs-numeriques.md#différences-entre-démarches-simplifiées-et-démat-social).
+    * Utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir les [différences entre Démarches Simplifiées et Démat Social](communs-numeriques.md#écarts-entre-démarches-simplifiées-et-démat-social).
   * **Back-office agent** : si Démarches Simplifiées (ou Démat Social) ne put pas couvrir les besoins des agents, envisager en sus un back-office de traitement
     * Privilégier GLPI comme back-office de traitement
     * Si malgré la recherche de compromis, GLPI présente toujours trop de limites :
@@ -30,7 +30,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
 * [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé au MAS.
 * [**GLPI**](https://glpi-project.org/fr/) est une solution open source générique de gestion de parc matériel et de gestion de demandes et incidents
 
-## Ecarts entre Démarches Simplifiées et Démat Social
+## Écarts entre Démarches Simplifiées et Démat Social
 
 |                                     | [Démarches Simplifiées](https://www.demarches-simplifiees.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
 | ----------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |

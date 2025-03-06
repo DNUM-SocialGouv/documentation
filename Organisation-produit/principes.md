@@ -116,7 +116,7 @@ tout en réduisant les risques.
 Une approche itérative favorise la souplesse, en permettant d’ajuster le produit en continu grâce aux retours
 utilisateurs et aux évolutions réglementaires ou technologiques.
 
-L’approche itérative se coordonne naturellement avec [le cycle de vie produit](/introduction/cycle-de-vie-produit.md),
+L’approche itérative se coordonne naturellement avec [le cycle de vie produit](../Introduction/cycle-de-vie-produit.md),
 offrant une méthode structurée pour améliorer et valider le produit à chaque phase :
 
 - Dès la preuve de concept (POC), les équipes peuvent tester des idées, adapter les solutions à chaque retour et affiner

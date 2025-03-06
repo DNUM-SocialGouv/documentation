@@ -18,7 +18,7 @@ L'architecture est à la croisée des chemins entre les différents métiers du 
 
 L'architecture a 3 missions principales pour la DNUM et son écosystème :
 
-* Faire vivre un référentiel de standards et normes partagés sur son périmètre et en alignement avec les autres parties prenantes en particulier concernant les aspects [développement](../Developpement/), [DevSecOps](../DevSecOps/) et [hébergement](../Hebergement/)
+* Faire vivre un référentiel de standards et normes partagés sur son périmètre et en alignement avec les autres parties prenantes en particulier concernant les aspects [développement](../Developpement/README.md), [DevSecOps](../DevSecOps/README.md) et [hébergement](../Hebergement/README.md)
 * Travailler à l'amélioration continue des SI et applications en développant un catalogue de solutions réutilisables et d'offres de services communes centrés sur des cas d'usages s'inscrivant dans une [démarche de rationalisation](rationalisation.md)
 * Accompagner les équipes projets dans leurs besoins via notre offre de services
 
