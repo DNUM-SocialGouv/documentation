@@ -49,3 +49,6 @@
   * [Sécurité](DevSecOps/securite.md)
 * [Hébergement](Hebergement/README.md)
   * [Cloud](Hebergement/cloud.md)
+* [🧩 Nos produits](nos-produits/README.md)
+  * [🦠 Santé](nos-produits/sante.md)
+  * [🩺 Offre de soin](nos-produits/offre-de-soin.md)
