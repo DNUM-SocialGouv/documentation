@@ -1,6 +1,5 @@
 ---
 description: Produits et projets de la Direction générale de l'offre de soin (DGOS).
-hidden: true
 ---
 
 # 🩺 Offre de soin
