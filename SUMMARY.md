@@ -52,3 +52,4 @@
 * [🧩 Nos produits](nos-produits/README.md)
   * [🦠 Santé](nos-produits/sante.md)
   * [🩺 Offre de soin](nos-produits/offre-de-soin.md)
+  * [📎 Transverse](nos-produits/transverse.md)
