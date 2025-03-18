@@ -31,14 +31,16 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
 * [**GLPI**](https://glpi-project.org/fr/) est une solution open source générique de gestion de parc matériel et de gestion de demandes et incidents
 
 
-## Nos futures briques communes (en construction)
+## Nos futures briques communes
+
+_En cours_
 
 * Authentification agent / métier (interne + ProConnect)
 * Authentification publique (interne + FranceConnect)
-* Publipostage (gestion des templates avec balises + production de documents)
 * Statistiques (production de fichiers Excel, BI)
 * Notifications (envois emails)
 * GED (S3, …)
+* Publipostage (gestion des templates avec balises + production de documents)
 * API Base d'Adresse Nationale (BAN)
 * API Entreprise
 * API Associations
