@@ -1,5 +1,4 @@
 ---
-description: Produits et projets de la Direction générale de la santé (DGS).
 layout:
   title:
     visible: true
@@ -13,5 +12,6 @@ layout:
     visible: false
 ---
 
-# 🦠 Santé
+# Sécurisation
 
+Information restreinte : [Sécurisation d'API](https://github.com/DNUM-SocialGouv/documentation-privee/blob/main/api-securite.md)

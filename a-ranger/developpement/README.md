@@ -1,5 +1,5 @@
 ---
-description: Produits et projets de la Direction générale de la santé (DGS).
+icon: code
 layout:
   title:
     visible: true
@@ -13,5 +13,5 @@ layout:
     visible: false
 ---
 
-# 🦠 Santé
+# Développement
 

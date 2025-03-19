@@ -1,5 +1,16 @@
 ---
 description: Produits et projets de la Direction générale de l'offre de soin (DGOS).
+layout:
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: false
 ---
 
 # 🩺 Offre de soin
@@ -11,6 +22,8 @@ AUDE est un système d'information de gestion des autorisations d'exercice pour 
 ✅ **Statut** : En production\
 👷‍♂️ **Utilisateurs :** Agents en DREETS, DGOS\
 📊 **Chiffres clés :** 28 professions, 61 300 dossiers
+
+
 
 ***
 

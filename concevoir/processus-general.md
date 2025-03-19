@@ -1,5 +1,4 @@
 ---
-description: Produits et projets de la Direction générale de la santé (DGS).
 layout:
   title:
     visible: true
@@ -13,5 +12,9 @@ layout:
     visible: false
 ---
 
-# 🦠 Santé
+# Design et Recherche Utilisateur (Processus général)
+
+{% hint style="warning" %}
+À rédiger
+{% endhint %}
 

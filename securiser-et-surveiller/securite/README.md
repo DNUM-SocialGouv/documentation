@@ -1,5 +1,5 @@
 ---
-description: Produits et projets de la Direction générale de la santé (DGS).
+icon: lock-keyhole
 layout:
   title:
     visible: true
@@ -13,5 +13,9 @@ layout:
     visible: false
 ---
 
-# 🦠 Santé
+# Sécurité
+
+{% hint style="warning" %}
+À rédiger intro + sommaire
+{% endhint %}
 

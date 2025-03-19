@@ -1,6 +1,0 @@
----
-icon: rectangle-terminal
----
-
-# DevSecOps
-

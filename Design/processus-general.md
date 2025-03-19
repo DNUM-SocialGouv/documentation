@@ -1,2 +1,0 @@
-# Processus général
-
