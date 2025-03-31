@@ -5,6 +5,7 @@
   * [Organisation produit](preparer-et-lancer/organisation-produit.md)
   * [🔑 Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [Communs numériques](preparer-et-lancer/communs-numeriques.md)
+  * [Accompagnement technique](preparer-et-lancer/accompagnement-tech.md)
 * [Concevoir](concevoir/README.md)
   * [Design et Recherche Utilisateur (Processus général)](concevoir/processus-general.md)
   * [Recherche Utilisateur](concevoir/ru/README.md)
@@ -50,7 +51,5 @@
 
 ## À ranger
 
-* [Architecture](a-ranger/architecture/README.md)
-  * [Accompagnement technique](a-ranger/architecture/accompagnement.md)
 * [Développement](a-ranger/developpement/README.md)
   * [Processus asynchrones](a-ranger/developpement/processus-asynchrones.md)
