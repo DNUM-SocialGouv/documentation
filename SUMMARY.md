@@ -22,7 +22,6 @@
     * [PostgreSQL](concevoir/data/postgresql.md)
     * [ElasticSearch](concevoir/data/elasticsearch.md)
   * [API](concevoir/api/README.md)
-    * [Normes](concevoir/api/api-normes.md)
     * [Exposition](concevoir/api/api-exposition.md)
     * [API Gateway](concevoir/api/api-gateway.md)
     * [Sécurisation](concevoir/api/api-securite.md)
