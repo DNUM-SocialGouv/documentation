@@ -1,20 +1,37 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Bienvenue sur le guide DNUM](README.md)
+  * [Nouveau cadre organisationnel](readme/nouveau-cadre-organisationnel.md)
+  * [Cycle de vie produit](readme/cycle-de-vie-produit.md)
 * [Préparer et lancer](preparer-et-lancer/README.md)
-  * [Organisation produit](preparer-et-lancer/organisation-produit.md)
-  * [🔑 Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
+  * [Les différents rôles et métiers](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
+    * [Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
+    * [Product Manager](preparer-et-lancer/les-differents-roles-et-metiers/product-manager.md)
+    * [Expert en Recherche Utilisateur](preparer-et-lancer/les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
+    * [Designer](preparer-et-lancer/les-differents-roles-et-metiers/designer.md)
+    * [Développeur](preparer-et-lancer/les-differents-roles-et-metiers/developpeur.md)
+    * [Coach produit](preparer-et-lancer/les-differents-roles-et-metiers/coach-produit.md)
+    * [DevOps](preparer-et-lancer/les-differents-roles-et-metiers/devops.md)
+    * [Responsable accessibilité](preparer-et-lancer/les-differents-roles-et-metiers/responsable-accessibilite.md)
+  * [Organisation produit](preparer-et-lancer/organisation-produit/README.md)
+    * [Les piliers d’une organisation produit](preparer-et-lancer/organisation-produit/les-piliers-dune-organisation-produit.md)
+    * [Le fonctionnement quotidien](preparer-et-lancer/organisation-produit/le-fonctionnement-quotidien.md)
+    * [La check-list de l'organisation produit](preparer-et-lancer/organisation-produit/la-check-list-de-lorganisation-produit.md)
+    * [Ressources](preparer-et-lancer/organisation-produit/ressources/README.md)
+      * [Vision produit](preparer-et-lancer/organisation-produit/ressources/vision-produit.md)
+      * [La roadmap](preparer-et-lancer/organisation-produit/ressources/la-roadmap.md)
+      * [Les indicateurs](preparer-et-lancer/organisation-produit/ressources/les-indicateurs.md)
+  * [Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [Accompagnement technique](preparer-et-lancer/accompagnement-tech.md)
 * [Concevoir](concevoir/README.md)
-  * [Design et Recherche Utilisateur (Processus général)](concevoir/processus-general.md)
+  * [Engager un processus de design](concevoir/processus-general.md)
   * [Recherche Utilisateur](concevoir/ru/README.md)
     * [Principes](concevoir/ru/ru_principes.md)
     * [Application](concevoir/ru/ru_application.md)
   * [Normes et standards de design](concevoir/normes-et-standards.md)
   * [Exemples d'indicateurs](concevoir/indicateurs.md)
   * [Accessibilité](concevoir/accessibilite/README.md)
-    * [Intro](concevoir/accessibilite/introduction.md)
     * [Développement](concevoir/accessibilite/developpement.md)
   * [Eco-conception](concevoir/eco-conception.md)
   * [Data](concevoir/data/README.md)
@@ -43,12 +60,22 @@
     * [Authentification et habilitations](securiser-et-surveiller/securite/iam.md)
     * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
   * [Observabilité](securiser-et-surveiller/observabilite.md)
-* [Nos produits](nos-produits/README.md)
-  * [🦠 Santé](nos-produits/sante.md)
-  * [🩺 Offre de soin](nos-produits/offre-de-soin.md)
-  * [📎 Transverse](nos-produits/transverse.md)
 
 ## À ranger
 
-* [Développement](a-ranger/developpement/README.md)
-  * [Processus asynchrones](a-ranger/developpement/processus-asynchrones.md)
+* [Développement](a-ranger/developpement.md)
+
+***
+
+* [Processus asynchrones](processus-asynchrones.md)
+
+## ---
+
+* [Nos produits](undefined/nos-produits/README.md)
+  * [🦠 Santé](undefined/nos-produits/sante.md)
+  * [🩺 Offre de soin](undefined/nos-produits/offre-de-soin.md)
+  * [📎 Transverse](undefined/nos-produits/transverse.md)
+
+## ---
+
+* [Comment contribuer à ce guide ?](undefined-1/comment-contribuer-a-ce-guide.md)

@@ -1,5 +1,4 @@
 ---
-icon: recycle
 layout:
   title:
     visible: true
