@@ -12,7 +12,7 @@ layout:
     visible: false
 ---
 
-# Processus asynchrones
+# Traitements asynchrones
 
 Cette page documente diverses solutions possibles lorsqu'un processus asynchrone est considéré.
 
@@ -41,7 +41,7 @@ Néanmoins :
 
 Dans le cas d'un processus synchrone, lorsqu'un utilisateur envoie une requête via l'interface, sa réponse arrive lorsque le serveur a terminé de la traiter.
 
-![sync.png](../../Developpement/img/sync.png)
+![sync.png](Developpement/img/sync.png)
 
 1. L'utilisateur exécute une action sur l'interface,
 2. Une requête est envoyée au serveur,
@@ -51,7 +51,7 @@ Dans le cas d'un processus synchrone, lorsqu'un utilisateur envoie une requête 
 
 En revanche, dans le cas d'un processus asynchrone, le serveur répond qu'il a tenu compte de la requête lors de sa réception. Cela lui permet de la traiter à un moment opportun et surtout de redonner immédiatement la main à l'utilisateur, pour utiliser l'application.
 
-![async.png](../../Developpement/img/async.png)
+![async.png](Developpement/img/async.png)
 
 1. L'utilisateur exécute une action sur l'interface,
 2. Une requête est envoyée au serveur,
@@ -79,7 +79,7 @@ En revanche, dans le cas d'un processus asynchrone, le serveur répond qu'il a t
 
 Le principe de ce moyen est de faire une requête à intervalles réguliers au serveur afin de récupérer les dernières informations.
 
-![polling.png](../../Developpement/img/polling.png)
+![polling.png](Developpement/img/polling.png)
 
 Pour un intervalle de 5 secondes :
 
@@ -100,7 +100,7 @@ En revanche, si l'information n'est pas disponible rapidement, le client va lanc
 
 Les SSE sont un moyen de transmettre de l'information en flux (ou "stream"). C'est particulièrement utile si on veut récupérer des informations au fil de l'eau.
 
-![SSE.png](../../Developpement/img/SSE.png)
+![SSE.png](Developpement/img/SSE.png)
 
 * Le client effectue une requête et ouvre ainsi une connexion persistante,
 * Le serveur en recevant la connexion envoie des données au fil de l'eau, à intervalles potentiellement indéfinis,
@@ -114,7 +114,7 @@ En revanche, garder cette connexion ouverte a un prix : cela peut paraître acce
 
 Similairement aux SSE, les connexions bidirectionnelles permettent d'envoyer et de recevoir des informations au fil de l'eau.
 
-![websockets.png](../../Developpement/img/websockets.png)
+![websockets.png](Developpement/img/websockets.png)
 
 L'avantage principal est la bidirectionnalité des échanges. En revanche, les désavantages sont les mêmes, si ce n'est qu'ils sont accentués : le coût de maintien des connexions ouvertes est plus lourd ici, souvent des bibliothèques logicielles spécifiques sont nécessaires pour supporter les websockets, ou passer par un prestataire externe qui permet d'abstraire cela.
 
@@ -124,7 +124,7 @@ L'avantage principal est la bidirectionnalité des échanges. En revanche, les d
 
 À noter que le schéma suivant est très simplifié, et souvent d'autres briques techniques peuvent apparaître (file de message, base de données, etc.)
 
-![push.png](../../Developpement/img/push.png)
+![push.png](Developpement/img/push.png)
 
 * Le client envoie une requête au serveur,
 * Le serveur répond qu'elle a été prise en compte pour rendre la main à l'utilisateur,
