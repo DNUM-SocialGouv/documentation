@@ -47,6 +47,7 @@
   * [Principes de développement](constuire-developper-deployer/principes-de-developpement/README.md)
     * [Application cloud native](constuire-developper-deployer/principes-de-developpement/cloud-native.md)
     * [Traitements asynchrones](constuire-developper-deployer/principes-de-developpement/processus-asynchrones.md)
+    * [Gestion des accès](constuire-developper-deployer/principes-de-developpement/gestion-des-access.md)
   * [Structure d'un dépôt](constuire-developper-deployer/structure-repo.md)
   * [Outillage sur les projets](constuire-developper-deployer/outillage-projet.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
