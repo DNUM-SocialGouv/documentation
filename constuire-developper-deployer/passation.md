@@ -91,7 +91,7 @@ Les accès suivants ont été accordés :
 
 ### Prise en main initiale
 
-* [ ] Le projet tourne avec `docker` et `docker-compose`, conformément à ce qui est précisé [ici](cloud-native.md) ;
+* [ ] Le projet tourne avec `docker` et `docker-compose`, conformément à ce qui est précisé [ici](principes-de-developpement/cloud-native.md) ;
   * [ ] Les dépendances spécifiques, manuelles et/ou implicites, est indiquées ainsi que comment les gérer et leur utilité ;
 * [ ] Les procédures de migrations de schéma de base de données sont présentes et documentées ;
   * [ ] Si applicable, les scripts d'initialisation ou d'hydratation pour les données de tests sont présents et documentés ;
