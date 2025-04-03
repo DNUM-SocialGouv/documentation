@@ -24,7 +24,3 @@ Ces informations sont à accès restreint.
 ## Cartographie des annuaires
 
 [Annuaires et solutions d'authentification en lien](https://github.com/DNUM-SocialGouv/documentation-privee/blob/main/iam-annuaires.jpg)
-
-## Gestions des accès
-
-[Gestion des habilitations](https://github.com/DNUM-SocialGouv/documentation-privee/blob/main/iam-habilitations.md)
