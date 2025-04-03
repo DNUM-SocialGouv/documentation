@@ -61,13 +61,9 @@
     * [Cloud](securiser-et-surveiller/hebergement/cloud.md)
   * [Sécurité](securiser-et-surveiller/securite/README.md)
     * [Sécurité](securiser-et-surveiller/securite/securite.md)
-    * [Authentification et accès](securiser-et-surveiller/securite/iam.md)
+    * [Authentification](securiser-et-surveiller/securite/iam.md)
     * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
   * [Observabilité](securiser-et-surveiller/observabilite.md)
-
-## À ranger
-
-* [Développement](a-ranger/developpement.md)
 
 ## ---
 
