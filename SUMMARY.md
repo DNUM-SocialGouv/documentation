@@ -42,7 +42,7 @@
     * [Exposition](concevoir/api/api-exposition.md)
     * [API Gateway](concevoir/api/api-gateway.md)
     * [Sécurisation](concevoir/api/api-securite.md)
-* [Construire, développer, déployer](constuire-developper-deployer/README.md)
+* [Développer](constuire-developper-deployer/README.md)
   * [Application cloud native](constuire-developper-deployer/cloud-native.md)
   * [Outillage sur les projets](constuire-developper-deployer/outillage-projet.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
