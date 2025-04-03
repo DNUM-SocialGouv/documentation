@@ -51,6 +51,7 @@
   * [Open Source](constuire-developper-deployer/open-source.md)
   * [Intégration continue (CI)](constuire-developper-deployer/ci.md)
   * [Déploiement continu (CD)](constuire-developper-deployer/cd.md)
+  * [Traitements asynchrones](constuire-developper-deployer/processus-asynchrones.md)
 * [Sécuriser et surveiller](securiser-et-surveiller/README.md)
   * [Structure d'un dépôt](securiser-et-surveiller/structure-repo.md)
   * [Hébergement](securiser-et-surveiller/hebergement/README.md)
@@ -64,10 +65,6 @@
 ## À ranger
 
 * [Développement](a-ranger/developpement.md)
-
-***
-
-* [Processus asynchrones](processus-asynchrones.md)
 
 ## ---
 
