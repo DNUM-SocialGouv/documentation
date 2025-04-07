@@ -16,7 +16,7 @@ layout:
 
 ## Choix par défaut pour le stockage de données
 
-* SGBDR : [PostgreSQL](../../../postgresql.md)
+* SGBDR : [PostgreSQL](postgresql.md)
 * Stockage de documents : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet.
 * NoSQL : pas de besoin fort identifié à date
 
@@ -28,4 +28,4 @@ Une application métier devrait utiliser un framework de Mapping Objet-Relationn
 * **Performance** : configuration d'un cache de niveau 2 pour les données à variation lente (données référentielles) et éventuellement d'un cache de niveau 1 pour les données métier vivantes (transactions)
 * **Sécurisation** : protection native contre les injections SQL et les rafales de requêtes
 * Moindre adhérence à la technologie de base de données\
-  &#xNAN;_&#x65;x : Hibernate pour Java, TypeORM pour TypeScript_, Prisma
+  &#xNAN;_&#x65;x : Hibernate pour Java, TypeORM pour TypeScript, Prisma_
