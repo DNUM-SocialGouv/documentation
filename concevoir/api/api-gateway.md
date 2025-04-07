@@ -65,8 +65,12 @@ Instancier et gérer une seule API Gateway par hébergement :
 * Eviter d'héberger une API Gateway dédiée par application
 * Eviter de passer par PISTE@DGFIP (moindre agilité, hors CI/CD, perte de contrôle lié à la gouvernance DGFIP) sauf cas extrêmes : 0 budget, exposer transitoirement l'API d'une application legacy hébergée à Duquesne ou Rosny, API partenaire ou API publique massivement utilisée. Ce positionnement de PISTE tiens compte des conseils de la DINUM mais la DINUM n'a pas de recommandation officielle concernant PISTE (hors catalogue)
 
-## Solutions d'API Gateway en lien avec le contexte MAS
+## Solutions d'API Gateway dans le contexte MAS
 
 * Gravitee.io utilisé par 2 projets
 * PISTE (DGFIP) utilisé par 1-2 projet\
-  &#xNAN;_&#x41;près analyse du marché, aucune autre solution d'API Management ne semble présenter d'intérêt supplémentaire pour le MAS : MuleSoft Anypoint est trop orienté éditeur, Kong est proche de Gravitee sans apporter de gain/perte évidents._
+\
+Après analyse du marché, aucune autre solution ne semble présenter d'intérêt particulier pour le MAS. Ex :
+- MuleSoft Anypoint trop orienté éditeur
+- Kong équivalent à Gravitee
+- Hasura offre un développement rapide (API low-code) mais une moindre sécurisation et exploitabilité.

@@ -18,7 +18,7 @@ layout:
 - En matière d'échanges de données, c'est toujours le [Référentiel Général d'Interopérabilité (RGI)](https://www.numerique.gouv.fr/publications/interoperabilite/) qui fait foi
 - Une **API REST** est suffisante dans la grande majorité des cas
 - Un **webhook** est un mécanisme d'appels sortants (callout) basé sur HTTP. Il permet d'envoyer une notification du producteur vers le(s) consommateur(s). C'est une API REST simple, souvent sans payload, souvent utilisée pour l'intégration avec des logiciels/progiciels.
-- **GraphQL** est un langage de requête pour API permettant aux clients de demander une grappe de données en un sel appel, tout en ne demandant que les données nécessaires.
+- **GraphQL** est un langage de requête pour API permettant aux clients de demander ou modifier une grappe de données en un seul appel, tout en ne demandant que les données nécessaires.
 - Le protocole SOAP est à éviter sauf contraintes existantes.
 
 ## Les questions à se poser
