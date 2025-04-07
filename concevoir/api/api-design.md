@@ -39,7 +39,6 @@ Ci-dessous se trouvent quelques questions utiles. _Ces questions peuvent ne pas 
   * À quel moment dans une journée, semaine, etc. ?
 * **Comment :** comment la donnée est-elle consommée ?
   * Quel protocole d'échange (HTTP + JSON, GraphQL, gRPC) ?
-    * Plus d'informations [ici](api-normes.md#solutions-proposées).
   * Lecture et/ou écriture et/ou modification ?
 * **Combien :** À quelle fréquence la donnée est-elle consommée (par jour, semaine, etc.) ?
 
