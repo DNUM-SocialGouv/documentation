@@ -34,6 +34,7 @@
   * [Accessibilité](concevoir/accessibilite/README.md)
     * [Développement](concevoir/accessibilite/developpement.md)
   * [Eco-conception](concevoir/eco-conception.md)
+  * [Authentification des utilisateurs](concevoir/iam.md)
   * [Data](concevoir/data/README.md)
     * [Sensibilité des données](concevoir/data/sensibilite-des-donnees.md)
     * [PostgreSQL](concevoir/data/postgresql.md)
@@ -61,7 +62,6 @@
     * [Cloud](securiser-et-surveiller/hebergement/cloud.md)
   * [Sécurité](securiser-et-surveiller/securite/README.md)
     * [Sécurité](securiser-et-surveiller/securite/securite.md)
-    * [Authentification](securiser-et-surveiller/securite/iam.md)
     * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
   * [Observabilité](securiser-et-surveiller/observabilite.md)
 
