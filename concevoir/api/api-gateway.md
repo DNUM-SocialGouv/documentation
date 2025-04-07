@@ -67,10 +67,11 @@ Instancier et gérer une seule API Gateway par hébergement :
 
 ## Solutions d'API Gateway dans le contexte MAS
 
-* Gravitee.io utilisé par 2 projets
-* PISTE (DGFIP) utilisé par 1-2 projet\
-\
-Après analyse du marché, aucune autre solution ne semble présenter d'intérêt particulier pour le MAS. Ex :
-- MuleSoft Anypoint trop orienté éditeur
-- Kong équivalent à Gravitee
-- Hasura offre un développement rapide (API low-code) mais une moindre sécurisation et exploitabilité.
+Solution utilisées aux MAS, à différents niveaux :
+* **Gravitee.io** utilisé par 2 projets
+* **PISTE (DGFIP)** utilisé par 1-2 projet
+* **Hasura.io** mise sur le développement rapide (API low-code) mais une moindre sécurisation, exploitabilité, testabilité...
+
+Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
+* MuleSoft Anypoint trop orienté éditeur
+* Kong Gateway équivalent à Gravitee
