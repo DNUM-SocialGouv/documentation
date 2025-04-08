@@ -43,7 +43,7 @@ Ses principaux objectifs sont :
 
 * une application interne (ex?)
 * une solution open source interministérielle (ex: Démat Social comme fork de Démarches Simplifiées, Sites Faciles)
-* une solution open source grand public (ex: GLPI, Keycloack)
+* une solution open source grand public (ex: Keycloack)
 
 ## 3. Développer
 
