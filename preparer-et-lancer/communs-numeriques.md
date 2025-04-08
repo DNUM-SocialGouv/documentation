@@ -19,7 +19,7 @@ Tout projet DOIT tenter de réutiliser des communs numériques, en suivant l'arb
 ## Arbre de décision suivant la nature du projet
 
 * **Site éditorial**
-  * Soit socle [ONDINE ](../concevoir/accessibilite/developpement.md)du MAS (Drupal)
+  * Soit socle [ONDINE ](../undefined/nos-produits/communs-numeriques/ondine.md)du MAS (Drupal)
   * Soit [Sites faciles](https://sites-faciles.beta.numerique.gouv.fr/)
 * **Démarche administrative en ligne**
   * **Front usager** : utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
