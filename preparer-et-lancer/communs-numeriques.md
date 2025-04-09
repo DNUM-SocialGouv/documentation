@@ -19,7 +19,7 @@ Un commun numérique est une ressource numérique produite, gérée et gouverné
 ## Arbre de décision suivant la nature du projet
 
 * **Site éditorial**
-  * Soit socle ONDINE du MAS
+  * Soit socle [ONDINE ](../undefined/nos-produits/communs-numeriques/ondine.md)du MAS (Drupal)
   * Soit [Sites faciles](https://sites-faciles.beta.numerique.gouv.fr/)
 * **Démarche administrative en ligne**
   * **Front usager** :
