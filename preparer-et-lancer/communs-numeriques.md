@@ -38,7 +38,7 @@ Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au max
 - [les API internes et externes](#api-réutilisables)
 - [les frameworks et librairies standards](#frameworks-et-librairies-standards)
 
-## Communs numériques dans le contexte du MAS
+## Communs numériques au MAS
 
 Communs numériques grand public (solutions open source) :
 * _Aucun commun de haut-niveau identifié à date. GLPI écarté 04/2025._
@@ -102,7 +102,7 @@ Points communs :
 - Formulaires simples
 - Contributions possibles au produit
 - Produit maintenu, mais montées de versions à effectuer soi-même
-- A héberger en interne sur Cegedim ; sauf à faire évoluer l'infra de la FabNum pour PHP ou Python
+- A héberger en interne sur Intranet ou Cegedim ; sauf à faire évoluer l'infra de la FabNum pour PHP ou Python
 - Recherche intégrale, y compris dans les pièces-jointes
 
 Différences :
@@ -116,8 +116,8 @@ Différences :
 | Stockage de fichiers | GlusterFS (ou S3?)         | Filesystem ou S3           |
 | Instance multi-sites | Oui                        | Non                        |
 | ProConnect natif     | Non                        | Oui                        |
-| Conformité RGAA      | 75%                        | n/c (à faire)              |
-| Homologation RGS     | ?                          | n/c (à faire)              |
+| Conformité RGAA      | RGAA 4 à 75%               | RGAA 4.1 partiel           |
+| Conformité RGS       | Oui                        | n/c                        |
 
 Synthèse :
 - Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie des forces de Drupal.
