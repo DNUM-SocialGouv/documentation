@@ -17,18 +17,18 @@ layout:
 Un commun numérique est une ressource numérique produite, gérée et gouvernée par une communauté d'utilisateurs selon des règles de gouvernance conjointement élaborées. Tout projet DOIT tenter de réutiliser des communs numériques, et si possible y contribuer, en suivant ce guide.
 
 ## Arbre de décision suivant la nature du projet
-Mon projet est un/une ...
+Mon projet est un(e)...
 * **Site éditorial public**
   * voir comment [choisir entre le Socle Ondine et Sites Faciles](#choisir-entre-socle-ondine-et-sites-faciles)
 * **Démarche administrative en ligne**
   * pour le **front usager** :
     * utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
       * utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir comment [choisir entre Démarches Simplifiées et Démat Social](communs-numeriques.md#choisir-entre-démarches-simplifiées-et-démat-social)
-    * En dernier recours, envisager le développement spécifique du front usager
+    * en dernier recours, envisager le développement spécifique du front usager
   * pour le **back-office agent** :
     * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarches Simplifiées (ou Démat Social)
-    * Si cela ne suffit pas, envisager un back-office complémentaire à DS
-    * En dernier recours seulement, envisager le développement complet du back-office
+    * si cela ne suffit pas, envisager un back-office complémentaire à DS
+    * en dernier recours seulement, envisager le développement complet du back-office
 * **Base de données / Référentiel**
   * [Grist](https://grist.numerique.gouv.fr/) pour un besoin simple
   * sinon envisager le développement spécifique
@@ -57,10 +57,11 @@ Communs numériques internes :
 API externes particulièrement intéressantes pour le MAS :
 * [**API Base d'Adresse Nationale (BAN)**](https://www.data.gouv.fr/fr/dataservices/api-base-dadresse-nationale-ban/)
 * [**API Entreprise**](https://www.data.gouv.fr/fr/dataservices/api-entreprise/)
-* [**API Associations**](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
+* [**API Association**](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
 
 API internes MAS à réutiliser :
-* API Finess
+* API Finess ?
+* API Association SIVA ?
 
 ## Frameworks et librairies standards
 
@@ -95,17 +96,18 @@ _En cours_
 ## Choisir entre Socle Ondine et Sites Faciles
 
 Points communs :
+- Solution de type CMS
 - DSFR natif
 - API pour usage CMS headless
 - Formulaires simples
 - Contributions possibles au produit
 - Produit maintenu, mais montées de versions à effectuer soi-même
-- A héberger en interne sur Cegedim, sauf à faire évoluer l'infra de la FabNum pour PHP ou Python
+- A héberger en interne sur Cegedim ; sauf à faire évoluer l'infra de la FabNum pour PHP ou Python
 - Recherche intégrale, y compris dans les pièces-jointes
 
 Différences :
 |                      | [Socle Ondine](/undefined/nos-produits/communs-numeriques/ondine.md) | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/)|
-| -------------------  | -------------------------- | -------------------------- |
+| -------------------- | -------------------------- | -------------------------- |
 | Entité responsable   | SG/DICOM                   | SPM/DINUM/OPI              |
 | Open source          | Non (_pas à date_)         | Oui                        |
 | Stack technique      | Varnish/Drupal/PHP         | Wagtail(CMS)/Django/Python |
@@ -114,10 +116,9 @@ Différences :
 | Stockage de fichiers | GlusterFS (ou S3?)         | Filesystem ou S3           |
 | Instance multi-sites | Oui                        | Non                        |
 | ProConnect natif     | Non                        | Oui                        |
-| Conformité RGAA      | 75%                        | n/c                        |
+| Conformité RGAA      | 75%                        | n/c (à faire)              |
 | Homologation RGS     | ?                          | n/c (à faire)              |
-| Avis                 | ?                          | ?                          |
 
 Synthèse :
-- Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie de la robustesse de Drupal
-- Sites Faciles a une stack technique plus moderne et est davantage propice au développement métier spécifique
+- Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie des forces de Drupal.
+- Sites Faciles est plus moderne et plus propice au développement métier spécifique.
