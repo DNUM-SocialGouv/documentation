@@ -14,7 +14,7 @@ layout:
 
 # Communs numériques
 
-Un commun numérique est une ressource numérique produite, gérée et gouvernée par une communauté d'utilisateurs selon des règles de gouvernance conjointement élaborées. Tout projet DOIT tenter de réutiliser des communs numériques, et si possible y contribuer, en suivant ce guide.
+Un commun numérique est une ressource numérique produite, gérée et gouvernée par une communauté d'utilisateurs selon des règles de gouvernance conjointement élaborées. Tout projet DOIT tenter de réutiliser des communs numériques en suivant ce guide, et PEUT y contribuer.
 
 ## Arbre de décision suivant la nature du projet
 Mon projet est un(e)...
