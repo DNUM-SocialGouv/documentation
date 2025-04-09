@@ -52,7 +52,7 @@
   * [Outillage sur les projets](constuire-developper-deployer/outillage-projet.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
   * [Tests et stratégies](constuire-developper-deployer/tests-et-strategies.md)
-  * [Front web]
+  * Front web
     * [Développement](constuire-developper-deployer/web-front/accessibilite.md)
     * [Utilisation du DSFR](constuire-developper-deployer/utilisation-du-dsfr.md)
   * [Open Source](constuire-developper-deployer/open-source.md)
