@@ -23,7 +23,8 @@ L'API Management répond à de nombreux enjeux autour des APIs. Le sous-domaine 
 * Protection des échanges : quotas, anti-DoS...
 * Répartition de charge
 * Pré-validation des trames et renvoi d'erreurs HTTP
-* Supervision, traçabilité, audit... _"Pas de métier dans le middleware" : éviter de transformer les flux ou d'implémenter des règles métier dans la Gateway, même si l'outil le permet._
+* Supervision, traçabilité, audit...
+* _"Pas de métier dans le middleware" : éviter de transformer les flux ou d'implémenter des règles métier dans la Gateway, même si l'outil le permet._
 
 ## Enjeux des API dans le contexte du MAS
 
