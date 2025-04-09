@@ -25,7 +25,7 @@ La recherche exploratoire est indispensable dans le cadre des refontes, car elle
 
 ### Mise en place
 
-* [ ] Contactez votre expert en RU afin de **planifier la recherche exploratoire dans les premières phases du projet** et mobiliser des équipes multidisciplinaires.
+* [ ] Contactez votre expert en RU afin de **planifier la recherche exploratoire dans les premières phases du produit** et mobiliser des équipes multidisciplinaires.
 * [ ] Validez le **cadrage** transmis par votre expert en RU
 * [ ] Validez le **guide de recherche**
 * [ ] Assistez à la **restitution**
@@ -46,7 +46,7 @@ Les tests utilisateurs récurrents garantissent **une amélioration continue des
 ### Méthode
 
 * **Tests sur prototypes** : réaliser des tests avec un échantillon de 5 à 8 utilisateurs par itération. Ce nombre est suffisant pour identifier la majorité des problèmes d’utilisabilité (environ 80 % des points bloquants).
-* **Tests itératifs en conditions réelles** : impliquer 10 à 15 participants à chaque phase clé du projet pour garantir la fiabilité des retours. Ces tests, menés sur une interface en cours de développement ou déjà en production, **permettent d’évaluer l’adéquation avec les besoins réels et d’ajuster les fonctionnalités** de manière continue.
+* **Tests itératifs en conditions réelles** : impliquer 10 à 15 participants à chaque phase clé du produit pour garantir la fiabilité des retours. Ces tests, menés sur une interface en cours de développement ou déjà en production, **permettent d’évaluer l’adéquation avec les besoins réels et d’ajuster les fonctionnalités** de manière continue.
 
 ### Mise en place
 

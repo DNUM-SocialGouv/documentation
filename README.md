@@ -35,7 +35,7 @@ Pour aller plus loin :&#x20;
 
 ### Constat <a href="#constat" id="constat"></a>
 
-La sous-direction possède un parc de [240 applications](undefined/nos-produits/) et 40 à 50 chefs de projet/produit pour les piloter en lien avec les équipes métiers.
+La sous-direction possède un parc de [240 applications](undefined/nos-produits/) et 40 à 50 chefs de produit pour les piloter en lien avec les équipes métiers.
 
 Au regard de ce parc, on note des enjeux d'optimisation :
 
@@ -56,7 +56,7 @@ Nous notons des opportunités à travers cette démarche :
 Nous souhaitons donc expérimenter avec la mise en place d'un nouveau cadre organisationnel qui permettra de :
 
 1. Assurer la cohérence globale
-   1. Création du [**comité produit**](https://direction-du-numerique-ministere.gitbook.io/ressources/readme/comite-produit) qui se réunit toutes les semaines pour passer en revue les nouveaux projets, refontes, et petit à petit des projets où il existe une opportunité de pivoter
+   1. Création du [**comité produit**](https://direction-du-numerique-ministere.gitbook.io/ressources/readme/comite-produit) qui se réunit toutes les semaines pour passer en revue les nouveaux produits, refontes, et petit à petit des produits où il existe une opportunité de pivoter
    2. Publication de **normes et standards** (ici même) afin de guider et d'harmoniser la conception des produits et services
 2. Construire un **catalogue de standards et de communs numériques** et ainsi identifier les points de mutualisation entre différents besoins ou services (librairies, plateformes, référentiels)
 3. [**Accompagner les équipes**](https://msociauxfr.sharepoint.com/teams/ProductTeams-DevDesignAccessibilitRechercheutilisateurCoachi/SitePages/Accueil.aspx) en continu pour offrir un appui technique, d'architecture, de DevSecOps, de gestion des données, de design, d'accessibilité, de recherche utilisateur

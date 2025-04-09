@@ -41,7 +41,7 @@ Pour aller plus loin :&#x20;
 
 Cette organisation ne repose pas sur une méthode unique, mais sur une culture partagée, qui met l’impact, l’autonomie des équipes et l’apprentissage au cœur de la démarche.
 
-### En quoi c’est différent d’une organisation projet ?
+### En quoi est-ce différent d’une organisation projet ?
 
 Adopter une organisation produit, ce n’est pas simplement changer de vocabulaire : c’est changer de culture de travail.&#x20;
 

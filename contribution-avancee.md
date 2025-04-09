@@ -5,7 +5,7 @@
 Tout d'abord, il faut ajouter une clé SSH à votre compte GitHub et à votre poste.
 La marche à suivre est documentée [ici](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-Une fois cela fait, il vous reste à récupérer [le dépôt](https://github.com/DNUM-SocialGouv/documentation) du projet :
+Une fois cela fait, il vous reste à récupérer [le dépôt](https://github.com/DNUM-SocialGouv/documentation) :
 ```shell
 git clone git@github.com:DNUM-SocialGouv/documentation.git
 ```

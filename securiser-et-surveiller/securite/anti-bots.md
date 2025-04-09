@@ -28,17 +28,17 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 ## Recommandations
 
 * [**Des solutions au niveau réseau/middleware**](anti-bots.md#solutions-anti-bots-au-niveau-réseaumiddleware) sont à appliquer selon le contexte avec l'infogérant et/ou l'hébergeur. Sauf à appliquer l'approche ZeroTrust, il est déconseillé d'implémenter un anti-DDoS au niveau applicatif. Celui-ci étant déjà actif au niveau de l'hébergement.
-* [**Des solutions au niveau applicatif**](anti-bots.md#solutions-anti-bots-au-niveau-applicatif) sont à appliquer selon le contexte avec l'architecte solution ou lead tech du projet (ou en sollicitant un [accompagnement SDPSN / DD](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Notreoffre.aspx))
+* [**Des solutions au niveau applicatif**](anti-bots.md#solutions-anti-bots-au-niveau-applicatif) sont à appliquer selon le contexte avec l'architecte solution ou lead tech du produit (ou en sollicitant un [accompagnement SDPSN / DD](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Notreoffre.aspx))
 * **Rate-limiting pour l'API** : le Rate-limiting au niveau [API Gateway](../../concevoir/api/api-gateway.md) ou [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) est la solution à privilégier pour protéger une API des bots.
 * **Rate-limiting + Honeypot pour l'IHM** : combinaison efficace pour protéger l'IHM. Attention cependant à ne pas créer de problème d'accessibilité avec Honeypot.
 
 ## Solutions anti-bots au niveau réseau/middleware
 
-Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, ou plus localement par une [API Gateway](../../concevoir/api/api-gateway.md) ou un [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) du projet :
+Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, ou plus localement par une [API Gateway](../../concevoir/api/api-gateway.md) ou un [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) :
 
 * **Filtrage IP (whitelist)** : limiter l'accès à un nombre fini de clients connus ou déclarés.
 * **Blocage IP** : bloquer l'accès à des bots déjà identifiés, ou des sources habituelles d'intrusion.
-* **Rate-limiting** : limiter de manière statique ou dynamique le nombre de requêtes d'un même client sur un temps donné. Le rate-limiting est à définir route par route par l'équipe projet en charge de l'application.
+* **Rate-limiting** : limiter de manière statique ou dynamique le nombre de requêtes d'un même client sur un temps donné. Le rate-limiting est à définir route par route par l'équipe produit en charge de l'application.
 * **Observabilité applicative** : observer l'activité applicative grâce aux logs, pour déceler les comportements inhabituels et apprendre en continu. Une stratégie prudente vise à autoriser uniquement les comportements considérés comme habituels, plutôt que de bloquer les comportements inhabituels.
 
 ## Solutions anti-bots au niveau applicatif

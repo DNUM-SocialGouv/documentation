@@ -14,10 +14,10 @@ layout:
 
 # Normes et standards de design
 
-Ces normes et standards de design garantissent que chaque projet respecte des principes de base de conception d'expérience utilisateur numérique.
+Ces normes et standards de design garantissent que chaque produit respecte des principes de base de conception d'expérience utilisateur numérique.
 
 {% hint style="info" %}
-\*\*A noter :\*\* Ces normes et standards doivent être mis en oeuvre par les designers en charge du projet en collaboration avec le ou la cheffe de produit ainsi que les responsables métier et dev.
+\*\*A noter :\*\* Ces normes et standards doivent être mis en oeuvre par les designers en charge du produit en collaboration avec le ou la cheffe de produit ainsi que les responsables métier et dev.
 {% endhint %}
 
 ***

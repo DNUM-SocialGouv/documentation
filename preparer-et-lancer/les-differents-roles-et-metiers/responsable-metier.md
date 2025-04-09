@@ -37,7 +37,7 @@ Dans certains cas, un expert métier assume pleinement le rôle de Product Manag
 **Exemples de contexte**
 
 * Produit nécessitant une forte expertise métier
-* Projet où le métier dispose de la capacité et du temps pour jouer ce rôle
+* Produit où le métier dispose de la capacité et du temps pour jouer ce rôle
 
 **Points de vigilance**
 

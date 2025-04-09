@@ -42,7 +42,7 @@ Un bon développement permet de :
 * **Déployer et maintenir le produit**
   * Automatiser les tests et les déploiements pour gagner en efficacité.
   * Optimiser la performance et la sécurité des applications.
-  * Documenter le code et les choix techniques pour assurer la pérennité du projet.
+  * Documenter le code et les choix techniques pour assurer la pérennité du produit.
 
 ### Quelles sont les questions à se poser en tant que Développeur ?&#x20;
 
@@ -51,4 +51,4 @@ Un bon développement permet de :
 * Les fonctionnalités livrées répondent-elles aux besoins utilisateurs ?
 * Le produit est-il performant et sécurisé ?
 * L’équipe peut-elle comprendre et reprendre mon travail facilement ?
-* L'architecture du projet est-elle robuste et évolutive ?
+* L'architecture du produit est-elle robuste et évolutive ?

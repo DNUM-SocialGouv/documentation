@@ -1,5 +1,5 @@
 ---
-description: Produits et projets de la Direction générale de la santé (DGS).
+description: Produits de la Direction générale de la santé (DGS).
 layout:
   title:
     visible: true
@@ -34,7 +34,8 @@ Webservices pour l’Interconnexion avec d’autres SI : Voozarbo, SISMIP, I-Mou
 SI relatif à la Lutte Anti-Vectorielle aux modalités de mise en œuvre des missions de surveillance entomologique, d’intervention autour des détections et de prospection, des traitements et travaux autour des lieux fréquentés par les cas humains de maladies transmises par les moustiques vecteurs.​
 
 ✅ **Statut** : En production\
-👷‍♂️ **Utilisateurs :** ​DGS, ARS, Opérateurs privés, conseils départementaux soit environ 800 utilisateurs​\
+👷‍♂️ **Utilisateurs :** ​DGS, ARS, Opérateurs privés, conseils départementaux soit environ 800 utilisateurs​
+\
 📊 **Chiffres clés :** 27 000 opérations créées /an​ ; 7 types d'opérations​ ; 5 Go de photos de moustiques /an​ ; 4 SI connectés au SI-LAV
 
 ***
@@ -51,7 +52,8 @@ Il s’articule autour de 4 modules :​
 * RSS : réunion de sécurité sanitaire avec les agences nationales​
 
 ✅ **Statut** : En production\
-👷‍♂️ **Utilisateurs :** ​CORRUSS et ARS via SI VSS\
+👷‍♂️ **Utilisateurs :** ​CORRUSS et ARS via SI VSS
+\
 📊 **Chiffres clés :**&#x20;
 
 ***
@@ -70,7 +72,8 @@ Le système d'information Transparence-Santé est composé de deux modules : \
 Mise en production en 2014, l'application a fait l'objet d'une refonte en 2021, la nouvelle version a été mise en production en janvier 2022.
 
 ✅ **Statut** : En production\
-👷‍♂️ **Utilisateurs :** DGS / 500 Entreprises / Grand public​\
+👷‍♂️ **Utilisateurs :** DGS / 500 Entreprises / Grand public​
+\
 📊 **Chiffres clés :** Entreprises: 3 315 ; Bénéficiaires: 1 060 662​ ; Déclarations: 9 084 475​ (5 dernières années)
 
 ***
@@ -84,7 +87,8 @@ SIRIPH2G est le système d'information des Comités de Protection des Personnes,
 \- Dispositifs médicaux de diagnostic in vitro&#x20;
 
 ✅ **Statut** : En production\
-👷‍♂️ **Utilisateurs :** externes – promoteurs de recherche, CPP, ANSM​ et agents internes de la DGS\
+👷‍♂️ **Utilisateurs :** externes – promoteurs de recherche, CPP, ANSM​ et agents internes de la DGS
+\
 📊 **Chiffres clés :** 4970 comptes déposants, 60 000 dossiers, 14 000 tirages au sort effectués
 
 ***
@@ -103,5 +107,6 @@ Back Office​
 * Possibilité pour la DGS de créer des promoteurs, investigateurs, volontaires, recherches​
 
 ✅ **Statut** : En production\
-👷‍♂️ **Utilisateurs :** externes – promoteurs de recherche, CPP, ANSM​ et agents internes de la DGS\
+👷‍♂️ **Utilisateurs :** externes – promoteurs de recherche, CPP, ANSM​ et agents internes de la DGS
+\
 📊 **Chiffres clés :** 4970 comptes déposants, 60 000 dossiers, 14 000 tirages au sort effectués
