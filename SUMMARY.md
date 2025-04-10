@@ -49,6 +49,7 @@
     * [Traitements asynchrones](constuire-developper-deployer/principes-de-developpement/processus-asynchrones.md)
     * [Gestion des accès](constuire-developper-deployer/principes-de-developpement/gestion-des-access.md)
   * [Structure d'un dépôt](constuire-developper-deployer/structure-repo.md)
+  * [Checklist projet](constuire-developper-deployer/checklist-projet.md)
   * [Outillage sur les projets](constuire-developper-deployer/outillage-projet.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
   * [Tests et stratégies](constuire-developper-deployer/tests-et-strategies.md)
