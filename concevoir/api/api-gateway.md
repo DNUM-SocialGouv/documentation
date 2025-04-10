@@ -71,7 +71,7 @@ Instancier et gérer une seule API Gateway par hébergement :
 Solution utilisées aux MAS, à différents niveaux :
 * **Gravitee.io** utilisé par 2 produits
 * **PISTE (DGFIP)** utilisé par 1-2 produits
-* **Hasura.io** mise sur le développement rapide (API low-code) mais une moindre sécurisation, exploitabilité, testabilité...
+* **Hasura.io** mise sur le développement rapide (API low-code) mais une moindre exploitabilité et testabilité. Peut être intéressant pour des projets d'API standalone ou pure Data, mais pas en complément d'une application métier.
 
 Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
 * MuleSoft Anypoint trop orienté éditeur
