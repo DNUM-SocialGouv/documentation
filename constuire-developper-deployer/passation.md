@@ -57,7 +57,7 @@ Les accès suivants ont été accordés :
 
 ### Inclusion
 
-* [ ] Les invitations aux dailies et autres rituels sont envoyées ;
+* [ ] Les invitations au daily et autres rituels sont envoyées ;
 * [ ] Les membres de l'équipe, ainsi que les stakeholders et les personnes clés sont présentées ;
 * [ ] Une personne de l'équipe est désignée comme "[Buddy](https://factorial.fr/blog/buddy-parrainage/)" afin de faciliter l'intégration dans l'équipe ;
 

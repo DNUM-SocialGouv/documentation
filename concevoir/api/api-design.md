@@ -32,7 +32,7 @@ Ci-dessous se trouvent quelques questions utiles. _Ces questions peuvent ne pas 
 * **Pourquoi :** Quel est l'usage de la donnée ?
 * **Qui :** par qui la donnée est-elle consommée ?
   * Des applications front-ends / back-ends ?
-* **Où :** où la donnée sera-t-elle demandée ?
+* **Où :** où la donnée est-elle demandée ?
   * Clients internes et/ou externes ?
 * **Quand :** quand la donnée est-elle consommée ?
   * Plage horaire ?
@@ -47,10 +47,10 @@ Ci-dessous se trouvent quelques questions utiles. _Ces questions peuvent ne pas 
 Les réponses à ces questions apportent des informations sur les modalités d'exposition, telles que :
 
 * Le type de sécurité à mettre en place pour garantir la bonne consommation de la donnée
-  * Cela pourra dépendre du type d'API, la nature de la donnée, l'architecture réseau, etc.
+  * Cela peut dépendre du type d'API, de la nature de la donnée, de l'architecture réseau, etc.
 * Les usages "normaux" qui mettraient en évidence les usages "anormaux"
-  * Exemple : nous savons que la donnée _D_ n'est consommée que tous les jours à la même heure, donc une consommation à une heure différente pourra être envisagé comme anormal.
-* Le niveau de traçabilité aurons-nous besoin ?
+  * Exemple : nous savons que la donnée _D_ n'est consommée que tous les jours à la même heure, donc une consommation à une heure différente pourrait être anormale.
+* Le niveau de traçabilité nécessaire ?
   * Qui a appelé, comment identifie-t-on, quand, d'où, sur quel point ?
 * Comment les versions de l'API sont-elles gérées et communiquées ?
 * De quelle disponibilité a-t-on besoin ?
@@ -62,12 +62,12 @@ Ces questions ne sont pas exhaustives, mais donnent une idée des points à abor
 
 Nous distinguons plusieurs types d'API selon la population qui consomme la donnée :
 
-* Les APIs publiques, où aucune authentification ou validation des comptes n'est généralement nécessaire ;
-  * Exception faîte des APIs qui pourront demander des informations sur leurs consommateurs.
-* Les APIs partenaires, où une création et/ou une validation des comptes pourra être envisagée ;
+* Les APIs publiques, où aucune authentification ou validation des comptes n'est généralement nécessaire
+  * Exception faîte des APIs qui pourront demander des informations sur leurs consommateurs
+* Les APIs partenaires, pour lesquelles une création/validation des comptes est envisagée
   * Exemples : autres organismes publics, éditeurs de logiciels, etc.
-* Les APIs privées, donc non-ouvertes à l'extérieur de l'organisation.
+* Les APIs privées, donc non-ouvertes à l'extérieur de l'organisation
 
-## Ressources supplémentaires
+## Ressources complémentaires
 
 * Comment designer une API, par OCTO Technology : https://blog.octo.com/designer-une-api-rest

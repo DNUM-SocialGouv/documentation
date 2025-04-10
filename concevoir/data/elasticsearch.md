@@ -19,7 +19,7 @@ layout:
 ## Questions à se poser
 
 * **Besoin**
-  * Quels besoins de l'application justifierait ES ?
+  * Quels besoins de l'application justifient ES ?
   * Que couvre ES en plus de PostgreSQL (notre base de donnée relationnelle par défaut) ?
 * **Performance**
   * Comment mesurer la performance d'ES par rapport à d'autres solutions répondant également au besoin ?
@@ -28,7 +28,7 @@ layout:
   * Comment l'exploitabilité d'ES a été prise en compte (observabilité, redondance, résilience, etc.) ?
   * L'hébergeur et l'infogérant supportent-ils ES ?
 * **Sécurité et conformité**
-  * Quelles données seront stockées dans ES ?
+  * Quelles données sont stockées dans ES ?
   * Quel est leur niveau de criticité ?
 * **Coût**
   * Si ES est ajouté à une stack existante, le coût total d'une deuxième base de données a t-il bien été pris en compte ?

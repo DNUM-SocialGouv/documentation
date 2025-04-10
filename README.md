@@ -53,7 +53,7 @@ Nous notons des opportunités à travers cette démarche :
 
 ### Un nouveau cadre organisationnel <a href="#un-nouveau-cadre-organisationnel" id="un-nouveau-cadre-organisationnel"></a>
 
-Nous souhaitons donc expérimenter avec la mise en place d'un nouveau cadre organisationnel qui permettra de :
+Nous expérimentons la mise en place d'un nouveau cadre organisationnel qui permette de :
 
 1. Assurer la cohérence globale
    1. Création du [**comité produit**](https://direction-du-numerique-ministere.gitbook.io/ressources/readme/comite-produit) qui se réunit toutes les semaines pour passer en revue les nouveaux produits, refontes, et petit à petit des produits où il existe une opportunité de pivoter
