@@ -55,13 +55,18 @@ Communs numériques internes :
 ## API externes et internes
 
 API externes particulièrement intéressantes pour le MAS :
-* [**API Base d'Adresse Nationale (BAN)**](https://www.data.gouv.fr/fr/dataservices/api-base-dadresse-nationale-ban/)
-* [**API Entreprise**](https://www.data.gouv.fr/fr/dataservices/api-entreprise/)
-* [**API Association**](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
+* Les API Entreprise
+  * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/)
+  * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f?aq=ALL) pour les besoins simples
+  * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/)
+* Les API Association
+  * [API Association](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
+  * [API Association annonces officielles et comptes annuels](https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe)
+  * [API Subvention](https://api.gouv.fr/les-api/api-data-subvention)
+* [API Base d'Adresse Nationale (BAN)](https://www.data.gouv.fr/fr/dataservices/api-base-dadresse-nationale-ban/)
 
 API internes MAS à réutiliser :
 * API Finess ?
-* API Association SIVA ?
 
 ## Frameworks et librairies standards
 
@@ -79,6 +84,7 @@ _En cours_
   * Metabase ?
 * Chatbot
 * IA
+* ETL/ELT
 
 ## Choisir entre Démarches Simplifiées et Démat Social
 
@@ -103,7 +109,7 @@ Points communs :
 - Contributions possibles au produit
 - Produit maintenu, mais montées de versions à effectuer soi-même
 - A héberger en interne sur Intranet ou Cegedim ; sauf à faire évoluer l'infra de la FabNum pour PHP ou Python
-- Recherche intégrale, y compris dans les pièces-jointes
+- Recherche texte intégrale, y compris dans les pièces-jointes
 
 Différences :
 |                      | [Socle Ondine](/undefined/nos-produits/communs-numeriques/ondine.md) | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/)|
