@@ -78,4 +78,5 @@
 
 ## ---
 
-* [Comment contribuer à ce guide ?](undefined-1/comment-contribuer-a-ce-guide.md)
+* [Comment contribuer à ce guide ?](undefined-1/comment-contribuer-a-ce-guide/README.md)
+  * [Guide de rédaction des pages](undefined-1/comment-contribuer-a-ce-guide/guide-de-redaction-des-pages.md)

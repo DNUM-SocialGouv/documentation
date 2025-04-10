@@ -12,7 +12,7 @@ layout:
     visible: false
 ---
 
-# Stockage de données
+# Data
 
 ## Choix pour le stockage de données
 
@@ -31,4 +31,4 @@ Une application métier DEVRAIT utiliser un framework de Mapping Objet-Relationn
 * **Performance** : configuration d'un cache de niveau 2 pour les données à variation lente (données référentielles) et éventuellement d'un cache de niveau 1 pour les données métier vivantes (transactions)
 * **Sécurisation** : protection native contre les injections SQL et les rafales de requêtes
 * **Evolutivité** : Moindre adhérence à la technologie de base de données\
-_Ex : Hibernate pour Java, TypeORM pour TypeScript, Prisma_
+  &#xNAN;_&#x45;x : Hibernate pour Java, TypeORM pour TypeScript, Prisma_

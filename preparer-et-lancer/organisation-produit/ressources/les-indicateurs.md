@@ -42,8 +42,6 @@ Ces indicateurs mesurent si un produit atteint ses objectifs stratégiques. Ils 
 
 Les KPIs répondent à une question clé : « Est-ce que notre produit atteint les résultats attendus ? »
 
-{% include "../../../.gitbook/includes/pour-aller-plus-loin-voir....md" %}
-
 </details>
 
 <details>
