@@ -35,7 +35,7 @@ layout:
   * Si ES est considéré pour remplacer une solution existante, quels efforts (coûts, temps, ressources humaines, etc.) sont nécessaires pour ce remplacement ?
   * Quels efforts sont nécessaires pour maintenir ES dans le temps ?
 
-## Incident dû à la licence
+## Précisions sur la licence
 
 Elastic, l'entreprise proposant l'offre commerciale autour d'ES et d'autres produits (Kibana, Logstash, etc.) a décidé en 2021 de ne plus proposer de mise à jour sous licence open-source. AWS (Amazon Web Services) lance alors, avec le soutien d'autres acteurs, [OpenSearch](https://aws.amazon.com/what-is/opensearch/), qui est un fork (déviation) de la dernière version open-source d'ES tout en continuant à la faire évoluer grâce à la communauté.
 
