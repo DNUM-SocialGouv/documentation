@@ -14,16 +14,20 @@ layout:
 
 # Data
 
-## Choix pour le stockage de données
+## Choix de solution pour le stockage de données
 
-* SGBDR : [PostgreSQL](postgresql.md)
-  * MySQL ou MariaDB lorsqu'il vient avec la solution (ex : Drupal)
-* Stockage de documents : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet
-* NoSQL :
-  * pas de besoin NoSQL fort identifié à date. Des traces de MongoDB dans l'organisation
+* Base de données relationnelle : [PostgreSQL](postgresql.md)
+  * Exception : MySQL ou MariaDB lorsqu'il vient avec la solution (ex : Drupal)
+* **Stockage de documents** :
+  * **Stockage simple** : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet
+  * **Pas de solution GED standard et souveraine** à date au MAS. Ne considérer une solution de GED dédiée que s'il y a manipulation intensive de documents, et le besoin fort de fonctionnalités au-delà de la consultation (partage à des acteurs externes, travail collaboratif en édition...).
+* **Base de données NoSQL** : pas de besoin identifié.
+  * Des traces de MongoDB dans l'organisation
   * des [indications sur Elasticsearch ici](elasticsearch.md)
 
-## Mapping objet-relationnel (ORM)
+## Accès aux données
+
+### Mapping objet-relationnel (ORM)
 
 Une application métier DEVRAIT utiliser un framework de Mapping Objet-Relationnel (ORM) pour de nombreuses raisons :
 
@@ -31,4 +35,4 @@ Une application métier DEVRAIT utiliser un framework de Mapping Objet-Relationn
 * **Performance** : configuration d'un cache de niveau 2 pour les données à variation lente (données référentielles) et éventuellement d'un cache de niveau 1 pour les données métier vivantes (transactions)
 * **Sécurisation** : protection native contre les injections SQL et les rafales de requêtes
 * **Evolutivité** : Moindre adhérence à la technologie de base de données\
-  &#xNAN;_&#x45;x : Hibernate pour Java, TypeORM pour TypeScript, Prisma_
+  _Exemples : Hibernate pour Java, TypeORM pour TypeScript, Prisma_
