@@ -35,7 +35,6 @@
   * [Eco-conception](concevoir/eco-conception.md)
   * [Authentification des utilisateurs](concevoir/iam.md)
   * [Data](concevoir/data/README.md)
-    * [Sensibilité des données](concevoir/data/sensibilite-des-donnees.md)
     * [PostgreSQL](concevoir/data/postgresql.md)
     * [ElasticSearch](concevoir/data/elasticsearch.md)
   * [API](concevoir/api/README.md)
