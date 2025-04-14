@@ -18,7 +18,7 @@ layout:
 
 * SGBDR : [PostgreSQL](postgresql.md)
   * MySQL ou MariaDB lorsqu'il vient avec la solution (ex : Drupal)
-* Stockage de documents : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet.
+* Stockage de documents : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet
 * NoSQL :
   * pas de besoin NoSQL fort identifié à date. Des traces de MongoDB dans l'organisation
   * des [indications sur Elasticsearch ici](elasticsearch.md)
