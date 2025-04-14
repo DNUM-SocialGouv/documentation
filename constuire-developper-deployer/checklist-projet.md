@@ -31,7 +31,7 @@ Voici ce que contiennent nos projets :&#x20;
 * [ ] Des fichiers relatifs au projet :&#x20;
   * [ ] `package.json` et `yarn.lock`&#x20;
   * [ ] `tsconfig.json`
-  * [ ] Les fichiers de configuration pour [Eslint](https://app.gitbook.com/o/WhkUfq5hgaTO6ZmJDX52/s/TxlFtrd9MnUa4wJ0FmXj/), [Prettier](https://prettier.io/docs/configuration), [Editorconfig](https://editorconfig.org/), [Husky](https://github.com/typicode/husky#readme), [Lint-Staged](https://github.com/lint-staged/lint-staged#readme), [Jest](https://jestjs.io/docs/getting-started) ou [Vitest](https://vitest.dev/config/), [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview)&#x20;
+  * [ ] Les fichiers de configuration pour [Eslint](https://app.gitbook.com/o/WhkUfq5hgaTO6ZmJDX52/s/TxlFtrd9MnUa4wJ0FmXj/), [Prettier](https://prettier.io/docs/configuration), [Editorconfig](https://editorconfig.org/), [Husky](https://github.com/typicode/husky#readme), [Lint-Staged](https://github.com/lint-staged/lint-staged#readme), [Jest](https://jestjs.io/docs/getting-started) ou [Vitest](https://vitest.dev/config/)
   * [ ] Les fichiers `.env` et `.env.ENVIRONNEMENT` qui contiennent les variables d'environnement
 * [ ] Pour un projet front-end :&#x20;
   * [ ] Les fichiers [vite](https://vite.dev/config/)
