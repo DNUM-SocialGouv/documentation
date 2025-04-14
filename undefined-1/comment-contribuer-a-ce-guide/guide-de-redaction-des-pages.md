@@ -6,10 +6,9 @@ description: Charte éditoriale du GitBook
 
 ### Pourquoi cette charte ?
 
-**Nous rédigeons pour les cheffes et chefs de projet SDPSN**, et toutes les personnes qui conçoivent, développent ou accompagnent des produits numériques pour la DNUM.  \
+Ce guide est rédigé à la fois pour les chefs/cheffes de produit SDPSN, et pour toutes les personnes qui conçoivent, développent ou accompagnent des produits numériques pour la DNUM.\
 
-
-**Notre objectif est de donner les moyens d’agir :** comprendre les exigences, choisir la bonne méthode, appliquer les standards et construire de meilleurs services publics numériques.
+**L'objectif est de donner les moyens d’agir :** comprendre les exigences, choisir une bonne méthode, appliquer les standards et construire de meilleurs services publics numériques.
 
 {% hint style="info" %}
 ### Rappel de notre intention
@@ -36,21 +35,20 @@ Ce guide :
 * Éviter le jargon, utiliser des phrases courtes.
 * Écrire au présent, avec un ton neutre et direct.
 * Structurer les pages de façon cohérente. Par exemple :  De quoi parle-t-on ? Pourquoi c’est important ? Comment faire ? À retenir / Erreurs fréquentes.
-* Intégrer des présentations directement sur les pages : utilisez les ressources existantes.
+* Intégrer des supports de présentation et liens externes directement sur les pages : utiliser les ressources existantes.
+* Eviter l'opposition entre "vous" et "nous" car les auteurs sont lecteurs et inversement.
 
 #### 3. Être utile, pas prescriptif
 
 * Donner envie d’appliquer les standards par leur intérêt, pas en les imposant.
-* Quand une règle est obligatoire, l’indiquer clairement.
+* Quand une règle est obligatoire, l’indiquer clairement. Pour la rédaction de contenu technique notamment, on PEUT utiliser des mots clés comme PEUT, DOIT (PAS), DEVRAIT (PAS). Cf [convention internationale](https://datatracker.ietf.org/doc/html/rfc2119). 
 * Expliquer le contexte et le bénéfice.
-
-
 
 ***
 
 ### 7 questions pour réviser une page
 
-Avant de publier ou mettre à jour une page, posez-vous ces questions :&#x20;
+Avant de publier ou mettre à jour une page, posons-nous ces questions :
 
 1. À quel besoin ou action répond cette page ?
 2. Est-ce que je peux en dire moins pour être plus clair ?
@@ -58,4 +56,4 @@ Avant de publier ou mettre à jour une page, posez-vous ces questions :&#x20;
 4. Ai-je expliqué une règle obligatoire, sans la faire passer pour une option ?
 5. Ai-je cité ou intégré des sources utiles ?
 6. Cette page s’inscrit-elle bien dans la structure du GitBook ?
-7. Est-elle utile à une cheffe de projet dès sa première lecture ?
+7. Est-elle utile dès sa première lecture ?

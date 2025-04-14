@@ -84,8 +84,8 @@ Le F-SUS (French System Usability Scale) est une échelle normalisée permettant
 
 #### Méthode
 
-* Intégrez des tests utilisateurs à chaque phase clé, réaliser de la recherche utilisateur régulièrement
-* Analysez les résultats pour ajuster les parcours et fonctionnalités avec votre expert en Design.
+* Intégrer des tests utilisateurs à chaque phase clé, réaliser de la recherche utilisateur régulièrement
+* Analyser les résultats pour ajuster les parcours et fonctionnalités avec votre expert en Design.
 
 #### Mise en place
 

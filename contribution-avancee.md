@@ -22,7 +22,7 @@ Où :
 - `NOM_REMOTE` est le nom attribué à la [remote Git](https://git-scm.com/docs/git-remote) liée à la copie,
 - `LIEN_GIT_DU_FORK` est le lien Git vers le dépôt.
 
-Avec ces étapes, vous pourrez ensuite proposer des modifications à la documentation en :
+Avec ces étapes, vous pouvez ensuite proposer des modifications à la documentation en :
 
 - Créant au préalable une branche sur votre poste,
 - Faire des commits,

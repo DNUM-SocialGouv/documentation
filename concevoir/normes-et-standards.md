@@ -125,7 +125,7 @@ L'idéation, ou recherche de solutions adaptées aux besoins des utilisateurs, d
 * S'assurer que l'application respecte le ["Dites le nous une fois"](https://www.numerique.gouv.fr/services/guichet-dites-le-nous-une-fois/)
 
 {% hint style="info" %}
-**Astuce :** Intégrez la simplification du langage à ce stade afin de pouvoir tester vos hypothèses avec vos utilisateurs. Ressource utile : [Sensibiliser et s’exercer aux méthodes de simplification des documents](https://www.modernisation.gouv.fr/outils-et-formations/simplifier-les-documents-administratifs#ConsidererUsager)
+**Astuce :** Intégrer la simplification du langage à ce stade permet de tester les hypothèses avec les utilisateurs. Ressource utile : [Sensibiliser et s’exercer aux méthodes de simplification des documents](https://www.modernisation.gouv.fr/outils-et-formations/simplifier-les-documents-administratifs#ConsidererUsager)
 {% endhint %}
 
 ***
