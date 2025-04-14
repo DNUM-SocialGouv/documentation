@@ -54,23 +54,19 @@ Communs numériques internes :
 
 ## API externes et internes
 
-API externes particulièrement intéressantes pour le MAS :
+API particulièrement intéressantes pour le MAS :
 * Les API Entreprise
-  * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/)
-  * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f?aq=ALL) pour les besoins simples
-  * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/)
+  * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/) : pas de recherche multi-critères
+  * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f?aq=ALL) pour les besoins simples de recherche
+  * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/) : recherche par SIRET/nom ET filtrage sur critères (codes d'activité, géographie...)
+  * API Finess pour les établissements SMS : aujourd'hui plus un fichier qu'une API. Exposition d'une API via OpenDataSoft
 * Les API Association
   * [API Association](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
   * [API Association annonces officielles et comptes annuels](https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe)
   * [API Subvention](https://api.gouv.fr/les-api/api-data-subvention)
 * [API Base d'Adresse Nationale (BAN)](https://www.data.gouv.fr/fr/dataservices/api-base-dadresse-nationale-ban/)
 
-API internes MAS à réutiliser :
-* API Finess ?
-
 ## Frameworks et librairies standards
-
-_En cours_
 
 * [Authentification](/concevoir/iam.md)
 * Stockage documentaire et GED (type S3, …)
@@ -78,7 +74,6 @@ _En cours_
 * Publipostage (gestion des templates avec balises + production de documents)
 * [Stockage et accès aux données](/concevoir/data/README.md)
 * [API Gateway](/concevoir/api/api-gateway.md)
-  * _Reste à positionner Hasura et à mieux positionner PISTE_
 * Workflow
 * Statistiques (tableaux de bord, production de fichiers CSV, BI)
   * Metabase ?
