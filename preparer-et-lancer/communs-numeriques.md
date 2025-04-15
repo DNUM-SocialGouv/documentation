@@ -30,18 +30,21 @@ Mon produit est un(e)...
     * si cela ne suffit pas, envisager un back-office complémentaire à DS
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Base de données / Référentiel**
-  * [Grist](https://grist.numerique.gouv.fr/) pour un besoin simple
+  * [Grist](https://grist.numerique.gouv.fr/) pour un besoin très simple
+  * éventuellement un backend-as-a-service également pour un besoin simple
   * sinon envisager le développement spécifique
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
-- [les communs numériques](#communs-numériques-dans-le-contexte-du-mas)
-- [les API internes et externes](#api-réutilisables)
+- [les communs numériques](#communs-numériques-au-mas)
+- [les API internes et externes](#api-externes-et-internes)
 - [les frameworks et librairies standards](#frameworks-et-librairies-standards)
 
 ## Communs numériques au MAS
 
 Communs numériques grand public (solutions open source) :
-* _Aucun commun de haut-niveau identifié à date. GLPI écarté 04/2025._
+* _Aucun commun de haut-niveau identifié à date._
+* _GLPI écarté 04/2025._
+* _Manifest.build est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits._
 
 Communs numériques inter-ministériels :
 * [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution de dématérialisation des démarches administratives. Elle est inter-ministérielle, générique et hébergée en mode SaaS.
