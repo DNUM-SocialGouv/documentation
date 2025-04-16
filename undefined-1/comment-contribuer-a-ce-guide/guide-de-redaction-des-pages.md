@@ -6,7 +6,7 @@ description: Charte éditoriale du GitBook
 
 ### Pourquoi cette charte ?
 
-Ce guide est rédigé à la fois pour les chefs/cheffes de produit SDPSN, et pour toutes les personnes qui conçoivent, développent ou accompagnent des produits numériques pour la DNUM.\
+Ce guide est rédigé à la fois pour les chefs/cheffes de produit SDPSN, et pour toutes les personnes qui conçoivent, développent ou accompagnent des produits numériques pour la DNUM.
 
 **L'objectif est de donner les moyens d’agir :** comprendre les exigences, choisir une bonne méthode, appliquer les standards et construire de meilleurs services publics numériques.
 
