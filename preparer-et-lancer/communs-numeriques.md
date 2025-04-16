@@ -62,7 +62,7 @@ API particulièrement intéressantes pour le MAS :
   * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/) : pas de recherche multi-critères
   * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f?aq=ALL) pour les besoins simples de recherche
   * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/) : recherche par SIRET/nom ET filtrage sur critères (codes d'activité, géographie...)
-  * API Finess pour les établissements SMS : aujourd'hui plus un fichier qu'une API. Exposition d'une API via OpenDataSoft
+  * API des établissements de santé: pas d'API Finess native mais [exposition API du fichier "t_finess" sur OpenDataSoft](https://arssante.opendatasoft.com/)
 * Les API Association
   * [API Association](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
   * [API Association annonces officielles et comptes annuels](https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe)
