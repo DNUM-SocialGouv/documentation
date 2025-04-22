@@ -19,7 +19,7 @@ Voici ce que contiennent nos projets :&#x20;
 * [ ] Pour la documentation :
   * [ ] Le `README.md`, synthétisant ce que fait l'application, ainsi que des liens pertinents au projet
   * [ ] `CONTRIBUTING.md`&#x20;
-  * [ ] [`LICENCE.txt`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository), voir [ici](https://www.data.gouv.fr/fr/pages/legal/licences/) pour la liste des licences
+  * [ ] [`LICENCE(.txt)`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/licensing-a-repository), voir [ici](https://www.data.gouv.fr/fr/pages/legal/licences/) pour la liste des licences
   * [ ] Un dossier `doc(s)` pour les documents techniques (choix de conception, ADRs, conventions spécifiques à l'équipe, etc.)
 * [ ] Des fichiers liés à Git :&#x20;
   * [ ] `.gitignore`
