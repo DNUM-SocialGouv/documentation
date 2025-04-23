@@ -17,7 +17,7 @@ layout:
 Ces normes et standards de design garantissent que chaque produit respecte des principes de base de conception d'expérience utilisateur numérique.
 
 {% hint style="info" %}
-\*\*A noter :\*\* Ces normes et standards doivent être mis en oeuvre par les designers en charge du produit en collaboration avec le ou la cheffe de produit ainsi que les responsables métier et dev.
+**A noter :** Ces normes et standards doivent être mis en oeuvre par les designers en charge du produit en collaboration avec le ou la cheffe de produit ainsi que les responsables métier et dev.
 {% endhint %}
 
 ***
@@ -26,21 +26,22 @@ Ces normes et standards de design garantissent que chaque produit respecte des p
 
 À copier-coller et utiliser pour suivre les étapes clés du processus de design 👇
 
+* [ ] **Trouver un.e designer senior** référent sur votre produit.
 * [ ] **Fichier Figma DNUM** créé et centralisant tous les éléments nécessaires.
 * [ ] **Profils utilisateurs** définis avec leurs besoins et contextes d’usage.
 * [ ] **Cartographies des usages** (parcours en diagrammes, journey map, carte d'empathie, etc.) disponibles.
-* [ ] **Inspirations et adhérences** documentées (benchmark, solutions similaires ou associées).
+* [ ] **Inspirations et adhérences** documentées (parangonnage, solutions similaires ou associées).
 * [ ] **Vision de design** rédigée, claire et partagée avec les équipes.
-* [ ] **Maquettes 100 % DSFR** ou nouveaux composants respectant le DSFR.
+* [ ] **Maquettes 100 % DSFR & RGAA** ou nouveaux composants respectant le DSFR et les standards RGAA.
 * [ ] **Idéation** réalisée avec au moins 3 idées UX/UI pour chaque parcours principal.
 * [ ] **Tests utilisateurs** menés (au moins 5 tests par profil utilisateur).
-* [ ] **Accessibilité** prise en compte dans les designs et annotations ajoutées.
+* [ ] **Annotation RGAA** ajoutées dans les maquettes.
 * [ ] **Responsivité** documentée par des maquettes d'écrans mobiles à coté des écrans desktop.
 * [ ] **Niveau d’effort et impact utilisateur** évalués pour chaque changement ou nouvelle fonctionnalité.
 * [ ] Documentation à jour dans les espaces partagés (Doc de design, Figma, Figjam, etc.).
 
 {% hint style="info" %}
-\*\*Astuce :\*\* Demandez à votre designer de suivre cette checklist et de l'utiliser pour créer un planning de ses actions. Les designers sont en charge de mener et de valider chaque étape avec vous et l'équipe afin de garantir une collaboration fluide et un produit final de qualité !
+**Astuce :** Demandez à votre designer de suivre cette checklist et de l'utiliser pour créer un planning de ses actions. Les designers sont en charge de mener et de valider chaque étape avec vous et l'équipe afin de garantir une collaboration fluide et un produit final de qualité !
 {% endhint %}
 
 ***
@@ -58,7 +59,7 @@ Ce guide rassemble les étapes essentielles à suivre, de la compréhension des 
 * Doit inclure : maquettes, prototypes, annotations d’accessibilité, documentation visuelle.
 
 {% hint style="info" %}
-\*\*Astuce :\*\* Demandez à votre designer d'utiliser les modèles créés par la DNUM :
+Astuce :\*\* Demandez à votre designer d'utiliser les modèles créés par la DNUM :
 
 * Conception, maquettage, prototypage :[Modèle de fichier Figma](https://www.figma.com/design/XMBYkb0Yfgf5Xwus7Qqi4F/Mod%C3%A8le-Figma?m=auto\&t=4yobmo0a54wCxCct-6)
 * Ateliers, diagrammes, idéation : [Modèle de fichier Figjam](https://www.figma.com/board/etgOPbk0hSxLYYWNM6XAJ0/Mod%C3%A8le---Fiichier-Figjam?t=irWaNRhEZf6oeXR3-6)
@@ -100,18 +101,25 @@ Ce guide rassemble les étapes essentielles à suivre, de la compréhension des 
 
 * Répondre à cette question clé :
   * _Qu’est-ce qui sera amélioré dans la vie des utilisateurs une fois le produit mis à jour ?_
-* Décrire clairement l’impact attendu.
+* Décrire clairement l’impact attendu et les erreurs d'expériences à éviter.
 
 ***
 
 ### 6. **100 % DSFR, le système de design de l'état français**
 
-Le Design System est obligatoire pour les sites communiquant au nom de l'État (en .gouv.fr).
+Le Design System est obligatoire pour les sites grand publics communiquant au nom de l'État et dont l'URL est en .gouv.fr&#x20;
 
 * Utilisez la dernière librairie [Figma DSFR](https://www.figma.com/@gouvfr)
 * Validez les usages des composants en consultant le [site DSFR](https://www.systeme-de-design.gouv.fr/composants-et-modeles).
 * En cas de création de nouveaux composants, s'assurer qu’ils respectent les standards UX/UI du DSFR.
 * Discutez avec les dev sur le portage utilisé (Angular, React, Vue, etc) et demandez l'accès à la documentation de la librairie de portage utilisée
+
+{% hint style="danger" %}
+L'usage du DSFR est encadré :
+
+* Seuls les sites en .gouv.fr peuvent bénéficier du DSFR
+* Pour les sites internes, extranets, outils d'agent seuls **l'en-tête et le pied de page** sont obligatoires. Il est toutefois recommandé d'utiliser le DSFR sur l'intégralité du produit lors d'une refonte afin de faciliter la conception et le développement.&#x20;
+{% endhint %}
 
 ***
 
@@ -155,7 +163,7 @@ L'idéation, ou recherche de solutions adaptées aux besoins des utilisateurs, d
 * Tester les prototypes sur plusieurs tailles d’écran avant les validations finales.
 
 {% hint style="info" %}
-\*\*Astuce :\*\* Pensez à organiser les maquettes en parcours utilisateurs afin de faciliter la compréhension par les développeurs. \*\*A noter :\*\* Même si votre application n'est utilisable que sur ordinateur, elle doit pouvoir être utilisable à un zoom de 200 %
+**Astuce :** Pensez à organiser les maquettes en parcours utilisateurs afin de faciliter la compréhension par les développeurs. \*\*A noter :\*\* Même si votre application n'est utilisable que sur ordinateur, elle doit pouvoir être utilisable à un zoom de 200 %
 {% endhint %}
 
 ***
