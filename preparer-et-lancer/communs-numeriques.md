@@ -122,7 +122,8 @@ Différences :
 | ProConnect natif     | Non                        | Oui                        |
 | Conformité RGAA      | RGAA 4 à 75%               | RGAA 4.1 partiel           |
 | Conformité RGS       | Oui                        | n/c                        |
+| Dév. spécifique      | Non (non souhaité)         | Oui (possible)             |
 
 Synthèse :
 - Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie des forces de Drupal.
-- Sites Faciles est plus moderne et plus propice au développement métier spécifique.
+- Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement en externe.
