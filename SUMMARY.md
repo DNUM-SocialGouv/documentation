@@ -5,6 +5,7 @@
   * [Cycle de vie produit](readme/cycle-de-vie-produit.md)
 * [Préparer et lancer](preparer-et-lancer/README.md)
   * [Les différents rôles et métiers](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
+    * [Chefferie produit](preparer-et-lancer/les-differents-roles-et-metiers/chefferie-produit.md)
     * [Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
     * [Co-chef de produit (DNUM)](preparer-et-lancer/les-differents-roles-et-metiers/product-manager.md)
     * [Expert en Recherche Utilisateur](preparer-et-lancer/les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
