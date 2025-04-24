@@ -10,10 +10,11 @@ icon: football
 |                                                                                                                                                         | Chef de produit métier                          | Chef de produit DNUM                           |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- | ---------------------------------------------- |
 | Incarner la vision                                                                                                                                      | 🔒 Co-responsable (porte la politique publique) | 🔒 Co-responsable (porte le produit numérique) |
-| Fixer les objectifs et indicateurs produit                                                                                                              |                                                 |                                                |
-| Piloter la conception (recherche, parcours utilisateurs, design, architecture, urbanisation, utilisation de briques communes)                           |                                                 |                                                |
-| Piloter le _delivery_ (échanges quotidien avec les développeurs, écrire les US, prioriser le backlog, réaliser les tests, les déploiements, démos, etc) |                                                 |                                                |
-| Piloter les sujets règlementaires et de qualité (RGAA, RGS, RGPD, homologation, RGESN)                                                                  |                                                 |                                                |
+| Fixer les objectifs et indicateurs produit                                                                                                              | 🙆‍♂️                                           | 🙆‍♂️                                          |
+| Piloter la conception (recherche, parcours utilisateurs, design, architecture, urbanisation, utilisation de briques communes)                           |                                                 | 🙆‍♂️                                          |
+| Piloter le _delivery_ (échanges quotidien avec les développeurs, écrire les US, prioriser le backlog, réaliser les tests, les déploiements, démos, etc) |                                                 | 🙆‍♂️                                          |
+| Piloter les sujets règlementaires et de qualité (RGAA, RGS, RGPD, homologation, RGESN)                                                                  |                                                 | 🙆‍♂️                                          |
+| Organisation des rituels (_dailys_, comités d'investissement)                                                                                           |                                                 | 🙆‍♂️                                          |
 
 
 
