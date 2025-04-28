@@ -14,6 +14,13 @@ layout:
 
 # Checklist projet
 
+Tous les projets doivent :&#x20;
+
+* [ ] Se récupérer avec `git checkout ...`
+* [ ] S'exécuter avec `docker compose up (-d)`
+
+
+
 Voici ce que contiennent nos projets :&#x20;
 
 * [ ] Pour la documentation :
