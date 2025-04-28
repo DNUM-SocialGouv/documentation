@@ -16,6 +16,7 @@ layout:
 
 Tous les projets doivent :&#x20;
 
+* [ ] Être [open source](open-source.md)
 * [ ] Se récupérer avec `git checkout ...`
 * [ ] S'exécuter avec `docker compose up (-d)`
 
