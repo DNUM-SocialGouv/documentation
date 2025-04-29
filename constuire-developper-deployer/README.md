@@ -9,12 +9,12 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: true
+    visible: false
 ---
 
 # Constuire, développer, déployer
 
 {% hint style="warning" %}
-À rédiger intro
+À rédiger intro + sommaire
 {% endhint %}
 

@@ -9,13 +9,13 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: true
+    visible: false
 ---
 
 # Concevoir
 
 {% hint style="warning" %}
-À rédiger intro
+À rédiger intro + sommaire
 {% endhint %}
 
 
