@@ -26,13 +26,6 @@ Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationn
 
 ## Pourquoi ce guide ?
 
-{% hint style="info" %}
-Pour aller plus loin :&#x20;
-
-1. [Nouveau cadre organisationnel](readme/nouveau-cadre-organisationnel.md)
-2. [Cycle de vie produit](readme/cycle-de-vie-produit.md)
-{% endhint %}
-
 ### Constat <a href="#constat" id="constat"></a>
 
 La sous-direction possède un parc de [240 applications](undefined/nos-produits/) et 40 à 50 chefs de produit pour les piloter en lien avec les équipes métiers.
