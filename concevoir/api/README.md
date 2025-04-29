@@ -10,12 +10,12 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # API
 
 {% hint style="warning" %}
-À rédiger intro + sommaire
+À rédiger intro
 {% endhint %}
 
