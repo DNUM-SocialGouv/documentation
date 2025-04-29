@@ -10,12 +10,12 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # Sécurité
 
 {% hint style="warning" %}
-À rédiger intro + sommaire
+À rédiger intro
 {% endhint %}
 

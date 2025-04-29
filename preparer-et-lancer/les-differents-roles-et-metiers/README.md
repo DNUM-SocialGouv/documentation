@@ -10,7 +10,7 @@ layout:
   outline:
     visible: true
   pagination:
-    visible: false
+    visible: true
 ---
 
 # Les différents rôles et métiers
