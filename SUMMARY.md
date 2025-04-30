@@ -72,7 +72,7 @@
   * [🩺 Offre de soin](undefined/nos-produits/offre-de-soin.md)
   * [📎 Transverse](undefined/nos-produits/transverse.md)
   * [Communs numériques](undefined/nos-produits/communs-numeriques/README.md)
-    * [ONDINE](undefined/nos-produits/communs-numeriques/ondine.md)
+    * [ONDINE - CMS Site web éditorial](undefined/nos-produits/communs-numeriques/ondine-cms-site-web-editorial.md)
 
 ## ---
 
