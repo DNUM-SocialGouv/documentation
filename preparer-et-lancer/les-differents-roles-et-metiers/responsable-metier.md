@@ -18,12 +18,12 @@ layout:
 
 Les métiers, au sein des ministères, sont les experts des politiques publiques et des services administratifs. Ils définissent les objectifs stratégiques des services numériques en lien avec la politique publique.
 
-Ils apportent leurs besoins fonctionnels et travaillent avec les équipes produit pour concevoir des services publics adaptés aux usagers.
+Ils travaillent avec les équipes produit pour concevoir des services publics adaptés aux usagers.
 
 ls travaillent avec les équipes produit pour concevoir des services adaptés aux usagers, en apportant leur connaissance du terrain, leur vision des priorités et leur capacité à piloter l’impact.
 
 {% hint style="warning" %}
-Pour exercer ce rôle efficacement, certaines conditions sont nécessaires :&#x20;
+Pour exercer ce rôle efficacement, certaines conditions sont nécessaires :
 
 * Un temps dédié suffisant, **à 60 % minimum**, pour garantir une implication réelle dans la conception et le suivi du service
 * Une formation aux méthodes produit et aux outils associés (priorisation, indicateurs, agilité…)
@@ -50,7 +50,7 @@ Son implication directe dans la construction du produit permet de :
 * Il pilote les décisions et les évolutions du produit
 * Il échange régulièrement avec l’équipe technique
 * Il pilote le déploiement (accompagné de chargé de déploiement)
-* Il mesure l'impact du produit (indicateurs) et s'assure de la publication des statistiques&#x20;
+* Il mesure l'impact du produit (indicateurs) et s'assure de la publication des statistiques
 
 ### Quelles sont les questions à se poser en tant que responsable métier ?
 
