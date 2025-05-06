@@ -21,7 +21,7 @@ Les métiers, au sein des ministères, sont les experts des politiques publiques
 Ils travaillent avec les équipes produit pour concevoir des services adaptés aux usagers, en apportant leur connaissance du terrain, leur vision des priorités et leur capacité à piloter l’impact.
 
 {% hint style="warning" %}
-Pour exercer ce rôle efficacement, certaines conditions sont nécessaires :
+Pour exercer ce rôle efficacement, certaines prérequis sont nécessaires :
 
 * Un temps dédié suffisant, **à 60 % minimum**, pour garantir une implication réelle dans la conception et le suivi du service
 * Une formation aux méthodes produit et aux outils associés (priorisation, indicateurs, agilité…)
