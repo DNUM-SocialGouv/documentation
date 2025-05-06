@@ -45,10 +45,7 @@ Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au max
 ## Communs numériques au MAS
 
 Communs numériques grand public (solutions open source) :
-
 * _Aucun commun de haut-niveau identifié à date._
-* _GLPI écarté 04/2025._
-* _Manifest.build est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits._
 
 Communs numériques inter-ministériels :
 
@@ -137,3 +134,7 @@ Synthèse :
 
 * Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie des forces de Drupal.
 * Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement en externe.
+
+## Suivi des pistes explorées et décisions d'architecture
+* GLPI écarté 04/2025.
+* Manifest.build est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
