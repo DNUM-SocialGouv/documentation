@@ -45,8 +45,8 @@ Son implication directe dans la construction du produit permet de :
 * Il collabore étroitement avec le [Co-chef de produit (DNUM)](product-manager.md)
 * Il décide des évolutions du produit et les priorise
 * Il participe à la mise en place de la recherche utilisateur (test d'utilisabilité, interviews, etc...)
-* Il échange régulièrement avec l’équipe technique
-* Il pilote le déploiement (accompagné de chargé de déploiement)
+* Il échange régulièrement avec les autres membres de l’équipe
+* Il pilote le déploiement
 * Il mesure l'impact du produit (indicateurs) et s'assure de la publication des statistiques
 
 ### Quelles sont les questions à se poser en tant que responsable métier ?
@@ -55,5 +55,5 @@ Son implication directe dans la construction du produit permet de :
 * Ai-je une vision claire de ce que doit permettre le service pour les usagers et les agents ?
 * Suis-je en capacité de prioriser les besoins de manière réaliste et en fonction de l’impact attendu ?
 * Est-ce que je participe régulièrement aux échanges avec les utilisateurs et aux tests ?
-* Est-ce que je collabore étroitement avec l'équipe pour faire avancer le produit ?
+* Est-ce que je collabore étroitement avec le reste de l'équipe pour faire avancer le produit ?
 * Est-ce que je m’appuie sur des indicateurs pour suivre l’efficacité du service ?
