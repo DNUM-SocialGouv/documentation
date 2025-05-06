@@ -30,7 +30,7 @@ Un bon développement permet de :
 
 * **Développer des fonctionnalités et corriger des anomalies**
   * Traduire les besoins en code clair, lisible et performant.
-  * Automatiser l'exécution des tests pour éviter les régressions.
+  * Automatiser l'exécution des tests pour éviter les bugs et régressions.
   * Corriger les bugs signalés et améliorer le produit en continu.
 * **Collaborer avec le reste de l’équipe produit et les designers**
   * Travailler avec le Co-chef de produit pour comprendre le besoin et le challenger.
