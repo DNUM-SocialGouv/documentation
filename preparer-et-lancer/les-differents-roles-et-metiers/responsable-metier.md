@@ -25,7 +25,7 @@ Pour exercer ce rôle efficacement, certains prérequis sont nécessaires :
 
 * Un temps dédié suffisant, **à 60 % minimum**, pour garantir une implication réelle dans la conception et le suivi du service
 * Une formation aux méthodes produit et aux outils associés (priorisation, indicateurs, agilité…)
-* Un coach produit pour accompagner l’équipe dans la structuration et les bonnes pratiques
+* Un coach produit DNUM pour accompagner l’équipe dans la structuration et les bonnes pratiques
 {% endhint %}
 
 ### En quoi ce rôle est important ?
