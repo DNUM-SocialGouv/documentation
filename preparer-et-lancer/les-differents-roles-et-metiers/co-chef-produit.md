@@ -29,7 +29,7 @@ Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète d
 * D'assurer la fluidité des développements au quotidien
 * De veiller au respect des standards de qualité et de sécurité
 * D'appuyer l’équipe dans la rédaction et la priorisation des user stories
-* De soulager le responsable métier sur les aspects opérationnels pour qu’il se concentre sur la vision et les usages
+* De soulager le responsable métier sur les aspects opérationnels pour qu’il se concentre sur la stratégie et la vision
 
 ## Quel est son quotidien ?
 
