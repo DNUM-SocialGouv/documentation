@@ -14,13 +14,11 @@ layout:
 
 # Coach produit
 
-### De quoi parle-t-on ?
-
 Le coach produit accompagne les équipes dans l’adoption des pratiques agiles et produit pour améliorer leur efficacité et leur collaboration.
 
 Il aide les équipes à mieux travailler ensemble grâce à des méthodes adaptées à leur contexte.
 
-### En quoi ce rôle est important ?
+## En quoi ce rôle est important ?
 
 Un bon coaching produit permet :
 
@@ -29,7 +27,7 @@ Un bon coaching produit permet :
 * De favoriser l’adaptabilité et l’amélioration continue
 * De réduire les blocages et renforcer l’engagement des équipes
 
-### Quel est son quotidien ?
+## Quel est son quotidien ?
 
 * **Accompagner les équipes dans l’adoption des pratiques agiles**
   * Aider à la mise en place de rituels agiles adaptés
@@ -44,7 +42,7 @@ Un bon coaching produit permet :
   * Faciliter la communication entre équipes pour améliorer la collaboration
   * Expérimenter et ajuster les approches en fonction du contexte
 
-### Quelles sont les questions à se poser en tant que Coach ?
+## Quelles sont les questions à se poser en tant que Coach ?
 
 * Les équipes gagnent-elles en autonomie et efficacité ?
 * Les pratiques produit sont-elles réellement adaptées et utiles ?

@@ -14,13 +14,11 @@ layout:
 
 # Expert en Recherche Utilisateur
 
-### De quoi parle-t-on ?
-
 Le chercheur utilisateur étudie les comportements, besoins et attentes des utilisateurs pour aider l’équipe à concevoir des produits adaptés.
 
 Il aide à comprendre les utilisateurs pour créer des services réellement utiles et utilisables.
 
-### En quoi ce rôle est important ?
+## En quoi ce rôle est important ?
 
 Une bonne recherche utilisateur permet de :
 
@@ -29,7 +27,7 @@ Une bonne recherche utilisateur permet de :
 * Anticiper les problèmes d’adoption et d’expérience
 * Améliorer en continu le produit grâce aux retours terrain
 
-### Quel est son quotidien ?
+## Quel est son quotidien ?
 
 * **Explorer et comprendre les besoins utilisateurs**
   * Réaliser des entretiens, observations et tests utilisateurs
@@ -44,7 +42,7 @@ Une bonne recherche utilisateur permet de :
   * Sensibiliser l’équipe à l’importance des retours utilisateurs
   * Adapter la stratégie produit en fonction des retours d’expérience
 
-### Quelles sont les questions à se poser en tant que chercheur utilisateurs ?
+## Quelles sont les questions à se poser en tant que chercheur utilisateurs ?
 
 * Ai-je identifié des besoins clairs et prioritaires ?
 * Mes recommandations sont-elles utilisées pour améliorer le produit ?

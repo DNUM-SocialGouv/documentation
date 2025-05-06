@@ -14,13 +14,11 @@ layout:
 
 # Développeur
 
-### De quoi parle-t-on ?
-
 Le développeur conçoit, développe et maintient les applications et services numériques. Il transforme les besoins métier et les choix de conception en solutions fonctionnelles et performantes.
 
 Il conçoit et écrit du code, s’assure de sa qualité et collabore avec l’équipe pour livrer un produit fiable et maintenable.
 
-### En quoi ce rôle est important ?
+## En quoi ce rôle est important ?
 
 Un bon développement permet de :
 
@@ -28,7 +26,7 @@ Un bon développement permet de :
 * Garantir la sécurité et la maintenabilité du produit.
 * Assurer une livraison continue et fluide des évolutions, afin de répondre aux besoins des utilisateurs.
 
-### Quel est son quotidien ?
+## Quel est son quotidien ?
 
 * **Développer des fonctionnalités et corriger des anomalies**
   * Traduire les besoins en code clair, lisible et performant.
@@ -44,7 +42,7 @@ Un bon développement permet de :
   * Optimiser la performance et la sécurité des applications.
   * Documenter le code et les choix techniques pour assurer la pérennité du produit.
 
-### Quelles sont les questions à se poser en tant que Développeur ?
+## Quelles sont les questions à se poser en tant que Développeur ?
 
 * Le code est-il lisible et maintenable ?
 * Le comportement de l'application est-il testé pour ne pas introduire de régressions ?

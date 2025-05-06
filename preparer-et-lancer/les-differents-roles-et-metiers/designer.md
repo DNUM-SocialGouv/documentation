@@ -14,8 +14,6 @@ layout:
 
 # Designer
 
-### De quoi parle-t-on ?
-
 Le designer conçoit des produits et services numériques utiles, utilisables, inclusifs, simples, humains et alignés avec les politiques publiques.
 
 Il transforme des besoins exprimés (ou non) en expériences concrètes et satisfaisantes, en s’appuyant sur une démarche centrée utilisateurs.
@@ -31,7 +29,7 @@ Il joue aussi un rôle de facilitateur, en articulant les contributions de la re
 
 ***
 
-### Quel est son quotidien ?
+## Quel est son quotidien ?
 
 Au delà de la conception des expériences utilisateurs, le designer dispose d’un esprit critique et d’un sens de la médiation : il facilite les arbitrages et s’assure que le point de vue des usagers est intégré aux décisions. De préférence, le designer intervient en binôme avec un expert en recherche utilisateur, ou au sein d’une équipe produit.
 
@@ -56,7 +54,7 @@ Au delà de la conception des expériences utilisateurs, le designer dispose d�
 * Mettre à jour les interfaces pour répondre aux nouveaux besoins
 * Documenter les choix de design et les bonnes pratiques
 
-### Ce que n’est pas un designer
+## Ce que n’est pas un designer
 
 * Il ne fait pas “juste des maquettes jolies” : il conçoit des expériences, pas seulement des écrans.
 * Il ne fait pas le travail du chef de produit : il éclaire les choix mais ne les porte pas à lui seul.

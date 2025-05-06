@@ -14,13 +14,11 @@ layout:
 
 # Expert accessibilité
 
-### De quoi parle-t-on ?
-
 L'expert en accessibilité s’assure que les services numériques sont utilisables par tous les publics, y compris les personnes en situation de handicap. Il veille au respect du Référentiel Général d’Amélioration de l’Accessibilité (RGAA) et sensibilise les équipes à ces enjeux.
 
 Il garantit que les services numériques sont inclusifs et conformes aux exigences légales d’accessibilité.
 
-### En quoi ce rôle est important ?
+## En quoi ce rôle est important ?
 
 Une bonne accessibilité permet :
 
@@ -29,7 +27,7 @@ Une bonne accessibilité permet :
 * Se conformer aux obligations légales du RGAA
 * Améliorer l’expérience utilisateur pour tous
 
-### Quel est son quotidien ?
+## Quel est son quotidien ?
 
 * **Évaluer et améliorer l’accessibilité**
   * Auditer les interfaces selon les critères du RGAA
@@ -44,7 +42,7 @@ Une bonne accessibilité permet :
   * Assurer une veille réglementaire et technique
   * Définir une stratégie d’amélioration continue
 
-### Quelles sont les questions à se poser en tant qu'expert accessibilité ?
+## Quelles sont les questions à se poser en tant qu'expert accessibilité ?
 
 * Les services numériques sont-ils conformes aux critères du RGAA ?
 * Les équipes intègrent-elles l’accessibilité dès la conception ?

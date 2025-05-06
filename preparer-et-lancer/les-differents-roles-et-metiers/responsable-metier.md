@@ -14,8 +14,6 @@ layout:
 
 # Responsable métier
 
-### De quoi parle-t-on ?
-
 Les métiers, au sein des ministères, sont les experts des politiques publiques et des services administratifs. Ils définissent les objectifs stratégiques des services numériques en lien avec la politique publique.
 
 Ils travaillent avec les équipes produit pour concevoir des services adaptés aux usagers, en apportant leur connaissance du terrain, leur vision des priorités et leur capacité à piloter l’impact.
@@ -28,7 +26,7 @@ Pour exercer ce rôle efficacement, certains prérequis sont nécessaires :
 * Un coach produit DNUM pour accompagner l’équipe dans la structuration et les bonnes pratiques
 {% endhint %}
 
-### En quoi ce rôle est important ?
+## En quoi ce rôle est important ?
 
 Le responsable métier est le garant de l’adéquation entre le service numérique et la politique publique qu’il sert.
 
@@ -39,7 +37,7 @@ Son implication directe dans la construction du produit permet de :
 * Donner du sens au travail de l’équipe produit, en reliant les fonctionnalités aux enjeux de terrain
 * Favoriser l’adoption du service, grâce à une bonne coordination du déploiement
 
-### Quel est son quotidien ?
+## Quel est son quotidien ?
 
 * Le responsable métier porte la vision, la priorisation et la feuille de route du produit
 * Il collabore étroitement avec le [Co-chef de produit (DNUM)](product-manager.md)
@@ -49,7 +47,7 @@ Son implication directe dans la construction du produit permet de :
 * Il pilote le déploiement
 * Il mesure l'impact du produit (indicateurs) et s'assure de la publication des statistiques
 
-### Quelles sont les questions à se poser en tant que responsable métier ?
+## Quelles sont les questions à se poser en tant que responsable métier ?
 
 * Est-ce que j’ai le temps et les moyens pour assumer ce rôle dans la durée ?
 * Ai-je une vision claire de ce que doit permettre le service pour les usagers et les agents ?

@@ -14,8 +14,6 @@ layout:
 
 # Co-chef de produit (DNUM)
 
-### De quoi parle-t-on ?
-
 Le co-chef de produit (DNUM) intervient aux côtés du responsable métier pour piloter le développement d’un service numérique.
 
 Il apporte un appui opérationnel et veille à la bonne application des pratiques produit, techniques et réglementaires.
@@ -24,7 +22,7 @@ Dans certains cas, lorsque le produit est développé par et pour la DNUM, le ch
 
 **Il agit comme un facilitateur, un référent produit et un coordinateur du quotidien.**
 
-### En quoi ce rôle est important ?
+## En quoi ce rôle est important ?
 
 Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
 
@@ -33,7 +31,7 @@ Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète d
 * D'appuyer l’équipe dans la rédaction et la priorisation des user stories
 * De soulager le responsable métier sur les aspects opérationnels pour qu’il se concentre sur la vision et les usages
 
-### Quel est son quotidien ?
+## Quel est son quotidien ?
 
 Le co-chef de produit assure plusieurs missions opérationnelles :
 
@@ -43,7 +41,7 @@ Le co-chef de produit assure plusieurs missions opérationnelles :
 * Contribuer à la rédaction des user stories (en lien avec les besoins exprimés)
 * Appuyer la phase de recette (tests, vérification des fonctionnalités livrées)
 
-### Quelles sont les questions à se poser en tant que Product Manager ?
+## Quelles sont les questions à se poser en tant que Product Manager ?
 
 * Le partage des responsabilités entre DNUM et métier est-il clair (si applicable) ?
 * Est-ce que j’aide l’équipe à avancer efficacement au quotidien ?

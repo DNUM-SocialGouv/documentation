@@ -14,8 +14,6 @@ layout:
 
 # Organisation produit
 
-### De quoi parle-t-on ?
-
 L’organisation produit est une manière de structurer la conception, la mise en œuvre et l’évolution des services numériques.
 
 Elle vise à construire des services **utiles, utilisables et utilisés**, en s’adaptant aux retours du terrain et aux objectifs de long terme.
@@ -31,7 +29,7 @@ Pour aller plus loin :&#x20;
 * [Ressources (roadmap, vision, indicateurs)](ressources/)
 {% endhint %}
 
-### Ce que cela implique
+## Ce que cela implique
 
 * On s’aligne sur une vision claire du produit
 * On travaille en équipe pluridisciplinaire (produit, design, technique, métier)
@@ -41,14 +39,14 @@ Pour aller plus loin :&#x20;
 
 Cette organisation ne repose pas sur une méthode unique, mais sur une culture partagée, qui met l’impact, l’autonomie des équipes et l’apprentissage au cœur de la démarche.
 
-### En quoi est-ce différent d’une organisation projet ?
+## En quoi est-ce différent d’une organisation projet ?
 
 Adopter une organisation produit, ce n’est pas simplement changer de vocabulaire : c’est changer de culture de travail.&#x20;
 
 * Dans une logique projet, l’objectif est de livrer un livrable à une date donnée avec un budget défini
 * Dans une logique produit, l’objectif est de répondre durablement à un besoin, en s’adaptant aux retours du terrain et à l’évolution du contexte. La question du budget peut également se faire de manière incrémentale.&#x20;
 
-### **Comparaison : projet vs. produit**
+## **Comparaison : projet vs. produit**
 
 | Approche projet                                            | Approche produit                                               |
 | ---------------------------------------------------------- | -------------------------------------------------------------- |
@@ -59,7 +57,7 @@ Adopter une organisation produit, ce n’est pas simplement changer de vocabulai
 | Réussite = livrer dans le périmètre, le délai et le budget | Réussite = le service est utilisé et apporte une réelle valeur |
 | Relations contractuelles (MOA/MOE)                         | Relations collaboratives (co-construction)                     |
 
-### Ce que ça change concrètement :
+## Ce que ça change concrètement :
 
 * On accepte l’incertitude : tout ne peut pas être défini à l’avance, on apprend en chemin
 * On construit avec les utilisateurs, pas seulement pour eux
