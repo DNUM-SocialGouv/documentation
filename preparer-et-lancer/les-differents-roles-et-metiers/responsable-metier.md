@@ -16,7 +16,7 @@ layout:
 
 ### De quoi parle-t-on ?
 
-Les métiers, au sein des ministères, sont les experts des politiques publiques et des services administratifs. Ils définissent les besoins et objectifs stratégiques des services numériques en lien avec la politique publique.
+Les métiers, au sein des ministères, sont les experts des politiques publiques et des services administratifs. Ils définissent les objectifs stratégiques des services numériques en lien avec la politique publique.
 
 Ils apportent leurs besoins fonctionnels et travaillent avec les équipes produit pour concevoir des services publics adaptés aux usagers.
 
@@ -30,7 +30,7 @@ Pour exercer ce rôle efficacement, certaines conditions sont nécessaires :&#x2
 * Un coach produit pour accompagner l’équipe dans la structuration et les bonnes pratiques
 {% endhint %}
 
-### Pourquoi ce rôle est important ?
+### En quoi ce rôle est important ?
 
 Le responsable métier est le garant de l’adéquation entre le service numérique et la politique publique qu’il sert.
 
