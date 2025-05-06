@@ -55,5 +55,5 @@ Son implication directe dans la construction du produit permet de :
 * Ai-je une vision claire de ce que doit permettre le service pour les usagers et les agents ?
 * Suis-je en capacité de prioriser les besoins de manière réaliste et en fonction de l’impact attendu ?
 * Est-ce que je participe régulièrement aux échanges avec les utilisateurs et aux tests ?
-* Est-ce que je collabore étroitement avec l'équipe pour faire avancer le produit ?
+* Est-ce que je collabore étroitement avec le reste de l'équipe pour faire avancer le produit ?
 * Est-ce que je m’appuie sur des indicateurs pour suivre l’efficacité du service ?
