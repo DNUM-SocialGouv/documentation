@@ -5,7 +5,7 @@
 Tout d'abord, il faut ajouter une clé SSH à votre compte GitHub et à votre poste.
 La marche à suivre est documentée [ici](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-Une fois cela fait, il vous reste à récupérer [le dépôt](https://github.com/DNUM-SocialGouv/documentation) :
+Une fois cela fait, il reste à récupérer [le dépôt](https://github.com/DNUM-SocialGouv/documentation) :
 ```shell
 git clone git@github.com:DNUM-SocialGouv/documentation.git
 ```
@@ -22,7 +22,7 @@ Où :
 - `NOM_REMOTE` est le nom attribué à la [remote Git](https://git-scm.com/docs/git-remote) liée à la copie,
 - `LIEN_GIT_DU_FORK` est le lien Git vers le dépôt.
 
-Avec ces étapes, vous pouvez ensuite proposer des modifications à la documentation en :
+Avec ces étapes, on peut ensuite proposer des modifications à la documentation en :
 
 - Créant au préalable une branche sur votre poste,
 - Faire des commits,

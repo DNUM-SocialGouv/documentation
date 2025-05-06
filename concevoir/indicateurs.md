@@ -14,7 +14,7 @@ layout:
 
 # Exemples d'indicateurs
 
-Voici des exemples d'indicateurs par typologies de produit. Vous pouvez piocher ou vous inspirer de ces exemples pour construire vos indicateurs.
+Voici des exemples d'indicateurs par typologies de produit. VoIl est possible de s'en inspirer pour construire ses propres indicateurs.
 
 <details>
 
