@@ -26,8 +26,8 @@ Dans certains cas, lorsque le produit est développé par et pour la DNUM, le pr
 
 Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
 
-* D'assurer un pilotage fluide des développements au quotidien
-* De garantir le respect des standards qualité, sécurité et produit
+* D'assurer la fluidité des développements au quotidien
+* De veiller au respect des standards de qualité et de sécurité
 * D'appuyer l’équipe dans la rédaction et la priorisation des user stories
 * De soulager le responsable métier sur les aspects opérationnels pour qu’il se concentre sur la vision et les usages
 
