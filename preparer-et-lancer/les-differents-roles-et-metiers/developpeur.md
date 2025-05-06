@@ -14,9 +14,9 @@ layout:
 
 # Développeur
 
-Le développeur conçoit, développe et maintient les applications et services numériques. Il transforme les besoins métier et les choix de conception en solutions fonctionnelles et performantes.
+Le développeur conçoit, développe et maintient les produits numériques. Il transforme les besoins métier et les choix de conception en solutions fonctionnelles et performantes.
 
-Il conçoit et écrit du code, s’assure de sa qualité et collabore avec l’équipe pour livrer un produit fiable et maintenable.
+Il écrit du code, s’assure de sa qualité et collabore avec l’équipe pour livrer un produit fiable.
 
 ## En quoi ce rôle est important ?
 

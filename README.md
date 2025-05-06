@@ -14,7 +14,7 @@ layout:
 
 # Bienvenue sur le guide DNUM
 
-Voici un ensemble de ressources destiné aux agents de la sous-direction des projets (produits) et services numériques de la direction du numérique des ministères sociaux, ainsi qu'à leurs partenaires et sous-traitants.
+Voici un ensemble de ressources destiné aux agents de la sous-direction des produits et services numériques de la direction du numérique des ministères sociaux, ainsi qu'à nos partenaires et sous-traitants.
 
 Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationnel.
 
@@ -28,7 +28,7 @@ Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationn
 
 ### Constat <a href="#constat" id="constat"></a>
 
-La sous-direction possède un parc de [240 applications](undefined/nos-produits/) et 40 à 50 chefs de produit pour les piloter en lien avec les équipes métiers.
+La sous-direction gère un parc de [240 applications](undefined/nos-produits/) et 40 à 50 chefs de produit pour les piloter en lien avec les équipes métiers.
 
 Au regard de ce parc, on note des enjeux d'optimisation :
 
