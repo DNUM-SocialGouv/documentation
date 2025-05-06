@@ -18,8 +18,6 @@ layout:
 
 Les métiers, au sein des ministères, sont les experts des politiques publiques et des services administratifs. Ils définissent les objectifs stratégiques des services numériques en lien avec la politique publique.
 
-Ils travaillent avec les équipes produit pour concevoir des services publics adaptés aux usagers.
-
 ls travaillent avec les équipes produit pour concevoir des services adaptés aux usagers, en apportant leur connaissance du terrain, leur vision des priorités et leur capacité à piloter l’impact.
 
 {% hint style="warning" %}
