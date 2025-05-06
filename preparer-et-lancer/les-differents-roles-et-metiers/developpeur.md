@@ -33,7 +33,7 @@ Un bon développement permet de :
   * Automatiser l'exécution des tests pour éviter les régressions.
   * Corriger les bugs signalés et améliorer le produit en continu.
 * **Collaborer avec le reste de l’équipe produit et les designers**
-  * Travailler avec le Product Manager pour comprendre le besoin et le challenger.
+  * Travailler avec le Co-chef de produit pour comprendre le besoin et le challenger.
   * Échanger avec les UX/UI designers pour garantir une bonne expérience utilisateur.
   * Collaborer avec l'expert accessibilité afin de s'assurer que le produit puisse être utilisé par le plus grand nombre.
   * Participer aux revues de code et aux décisions techniques.
