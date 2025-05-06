@@ -41,10 +41,10 @@ Le co-chef de produit assure plusieurs missions opérationnelles :
 * Contribuer à la rédaction des user stories
 * Appuyer la recette en continue (tests, vérification des fonctionnalités livrées)
 
-## Quelles sont les questions à se poser en tant que Product Manager ?
+## Quelles sont les questions à se poser en tant que Co-chef de produit ?
 
-* Le partage des responsabilités entre DNUM et métier est-il clair (si applicable) ?
-* Est-ce que j’aide l’équipe à avancer efficacement au quotidien ?
+* Le partage des responsabilités entre DNUM et métier est-il clair ?
+* Est-ce que j’aide mon équipe à avancer efficacement au quotidien ?
 * Est-ce que les bonnes pratiques produit sont connues et appliquées ?
 * Les contraintes de sécurité et d’homologation sont-elles bien intégrées dans la feuille de route ?
-* Suis-je en capacité d’accompagner la rédaction des US et de faciliter la recette ?
+* Suis-je en capacité d’accompagner la rédaction des US et de mener la recette en continu ?
