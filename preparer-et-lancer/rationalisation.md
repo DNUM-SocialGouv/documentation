@@ -35,7 +35,9 @@ Ses principaux objectifs sont :
 
 * à la DNUM (ex: extension d'EFPConnect à la DGT, socle CMS Ondine, Démat Social)
 * dans l'écosystème interministériel (ex: Démarches Simplifiées, PISTE@DGFIP)
-* voire en SaaS (ex: produits Microsoft du ministère) La sécurité (ex: besoin d'hébergement HDS) et la gouvernance (ex: PISTE@DGFIP) sont souvent des enjeux important à apprécier pour la réutilisation maitrisée de solutions.
+* voire en SaaS
+
+La sécurité (ex: besoin d'hébergement HDS) et la gouvernance (ex: PISTE@DGFIP) sont des enjeux important à considérer dans la réutilisation de solutions.
 
 ## 2. Adapter
 

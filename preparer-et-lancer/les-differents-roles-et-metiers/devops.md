@@ -18,16 +18,16 @@ layout:
 
 Le DevOps facilite et automatise le déploiement des applications tout en garantissant leur fiabilité, leur sécurité et leur scalabilité. Il rapproche les équipes de développement et des opérations techniques pour améliorer la qualité et la rapidité des mises en production.
 
-Il automatise, surveille et sécurise les infrastructures et les déploiements pour réaliser un produit performant et fiable.
+Il automatise, sécurise et surveille les infrastructures et les déploiements pour réaliser un produit performant et fiable.
 
 ### Pourquoi ce rôle est important ?
 
 Une bonne gestion des pratiques DevOps permet de :&#x20;
 
-* Déployer plus rapidement et en toute sécurité
+* Déployer plus fréquemment et en toute sécurité
 * Automatiser les tâches répétitives pour éviter les erreurs
 * Améliorer la fiabilité et la disponibilité des services
-* Favoriser la collaboration entre développeurs et équipes en charge de l’exploitation technique
+* Favoriser la collaboration entre développeurs et exploitants, s'ils sont différents
 
 ### Quel est son quotidien ?
 
