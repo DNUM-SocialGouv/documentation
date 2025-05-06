@@ -37,7 +37,7 @@ Un bon développement permet de :
 * **Collaborer avec le reste de l’équipe produit et les designers**
   * Travailler avec le Product Manager pour comprendre le besoin et le challenger.
   * Échanger avec les UX/UI designers pour garantir une bonne expérience utilisateur.
-  * Collaborer avec le/a responsable accessibilité afin de s'assurer que le produit puisse être utilisé par le plus grand nombre.
+  * Collaborer avec l'expert accessibilité afin de s'assurer que le produit puisse être utilisé par le plus grand nombre.
   * Participer aux revues de code et aux décisions techniques.
 * **Déployer et maintenir le produit**
   * Automatiser les tests et les déploiements pour gagner en efficacité.

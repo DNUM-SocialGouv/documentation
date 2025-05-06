@@ -14,7 +14,7 @@
     * [Développeur](preparer-et-lancer/les-differents-roles-et-metiers/developpeur.md)
     * [Coach produit](preparer-et-lancer/les-differents-roles-et-metiers/coach-produit.md)
     * [DevOps](preparer-et-lancer/les-differents-roles-et-metiers/devops.md)
-    * [Responsable accessibilité](preparer-et-lancer/les-differents-roles-et-metiers/responsable-accessibilite.md)
+    * [Expert accessibilité](preparer-et-lancer/les-differents-roles-et-metiers/expert-accessibilite.md)
   * [Organisation produit](preparer-et-lancer/organisation-produit/README.md)
     * [Les piliers d’une organisation produit](preparer-et-lancer/organisation-produit/les-piliers-dune-organisation-produit.md)
     * [Le fonctionnement quotidien](preparer-et-lancer/organisation-produit/le-fonctionnement-quotidien.md)
