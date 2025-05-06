@@ -1,8 +1,8 @@
 ---
-description: Charte éditoriale du GitBook
+description: Charte éditoriale du guide
 ---
 
-# Charte de rédaction des pages
+# Charte éditoriale
 
 Ce guide est rédigé pour toutes les personnes qui conçoivent, développent ou accompagnent des produits numériques à la DNUM.
 
@@ -52,5 +52,5 @@ Avant de publier ou mettre à jour une page, posons-nous ces questions :
 3. Ai-je donné un exemple concret, un guide ou une checklist ?
 4. Ai-je expliqué une règle obligatoire, sans la faire passer pour une option ?
 5. Ai-je cité ou intégré des sources utiles ?
-6. Cette page s’inscrit-elle bien dans la structure du GitBook ?
+6. Cette page s’inscrit-elle bien dans la structure du guide ?
 7. Est-elle utile dès sa première lecture ?
