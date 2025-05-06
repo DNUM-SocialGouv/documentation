@@ -14,7 +14,7 @@ layout:
 
 # Co-chef de produit (DNUM)
 
-Le co-chef de produit (DNUM) intervient aux côtés du responsable métier pour piloter le développement d’un service numérique.
+Le co-chef de produit (DNUM) intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
 
 Il apporte un appui opérationnel et veille à la bonne application des pratiques produit, techniques et réglementaires.
 
