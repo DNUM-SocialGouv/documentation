@@ -16,7 +16,7 @@ layout:
 
 ### De quoi parle-t-on ?
 
-Le coach accompagne les équipes et l’organisation dans l’adoption des pratiques agiles et produit pour améliorer leur efficacité et leur collaboration.
+Le coach produit accompagne les équipes dans l’adoption des pratiques agiles et produit pour améliorer leur efficacité et leur collaboration.
 
 Il aide les équipes à mieux travailler ensemble grâce à des méthodes adaptées à leur contexte.
 
@@ -25,7 +25,7 @@ Il aide les équipes à mieux travailler ensemble grâce à des méthodes adapt�
 Un bon coaching produit permet :
 
 * D'améliorer la collaboration et la communication au sein des équipes
-* De fluidifier la gestion du travail et la prise de décision
+* De fluidifier la prise de décision
 * De favoriser l’adaptabilité et l’amélioration continue
 * De réduire les blocages et renforcer l’engagement des équipes
 
