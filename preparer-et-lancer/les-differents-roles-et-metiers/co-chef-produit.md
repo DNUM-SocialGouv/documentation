@@ -35,11 +35,11 @@ Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète d
 
 Le co-chef de produit assure plusieurs missions opérationnelles :
 
-* Piloter le quotidien des équipes de développement (suivi, arbitrages, coordination)
+* Faciliter le quotidien des équipes de développement (suivi, arbitrages, coordination)
 * Veiller à l’application des bonnes pratiques produit (cadre agile, itérations, vision)
 * Superviser les sujets sécurité et homologation (en lien avec les RSSI ou les référents)
-* Contribuer à la rédaction des user stories (en lien avec les besoins exprimés)
-* Appuyer la phase de recette (tests, vérification des fonctionnalités livrées)
+* Contribuer à la rédaction des user stories
+* Appuyer la recette en continue (tests, vérification des fonctionnalités livrées)
 
 ## Quelles sont les questions à se poser en tant que Product Manager ?
 
