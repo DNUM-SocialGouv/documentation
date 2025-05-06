@@ -14,7 +14,7 @@ layout:
 
 # Les indicateurs
 
-Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.&#x20;
+Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.
 
 Fixer des indicateurs permet d’aligner toutes les parties prenantes sur la stratégie, de prendre des décisions éclairées et de s’améliorer en continu.
 
@@ -32,7 +32,7 @@ Pour aller plus loin : [Voir les indicateurs produits](../../../concevoir/indica
 
 Ces indicateurs mesurent si un produit atteint ses objectifs stratégiques. Ils traduisent la vision produit en résultats concrets et mesurables.
 
-### Exemples °1 :
+#### Exemples °1 :
 
 * Taux d’usage.
 * Audience.
@@ -48,7 +48,7 @@ Les KPIs répondent à une question clé : « Est-ce que notre produit atteint l
 
 Ces indicateurs servent à évaluer les effets des initiatives produit sur les usagers, les utilisateurs ou sur l’organisation. Ils permettent de valider que vos actions apportent une valeur réelle.
 
-### Exemples °2 :
+#### Exemples °2 :
 
 * Économies réalisées : évaluer les gains financiers, notamment via l'utilisation de [communs numériques](../../communs-numeriques.md) et la réduction des doublons.
 * Augmentation du taux de dématérialisation.
@@ -66,7 +66,7 @@ Ces indicateurs d’impact relient directement vos décisions produit à des ré
 
 Ces indicateurs permettent de vérifier que l'on progresse dans la bonne direction. Ils agissent comme des garde-fous et des signaux d'alerte pour garantir que vous avancez vers vos objectifs.
 
-### Exemples :
+#### Exemples :
 
 * Une durée de session sur un site de consultation peut mesurer l'intérêt des utilisateurs pour le contenu proposé
   * Objectif : connaître les intérêts de consultations

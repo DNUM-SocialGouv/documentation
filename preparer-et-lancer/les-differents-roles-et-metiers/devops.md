@@ -12,11 +12,11 @@ layout:
     visible: false
 ---
 
-# DevOps
+# Ops
 
-Le DevOps facilite et automatise le déploiement des applications tout en garantissant leur fiabilité, leur sécurité et leur scalabilité. Il rapproche les équipes de développement et des opérations techniques pour améliorer la qualité et la rapidité des mises en production.
+L'Ops facilite et automatise le déploiement des applications tout en garantissant leur fiabilité, leur sécurité et leur scalabilité. Il rapproche les équipes de développement et des opérations techniques pour améliorer la qualité et la rapidité des mises en production.
 
-Il automatise, sécurise et surveille les infrastructures et les déploiements pour réaliser un produit performant et fiable.
+Il automatise, sécurise et surveille les infrastructures et les déploiements pour aider l'équipe produit a construire un produit performant et fiable.
 
 ## En quoi ce rôle est important ?
 
@@ -42,7 +42,7 @@ Une bonne gestion des pratiques DevOps permet de :
   * Assurer la disponibilité et la robustesse des infrastructures
   * Aider à la résolution des incidents et à l’amélioration continue
 
-## Quelles sont les questions à se poser en tant que DevOps ?
+## Quelles sont les questions à se poser en tant qu'Ops ?
 
 * Les déploiements sont-ils rapides, fiables et sécurisés ?
 * Les équipes rencontrent-elles moins de blocages techniques ?

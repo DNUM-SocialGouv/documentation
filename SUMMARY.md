@@ -5,7 +5,7 @@
   * [Cycle de vie produit](readme/cycle-de-vie-produit.md)
 * [Préparer et lancer](preparer-et-lancer/README.md)
   * [Les différents rôles et métiers](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
-    * [Une équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/equipe-produit.md)
+    * [Une équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/chefferie-produit.md)
     * [SEPARATION](preparer-et-lancer/les-differents-roles-et-metiers/separation.md)
     * [Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
     * [Co-chef de produit (DNUM)](preparer-et-lancer/les-differents-roles-et-metiers/product-manager.md)
@@ -13,7 +13,7 @@
     * [Designer](preparer-et-lancer/les-differents-roles-et-metiers/designer.md)
     * [Développeur](preparer-et-lancer/les-differents-roles-et-metiers/developpeur.md)
     * [Coach produit](preparer-et-lancer/les-differents-roles-et-metiers/coach-produit.md)
-    * [DevOps](preparer-et-lancer/les-differents-roles-et-metiers/devops.md)
+    * [Ops](preparer-et-lancer/les-differents-roles-et-metiers/devops.md)
     * [Expert accessibilité](preparer-et-lancer/les-differents-roles-et-metiers/expert-accessibilite.md)
   * [Organisation produit](preparer-et-lancer/organisation-produit/README.md)
     * [Les piliers d’une organisation produit](preparer-et-lancer/organisation-produit/les-piliers-dune-organisation-produit.md)
@@ -75,4 +75,4 @@
 ## ---
 
 * [Comment contribuer à ce guide ?](undefined-1/comment-contribuer-a-ce-guide/README.md)
-  * [Charte éditoriale](undefined-1/comment-contribuer-a-ce-guide/charte-éditoriale.md)
+  * [Charte éditoriale](undefined-1/comment-contribuer-a-ce-guide/charte-editoriale.md)
