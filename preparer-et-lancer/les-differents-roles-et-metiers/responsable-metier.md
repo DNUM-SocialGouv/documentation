@@ -41,7 +41,7 @@ Son implication directe dans la construction du produit permet de :
 
 ### Quel est son quotidien ?
 
-* Le chef de produit / responsable métier porte la vision, la priorisation et la feuille de route du produit
+* Le responsable métier porte la vision, la priorisation et la feuille de route du produit
 * Il collabore étroitement avec le [Co-chef de produit (DNUM)](product-manager.md)
 * Il définie les priorités de développement du produit et assurer la bonne traduction en termes de spécifications techniques avec les développeurs
 * Il participe à la mise en place de la recherche utilisateur (test d'utilisabilité, interviews, etc...)
