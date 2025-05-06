@@ -74,5 +74,4 @@
 
 ## ---
 
-* [Comment contribuer à ce guide ?](undefined-1/comment-contribuer-a-ce-guide/README.md)
-  * [Charte éditoriale](undefined-1/comment-contribuer-a-ce-guide/charte-editoriale.md)
+* [Charte éditoriale](charte-editoriale.md)

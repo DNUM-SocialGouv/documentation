@@ -4,7 +4,9 @@ description: Charte éditoriale du guide
 
 # Charte éditoriale
 
-Ce guide est rédigé pour toutes les personnes qui conçoivent, développent ou accompagnent des produits numériques à la DNUM.
+Ce guide est rédigé pour toute personne qui conçoit, développe ou accompagne des produits numériques à la DNUM.
+
+Chacun(e) est encouragé(e) à contribuer à ce guide, proposer de nouvelles choses ou mettre au défi son contenu. Pour ce faire, vous pouvez simplement utiliser l'éditeur en ligne [https://app.gitbook.com/](https://app.gitbook.com/).
 
 **L'objectif est de donner les moyens d’agir :** comprendre les exigences, choisir une bonne méthode, appliquer les standards et construire de meilleurs services publics numériques.
 
