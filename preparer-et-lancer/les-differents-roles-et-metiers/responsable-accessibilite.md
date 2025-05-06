@@ -20,7 +20,7 @@ Le Responsable accessibilité s’assure que les services numériques sont utili
 
 Il garantit que les services numériques sont inclusifs et conformes aux exigences légales d’accessibilité.
 
-### Pourquoi ce rôle est important ?
+### En quoi ce rôle est important ?
 
 Une bonne accessibilité permet :
 
@@ -50,4 +50,3 @@ Une bonne accessibilité permet :
 * Les équipes intègrent-elles l’accessibilité dès la conception ?
 * Des utilisateurs en situation de handicap ont-ils testé le service ?
 * Des améliorations concrètes ont-elles été mises en place ?
-

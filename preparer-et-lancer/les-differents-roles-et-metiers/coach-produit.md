@@ -20,9 +20,9 @@ Le coach accompagne les équipes et l’organisation dans l’adoption des prati
 
 Il aide les équipes à mieux travailler ensemble grâce à des méthodes adaptées à leur contexte.
 
-### Pourquoi ce rôle est important ?
+### En quoi ce rôle est important ?
 
-Un bon coaching permet :
+Un bon coaching produit permet :
 
 * D'améliorer la collaboration et la communication au sein des équipes
 * De fluidifier la gestion du travail et la prise de décision
@@ -34,7 +34,7 @@ Un bon coaching permet :
 * **Accompagner les équipes dans l’adoption des pratiques agiles**
   * Aider à la mise en place de rituels agiles adaptés
   * Observer et ajuster les pratiques en fonction des besoins de l’équipe
-  * Former et sensibiliser aux différentes méthodes&#x20;
+  * Former et sensibiliser aux différentes méthodes
 * **Favoriser l’amélioration continue**
   * Encourager les rétrospectives et les plans d’amélioration
   * Aider à lever les obstacles à l’efficacité des équipes
