@@ -37,7 +37,7 @@ Son implication directe dans la construction du produit permet de :
 * Assurer que les besoins des usagers sont bien compris et traduits dans le produit
 * Ancrer le service dans une réalité métier et institutionnelle
 * Donner du sens au travail de l’équipe produit, en reliant les fonctionnalités aux enjeux de terrain
-* Favoriser l’adoption du service, grâce à une meilleure coordination du déploiement
+* Favoriser l’adoption du service, grâce à une bonne coordination du déploiement
 
 ### Quel est son quotidien ?
 
