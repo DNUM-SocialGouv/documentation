@@ -20,7 +20,7 @@ Le chercheur utilisateur étudie les comportements, besoins et attentes des util
 
 Il aide à comprendre les utilisateurs pour créer des services réellement utiles et utilisables.
 
-### Pourquoi ce rôle est important ?
+### En quoi ce rôle est important ?
 
 Une bonne recherche utilisateur permet de :
 
@@ -49,4 +49,4 @@ Une bonne recherche utilisateur permet de :
 * Ai-je identifié des besoins clairs et prioritaires ?
 * Mes recommandations sont-elles utilisées pour améliorer le produit ?
 * Les tests et observations ont-ils un impact mesurable sur les décisions ?
-* L’équipe a-t-elle une compréhension plus fine des utilisateurs ?&#x20;
+* L’équipe a-t-elle une compréhension plus fine des utilisateurs ?

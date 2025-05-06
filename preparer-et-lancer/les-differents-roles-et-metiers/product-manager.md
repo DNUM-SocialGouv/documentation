@@ -24,9 +24,9 @@ Dans certains cas, lorsque le produit est développé par et pour la DNUM, le ch
 
 **Il agit comme un facilitateur, un référent produit et un coordinateur du quotidien.**
 
-### Pourquoi ce rôle est important ?
+### En quoi ce rôle est important ?
 
-Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :&#x20;
+Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
 
 * D'assurer un pilotage fluide des développements au quotidien
 * De garantir le respect des standards qualité, sécurité et produit
@@ -35,7 +35,7 @@ Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète d
 
 ### Quel est son quotidien ?
 
-Le co-chef de produit assure plusieurs missions opérationnelles :&#x20;
+Le co-chef de produit assure plusieurs missions opérationnelles :
 
 * Piloter le quotidien des équipes de développement (suivi, arbitrages, coordination)
 * Veiller à l’application des bonnes pratiques produit (cadre agile, itérations, vision)
@@ -43,7 +43,7 @@ Le co-chef de produit assure plusieurs missions opérationnelles :&#x20;
 * Contribuer à la rédaction des user stories (en lien avec les besoins exprimés)
 * Appuyer la phase de recette (tests, vérification des fonctionnalités livrées)
 
-### Quelles sont les questions à se poser en tant que Product Manager ?&#x20;
+### Quelles sont les questions à se poser en tant que Product Manager ?
 
 * Le partage des responsabilités entre DNUM et métier est-il clair (si applicable) ?
 * Est-ce que j’aide l’équipe à avancer efficacement au quotidien ?

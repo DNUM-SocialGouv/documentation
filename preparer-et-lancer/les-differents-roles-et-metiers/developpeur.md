@@ -20,7 +20,7 @@ Le développeur conçoit, développe et maintient les applications et services n
 
 Il conçoit et écrit du code, s’assure de sa qualité et collabore avec l’équipe pour livrer un produit fiable et maintenable.
 
-### Pourquoi ce rôle est important ?
+### En quoi ce rôle est important ?
 
 Un bon développement permet de :
 
@@ -44,7 +44,7 @@ Un bon développement permet de :
   * Optimiser la performance et la sécurité des applications.
   * Documenter le code et les choix techniques pour assurer la pérennité du produit.
 
-### Quelles sont les questions à se poser en tant que Développeur ?&#x20;
+### Quelles sont les questions à se poser en tant que Développeur ?
 
 * Le code est-il lisible et maintenable ?
 * Le comportement de l'application est-il testé pour ne pas introduire de régressions ?

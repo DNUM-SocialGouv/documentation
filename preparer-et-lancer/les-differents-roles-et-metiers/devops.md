@@ -20,9 +20,9 @@ Le DevOps facilite et automatise le déploiement des applications tout en garant
 
 Il automatise, sécurise et surveille les infrastructures et les déploiements pour réaliser un produit performant et fiable.
 
-### Pourquoi ce rôle est important ?
+### En quoi ce rôle est important ?
 
-Une bonne gestion des pratiques DevOps permet de :&#x20;
+Une bonne gestion des pratiques DevOps permet de :
 
 * Déployer plus fréquemment et en toute sécurité
 * Automatiser les tâches répétitives pour éviter les erreurs
