@@ -43,9 +43,8 @@ Son implication directe dans la construction du produit permet de :
 
 * Le responsable métier porte la vision, la priorisation et la feuille de route du produit
 * Il collabore étroitement avec le [Co-chef de produit (DNUM)](product-manager.md)
-* Il définit les priorités de développement du produit
+* Il décide des évolutions du produit et les priorise
 * Il participe à la mise en place de la recherche utilisateur (test d'utilisabilité, interviews, etc...)
-* Il pilote les décisions et les évolutions du produit
 * Il échange régulièrement avec l’équipe technique
 * Il pilote le déploiement (accompagné de chargé de déploiement)
 * Il mesure l'impact du produit (indicateurs) et s'assure de la publication des statistiques
