@@ -18,9 +18,9 @@ icon: football
 | ------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
 | Incarner la vision                                                                                                                                      | 🔒 Responsable (porte la politique publique) | 🔒 Co-responsable (porte le produit numérique) |
 | Fixer les objectifs et indicateurs produit                                                                                                              | 🙆‍♂️ Responsable                               | 🙆‍♂️ Co-responsable                             |
-| Piloter la conception (recherche, parcours utilisateurs, design, architecture, urbanisation, utilisation de briques communes)                           | 🤝 Participe                                 | 🙆‍♂️ Pilote                                     |
+| Mener la conception (parcours, design, urbanisation, réutilisation de communs numériques)                       | 🤝 Participe                                 | 🙆‍♂️ Pilote                                     |
 | Piloter le _delivery_ (échanges quotidien avec les développeurs, écrire les US, prioriser le backlog, réaliser les tests, les déploiements, démos, etc) | 🤝 Participe                                 | 🙆‍♂️ Pilote                                     |
-| Piloter les sujets règlementaires et de qualité (RGAA, RGS, RGPD, homologation, RGESN)                                                                  | 🤝 Participe                                 | 🙆‍♂️ Pilote                                     |
+| S'assurer de la conformité règlementaire (RGAA, RGS, RGPD, homologation, RGESN)                                                                  | 🤝 Participe                                 | 🙆‍♂️ Pilote                                     |
 | Organisation des rituels (_dailys_, comités d'investissement)                                                                                           | 🤝 Participe                                 | 🙆‍♂️ Pilote                                     |
 
 
