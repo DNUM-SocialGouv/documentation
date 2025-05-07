@@ -16,26 +16,26 @@ layout:
 
 Le développeur conçoit, développe et maintient les produits numériques. Il transforme les besoins métier et les choix de conception en solutions fonctionnelles et performantes.
 
-Il écrit du code, s’assure de sa qualité et collabore avec l’équipe pour livrer un produit fiable.
+Il écrit du code au sens large, s’assure de sa qualité et collabore avec le reste de l'équipe pour livrer un produit fiable.
 
 ## En quoi ce rôle est important ?
 
 Un bon développement permet de :
 
-* Construire des services publics numériques performants et accessibles.
-* Garantir la sécurité et la maintenabilité du produit.
-* Assurer une livraison continue et fluide des évolutions, afin de répondre aux besoins des utilisateurs.
+* Construire des produits numériques fiables, performants, maintenables, sécurisés et accessibles.
+* Assurer une livraison continue et fluide des évolutions en production.
 
 ## Quel est son quotidien ?
 
 * **Développer des fonctionnalités et corriger des anomalies**
   * Traduire les besoins en code clair, lisible et performant.
-  * Automatiser l'exécution des tests pour éviter les bugs et régressions.
-  * Corriger les bugs signalés et améliorer le produit en continu.
-* **Collaborer avec le reste de l’équipe produit et les designers**
+  * Automatiser l'exécution des tests pour éviter les anomalies et régressions.
+  * Corriger les anomalies détectées ou signalées.
+  * Améliorer le produit en continu et maitriser la dette technique.
+* **Collaborer avec le reste de l’équipe produit, les designers, les experts**
   * Travailler avec le Co-chef de produit pour comprendre le besoin et le challenger.
   * Échanger avec les UX/UI designers pour garantir une bonne expérience utilisateur.
-  * Collaborer avec l'expert accessibilité afin de s'assurer que le produit puisse être utilisé par le plus grand nombre.
+  * Collaborer avec l'expert accessibilité afin que le produit puisse être utilisé par le plus grand nombre.
   * Participer aux revues de code et aux décisions techniques.
 * **Déployer et maintenir le produit**
   * Automatiser les tests et les déploiements pour gagner en efficacité.
