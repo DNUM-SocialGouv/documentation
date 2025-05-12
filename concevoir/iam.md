@@ -15,7 +15,7 @@ layout:
 
 # Authentification des utilisateurs
 
-Normes et standard pour l'authentification des différentes populations d'utilisateurs.
+Pratiques communes pour l'authentification des différentes populations d'utilisateurs.
 
 ## Standard pour l'authentification des populations
 

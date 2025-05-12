@@ -14,13 +14,13 @@ layout:
 
 # Bienvenue sur le guide DNUM
 
-Voici un ensemble de ressources destiné aux agents de la sous-direction des produits et services numériques de la direction du numérique des ministères sociaux, ainsi qu'à nos partenaires et sous-traitants.
+Voici un ensemble de ressources destinées aux agents de la Direction du Numérique (DNUM) des Ministères Sociaux, ainsi qu'à ses prestataires de service et partenaires.
+
+{% hint style="info" %}
+**Ce document est public et ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations et donner envie à des personnes de nous rejoindre, alors tant mieux.💛**
+{% endhint %}
 
 Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationnel.
-
-{% hint style="warning" %}
-**Ce document est ouvert et accessible à toutes et tous, par design. Il ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations, ou bien donner envie à des personnes de nous rejoindre, alors tant mieux.💛**
-{% endhint %}
 
 ***
 
@@ -28,7 +28,7 @@ Ceci est l'expérimentation de la mise en place d'un nouveau cadre organisationn
 
 ### Constat <a href="#constat" id="constat"></a>
 
-La sous-direction gère un parc de [240 applications](undefined/nos-produits/) et 40 à 50 chefs de produit pour les piloter en lien avec les équipes métiers.
+La sous-direction gère un parc de [250 applications](nos-produits/README.md) portés par 50 chefs de produit, en lien avec les équipes métiers.
 
 Au regard de ce parc, on note des enjeux d'optimisation :
 
@@ -50,7 +50,7 @@ Nous expérimentons la mise en place d'un nouveau cadre organisationnel qui perm
 
 1. Assurer la cohérence globale
    1. Création du [**comité produit**](/readme/nouveau-cadre-organisationnel.md) qui se réunit toutes les semaines pour passer en revue les nouveaux produits, refontes, et petit à petit des produits où il existe une opportunité de pivoter
-   2. Publication de **normes et standards** (ici même) afin de guider et d'harmoniser la conception des produits et services
+   2. Publication de **pratiques communes** (ici même) afin de guider et d'harmoniser la conception des produits et services
 2. Construire un **catalogue de standards et de communs numériques** et ainsi identifier les points de mutualisation entre différents besoins ou services (librairies, plateformes, référentiels)
 3. [**Accompagner les équipes**](https://msociauxfr.sharepoint.com/teams/ProductTeams-DevDesignAccessibilitRechercheutilisateurCoachi/SitePages/Accueil.aspx) en continu pour offrir un appui technique, d'architecture, de DevSecOps, de gestion des données, de design, d'accessibilité, de recherche utilisateur
 
