@@ -34,7 +34,7 @@ Une bonne gestion des pratiques DevOps permet de :
   * Automatiser les tâches d’infrastructure.
   * S’assurer que chaque mise en production est fiable et réversible.
 * **Surveiller et sécuriser les environnements**
-  * Mettre en place des outils d'observabilité en coordination avec les [développeurs](developpeur.md) (monitoring et alerting).
+  * Mettre en place des outils d'observabilité en coordination avec les [développeurs](developpeur.md) (monitoring et alerting), et faciliter leur utilisation.
   * Optimiser la performance et la résilience des applications.
   * Sécuriser les environnements cloud et on-premise (gestion des accès, conformité, redondances).
 * **Collaborer avec les équipes techniques et produit**
