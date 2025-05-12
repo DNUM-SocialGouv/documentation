@@ -1,7 +1,3 @@
----
-description: Charte éditoriale du guide
----
-
 # Charte éditoriale
 
 Ce guide s'adresse à toute personne qui conçoit, développe ou déploie des produits numériques à la DNUM.
