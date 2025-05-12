@@ -74,4 +74,4 @@
 
 ## ---
 
-* [Charte éditoriale](charte-editoriale.md)
+* [Contribuer au guide](contribuer.md)

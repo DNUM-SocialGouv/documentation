@@ -1,4 +1,4 @@
-# Charte éditoriale
+# Contribuer au guide
 
 Ce guide s'adresse à toute personne qui conçoit, développe ou déploie des produits numériques à la DNUM.
 
