@@ -117,7 +117,7 @@ Points communs :
 
 Différences :
 
-|                      | [Socle Ondine](broken-reference) | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
+|                      | Socle Ondine                     | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
 | -------------------- | -------------------------------- | -------------------------------------------------------------- |
 | Entité responsable   | SG/DICOM                         | SPM/DINUM/OPI                                                  |
 | Open source          | Non (_pas à date_)               | Oui                                                            |
