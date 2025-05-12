@@ -67,10 +67,10 @@
 
 ## ---
 
-* [Nos produits](undefined/nos-produits/README.md)
-  * [🦠 Santé](undefined/nos-produits/sante.md)
-  * [🩺 Offre de soin](undefined/nos-produits/offre-de-soin.md)
-  * [📎 Transverse](undefined/nos-produits/transverse.md)
+* [Nos produits](nos-produits/README.md)
+  * [🦠 Santé](nos-produits/sante.md)
+  * [🩺 Offre de soin](nos-produits/offre-de-soin.md)
+  * [📎 Transverse](nos-produits/transverse.md)
 
 ## ---
 

@@ -1,7 +1,7 @@
 ---
 description: >-
-  La sous-direction gère un parc de 240 applications et 40 à 50 chefs de
-  produit pour les piloter en lien avec les équipes métiers.
+  La sous-direction gère un parc de 250 produits portés par 50 responsables de
+  produit, en lien avec les équipes métiers.
 layout:
   title:
     visible: true
@@ -19,11 +19,11 @@ layout:
 
 ### 🧬 [Santé](sante.md)
 
-### 🩺Offre de soin
+### 🩺 [Offre de soin](offre-de-soin.md)
 
 ### 🧱 Travail
 
 ### 🤝 Cohésion sociale
 
-### 📎 Transverse
+### 📎 [Transverse](transverse.md)
 
