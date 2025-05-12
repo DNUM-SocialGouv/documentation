@@ -19,7 +19,7 @@ layout:
 Nous proposons différents accompagnements techniques pour répondre à chacune de vos situations :
 
 * **Orientation** : réponse à une question rapide, à une demande d'orientation
-* **Second avis sur un devis** : analyse et recommandations sur le devis d'un sous-traitant
+* **Second avis sur un devis** : analyse et recommandations sur le devis d'un prestataire de service
 * **Problème technique** : diagnostic et recommandations sur un problème technique ou de performance
 * **Accompagnement d'architecture** : accompagnement complet pour la définition de l'architecture de votre produit
 * **Mise en œuvre** : nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec votre équipe Pour une information détaillée, rendez-vous sur la [page dédiée aux offres](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Technologie.aspx)

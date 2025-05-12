@@ -15,9 +15,9 @@ layout:
 
 # Authentification des utilisateurs
 
-Pratiques communes pour l'authentification des différentes populations d'utilisateurs.
+Cette page recense les bonnes pratiques pour l'authentification des différentes populations d'utilisateurs.
 
-## Standard pour l'authentification des populations
+## Bonnes pratiques pour l'authentification des populations
 
 | Population cible                                                                                                                        | Solution(s) préconisée(s)                                                                                                                       |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |

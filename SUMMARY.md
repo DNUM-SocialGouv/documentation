@@ -31,7 +31,7 @@
   * [Recherche Utilisateur](concevoir/ru/README.md)
     * [Principes](concevoir/ru/ru_principes.md)
     * [Application](concevoir/ru/ru_application.md)
-  * [Pratiques communes de design](concevoir/normes-et-standards.md)
+  * [Bonnes pratiques de design](concevoir/bonnes-pratiques-design.md)
   * [Exemples d'indicateurs](concevoir/indicateurs.md)
   * [Accessibilité](concevoir/accessibilite.md)
   * [Eco-conception](concevoir/eco-conception.md)

@@ -25,7 +25,8 @@ layout:
 ### Rôles du comité
 
 1. Rencontrer l'équipe produit à chaque étape du [processus _phase-gate_](nouveau-cadre-organisationnel.md#processus-phase-gate) afin de valider les orientations et les décisions techniques, mais aussi d'identifier avec les équipes des besoins d'accompagnement (technique, architecture, design, DevOps, etc.)
-2. Développer le catalogue de standards et de communs numériques : écrire les normes, identifier les réutilisations
+2. Recenser les bonnes pratiques sur tous les aspects d'un produit numérique
+3. Développer le catalogue de communs numérique et favoriser les réutilisations
 
 ### Composition du comité
 

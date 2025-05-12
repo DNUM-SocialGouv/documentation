@@ -12,12 +12,12 @@ layout:
     visible: false
 ---
 
-# Normes et standards de design
+# Bonnes pratiques de design
 
-Ces normes et standards de design garantissent que chaque produit respecte des principes de base de conception d'expérience utilisateur numérique.
+Ces bonnes pratiques garantissent que chaque produit numérique respecte les principes de base de conception d'expérience utilisateur.
 
 {% hint style="info" %}
-**A noter :** Ces normes et standards doivent être mis en oeuvre par les designers en charge du produit en collaboration avec le ou la cheffe de produit ainsi que les responsables métier et dev.
+Ces bonnes pratiques doivent être mis en oeuvre par les designers en charge du produit, en collaboration avec le ou la cheffe de produit ainsi que les responsables métier et dev.
 {% endhint %}
 
 ***

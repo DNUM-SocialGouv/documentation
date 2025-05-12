@@ -76,7 +76,7 @@ Les accès suivants ont été accordés :
 ### Partage d'informations
 
 * [ ] Des choix techniques importants pour l'équipe sont documentés dans le même dépôt que le code ;
-  * [ ] Des pratiques communes, standards pour l'équipe, sont présentes ;
+  * [ ] Des pratiques standards sont présentes au sein de l'équipe ;
   * [ ] La stratégie de tests est présente ;
   * [ ] Le Dossier d'Architecture est commenté ;
   * [ ] Si applicable, les requêtes particulièrement complexes vers la base de données sont documentées ;
