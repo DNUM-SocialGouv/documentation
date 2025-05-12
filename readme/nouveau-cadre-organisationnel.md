@@ -46,7 +46,7 @@ D'autres profils, notamment métier, participent au comité produit en fonction 
 
 ### Produits concernés par le comité
 
-* Les nouveaux produits et services numériques
+* Les nouveaux produits numériques
 * Les refontes fonctionnelles et techniques
 * Les évolutions majeures lorsque c'est pertinent : évolution significative du design, nouvelles populations d'utilisateurs, ajout de composants dans l'architecture, mises en conformité, etc.\
   Point à discuter : concernant les logiciels low-code/no-code, powerapps et powerbi, l'organisation est en cours de construction avec les différents bureaux

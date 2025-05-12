@@ -14,7 +14,7 @@ layout:
 
 # Designer
 
-Le designer conçoit des produits et services numériques utiles, utilisables, inclusifs, simples, humains et alignés avec les politiques publiques.
+Le designer conçoit des produits numériques utiles, utilisables, inclusifs, simples, humains et alignés avec les politiques publiques.
 
 Il transforme des besoins exprimés (ou non) en expériences concrètes et satisfaisantes, en s’appuyant sur une démarche centrée utilisateurs.
 
