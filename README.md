@@ -14,8 +14,10 @@ layout:
 
 # Bienvenue sur le guide DNUM
 
+Voici un ensemble de ressources destinées aux agents de la Direction du Numérique (DNUM) des Ministères Sociaux, ainsi qu'à ses prestataires de service et partenaires.
+
 {% hint style="info" %}
-**Voici un ensemble de ressources destinées aux agents de la Direction du Numérique (DNUM) des Ministères Sociaux, ainsi qu'à ses prestataires de service et partenaires.<br>Ce document est public et ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations et donner envie à des personnes de nous rejoindre, alors tant mieux.💛**
+**Ce document est public et ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations et donner envie à des personnes de nous rejoindre, alors tant mieux.💛**
 {% endhint %}
 
 ## Pourquoi ce guide ?
