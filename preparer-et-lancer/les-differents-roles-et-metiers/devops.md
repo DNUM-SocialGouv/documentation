@@ -20,7 +20,7 @@ Il automatise, sécurise et surveille les infrastructures et les déploiements p
 
 ## En quoi ce rôle est important ?
 
-Une bonne gestion des pratiques DevOps permet de :
+Une bonne gestion des pratiques [DevOps](https://www.atlassian.com/fr/devops/what-is-devops/devops-best-practices) permet de :
 
 * Déployer plus fréquemment et être capable de revenir en arrière en toute sécurité.
 * Automatiser les tâches répétitives pour éviter les erreurs.
