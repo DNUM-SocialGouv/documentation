@@ -20,7 +20,7 @@ layout:
 
 Nous utilisons [Jest](https://jestjs.io/) ou [Vitest](https://vitest.dev/guide/), et **Vitest** est notre choix par défaut :
 
-* Temps d'éxécution des tests inférieur à Jest ;
+* Temps d’exécution des tests inférieur à Jest ;
 * Moins de dépendances lourdes, car Vite fourni plus de choses "out-of-the-box" ;
 * Moins de configuration pour l'utiliser.
 
@@ -30,7 +30,7 @@ Enfin, afin de bien tester les appels API, nous utilisons aussi [JestMockAdapter
 
 Ces plugins nous facilitent les tests pour les différents cas :
 
-* Réponse 200 (ok)
+* Réponse 2XX (OK)
 * Erreur métier (4XX)
 * Erreur serveur (5XX)
 
