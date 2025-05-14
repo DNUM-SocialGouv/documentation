@@ -49,7 +49,7 @@ Si l'application utilise des contextes, nous testons chaque composant, onglet et
 
 ### Outillage
 
-Pareillement aux outils utilisés [côté frontend](tests-et-strategies.md#front), nous utilisons également Jest et Vitest pour les backends.
+Pareillement aux outils utilisés [côté frontend](./#front), nous utilisons également Jest et Vitest pour les backends.
 
 **Outils recommandés**
 
