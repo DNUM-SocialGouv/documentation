@@ -1,4 +1,5 @@
 ---
+icon: osi
 layout:
   title:
     visible: true

@@ -1,4 +1,5 @@
 ---
+icon: bell-concierge
 layout:
   title:
     visible: true

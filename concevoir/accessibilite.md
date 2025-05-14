@@ -1,4 +1,5 @@
 ---
+icon: universal-access
 layout:
   title:
     visible: true

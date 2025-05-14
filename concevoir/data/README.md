@@ -1,4 +1,5 @@
 ---
+icon: binary-circle-check
 layout:
   title:
     visible: true
@@ -35,4 +36,4 @@ Une application métier DEVRAIT utiliser un framework de Mapping Objet-Relationn
 * **Performance** : configuration d'un cache de niveau 2 pour les données à variation lente (données référentielles) et éventuellement d'un cache de niveau 1 pour les données métier vivantes (transactions)
 * **Sécurisation** : protection native contre les injections SQL et les rafales de requêtes
 * **Evolutivité** : Moindre adhérence à la technologie de base de données\
-  &#xNAN;_&#x45;xemples : Hibernate pour Java, TypeORM pour TypeScript, Prisma_
+  \&#xNAN;_Exemples : Hibernate pour Java, TypeORM pour TypeScript, Prisma_

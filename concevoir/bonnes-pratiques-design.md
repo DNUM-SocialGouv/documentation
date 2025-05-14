@@ -1,4 +1,5 @@
 ---
+icon: list-check
 layout:
   title:
     visible: true

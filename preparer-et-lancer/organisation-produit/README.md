@@ -1,4 +1,5 @@
 ---
+icon: cubes
 layout:
   title:
     visible: true
@@ -12,16 +13,16 @@ layout:
     visible: false
 ---
 
-# Organisation produit
+# L'organisation produit
 
 L’organisation produit est une manière de structurer la conception, la mise en œuvre et l’évolution des services numériques.
 
 Elle vise à construire des services **utiles, utilisables et utilisés**, en s’adaptant aux retours du terrain et aux objectifs de long terme.
 
-Cette organisation repose sur une conviction simple : il faut se concentrer sur les besoins des utilisateurs, travailler en équipe pluridisciplinaire, et améliorer en continu ce qui est réalisé.&#x20;
+Cette organisation repose sur une conviction simple : il faut se concentrer sur les besoins des utilisateurs, travailler en équipe pluridisciplinaire, et améliorer en continu ce qui est réalisé.
 
 {% hint style="info" %}
-Pour aller plus loin :&#x20;
+Pour aller plus loin :
 
 * [Les piliers d'une organisation produit](les-piliers-dune-organisation-produit.md)
 * [Le fonctionnement quotidien](le-fonctionnement-quotidien.md)
@@ -41,10 +42,10 @@ Cette organisation ne repose pas sur une méthode unique, mais sur une culture p
 
 ## En quoi est-ce différent d’une organisation projet ?
 
-Adopter une organisation produit, ce n’est pas simplement changer de vocabulaire : c’est changer de culture de travail.&#x20;
+Adopter une organisation produit, ce n’est pas simplement changer de vocabulaire : c’est changer de culture de travail.
 
 * Dans une logique projet, l’objectif est de livrer un livrable à une date donnée avec un budget défini
-* Dans une logique produit, l’objectif est de répondre durablement à un besoin, en s’adaptant aux retours du terrain et à l’évolution du contexte. La question du budget peut également se faire de manière incrémentale.&#x20;
+* Dans une logique produit, l’objectif est de répondre durablement à un besoin, en s’adaptant aux retours du terrain et à l’évolution du contexte. La question du budget peut également se faire de manière incrémentale.
 
 ## **Comparaison : projet vs. produit**
 
@@ -63,4 +64,3 @@ Adopter une organisation produit, ce n’est pas simplement changer de vocabulai
 * On construit avec les utilisateurs, pas seulement pour eux
 * On fait des choix en continu, en fonction des usages réels et des résultats observés
 * On responsabilise l’équipe, qui a le cadre et la confiance pour faire évoluer le service
-

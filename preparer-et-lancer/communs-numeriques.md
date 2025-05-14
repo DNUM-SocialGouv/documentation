@@ -1,4 +1,5 @@
 ---
+icon: recycle
 layout:
   title:
     visible: true
@@ -117,19 +118,19 @@ Points communs :
 
 Différences :
 
-|                      | Socle Ondine                     | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
-| -------------------- | -------------------------------- | -------------------------------------------------------------- |
-| Entité responsable   | SG/DICOM                         | SPM/DINUM/OPI                                                  |
-| Open source          | Non (_pas à date_)               | Oui                                                            |
-| Stack technique      | Varnish/Drupal/PHP               | Wagtail(CMS)/Django/Python                                     |
-| Stockage de données  | MariaDB                          | PostgreSQL                                                     |
-| Stockage index       | Solr                             | PostgreSQL ou Elasticsearch                                    |
-| Stockage de fichiers | GlusterFS (ou S3?)               | Filesystem ou S3                                               |
-| Instance multi-sites | Oui                              | Non                                                            |
-| ProConnect natif     | Non                              | Oui                                                            |
-| Conformité RGAA      | RGAA 4 à 75%                     | RGAA 4.1 partiel                                               |
-| Conformité RGS       | Oui                              | n/c                                                            |
-| Dév. spécifique      | Non (non souhaité)               | Oui (possible)                                                 |
+|                      | Socle Ondine       | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
+| -------------------- | ------------------ | -------------------------------------------------------------- |
+| Entité responsable   | SG/DICOM           | SPM/DINUM/OPI                                                  |
+| Open source          | Non (_pas à date_) | Oui                                                            |
+| Stack technique      | Varnish/Drupal/PHP | Wagtail(CMS)/Django/Python                                     |
+| Stockage de données  | MariaDB            | PostgreSQL                                                     |
+| Stockage index       | Solr               | PostgreSQL ou Elasticsearch                                    |
+| Stockage de fichiers | GlusterFS (ou S3?) | Filesystem ou S3                                               |
+| Instance multi-sites | Oui                | Non                                                            |
+| ProConnect natif     | Non                | Oui                                                            |
+| Conformité RGAA      | RGAA 4 à 75%       | RGAA 4.1 partiel                                               |
+| Conformité RGS       | Oui                | n/c                                                            |
+| Dév. spécifique      | Non (non souhaité) | Oui (possible)                                                 |
 
 Synthèse :
 

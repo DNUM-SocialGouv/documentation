@@ -1,4 +1,5 @@
 ---
+icon: user
 layout:
   title:
     visible: true

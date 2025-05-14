@@ -1,4 +1,5 @@
 ---
+icon: seedling
 layout:
   title:
     visible: true

@@ -12,9 +12,9 @@ layout:
     visible: false
 ---
 
-# Co-chef de produit (DNUM)
+# Responsable produit
 
-Le co-chef de produit (DNUM) intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
+Le responsable produit (DNUM) intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
 
 Il apporte un appui opérationnel et veille à la bonne application des pratiques produit et réglementaires.
 
@@ -24,7 +24,7 @@ Dans certains cas, lorsque le produit est développé par et pour la DNUM, le pr
 
 ## En quoi ce rôle est important ?
 
-Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
+Le responsable de produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
 
 * D'assurer la fluidité des développements au quotidien
 * De veiller au respect des standards de qualité et de sécurité
@@ -33,7 +33,7 @@ Le co-chef de produit joue un rôle essentiel dans la mise en œuvre concrète d
 
 ## Quel est son quotidien ?
 
-Le co-chef de produit assure plusieurs missions opérationnelles :
+Le responsable produit assure plusieurs missions opérationnelles :
 
 * Faciliter le quotidien des équipes de développement (suivi, arbitrages, coordination)
 * Veiller à l’application des bonnes pratiques produit (cadre agile, itérations, vision)

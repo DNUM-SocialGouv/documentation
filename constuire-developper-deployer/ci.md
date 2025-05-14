@@ -1,4 +1,5 @@
 ---
+icon: badge-check
 layout:
   title:
     visible: true

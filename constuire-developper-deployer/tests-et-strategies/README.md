@@ -1,4 +1,5 @@
 ---
+icon: bullseye-arrow
 layout:
   title:
     visible: true

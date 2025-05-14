@@ -1,4 +1,5 @@
 ---
+icon: right-to-bracket
 layout:
   title:
     visible: true

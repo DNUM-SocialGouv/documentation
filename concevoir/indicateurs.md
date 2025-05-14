@@ -1,4 +1,5 @@
 ---
+icon: gauge
 layout:
   title:
     visible: true
@@ -90,7 +91,7 @@ Application dédiée à la gestion des processus électoraux, incluant l'inscrip
 * Taux de conformité des PV (% des PV collectés sans erreur
 * Taux de collecte et de consolidation des PV dans les délais
 
-**👊  Indicateurs d'impact**
+**👊 Indicateurs d'impact**
 
 * Economies réalisées grâce à la dématérialisation (sur les coûts de conformité, coûts papier...)
 
