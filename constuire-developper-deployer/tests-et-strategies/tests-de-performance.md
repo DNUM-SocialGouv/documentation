@@ -1,6 +1,6 @@
 # Tests de performance
 
-Ce type de tests consiste à vérifier la performance des fonctionnalités d'une application.
+Ces tests permettent de vérifier la performance des fonctionnalités d'une application.
 
 Pour cela, une montée en charge est simulée pour s'assurer que le temps de réponse reste acceptable.
 
