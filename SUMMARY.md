@@ -51,7 +51,7 @@
     * [Traitements asynchrones](constuire-developper-deployer/principes-de-developpement/processus-asynchrones.md)
     * [Gestion des accès](constuire-developper-deployer/principes-de-developpement/gestion-des-access.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
-  * [Tests et stratégies](constuire-developper-deployer/tests-et-strategies/README.md)
+  * [Stratégies de tests](constuire-developper-deployer/tests-et-strategies/README.md)
     * [Tests de performance](constuire-developper-deployer/tests-et-strategies/tests-de-performance.md)
   * [Front web](constuire-developper-deployer/front-web/README.md)
     * [Développement](constuire-developper-deployer/web-front/accessibilite.md)

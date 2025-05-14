@@ -12,7 +12,7 @@ layout:
     visible: false
 ---
 
-# Tests et stratégies
+# Stratégies de tests
 
 ## Front
 
