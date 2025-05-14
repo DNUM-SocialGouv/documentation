@@ -59,7 +59,7 @@ Ce guide rassemble les étapes essentielles à suivre, de la compréhension des 
 * Doit inclure : maquettes, prototypes, annotations d’accessibilité, documentation visuelle.
 
 {% hint style="info" %}
-Astuce :\*\* Demandez à votre designer d'utiliser les modèles créés par la DNUM :
+**Astuce** : Demandez à votre designer d'utiliser les modèles créés par la DNUM :
 
 * Conception, maquettage, prototypage :[Modèle de fichier Figma](https://www.figma.com/design/XMBYkb0Yfgf5Xwus7Qqi4F/Mod%C3%A8le-Figma?m=auto\&t=4yobmo0a54wCxCct-6)
 * Ateliers, diagrammes, idéation : [Modèle de fichier Figjam](https://www.figma.com/board/etgOPbk0hSxLYYWNM6XAJ0/Mod%C3%A8le---Fiichier-Figjam?t=irWaNRhEZf6oeXR3-6)
@@ -107,7 +107,7 @@ Astuce :\*\* Demandez à votre designer d'utiliser les modèles créés par la D
 
 ### 6. **100 % DSFR, le système de design de l'état français**
 
-Le Design System est obligatoire pour les sites grand publics communiquant au nom de l'État et dont l'URL est en .gouv.fr&#x20;
+Le Design System est obligatoire pour les sites grand publics communiquant au nom de l'État et dont l'URL est en .gouv.fr
 
 * Utilisez la dernière librairie [Figma DSFR](https://www.figma.com/@gouvfr)
 * Validez les usages des composants en consultant le [site DSFR](https://www.systeme-de-design.gouv.fr/composants-et-modeles).
@@ -118,7 +118,7 @@ Le Design System est obligatoire pour les sites grand publics communiquant au no
 L'usage du DSFR est encadré :
 
 * Seuls les sites en .gouv.fr peuvent bénéficier du DSFR
-* Pour les sites internes, extranets, outils d'agent seuls **l'en-tête et le pied de page** sont obligatoires. Il est toutefois recommandé d'utiliser le DSFR sur l'intégralité du produit lors d'une refonte afin de faciliter la conception et le développement.&#x20;
+* Pour les sites internes, extranets, outils d'agent seuls **l'en-tête et le pied de page** sont obligatoires. Il est toutefois recommandé d'utiliser le DSFR sur l'intégralité du produit lors d'une refonte afin de faciliter la conception et le développement.
 {% endhint %}
 
 ***
@@ -163,7 +163,9 @@ L'idéation, ou recherche de solutions adaptées aux besoins des utilisateurs, d
 * Tester les prototypes sur plusieurs tailles d’écran avant les validations finales.
 
 {% hint style="info" %}
-**Astuce :** Pensez à organiser les maquettes en parcours utilisateurs afin de faciliter la compréhension par les développeurs. \*\*A noter :\*\* Même si votre application n'est utilisable que sur ordinateur, elle doit pouvoir être utilisable à un zoom de 200 %
+**Astuce :** Pensez à organiser les maquettes en parcours utilisateurs afin de faciliter la compréhension par les développeurs.&#x20;
+
+**A noter :** Même si votre application n'est utilisable que sur ordinateur, elle doit pouvoir être utilisable à un zoom de 200 %
 {% endhint %}
 
 ***
