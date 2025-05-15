@@ -14,7 +14,7 @@ layout:
 
 # Responsable produit
 
-Le Responsable produit intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
+Le responsable produit intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
 
 Il apporte un appui opérationnel et veille à la bonne application des pratiques produit et réglementaires.
 
@@ -24,7 +24,7 @@ Dans certains cas, lorsque le produit est développé par et pour la DNUM, le pr
 
 ## En quoi ce rôle est important ?
 
-Le responsable de produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
+Le responsable produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
 
 * D'assurer la fluidité des développements au quotidien
 * De veiller au respect des standards de qualité et de sécurité
@@ -41,7 +41,7 @@ Le responsable produit assure plusieurs missions opérationnelles :
 * Contribuer à la rédaction des user stories
 * Appuyer la recette en continue (tests, vérification des fonctionnalités livrées)
 
-## Quelles sont les questions à se poser en tant que Responsable produit ?
+## Quelles sont les questions à se poser en tant que responsable produit ?
 
 * Le partage des responsabilités entre DNUM et métier est-il clair ?
 * Est-ce que j’aide mon équipe à avancer efficacement au quotidien ?

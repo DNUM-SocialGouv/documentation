@@ -34,7 +34,7 @@ Un bon développement permet de :
   * Participer aux revues de code et aux décisions techniques.
   * Améliorer le produit en continu et maîtriser la dette technique.
 * **Collaborer avec le reste de l’équipe produit, les designers, les experts**
-  * Travailler avec le [Responsable produit](responsable-produit.md) pour comprendre le besoin et le challenger.
+  * Travailler avec le [responsable produit](responsable-produit.md) pour comprendre le besoin et le challenger.
   * Échanger avec les [UX](expert-en-recherche-utilisateur.md)/[UI](designer.md) designers pour garantir une bonne expérience utilisateur et avec l'[expert accessibilité](expert-accessibilite.md) afin que le produit puisse être utilisé par le plus grand nombre.
   * Collaborer avec les experts [Ops](devops.md) pour avoir les moyens de livrer de valeur en continu.
 * **Déployer et maintenir le produit**

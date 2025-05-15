@@ -81,7 +81,7 @@ Dans une organisation produit, **les décisions sont collectives**, mais elles d
 
 Les grandes règles :&#x20;
 
-* Le Responsable produit ou le responsable métier définit la vision et les priorités&#x20;
+* Le responsable produit ou le responsable métier définit la vision et les priorités&#x20;
 * L’équipe technique et design choisit comment implémenter les solutions
 * Les utilisateurs et les données valident les décisions (via des tests, feedbacks, indicateurs).
 
