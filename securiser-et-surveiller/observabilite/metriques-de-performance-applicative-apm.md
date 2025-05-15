@@ -1,4 +1,4 @@
-# Métrique de performance applicative (APM)
+# Métriques de performance applicative (APM)
 
 Ce document a pour objectif de fournir des connaissances de base sur certaines métriques clés dans la gestion d'une application. Elles permettent de comprendre le comportement d'une application et d'améliorer ses performances.
 
