@@ -6,7 +6,7 @@
 * [👩‍🔬 Préparer et lancer](preparer-et-lancer/README.md)
   * [L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
     * [Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
-    * [Responsable produit](preparer-et-lancer/les-differents-roles-et-metiers/co-chef-produit.md)
+    * [Responsable produit](preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md)
     * [Expert en Recherche Utilisateur](preparer-et-lancer/les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
     * [Responsable Data](preparer-et-lancer/les-differents-roles-et-metiers/responsable-data.md)
     * [Designer](preparer-et-lancer/les-differents-roles-et-metiers/designer.md)

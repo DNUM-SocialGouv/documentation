@@ -21,7 +21,7 @@ Il est recommandé de lister d'abord les cas les plus importants à tester, tels
 * Les parcours susceptibles d'être utilisés par un nombre croissant d'utilisateurs (ex : montée en charge prévue).
 * À l'inverse, tester tous les cas n'est pas un gage de qualité.
 
-Un échange avec le [responsable métier](../../preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md) et/ou le [co-chef de produit](../../preparer-et-lancer/les-differents-roles-et-metiers/co-chef-produit.md) permet d'identifier les cas pertinents.
+Un échange avec le [responsable métier](../../preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md) et/ou le [responsable produit](../../preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md) permet d'identifier les cas pertinents.
 
 ### Considérations importantes
 

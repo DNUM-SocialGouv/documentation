@@ -14,7 +14,7 @@ layout:
 
 # Responsable produit
 
-Le responsable produit (DNUM) intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
+Le Responsable produit intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
 
 Il apporte un appui opérationnel et veille à la bonne application des pratiques produit et réglementaires.
 
@@ -41,7 +41,7 @@ Le responsable produit assure plusieurs missions opérationnelles :
 * Contribuer à la rédaction des user stories
 * Appuyer la recette en continue (tests, vérification des fonctionnalités livrées)
 
-## Quelles sont les questions à se poser en tant que Co-chef de produit ?
+## Quelles sont les questions à se poser en tant que Responsable produit ?
 
 * Le partage des responsabilités entre DNUM et métier est-il clair ?
 * Est-ce que j’aide mon équipe à avancer efficacement au quotidien ?
