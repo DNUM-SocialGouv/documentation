@@ -14,9 +14,8 @@ layout:
 
 # ElasticSearch
 
-[ElasticSearch](https://www.elastic.co/fr/elasticsearch) ou "ES" est une base de données optimisée pour les recherches et l'analytique.
-Cette page traite de l'utilisation d'ES comme base de données métier.
-[Voir aussi l'utilisation d'ES dans le cadre de l'observabilité.](/securiser-et-surveiller/observabilite.md)
+[ElasticSearch](https://www.elastic.co/fr/elasticsearch) ou "ES" est une base de données optimisée pour les recherches et l'analytique.\
+Cette page traite de l'utilisation d'ES comme base de données métier.[Voir aussi l'utilisation d'ES dans le cadre de l'observabilité.](../../securiser-et-surveiller/observabilite/)
 
 ## Questions à se poser
 
