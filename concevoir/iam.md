@@ -56,7 +56,7 @@ MFA : Oui
 [**EFP Connect**](https://info.efpconnect.emploi.gouv.fr/) est le vecteur d'authentificaiton pour les démarches de la sphère Emploi (DGEFP), et progressivement de la sphère travail (DGT). EFP Connect centralise la gestion des rôles et habilitations pour les applications métier de son périmètre.\
 MFA : Oui
 
-[**Pro Santé Connect**](https://esante.gouv.fr/produits-services/pro-sante-connect) authentifie et identifie obligatoirement les Professionnels de Santé dans l'exercice de la médecine. Il repose sur les cartes professionnelles CPS et e-CPS, et le répertoire RPPS. Le raccordement d'un service est très lourd.\
+[**Pro Santé Connect**](https://esante.gouv.fr/produits-services/pro-sante-connect) authentifie et identifie obligatoirement les Professionnels de Santé dans l'exercice de la médecine. Il repose sur les cartes professionnelles CPS et e-CPS, et le répertoire RPPS. Le raccordement d'un service est assez lourd.\
 MFA : Oui
 
 [**Pasrel (et portail Plage)**](https://connect-pasrel.atih.sante.fr/cas/login) sert à identifier les personnes de la sphère Santé et Médico-Social, dans le périmètre de l'ATIH. Il repose sur le répertoire FINESS des Etablissements de Santé et de leurs collaborateurs.\
