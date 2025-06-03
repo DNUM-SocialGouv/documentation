@@ -14,17 +14,17 @@ layout:
 
 # API Gateway
 
-L'API Management répond à de nombreux enjeux autour des APIs. Le sous-domaine API Gateway adresse les enjeux d'interopérabilité et de sécurisation des échanges. Une API Gateway peut être vue comme un **middleware de type Reverse Proxy, spécialisé dans l'exposition d'API**
+L'API Gateway adresse l'interopérabilité et la sécurisation des échanges. C'est un **middleware de type Reverse Proxy, spécialisé dans l'exposition d'API**. 
 
 ## Fonctionnalités d'une API Gateway
 
 * Sécurisation des échanges : exposition HTTPS, authentification, provisionnement de comptes et d'habilitations...
-* translation éventuelle de protocole
+* Translation éventuelle de protocole
 * Protection des échanges : quotas, anti-DoS...
 * Répartition de charge
 * Pré-validation des trames et renvoi d'erreurs HTTP
 * Supervision, traçabilité, audit...
-* _"Pas de métier dans le middleware" : éviter de transformer les flux ou d'implémenter des règles métier dans la Gateway, même si l'outil le permet._
+* _Eviter de transformer les flux ou d'implémenter des règles métier dans l'API Gateway, même si elle le permet._
 
 ## Enjeux des API dans le contexte du MAS
 
@@ -48,15 +48,15 @@ Instancier et gérer une seule API Gateway par hébergement :
 
 1. **Limiter en amont les cas où l'on a besoin d’une API Gateway**
 
-* Rationalisation des applications métier pour en limiter le nombre : découpage en modules ou éventuellement microservices, plutôt qu'en applications/SI distincts
-* Colocalisation des Front-Office et Back-Office sur un même hébergement pour limiter les interconnexions
+* Limiter le nombre d'applications métier en découpant en modules plutôt qu'en applications
+* Limiter les interconnexions en déployant ensemble le front-office et le back-office
 * Appels directs d’APIs en environnement maîtrisé (ex: API dédiée au backoffice + 2 Way SSL)
 
 2. **Identifier les cas qui nécessitent systématiquement une API Gateway**
 
 * API publique (nombreux clients / clients hétérogènes / clients mal connus)
-* API partenaires exposée sur Internet et/ou exposant des données particulièrement sensibles
-* API privée exposant des données particulièrement sensible
+* API partenaires exposée sur Internet ou exposant des données sensibles
+* API privée exposant des données sensibles
 * Périmètre métier avec stratégie Zero Trust
 
 3. **Identifier quelle API Gateway réutiliser**
@@ -71,7 +71,7 @@ Instancier et gérer une seule API Gateway par hébergement :
 Solution utilisées aux MAS, à différents niveaux :
 * **Gravitee.io** utilisé par 2 produits
 * **PISTE (DGFIP)** utilisé par 1-2 produits
-* **Hasura.io** mise sur le développement rapide (API low-code) mais une moindre exploitabilité et testabilité. Peut être intéressant pour des projets d'API standalone ou pure Data, mais pas en complément d'une application métier.
+* **Hasura.io** offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
 
 Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
 * MuleSoft Anypoint trop orienté éditeur

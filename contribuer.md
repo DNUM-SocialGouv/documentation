@@ -15,8 +15,8 @@ Chaque personne est encouragée à contribuer à ce guide et à mettre au défi 
 
 Pour contribuer, plusieurs options existent :
 
-* **Contribution simple et rapide** : utiliser les boutons de feedback
-* **Contribution intermédiaire** : proposer un contenu par email ou chat (Teams, Mattermost) à l'un des contributeurs principaux
+* **Contribution simple et rapide** : utiliser les boutons de feedback en bas de page
+* **Contribution intermédiaire** : proposer un contenu par email à l'un des contributeurs principaux
 * **Contribution avancée** : demander la création d'un compte sur [https://app.gitbook.com/](https://app.gitbook.com/o/WhkUfq5hgaTO6ZmJDX52/)
 
 ## Sur le contenu
