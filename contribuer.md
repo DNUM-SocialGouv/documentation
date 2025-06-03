@@ -5,7 +5,7 @@ Ce guide s'adresse à toute personne qui conçoit, développe ou déploie des pr
 L'objectif est de construire de meilleurs services publics numériques :
 
 * Comprendre le contexte et les exigences autour des produits
-* Adopter des méthodes efficaces et des bonnes pratiques, en autonomie ou avec un accompagnement
+* Adopter des méthodes efficaces et des bonnes pratiques
 * Tendre vers l'excellence technique
 * Faciliter la prise de décision en équipe et entre équipes (DNUM, métiers, prestataires)
 
@@ -17,7 +17,7 @@ Pour contribuer, plusieurs options existent :
 
 * **Contribution simple et rapide** : utiliser les boutons de feedback
 * **Contribution intermédiaire** : proposer un contenu par email ou chat (Teams, Mattermost) à l'un des contributeurs principaux
-* **Contribution avancée** : demander la création d'un compte contributeur sur l'éditeur en ligne [https://app.gitbook.com/](https://app.gitbook.com/o/WhkUfq5hgaTO6ZmJDX52/)
+* **Contribution avancée** : demander la création d'un compte sur [https://app.gitbook.com/](https://app.gitbook.com/o/WhkUfq5hgaTO6ZmJDX52/)
 
 ## Sur le contenu
 
@@ -35,5 +35,5 @@ Pour contribuer, plusieurs options existent :
 * Écrire au présent, avec un ton neutre et direct
 * Faire des phrases courtes
 * Éviter le jargon, les anglicismes
-* Éviter l'opposition nous/vous car nous sommes tous contributeurs et utilisateurs de ce guide
+* Éviter l'opposition nous/vous, car nous sommes tous utilisateurs de ce guide
 * Repasser régulièrement sur ses contenus pour les simplifier !
