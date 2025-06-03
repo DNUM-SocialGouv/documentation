@@ -19,15 +19,15 @@ layout:
 
 Nous proposons différents accompagnements techniques pour répondre à chacune de vos situations :
 
-* **Orientation** : réponse à une question rapide, à une demande d'orientation.
-* **Second avis sur un devis** : analyse et recommandations sur le devis d'un prestataire de service.
-* **Problème technique** : diagnostic et recommandations sur un problème technique ou de performance.
-* **Accompagnement d'architecture** : accompagnement complet pour la définition de l'architecture de votre produit.
-* **Mise en œuvre** : nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec votre équipe.
+* [**Orientation**](orientation-vers-des-offres-adaptees.md) : réponse à une question, une demande.
+* [**Second avis sur un devis**](analyse-de-devis-et-recommandations.md) : analyse et recommandations sur le devis d'un prestataire de service.
+* [**Problème technique**](diagnostic-et-recommandations.md) : diagnostic et recommandations sur un problème technique ou de performance.
+* [**Accompagnement d'architecture**](accompagnement-pour-definir-larchitecture.md) : accompagnement complet pour la définition de l'architecture de votre produit.
+* [**Mise en œuvre**](mise-en-oeuvre.md) : nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec votre équipe.
 
 
 
-Pour une information détaillée, rendez-vous sur la [page dédiée aux offres](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/Technologie.aspx).
+***
 
 
 
@@ -39,7 +39,9 @@ Quel que soit l'accompagnement proposé, nos engagements sont les mêmes :
 * Nous assumons pleinement toutes nos préconisations.
 * Nous ne nous substituons pas aux experts du projet.
 * Nous conseillons et nous aidons, mais nous ne décidons pas à la place du projet.
-* L'accompagnement est gratuit.
+* L'accompagnement n'engendre pas de surcoût pour le projet.
+
+
 
 ## 1. Prise de contact
 

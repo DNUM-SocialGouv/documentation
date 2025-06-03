@@ -12,14 +12,15 @@ layout:
     visible: false
 ---
 
-# Exposition d'API
+# Conception d'API
 
 ## Recommandations
-- En matière d'échanges de données, c'est toujours le [Référentiel Général d'Interopérabilité (RGI)](https://www.numerique.gouv.fr/publications/interoperabilite/) qui fait foi
-- Une **API REST** est suffisante dans la grande majorité des cas
-- Un **webhook** est un mécanisme d'appels sortants (callout) basé sur HTTP. Il permet d'envoyer une notification du producteur vers le(s) consommateur(s). C'est une API REST simple, souvent sans payload, souvent utilisée pour l'intégration avec des logiciels/progiciels.
-- **GraphQL** est un langage de requête pour API permettant aux clients de demander ou modifier une grappe de données en un seul appel, tout en ne demandant que les données nécessaires.
-- Le protocole SOAP est à éviter sauf contraintes existantes.
+
+* En matière d'échanges de données, c'est toujours le [Référentiel Général d'Interopérabilité (RGI)](https://www.numerique.gouv.fr/publications/interoperabilite/) qui fait foi.
+* Une **API REST** est suffisante dans la grande majorité des cas.
+* Un **webhook** est un mécanisme d'appels sortants basé sur HTTP. Il permet d'envoyer une notification du producteur vers de(s) consommateur(s).
+* **GraphQL** est un langage de requête pour API permettant aux clients de demander ou modifier une grappe de données en un seul appel, tout en ne demandant que les données nécessaires.
+* Le protocole SOAP est à éviter sauf contraintes existantes.
 
 ## Les questions à se poser
 
@@ -46,15 +47,15 @@ Ci-dessous se trouvent quelques questions utiles. _Ces questions peuvent ne pas 
 
 Les réponses à ces questions apportent des informations sur les modalités d'exposition, telles que :
 
-* Le type de sécurité à mettre en place pour garantir la bonne consommation de la donnée
+* Le type de sécurité à mettre en place pour garantir la bonne consommation de la donnée.
   * Cela peut dépendre du type d'API, de la nature de la donnée, de l'architecture réseau, etc.
-* Les usages "normaux" qui mettraient en évidence les usages "anormaux"
+* Les usages "normaux" qui mettraient en évidence les usages "anormaux".
   * Exemple : nous savons que la donnée _D_ n'est consommée que tous les jours à la même heure, donc une consommation à une heure différente pourrait être anormale.
 * Le niveau de traçabilité nécessaire ?
   * Qui a appelé, comment identifie-t-on, quand, d'où, sur quel point ?
 * Comment les versions de l'API sont-elles gérées et communiquées ?
 * De quelle disponibilité a-t-on besoin ?
-* La fréquence à laquelle il faut mettre à jour la donnée
+* La fréquence à laquelle il faut mettre à jour la donnée.
 
 Ces questions ne sont pas exhaustives, mais donnent une idée des points à aborder.
 
@@ -62,12 +63,12 @@ Ces questions ne sont pas exhaustives, mais donnent une idée des points à abor
 
 Nous distinguons plusieurs types d'API selon la population qui consomme la donnée :
 
-* Les APIs publiques, où aucune authentification ou validation des comptes n'est généralement nécessaire
-  * Exception faîte des APIs qui pourront demander des informations sur leurs consommateurs
-* Les APIs partenaires, pour lesquelles une création/validation des comptes est envisagée
+* Les APIs publiques, où aucune authentification ou validation des comptes n'est généralement nécessaire.
+  * Exception faîte des APIs qui pourront demander des informations sur leurs consommateurs.
+* Les APIs partenaires, pour lesquelles une création/validation des comptes est envisagée.
   * Exemples : autres organismes publics, éditeurs de logiciels, etc.
-* Les APIs privées, donc non-ouvertes à l'extérieur de l'organisation
+* Les APIs privées, donc non-ouvertes à l'extérieur de l'organisation.
 
 ## Ressources complémentaires
 
-* Comment designer une API, par OCTO Technology : https://blog.octo.com/designer-une-api-rest
+* [Comment designer une API](https://blog.octo.com/designer-une-api-rest), par OCTO Technology
