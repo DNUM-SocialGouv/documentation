@@ -19,6 +19,8 @@ layout:
 
 Le design est une approche clé pour garantir des services publics numériques accessibles, simples et efficaces. Grâce au design, vous allez rencontrer vos utilisateurs réels, comprendre leurs besoins et attentes puis tester sur maquette ou prototype les solutions avant le lancement des développements.&#x20;
 
+<figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
+
 Le design vous aide à :
 
 * mettre vos usagers au coeur de votre conception et de votre équipe
@@ -28,7 +30,7 @@ Le design vous aide à :
 
 Toute refonte ou évolution fonctionnelle majeure doit inclure un processus de design et notamment la partie recherche utilisateur.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/11.png" alt=""><figcaption></figcaption></figure>
 
 ### Comment faire du design ?
 
