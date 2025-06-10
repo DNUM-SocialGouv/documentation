@@ -17,8 +17,9 @@ layout:
 
 ## Offre d'accompagnement technique
 
-Nous proposons différents accompagnements techniques pour répondre à chacune de vos situations :
+Nous proposons différents accompagnements techniques pour répondre à chacune de vos situations :&#x20;
 
+* [Échange rapide](echange-rapide.md) : discussion autour d'une situation, avec une réponse à la clé.
 * [**Orientation**](orientation-vers-des-offres-adaptees.md) : réponse à une question, une demande.
 * [**Second avis sur un devis**](analyse-de-devis-et-recommandations.md) : analyse et recommandations sur le devis d'un prestataire de service.
 * [**Problème technique**](diagnostic-et-recommandations.md) : diagnostic et recommandations sur un problème technique ou de performance.

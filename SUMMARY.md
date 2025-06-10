@@ -25,6 +25,7 @@
   * [Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
+    * [Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
     * [Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
     * [Analyse de devis et recommandations](preparer-et-lancer/accompagnement-tech/analyse-de-devis-et-recommandations.md)
     * [Diagnostic et recommandations](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
