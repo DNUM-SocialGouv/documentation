@@ -64,7 +64,7 @@ Pareillement aux outils utilisés [côté frontend](./#front), nous utilisons é
 
 1. **Les tests unitaires** doivent couvrir chaque unité fonctionnelle : cela peut être une classe ou un ensemble de fichiers couvrant une fonctionnalité. Nous utilisons des mocks pour simuler les dépendances externes (bases de données, services tiers, etc.).
 2. **Tests d'intégration** ces tests vérifient l’interaction entre plusieurs modules avec des dépendances externes (routes, services).
-3. **Tests de bout en bout** (E2E) ces tests vérifient l'ensemble du flux applicatif, du point d'entrée (API ou interface) aux couches inférieures (base de données, services externes, etc.).
+3. [**Tests de bout en bout**](tests-de-bout-en-bout.md) (E2E) ces tests vérifient l'ensemble du flux applicatif, du point d'entrée (API ou interface) aux couches inférieures (base de données, services externes, etc.).
 
 Nous utilisons des outils comme Supertest pour tester nos APIs. Nous testons également les retours en erreur du serveur :
 

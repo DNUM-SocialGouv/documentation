@@ -58,6 +58,7 @@
     * [Gestion des accès](constuire-developper-deployer/principes-de-developpement/gestion-des-access.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
   * [Stratégies de tests](constuire-developper-deployer/tests-et-strategies/README.md)
+    * [Tests de bout en bout](constuire-developper-deployer/tests-et-strategies/tests-de-bout-en-bout.md)
     * [Tests de performance](constuire-developper-deployer/tests-et-strategies/tests-de-performance.md)
   * [Front web](constuire-developper-deployer/front-web/README.md)
     * [Développement](constuire-developper-deployer/web-front/accessibilite.md)
