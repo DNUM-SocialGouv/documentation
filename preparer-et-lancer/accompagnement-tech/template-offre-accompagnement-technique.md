@@ -26,7 +26,6 @@ _<mark style="color:red;">#UN\_HASH\_TAG\_SYMPA  #UN\_AUTRE #ENCORE\_UN</mark>_
 
 * **Délai d'intervention :**&#x20;
 * **Durée d'intervention :**&#x20;
-* **Type de prestation :** \[UN OU PLUSIEURS : interne, externe]
 * **Cycle de vie du produit :**&#x20;
 
 

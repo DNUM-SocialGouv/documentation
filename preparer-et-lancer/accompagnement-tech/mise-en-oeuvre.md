@@ -33,31 +33,26 @@ _<mark style="color:red;">#DEV #EXEMPLARITÉ #EXCELLENCE #ÇA\_MARCHE #C'EST\_MA
 
 * **Délai d'intervention :** sous 1 mois
 * **Durée d'intervention :** 5 à 90 jours selon la complexité de votre contexte ; reconductibles
-* **Type de prestation :** interne/externe
 * **Cycle de vie du produit :** Itération, suivi, amélioration
 
 
 
-**Livrables :**&#x20;
+**Livrables :**
 
 * Des fonctionnalités à l'état de l'art.
 * Estimation de la dette technique.
 * Éléments permettant une réversibilité vers une TMA.
 * Code source.
 
-
-
-**Conditions de réussite :**&#x20;
+**Conditions de réussite :**
 
 * Collaboration étroite entre notre équipe tech. et les parties prenantes de votre produit : vous, autres MOE, métier, utilisateurs.
-* Une intégration au contexte produit (onboarding) réalisé par vos soins : présentation du contexte, des attentes.
-* Un suivi régulier opérationnel (1 à 4 fois / mois) entre vous et le responsable technologie ou responsable du bureau D\&D : partage des risques, ajustement du dispositif.
+* Un onboarding réalisé par vos soins : présentation du contexte, des attentes.
+* Un suivi (1 à 4 fois / mois) entre vous et le responsable technologie ou responsable du bureau D\&D : partage des risques, ajustement du dispositif.
 * Selon la durée d'intervention, un financement nécessaire.
 
-
-
-**Ce que nous ne faisons pas :**&#x20;
+**Ce que nous ne faisons pas :**
 
 * Une intervention à durée indéterminée.
-* Une intervention n'impliquant que du maintien en conditions opérationnelles ou de sécurité (MCO / MCS).
-* Les activités en dehors de notre domaine d'intervention : pilotage du produit, exploration, définition des US, etc.
+* Que du maintien en conditions opérationnelles ou de sécurité (MCO / MCS).
+* Pilotage du produit, exploration, définition des US, etc.

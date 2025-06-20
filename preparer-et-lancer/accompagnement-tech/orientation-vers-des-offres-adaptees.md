@@ -25,7 +25,6 @@ _<mark style="color:red;">#VULGARISATION #QUESTION\_OUVERTE #JE\_SUIS\_PERDU</ma
 
 * **Délai d'intervention :** 2 semaines
 * **Durée d'intervention :** 1 jour
-* **Type de prestation :** interne/externe
 * **Cycle de vie du produit :** À tout moment
 
 
@@ -39,7 +38,7 @@ _<mark style="color:red;">#VULGARISATION #QUESTION\_OUVERTE #JE\_SUIS\_PERDU</ma
 
 **Conditions de réussite :**&#x20;
 
-* Collaboration étroite avec vous ou votre équipe pour comprendre la problématique et son contexte (projet, délai, enjeux, etc.)
+* Collaboration étroite avec vous ou l'équipe, pour comprendre la problématique et son contexte.
 
 
 

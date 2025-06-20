@@ -25,7 +25,6 @@ _<mark style="color:red;">#EXTERNE #INTERNE #SOBRIÉTÉ</mark>_
 
 * **Délai d'intervention :** 2 semaines
 * **Durée d'intervention :** 1 à 2 jours
-* **Type de prestation :** interne/externe
 * **Cycle de vie du produit :** À tout moment
 
 
@@ -46,6 +45,6 @@ _<mark style="color:red;">#EXTERNE #INTERNE #SOBRIÉTÉ</mark>_
 
 **Ce que nous ne faisons pas :**&#x20;
 
-* Jouer au détectives : soyez prêts à nous expliquer votre contexte (échange, démo, etc.) pour que notre temps soit consacré à jauger ou proposer des optimisations.
-* Négocier à votre place : nous vous fournissons des arguments solides et pouvons participer à la négociation, mais vous restez maîtres du jeu.
+* Jouer au détective : soyez prêts à nous expliquer votre contexte.
+* Négocier à votre place : nous fournissons des arguments solides et pouvons participer à la négociation.
 
