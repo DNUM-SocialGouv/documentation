@@ -47,19 +47,21 @@ Pour répondre à ces typologies, 3 offres ont été identifiées :
 > * d’une part, elles doivent être sensibles soit par nature (parce qu’identifiées comme un secret légal) soit du fait de leur emploi (parce qu’impliquées dans une mission essentielle de l’État) ;
 > * et d’autre part, leur violation aurait pour conséquence une atteinte à l’ordre public, la sécurité publique, la santé, la vie des personnes ou la propriété intellectuelle.
 
-## Plateforme Cloud FabNum
+## Plateformes d'hébergement
 
-* Plateforme type PaaS (on pousse du code, pas des images)
-* Sur cloud public OVH
-* Niveaux EBIOS 2-3-3-2
-* Services :
-  * Stockage objet
-  * BDD Managée ou pas
-  * Pas de NAS : considérer qu'il n'y a pas de système de fichier accessible aux applications
+|Plateforme         |Type de cloud |BDD managé*|S3 managé*|FS partagé*|HDS Hébergeur|HDS Infogéreur*|SecNumCloud|EBIOS max|Antivirus  |
+|-------------------|--------------|-----------|----------|-----------|-------------|---------------|-----------|---------|-----------|
+|**FabNum@OVH**     |PaaS Node/Java|O          |O         |N          |N            |N              |N          |2-3-3-2  |           |
+|**Cegedim.cloud**  |CaaS/IaaS     |O          |O         |O          |O            |O              |N          |         |SentinelOne|
+|**Rosny(intra)**   |n/a           |O          |N         |O          |N            |N              |N          |         |           |
+|**Dusquene(intra)**|n/a           |O          |N         |O          |N            |N              |N          |         |           |
+(*) _Optionnel_
 
-## Cegedim.Cloud
-
-* Plateforme IaaS/CaaS
-* Services
-  * Stockage objet
-  * BDD Managée ou pas
+## Interconnexions sécurisées
+Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
+|            |FabNum   |Cegedim  |Rosny    |Dusquene |
+|------------|---------|---------|---------|---------|
+|**FabNum**  |=========|=========|=========|=========|
+|**Cegedim** |?        |=========|=========|=========|
+|**Rosny**   |?        |VPN ?    |=========|=========|
+|**Dusquene**|?        |VPN ?    |RIE ?    |=========|
