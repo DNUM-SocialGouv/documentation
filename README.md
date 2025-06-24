@@ -54,7 +54,7 @@ Nous expérimentons la mise en place d'un nouveau cadre organisationnel qui perm
 
 ### Je travaille sur un nouveau produit
 
-Je remplis [ce formulaire](https://www.demarches-simplifiees.fr/commencer/dnum-comite-produit-inscription-d-un-produit) avec les informations que j'ai, pour prendre contact avec le Comité Produit.
+Je remplis [ce formulaire](https://demarches.numerique.gouv.fr/commencer/dnum-comite-produit-inscription-d-un-produit) avec les informations que j'ai, pour prendre contact avec le Comité Produit.
 
 ### J'ai besoin d'aide et d'accompagnement
 

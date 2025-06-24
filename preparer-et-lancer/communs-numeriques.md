@@ -85,14 +85,15 @@ API particulièrement intéressantes pour le MAS :
 * [API Gateway](../concevoir/api/api-gateway.md)
 * Workflow
 * Statistiques (tableaux de bord, production de fichiers CSV, BI)
-  * Metabase ?
+  * Metabase ? Superset ?
+  * Matomo (quelle instance ?)
 * Chatbot
 * IA
 * ETL/ELT
 
 ## Choisir entre Démarches Simplifiées et Démat Social
 
-|                                     | [Démarches Simplifiées](https://www.demarches-simplifiees.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
+|                                     | [Démarches Simplifiées](https://demarches.numerique.gouv.fr) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
 | ----------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Entité responsable                  | SPM/DINUM                                                      | MAS/DNUM                                                                                           |
 | Hébergement                         | SecNumCloud@OVH                                                | HDS@Cegedim                                                                                        |
