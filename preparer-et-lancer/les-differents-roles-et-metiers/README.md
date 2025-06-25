@@ -27,9 +27,9 @@ layout:
 
 <table data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="expert-accessibilite.md">expert-accessibilite.md</a></td><td>Appui architecture et solutions</td></tr><tr><td><a href="coach-produit.md">coach-produit.md</a></td><td>Appui Devops</td></tr><tr><td><a href="expert-en-recherche-utilisateur.md">expert-en-recherche-utilisateur.md</a></td><td>Expert Recherche Utilisateur</td></tr><tr><td><a href="devops.md">devops.md</a></td><td>Auditeurs et expert code accessibilité</td></tr><tr><td><a href="responsable-data.md">responsable-data.md</a></td><td>Appui homologations</td></tr><tr><td></td><td>Appui data</td></tr></tbody></table>
 
-### Porter un produit, c'est :
 
-**Schéma ici** [norman.wozniak](https://app.gitbook.com/u/Ii3Xgcr6QYaz2oHsCNdP26MQ0du2 "mention"). (on va le faire ensemble)
+
+### Porter un produit, c'est :
 
 |                                                                                             | Responsable métier                           | Responsable produit                            |
 | ------------------------------------------------------------------------------------------- | -------------------------------------------- | ---------------------------------------------- |
@@ -41,22 +41,9 @@ layout:
 | S'assurer de la conformité aux référentiels (RGAA, RGS, RGESN)                              | 🤝 Participe                                 | 🙆‍♂️ Responsable                              |
 | Animation des rituels et des comités d'investissement                                       | 🤝 Participe                                 | 🙆‍♂️ Responsable                              |
 
-
-
 Autres tâches liées à la réussite du produit :
 
 * Suivi budgétaire
 * Déploiement et support utilisateurs
 * Communication sur le produit, animation de la communauté des utilisateurs
 * Comitologie et préparation des réunions (comment réduire cette charge ?)
-
-
-
-**\[ENRICHIR]** Pour quoi le mode produit ? Pour **dé-risquer** les services publics numériques et éviter :
-
-
-
-\[COMMENT déclencher la prise de conscience]
-
-* Un non-alignement sur les objectifs qui peut mener des dépenses sans atterrissage, un réalignement constant
-* Une meilleure conception (urbanisation, design, etc), car les équipes sont dotées de toutes les expertises, ou appuyées par des experts internes (architecture, design, recherche utilisateur, etc.)
