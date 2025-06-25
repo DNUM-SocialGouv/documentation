@@ -34,7 +34,7 @@ Toute refonte ou évolution fonctionnelle majeure doit inclure un processus de d
 
 ### Comment faire du design ?
 
-En intégrant un designer et expert en recherche utilisateur au plus tôt. Ces experts vous accompagneront sur les grandes tâches suivantes :
+En intégrant un designer et expert en recherche utilisateur au plus tôt. Ces experts vous accompagnent sur les grandes tâches suivantes :
 
 * Recherche utilisateur : Entretiens avec les utilisateurs réels pour comprendre leurs attentes et les difficultés rencontrées dans leur usage.
 * Tests et avis utilisateurs réguliers : Menés à chaque étape pour valider des hypothèses de parcours, ajuster les interfaces et s’assurer qu’elles restent accessibles à tous (incluant des tests spécifiques pour les utilisateurs en situation de handicap).
