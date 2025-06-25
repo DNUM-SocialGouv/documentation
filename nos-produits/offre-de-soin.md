@@ -13,17 +13,15 @@ layout:
     visible: false
 ---
 
-# 🩺 Offre de soin
+# Offre de soin
 
 ### AUDE​ (SI AUtorisations D’Exercice)
 
-AUDE est un système d'information de gestion des autorisations d'exercice pour les diplômés étrangers ou les Français avec un diplôme étranger, dans le champ des professions paramédicales et la profession d'assistant de service social. C'est une application utilisée dans les DREETS et par le bureau gestionnaire de la DGOS.&#x20;
+AUDE est un système d'information de gestion des autorisations d'exercice pour les diplômés étrangers ou les Français avec un diplôme étranger, dans le champ des professions paramédicales et la profession d'assistant de service social. C'est une application utilisée dans les DREETS et par le bureau gestionnaire de la DGOS.
 
 ✅ **Statut** : En production\
 👷‍♂️ **Utilisateurs :** Agents en DREETS, DGOS\
 📊 **Chiffres clés :** 28 professions, 61 300 dossiers
-
-
 
 ***
 
@@ -39,7 +37,7 @@ EPS est le système d’information permettant le dépôt et l’instruction des
 
 Le SI a été mis en service en novembre 2020.
 
-✅ **Statut** : En production \
+✅ **Statut** : En production\
 👷‍♂️ **Utilisateurs :** XXX\
 📊 **Chiffres clés :** XXX
 
@@ -70,7 +68,7 @@ L'application est basée sur la saisie d'une fiche de signalement détaillée.�
 
 ✅ **Statut** : En production\
 👷‍♂️ **Utilisateurs :** professionnels de santé (libéraux, ordres, établissements)\
-📊 **Chiffres clés :** 22.579 signalements en 2024&#x20;
+📊 **Chiffres clés :** 22.579 signalements en 2024
 
 ***
 
@@ -89,4 +87,3 @@ Plateforme pour dynamiser le suivi des projets de recherche en santé et facilit
 ✅🟧 **Statut** : Mise en service prévue en février 2025\
 👷‍♂️ **Utilisateurs :** Gestionnaires projets de recherche\
 📊 **Chiffres clés :** > 3000 projets en cours​, durée moyenne de 5 à 10 ans par projet​. Environ 300 nouveaux projets sont sélectionnés chaque année.
-

@@ -79,10 +79,8 @@
   * [Accompagner](conduire-le-changement/accompagner/README.md)
     * [Dispositif d'aide au démarrage](conduire-le-changement/accompagner/dispositif-daide-au-demarrage.md)
     * [Support utilisateur](conduire-le-changement/accompagner/support-utilisateur.md)
-* [Faire vivre le produit](faire-vivre-le-produit/README.md)
-  * [Promouvoir le produit](faire-vivre-le-produit/promouvoir-le-produit.md)
-  * [Animer la communauté produit](faire-vivre-le-produit/animer-la-communaute-produit/README.md)
-    * [Questionner l'efficience](faire-vivre-le-produit/animer-la-communaute-produit/questionner-lefficience.md)
+  * [Animer la communauté produit](conduire-le-changement/animer-la-communaute-produit/README.md)
+    * [Questionner l'efficience](conduire-le-changement/animer-la-communaute-produit/questionner-lefficience.md)
 
 ## ---
 

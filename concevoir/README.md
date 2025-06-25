@@ -12,7 +12,7 @@ layout:
     visible: false
 ---
 
-# 👩‍🎨 Concevoir
+# Concevoir
 
 {% hint style="warning" %}
 À rédiger intro + sommaire
