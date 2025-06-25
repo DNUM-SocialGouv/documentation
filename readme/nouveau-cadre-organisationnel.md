@@ -14,6 +14,14 @@ layout:
 
 # Nouveau cadre organisationnel
 
+## Pourquoi ce cadre organisationnel
+
+Le mode produit pour **dé-risquer** les services publics numériques et éviter :
+
+* Un non-alignement sur les objectifs qui peut mener des dépenses sans atterrissage, un réalignement constant
+* Une meilleure conception (urbanisation, design, etc), car les équipes sont dotées de toutes les expertises, ou appuyées par des experts internes (architecture, design, recherche utilisateur, etc.)
+* \[COMMENT déclencher la prise de conscience]
+
 ## Le comité produit
 
 {% hint style="warning" %}
@@ -21,6 +29,8 @@ layout:
 {% endhint %}
 
 > <mark style="color:purple;background-color:purple;">**Le comité produit accompagne et soutient les équipes en identifiant leurs besoins, en les orientant, en les aidant et surtout en leur proposant des solutions.**</mark>
+
+
 
 ### Rôles du comité
 
