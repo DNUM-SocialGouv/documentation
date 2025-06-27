@@ -24,7 +24,7 @@ Voici différentes manières de sécuriser une API REST au niveau applicatif, du
 |Mécanisme|Description|Cas d'usage|Exemples|
 |---------|-----------|-----------|--------|
 |**OAuth2**|Protocole standard et complet|Données particulièrement sensibles.</br>Habilitations de niveau champ.</br>Consentement utilisateur.|API partenaire particulièrement sensible.</br>Fournisseur de Données FranceConnect.|
-|**JWT Token**|Mécanisme de jeton avec authentification préalable|Signature numérique.</br>Chiffrement des données.</br>Performance (Stateless).|Exposer une API à un grand nombre de partenaires, avec les mêmes habilitations.</br>Environnement distribué.</br>Routage entre micro-services.|
+|**JWT Token**|Mécanisme de jeton avec authentification préalable.</br>Peut-être utilisé en combinaison avec OAuth2.|Signature numérique.</br>Chiffrement des données.</br>Performance (Stateless).|Exposer une API à un grand nombre de partenaires, avec les mêmes habilitations.</br>Environnement distribué.</br>Routage entre micro-services.|
 |**API Key**|Mécanisme minimum utile et nécessaire|Authentification simple de l'application cliente sans gestion de session native (pas d'expiration/rafraichissement de jetons).|API privée exposée à d'autres applications internes.</br>Référentiel de données publiques.|
 |**Basic Auth**|Authentification simple par identifiant et mot de passe|_A proscrire_|_n/a_|
 
