@@ -15,9 +15,9 @@ Chaque personne est encouragée à contribuer à ce guide et à mettre au défi 
 
 Pour contribuer, plusieurs options existent :
 
-* **Contribution simple et rapide** : utiliser les boutons de feedback en bas de page
+* **Contribution rapide** : laisser un commentaire en bas de page
 * **Contribution intermédiaire** : proposer un contenu par email à l'un des contributeurs principaux
-* **Contribution avancée** : demander la création d'un compte sur [https://app.gitbook.com/](https://app.gitbook.com/o/WhkUfq5hgaTO6ZmJDX52/)
+* **Contribution avancée** : demander la création d'un compte contributeur à l'un des administrateurs
 
 ## Sur le contenu
 
