@@ -55,13 +55,19 @@ Pour répondre à ces typologies, 3 offres ont été identifiées :
 |**Cegedim.cloud**  |CaaS/IaaS     |O          |O         |O          |O            |O              |N          |         |SentinelOne|
 |**Rosny(intra)**   |n/a           |O          |N         |O          |N            |N              |N          |         |           |
 |**Dusquene(intra)**|n/a           |O          |N         |O          |N            |N              |N          |         |           |
+|_OVH SNC_          |CaaS          |?          |?         |N          |N            |N              |O          |         |           |
 (*) _Optionnel_
 
 ## Interconnexions sécurisées
 Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
-|            |FabNum   |Cegedim  |Rosny    |Dusquene |
-|------------|---------|---------|---------|---------|
-|**FabNum**  |=========|=========|=========|=========|
-|**Cegedim** |?        |=========|=========|=========|
-|**Rosny**   |?        |VPN ?    |=========|=========|
-|**Dusquene**|?        |VPN ?    |RIE ?    |=========|
+|            |FabNum               |Cegedim  |Rosny    |Dusquene |_OVH SNC_|
+|------------|---------------------|---------|---------|---------|---------|
+|**FabNum**  |=====================|=========|=========|=========|=========|
+|**Cegedim** |?                    |=========|=========|=========|=========|
+|**Rosny**   |?                    |VPN ?    |=========|=========|=========|
+|**Dusquene**|?                    |VPN ?    |RIE ?    |=========|=========|
+|_OVH SNC_   |Flux sortant SNC=>OVH|         |         |         |=========|
+
+_Représenter le RIE ?_
+_Représenter PI ?_
+_Représenter NUBO ?_
