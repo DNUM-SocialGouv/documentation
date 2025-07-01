@@ -12,18 +12,18 @@ layout:
     visible: false
 ---
 
-# Cloud
+# Hébergements Cloud
 
-## Pourquoi une stratégie Cloud pour les ministères sociaux ?
+La stratégie Cloud des ministères sociaux répond aux enjeux suivants :
+* La modernisation de l’action publique implique des services fluides et performants
+* Le Cloud rend possible l'agilité, les pratiques DevOps et l'usage de technologies modernes
+* Le Cloud est l'hébergement par défaut dans la doctrine [Cloud au Centre](https://www.legifrance.gouv.fr/circulaire/id/45205) de l’Etat
 
-* Des enjeux de modernisation de l’action publique via la mise à disposition de services fluides et performants
-* Des besoins applicatifs forts, que ce soit en termes d’agilité ou de composantes technologiques, nécessitant des cibles Cloud et des modes de fonctionnement DevOps
-* La [Doctrine Cloud au Centre](https://www.numerique.gouv.fr/services/cloud/doctrine/) de l’Etat faisant du Cloud le socle d’hébergement par défaut
-
-## Les grands principes de la stratégie Cloud de la DNUM
+## Grands principes de la stratégie Cloud de la DNUM
 
 * Les nouvelles applications (incluant les refontes) vont, par défaut, dans le Cloud. L’hébergement interne est réservé pour les périmètres non cloudifiables.
-* Privilégier le recours au SaaS quand c’est possible, et l’utilisation des fonctionnalités natives proposées par les CSP (PaaS > IaaS)
+* Privilégier le recours aux SaaS (souverains) quand c’est possible
+* Privilégier l’utilisation des fonctionnalités natives proposées par les Cloud Services Providers (PaaS plutôt que CaaS/IaaS)
 * Le passage vers le Cloud doit s’accompagner d’une transformation des modèles d’architecture applicative (cloud native), d’organisation des équipes (DevOps, CI/CD), et d’optimisation financière et environnementale (FinOps, GreenOps)
 * La bascule « telle quelle » (ou lift and shift), limitant la transformation, ne doit être utilisée que dans les cas qui le justifient (ex : migration de masse pour cause de fermeture de DC)
 * Comme toute transformation, le passage vers le Cloud doit s’accompagner d’un volet RH (formation des agents, internalisation des compétences clés, accompagnement des équipes, …)
@@ -47,27 +47,27 @@ Pour répondre à ces typologies, 3 offres ont été identifiées :
 > * d’une part, elles doivent être sensibles soit par nature (parce qu’identifiées comme un secret légal) soit du fait de leur emploi (parce qu’impliquées dans une mission essentielle de l’État) ;
 > * et d’autre part, leur violation aurait pour conséquence une atteinte à l’ordre public, la sécurité publique, la santé, la vie des personnes ou la propriété intellectuelle.
 
-## Plateformes d'hébergement
+## Caractéristiques des plateformes d'hébergement
+Vu des produits numériques déployés, ces caractéristiques peuvent être optionnelles ou systématiques :
+|Plateforme         |Type de cloud |BDD managé|S3 managé|HDS Hébergeur|HDS Infogéreur|SecNumCloud|EBIOS max|Antivirus PJ|
+|-------------------|--------------|----------|---------|-------------|--------------|-----------|---------|------------|
+|**Atlas@OVH**      |CaaS          |O         |O        |O            |N             |N          |2-3-3-2  |API ClamAV  |
+|**Atlas@OVH-SNC**  |CaaS          |N         |N        |O            |N             |O          |4-X-X-X  |API ClamAV  |
+|**Cegedim.cloud**  |CaaS/IaaS     |O         |O        |O            |O             |O          |4-X-X-X  |SentinelOne?|
+|**Rosny(intra)**   |CaaS/IaaS     |N         |O        |N            |N             |N          |4-X-X-X  |Sys?ICAP?   |
+|**Dusquene(intra)**|CaaS/IaaS     |N         |O        |N            |N             |N          |4-X-X-X  |Sys?ICAP?   |
 
-|Plateforme         |Type de cloud |BDD managé*|S3 managé*|FS partagé*|HDS Hébergeur|HDS Infogéreur*|SecNumCloud|EBIOS max|Antivirus  |
-|-------------------|--------------|-----------|----------|-----------|-------------|---------------|-----------|---------|-----------|
-|**FabNum@OVH**     |PaaS Node/Java|O          |O         |N          |N            |N              |N          |2-3-3-2  |           |
-|**Cegedim.cloud**  |CaaS/IaaS     |O          |O         |O          |O            |O              |N          |         |SentinelOne|
-|**Rosny(intra)**   |n/a           |O          |N         |O          |N            |N              |N          |         |           |
-|**Dusquene(intra)**|n/a           |O          |N         |O          |N            |N              |N          |         |           |
-|_OVH SNC_          |CaaS          |?          |?         |N          |N            |N              |O          |         |           |
-(*) _Optionnel_
+Précisions :
+- OVH propose un S3 standard et un S3 haute-performance
+- Généralement le stockage en bloc (ou FS partagé sur SAN) est disponible seulement si avec les offres IaaS (VM traditionnelle). Préférer S3 de toute façon
+- Aujourd'hui OVH-SNC n'accueille que Champollion mais à vocation à devenir l'hébergement hautement sécurisé du ministère
 
 ## Interconnexions sécurisées
 Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
-|            |FabNum               |Cegedim  |Rosny    |Dusquene |_OVH SNC_|
-|------------|---------------------|---------|---------|---------|---------|
-|**FabNum**  |=====================|=========|=========|=========|=========|
-|**Cegedim** |?                    |=========|=========|=========|=========|
-|**Rosny**   |?                    |VPN ?    |=========|=========|=========|
-|**Dusquene**|?                    |VPN ?    |RIE ?    |=========|=========|
-|_OVH SNC_   |Flux sortant SNC=>OVH|         |         |         |=========|
-
-_Représenter le RIE ?_
-_Représenter PI ?_
-_Représenter NUBO ?_
+|                 |Atlas@OVH |Cegedim  |Rosny    |Dusquene |Atlas@OVH-SNC|
+|-----------------|----------|---------|---------|---------|-------------|
+|**Atlas@OVH**    |==========|=========|=========|=========|=============|
+|**Cegedim**      |N         |=========|=========|=========|=============|
+|**Rosny**        |N         |VPN ?    |=========|=========|=============|
+|**Dusquene**     |N         |VPN ?    |O (RIE ?)|=========|=============|
+|**Atlas@OVH-SNC**|VPN IPSec |N        |?        |?        |=============|
