@@ -12,35 +12,34 @@ layout:
     visible: false
 ---
 
-# Hébergements Cloud
+# Cloud
 
-La stratégie Cloud des ministères sociaux répond aux enjeux suivants :
+La stratégie Cloud de la DNUM répond aux enjeux suivants :
 * La modernisation de l’action publique implique des services fluides et performants
 * Le Cloud rend possible l'agilité, les pratiques DevOps et l'usage de technologies modernes
 * Le Cloud est l'hébergement par défaut dans la doctrine [Cloud au Centre](https://www.legifrance.gouv.fr/circulaire/id/45205) de l’Etat
 
-## Grands principes de la stratégie Cloud de la DNUM
+## Grands principes
 
-* Les nouvelles applications (incluant les refontes) vont, par défaut, dans le Cloud. L’hébergement interne est réservé pour les périmètres non cloudifiables.
-* Privilégier le recours aux SaaS (souverains) quand c’est possible
-* Privilégier l’utilisation des fonctionnalités natives proposées par les Cloud Services Providers (PaaS plutôt que CaaS/IaaS)
-* Le passage vers le Cloud doit s’accompagner d’une transformation des modèles d’architecture applicative (cloud native), d’organisation des équipes (DevOps, CI/CD), et d’optimisation financière et environnementale (FinOps, GreenOps)
-* La bascule « telle quelle » (ou lift and shift), limitant la transformation, ne doit être utilisée que dans les cas qui le justifient (ex : migration de masse pour cause de fermeture de DC)
-* Comme toute transformation, le passage vers le Cloud doit s’accompagner d’un volet RH (formation des agents, internalisation des compétences clés, accompagnement des équipes, …)
+* Les nouvelles applications (incluant les refontes) vont par défaut dans le Cloud. L’hébergement interne est réservé aux périmètres non cloudifiables.
+* Privilégier le SaaS si la souveraineté et le coût le permettent
+* Privilégier l’utilisation des fonctionnalités natives proposées par les fournisseurs de Cloud (PaaS plutôt que CaaS; CaaS plutôt que IaaS)
+* Le passage au Cloud nécessite une transformation des architectures applicatives (cloud native), de l’organisation des équipes (DevOps, CI/CD), et d’optimisation financière et environnementale (FinOps, GreenOps)
+* La bascule « telle quelle » ne doit être utilisée que transitoirement dans les cas qui le justifient (ex : migration de masse avant fermeture de DC)
+* Comme toute transformation, le passage au Cloud doit s’accompagner d’un volet RH (formation des agents, internalisation des compétences clés, accompagnement des équipes, …)
 
-## Quel hébergement Cloud pour mon cas d'usage ?
+## Quel hébergement Cloud pour quel cas d'usage ?
 
-Plusieurs typologies de besoins, nécessitant des offres d’hébergement appropriées, selon :
-
-* La confidentialité des données
-* Les besoins en services d’infrastructure
-* Les exigences réglementaires, notamment le HDS
+Différents types de besoins nécessitent des offres d’hébergement appropriées, selon :
+* Les besoins en services d’infrastructure (stockages managés, middlewares)
+* Le mode d'exploitation (infogérance, CI/CD)
+* La confidentialité des données et les exigences réglementaires (HDS, SecNumCloud)
 
 Pour répondre à ces typologies, 3 offres ont été identifiées :
 
-* Cloud générique : qui vise à héberger toute application sans contrainte réglementaire spécifique
-* Cloud HDS : qui vise à héberger les applications manipulant des données de santé et nécessitant une [certification HDS](https://esante.gouv.fr/produits-services/hds) de l'hébergement et de l'infogérance
-* Cloud de confiance : qui vise à héberger les applications les plus sensibles, y compris celles contenant des données de santé sensibles, nécessitant une qualification [SecNumCloud par l'ANSSI](https://cyber.gouv.fr/secnumcloud-pour-les-fournisseurs-de-services-cloud)
+* **Cloud générique (Atlas@OVH)** : qui vise à héberger toute application sans contrainte réglementaire spécifique
+* **Cloud HDS (Cegedim.cloud)** : qui vise à héberger les applications manipulant des données de santé et nécessitant une [certification HDS](https://esante.gouv.fr/produits-services/hds) de l'hébergement et de l'infogérance
+* **Cloud de confiance (Atlas@OVH-SecNumCloud)** : qui vise à héberger les applications les plus sensibles, y compris celles contenant des données de santé sensibles, nécessitant une qualification [SecNumCloud par l'ANSSI](https://cyber.gouv.fr/secnumcloud-pour-les-fournisseurs-de-services-cloud)
 
 > \[!TIP] Quels sont les critères discriminants qui définissent les données d’une sensibilité particulière ? Deux conditions doivent être réunies pour que les données soient qualifiées comme particulièrement sensibles au sens de la doctrine :
 >
