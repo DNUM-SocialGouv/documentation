@@ -25,7 +25,7 @@ Il est aligné sur les normes internationales telles que les WCAG (Web Content A
 
 ## Méthodologie de Mise en Œuvre
 
-L'adoption de l'accessibilité numérique suit généralement ces étapes clés :
+L'adoption de l'accessibilité numérique suit ces étapes clés :
 
 * Évaluation de l'accessibilité existante : Identifier les lacunes dans les produits numériques actuels à l'aide d'audits d'accessibilité et de feedback des utilisateurs (en employant des méthodes de recherche utilisateur).
 * Formation et sensibilisation : Former les développeurs, les designers et les créateurs de contenu sur les principes d'accessibilité.
