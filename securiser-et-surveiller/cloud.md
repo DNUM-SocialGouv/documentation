@@ -1,4 +1,5 @@
 ---
+icon: cloud
 layout:
   title:
     visible: true
@@ -15,6 +16,7 @@ layout:
 # Cloud
 
 La stratégie cloud de la DNUM répond aux enjeux suivants :
+
 * La modernisation de l’action publique implique des services fluides et performants
 * Le cloud rend possible l'agilité, les pratiques DevOps et l'usage de technologies modernes
 * Le cloud est l'hébergement par défaut dans la doctrine [cloud au centre](https://www.legifrance.gouv.fr/circulaire/id/45205) de l’Etat
@@ -46,31 +48,34 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
 
 ## Caractéristiques des plateformes d'hébergement
 
-Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterrissage sur la plateforme appropriée. Les hébergement se distinguent par
-Dans le détail, les hébergements historiques et modernes ont des caractéristiques différentes. :
+Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterrissage sur la plateforme appropriée. Les hébergement se distinguent par Dans le détail, les hébergements historiques et modernes ont des caractéristiques différentes. :
+
 * les services d’infrastructure qu'ils proposent (stockage managé, middlewares, mécanismes de sécurité natifs). Vu des produits numériques déployés, les services peuvent être optionnelles ou systématiques.
 * leurs modes d'exploitation (infogérance, CI/CD)
 * les exigences réglementaires auxquelles elles répondent (HDS, SecNumCloud)
 
-|Plateforme         |Type de cloud |BDD managé|S3 managé|HDS Hébergeur|HDS Infogéreur|SecNumCloud|EBIOS max|Antivirus PJ|
-|-------------------|--------------|----------|---------|-------------|--------------|-----------|---------|------------|
-|**Atlas@OVH**      |CaaS          |O         |O        |O            |N             |N          |2-3-3-2  |API ClamAV  |
-|**Atlas@OVH-SNC**  |CaaS          |N         |N        |O            |N             |O          |4-X-X-X  |API ClamAV  |
-|**Cegedim.cloud**  |CaaS/IaaS     |O         |O        |O            |O             |O          |4-X-X-X  |SentinelOne?|
-|**Rosny(intra)**   |CaaS/IaaS     |N         |O        |N            |N             |N          |4-X-X-X  |Sys?ICAP?   |
-|**Dusquene(intra)**|CaaS/IaaS     |N         |O        |N            |N             |N          |4-X-X-X  |Sys?ICAP?   |
+| Plateforme          | Type de cloud | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ |
+| ------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ------------ |
+| **Atlas@OVH**       | CaaS          | O          | O         | O             | N              | N           | 2-3-3-2   | API ClamAV   |
+| **Atlas@OVH-SNC**   | CaaS          | N          | N         | O             | N              | O           | 4-X-X-X   | API ClamAV   |
+| **Cegedim.cloud**   | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-X-X-X   | SentinelOne? |
+| **Rosny(intra)**    | CaaS/IaaS     | N          | O         | N             | N              | N           | 4-X-X-X   | Sys?ICAP?    |
+| **Dusquene(intra)** | CaaS/IaaS     | N          | O         | N             | N              | N           | 4-X-X-X   | Sys?ICAP?    |
 
 Précisions :
-- OVH propose un S3 standard et un S3 haute-performance
-- Généralement le stockage en bloc (ou FS partagé sur SAN) est disponible seulement si avec les offres IaaS (VM traditionnelle). Préférer S3 de toute façon
-- Aujourd'hui OVH-SNC n'accueille que Champollion mais à vocation à devenir l'hébergement hautement sécurisé du ministère
+
+* OVH propose un S3 standard et un S3 haute-performance
+* Généralement le stockage en bloc (ou FS partagé sur SAN) est disponible seulement si avec les offres IaaS (VM traditionnelle). Préférer S3 de toute façon
+* Aujourd'hui OVH-SNC n'accueille que Champollion mais à vocation à devenir l'hébergement hautement sécurisé du ministère
 
 ## Interconnexions sécurisées
+
 Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
-|                 |Atlas@OVH |Cegedim  |Rosny    |Dusquene |Atlas@OVH-SNC|
-|-----------------|----------|---------|---------|---------|-------------|
-|**Atlas@OVH**    |==========|=========|=========|=========|=============|
-|**Cegedim**      |N         |=========|=========|=========|=============|
-|**Rosny**        |N         |VPN ?    |=========|=========|=============|
-|**Dusquene**     |N         |VPN ?    |O (RIE ?)|=========|=============|
-|**Atlas@OVH-SNC**|VPN IPSec |N        |?        |?        |=============|
+
+|                   | Atlas@OVH  | Cegedim   | Rosny     | Dusquene  | Atlas@OVH-SNC |
+| ----------------- | ---------- | --------- | --------- | --------- | ------------- |
+| **Atlas@OVH**     | ========== | ========= | ========= | ========= | ============= |
+| **Cegedim**       | N          | ========= | ========= | ========= | ============= |
+| **Rosny**         | N          | VPN ?     | ========= | ========= | ============= |
+| **Dusquene**      | N          | VPN ?     | O (RIE ?) | ========= | ============= |
+| **Atlas@OVH-SNC** | VPN IPSec  | N         | ?         | ?         | ============= |
