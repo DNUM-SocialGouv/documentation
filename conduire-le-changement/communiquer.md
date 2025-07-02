@@ -1,3 +1,7 @@
+---
+icon: bullhorn
+---
+
 # Communiquer et promouvoir
 
 Etablir un plan de communication
