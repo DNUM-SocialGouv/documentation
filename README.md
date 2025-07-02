@@ -24,7 +24,7 @@ Voici un ensemble de ressources destinées aux agents de la Direction du Numéri
 
 ### Constats <a href="#constat" id="constat"></a>
 
-La sous-direction gère un parc de [250 applications](nos-produits/README.md) portés par 50 chefs de produit, en lien avec les équipes métiers.
+La sous-direction gère un parc de [250 applications](./nos-produits/README.md) portées par 50 chefs de produit, en lien avec les équipes métiers.
 
 Au regard de ce parc, on note des enjeux d'optimisation :
 
