@@ -1,3 +1,7 @@
+---
+icon: chalkboard-user
+---
+
 # Former
 
 Il s'agit eLearning, de formation en présentiel, de webinaire, de guide utilisateur ou simplement de bulles qui présentent les fonctionnalités au premier usage
