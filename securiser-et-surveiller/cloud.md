@@ -16,7 +16,7 @@ layout:
 
 La stratégie cloud de la DNUM répond aux enjeux suivants :
 * La modernisation de l’action publique implique des services fluides et performants
-* Le cloud rend possible l'agilité, les pratiques DevOps et l'usage de technologies modernes
+* Le cloud facilite l'agilité, les pratiques DevOps et l'usage de technologies modernes
 * Le cloud est l'hébergement par défaut dans la doctrine [cloud au centre](https://www.legifrance.gouv.fr/circulaire/id/45205) de l’Etat
 
 ## Grands principes
