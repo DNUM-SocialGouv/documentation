@@ -54,13 +54,13 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 * leurs modes d'exploitation (infogérance, CI/CD)
 * les exigences réglementaires auxquelles elles répondent (HDS, SecNumCloud)
 
-| Plateforme          | Type de cloud | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ |
-| ------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ------------ |
-| **Atlas@OVH**       | CaaS          | O          | O         | O             | N              | N           | 2-3-3-2   | API ClamAV   |
-| **Atlas@OVH-SNC**   | CaaS          | N          | N         | O             | N              | O           | 4-X-X-X   | API ClamAV   |
-| **Cegedim.cloud**   | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-X-X-X   | SentinelOne? |
-| **Rosny(intra)**    | CaaS/IaaS     | N          | O         | N             | N              | N           | 4-X-X-X   | Sys?ICAP?    |
-| **Dusquene(intra)** | CaaS/IaaS     | N          | O         | N             | N              | N           | 4-X-X-X   | Sys?ICAP?    |
+| Plateforme          | Type de cloud | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ     |
+| ------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ---------------- |
+| **Atlas@OVH**       | CaaS          | O          | O         | O             | N              | N           | 2-3-3-3   | API@ClamAV       |
+| **Atlas@OVH-SNC**   | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV       |
+| **Cegedim.cloud**   | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@SentinelOne |
+| **Rosny(intra)**    | CaaS/IaaS     | N          | O         | N             | N              | N           | 4-3-3-3   | Sys?ICAP?        |
+| **Dusquene(intra)** | CaaS/IaaS     | N          | O         | N             | N              | N           | 4-3-3-3   | Sys?ICAP?        |
 
 Précisions :
 
