@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Le fonctionnement quotidien
 
 L’organisation produit repose sur un fonctionnement itératif, collaboratif et orienté impact. Au-delà des principes, cela se traduit par des pratiques concrètes qui rythment la vie des équipes.
@@ -23,7 +9,7 @@ Contrairement à un planning rigide sur plusieurs mois ou années, une roadmap p
 Elle définit les grandes étapes à court et moyen terme (3 à 6 mois), avec un focus sur les résultats à atteindre, plutôt que sur des livrables figés.
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les détails d'une roadmap](ressources/la-roadmap.md)&#x20;
+Pour aller plus loin : [Voir les détails d'une roadmap](ressources/la-roadmap.md)
 {% endhint %}
 
 Ce que cela implique :
@@ -38,7 +24,7 @@ Ce que cela implique :
 
 Une équipe produit fonctionne en cycles courts. Chaque cycle inclut des moments-clés pour suivre l’avancement, prendre du recul et ajuster le cap.
 
-**Exemples de rituels :**&#x20;
+**Exemples de rituels :**
 
 | Rituel                  | Objectif                                                               | Fréquence           |
 | ----------------------- | ---------------------------------------------------------------------- | ------------------- |
@@ -61,7 +47,7 @@ Dans une organisation produit, les décisions ne sont pas prises uniquement sur 
 
 Elles se basent sur des tests, des observations, des métriques d’usage et des retours utilisateurs.
 
-Il existe plusieurs sources d’apprentissage :&#x20;
+Il existe plusieurs sources d’apprentissage :
 
 * Expérimentations et prototypes (ex : tester un parcours simplifié avant de le développer complètement)
 * Tests utilisateurs (ex : observer des agents utiliser un service et identifier les points de friction)
@@ -79,9 +65,9 @@ Ce que cela implique :
 
 Dans une organisation produit, **les décisions sont collectives**, mais elles doivent être structurées pour éviter les blocages.
 
-Les grandes règles :&#x20;
+Les grandes règles :
 
-* Le responsable produit ou le responsable métier définit la vision et les priorités&#x20;
+* Le responsable produit ou le responsable métier définit la vision et les priorités
 * L’équipe technique et design choisit comment implémenter les solutions
 * Les utilisateurs et les données valident les décisions (via des tests, feedbacks, indicateurs).
 
@@ -90,4 +76,3 @@ Ce que cela implique :
 * Une répartition des rôles bien définie pour éviter les conflits
 * Un arbitrage basé sur des critères objectifs (impact, faisabilité, valeur)
 * Une flexibilité pour ajuster en fonction des retours terrain
-

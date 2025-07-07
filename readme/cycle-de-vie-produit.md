@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Cycle de vie produit
 
 Les produits doivent suivre un cycle de vie standard, incluant des étapes de validation par le comité​ produit.

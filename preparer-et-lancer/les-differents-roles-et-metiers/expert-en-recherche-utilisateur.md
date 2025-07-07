@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Expert en Recherche Utilisateur
 
 Le chercheur utilisateur étudie les comportements, besoins et attentes des utilisateurs pour aider l’équipe à concevoir des produits adaptés.

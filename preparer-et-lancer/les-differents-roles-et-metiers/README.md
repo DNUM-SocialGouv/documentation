@@ -4,17 +4,6 @@ description: >-
   conception, met en place son développement et le suit au cours de son cycle de
   vie.
 icon: people-group
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # L'équipe produit

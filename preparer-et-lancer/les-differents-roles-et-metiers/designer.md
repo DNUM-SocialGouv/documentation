@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Designer
 
 Le designer conçoit des produits numériques utiles, utilisables, inclusifs, simples, humains et alignés avec les politiques publiques.
@@ -22,8 +8,7 @@ Il intervient à toutes les étapes du cycle de vie d’un produit numérique :
 
 * du cadrage initial (besoins, irritants, problèmes),
 * à la conception de parcours et d’interfaces,
-* jusqu’à la mise en œuvre, les tests et les itérations.\
-
+* jusqu’à la mise en œuvre, les tests et les itérations.\\
 
 Il joue aussi un rôle de facilitateur, en articulant les contributions de la recherche utilisateur, des métiers, de la technique, de l’accessibilité pour garantir la qualité globale d’usage.
 
@@ -69,4 +54,4 @@ En lui laisser jouer son rôle : le designer doit pouvoir vous challenger sur un
 * **L’impliquer dès le début :** faites appel à lui dès la phase de cadrage. Plus il intervient tôt, plus il peut contribuer à bien poser le problème et éviter les mauvaises directions.
 * **Partager le maximum de contexte :** le designer a besoin de tout comprendre, les objectifs métier, contraintes techniques, contexte politique, échéances, historique du projet…
 * **Accepter l’itération :** le design avance par essais/erreurs. On teste, on ajuste, on apprend. Un bon projet est rarement linéaire, mais il progresse vite si on accepte l’incertitude.
-* **Prévoir du temps pour les utilisateurs :** tester avec les vrais usagers, écouter leur vécu, intégrer leurs retours… Le designer vous accompagnera là-dessus, mais cela demande du temps et de l’organisation.\
+* **Prévoir du temps pour les utilisateurs :** tester avec les vrais usagers, écouter leur vécu, intégrer leurs retours… Le designer vous accompagnera là-dessus, mais cela demande du temps et de l’organisation.\\

@@ -1,23 +1,12 @@
 ---
 icon: map
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Engager un processus de design
 
 ## Pourquoi faire du design ?
 
-Le design est une approche clé pour garantir des services publics numériques accessibles, simples et efficaces. Grâce au design, vous allez rencontrer vos utilisateurs réels, comprendre leurs besoins et attentes puis tester sur maquette ou prototype les solutions avant le lancement des développements.&#x20;
+Le design est une approche clé pour garantir des services publics numériques accessibles, simples et efficaces. Grâce au design, vous allez rencontrer vos utilisateurs réels, comprendre leurs besoins et attentes puis tester sur maquette ou prototype les solutions avant le lancement des développements.
 
 <figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
@@ -49,18 +38,13 @@ Si vous avez :
 
 *   **100 ou plus usagers particuliers (citoyens)**
 
-    Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).\
-
+    Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).\\
 * **100 ou plus usagers professionnels**\
-  Incluent des experts comme des responsables d'établissement, des professionnels de santé qui utilisent les services dans le cadre de leur métier. Ils ont besoin d’outils efficaces et qui ne nécessitent aucune formation.\
-
+  Incluent des experts comme des responsables d'établissement, des professionnels de santé qui utilisent les services dans le cadre de leur métier. Ils ont besoin d’outils efficaces et qui ne nécessitent aucune formation.\\
 * **10 ou plus agents publics**\
-  Agents d'ARS, de DDETS, de DREETs ou autres qui utilisent des outils internes pour exécuter leurs missions. Leurs attentes sont orientées vers la performance, la simplicité et un besoin en formation minimal.\
-
+  Agents d'ARS, de DDETS, de DREETs ou autres qui utilisent des outils internes pour exécuter leurs missions. Leurs attentes sont orientées vers la performance, la simplicité et un besoin en formation minimal.\\
 * **10 ou plus partenaires métiers**\
   Profils spécifiques au sein des ministères (juristes, pilotes de politique public, etc.) ou des collectivités locale (Directions Départementales, Directions Régionales) avec des besoins parfois complexes ou inédits.
-
-
 
 {% hint style="info" %}
 Ressources utiles :

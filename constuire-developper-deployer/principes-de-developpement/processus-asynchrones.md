@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Traitements asynchrones
 
 Cette page documente diverses solutions possibles lorsqu'un processus asynchrone est considéré.

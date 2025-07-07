@@ -1,16 +1,5 @@
 ---
 icon: right-to-bracket
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Déploiement continu (CD)

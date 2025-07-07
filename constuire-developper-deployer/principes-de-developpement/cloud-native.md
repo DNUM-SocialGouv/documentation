@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Application cloud native
 
 Il s'agit d'une application qui suit un certain nombre de principes et prérequis afin de pouvoir être déployée dans le cloud.

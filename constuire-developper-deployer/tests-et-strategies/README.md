@@ -1,16 +1,5 @@
 ---
 icon: bullseye-arrow
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Stratégies de tests

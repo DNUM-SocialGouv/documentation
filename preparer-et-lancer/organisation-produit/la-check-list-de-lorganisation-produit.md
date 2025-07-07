@@ -1,20 +1,6 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # La check-list de l'organisation produit
 
-Une bonne organisation produit ne se résume pas à un organigramme ou à une liste de rôles / métiers.&#x20;
+Une bonne organisation produit ne se résume pas à un organigramme ou à une liste de rôles / métiers.
 
 C’est une dynamique, un mode de fonctionnement fluide et efficace, où les bonnes pratiques sont réellement appliquées au quotidien.
 
@@ -61,12 +47,12 @@ Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateu
 ### Le contact avec les utilisateurs est permanent
 
 * [ ] Des retours utilisateurs sont-ils régulièrement recueillis et analysés ?
-* [ ] Des boucles de feedback existent-elles avec les utilisateurs et l'équipe  ?
+* [ ] Des boucles de feedback existent-elles avec les utilisateurs et l'équipe ?
 * [ ] Ces retours influencent-ils concrètement les décisions et évolutions du produit ?
 * [ ] Des tests ou expérimentations sont-ils menés avant d’engager trop de ressources sur une solution ?
 
 {% hint style="info" %}
-Pour aller plus loin : Voir la [recherche utilisateurs ](../../concevoir/ru/)
+Pour aller plus loin : Voir la [recherche utilisateurs](../../concevoir/ru/)
 {% endhint %}
 
 ***

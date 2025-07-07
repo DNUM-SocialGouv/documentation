@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Sécurité anti-bots
 
 L'enjeu est d'identifier les différentes menaces impliquant des bots (automates logiciels) et les solutions pour y faire face.
@@ -23,7 +9,7 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 * **Attaque par déni de service (DoS)** : ralentir ou bloquer un service, par une sollicitation massive depuis une ou plusieurs sources (attaque distribuée DDoS).
 * **Vol de données** : par exemple par [web scraping](https://fr.wikipedia.org/wiki/Web_scraping).
 * **Attaque par force brute** : obtenir un accès sans en être le détenteur légitime, afin de mener des actions illicites (détourner des subventions, manipuler le résultat d'élections professionnelles...)\
-  &#xNAN;_&#x4C;es attaques sont souvent dépersonnalisées, opportunistes, mais pas toujours. Elles peuvent donc être ciblées ou systématiques._
+  \&#xNAN;_Les attaques sont souvent dépersonnalisées, opportunistes, mais pas toujours. Elles peuvent donc être ciblées ou systématiques._
 
 ## Recommandations
 

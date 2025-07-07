@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # PostgreSQL
 
 [PostgreSQL](https://www.postgresql.org/) est un système de gestion de base de données relationnel ([_SGBDR_](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_relationnelle) open source libre, très largement utilisé.

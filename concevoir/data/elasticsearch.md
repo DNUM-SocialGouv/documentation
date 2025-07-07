@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # ElasticSearch
 
 [ElasticSearch](https://www.elastic.co/fr/elasticsearch) ou "ES" est une base de données optimisée pour les recherches et l'analytique.\

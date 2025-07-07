@@ -1,16 +1,5 @@
 ---
 icon: lock
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Authentification des utilisateurs
@@ -35,7 +24,7 @@ Cette page recense les bonnes pratiques pour l'authentification des différentes
 ## Solutions existantes
 
 **Solution spécifique - SSO LDAP** repose sur des annuaires LDAP et un système d'authentification intégré à l'application : framework type Spring Security et/ou serveur IAM dédié Keycloak.\
-&#xNAN;_&#x41; noter que les annuaires LDAP ne sont pas accessibles depuis un cloud public._\
+\&#xNAN;_A noter que les annuaires LDAP ne sont pas accessibles depuis un cloud public._\
 MFA : Oui avec Keycloak
 
 **Solution spécifique - Sans SSO** repose sur une gestion locale des comptes utilisateurs sans. Cette solution ne DEVRAIT PAS être mise en œuvre, ou alors de manière provisoire pour un POC/MVP.\

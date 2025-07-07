@@ -1,16 +1,5 @@
 ---
 description: Produits et projets de la Direction générale de l'offre de soin (DGOS).
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Offre de soin

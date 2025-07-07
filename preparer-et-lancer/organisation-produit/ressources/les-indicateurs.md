@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Les indicateurs
 
 Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.

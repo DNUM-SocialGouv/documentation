@@ -1,2 +1,6 @@
+---
+icon: slideshare
+---
+
 # Accompagner
 

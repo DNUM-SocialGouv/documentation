@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Les piliers d’une organisation produit
 
 Une organisation produit repose sur quelques principes simples.
@@ -44,7 +30,7 @@ Les retours utilisateurs guident les choix, valident les hypothèses et révèle
 Pour aller plus loin : Voir les principes [de la recherche utilisateur](../../concevoir/ru/) et le métier d'[expert en recherche utilisateurs](../les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
 {% endhint %}
 
-Ce que cela implique :&#x20;
+Ce que cela implique :
 
 * Intégrer la recherche utilisateur dans les cycles de développement
 * Organiser régulièrement des tests, entretiens, observations

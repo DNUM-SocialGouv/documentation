@@ -1,16 +1,5 @@
 ---
 icon: plug
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # API
@@ -18,4 +7,3 @@ layout:
 {% hint style="warning" %}
 À rédiger intro
 {% endhint %}
-

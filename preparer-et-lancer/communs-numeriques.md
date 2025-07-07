@@ -1,16 +1,5 @@
 ---
 icon: recycle
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Communs numériques
@@ -94,15 +83,15 @@ API particulièrement intéressantes pour le MAS :
 ## Choisir entre Démarches Simplifiées et Démat Social
 
 |                                     | [Démarches Simplifiées](https://demarches.numerique.gouv.fr) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
-| ----------------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
-| Entité responsable                  | SPM/DINUM                                                      | MAS/DNUM                                                                                           |
-| Hébergement                         | SecNumCloud@OVH                                                | HDS@Cegedim                                                                                        |
-| Connexion FranceConnect             | Oui                                                            | Non                                                                                                |
-| Connexion ProConnect                | Oui                                                            | Non                                                                                                |
-| Champs spécifiques                  | n/a                                                            | <p>Champ NIR sécurisé<br>2 champs FINESS (avec lookup FINESS)<br>Champ RPPS (avec lookup RPPS)</p> |
-| Montées de version                  | \~tous les jours                                               | 3-12 mois de retard                                                                                |
-| Numérotation des versions           | AAAA-MM-DD-version                                             | x.y.z                                                                                              |
-| Accès Administrateur et Instructeur | Internet                                                       | RIE seulement                                                                                      |
+| ----------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
+| Entité responsable                  | SPM/DINUM                                                    | MAS/DNUM                                                                                           |
+| Hébergement                         | SecNumCloud@OVH                                              | HDS@Cegedim                                                                                        |
+| Connexion FranceConnect             | Oui                                                          | Non                                                                                                |
+| Connexion ProConnect                | Oui                                                          | Non                                                                                                |
+| Champs spécifiques                  | n/a                                                          | <p>Champ NIR sécurisé<br>2 champs FINESS (avec lookup FINESS)<br>Champ RPPS (avec lookup RPPS)</p> |
+| Montées de version                  | \~tous les jours                                             | 3-12 mois de retard                                                                                |
+| Numérotation des versions           | AAAA-MM-DD-version                                           | x.y.z                                                                                              |
+| Accès Administrateur et Instructeur | Internet                                                     | RIE seulement                                                                                      |
 
 ## Choisir entre Socle Ondine et Sites Faciles
 

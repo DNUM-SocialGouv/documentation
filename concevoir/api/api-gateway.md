@@ -1,20 +1,6 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
+# Exposition d'API
 
-# API Gateway
-
-L'API Gateway adresse l'interopérabilité et la sécurisation des échanges. C'est un **middleware de type Reverse Proxy, spécialisé dans l'exposition d'API**. 
+L'API Gateway adresse l'interopérabilité et la sécurisation des échanges. C'est un **middleware de type Reverse Proxy, spécialisé dans l'exposition d'API**.
 
 ## Fonctionnalités d'une API Gateway
 
@@ -69,10 +55,12 @@ Instancier et gérer une seule API Gateway par hébergement :
 ## Solutions d'API Gateway dans le contexte MAS
 
 Solution utilisées aux MAS, à différents niveaux :
+
 * **Gravitee.io** utilisé par 2 produits
 * **PISTE (DGFIP)** utilisé par 1-2 produits
 * **Hasura.io** offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
 
 Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
+
 * MuleSoft Anypoint trop orienté éditeur
 * Kong Gateway équivalent à Gravitee

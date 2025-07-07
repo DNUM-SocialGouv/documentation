@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Coach produit
 
 Le coach produit accompagne les équipes dans l’adoption des pratiques agiles et produit pour améliorer leur efficacité et leur collaboration.

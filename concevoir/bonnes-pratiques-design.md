@@ -1,16 +1,5 @@
 ---
 icon: list-check
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
 ---
 
 # Bonnes pratiques de design
@@ -184,3 +173,4 @@ L'idéation, ou recherche de solutions adaptées aux besoins des utilisateurs, d
 
 * Chaque étape de design doit être documentée dans l’espace partagé (Doc design, Figma, Figjam, etc.).
 * Encourager un feedback continu et des démos avec les dev pour ajuster les décisions de design.
+

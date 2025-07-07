@@ -1,17 +1,3 @@
----
-layout:
-  title:
-    visible: true
-  description:
-    visible: true
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
----
-
 # Développeur
 
 Le développeur conçoit, développe et maintient les produits numériques. Il transforme les besoins métier et les choix de conception en solutions fonctionnelles.
