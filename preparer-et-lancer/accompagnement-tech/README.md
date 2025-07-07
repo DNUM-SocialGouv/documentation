@@ -22,7 +22,7 @@ Nous proposons différents accompagnements techniques pour répondre à chacune 
 * [**Échange rapide**](echange-rapide.md) : discussion autour d'une situation, avec une réponse à la clé.
 * [**Orientation**](orientation-vers-des-offres-adaptees.md) : réponse à une question, une demande.
 * [**Second avis sur un devis**](analyse-de-devis-et-recommandations.md) : analyse et recommandations sur le devis d'un prestataire de service.
-* [**Aide au recrutement**](template-offre-accompagnement-technique-1.md) : appui technique à la carte pour sécuriser vos recrutements.
+* [**Aide au recrutement**](aide-au-recrutement.md) : appui technique à la carte pour sécuriser vos recrutements.
 * [**Problème technique**](diagnostic-et-recommandations.md) : diagnostic et recommandations sur un problème technique ou de performance.
 * [**Accompagnement d'architecture**](accompagnement-pour-definir-larchitecture.md) : accompagnement complet pour la définition de l'architecture de votre produit.
 * [**Mise en œuvre**](mise-en-oeuvre.md) : nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec votre équipe.

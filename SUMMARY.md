@@ -28,7 +28,7 @@
     * [Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
     * [Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
     * [Analyse de devis et recommandations](preparer-et-lancer/accompagnement-tech/analyse-de-devis-et-recommandations.md)
-    * [Aide au recrutement](preparer-et-lancer/accompagnement-tech/template-offre-accompagnement-technique.md)
+    * [Aide au recrutement](preparer-et-lancer/accompagnement-tech/aide-au-recrutement.md)
     * [Diagnostic et recommandations](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
     * [Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
     * [Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)
