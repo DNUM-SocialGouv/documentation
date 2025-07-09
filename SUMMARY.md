@@ -49,6 +49,7 @@
   * [API](concevoir/api/README.md)
     * [Conception d'API](concevoir/api/api-design.md)
     * [Exposition d'API](concevoir/api/api-gateway.md)
+    * [PISTE](concevoir/api/api-piste.md)
     * [Sécurisation d'API](concevoir/api/api-securite.md)
 * [Développer](constuire-developper-deployer/README.md)
   * [Checklist projet](constuire-developper-deployer/checklist-projet.md)
