@@ -58,7 +58,7 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 | ------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ---------------- |
 | **Atlas@OVH**       | CaaS          | O          | O         | O             | N              | N           | 2-3-3-3   | API@ClamAV       |
 | **Atlas@OVH-SNC**   | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV       |
-| **Cegedim.cloud**   | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP (auto?)     |
+| **Cegedim.cloud**   | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto)    |
 | **Rosny(intra)**    | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
 | **Dusquene(intra)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
 
