@@ -12,6 +12,7 @@ Un bon coaching produit permet :
 * De fluidifier la prise de décision
 * De favoriser l’adaptabilité et l’amélioration continue
 * De réduire les blocages et renforcer l’engagement des équipes
+* De rappeler l'importance de la soutenabilité du dispositif et du bien-être des équipes
 
 ## Quel est son quotidien ?
 

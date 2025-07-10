@@ -11,11 +11,11 @@ Dans certains cas, lorsque le produit est développé par et pour la DNUM, le pr
 ## En quoi ce rôle est important ?
 
 Le responsable produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
-
-* D'assurer la fluidité des développements au quotidien
+* De veiller à la soutenabilité du dispositif et au bien-être des équipes
+* D'assurer la fluidité des développements
 * De veiller au respect des standards de qualité et de sécurité
 * D'appuyer l’équipe dans la rédaction et la priorisation des user stories
-* De soulager le responsable métier sur les aspects opérationnels pour qu’il se concentre sur la stratégie et la vision
+* De soutenir le responsable métier sur les aspects opérationnels pour qu’il se concentre sur la stratégie et la vision
 
 ## Quel est son quotidien ?
 
