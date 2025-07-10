@@ -41,8 +41,9 @@ PISTE n'est pas une solution pertinente pour :
 - ONVS (en cours, exposition d'API aux Etablissements de Santé)
 - SIVSS (en cours, exposition d'API aux ARS et autres administrations)
 
-Contre-exemples :
-- MEDLE : un seul éditeur partenaire en expérimentation
+Contre-exemples de projets avec décision de ne pas passer par PISTE :
+- PTT : interfaçage de PPT et SUIT, 2 applications métier internes bien que sur des hébergements différents
+- MEDLE : un seul éditeur de logiciel partenaire, en expérimentation
 
 ## TODO
 - expliciter le coût et le conventionnement
