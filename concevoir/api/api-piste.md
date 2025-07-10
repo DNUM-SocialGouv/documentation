@@ -8,10 +8,10 @@ _A noter que la DINUM ne se positionne pas officiellement sur PISTE : ni recomma
 
 ## Quand utiliser PISTE ? (paragraphe à déplacer dans api-gateway)
 PISTE est particulièrement intéressant pour **exposer une API à un nombre significatif d'acteurs** : tous les éditeurs de logiciels d'un marché, nombreux partenaires institutionnels...
-PISTE n'est pas une solution pertinent pour :
+PISTE n'est pas une solution pertinente pour :
 - Une API exposée à un faible nombre de partenaires bien identifiés
 - Une API GraphQL ou tout autre paradigme que REST/HTTP
-- Une API exposée en Interne sur Internet
+- Une API exposée en Interne
 
 ## Sécurité
 - PISTE conserve systématiquement les traces pendant 10 jours. On peut demander demander aux équipes PISTE l'anonymisation définitive des traces.
