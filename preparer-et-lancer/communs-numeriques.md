@@ -103,7 +103,7 @@ Points communs :
 * Formulaires simples
 * Contributions possibles au produit
 * Produit maintenu, mais montées de versions à effectuer soi-même
-* A héberger en interne sur Intranet ou Cegedim ; sauf à faire évoluer l'infra de la FabNum pour PHP ou Python
+* A héberger en interne sur Intranet ou Cegedim ; sauf à faire évoluer Atlas pour PHP ou Python
 * Recherche texte intégrale, y compris dans les pièces-jointes
 
 Différences :

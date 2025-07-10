@@ -46,7 +46,7 @@ Instancier et gérer une seule API Gateway par hébergement :
 * Périmètre métier avec stratégie Zero Trust
 
 3. **Identifier quelle API Gateway réutiliser**
-* Si possible, utiliser l'API Gateway unique de l'hébergement visé (ex : future API Gateway FabNum?)
+* Si possible, utiliser l'API Gateway unique de l'hébergement visé (ex : future API Gateway Atlas ?)
 * Sinon instancier une API Gateway par domaine métier ET par hébergement (ex : API Gateway DGEFP sur Rosny/Dusquene)
 * Passer par [PISTE](api-piste.md) si c'est pertinent et si les conditions sont réunies
 * Eviter d'héberger une API Gateway dédiée par application
