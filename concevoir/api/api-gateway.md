@@ -16,7 +16,7 @@ L'API Gateway adresse l'interopérabilité et la sécurisation des échanges. C'
 
 * Plusieurs centaines d'applications métier
 * Toujours plus d'ouverture des SI : dématérialisation, OpenData par défaut, DLNUF, échanges et réutilisation inter-administrations...
-* Davantage d'hébergements (Duquesne, Rosny, Cegedim, RIE, OVH, Scalingo, SaaS...)
+* Davantage d'hébergements (Duquesne, Rosny, Cegedim, RIE, OVH, SaaS...)
 * Toujours plus d'interconnexions entre ces hébergements (intra-intra, cloud-cloud, intra-cloud, cloud-intra)
 * Des menaces cyber croissantes
 * Une efficacité budgétaire à optimiser
@@ -27,8 +27,8 @@ Instancier et gérer une seule API Gateway par hébergement :
 
 * 1 Gateway Rosny et/ou Dusquene
 * 1 Gateway Cegedim
-* 1 Gateway FabNum
-* etc.
+* 1 Gateway OVH
+* 1 Gateway OVH-SecNumCloud
 
 ## Recommandations concernant l'API Gateway
 
@@ -46,18 +46,17 @@ Instancier et gérer une seule API Gateway par hébergement :
 * Périmètre métier avec stratégie Zero Trust
 
 3. **Identifier quelle API Gateway réutiliser**
-
 * Si possible, utiliser l'API Gateway unique de l'hébergement visé (ex : future API Gateway FabNum?)
 * Sinon instancier une API Gateway par domaine métier ET par hébergement (ex : API Gateway DGEFP sur Rosny/Dusquene)
+* Passer par [PISTE](api-piste.md) si c'est pertinent et si les conditions sont réunies
 * Eviter d'héberger une API Gateway dédiée par application
-* Eviter de passer par PISTE@DGFIP (moindre agilité, hors CI/CD, perte de contrôle lié à la gouvernance DGFIP) sauf cas extrêmes : 0 budget, exposer transitoirement l'API d'une application legacy hébergée à Duquesne ou Rosny, API partenaire ou API publique massivement utilisée. Ce positionnement de PISTE tiens compte des conseils de la DINUM mais la DINUM n'a pas de recommandation officielle concernant PISTE (hors catalogue)
 
 ## Solutions d'API Gateway dans le contexte MAS
 
 Solution utilisées aux MAS, à différents niveaux :
 
 * **Gravitee.io** utilisé par 2 produits
-* **PISTE (DGFIP)** utilisé par 1-2 produits
+* **[PISTE](api-piste.md)**
 * **Hasura.io** offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
 
 Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
