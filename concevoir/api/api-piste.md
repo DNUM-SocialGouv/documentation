@@ -19,7 +19,12 @@ PISTE n'est pas une solution pertinent pour :
 - PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
 - L'application métier gère les droits d'accès aux fonctionnalités pour chaque client. _A priori PISTE ne gère pas les scopes Oauth2 pour nous._
 
-## Administration et exploitation
+## Implémentation
+- l'API doit respecter le guide des bonnes pratiques de développement PISTE (sur demande)
+- L'application [MPSS](https://mpss.piste.gouv.fr/) permet de créer des bouchons pour simuler nos APIs.
+- Un environnement bac-à-sable permet d'exposer des API de test, avec les mêmes contraintes qu'en production.
+
+## Administration des accès
 - Une API sur PISTE est
     - soit publique (visible au catalogue PISTE, avec ou sans validation). _Rendre l'API publique peut générer beaucoup de sollicitations_
     - soit privée (non visible au catalogue PISTE)
@@ -27,10 +32,8 @@ PISTE n'est pas une solution pertinent pour :
 - Il existe 2 façons d'enrôler un client sur une API privée :
     - le client a déjà un compte PISTE : enrôler le compte client existant pour cette API
     - le client n'a pas de compte PISTE : créer un compte pour le client et l'enrôler en même temps, ce qui lui envoie un email d'invitation
-- L'administrateur de l'API a la main pour révoquer des accès.
+- L'administrateur de l'API a la main pour révoquer des accès à tout moment.
 - Adresse de support : piste.aife@finances.gouv.fr
-- L'application [MPSS](https://mpss.piste.gouv.fr/) permet de créer des bouchons pour simuler nos APIs.
-- Un environnement bac-à-sable permet d'exposer des API de test, avec les mêmes contraintes qu'en production.
 
 ## Projets concernés par PISTE
 - ONVS (en cours, exposition d'API aux Etablissements de Santé)
