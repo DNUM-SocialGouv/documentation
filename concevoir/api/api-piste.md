@@ -18,11 +18,12 @@ PISTE n'est pas une solution pertinente pour :
 - Le trafic entre PISTE et nos applications métiers repasse nécessairement par Internet. Le filtrage IP et DNS est fortement recommandé. Un VPN existant entre PISTE et le RIE, offre éventuellement une route plus sécurisée vers nos applications métier.
 - PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
 - L'application métier gère les droits d'accès aux fonctionnalités pour chaque client. _A priori PISTE ne gère pas les scopes Oauth2 pour nous._
+- PISTE permet la mise en place de quotas et limites d'utilisation
 
 ## Implémentation
-- l'API doit respecter le guide des bonnes pratiques de développement PISTE (sur demande)
+- l'API doit respecter [le guide des bonnes pratiques de développement PISTE](PISTE%20-%20Guide%20de%20bonnes%20pratiques%20API_v2.00.pdf)
 - L'application [MPSS](https://mpss.piste.gouv.fr/) permet de créer des bouchons pour simuler nos APIs.
-- Un environnement bac-à-sable permet d'exposer des API de test, avec les mêmes contraintes qu'en production.
+- Un environnement bac-à-sable "sandbox" permet d'exposer des API de test.
 
 ## Administration des accès
 - Une API sur PISTE est
