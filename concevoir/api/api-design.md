@@ -10,10 +10,9 @@
 
 ## Les questions à se poser
 
-Quand on souhaite ouvrir une API, nous pouvons utiliser les questions "[QQOQCCP](https://fr.wikipedia.org/wiki/QQOQCCP)" qui nous permettent de mieux comprendre la situation et de définir une solution pertinente par rapport au besoin.
+Pour ouvrir une API, nous utilisons les questions "[QQOQCCP](https://fr.wikipedia.org/wiki/QQOQCCP)" qui permettent de mieux comprendre le besoin.
 
-Ci-dessous se trouvent quelques questions utiles. _Ces questions peuvent ne pas être pertinentes suivant les phases de développement du produit._
-
+Ci-dessous se trouvent quelques questions utiles :
 * **Quoi :** quelle donnée est consommée ?
   * Quelle sensibilité ?
 * **Pourquoi :** Quel est l'usage de la donnée ?
