@@ -36,9 +36,9 @@ PISTE n'est pas une solution pertinente pour :
 - Adresse de support : piste.aife@finances.gouv.fr
 
 ## Projets concernés par PISTE
+- AQUA-SISE (API Référentiels, API Signalements)
 - ONVS (en cours, exposition d'API aux Etablissements de Santé)
 - SIVSS (en cours, exposition d'API aux ARS et autres administrations)
-- AQUA-SISE (à confirmer)
 
 Contre-exemples :
 - MEDLE : un seul éditeur partenaire en expérimentation
