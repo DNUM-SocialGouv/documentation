@@ -29,7 +29,7 @@ Le mode produit pour **dé-risquer** les services publics numériques et éviter
 Aujourd'hui, il est composé de :
 
 * 1 responsable de la technologie
-* 1 architecte
+* 1 architecte solutions
 * 1 responsable des communs numériques
 * 1 responsable du design
 * 1 responsable des opérations produit
