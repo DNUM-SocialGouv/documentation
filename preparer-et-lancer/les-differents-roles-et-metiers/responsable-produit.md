@@ -4,7 +4,7 @@ Le responsable produit intervient aux côtés du responsable métier pour porter
 
 Il apporte un appui opérationnel et veille à la bonne application des pratiques produit et réglementaires.
 
-Dans certains cas, lorsque le produit est développé par et pour la DNUM, le produit est intégralement porté par la direction du numérique (exemples : Demat' Social, plateforme hébergement fabrique)
+Dans certains cas, lorsque le produit est développé par et pour la DNUM, le produit est intégralement porté par la direction du numérique (exemples : Demat' Social, plateforme hébergement Atlas)
 
 **Il agit comme un facilitateur, un référent produit et un coordinateur du quotidien.**
 
