@@ -17,7 +17,7 @@ PISTE n'est pas une solution pertinente pour :
 - PISTE conserve systématiquement les traces pendant 10 jours. On peut demander demander aux équipes PISTE l'anonymisation définitive des traces.
 - Le trafic entre PISTE et nos applications métiers repasse nécessairement par Internet. Le filtrage IP et DNS est fortement recommandé. Un VPN existant entre PISTE et le RIE, offre éventuellement une route plus sécurisée vers nos applications métier.
 - PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
-- L'application métier gère les droits d'accès aux fonctionnalités pour chaque client. _A priori PISTE ne gère pas les scopes Oauth2 pour nous._
+- PISTE permet des scopes OAuth2 pour gérer des droits plus fins par client
 - PISTE permet la mise en place de quotas et limites d'utilisation
 
 ## Implémentation
@@ -45,5 +45,4 @@ Contre-exemples :
 - MEDLE : un seul éditeur partenaire en expérimentation
 
 ## TODO
-- lien/PJ vers les bonnes pratiques d'implémentation (non public sur le site de PISTE)
 - expliciter le coût et le conventionnement
