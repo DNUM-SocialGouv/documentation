@@ -4,9 +4,9 @@ icon: recycle
 
 # Communs numériques
 
-Un commun numérique est une ressource numérique produite, gérée et gouvernée par une communauté d'utilisateurs selon des règles de gouvernance conjointement élaborées. Tout projet DOIT tenter de réutiliser des communs numériques en suivant ce guide, et PEUT y contribuer.
+Un commun numérique est une ressource numérique produite et gérée par une communauté d'utilisateurs en selon des règles de gouvernance conjointement élaborées. Tout projet DOIT tenter de réutiliser des communs numériques en suivant ce guide, et PEUT y contribuer.
 
-## Arbre de décision suivant la nature du projet
+## Quel commun numérique pour quel projet ?
 
 Mon produit est un(e)...
 
@@ -23,7 +23,7 @@ Mon produit est un(e)...
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Base de données / Référentiel**
   * [Grist](https://grist.numerique.gouv.fr/) pour un besoin très simple
-  * éventuellement un backend-as-a-service également pour un besoin simple
+  * éventuellement un backend-as-a-service pour un besoin simple
   * sinon envisager le développement spécifique
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
@@ -40,7 +40,7 @@ Communs numériques grand public (solutions open source) :
 
 Communs numériques inter-ministériels :
 
-* [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution de dématérialisation des démarches administratives. Elle est inter-ministérielle, générique et hébergée en mode SaaS.
+* [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
 * [**Sites Faciles**](https://sites-faciles.beta.numerique.gouv.fr/) : base de site web CMS
 * [**Grist**](https://grist.numerique.gouv.fr/) est un tableur avancé développé en partie par la DINUM
 
@@ -54,10 +54,11 @@ Communs numériques internes :
 API particulièrement intéressantes pour le MAS :
 
 * Les API Entreprise
-  * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/) : pas de recherche multi-critères
+  * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/) : pas de recherche multicritères
   * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f?aq=ALL) pour les besoins simples de recherche
   * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/) : recherche par SIRET/nom ET filtrage sur critères (codes d'activité, géographie...)
-  * API des établissements de santé: pas d'API Finess native mais [exposition API du fichier "t\_finess" sur OpenDataSoft](https://arssante.opendatasoft.com/)
+  * [API des établissements de santé](https://arssante.opendatasoft.com/) : données FINESS
+  * [API des professionnels de santé](https://arssante.opendatasoft.com/) : données RPPS
 * Les API Association
   * [API Association](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
   * [API Association annonces officielles et comptes annuels](https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe)
@@ -111,7 +112,7 @@ Différences :
 |                      | Socle Ondine       | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
 | -------------------- | ------------------ | -------------------------------------------------------------- |
 | Entité responsable   | SG/DICOM           | SPM/DINUM/OPI                                                  |
-| Open source          | Non (_pas à date_) | Oui                                                            |
+| Open source          | Non                | Oui                                                            |
 | Stack technique      | Varnish/Drupal/PHP | Wagtail(CMS)/Django/Python                                     |
 | Stockage de données  | MariaDB            | PostgreSQL                                                     |
 | Stockage index       | Solr               | PostgreSQL ou Elasticsearch                                    |
@@ -120,14 +121,14 @@ Différences :
 | ProConnect natif     | Non                | Oui                                                            |
 | Conformité RGAA      | RGAA 4 à 75%       | RGAA 4.1 partiel                                               |
 | Conformité RGS       | Oui                | n/c                                                            |
-| Dév. spécifique      | Non (non souhaité) | Oui (possible)                                                 |
 
 Synthèse :
 
-* Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie des forces de Drupal.
-* Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement en externe.
+* Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie des forces et faiblesses de Drupal.
+* Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement sur un cloud.
 
 ## Suivi des pistes explorées et décisions d'architecture
 
-* GLPI écarté 04/2025.
-* Manifest.build est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
+* **GLPI** écarté 04/2025.
+* **Manifest.build** est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
+
