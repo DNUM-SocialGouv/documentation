@@ -76,10 +76,21 @@ API particulièrement intéressantes pour le MAS :
 * Workflow
 * Statistiques (tableaux de bord, production de fichiers CSV, BI)
   * Metabase ? Superset ?
-  * Matomo (quelle instance ?)
+  * [Matomo pour la mesure d'audience](#matomo-pour-la-mesure-daudience)
 * Chatbot
 * IA
-* ETL/ELT
+* ETL/ELT : Talend EE
+
+## Matomo pour la mesure d'audience
+[Matomo](https://matomo.org/) est la solution de mesure d'audience et d'utilisation de nos services numériques (web analytics).
+Tout projet DEVRAIT réutiliser l'une des 3 instances de Matomo existantes :
+| Instance       | Hébergement                                                       |
+| -------------- | ----------------------------------------------------------------- |
+| Atlas (FabNum) | [SaaS @boscop.fr](https://boscop.fr/matomo-hebergement/)          |
+| DICOM          | [SaaS @matomo.org](https://matomo.org/matomo-cloud/)              |
+| Cegedim        | [SaaS @Cegedim.cloud](https://cegedim.cloud/produits/analytique/) |
+
+Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle n'est pas privilégiée.
 
 ## Choisir entre Démarches Simplifiées et Démat Social
 
