@@ -11,7 +11,8 @@ Un commun numérique est une ressource numérique produite et gérée par une co
 Mon produit est un(e)...
 
 * **Site éditorial public**
-  * voir comment [choisir entre le Socle Ondine et Sites Faciles](communs-numeriques.md#choisir-entre-socle-ondine-et-sites-faciles)
+  * Pour un CMS : voir comment [choisir entre le Socle Ondine et Sites Faciles](communs-numeriques.md#choisir-entre-socle-ondine-et-sites-faciles)
+  * Pour un Wiki, une base de connaissance : [Gitbook](#solutions-transverses-et-communs-numériques-au-mas)
 * **Démarche administrative en ligne**
   * pour le **front usager** :
     * utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
