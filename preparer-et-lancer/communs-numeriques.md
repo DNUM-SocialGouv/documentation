@@ -22,8 +22,8 @@ Mon produit est un(e)...
     * si cela ne suffit pas, envisager un back-office complémentaire à DS
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Base de données / Référentiel**
-  * [Grist](https://grist.numerique.gouv.fr/) pour un besoin très simple
-  * éventuellement un backend-as-a-service pour un besoin simple
+  * [Grist](https://grist.numerique.gouv.fr/) pour un besoin simple
+  * éventuellement un backend-as-a-service pour un besoin simple (_à confirmer à l'usage_)
   * sinon envisager le développement spécifique
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
@@ -32,19 +32,22 @@ Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au max
 * [les API internes et externes](communs-numeriques.md#api-externes-et-internes)
 * [les frameworks et librairies standards](communs-numeriques.md#frameworks-et-librairies-standards)
 
-## Communs numériques au MAS
+## Solutions transverses et communs numériques au MAS
 
-Communs numériques grand public (solutions open source) :
+Solutions et communs numériques grand public (solutions open source ou SaaS) :
 
-* _Aucun commun de haut-niveau identifié à date._
-
-Communs numériques inter-ministériels :
+* [**GitBook**](https://www.gitbook.com/) : Wiki SaaS gratuit avec contenu stocké sur GitHub. Exemples d'utilisation :
+  * Le présent [guide DNUM](https://dnum-ministeres-sociaux.gitbook.io/ressources/) (instance DNUM partagée)
+  * [Base de connaissance VAO](https://dnum-ministeres-sociaux.gitbook.io/vao-documentation/t1eK0jUdXMliu8S6UWUr) (instance DNUM partagée)
+  * [Base de connaissance Mon Suivi Social](https://mon-suivi-social.gitbook.io/mon-suivi-social) (instance dédiée)
+  
+Solutions et communs numériques inter-ministériels :
 
 * [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
 * [**Sites Faciles**](https://sites-faciles.beta.numerique.gouv.fr/) : base de site web CMS
-* [**Grist**](https://grist.numerique.gouv.fr/) est un tableur avancé développé en partie par la DINUM
+* [**Grist**](https://grist.numerique.gouv.fr/) : tableur avancé open source, enrichi et hébergé par la DINUM
 
-Communs numériques internes :
+Solutions et communs numériques internes :
 
 * [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé au MAS.
 * **Ondine**
