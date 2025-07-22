@@ -46,6 +46,3 @@ PISTE n'est pas une solution pertinente pour :
 Contre-exemples de projets avec décision de ne pas passer par PISTE :
 - PTT : interfaçage de PPT et SUIT, 2 applications métier internes bien que sur des hébergements différents
 - MEDLE : un seul éditeur de logiciel partenaire, en expérimentation
-
-## TODO
-- expliciter le coût et le conventionnement
