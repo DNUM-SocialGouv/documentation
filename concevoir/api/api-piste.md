@@ -1,10 +1,11 @@
 # Exposition d'API via PISTE
 
 [PISTE](https://piste.gouv.fr/) est une API Gateway interministérielle proposée par l'AIFE(DGFIP) :
-- Se base sur la solution commerciale **Axway API Gateway**
-- Hébergement sur **OVH-SecNumCloud** et infogérance par un prestataire de l'AIFE
-- La convention étant déjà établie entre l'AIFE et le Ministère, cette partie n'est pas à refaire pour chaque nouvelle API. l'AIFE refacture un coût fixe par API.
-_A noter que la DINUM ne se positionne pas officiellement sur PISTE : ni recommandé, ni déconseillé._
+- Basée sur la solution commerciale **Axway API Gateway**
+- Hébergement **OVH-SecNumCloud**
+- Convention de refacturation déjà établie entre l'AIFE et le Ministère, pour l'ensemble des API.
+- L'AIFE refacture un coût fixe par API.
+_La DINUM ne se positionne pas officiellement sur PISTE : ni recommandé, ni déconseillé._
 
 ## Quand utiliser PISTE ?
 PISTE est particulièrement intéressant pour **exposer une API à un nombre significatif d'acteurs** : tous les éditeurs de logiciels d'un marché, nombreux partenaires institutionnels...
