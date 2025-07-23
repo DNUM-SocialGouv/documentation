@@ -63,10 +63,7 @@ API particulièrement intéressantes pour le MAS :
   * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/) : recherche par SIRET/nom ET filtrage sur critères (codes d'activité, géographie...)
   * [API des établissements de santé](https://arssante.opendatasoft.com/) : données FINESS
   * [API des professionnels de santé](https://arssante.opendatasoft.com/) : données RPPS
-* Les API Association
-  * [API Association](https://www.associations.gouv.fr/les-api-et-autres-outils.html)
-  * [API Association annonces officielles et comptes annuels](https://api.gouv.fr/les-api/api-annonces-comptes-annuels-associations-joafe)
-  * [API Subvention](https://api.gouv.fr/les-api/api-data-subvention)
+* [API Association du Compte Asso (DJEPVA)](https://lecompteasso.associations.gouv.fr/lapi-association/) : intègre Alsace-Moselle et les données des autres API (RNA, SIRENE, DILA)
 * [API Base d'Adresse Nationale (BAN)](https://www.data.gouv.fr/fr/dataservices/api-base-dadresse-nationale-ban/)
 
 ## Frameworks et librairies standards
