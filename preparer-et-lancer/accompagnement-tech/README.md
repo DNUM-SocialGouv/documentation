@@ -49,9 +49,9 @@ Quel que soit l'accompagnement proposé, nos engagements sont les mêmes :
 
 Vous formulez une demande d'accompagnement par le canal de votre choix :
 
-* Sur la page du [Bureau Design et Développement](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/AccueilDD.aspx).
-* Par email à l'un des membres du bureau (adresse partagée à venir).
+* Par email à l'[équipe d'accompagnement](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr).
 * Sous forme de décision lors d'un Comité Produit.
+* Sur la page du [Bureau Design et Développement](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/AccueilDD.aspx).
 
 ## 2. Cadrage
 
