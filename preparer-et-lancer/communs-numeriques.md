@@ -23,8 +23,8 @@ Mon produit est un(e)...
     * si cela ne suffit pas, envisager un back-office complémentaire à DS
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Base de données / Référentiel**
-  * [Grist](https://grist.numerique.gouv.fr/) pour un besoin simple
-  * éventuellement un backend-as-a-service pour un besoin simple (_à confirmer à l'usage_)
+  * [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne
+  * [Grist] éventuellement pour un backend-as-a-service (_à confirmer_)
   * sinon envisager le développement spécifique
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
