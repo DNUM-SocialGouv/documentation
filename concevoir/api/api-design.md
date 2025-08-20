@@ -2,7 +2,7 @@
 
 ## Recommandations
 
-* En matière d'échanges de données, c'est toujours le [Référentiel Général d'Interopérabilité (RGI)](https://www.numerique.gouv.fr/publications/interoperabilite/) qui fait foi.
+* En matière d'échanges de données, c'est toujours le [Référentiel Général d'Interopérabilité (RGI)](https://www.numerique.gouv.fr/offre-accompagnement/reference-interoperabilite-rgi/) qui fait foi.
 * Une **API REST** est suffisante dans la grande majorité des cas.
 * Un **webhook** est un mécanisme d'appels sortants basé sur HTTP. Il permet d'envoyer une notification du producteur vers de(s) consommateur(s).
 * **GraphQL** est un langage de requête pour API permettant aux clients de demander ou modifier une grappe de données en un seul appel, tout en ne demandant que les données nécessaires.
