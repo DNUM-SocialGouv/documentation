@@ -136,11 +136,10 @@ Différences :
 
 Synthèse :
 
-* Le socle Ondine est davantage industrialisé pour être hébergé en interne. Il bénéficie des forces et faiblesses de Drupal.
+* Le socle Ondine est davantage industrialisé pour être hébergé en interne, mais pas forcément sur la cible Cloud. Il bénéficie des forces et faiblesses de Drupal.
 * Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement sur un cloud.
 
 ## Suivi des pistes explorées et décisions d'architecture
 
 * **GLPI** écarté 04/2025.
 * **Manifest.build** est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
-
