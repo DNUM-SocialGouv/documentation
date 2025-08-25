@@ -15,17 +15,23 @@ PISTE n'est pas une solution pertinente pour :
 - Une API exposée en Interne
 - Un produit agile avec évolutions fréquentes et CI/CD au delà de l'environnement d'intégration
 
-## Sécurité
-- PISTE conserve systématiquement les traces pendant 10 jours. On peut demander demander aux équipes PISTE l'anonymisation définitive des traces.
-- Le trafic entre PISTE et nos applications métiers repasse nécessairement par Internet. Le filtrage IP et DNS est fortement recommandé. Un VPN existant entre PISTE et le RIE, offre éventuellement une route plus sécurisée vers nos applications métier.
-- PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
-- PISTE permet des scopes OAuth2 pour gérer des droits plus fins par client
-- PISTE permet la mise en place de quotas et limites d'utilisation
-
 ## Implémentation
 - l'API doit respecter [le guide des bonnes pratiques de développement PISTE](PISTE%20-%20Guide%20de%20bonnes%20pratiques%20API_v2.00.pdf)
 - L'application [MPSS](https://mpss.piste.gouv.fr/) permet de créer des bouchons pour simuler nos APIs.
 - Un environnement bac-à-sable "sandbox" permet d'exposer des API de test.
+- PISTE ne limite pas la taille des contenus
+- PISTE a un timeout de 30 secondes entre PISTE et l'application métier exposée.
+- PISTE conserve systématiquement les traces pendant 10 jours. PISTE ne permet pas d'accès direct aux traces. Il faut s'adresser au support de PISTE pour tout diagnostic.
+- PISTE n'offre pas de supervision par l'administrateur fonctionnel
+- PISTE offre un service (non-documenté) dédié au transfert de pièces-jointes volumineuses
+
+## Sécurité
+- On peut demander demander aux équipes PISTE l'anonymisation définitive des traces.
+- Le trafic entre PISTE et nos applications métiers repasse nécessairement par Internet. Le filtrage IP et DNS est fortement recommandé. Un VPN existant entre PISTE et le RIE, offre éventuellement une route plus sécurisée vers nos applications métier.
+- PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
+- PISTE permet des scopes OAuth2 pour gérer des droits plus fins par client
+- PISTE permet la mise en place de quotas d'utilisation, par client ou pour tous clients confondus
+- PISTE renvoie une erreur 403 en cas de contenu tronqué ou inconsistant (ex : une balise XML pas fermée). Par sécurité, une telle erreur est considérée comme une utilisation non autorisée de l'API et n'arrivera pas à l'application métier.
 
 ## Administration des accès
 - Une API sur PISTE est
@@ -39,9 +45,9 @@ PISTE n'est pas une solution pertinente pour :
 - Adresse de support : piste.aife@finances.gouv.fr
 
 ## Projets concernés par PISTE
-- AQUA-SISE (API Référentiels, API Signalements)
-- ONVS (en cours, exposition d'API aux Etablissements de Santé)
-- SIVSS (en cours, exposition d'API aux ARS et autres administrations)
+- AQUA-SISE : API Référentiels, API Signalements, API Labos (en cours)
+- ONVS (en cours) : exposition d'API aux Etablissements de Santé
+- SIVSS (en cours) : exposition d'API aux ARS et autres administrations
 
 Contre-exemples de projets avec décision de ne pas passer par PISTE :
 - PTT : interfaçage de PPT et SUIT, 2 applications métier internes bien que sur des hébergements différents
