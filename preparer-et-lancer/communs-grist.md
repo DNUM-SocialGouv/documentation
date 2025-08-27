@@ -17,11 +17,9 @@ La version SaaS n'a pas vocation. En revanche elle est utile pour certains tests
 | Envoi d'invitation par email | Oui                                      | Non                                               |
 | Webhooks - urls autorisées   | *                                        | *.gouv.fr                                         |
 
-## Implémentation
-
-
 ## Gestion des droits
-Droits avancés : voir [webinaire DINUM 2024](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
+- Gestion avancée des droits : [webinaire DINUM 2024](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
+- [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1)
 
 ## Exploitation
 -	Donnée obligatoire (1 seul champ obligatoire par table lors de la création car tentative d’enregistrement immédiate) :  
@@ -31,4 +29,6 @@ Droits avancés : voir [webinaire DINUM 2024](https://tube.numerique.gouv.fr/w/3
 ## API
 - webhooks (envoi vers service externe) déclenchés sur opérations C+U+D ou explicitement sur un bouton d'action
 
-## Automatisation des tests
+## Notes
+- Forcer un retour à la ligne à l'intérieur d'une cellule se fait avec SHIFT+ENTRER
+- "?embed=true" a la fin d'une URL donne une vue simplifiée juste avec le contenu Grist
