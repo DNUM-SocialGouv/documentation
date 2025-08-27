@@ -24,7 +24,7 @@ Mon produit est un(e)...
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Base de données / Référentiel**
   * [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne
-  * [Grist] éventuellement pour un backend-as-a-service (_à confirmer_)
+  * \[Grist] éventuellement pour un backend-as-a-service (_à confirmer_)
   * sinon envisager le développement spécifique
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
@@ -41,7 +41,7 @@ Solutions et communs numériques grand public (solutions open source ou SaaS) :
   * Le présent [guide DNUM](https://dnum-ministeres-sociaux.gitbook.io/ressources/) (instance DNUM partagée)
   * [Base de connaissance VAO](https://dnum-ministeres-sociaux.gitbook.io/vao-documentation/t1eK0jUdXMliu8S6UWUr) (instance DNUM partagée)
   * [Base de connaissance Mon Suivi Social](https://mon-suivi-social.gitbook.io/mon-suivi-social) (instance dédiée)
-  
+
 Solutions et communs numériques inter-ministériels :
 
 * [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
@@ -64,7 +64,7 @@ API particulièrement intéressantes pour le MAS :
   * [API des établissements de santé](https://arssante.opendatasoft.com/) : données FINESS
   * [API des professionnels de santé](https://arssante.opendatasoft.com/) : données RPPS
   * [API Association du Compte Asso (DJEPVA) via API Entreprise](https://www.data.gouv.fr/dataservices/api-donnees-associations-djepva-bouquet-api-entreprise/) : intègre Alsace-Moselle et les données des autres API (RNA, SIRENE, DILA)
-* [API Base d'Adresse Nationale (BAN)](https://www.data.gouv.fr/fr/dataservices/api-base-dadresse-nationale-ban/)
+* [API Base d'Adresse Nationale (BAN)](https://www.data.gouv.fr/dataservices/api-adresse-base-adresse-nationale-ban/)
 
 ## Frameworks et librairies standards
 
@@ -77,14 +77,15 @@ API particulièrement intéressantes pour le MAS :
 * Workflow
 * Statistiques (tableaux de bord, production de fichiers CSV, BI)
   * Metabase ? Superset ?
-  * [Matomo pour la mesure d'audience](#matomo-pour-la-mesure-daudience)
+  * [Matomo pour la mesure d'audience](communs-numeriques.md#matomo-pour-la-mesure-daudience)
 * Chatbot
 * IA
 * ETL/ELT : Talend EE
 
 ## Matomo pour la mesure d'audience
-[Matomo](https://matomo.org/) est la solution de mesure d'audience et d'utilisation de nos services numériques (web analytics).
-Tout projet DEVRAIT réutiliser l'une des 3 instances de Matomo existantes :
+
+[Matomo](https://matomo.org/) est la solution de mesure d'audience et d'utilisation de nos services numériques (web analytics). Tout projet DEVRAIT réutiliser l'une des 3 instances de Matomo existantes :
+
 | Instance       | Hébergement                                                       |
 | -------------- | ----------------------------------------------------------------- |
 | Atlas (FabNum) | [SaaS @boscop.fr](https://boscop.fr/matomo-hebergement/)          |
