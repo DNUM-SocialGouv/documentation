@@ -20,12 +20,12 @@ Mon produit est un(e)...
     * en dernier recours, envisager le développement spécifique du front usager
   * pour le **back-office agent** :
     * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarches Simplifiées (ou Démat Social)
-    * si cela ne suffit pas, envisager un back-office complémentaire à DS
+    * si cela ne suffit pas, envisager un back-office complémentaire à DS, sur la base de [Grist](https://grist.numerique.gouv.fr/)
     * en dernier recours seulement, envisager le développement complet du back-office
-* **Base de données / Référentiel**
-  * [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne
-  * \[Grist] éventuellement pour un backend-as-a-service (_à confirmer_)
-  * sinon envisager le développement spécifique
+* **Référentiel de données**
+  * [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne ou à portée et criticité modérée
+  * Eventuellement Grist comme Backend-as-a-Service avec un frontend spécifique
+  * Sinon envisager le développement spécifique complet du référentiel
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
 

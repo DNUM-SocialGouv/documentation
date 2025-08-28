@@ -33,4 +33,8 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 - Donnée obligatoire (1 seul champ obligatoire par table lors de la création car tentative d’enregistrement immédiate)
 
 ## Sélection de plugins
-- Ajouter un entête type DSFR : https://agrippaharfleur.github.io/grist-custom-widgets/dsfr-en-tete/
+Si la source n'est pas officielle, il est préférable de copier-coller le contenu d'un plugin dans un "Custom Widget Plugin" plutôt que de référencer le code externe.
+- Ajouter un entête DSFR à une page Grist : https://github.com/agrippaharfleur/grist-custom-widgets/tree/main/dsfr-en-tete
+- Plugin gouv de publipostage PDF: https://github.com/betagouv/grist-custom-widgets-fr-admin/tree/main/app/omFiller
+- Plugin gouv pour Kanban : https://github.com/gristgouv/grist-widget-varamil/tree/main/kanban
+- Initiative de référencement des plugins Grist : https://docs.getgrist.com/9DZa7JFegUxz/GristHub/p/1
