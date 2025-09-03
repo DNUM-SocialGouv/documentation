@@ -10,16 +10,20 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 |                              | [Version SaaS](https://www.getgrist.com) | [Version DINUM](https://grist.numerique.gouv.fr/) |
 | ---------------------------- | ---------------------------------------- | ------------------------------------------------- |
 | Niveau de licence            | Basic (gratuit) ou Premium (payant)      | Open-Source (gratuit)                             |
-| Entité responsable           | getgrist.com                             | SPN/DINUM                                         |
-| Hébergement                  | getgrist.com                             | SecNumCloud@OVH                                   |
+| Entité responsable           | getgrist.com                             | SPN/DINUM/OPI                                     |
+| Hébergement                  | getgrist.com                             | SecNumCloud@Outscale                                   |
 | ProConnect et PC Identité    | Non                                      | Oui                                               |
 | Envoi d'invitation par email | Oui                                      | Non                                               |
 | Webhooks - urls autorisées   | *                                        | *.gouv.fr                                         |
+| Homologation RGS             | Non                                      | Oui                                               |
 
 ## Ressources
-- [Gestion avancée des droits](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
+- [Webinaire découverte](todo)
+- [Webinaire permissions avancées](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
+- [Webinaire Grist et RGPD](https://tube.numerique.gouv.fr/w/u1bwi5r2em6c2x6uRQ2H7d)
 - [Doc API](https://support.getgrist.com/fr/api/)
-- [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1)
+- [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
+- [Info tech hébergement Grist](https://pad.numerique.gouv.fr/s/l45y9IfKS#Pourquoi-grist-est-en-%E2%80%9Cbeta%E2%80%9D-)
 
 ## API
 - webhooks (envoi vers service externe) déclenchés sur opérations C+U+D ou explicitement sur un bouton d'action
@@ -31,6 +35,9 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 - illustration de lookupOne pour initialiser un champ de type Référence. Ici le réseau de l'utilisateur connecté : Users.lookupOne(Email=user.Email).Reseau
 - Renseigner systématiquement un message explicatif pour chaque permission avancée. Ce message est affiché à l'utilisateur en cas d'erreur.
 - Donnée obligatoire (1 seul champ obligatoire par table lors de la création car tentative d’enregistrement immédiate)
+- Grist comme Backend-as-a-service : pour cas très simples seulement car
+    - pas possible de propager l'authentification ProConnect au backend Grist
+    - pas possible de récupérer les permissions par API
 
 ## Sélection de plugins
 Si la source n'est pas officielle, il est préférable de copier-coller le contenu d'un plugin dans un "Custom Widget Plugin" plutôt que de référencer le code externe.

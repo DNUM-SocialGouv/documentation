@@ -23,8 +23,8 @@ Mon produit est un(e)...
     * si cela ne suffit pas, envisager un back-office complémentaire à DS, sur la base de [Grist](https://grist.numerique.gouv.fr/)
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Référentiel de données**
-  * [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne ou à portée et criticité modérée
-  * Eventuellement Grist comme Backend-as-a-Service avec un frontend spécifique
+  * Si possible paramétrage front et back sur [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne ou à portée et criticité modérée
+  * Sinon développement front spécifique sur la base d'un [backend-as-a-service](#backends-as-a-service)
   * Sinon envisager le développement spécifique complet du référentiel
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
@@ -81,6 +81,14 @@ API particulièrement intéressantes pour le MAS :
 * Chatbot
 * IA
 * ETL/ELT : Talend EE
+
+## Backends as a Service
+* Eventuellement Grist comme Backend-as-a-Service avec un frontend spécifique s'il n'y a pas besoin de permissions Grist avancées. Quelques limitations de Grist :
+  * Les permissions avancées ne sont pas accessibles par API
+  * Pas de propagation de l'authentification ProConnect par API : compte de service seulement
+  * l'API  de l'instance DINUM est limitée à 10 appels en parallèle par document Grist
+* Directus.io est satisfaisant mais a un coût de licence
+* Manifest.build a été écarté car trop limité
 
 ## Matomo pour la mesure d'audience
 
