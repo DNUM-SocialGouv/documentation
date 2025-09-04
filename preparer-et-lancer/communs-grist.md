@@ -18,7 +18,6 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 | Homologation RGS             | Non                                      | Oui                                               |
 
 ## Ressources
-- [Webinaire découverte](todo)
 - [Webinaire permissions avancées](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
 - [Webinaire Grist et RGPD](https://tube.numerique.gouv.fr/w/u1bwi5r2em6c2x6uRQ2H7d)
 - [Doc API](https://support.getgrist.com/fr/api/)
