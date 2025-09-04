@@ -23,6 +23,7 @@
       * [La roadmap](preparer-et-lancer/organisation-produit/ressources/la-roadmap.md)
       * [Les indicateurs](preparer-et-lancer/organisation-produit/ressources/les-indicateurs.md)
   * [Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
+  * [Communs Grist](preparer-et-lancer/communs-grist.md)
   * [Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
     * [Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
