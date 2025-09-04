@@ -59,7 +59,7 @@ API particulièrement intéressantes pour le MAS :
 
 * Les API Entreprise
   * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/) : pas de recherche multicritères
-  * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f?aq=ALL) pour les besoins simples de recherche
+  * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f) pour les besoins simples de recherche
   * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/) : recherche par SIRET/nom ET filtrage sur critères (codes d'activité, géographie...)
   * [API des établissements de santé](https://arssante.opendatasoft.com/) : données FINESS
   * [API des professionnels de santé](https://arssante.opendatasoft.com/) : données RPPS
