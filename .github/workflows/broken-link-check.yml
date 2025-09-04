@@ -1,0 +1,99 @@
+name: Broken link check
+
+on:
+  #push:
+  #  branches: [main]
+  #pull_request:
+  #  branches: [main]
+  #schedule:
+  #  - cron: "0 5 * * 1" # Chaque lundi matin à 7h
+  workflow_dispatch:
+    inputs:
+      check_depth:
+        description: "La profondeur d'analyse"
+        required: false
+        type: number
+        default: 5
+      check_external:
+        description: "Si les liens externes doivent être vérifiés"
+        required: false
+        default: "oui"
+        type: choice
+        options:
+          - "oui"
+          - "non"
+      debug:
+        description: "Si le mode debug doit être activé"
+        required: false
+        default: "non"
+        type: choice
+        options:
+          - "oui"
+          - "non"
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5.0.0
+
+      - name: Run link checker
+        env:
+          CHECK_DEPTH: ${{ inputs.check_depth }}
+          CHECK_EXTERNAL: ${{ inputs.check_external }}
+          DEBUG: ${{ inputs.debug }}
+        run: |
+          page_to_check="https://dnum-ministeres-sociaux.gitbook.io/ressources"
+          echo "🔍 Lancement de la vérification des liens pour '$page_to_check'..."
+
+          temp_output=$(mktemp)
+
+          # https://linkchecker.github.io/linkchecker/man/linkchecker.html#options
+          command="docker run --rm -i -u \"$(id -u)\":\"$(id -g)\" ghcr.io/linkchecker/linkchecker:latest -o failures"
+          exclusions="--ignore-url=\"^https:\/\/msociauxfr\.sharepoint\.com\" --ignore-url=\"^https:\/\/www\.figma\.com\""
+          other_options="--recursion-level=$CHECK_DEPTH"
+
+          if [ "$CHECK_EXTERNAL" = "oui" ]; then
+            other_options="$other_options --check-extern"
+          fi
+
+          if [ "$DEBUG" = "non" ]; then
+            other_options="$other_options --no-status"
+          fi
+
+          eval "$command $exclusions $other_options $page_to_check" 2>&1 | tee "$temp_output"
+
+          exit_code=${PIPESTATUS[0]}
+          
+          if [ "$DEBUG" = "oui" ]; then
+            echo "[DEBUG] Code de sortie : $exit_code"
+            echo "[DEBUG] Sortie :"
+            cat "$temp_output"
+          fi
+          
+          if [ "$exit_code" = 0 ]; then
+              echo "✅ Aucun lien mort trouvé."
+              rm "$temp_output"
+              exit 0
+          fi
+
+          echo "❌ Résultats de l'analyse :"
+          echo ""
+          
+          cat "$temp_output" | while IFS= read -r line; do
+            page=$(echo "$line" | sed -n "s/.*('\([^']*\)', '\([^']*\)').*/\1/p")
+            problem=$(echo "$line" | sed -n "s/.*('\([^']*\)', '\([^']*\)').*/\2/p")
+          
+            if [ -n "$page" ] && [ -n "$problem" ]; then
+              echo "  - Page : '$page', problème : '$problem'"
+            fi
+          done
+          
+          echo ""
+          echo "Si certains de ces liens morts sont des faux-positifs, excluez-les de l'analyse."
+          
+          rm "$temp_output"
+          exit 1
