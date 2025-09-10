@@ -128,24 +128,26 @@ Points communs :
 * A héberger en interne sur Intranet ou Cegedim ; sauf à faire évoluer Atlas pour PHP ou Python
 * Recherche texte intégrale, y compris dans les pièces-jointes
 
-Différences :
+Différences dans notre contexte:
 
-|                      | Socle Ondine       | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
-| -------------------- | ------------------ | -------------------------------------------------------------- |
-| Entité responsable   | SG/DICOM           | SPM/DINUM/OPI                                                  |
-| Open source          | Non                | Oui                                                            |
-| Stack technique      | Varnish/Drupal/PHP | Wagtail(CMS)/Django/Python                                     |
-| Stockage de données  | MariaDB            | PostgreSQL                                                     |
-| Stockage index       | Solr               | PostgreSQL ou Elasticsearch                                    |
-| Stockage de fichiers | GlusterFS (ou S3?) | Filesystem ou S3                                               |
-| Instance multi-sites | Oui                | Non                                                            |
-| ProConnect natif     | Non                | Oui                                                            |
-| Conformité RGAA      | RGAA 4 à 75%       | RGAA 4.1 partiel                                               |
-| Conformité RGS       | Oui                | n/c                                                            |
+|                      | Socle Ondine         | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
+| -------------------- | -------------------- | -------------------------------------------------------------- |
+| Entité responsable   | SG/DICOM             | SPM/DINUM/OPI                                                  |
+| Open source          | Non                  | Oui                                                            |
+| Stack technique      | Varnish/Drupal/PHP   | Wagtail(CMS)/Django/Python                                     |
+| Stockage de données  | MariaDB              | PostgreSQL                                                     |
+| Stockage index       | Solr                 | PostgreSQL ou Elasticsearch                                    |
+| Stockage de fichiers | GlusterFS (ou S3?)   | Filesystem ou S3                                               |
+| Instance multi-sites | Oui                  | Non                                                            |
+| ProConnect natif     | Non                  | Oui                                                            |
+| Conformité RGAA      | RGAA 4 à 75%         | RGAA 4.1 partiel                                               |
+| Conformité RGS       | Oui                  | n/c                                                            |
+| Dév spécifique       | Non                  | Oui                                                            |
+| Montées de version   | A la charge du socle | A la charge des équipes produits                               |
 
 Synthèse :
 
-* Le socle Ondine est davantage industrialisé pour être hébergé en interne, mais pas forcément sur la cible Cloud. Il bénéficie des forces et faiblesses de Drupal.
+* Le socle Ondine est industrialisé pour être hébergé en interne. Sa migration sur la cible Cloud est prévue. Il bénéficie des forces et faiblesses de Drupal.
 * Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement sur un cloud.
 
 ## Suivi des pistes explorées et décisions d'architecture
