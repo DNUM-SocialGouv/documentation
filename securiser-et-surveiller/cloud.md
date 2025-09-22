@@ -58,9 +58,11 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 | -------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ---------------- |
 | **Atlas@OVH**        | CaaS          | O          | O         | O             | N              | N           | 2-3-3-3   | API@ClamAV       |
 | **Atlas@OVH-SNC**    | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV       |
-| **Cegedim.cloud**    | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto)    |
+| **Cegedim HDS**      | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto)    |
 | **Rosny (Travail)**  | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
 | **Dusquene (Santé)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
+
+Les clouds étatiques internes PI (Minint) et NUBO (dgfip) ne sont pas utilisés au Ministère.
 
 Précisions :
 
