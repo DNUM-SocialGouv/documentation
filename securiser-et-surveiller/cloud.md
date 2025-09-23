@@ -30,10 +30,10 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
   * optimisation financière (FinOps) et environnementale (RGESN, GreenOps)
 * Privilégier l’utilisation des fonctionnalités natives des fournisseurs de cloud
   * privilégier le SaaS si la souveraineté et le coût le permettent; sinon
-  * privilégier le PaaS au CaaS
+  * privilégier le PaaS au CaaS (_sans raison évidente, le PaaS ne fait pas partie de la stratégie DNUM à l'heure actuelle_)
   * privilégier le CaaS au IaaS
 * Les nouvelles applications (incluant les refontes) vont par défaut dans le cloud
-  * l’hébergement interne est réservé aux périmètres non cloudifiables.
+  * l’hébergement interne est réservé aux périmètres non cloudifiables, mais suivent a minima une logique de conteneurisation
   * la bascule « telle quelle » est limitée aux cas extrêmes (ex : migration de masse avant fermeture de DC)
 
 ## Quel hébergement cloud pour quel cas d'usage ?
@@ -41,10 +41,14 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
 3 offres de cloud sont déployées en plus de l'existant Rosny/Dusquene :
 
 * **Cloud générique (Atlas@OVH)** : applications sans contrainte réglementaire spécifique
-* **Cloud HDS (auj. Cegedim.cloud)** : applications manipulant des données de santé et nécessitant une [certification HDS](https://esante.gouv.fr/produits-services/hds) de l'hébergement et/ou de l'infogérance
+* **Cloud HDS (auj. Cegedim, demain Atlas@OVH-HDS)** : applications manipulant des données de santé et nécessitant une [certification HDS](https://esante.gouv.fr/produits-services/hds) de l'hébergement et/ou de l'infogérance
 * **Cloud de confiance (Atlas@OVH-SecNumCloud)** : applications manipulant des données particulièrement sensibles, y compris celles contenant des données de santé sensibles, nécessitant une qualification [SecNumCloud par l'ANSSI](https://cyber.gouv.fr/secnumcloud-pour-les-fournisseurs-de-services-cloud). Les données sont **particulièrement sensibles** lorsqu'elles réunissent deux conditions :
   * elles doivent être sensibles soit par nature (parce qu’identifiées comme un secret légal) soit du fait de leur emploi (parce qu’impliquées dans une mission essentielle de l’État)
   * leur violation aurait pour conséquence une atteinte à l’ordre public, la sécurité publique, la santé, la vie des personnes ou la propriété intellectuelle.
+
+Les "clouds internes" de l'Etat Pi (MININT) et Nubo (DGFIP) ne sont pas utilisés au Ministère :
+* nous n'avons pas besoin du niveau "diffusion restreinte" du cloud Pi
+* nous préférons l'offre SecNumCloud d'OVH au Cloud Nubo
 
 ## Caractéristiques des plateformes d'hébergement
 
@@ -61,8 +65,6 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 | **Cegedim HDS**      | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto)    |
 | **Rosny (Travail)**  | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
 | **Dusquene (Santé)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
-
-Les clouds étatiques internes PI (Minint) et NUBO (dgfip) ne sont pas utilisés au Ministère.
 
 Précisions :
 
