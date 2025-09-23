@@ -19,13 +19,12 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 
 ## Ressources
 - [Webinaire permissions avancées](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
-- [Webinaire Grist et RGPD](https://tube.numerique.gouv.fr/w/u1bwi5r2em6c2x6uRQ2H7d)
 - [Doc API](https://support.getgrist.com/fr/api/)
 - [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
-- [Info tech hébergement Grist](https://pad.numerique.gouv.fr/s/l45y9IfKS#Pourquoi-grist-est-en-%E2%80%9Cbeta%E2%80%9D-)
+- [Info techniques sur l'hébergement Grist](https://pad.numerique.gouv.fr/s/l45y9IfKS#Pourquoi-grist-est-en-%E2%80%9Cbeta%E2%80%9D-)
 
 ## API
-- webhooks (envoi vers service externe) déclenchés sur opérations C+U+D ou explicitement sur un bouton d'action
+- webhooks (envoi vers service externe) déclenchés sur opérations C+U+D ou explicitement par un bouton d'action
 
 ## Notes
 - L'instance DINUM grist.numerique.gouv.fr n'envoie pas d'invitation aux nouveaux utilisateurs. Il faut copier le lien et l'envoyer par un autre canal.
