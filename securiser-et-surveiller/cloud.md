@@ -83,3 +83,13 @@ Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
 | **Rosny**         | N          | VPN ?     | ========= | ========= | ============= |
 | **Dusquene**      | N          | VPN ?     | O (RIE ?) | ========= | ============= |
 | **Atlas@OVH-SNC** | VPN IPSec  | N         | ?         | ?         | ============= |
+
+## Notes sur HDS
+* HDS est une norme qui comprend 6 niveaux d'activité, du stockage de la donnée à l'infogérance de l'application
+* HDS vs SecNumCloud :
+  * HDS et SecNumCloud ont évolué séparément, sans concertation. D'où la difficulté parfois de positionner l'un et l'autre.
+  * Etre SecNumCloud ne veut pas dire être HDS, et inversement
+  * HDS n'a pas de notion de souveraineté, contrairement à SecNumCloud
+* HDS est du "droit mou" soumis a interprétation :
+  * HDS ne traite pas des systèmes intermédiaires entre l'utilisateur et le système qui stocke la donnée : offre PaaS sur sous-traitant hébergeur HDS, API Gateway...
+  * Lorsque l'application est développée en agile ou exploitée en interne, on peut considérer qu'il n'y a pas d'infogérance, donc pas d'infogérance HDS
