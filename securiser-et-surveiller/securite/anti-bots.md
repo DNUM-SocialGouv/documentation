@@ -2,7 +2,7 @@
 
 L'enjeu est d'identifier les différentes menaces impliquant des bots (automates logiciels) et les solutions pour y faire face.
 
-## Enjeux et menaces dans notre contexte
+## Menaces dans notre contexte
 
 Les bots sont prévus pour mener différents types d'attaques et servent différents objectifs malveillants :
 
@@ -10,6 +10,9 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
 * **Vol de données** : par exemple par [web scraping](https://fr.wikipedia.org/wiki/Web_scraping).
 * **Attaque par force brute** : obtenir un accès sans en être le détenteur légitime, afin de mener des actions illicites (détourner des subventions, manipuler le résultat d'élections professionnelles...)\
   \&#xNAN;_Les attaques sont souvent dépersonnalisées, opportunistes, mais pas toujours. Elles peuvent donc être ciblées ou systématiques._
+
+## Enjeux d'accessibilité
+[Captcha et accessibilité](https://design.numerique.gouv.fr/articles/2024-11-28-captcha-et-accessibilite/)
 
 ## Recommandations
 
