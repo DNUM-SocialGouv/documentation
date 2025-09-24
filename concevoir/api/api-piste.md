@@ -23,14 +23,14 @@ PISTE n'est pas une solution pertinente pour :
 - PISTE a un timeout de 30 secondes entre PISTE et l'application métier exposée.
 - PISTE conserve systématiquement les traces pendant 10 jours. PISTE ne permet pas d'accès direct aux traces. Il faut s'adresser au support de PISTE pour tout diagnostic.
 - PISTE n'offre pas de supervision par l'administrateur fonctionnel
-- PISTE offre un service (non-documenté) dédié au transfert de pièces-jointes volumineuses
+- PISTE offre un service (non-documenté) dédié au transfert de pièces-jointes volumineuses (> 10Mo)
 
 ## Sécurité
-- On peut demander demander aux équipes PISTE l'anonymisation définitive des traces.
+- On peut demander aux équipes PISTE l'anonymisation définitive des traces.
 - Le trafic entre PISTE et nos applications métiers repasse nécessairement par Internet. Le filtrage IP et DNS est fortement recommandé. Un VPN existant entre PISTE et le RIE, offre éventuellement une route plus sécurisée vers nos applications métier.
 - PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
 - PISTE permet des scopes OAuth2 pour gérer des droits plus fins par client
-- PISTE permet la mise en place de quotas d'utilisation, par client ou pour tous clients confondus
+- PISTE permet la mise en place de quotas d'utilisation, par client ou pour tous les clients d'une API
 - PISTE renvoie une erreur 403 en cas de contenu tronqué ou inconsistant (ex : une balise XML pas fermée). Par sécurité, une telle erreur est considérée comme une utilisation non autorisée de l'API et n'arrivera pas à l'application métier.
 
 ## Administration des accès
@@ -52,3 +52,7 @@ PISTE n'est pas une solution pertinente pour :
 Contre-exemples de projets avec décision de ne pas passer par PISTE :
 - PTT : interfaçage de PPT et SUIT, 2 applications métier internes bien que sur des hébergements différents
 - MEDLE : un seul éditeur de logiciel partenaire, en expérimentation
+
+## Prise de notes
+- Mi-2025, PISTE absorbe en moyenne 60000 appels/s
+- L'API qui génère le plus d'appels est CaptchEtat
