@@ -18,6 +18,7 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 | Homologation RGS             | Non                                      | Oui                                               |
 
 ## Ressources
+- [Webinaire d'introduction](https://tube.numerique.gouv.fr/w/hMJ8DMj1beqv1D12vpgBKq)
 - [Webinaire permissions avancées](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
 - [Doc API](https://support.getgrist.com/fr/api/)
 - [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
