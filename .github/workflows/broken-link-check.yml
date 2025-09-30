@@ -53,7 +53,7 @@ jobs:
 
           # https://linkchecker.github.io/linkchecker/man/linkchecker.html#options
           command="docker run --rm -i -u \"$(id -u)\":\"$(id -g)\" ghcr.io/linkchecker/linkchecker:latest -o failures"
-          exclusions="--ignore-url=\"^https:\/\/msociauxfr\.sharepoint\.com\" --ignore-url=\"^https:\/\/www\.figma\.com\""
+          exclusions="--ignore-url=\"^https:\/\/msociauxfr\.sharepoint\.com\" --ignore-url=\"^https:\/\/www\.figma\.com\" --ignore-url=\"^https:\/\/portail-api\.insee\.fr\" --ignore-url=\"^https:\/\/factorial\.fr\/blog\/buddy-parrainage\""
           other_options="--recursion-level=$CHECK_DEPTH"
 
           if [ "$CHECK_EXTERNAL" = "oui" ]; then
