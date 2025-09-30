@@ -9,7 +9,7 @@ Une Fiche de Décision d'Architecture (ADR) est un document qui capture une déc
 👉 Plusieurs modèles sont proposés. Voir <a href="https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates" id="template-adr">modèles ADR</a>
 
 
-## Modèle ADR By Michael Nygard
+## Modèle ADR par Michael Nygard
 
 **Titre**  
 Décrivez le titre de la décision.
