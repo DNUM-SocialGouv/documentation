@@ -43,6 +43,6 @@ Pour assurer une gestion efficace des Fiches de Décision d'Architecture, il est
 
 - **VS Code ADR Extension**  
     Extension pour Visual Studio Code facilitant la création et la gestion des ADR directement depuis l’éditeur.  
-    [ADR Extension sur le Marketplace VS Code](https://marketplace.visualstudio.com/items?itemName=adr.vscode-adr)
+    [ADR Extension sur le Marketplace VS Code](https://marketplace.visualstudio.com/items?itemName=StevenChen.vscode-adr-manager)
 
-    ![Capture d’écran de l’extension ADR dans VS Code](./adr-extension-screenshot.png)
+    ![Capture d’écran de l’extension ADR dans VS Code](./images/adr-extension-screenshot.png)
