@@ -52,6 +52,7 @@
     * [Exposition d'API](concevoir/api/api-gateway.md)
     * [PISTE](concevoir/api/api-piste.md)
     * [Sécurisation d'API](concevoir/api/api-securite.md)
+  * [Architecture Decision Records](concevoir/architecture-decision-record.md)
 * [Développer](constuire-developper-deployer/README.md)
   * [Checklist projet](constuire-developper-deployer/checklist-projet.md)
   * [Open Source](constuire-developper-deployer/open-source.md)
