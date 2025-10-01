@@ -34,17 +34,19 @@ En intégrant un designer et expert en recherche utilisateur au plus tôt. Ces e
 
 ### Quand engager un processus de design ?
 
-Si vous avez :
+Il vous est recommandé d'engage un processus de design si votre produit a :
 
-*   **100 ou plus usagers particuliers (citoyens)**
+*   **100 usagers particuliers ou plus**
 
-    Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).\\
-* **100 ou plus usagers professionnels**\
-  Incluent des experts comme des responsables d'établissement, des professionnels de santé qui utilisent les services dans le cadre de leur métier. Ils ont besoin d’outils efficaces et qui ne nécessitent aucune formation.\\
-* **10 ou plus agents publics**\
-  Agents d'ARS, de DDETS, de DREETs ou autres qui utilisent des outils internes pour exécuter leurs missions. Leurs attentes sont orientées vers la performance, la simplicité et un besoin en formation minimal.\\
-* **10 ou plus partenaires métiers**\
+    Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).
+* **100 usagers professionnels ou plus**\
+  Incluent des experts comme des responsables d'établissement, des professionnels de santé qui utilisent les services dans le cadre de leur métier. Ils ont besoin d’outils efficaces et qui ne nécessitent aucune formation.
+* **10 agents publics**\
+  Agents d'ARS, de DDETS, de DREETs ou autres qui utilisent des outils internes pour exécuter leurs missions. Leurs attentes sont orientées vers la performance, la simplicité et un besoin en formation minimal.
+* **10 partenaires métiers**\
   Profils spécifiques au sein des ministères (juristes, pilotes de politique public, etc.) ou des collectivités locale (Directions Départementales, Directions Régionales) avec des besoins parfois complexes ou inédits.
+
+Le processus de design sera adapté à votre réalité et à votre besoin, il aura pour priorité de vous aider à rencontrer vos utilisateurs.&#x20;
 
 {% hint style="info" %}
 Ressources utiles :
