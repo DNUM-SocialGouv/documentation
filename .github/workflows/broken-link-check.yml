@@ -1,4 +1,4 @@
-name: Broken link check
+name: Broken Link Check
 
 on:
   #push:
@@ -40,60 +40,85 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5.0.0
 
-      - name: Run link checker
+      - name: Install python
+        uses: actions/setup-python@v6.0.0
+        with:
+          python-version: "3.13.7"
+
+      - name: Install linkchecker and run analysis
         env:
           CHECK_DEPTH: ${{ inputs.check_depth }}
           CHECK_EXTERNAL: ${{ inputs.check_external }}
           DEBUG: ${{ inputs.debug }}
         run: |
-          page_to_check="https://dnum-ministeres-sociaux.gitbook.io/ressources"
+          echo "Installation de Linkchecker..."
+          pip3 install linkchecker
+
+          page_to_check="https://dnum-ministeres-sociaux.gitbook.io/ressources/"
           echo "🔍 Lancement de la vérification des liens pour '$page_to_check'..."
 
           temp_output=$(mktemp)
 
           # https://linkchecker.github.io/linkchecker/man/linkchecker.html#options
-          command="docker run --rm -i -u \"$(id -u)\":\"$(id -g)\" ghcr.io/linkchecker/linkchecker:latest -o failures"
-          exclusions="--ignore-url=\"^https:\/\/msociauxfr\.sharepoint\.com\" --ignore-url=\"^https:\/\/www\.figma\.com\" --ignore-url=\"^https:\/\/portail-api\.insee\.fr\" --ignore-url=\"^https:\/\/factorial\.fr\/blog\/buddy-parrainage\""
+          command="linkchecker -o failures"
+
+          exclusions='--ignore-url="^https:\/\/msociauxfr\.sharepoint\.com" \
+          --ignore-url="^https:\/\/www\.figma\.com" \
+          --ignore-url="^https:\/\/portail-api\.insee\.fr" \
+          --ignore-url="^https:\/\/factorial\.fr" \
+          --ignore-url="^https:\/\/(www.)?systeme-de-design\.gouv\.fr" '
+
           other_options="--recursion-level=$CHECK_DEPTH"
 
-          if [ "$CHECK_EXTERNAL" = "oui" ]; then
+          if [ "$CHECK_EXTERNAL" == "oui" ]; then
             other_options="$other_options --check-extern"
           fi
 
-          if [ "$DEBUG" = "non" ]; then
+          if [ "$DEBUG" == "non" ]; then
             other_options="$other_options --no-status"
           fi
 
           eval "$command $exclusions $other_options $page_to_check" 2>&1 | tee "$temp_output"
 
           exit_code=${PIPESTATUS[0]}
-          
-          if [ "$DEBUG" = "oui" ]; then
+
+          if [ "$DEBUG" == "oui" ]; then
             echo "[DEBUG] Code de sortie : $exit_code"
             echo "[DEBUG] Sortie :"
             cat "$temp_output"
           fi
-          
-          if [ "$exit_code" = 0 ]; then
+
+          if [ "$exit_code" == 0 ]; then
               echo "✅ Aucun lien mort trouvé."
               rm "$temp_output"
               exit 0
           fi
 
+          problems=()
+
+          while IFS= read -r line; do
+            if [[ $line =~ \(\'([^\']*)\',\ \'([^\']*)\'\) ]]; then
+              page="${BASH_REMATCH[1]}"
+              problem="${BASH_REMATCH[2]}"
+              problems+=("  - Page: '$page', problème: '$problem'")
+            fi
+          done < "$temp_output"
+
+          if [ "${#problems[@]}" -eq 0 ]; then
+            echo "✅ Aucun lien mort trouvé."
+            rm "$temp_output"
+            exit 0
+          fi
+
           echo "❌ Résultats de l'analyse :"
           echo ""
-          
-          cat "$temp_output" | while IFS= read -r line; do
-            page=$(echo "$line" | sed -n "s/.*('\([^']*\)', '\([^']*\)').*/\1/p")
-            problem=$(echo "$line" | sed -n "s/.*('\([^']*\)', '\([^']*\)').*/\2/p")
-          
-            if [ -n "$page" ] && [ -n "$problem" ]; then
-              echo "  - Page : '$page', problème : '$problem'"
-            fi
+
+          for ((i = 0; i < "${#problems[@]}"; i++)); do
+            echo "${problems[i]}"
+            echo ""
           done
-          
-          echo ""
+
           echo "Si certains de ces liens morts sont des faux-positifs, excluez-les de l'analyse."
-          
+
           rm "$temp_output"
           exit 1
