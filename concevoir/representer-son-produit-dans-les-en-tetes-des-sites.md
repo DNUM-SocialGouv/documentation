@@ -111,7 +111,7 @@ Exemples &#x20;
 
 Retrouvez les périmètre d'applications des entités de l'état dans la circulaire 6411-SG du 7 juillet 2023.
 
-périmètre d’application de la circulaire 6411-SG du juillet 2023 pour les personnes morales de l’Etat :
+Périmètre d’application de la circulaire 6411-SG du juillet 2023 pour les personnes morales de l’Etat :
 
 <figure><img src="../.gitbook/assets/unknown (8).png" alt=""><figcaption></figcaption></figure>
 
