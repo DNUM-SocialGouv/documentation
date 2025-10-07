@@ -14,7 +14,7 @@ Ces règles permettent de garantir une meilleure lisibilité pour les usagers et
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">Exemple d'un bloc-marque ministériel avec le nom du produit en titre et sa baseline</p>
+<p align="center"><mark style="color:$info;">Exemple d'un bloc-marque ministériel avec le nom du produit en titre et sa baseline</mark></p>
 
 
 
@@ -23,6 +23,7 @@ Ressources utiles : &#x20;
 * [L'architecture de marque de l’État.](https://www.info.gouv.fr/marque-de-letat/l-architecture-de-marque-de-l-etat)&#x20;
 * [Circulaire 6411-SG du 7 juillet 2023](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)&#x20;
 * [Jaune budgétaire 2025 (section "accès rapide" en bas de page)](https://www.budget.gouv.fr/documentation/documents-budgetaires/exercice-2025/projet-loi-finances-les/jaunes-budgetaires-2025-plf-2025) &#x20;
+* [Modèles d'en-têtes à utiliser (maquettes Figma)](https://www.figma.com/design/1F77YLcBVbNw4CCEUr9PSQ/Mod%C3%A8les-de-pages-et-standards-d-espacements?node-id=4355-3259\&p=f\&t=6AiqhwsDt4COtXlj-11)
 
 ***
 
@@ -47,6 +48,8 @@ Si vous ne savez pas dans quelle catégorie votre site se situe, contactez votre
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
+<p align="center"><mark style="color:$info;">Représentation des droits d'utilisation des bloc-marques et logo en fonction des entités émettrices</mark></p>
+
 #### Pour les sites ministériels&#x20;
 
 Le bloc-marque du ministère est obligatoire. Si plusieurs ministères portent le site/produit, utiliser le bloc-marque Gouvernement.&#x20;
@@ -57,15 +60,19 @@ Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’é
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">Bloc-marque MTSSF</p>
+<p align="center"><mark style="color:$info;">Bloc-marque MTSSF</mark></p>
+
+<p align="center"></p>
 
 <p align="center"><img src="../.gitbook/assets/image (8).png" alt="" data-size="original"> </p>
 
-<p align="center">Bloc-marque gouvernement</p>
+<p align="center"><mark style="color:$info;">Bloc-marque gouvernement</mark></p>
+
+<p align="center"></p>
 
 <figure><img src="../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">En-tête du site bulletins officiels </p>
+<p align="center"><mark style="color:$info;">Exemple d'en-tête de site ministériel</mark></p>
 
 &#x20;
 
@@ -75,15 +82,15 @@ Les opérateurs inscrits au jaune budgétaire ont la possibilité d’afficher l
 
 ⚠️ L’utilisation d’un logotype n’est pas possible avec le bloc-marque du ministère.&#x20;
 
-Exemples&#x20;
 
-![](<../.gitbook/assets/unknown (3).png>) ![](<../.gitbook/assets/unknown (4).png>)&#x20;
 
-En-têtes des sites de l'ARS Ile de France et de France Travail&#x20;
+<p align="center"><img src="../.gitbook/assets/unknown (3).png" alt=""> <img src="../.gitbook/assets/unknown (4).png" alt=""> </p>
+
+<p align="center"><mark style="color:$info;">Exemple d'en-têtes d'opérateurs, sites de l'ARS Ile de France et de France Travail</mark> </p>
 
 #### Pour les entités servicielles&#x20;
 
-Les entités rendant un service à l’usager peuvent afficher un logotype à côté du bloc-marque République Française, ce n’est pas une obligation. Ces entités peuvent choisir d’utiliser le bloc-marque du ministère et le nom de leur site en Html.&#x20;
+Les entités rendant un service à l’usager peuvent afficher un logotype à côté du bloc-marque République Française, ce n’est pas une obligation. Ces entités peuvent choisir d’utiliser le bloc-marque du ministère et le nom de leur site et description du site en Html.&#x20;
 
 Pour les nouveaux logos : l’utilisation d’un logotype est soumise à approbation au cas par cas par arbitrage DICOM/DNUM-SIG afin de limiter l’inflation d’identités graphiques auxquelles sont exposés les citoyens.&#x20;
 
@@ -91,30 +98,15 @@ Pour les nouveaux logos : l’utilisation d’un logotype est soumise à approba
 Dans le doute, demandez à votre DICOM et responsable du design avant d’engager la création d’un logo. &#x20;
 {% endhint %}
 
-&#x20;
-
-Exemples &#x20;
+&#x20; &#x20;
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center"> Site serviciel avec le bloc-marque ministériel</p>
+<p align="center"> <mark style="color:$info;">Exemple d'en-tête de site serviciel sans logo avec le bloc-marque ministériel, le nom du site et sa description</mark></p>
 
-<figure><img src="../.gitbook/assets/unknown (6).png" alt=""><figcaption></figcaption></figure>
+<p align="center"></p>
 
-<p align="center"> Site serviciel avec le bloc-marque République Française</p>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
+<p align="center"><mark style="color:$info;">Exemple d'en-tête de site serviciel avec le bloc-marque République Française, le nom du site et sa description</mark></p>
 
-***
-
-### Plus d'informations
-
-Retrouvez les périmètre d'applications des entités de l'état dans la circulaire 6411-SG du 7 juillet 2023.
-
-Périmètre d’application de la circulaire 6411-SG du juillet 2023 pour les personnes morales de l’Etat :
-
-<figure><img src="../.gitbook/assets/unknown (8).png" alt=""><figcaption></figcaption></figure>
-
-Périmètre d’application de la circulaire 6411-SG du juillet 2023 pour les opérateurs de l’Etat (tels que définis par le jaune budgétaire)
-
-<figure><img src="../.gitbook/assets/unknown (9).png" alt=""><figcaption></figcaption></figure>
