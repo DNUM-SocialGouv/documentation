@@ -8,7 +8,7 @@ icon: seal
 
 # Représenter son produit dans les en-têtes des sites
 
-Tout site porté par l’Etat et ses opérateurs doit respecter les règles d’usage de la marque Etat. Dans le cas des sites soumis à agrément du SIG, le non-respect des règles d’usage entrainera le refus d’agrément.
+Tout site porté par l’Etat et ses opérateurs doit respecter les règles d’usage de la marque Etat. Dans le cas des sites soumis à agrément du SIG, le non-respect des règles d’usage entrainera le refus de l’agrément.
 
 Ces règles permettent de garantir une meilleure lisibilité pour les usagers et de renforcer la confiance dans nos services en ligne.
 
@@ -78,7 +78,7 @@ Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’é
 
 #### Pour les opérateurs de l'Etat&#x20;
 
-Les opérateurs inscrits au jaune budgétaire ont la possibilité d’afficher leur logotype à côté du bloc-marque République Française. Par ailleurs, les opérateurs qui souhaitent afficher un attachement avec leur ministère peuvent utiliser le bloc-marque du ministère et le nom de leur site en HTML.&#x20;
+Les opérateurs inscrits au jaune budgétaire ont la possibilité d’afficher leur logotype à côté du bloc-marque République Française. En revanche, les opérateurs qui le souhaitent peuvent afficher un attachement avec leur ministère en utilisant le bloc-marque du ministère et le nom de leur site en HTML. Cette décision doit être prise en collaboration avec la DICOM du MTSSF.&#x20;
 
 ⚠️ L’utilisation d’un logotype n’est pas possible avec le bloc-marque du ministère.&#x20;
 
