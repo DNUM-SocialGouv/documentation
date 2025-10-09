@@ -58,3 +58,7 @@ Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, 
   * Avantages : analyse en arrière-plan (défi déclenché si besoin), gratuit
   * Inconvénients : pas conforme RGPD, tracking commercial
   * Avis : prohibé
+* [**ALTCHA**](https://altcha.org/fr)
+  * Avantages : solution auto-hébergée, moderne, gratuite, conforme RGPD, EAA (Europeen Accessibility Act niveau AA WCAG 2.2) 
+  * Inconvénients : solution recente, un effort de sécurisation par le developpeur est nécessaire à fin de prévenir les attaques  
+  * Avis : Option Valide, validation sécurité nécessaire
