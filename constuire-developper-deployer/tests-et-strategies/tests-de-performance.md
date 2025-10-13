@@ -2,7 +2,7 @@
 
 Ces tests permettent de vérifier la performance des fonctionnalités d'une application.
 
-Pour cela, une montée en charge est simulée pour s'assurer que le temps de réponse reste acceptable.
+Une montée en charge est simulée pour s'assurer que le temps de réponse reste acceptable.
 
 Il est courant de mandater un prestataire pour la réalisation de ces tests. L'équipe détermine alors les cas à tester et les conditions de réussite des tests.
 
@@ -12,7 +12,7 @@ Dans le cas où le produit numérique est infogéré, la collaboration avec l'in
 
 De plus, ces tests permettent de vérifier la résilience de l'application et l'infrastructure : scalabilité, redondance, etc.
 
-### Cas à tester
+## Cas à tester
 
 Il est recommandé de lister d'abord les cas les plus importants à tester, tels que :
 
@@ -23,14 +23,14 @@ Il est recommandé de lister d'abord les cas les plus importants à tester, tels
 
 Un échange avec le [responsable métier](../../preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md) et/ou le [responsable produit](../../preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md) permet d'identifier les cas pertinents.
 
-### Considérations importantes
+## Considérations importantes
 
 * Prendre en compte la richesse du réseau : ne pas tester à partir du réseau interne qui ne simulerait pas les conditions réelles (WAF, réseaux privés, passerelles, gateways, etc.)
 * Tester en environnement iso-production : les utilisateurs étant en production, pour être sûr de fournir un service adapté, exécuter ces tests sur un environnement proche. Ne pas uniquement se baser sur des tests exécutés sur les postes de développement ou depuis les serveurs d'une chaîne de CI.
 * Éviter les sous-estimations : tester avec les conditions prévues et tester avec des conditions plus poussées.
 * Identifier les systèmes impactés par les tests : en cas de communication avec des APIs externes, informer les acteurs et prendre des actions adaptées si nécessaire (ex : bouchons).
 
-### Quand faire appel à une prestation externe
+## Quand faire appel à une prestation externe
 
 Bien qu'une prestation puisse être onéreuse, elle est préférable suivant le contexte :
 

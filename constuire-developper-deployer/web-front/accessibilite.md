@@ -1,3 +1,7 @@
+---
+icon: universal-access
+---
+
 # Accessibilité
 
 ## Guides de développement
