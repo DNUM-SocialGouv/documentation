@@ -1,12 +1,12 @@
 # Accessibilité
 
-## Guides des pratiques de développement
+## Guides de développement
 
 Des guides, tels que le [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/fr) ou le [RGAA](https://accessibilite.numerique.gouv.fr/), existent afin de permettre et faciliter les pratiques de développement :
 
 * Les notices d'intégration de [AcceDe Web](https://www.accede-web.com/notices/html-et-css/) ;
 
-## Outillage et pratiques
+## Outils et pratiques
 
 Certains projets utilisent [Lighthouse](https://github.com/GoogleChrome/lighthouse) afin de vérifier le niveau d'accessibilité, notamment comme étape du processus de CI.
 
