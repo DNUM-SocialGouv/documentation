@@ -76,6 +76,7 @@
   * [Sécurité](securiser-et-surveiller/securite/README.md)
     * [Sécurité](securiser-et-surveiller/securite/securite.md)
     * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
+    * [Chiffrement des données](securiser-et-surveiller/securite/chiffrement.md)
   * [Observabilité](securiser-et-surveiller/observabilite.md)
     * [Métriques de performance applicative (APM)](securiser-et-surveiller/observabilite/metriques-de-performance-applicative-apm.md)
 * [Conduire le changement](conduire-le-changement/README.md)
