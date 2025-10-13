@@ -67,7 +67,7 @@
     * [Tests de performance](constuire-developper-deployer/tests-et-strategies/tests-de-performance.md)
   * [Front web](constuire-developper-deployer/front-web/README.md)
     * [Accessibilité](constuire-developper-deployer/web-front/accessibilite.md)
-    * [Utilisation du DSFR](constuire-developper-deployer/front-web/utilisation-du-dsfr.md)
+    * [Portages DSFR](constuire-developper-deployer/web-front/portages-dsfr.md)
     * [Cartographie](constuire-developper-deployer/web-front/cartographie.md)
   * [Intégration continue (CI)](constuire-developper-deployer/ci.md)
   * [Déploiement continu (CD)](constuire-developper-deployer/cd.md)
