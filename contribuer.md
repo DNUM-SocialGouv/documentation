@@ -1,9 +1,6 @@
 # Contribuer au guide
 
-Ce guide s'adresse à toute personne qui conçoit, développe ou déploie des produits numériques à la DNUM.
-
-L'objectif est de construire de meilleurs services publics numériques :
-
+Ce guide s'adresse à toute personne qui conçoit, développe ou déploie des produits numériques à la DNUM. Son objectif est de construire de meilleurs services publics numériques :
 * Comprendre le contexte et les exigences autour des produits
 * Adopter des méthodes efficaces et des bonnes pratiques
 * Tendre vers l'excellence technique
@@ -11,10 +8,7 @@ L'objectif est de construire de meilleurs services publics numériques :
 
 ## Contributions
 
-Chaque personne est encouragée à contribuer à ce guide et à mettre au défi son contenu.
-
-Pour contribuer, plusieurs options existent :
-
+Chaque personne est encouragée à contribuer à ce guide et à mettre au défi son contenu :
 * **Contribution rapide** : laisser un commentaire en bas de page
 * **Contribution intermédiaire** : proposer un contenu par email à l'un des contributeurs principaux
 * **Contribution avancée** : demander la création d'un compte contributeur à l'un des administrateurs
