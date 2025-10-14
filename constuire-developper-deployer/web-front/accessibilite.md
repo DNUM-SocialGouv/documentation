@@ -16,4 +16,4 @@ Certains projets utilisent [Lighthouse](https://github.com/GoogleChrome/lighthou
 
 Pour les projets en TS, certains plugins [Eslint](https://eslint.org/) permettent de s'assurer automatiquement que les régles d'accessibilité sont respectées (par exemple [react-a11y](https://github.com/reactjs/react-a11y)). Nous vous recommandons aussi de compléter vos tests unitaires et d'intégrations avec l'utilisation de [jest-axe](https://www.npmjs.com/package/jest-axe) dans le cas où vous utilisez [Jest](https://jestjs.io/) pour vos tests.
 
-Nous recommandons d'écrire un test spécifique pour chaque **composants**, **chaque parent** et au niveau de **la page** ou/et de **l'onglet**.
+Nous recommandons d'écrire un test spécifique pour chaque **composant**, **chaque parent** et au niveau de **la page** ou/et de **l'onglet**.
