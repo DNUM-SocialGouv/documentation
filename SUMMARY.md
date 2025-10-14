@@ -94,3 +94,7 @@
   * [Santé](nos-produits/sante.md)
   * [Offre de soin](nos-produits/offre-de-soin.md)
   * [Transverse](nos-produits/transverse.md)
+
+## ---
+
+* [Contribuer au guide](contribuer.md)
