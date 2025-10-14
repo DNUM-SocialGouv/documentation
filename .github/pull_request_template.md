@@ -1,6 +1,6 @@
 # Pour ne rien oublier
 
-<!-- Vous pouvez supprimer les éléments inutiles -->
+<!-- Nous pouvons supprimer les éléments inutiles -->
 
 - S'il s'agit d'un ajout d'une **nouvelle section** :
   - [ ] Est-ce que le fichier `SUMMARY.md` a bien été mis à jour avec votre nouvelle section ?

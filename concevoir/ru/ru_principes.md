@@ -2,7 +2,7 @@
 
 ## Comprendre les besoins et les motivations des utilisateurs
 
-Prendre le temps d'écouter et d'observer vos utilisateurs pour comprendre :
+Prendre le temps d'écouter et d'observer les utilisateurs pour comprendre :
 
 * Leurs besoins explicites (ce qu'ils disent vouloir).
 * Leurs besoins implicites (ce qu'ils n'expriment pas toujours directement, mais qui influence leur comportement).

@@ -47,8 +47,8 @@ _<mark style="color:red;">#DEV #EXEMPLARITÉ #EXCELLENCE #ÇA\_MARCHE #C'EST\_MA
 **Conditions de réussite :**
 
 * Collaboration étroite entre notre équipe tech. et les parties prenantes de votre produit : vous, autres MOE, métier, utilisateurs.
-* Un onboarding réalisé par vos soins : présentation du contexte, des attentes.
-* Un suivi (1 à 4 fois / mois) entre vous et le responsable technologie ou responsable du bureau D\&D : partage des risques, ajustement du dispositif.
+* Un embarquement réalisé par vos soins : présentation du contexte, des attentes.
+* Un suivi (1 à 4 fois / mois) entre l'équipe produit et le responsable technologie ou responsable du bureau D\&D : partage des risques, ajustement du dispositif.
 * Selon la durée d'intervention, un financement nécessaire.
 
 **Ce que nous ne faisons pas :**

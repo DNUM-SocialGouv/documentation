@@ -18,9 +18,9 @@ La recherche exploratoire est indispensable dans le cadre des refontes, car elle
 * [ ] Mettez à disposition le livrable
 
 {% hint style="info" %}
-- Votre expert en RU vous guide pas à pas dans le déploiement de la démarche
+- Votre expert en RU guide pas-à-pas dans le déploiement de la démarche
 - Nos méthodes sont peu invasives, elle nécessite votre mobilisation qu'à des moments bien précis
-- 12 jours environ sont nécessaires à nos experts pour vous livrer la restitution de l'exploration
+- 12 jours environ sont nécessaires à nos experts pour livrer la restitution de l'exploration
 {% endhint %}
 
 ***

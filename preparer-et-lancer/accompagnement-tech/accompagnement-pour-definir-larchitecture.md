@@ -38,8 +38,8 @@ _<mark style="color:red;">#ARCHI #SOLUTION</mark>_
 
 **Conditions de réussite :**
 
-* Onboarding réalisé par vos soins : présentation du contexte, des attentes, des enjeux.
-* Collaboration entre nos architectes et les parties prenantes : vous, autres MOE, métier, utilisateurs.
+* Embarquement réalisé par l'équipe produit : présentation du contexte, des attentes, des enjeux.
+* Collaboration entre nos architectes et les parties prenantes : équipe produit, prestataires, métier, utilisateurs.
 * Selon la durée d'intervention, un suivi régulier entre vous et le responsable technologie ou responsable du bureau D\&D : partage des risques, ajustement des ressources.
 * Selon la durée de l'intervention : un financement nécessaire.
 

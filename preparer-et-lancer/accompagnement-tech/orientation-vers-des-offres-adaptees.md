@@ -9,38 +9,26 @@ icon: bullseye-arrow
 
 Vous avez une ou plusieurs questions mais ne voyez pas quelle offre est la plus adaptée ?
 
-
-
 **Pas de panique, cette offre est là pour ça.**
 
-
-
-_Votre passerelle vers les offres DNUM ou D\&D adaptées._
+_Passerelle vers les offres DNUM ou D\&D adaptées._
 
 _<mark style="color:red;">#VULGARISATION #QUESTION\_OUVERTE #JE\_SUIS\_PERDU</mark>_
 
 ***
 
-
-
 * **Délai d'intervention :** 2 semaines
 * **Durée d'intervention :** 1 jour
 * **Cycle de vie du produit :** À tout moment
 
-
-
 **Livrables :**&#x20;
 
 * Identification des principaux sujets avec leurs enjeux et risques.
-* Orientation vers une ou plusieurs offres D\&D et/ou DNUM.
-
-
+* Orientation vers une ou plusieurs offres D\&D et DNUM.
 
 **Conditions de réussite :**&#x20;
 
-* Collaboration étroite avec vous ou l'équipe, pour comprendre la problématique et son contexte.
-
-
+* Collaboration étroite avec l'équipe produit, pour comprendre la problématique et son contexte.
 
 **Ce que nous ne faisons pas :**&#x20;
 

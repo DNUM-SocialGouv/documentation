@@ -8,15 +8,10 @@ icon: people-group
 
 <figure><img src="../../.gitbook/assets/image-D_g-rF5n39gwhI21P9FPX.png" alt="Image d&#x27;une recherche de personne" width="256"><figcaption></figcaption></figure>
 
-Vous avez un doute sur la pertinence technique d’un profil ?
-
-Vous souhaitez sécuriser une décision de recrutement ou d’intégration dans une équipe projet ?
-
-Vous souhaitez donner une orientation technique à vos entretiens ?
-
-Nous vous aidons à y voir clair 🔎.
-
-
+Nous aidons à y voir plus clair 🔎:
+* lever un doute sur la pertinence technique d’un profil
+* sécuriser une décision de recrutement ou d’intégration dans une équipe produit
+* donner une orientation technique aux entretiens
 
 Nous intervenons dans le choix d'un profil, qu’il s’agisse d’un développeur, d’un lead technique ou pourquoi pas, d’un chef de projet avec des responsabilités techniques.
 
@@ -61,7 +56,7 @@ _<mark style="color:red;">#PAS\_DERREUR\_DE\_CASTING  #ÉQUIPE\_DE\_RÊVE</mark>
 
 **Ce que nous ne faisons pas :**&#x20;
 
-* Nous ne choisissons pas à votre place : vous décidez, en connaissance de cause.
+* Nous ne choisissons pas le profil : l'équipe produit décide en connaissance de cause.
 * Nous ne gérons pas les contraintes RH ou contractuelles.
 * En cas de participation aux entretiens, elle sera limitée à un volume raisonnable (généralement 3 à 5), à convenir en amont.
 

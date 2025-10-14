@@ -6,16 +6,16 @@ icon: map
 
 ## Pourquoi faire du design ?
 
-Le design est une approche clé pour garantir des services publics numériques accessibles, simples et efficaces. Grâce au design, vous allez rencontrer vos utilisateurs réels, comprendre leurs besoins et attentes puis tester sur maquette ou prototype les solutions avant le lancement des développements.
+Le design est une approche clé pour garantir des services publics numériques accessibles, simples et efficaces. Grâce au design, nous rencontrons nos utilisateurs finaux, comprenons leurs besoins et attentes puis testons sur maquette ou prototype les solutions avant le lancement des développements.
 
 <figure><img src="../.gitbook/assets/13.png" alt=""><figcaption></figcaption></figure>
 
-Le design vous aide à :
+Le design nous aide à :
 
-* mettre vos usagers au coeur de votre conception et de votre équipe
-* construire des produits dans lesquels vos usagers ont confiance
-* réduire vos coûts de développements en priorisant les besoins réels de vos usagers
-* réduire vos besoins en formation, support, guide d'utilisation, amélioration continue
+* mettre nos usagers au coeur de votre conception et de votre équipe
+* construire des produits dans lesquels nos usagers ont confiance
+* réduire nos coûts de développements en priorisant les besoins réels de nos usagers
+* réduire nos besoins en formation, support, guide d'utilisation, amélioration continue
 
 Toute refonte ou évolution fonctionnelle majeure doit inclure un processus de design et notamment la partie recherche utilisateur.
 
@@ -23,7 +23,7 @@ Toute refonte ou évolution fonctionnelle majeure doit inclure un processus de d
 
 ### Comment faire du design ?
 
-En intégrant un designer et expert en recherche utilisateur au plus tôt. Ces experts vous accompagnent sur les grandes tâches suivantes :
+En intégrant un designer et expert en recherche utilisateur au plus tôt. Ces experts nous accompagnent sur les grandes tâches suivantes :
 
 * Recherche utilisateur : Entretiens avec les utilisateurs réels pour comprendre leurs attentes et les difficultés rencontrées dans leur usage.
 * Tests et avis utilisateurs réguliers : Menés à chaque étape pour valider des hypothèses de parcours, ajuster les interfaces et s’assurer qu’elles restent accessibles à tous (incluant des tests spécifiques pour les utilisateurs en situation de handicap).
@@ -34,11 +34,10 @@ En intégrant un designer et expert en recherche utilisateur au plus tôt. Ces e
 
 ### Quand engager un processus de design ?
 
-Il vous est recommandé d'engage un processus de design si votre produit a :
+Il est recommandé d'engager un processus de design si le produit a :
 
-*   **100 usagers particuliers ou plus**
-
-    Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).
+* **100 usagers particuliers ou plus**
+  Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).
 * **100 usagers professionnels ou plus**\
   Incluent des experts comme des responsables d'établissement, des professionnels de santé qui utilisent les services dans le cadre de leur métier. Ils ont besoin d’outils efficaces et qui ne nécessitent aucune formation.
 * **10 agents publics**\
@@ -46,7 +45,7 @@ Il vous est recommandé d'engage un processus de design si votre produit a :
 * **10 partenaires métiers**\
   Profils spécifiques au sein des ministères (juristes, pilotes de politique public, etc.) ou des collectivités locale (Directions Départementales, Directions Régionales) avec des besoins parfois complexes ou inédits.
 
-Le processus de design sera adapté à votre réalité et à votre besoin, il aura pour priorité de vous aider à rencontrer vos utilisateurs.&#x20;
+Le processus de design sera adapté à votre réalité et à votre besoin, il a pour priorité de d'aider à rencontrer nos utilisateurs.&#x20;
 
 {% hint style="info" %}
 Ressources utiles :
