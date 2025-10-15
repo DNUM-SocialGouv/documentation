@@ -3,10 +3,21 @@ icon: list-check
 ---
 
 # Fiche de Décision d'Architecture (ADR)
-Une Fiche de Décision d'Architecture est un document qui capture une décision d'architecture importante.
-Cette fiche contient le contexte et les conséquences de cette décision.
+Une **Fiche de Décision d’Architecture** (*Architecture Decision Record – ADR*) documente une décision d’architecture importante, en précisant le **contexte**, la **décision prise** et ses **conséquences**.  
+Elle permet de garder une trace claire des choix techniques et d’assurer leur compréhension dans le temps.
 
-## Choix du modèle ?
+
+## Pourquoi utiliser une ADR ?
+
+Les ADR servent à :
+- Justifier les décisions structurantes.
+- Favoriser la transparence et la traçabilité.
+- Faciliter l’onboarding et le partage de la connaissance.
+- Documenter les évolutions ou révisions d’architecture.
+
+
+### Choix du modèle ?
+👉 Plusieurs modèles sont proposés. Voir [modèles ADR](https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates "modèles ADR").
 
 👉 Plusieurs modèles existent et plusieurs sont disponibles
 [ici](https://github.com/joelparkerhenderson/architecture-decision-record/tree/main/locales/en/templates).
@@ -14,40 +25,34 @@ Cette fiche contient le contexte et les conséquences de cette décision.
 ## Notre modèle : celui proposé par Michael Nygard
 
 **Titre**  
-Description du titre de la décision.
+Donnez un titre explicite à la décision.  
 
 **Statut**  
-Le statut : brouillon, proposé, accepté, rejeté, remplacé.
+Indiquez le **statut** actuel de la décision (voir section [Signification des statuts](#signification-des-statuts)).
 
 **Contexte**  
-Le problème ou le contexte qui motive cette décision ou ce changement.
+Décrivez le problème ou le contexte qui motive cette décision ou ce changement.  
 
 **Décision**  
-La décision ou le changement proposé/réalisé.
+Décrivez la décision prise ou le changement effectué.  
 
 **Conséquences**  
-Ce qui devient plus facile ou plus difficile avec ce changement.
+Décrivez les impacts de cette décision.
 
-### Déprécié ou remplacé ?
 
-Dans la même mesure que nous ne devons pas récrire l'histoire, **nous ne pouvons pas modifier des ADRs acceptées**.
+## Signification des statuts
 
-Si une décision prise n'est plus pertinente parce que (non-exhaustif) :
-- L'organisation a choisi une direction différente 
-  - Exemple : passage d'un hébergement on-premise vers du cloud
-- Le produit a évolué
-  - Exemple : fonctionnalité retirée du produit
-- L'équipe rencontre un besoin motivant un changement de paradigme
-  - Exemple : stockage objet dans un S3 plutôt que dans une base de données relationnelle
+Le **statut** reflète la vie de la décision dans le temps.  
+Il doit être mis à jour dès qu’une nouvelle information modifie la validité de l’ADR.
 
-Nous déclarons alors que la décision est **dépréciée** et un **ADR remplaçant cette décision** est alors créé.
+| Statut | Signification |  
+|---------|----------------|  
+| **Proposé** | La décision est en cours de discussion, non encore validée. |  
+| **Accepté** | La décision a été validée et est appliquée ou en cours d’application. |  
+| **Rejeté** | La décision a été étudiée mais n’a pas été retenue. |  
+| **Déprécié** | La décision reste **valide historiquement**, mais **ne doit plus être utilisée pour de nouveaux projets**. Elle est amenée à disparaître à terme. |  
+| **Remplacé** | La décision a été **explicitement remplacée** par une autre ADR plus récente. La nouvelle ADR doit être référencée. |  
 
-Le nouvel ADR a alors pour objectif de :
-- Décrire le contexte motivant la dépréciation de l'ADR précédent
-  - Ce qui a changé entre temps
-- Expliciter les conséquences techniques, produit, voire organisationnelles
-  - Exemple : définition d'un nouveau choix par défaut (cloud) et d'un choix alternatif (on-premise)
-- Lister les autres options considérées, si besoin
 
 ## Organisation des ADRs
 
@@ -59,6 +64,7 @@ Pour assurer une gestion efficace des Fiches de Décision d'Architecture, nous r
 - **Référencement croisé** : Lier les ADR entre elles lorsque des décisions sont dépendantes ou liées.
 - **Suivi périodique** : Planifier des suivis réguliers pour échanger sur les décisions prises, en cours ou à prendre.
 - **Accessibilité** : S'assurer que les ADRs sont facilement accessibles à toutes les parties prenantes du projet.
+
 
 ## Outils
 
