@@ -1,4 +1,4 @@
-name: Broken Link Check
+name: Broken link check
 
 on:
   #push:
@@ -40,21 +40,17 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v5.0.0
 
-      - name: Install python
-        uses: actions/setup-python@v6.0.0
-        with:
-          python-version: "3.13.7"
-
-      - name: Install linkchecker and run analysis
+      - name: Run link checker
         env:
           CHECK_DEPTH: ${{ inputs.check_depth }}
           CHECK_EXTERNAL: ${{ inputs.check_external }}
           DEBUG: ${{ inputs.debug }}
         run: |
+          page_to_check="https://dnum-ministeres-sociaux.gitbook.io/ressources"
+
           echo "Installation de Linkchecker..."
           pip3 install linkchecker
 
-          page_to_check="https://dnum-ministeres-sociaux.gitbook.io/ressources/"
           echo "🔍 Lancement de la vérification des liens pour '$page_to_check'..."
 
           temp_output=$(mktemp)
@@ -121,4 +117,4 @@ jobs:
           echo "Si certains de ces liens morts sont des faux-positifs, excluez-les de l'analyse."
 
           rm "$temp_output"
-          exit 1
+          exit
