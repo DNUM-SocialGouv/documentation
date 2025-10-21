@@ -24,7 +24,7 @@
       * [Les indicateurs](preparer-et-lancer/organisation-produit/ressources/les-indicateurs.md)
   * [Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [Communs numériques](preparer-et-lancer/communs-numeriques.md)
-    * [Communs Grist](preparer-et-lancer/communs-grist.md)
+    * [Grist](preparer-et-lancer/communs-grist.md)
   * [Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
     * [Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
     * [Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
