@@ -62,5 +62,5 @@ Contre-exemples de projets avec décision de ne pas passer par PISTE :
 
 ## Prise de notes
 
-* Mi-2025, PISTE absorbe en moyenne 60000 appels/s
+* Mi-2025, PISTE absorbe en moyenne 40M appels/j et en pic 60000 appels/s
 * L'API qui génère le plus d'appels est CaptchEtat
