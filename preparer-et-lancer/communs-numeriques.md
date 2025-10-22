@@ -150,7 +150,7 @@ Synthèse :
 * Le socle Ondine est industrialisé pour être hébergé en interne. Sa migration sur la cible Cloud est prévue. Il bénéficie des forces et faiblesses de Drupal.
 * Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement sur un cloud.
 
-## Suivi des pistes explorées et décisions d'architecture
+## Pistes explorées et décisions d'architecture
 
-* **GLPI** écarté 04/2025.
+* **GLPI** écarté en 04/2025 (workflow pas assez contraignant pour le métier et pas paramétrable ; pas 12-factors (stockage FS) ; peu accessible)
 * **Manifest.build** est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.

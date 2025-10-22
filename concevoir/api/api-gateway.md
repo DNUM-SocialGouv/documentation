@@ -57,9 +57,10 @@ Solution utilisées aux MAS, à différents niveaux :
 
 * **Gravitee.io** utilisé par 2 produits
 * **[PISTE](api-piste.md)**
-* **Hasura.io** offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
+* **Hasura.io** utilisé en interne sur un projet pur Data.
 
+## Pistes explorées et décisions d'architecture
 Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
-
-* MuleSoft Anypoint trop orienté éditeur
-* Kong Gateway équivalent à Gravitee
+* **Hasura.io** est un Data-as-a-Service qui offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
+* **MuleSoft Anypoint** trop orienté éditeur
+* **Kong Gateway** équivalent à Gravitee
