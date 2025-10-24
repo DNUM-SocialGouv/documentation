@@ -12,6 +12,10 @@ Tout site porté par l’Etat et ses opérateurs doit respecter les règles d’
 
 Ces règles permettent de garantir une meilleure lisibilité pour les usagers et de renforcer la confiance dans nos services en ligne.
 
+{% hint style="danger" %}
+Les bloc-marques évoluant au rythme des changements ministériels, ceux présentés sur cette page le sont à titre d'exemple. Reportez vous aux modèles mis à jour dans le fichier Figma présent dans les ressources utiles.
+{% endhint %}
+
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><mark style="color:$info;">Exemple d'un bloc-marque ministériel avec le nom du produit en titre et sa baseline</mark></p>
