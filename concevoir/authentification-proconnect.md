@@ -49,9 +49,8 @@ Ainsi à la connexion :
 
 Si le 1.5FA par défaut de ProConnect n'est pas satisfaisant, c'est au FS d'implémenter son propre 2FA (Authenticator, carte à puce, etc.). Un 2FA spécifique par email ou SMS n'a que peu d'intérêt.
 
-## Faut-il proposer un autre moyen d'authentification que ProConnect ?
-Non, dans la majorité des cas ProConnect est utilisé comme seule méthode d'authentification pour les professionnels.
-Il est fortement déconseillé de proposer une authentification par email et mot de passe (moindre niveau global de sécurité, complexité des écrans et de l'application, pas de ROI, charge de support...).
+## Faut-il proposer un autre moyen d'authentification ?
+Non, ProConnect suffit à authentifier tous les professionnels. Il est fortement déconseillé de proposer une authentification par email et mot de passe (moindre niveau global de sécurité, complexité des écrans et de l'application, pas de ROI, charge de support...).
 
 ## Faut-il un serveur Keycloak avec ProConnect ?
 Non, un serveur d'authentification Keycloak est inutile dans la plupart des cas.
