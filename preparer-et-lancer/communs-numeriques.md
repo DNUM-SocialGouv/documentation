@@ -68,7 +68,7 @@ API particulièrement intéressantes pour le MAS :
 
 ## Frameworks et librairies standards
 
-* [Authentification](../concevoir/iam.md)
+* [Authentification](../concevoir/authentification.md)
 * Stockage documentaire et GED (type S3, …)
 * Notifications (envois emails)
 * Publipostage (gestion des templates avec balises + production de documents)
