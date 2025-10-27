@@ -27,9 +27,11 @@ Le fonctionnement de ProConnect diffère si l'utilisateur est connu ou pas d'un 
 | ------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Authentification                           | Authentification portée par un FI du public. Routage vers le bon FI basé sur le FQDN de l’email. [La table de correspondance est portée par ProConnect](https://grist.numerique.gouv.fr/o/docs/3kQ829mp7bTy/AgentConnect-Configuration-des-Fournisseurs-dIdentite) | Compte email à créer sur ProConnect. Pas d’authentification par FI pour les comptes ProConnect Identité. C’est ProConnect qui porte une authentification par mot de passe. |
 | Traits d’identité et données individuelles | Fourni par le FI                                                                                                                                                                                                                                                   | Gestion libre sur le compte ProConnect                                                                                                                                     |
-| Entités de rattachement                    | Fournies par le FI.                                                                                                                                                                                                                                                | Gestion libre des SIRET sur le compte ProConnect. Certification du dirigeant à venir (2025)                                                                                |
+| Entités de rattachement                    | Fournies par le FI                                                                                                                                                                                                                                                 | Gestion libre des SIRET sur le compte ProConnect.<br>Certification possible du dirigeant via parcours dédié                                                                |
 | [2FA](#2fa-proconnect)                     | Implémenté et déclenché par le FI                                                                                                                                                                                                                                  | A la main de l'utilisateur sur son compte ProConnect Identité                                                                                                              |
 | Adresses email supportées                  | *.gouv.fr                                                                                                                                                                                                                                                          | *                                                                                                                                                                          |
+
+_Un paramétrage de ProConnect permet de restreindre l'accès à un FS aux seuls agents publics._
 
 ## 2FA ProConnect
 Le fonctionnement du 2FA ProConnect est décrit [ici](https://partenaires.proconnect.gouv.fr/docs/fournisseur-service/double_authentification)
@@ -42,16 +44,17 @@ Indépendamment des FI de chaque administration, ProConnect offre les mécanisme
     - déclencher ce 2FA systématiquement, pour tous les FS
 
 Ainsi à la connexion :
-- Si le FS exige un niveau _eidas1_
-    - Alors le 2FA ProConnect n'est pas déclenché (sauf vérification contextuelle ou périodique à l'initiative de ProConnect)
-- Si le FS exige un niveau _eidas2_ ou supérieur
-    - Si l'utilisateur est un agent public et se connecte avec le FI de son administration
-        Si le FI offre déjà un niveau _eidas2_ ou supérieur Alors ProConnect ne déclenche pas de 2FA supplémentaire
-        Sinon ProConnect déclenche son 2FA par défaut
-    - Si l'utilisateur se connecte avec son compte ProConnect Identité
-        Si l'utilisateur a configuré le 2FA sur son compte 
-            Alors c'est la configuration de son compte qui s'applique
-        Sinon ProConnect déclenche son 2FA par défaut
+- **Si** le FS exige un niveau _eidas1_
+    - **Alors** le 2FA ProConnect n'est pas déclenché (sauf vérification contextuelle ou périodique à l'initiative de ProConnect)
+- **Si** le FS exige un niveau _eidas2_ ou supérieur
+    - **Si** l'utilisateur est un agent public et se connecte avec le FI de son administration
+        - **Si** le FI offre déjà un niveau _eidas2_ ou supérieur
+            - **Alors** ProConnect ne déclenche pas de 2FA supplémentaire
+        - **Sinon** ProConnect déclenche son 2FA par défaut
+    - **Si** l'utilisateur se connecte avec son compte ProConnect Identité
+        - **Si** l'utilisateur a configuré le 2FA sur son compte
+            - **Alors** c'est la configuration de son compte qui s'applique
+        - **Sinon** ProConnect déclenche son 2FA par défaut
 
 _Si le 2FA par défaut de ProConnect n'est pas satisfaisant d'un point de vue métier ("1.5FA"), c'est au FS d'implémenter son propre 2FA (Authenticator, carte à puce, etc.). Un 2FA par email ou SMS hors-ProConnect ne présente que peu d'intérêt._
 
