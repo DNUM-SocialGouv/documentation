@@ -47,14 +47,11 @@ Ainsi à la connexion :
 - **Si** le FS exige un niveau _eidas1_
     - **Alors** le 2FA ProConnect n'est pas déclenché (sauf vérification contextuelle ou périodique à l'initiative de ProConnect)
 - **Si** le FS exige un niveau _eidas2_ ou supérieur
-    - **Si** l'utilisateur est un agent public et se connecte avec le FI de son administration
-        - **Si** le FI offre déjà un niveau _eidas2_ ou supérieur
-            - **Alors** ProConnect ne déclenche pas de 2FA supplémentaire
-        - **Sinon** ProConnect déclenche son 2FA par défaut
-    - **Si** l'utilisateur se connecte avec son compte ProConnect Identité
-        - **Si** l'utilisateur a configuré le 2FA sur son compte
-            - **Alors** c'est la configuration de son compte qui s'applique
-        - **Sinon** ProConnect déclenche son 2FA par défaut
+    - **Si** l'agent public se connecte avec le FI de son administration **Et** le FI offre déjà un niveau _eidas2_ ou supérieur
+        - **Alors** ProConnect ne déclenche pas de 2FA supplémentaire
+    - **Sinon Si** l'utilisateur public ou privé se connecte avec ProConnect Identité **Et** l'utilisateur a configuré le 2FA sur son compte
+        - **Alors** c'est la configuration de son compte qui s'applique
+    - **Sinon** ProConnect déclenche son 2FA par défaut
 
 _Si le 2FA par défaut de ProConnect n'est pas satisfaisant d'un point de vue métier ("1.5FA"), c'est au FS d'implémenter son propre 2FA (Authenticator, carte à puce, etc.). Un 2FA par email ou SMS hors-ProConnect ne présente que peu d'intérêt._
 
