@@ -61,5 +61,5 @@ Il est fortement déconseillé de proposer une authentification par email et mot
 Exception : Pro Santé Connect surpasse ProConnect en termes d'obligation réglementaire et s'impose donc pour l'authentification des PS dans l'exercice de la médecine._
 
 ## Faut-il un serveur Keycloak avec ProConnect ?
-**Non, un serveur d'authentification Keycloak est inutile dans la plupart des cas.**
+**Non, un serveur d'authentification Keycloak est inutile dans la plupart des cas.**\
 Exception : l'application métier est un progiciel dont le paramétrage ne permet pas de satisfaire aux spécifications de ProConnect.
