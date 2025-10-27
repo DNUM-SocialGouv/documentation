@@ -33,7 +33,7 @@ Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, 
 ## Solutions anti-bots au niveau applicatif
 
 * **Honeypot** : consiste à cacher un champ de formulaire qui n'est pas censé être utilisé. S'il est utilisé, le client web est considéré comme un bot. Le honeypot est cependant identifiable et contournable par un robot plus sophistiqué. Il peut présenter un problème d'accessibilité s'il n'est pas bien implémenté.
-* **2FA/MFA** : l'authentification à 2 facteurs, présentée à la connexion et/ou lors d'une opération sensible et constitue une protection anti-bots importante.
+* **2FA** : l'authentification à 2 facteurs, présentée à la connexion et/ou lors d'une opération sensible et constitue une protection anti-bots importante.
 * **Captcha** : vise à distinguer les humains des bots par l'analyse en arrière-plan d'un faisceau d'indices (comme le comportement de l'utilisateur) et/ou par un défi utilisateur visuel ou auditif. **Le défi utilisateur est une vraie douleur en terme d'ergonomie et d'accessibilité**, et est de moins en moins efficace face à la complexité des bots. L'avenir est aux solutions intelligentes et discrètes.
 
 ## Comparaison de différents Captcha
