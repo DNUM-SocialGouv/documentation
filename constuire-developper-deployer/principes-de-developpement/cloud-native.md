@@ -1,12 +1,17 @@
+---
+icon: cloud
+---
+
 # Application cloud native
 
 Il s'agit d'une application qui suit les principes et prérequis pour pouvoir être déployée sur un cloud :
+
 * [12-factor app](https://12factor.net/fr/)
 * [15 factors](https://developer.ibm.com/articles/15-factor-applications/#the-additional-factors-and-why-they-are-important1)
 
 ## Application conteneurisée
 
-* L'application doit être livrée via des images Docker en suivant ces [recommandations](Recommandation%20de%20créations%20d'images%20applicatives.pdf)
+* L'application doit être livrée via des images Docker en suivant ces [recommandations](Recommandation%20de%20cre%CC%81ations%20d'images%20applicatives.pdf)
 * En local, l'environnement de développement complet doit utiliser [Docker Compose](https://docs.docker.com/compose/). Le lancement complet de l'environnement doit se faire par un simple `docker compose up`
   * Se référer à la page de la [checklist de projet](../checklist-projet.md) pour le prérequis d'instanciation de l'environnement local.
 * En intégration / préproduction / production, la priorité est donnée au déploiement sur un cluster [Kubernetes](https://kubernetes.io/fr/). À défaut, Docker Compose doit être utilisé si le déploiement se fait sur des VM
