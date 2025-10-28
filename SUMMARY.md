@@ -90,7 +90,6 @@
   * [Formation](conduire-le-changement/formation.md)
   * [Aide au démarrage](conduire-le-changement/aide-au-demarrage.md)
   * [Support utilisateur](conduire-le-changement/support-utilisateur.md)
-  * [Animation de la communauté](conduire-le-changement/communaute.md)
 
 ## NOS PRODUITS
 * [Santé](nos-produits/sante.md)

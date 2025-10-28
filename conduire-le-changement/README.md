@@ -1,5 +1,6 @@
 ---
 description: (Faire vivre le produit)
+icon: target
 ---
 
 # Conduite du changement
