@@ -1,8 +1,9 @@
-# Cadre organisationnel
+# 🏛️ Cadre organisationnel
 
 ## Pourquoi ce cadre organisationnel
 
 Lorsqu'il est bien implémenté, le mode produit permet notamment :
+
 * De **dé-risquer les services publics numériques**
 * D'**aligner les parties prenantes** sur les objectifs, pour éviter des dépenses sans atterrissage
 * De **mieux concevoir**, car les équipes sont dotées ou ont accès à toutes les expertises (architecture, design, recherche utilisateur, etc.)
@@ -14,8 +15,6 @@ Lorsqu'il est bien implémenté, le mode produit permet notamment :
 {% endhint %}
 
 > <mark style="color:purple;background-color:purple;">**Le comité produit accompagne et soutient les équipes en identifiant leurs besoins, en les orientant, en les aidant et surtout en leur proposant des solutions.**</mark>
-
-
 
 ### Rôles du comité
 
