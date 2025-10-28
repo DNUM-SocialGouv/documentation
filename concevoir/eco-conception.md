@@ -1,8 +1,4 @@
----
-icon: seedling
----
-
-# Eco-conception
+# 🌳 Eco-conception
 
 ### Pourquoi l'écoconception ? <a href="#pourquoi-lecoconception" id="pourquoi-lecoconception"></a>
 

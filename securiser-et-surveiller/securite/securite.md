@@ -1,8 +1,4 @@
----
-icon: lock
----
-
-# Sécurité
+# 🔒 Sécurité
 
 ## Gestion des secrets
 

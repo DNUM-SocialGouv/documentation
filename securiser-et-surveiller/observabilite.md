@@ -1,8 +1,4 @@
----
-icon: eyes
----
-
-# Observabilité
+# 👀 Observabilité
 
 ## Erreurs
 

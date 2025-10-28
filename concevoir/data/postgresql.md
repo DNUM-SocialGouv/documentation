@@ -1,3 +1,7 @@
+---
+icon: database
+---
+
 # PostgreSQL
 
 [PostgreSQL](https://www.postgresql.org/) est un système de gestion de base de données relationnel ([_SGBDR_](https://fr.wikipedia.org/wiki/Base_de_donn%C3%A9es_relationnelle) open source libre, très largement utilisé.

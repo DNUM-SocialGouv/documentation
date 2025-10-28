@@ -1,16 +1,10 @@
----
-icon: eyes
----
-
-# Métriques de performance applicative (APM)
+# 👀 Métriques de performance applicative (APM)
 
 Ce document a pour objectif de fournir des connaissances de base sur certaines métriques clés dans la gestion d'une application. Elles permettent de comprendre le comportement d'une application et d'améliorer ses performances.
 
-Ces indicateurs sont particulièrement utiles pour prioriser les [tests de charge](../../constuire-developper-deployer/tests-et-strategies/tests-de-performance.md).
+Ces indicateurs sont particulièrement utiles pour prioriser les [tests de charge](../constuire-developper-deployer/tests-et-strategies/tests-de-performance.md).
 
 Si l'infrastructure est gérée par un infogérant, c'est lui qui est responsable de la collecte des données et de leur mise à disposition.
-
-
 
 ### Recommandations
 
@@ -20,16 +14,14 @@ Il est fortement recommandé d'utiliser un outil d'observabilité comme **Sentry
 
 ### Métriques d'affichage
 
-Plusieurs métriques existent :&#x20;
+Plusieurs métriques existent :
 
 * FCP : le temps que prend le premier contenu à apparaître.
 * Vitesse de chargement : le temps que prend une page pour se charger chez le client.
 * TBT : le temps où l'utilisateur ne peut utiliser son application.
 * LCP : le temps que prend le contenu le plus grand pour apparaître.
 
-
-
-Les experts [Design](../../preparer-et-lancer/les-differents-roles-et-metiers/designer.md) et [accessibilité](../../concevoir/accessibilite.md) peuvent accompagner sur ces sujets.
+Les experts [Design](../preparer-et-lancer/les-differents-roles-et-metiers/designer.md) et [accessibilité](../concevoir/accessibilite.md) peuvent accompagner sur ces sujets.
 
 Plus d'informations sont présentes sur le [blog de Chrome](https://developer.chrome.com/docs/lighthouse/performance/first-contentful-paint?hl=fr).
 
@@ -38,8 +30,6 @@ Plus d'informations sont présentes sur le [blog de Chrome](https://developer.ch
 * [LIghthouse](https://developer.chrome.com/docs/lighthouse) permet d'identifier des points à améliorer.
 * Une expertise externe.
 * Certains tests de bout en bout (end-to-end) comme avec [Playwright](https://playwright.dev/).
-
-
 
 ### Temps de réponse d'une requête HTTP
 
@@ -59,8 +49,6 @@ Plusieurs éléments dans le système peuvent impacter ces performances : connex
 
 Il faut alors prioriser l'ajout d'un outil et la récupération de ces données
 
-
-
 ### Performance d'une fonctionnalité
 
 Il s'agit du temps passé sur l'exécution du code pour une fonctionnalité, y compris la logique métier et les appels, sans intégrer le temps d'arrivée d'une requête et la réception de la réponse par le client.
@@ -75,8 +63,6 @@ Il s'agit du temps passé sur l'exécution du code pour une fonctionnalité, y c
 
 La séquence de la fonctionnalité doit être déconstruite et chaque action analysée : appels API, requêtes en base de données, etc.
 
-
-
 ### Temps de réponse d'une requête à une dépendance externe
 
 Il s'agit du temps qu'une requête prend pour être interprétée par une base de données, une API, etc. et que sa réponse revienne à l'appelant.
@@ -90,13 +76,11 @@ Il s'agit du temps qu'une requête prend pour être interprétée par une base d
 
 Les pistes d'améliorations peuvent dépendre de plusieurs facteurs comme la complexité de la requête ou le nombre de lectures/écritures.
 
-Différentes pistes sont possibles alors :&#x20;
+Différentes pistes sont possibles alors :
 
 * Segmentation de la base de données selon la lecture et l'écriture.
 * Simplification de requête SQL.
 * Utilisation de requêtes par lot (batch).
-
-
 
 ### Outils de mesure
 

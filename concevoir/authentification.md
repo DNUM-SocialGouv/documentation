@@ -1,8 +1,4 @@
----
-icon: lock
----
-
-# Authentification des utilisateurs
+# 🔒 Authentification des utilisateurs
 
 Cette page recense les solutions d'authentification pour les différentes populations d'utilisateurs.
 
@@ -11,7 +7,7 @@ Cette page recense les solutions d'authentification pour les différentes popula
 | Population cible                                                                                                                        | Solution(s) préconisée(s)                                                                                                                       |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | <p><strong>Agent du MAS</strong><br><strong>Agent d'autres Ministères</strong><br><strong>Service déconcentré (hors DDETS)</strong></p> | <p>Si disponibilité EBIOS 1 à 3 : ProConnect seul<br>Si disponibilité EBIOS 4 : Solution spécifique (nécessaire) ET ProConnect (facultatif)</p> |
-| **Service déconcentré DDETS**<br>@departement.gouv.fr                                                                                   | <p>ProConnect Identité<br><em>(en attendant un FI ProConnect du MIOM)</em></p>                                                                  |
+| <p><strong>Service déconcentré DDETS</strong><br>@departement.gouv.fr</p>                                                               | <p>ProConnect Identité<br><em>(en attendant un FI ProConnect du MIOM)</em></p>                                                                  |
 | <p><strong>Collectivité territoriale</strong><br>(région, département, commune)</p>                                                     | <p>ProConnect Identité<br><em>(pas de FI ProConnect identifié à date)</em></p>                                                                  |
 | **Entreprise du secteur privé**                                                                                                         | ProConnect Identité                                                                                                                             |
 | **Association avec/sans SIRET**                                                                                                         | ProConnect Identité                                                                                                                             |

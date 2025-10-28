@@ -1,8 +1,4 @@
----
-icon: lock
----
-
-# Sécurité anti-bots
+# 🔒 Sécurité anti-bots
 
 L'enjeu est d'identifier les différentes menaces impliquant des bots (automates logiciels) et les solutions pour y faire face.
 
@@ -16,6 +12,7 @@ Les bots sont prévus pour mener différents types d'attaques et servent différ
   \&#xNAN;_Les attaques sont souvent dépersonnalisées, opportunistes, mais pas toujours. Elles peuvent donc être ciblées ou systématiques._
 
 ## Enjeux d'accessibilité
+
 [Captcha et accessibilité](https://design.numerique.gouv.fr/articles/2024-11-28-captcha-et-accessibilite/)
 
 ## Recommandations
@@ -63,6 +60,6 @@ Ces mécanismes sont pris en charge en amont par l'hébergeur ou l'infogérant, 
   * Inconvénients : pas conforme RGPD, tracking commercial
   * Avis : prohibé
 * [**ALTCHA**](https://altcha.org/fr)
-  * Avantages : solution auto-hébergée, moderne, gratuite, conforme RGPD, EAA (Europeen Accessibility Act niveau AA WCAG 2.2) 
-  * Inconvénients : solution recente, un effort de sécurisation par le developpeur est nécessaire à fin de prévenir les attaques  
+  * Avantages : solution auto-hébergée, moderne, gratuite, conforme RGPD, EAA (Europeen Accessibility Act niveau AA WCAG 2.2)
+  * Inconvénients : solution recente, un effort de sécurisation par le developpeur est nécessaire à fin de prévenir les attaques
   * Avis : Option viable, une validation sécurité reste nécessaire

@@ -1,8 +1,4 @@
----
-icon: comment-question
----
-
-# Support utilisateur
+# ❔ Support utilisateur
 
 Il s'agit de disposer d'un ou plusieurs canaux pour adresser les demandes d'aide des utilisateurs, voire d'être proactif sur leur besoin.
 

@@ -1,8 +1,4 @@
----
-icon: plug
----
-
-# API
+# 🔌 API
 
 {% hint style="warning" %}
 À rédiger intro

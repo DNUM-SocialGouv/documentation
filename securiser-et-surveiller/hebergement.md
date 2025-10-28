@@ -1,6 +1,6 @@
 ---
-icon: cloud
 layout:
+  width: default
   title:
     visible: true
   description:
@@ -11,9 +11,11 @@ layout:
     visible: true
   pagination:
     visible: false
+  metadata:
+    visible: true
 ---
 
-# Hébergement
+# ☁️ Hébergement
 
 La stratégie cloud de la DNUM répond aux enjeux suivants :
 
@@ -47,6 +49,7 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
   * leur violation aurait pour conséquence une atteinte à l’ordre public, la sécurité publique, la santé, la vie des personnes ou la propriété intellectuelle.
 
 Les "clouds internes" de l'Etat Pi (MININT) et Nubo (DGFIP) ne sont pas utilisés au Ministère :
+
 * nous n'avons pas besoin du niveau "diffusion restreinte" du cloud Pi
 * nous préférons l'offre SecNumCloud d'OVH au Cloud Nubo
 
@@ -58,13 +61,13 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 * leurs modes d'exploitation (infogérance, CI/CD)
 * les exigences réglementaires auxquelles elles répondent (HDS, SecNumCloud)
 
-| Plateforme           | Type de cloud | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ     |
-| -------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ---------------- |
-| **Atlas@OVH**        | CaaS          | O          | O         | O             | N              | N           | 2-3-3-3   | API@ClamAV       |
-| **Atlas@OVH-SNC**    | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV       |
-| **Cegedim HDS**      | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto)    |
-| **Rosny (Travail)**  | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
-| **Dusquene (Santé)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)     |
+| Plateforme           | Type de cloud | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ  |
+| -------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ------------- |
+| **Atlas@OVH**        | CaaS          | O          | O         | O             | N              | N           | 2-3-3-3   | API@ClamAV    |
+| **Atlas@OVH-SNC**    | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV    |
+| **Cegedim HDS**      | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto) |
+| **Rosny (Travail)**  | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)  |
+| **Dusquene (Santé)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)  |
 
 Précisions :
 
@@ -85,6 +88,7 @@ Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
 | **Atlas@OVH-SNC** | VPN IPSec  | N         | ?         | ?         | ============= |
 
 ## Notes sur HDS
+
 * HDS est une norme qui comprend 6 niveaux d'activité, du stockage de la donnée à l'infogérance de l'application
 * HDS vs SecNumCloud :
   * HDS et SecNumCloud ont évolué séparément, sans concertation. D'où la difficulté parfois de positionner l'un et l'autre.

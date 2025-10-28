@@ -1,4 +1,4 @@
-# PISTE
+# 🔌 PISTE
 
 [PISTE](https://piste.gouv.fr/) est une API Gateway interministérielle proposée par l'AIFE(DGFIP) :
 
@@ -6,7 +6,7 @@
 * Hébergement **OVH-SecNumCloud**
 * Convention de refacturation déjà établie entre AIFE et Ministère
 * Refacturation d'un coût fixe pour chaque API.\
-  &#xNAN;_&#x4C;a DINUM ne se positionne pas officiellement sur PISTE : ni recommandé, ni déconseillé._
+  \&#xNAN;_La DINUM ne se positionne pas officiellement sur PISTE : ni recommandé, ni déconseillé._
 
 ## Quand utiliser PISTE ?
 

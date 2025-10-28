@@ -1,12 +1,8 @@
----
-icon: chalkboard-user
----
-
-# Formation
+# 🧑‍🎓 Formation
 
 Il s'agit eLearning, de formation en présentiel, de webinaire, de guide utilisateur ou simplement de bulles qui présentent les fonctionnalités au premier usage
 
-Une bonne formation&#x20;
+Une bonne formation
 
 * Elle est connue des utilisateurs
 * Elle est adaptée au profil

@@ -1,8 +1,4 @@
----
-icon: cloud
----
-
-# Application cloud native
+# ☁️ Application cloud native
 
 Il s'agit d'une application qui suit les principes et prérequis pour pouvoir être déployée sur un cloud :
 

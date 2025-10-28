@@ -1,8 +1,4 @@
----
-icon: gauge
----
-
-# Exemples d'indicateurs
+# 🚦 Exemples d'indicateurs
 
 Voici des exemples d'indicateurs par typologies de produit. VoIl est possible de s'en inspirer pour construire ses propres indicateurs.
 

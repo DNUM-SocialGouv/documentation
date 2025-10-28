@@ -1,4 +1,4 @@
-# Conception d'API
+# 🔌 Conception d'API
 
 ## Recommandations
 
@@ -13,6 +13,7 @@
 Pour ouvrir une API, nous utilisons les questions "[QQOQCCP](https://fr.wikipedia.org/wiki/QQOQCCP)" qui permettent de mieux comprendre le besoin.
 
 Ci-dessous se trouvent quelques questions utiles :
+
 * **Quoi :** quelle donnée est consommée ?
   * Quelle sensibilité ?
 * **Pourquoi :** Quel est l'usage de la donnée ?

@@ -1,4 +1,4 @@
-# Sécurisation d'API
+# 🔌 Sécurisation d'API
 
 ## Recommandations
 

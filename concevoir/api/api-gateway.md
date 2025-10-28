@@ -1,4 +1,4 @@
-# Exposition d'API
+# 🔌 Exposition d'API
 
 L'API Gateway adresse l'interopérabilité et la sécurisation des échanges. C'est un **middleware de type Reverse Proxy, spécialisé dans l'exposition d'API**.
 
@@ -46,6 +46,7 @@ Instancier et gérer une seule API Gateway par hébergement :
 * Périmètre métier avec stratégie Zero Trust
 
 3. **Identifier quelle API Gateway réutiliser**
+
 * Si possible, utiliser l'API Gateway unique de l'hébergement visé (ex : future API Gateway Atlas ?)
 * Sinon instancier une API Gateway par domaine métier ET par hébergement (ex : API Gateway DGEFP sur Rosny/Dusquene)
 * Passer par [PISTE](api-piste.md) si c'est pertinent et si les conditions sont réunies
@@ -56,11 +57,13 @@ Instancier et gérer une seule API Gateway par hébergement :
 Solution utilisées aux MAS, à différents niveaux :
 
 * **Gravitee.io** utilisé par 2 produits
-* **[PISTE](api-piste.md)**
+* [**PISTE**](api-piste.md)
 * **Hasura.io** utilisé en interne sur un projet pur Data.
 
 ## Pistes explorées et décisions d'architecture
+
 Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
+
 * **Hasura.io** est un Data-as-a-Service qui offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
 * **MuleSoft Anypoint** trop orienté éditeur
 * **Kong Gateway** équivalent à Gravitee

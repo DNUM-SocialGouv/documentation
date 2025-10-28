@@ -1,9 +1,8 @@
 ---
 description: (Faire vivre le produit)
-icon: forward
 ---
 
-# Conduite du changement
+# ⏩ Conduite du changement
 
 Le succès du déploiement d’un produit repose sur une conduite du changement structurée (leadership, communication, formation, implication des utilisateurs). Ces dimensions sont indissociables pour assurer l’adhésion des équipes et la réussite opérationnelle du produit\
 \
