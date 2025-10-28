@@ -78,7 +78,7 @@
 ## DEVELOPPER
 
 ## DEPLOYER
-* [Hébergements](securiser-et-surveiller/hebergements.md)
+* [Hébergement](securiser-et-surveiller/hebergement.md)
 * [Sécurité](securiser-et-surveiller/securite/securite.md)
   * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
   * [Antivirus](securiser-et-surveiller/securite/antivirus.md)

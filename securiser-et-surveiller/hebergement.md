@@ -13,7 +13,7 @@ layout:
     visible: false
 ---
 
-# Hébergements
+# Hébergement
 
 La stratégie cloud de la DNUM répond aux enjeux suivants :
 
