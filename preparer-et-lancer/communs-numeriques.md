@@ -1,8 +1,4 @@
----
-icon: recycle
----
-
-# Communs numériques
+# ♻️ Communs numériques
 
 Un commun numérique est une ressource numérique produite et gérée par une communauté d'utilisateurs en selon des règles de gouvernance conjointement élaborées. Tout projet DOIT tenter de réutiliser des communs numériques en suivant ce guide, et PEUT y contribuer.
 
@@ -24,7 +20,7 @@ Mon produit est un(e)...
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Référentiel de données**
   * Si possible paramétrage front et back sur [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne ou à portée et criticité modérée
-  * Sinon développement front spécifique sur la base d'un [backend-as-a-service](#backends-as-a-service)
+  * Sinon développement front spécifique sur la base d'un [backend-as-a-service](communs-numeriques.md#backends-as-a-service)
   * Sinon envisager le développement spécifique complet du référentiel
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
@@ -83,10 +79,11 @@ API particulièrement intéressantes pour le MAS :
 * ETL/ELT : Talend EE
 
 ## Backends as a Service
+
 * Eventuellement Grist comme Backend-as-a-Service avec un frontend spécifique s'il n'y a pas besoin de permissions Grist avancées. Quelques limitations de Grist :
   * Les permissions avancées ne sont pas accessibles par API
   * Pas de propagation de l'authentification ProConnect par API : compte de service seulement
-  * l'API  de l'instance DINUM est limitée à 10 appels en parallèle par document Grist
+  * l'API de l'instance DINUM est limitée à 10 appels en parallèle par document Grist
 * Directus.io est satisfaisant mais a un coût de licence
 * Manifest.build a été écarté car trop limité
 
