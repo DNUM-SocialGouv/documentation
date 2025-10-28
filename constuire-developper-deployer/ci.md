@@ -1,8 +1,4 @@
----
-icon: badge-check
----
-
-# Intégration continue (CI)
+# ✅ Intégration continue (CI)
 
 L'intégration continue est la pratique de contrôle qualité automatique de l'application, effectuée typiquement à chaque commit ou pull/merge request.
 

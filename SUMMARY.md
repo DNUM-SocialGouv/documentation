@@ -73,12 +73,12 @@
   * [Accessibilité](constuire-developper-deployer/web-front/accessibilite.md)
   * [🇫🇷 Portages DSFR](constuire-developper-deployer/web-front/portages-dsfr.md)
   * [📍 Cartographie](constuire-developper-deployer/web-front/cartographie.md)
-* [Stratégies de tests](constuire-developper-deployer/tests-et-strategies/README.md)
-  * [Tests de bout en bout](constuire-developper-deployer/tests-et-strategies/tests-de-bout-en-bout.md)
-  * [Tests de performance](constuire-developper-deployer/tests-et-strategies/tests-de-performance.md)
-* [Intégration continue (CI)](constuire-developper-deployer/ci.md)
-* [Déploiement continu (CD)](constuire-developper-deployer/cd.md)
-* [Passation des projets](constuire-developper-deployer/passation.md)
+* [🧪 Stratégies de tests](constuire-developper-deployer/tests-et-strategies/README.md)
+  * [🧪 Tests de bout en bout](constuire-developper-deployer/tests-et-strategies/tests-de-bout-en-bout.md)
+  * [🧪 Tests de performance](constuire-developper-deployer/tests-et-strategies/tests-de-performance.md)
+* [✅ Intégration continue (CI)](constuire-developper-deployer/ci.md)
+* [📲 Déploiement continu (CD)](constuire-developper-deployer/cd.md)
+* [🔁 Passation des projets](constuire-developper-deployer/passation.md)
 
 ## DEPLOYER
 
@@ -103,4 +103,4 @@
 
 ## AIDE
 
-* [Contribuer au guide](contribuer.md)
+* [✒️ Contribuer au guide](contribuer.md)

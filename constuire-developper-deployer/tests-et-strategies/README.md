@@ -1,8 +1,4 @@
----
-icon: vial
----
-
-# Stratégies de tests
+# 🧪 Stratégies de tests
 
 ## Front
 

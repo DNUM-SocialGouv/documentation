@@ -1,8 +1,4 @@
----
-icon: right-to-bracket
----
-
-# Déploiement continu (CD)
+# 📲 Déploiement continu (CD)
 
 * [ ] L'application est livrée sous forme d'images docker dans un registre (par ex Harbor, ou même Github ou Gitlab).
 * [ ] Sur les environnements d'intégration, le déploiement doit être automatique depuis la branche git d'intégration.

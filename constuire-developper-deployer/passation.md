@@ -1,8 +1,4 @@
----
-icon: right-left
----
-
-# Passation des projets
+# 🔁 Passation des projets
 
 Dans le cadre de nos développements internes, il nous arrive de léguer nos projets à des équipes externes afin d'assurer une continuité dans leur évolution, et aussi de pouvoir prioriser d'autres sujets.
 

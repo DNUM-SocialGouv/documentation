@@ -1,8 +1,4 @@
----
-icon: vial
----
-
-# Tests de performance
+# 🧪 Tests de performance
 
 Ces tests permettent de vérifier la performance des fonctionnalités d'une application.
 

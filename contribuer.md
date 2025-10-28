@@ -1,8 +1,4 @@
----
-icon: pen-nib
----
-
-# Contribuer au guide
+# ✒️ Contribuer au guide
 
 Ce guide s'adresse à toute personne qui conçoit, développe ou déploie des produits numériques à la DNUM. Son objectif est de construire de meilleurs services publics numériques :
 

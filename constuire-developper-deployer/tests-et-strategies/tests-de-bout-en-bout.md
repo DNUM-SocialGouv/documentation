@@ -1,9 +1,8 @@
 ---
 description: Aussi nommés tests end-to-end, ou e2e.
-icon: vial
 ---
 
-# Tests de bout en bout
+# 🧪 Tests de bout en bout
 
 Ces tests vérifient l'ensemble des couches de l'application et ses dépendances :
 
