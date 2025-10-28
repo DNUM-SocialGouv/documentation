@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Bienvenue](README.md)
+* [👋 Bienvenue](README.md)
   * [Cadre organisationnel](readme/cadre-organisationnel.md)
   * [Cycle de vie produit](readme/cycle-de-vie-produit.md)
 * [Préparer et lancer](preparer-et-lancer/README.md)
