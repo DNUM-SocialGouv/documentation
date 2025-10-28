@@ -1,9 +1,8 @@
 ---
 description: Analyse et recommandations sur le devis d'un prestataire de service
-icon: magnifying-glass-dollar
 ---
 
-# Analyse de devis et recommandations
+# 💰 Analyse de devis
 
 <figure><img src="../../.gitbook/assets/offre_accompagnement_tech_analyse_devis.png" alt="Image analyse de devis" width="375"><figcaption></figcaption></figure>
 

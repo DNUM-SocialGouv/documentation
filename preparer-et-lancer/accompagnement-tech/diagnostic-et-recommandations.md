@@ -1,9 +1,8 @@
 ---
 description: Diagnostic et recommandations sur un problème technique ou de performance
-icon: gear-code
 ---
 
-# Diagnostic et recommandations
+# 🩺 Diagnostic technique
 
 <figure><img src="../../.gitbook/assets/offre_accompagnement_tech_diagnostic.png" alt="Image offre diagnostic" width="375"><figcaption></figcaption></figure>
 

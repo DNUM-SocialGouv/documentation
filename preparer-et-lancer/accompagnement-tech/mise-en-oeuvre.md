@@ -2,40 +2,27 @@
 description: >-
   Nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec
   votre équipe
-icon: terminal
 ---
 
-# Mise en œuvre
+# 👨‍💻 Mise en œuvre
 
 <figure><img src="../../.gitbook/assets/offre_accompagnement_tech_dev.png" alt="Image offre développement" width="375"><figcaption></figcaption></figure>
 
 Confiez nous la mise en œuvre de votre produit !
 
-
-
 Que ce soit pour réaliser tout ou partie de votre projet, sur un sprint ou plusieurs, de la preuve de concept à sa généralisation, nous sommes là pour vous accompagner.
-
-
 
 Nous pouvons travailler exclusivement au sein de notre équipe ou en équipe mixte avec votre maîtrise d'œuvre actuelle, qu'elle soit interne ou externe (sous réserve de possibilités contractuelles).
 
-
-
 Nous visons -humblement🌟- l'exemplarité en matière de réponse à vos besoins, de qualité, d'accessibilité et de sécurité.
-
-
 
 _<mark style="color:red;">#DEV #EXEMPLARITÉ #EXCELLENCE #ÇA\_MARCHE #C'EST\_MAINTENABLE #C'EST\_ACCESSIBLE #C'EST\_ACCESSIBLE #C'EST\_OBSERVABLE</mark>_
 
 ***
 
-
-
 * **Délai d'intervention :** sous 1 mois
 * **Durée d'intervention :** 5 à 90 jours selon la complexité de votre contexte ; reconductibles
 * **Cycle de vie du produit :** Itération, suivi, amélioration
-
-
 
 **Livrables :**
 

@@ -1,6 +1,6 @@
 ---
-icon: bell-concierge
 layout:
+  width: default
   title:
     visible: true
   description:
@@ -11,13 +11,15 @@ layout:
     visible: true
   pagination:
     visible: false
+  metadata:
+    visible: true
 ---
 
-# Accompagnement technique
+# 🛎️ Accompagnement technique
 
 ## Offre d'accompagnement technique
 
-Nous proposons différents accompagnements techniques pour répondre à chacune de vos situations :&#x20;
+Nous proposons différents accompagnements techniques pour répondre à chacune de vos situations :
 
 * [**Échange rapide**](echange-rapide.md) : discussion autour d'une situation, avec une réponse à la clé.
 * [**Orientation**](orientation-vers-des-offres-adaptees.md) : réponse à une question, une demande.
@@ -27,11 +29,7 @@ Nous proposons différents accompagnements techniques pour répondre à chacune 
 * [**Accompagnement d'architecture**](accompagnement-pour-definir-larchitecture.md) : accompagnement complet pour la définition de l'architecture de votre produit.
 * [**Mise en œuvre**](mise-en-oeuvre.md) : nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec votre équipe.
 
-
-
 ***
-
-
 
 ## Engagements de l'équipe
 
@@ -42,8 +40,6 @@ Quel que soit l'accompagnement proposé, nos engagements sont les mêmes :
 * Nous ne nous substituons pas aux experts du projet.
 * Nous conseillons et nous aidons, mais nous ne décidons pas à la place du projet.
 * L'accompagnement n'engendre pas de surcoût pour le projet.
-
-
 
 ## 1. Prise de contact
 

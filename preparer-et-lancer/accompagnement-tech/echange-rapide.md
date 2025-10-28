@@ -1,10 +1,9 @@
 ---
 description: Échange rapide sur une situation, avec une réponse à la clé
 noRobotsIndex: true
-icon: lightbulb-exclamation-on
 ---
 
-# Échange rapide
+# 💡 Échange rapide
 
 <figure><img src="../../.gitbook/assets/offre_accompagnement_tech_speedmeeting_image.png" alt="" width="256"><figcaption></figcaption></figure>
 
