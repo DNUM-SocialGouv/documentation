@@ -1,3 +1,7 @@
+---
+icon: hourglass-start
+---
+
 # Traitements asynchrones
 
 Cette page documente diverses solutions possibles lorsqu'un processus asynchrone est considéré.
