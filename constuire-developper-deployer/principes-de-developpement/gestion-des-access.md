@@ -1,3 +1,7 @@
+---
+icon: lock
+---
+
 # Gestion des accès
 
 ## Enjeux
