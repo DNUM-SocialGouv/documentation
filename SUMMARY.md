@@ -58,8 +58,8 @@
 
 ## DEVELOPPER
 * [Checklist projet](constuire-developper-deployer/checklist-projet.md)
-* [Open Source](constuire-developper-deployer/open-source.md)
 * [Principes de développement](constuire-developper-deployer/principes-de-developpement/README.md)
+  * [Open Source](constuire-developper-deployer/open-source.md)
   * [Application cloud native](constuire-developper-deployer/principes-de-developpement/cloud-native.md)
   * [Traitements asynchrones](constuire-developper-deployer/principes-de-developpement/processus-asynchrones.md)
   * [Gestion des accès](constuire-developper-deployer/principes-de-developpement/gestion-des-access.md)
