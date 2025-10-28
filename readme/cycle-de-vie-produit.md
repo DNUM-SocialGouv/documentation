@@ -1,4 +1,4 @@
-# Cycle de vie produit
+# 🌀 Cycle de vie produit
 
 Les produits doivent suivre un cycle de vie standard, incluant des étapes de validation par le comité​ produit.
 
