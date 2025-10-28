@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Bienvenue sur le guide DNUM](README.md)
-  * [Nouveau cadre organisationnel](readme/nouveau-cadre-organisationnel.md)
+* [Bienvenue](README.md)
+  * [Cadre organisationnel](readme/cadre-organisationnel.md)
   * [Cycle de vie produit](readme/cycle-de-vie-produit.md)
 * [Préparer et lancer](preparer-et-lancer/README.md)
   * [L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
@@ -72,6 +72,12 @@
   * [Intégration continue (CI)](constuire-developper-deployer/ci.md)
   * [Déploiement continu (CD)](constuire-developper-deployer/cd.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
+
+## CONCEVOIR
+
+## DEVELOPPER
+
+## DEPLOYER
 * [Déployer](securiser-et-surveiller/README.md)
   * [Cloud](securiser-et-surveiller/cloud.md)
   * [Sécurité](securiser-et-surveiller/securite/README.md)
@@ -90,12 +96,10 @@
   * [Animer la communauté produit](conduire-le-changement/animer-la-communaute-produit/README.md)
     * [Questionner l'efficience](conduire-le-changement/animer-la-communaute-produit/questionner-lefficience.md)
 
-## ---
-
-* [Nos produits](nos-produits/README.md)
-  * [Santé](nos-produits/sante.md)
-  * [Offre de soin](nos-produits/offre-de-soin.md)
-  * [Transverse](nos-produits/transverse.md)
+## NOS PRODUITS
+* [Santé](nos-produits/sante.md)
+* [Offre de soin](nos-produits/offre-de-soin.md)
+* [Transverse](nos-produits/transverse.md)
 
 ## ---
 

@@ -1,17 +1,16 @@
-# Nouveau cadre organisationnel
+# Cadre organisationnel
 
 ## Pourquoi ce cadre organisationnel
 
-Le mode produit pour **dé-risquer** les services publics numériques et éviter :
-
-* Un non-alignement sur les objectifs qui peut mener des dépenses sans atterrissage, un réalignement constant
-* Une meilleure conception (urbanisation, design, etc), car les équipes sont dotées de toutes les expertises, ou appuyées par des experts internes (architecture, design, recherche utilisateur, etc.)
-* \[COMMENT déclencher la prise de conscience]
+Lorsqu'il est bien implémenté, le mode produit permet notamment :
+* De **dé-risquer les services publics numériques**
+* D'**aligner les parties prenantes** sur les objectifs, pour éviter des dépenses sans atterrissage
+* De **mieux concevoir**, car les équipes sont dotées ou ont accès à toutes les expertises (architecture, design, recherche utilisateur, etc.)
 
 ## Le comité produit
 
 {% hint style="warning" %}
-**Le comité produit est toujours en version bêta et son organisation est susceptible d'évoluer. Il se réunit chaque semaine depuis le 1ᵉʳ octobre 2024.**
+**Le comité produit est en version bêta et son organisation évolue.**
 {% endhint %}
 
 > <mark style="color:purple;background-color:purple;">**Le comité produit accompagne et soutient les équipes en identifiant leurs besoins, en les orientant, en les aidant et surtout en leur proposant des solutions.**</mark>
@@ -20,7 +19,7 @@ Le mode produit pour **dé-risquer** les services publics numériques et éviter
 
 ### Rôles du comité
 
-1. Rencontrer l'équipe produit à chaque étape du [processus _phase-gate_](nouveau-cadre-organisationnel.md#processus-phase-gate) afin de valider les orientations et les décisions techniques, mais aussi d'identifier avec les équipes des besoins d'accompagnement (technique, architecture, design, DevOps, etc.)
+1. Rencontrer l'équipe produit à chaque étape du [processus _phase-gate_](cadre-organisationnel.md#processus-phase-gate) afin de valider les orientations et les décisions techniques, mais aussi d'identifier avec les équipes des besoins d'accompagnement (technique, architecture, design, DevOps, etc.)
 2. Recenser les bonnes pratiques sur tous les aspects d'un produit numérique
 3. Développer le catalogue de communs numérique et favoriser les réutilisations
 
