@@ -2,9 +2,7 @@
 icon: osi
 ---
 
-# Open Source
-
-## Code source ouvert par défaut
+# Open Source par défaut
 
 **Le code source est ouvert par défaut** sur GitHub pour toutes les nouvelles applications, sauf contrainte de sécurité motivée.
 
