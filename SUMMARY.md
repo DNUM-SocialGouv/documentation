@@ -70,7 +70,7 @@
 * [Front web](constuire-developper-deployer/front-web/README.md)
   * [Accessibilité](constuire-developper-deployer/web-front/accessibilite.md)
   * [🇫🇷 Portages DSFR](constuire-developper-deployer/web-front/portages-dsfr.md)
-  * [Cartographie](constuire-developper-deployer/web-front/cartographie.md)
+  * [📍 Cartographie](constuire-developper-deployer/web-front/cartographie.md)
 * [Intégration continue (CI)](constuire-developper-deployer/ci.md)
 * [Déploiement continu (CD)](constuire-developper-deployer/cd.md)
 * [Passation des projets](constuire-developper-deployer/passation.md)

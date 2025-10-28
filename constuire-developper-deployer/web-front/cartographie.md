@@ -1,8 +1,4 @@
----
-icon: map-location-dot
----
-
-# Cartographie
+# 📍 Cartographie
 
 Il existe au moins 2 solutions de représentation cartographique du territoire, suivant la place de la cartographie dans le produit numérique :
 
