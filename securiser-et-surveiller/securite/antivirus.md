@@ -1,3 +1,7 @@
+---
+icon: lock
+---
+
 # Antivirus applicatif
 
 L'enjeu est de s'assurer que toute pièce-jointe uploadée et downloadée sur une application métier, par interface ou par API, fait systématiquement l'objet d'un contrôle antivirus.

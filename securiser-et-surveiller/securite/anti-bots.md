@@ -1,3 +1,7 @@
+---
+icon: lock
+---
+
 # Sécurité anti-bots
 
 L'enjeu est d'identifier les différentes menaces impliquant des bots (automates logiciels) et les solutions pour y faire face.

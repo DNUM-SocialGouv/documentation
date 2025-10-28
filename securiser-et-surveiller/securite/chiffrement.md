@@ -1,3 +1,7 @@
+---
+icon: lock
+---
+
 # Chiffrement des données
 
 De manière non-exhaustive on identifie plusieurs niveaux de chiffrement des données :

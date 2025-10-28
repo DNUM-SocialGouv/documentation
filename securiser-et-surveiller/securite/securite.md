@@ -1,3 +1,7 @@
+---
+icon: lock
+---
+
 # Sécurité
 
 ## Gestion des secrets
