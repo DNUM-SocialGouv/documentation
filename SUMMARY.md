@@ -73,11 +73,8 @@
   * [Déploiement continu (CD)](constuire-developper-deployer/cd.md)
   * [Passation des projets](constuire-developper-deployer/passation.md)
 
-## CONCEVOIR
-
-## DEVELOPPER
-
 ## DEPLOYER
+
 * [Hébergement](securiser-et-surveiller/hebergement.md)
 * [Sécurité](securiser-et-surveiller/securite/securite.md)
   * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
@@ -92,9 +89,11 @@
   * [Support utilisateur](conduire-le-changement/support-utilisateur.md)
 
 ## NOS PRODUITS
+
 * [Santé](nos-produits/sante.md)
 * [Offre de soin](nos-produits/offre-de-soin.md)
 * [Transverse](nos-produits/transverse.md)
 
 ## AIDE
+
 * [Contribuer au guide](contribuer.md)
