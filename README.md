@@ -8,7 +8,7 @@ Voici un ensemble de ressources destinées aux agents de la Direction du Numéri
 
 ## Constats
 
-La sous-direction gère un parc de [250 applications](nos-produits/) portées par 50 chefs de produit, en lien avec les équipes métiers.
+La sous-direction gère un parc de **250 applications** portées par 50 chefs de produit, en lien avec les équipes métiers.
 
 Au regard de ce parc, on note des enjeux d'optimisation :
 
