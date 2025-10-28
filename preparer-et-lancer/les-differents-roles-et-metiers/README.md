@@ -3,10 +3,9 @@ description: >-
   Une équipe pluridisciplinaire qui partage la vision produit, réalise sa
   conception, met en place son développement et le suit au cours de son cycle de
   vie.
-icon: people-group
 ---
 
-# L'équipe produit
+# 👷‍♀️ L'équipe produit
 
 ### Les rôles de l'équipe produit
 

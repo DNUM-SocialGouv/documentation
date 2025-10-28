@@ -1,8 +1,4 @@
----
-icon: merge
----
-
-# Démarche de rationalisation
+# ♻️ Démarche de rationalisation
 
 ## Enjeu et objectifs
 

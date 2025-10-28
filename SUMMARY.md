@@ -6,7 +6,7 @@
 
 ## PREPARER ET LANCER
 
-* [L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
+* [👷‍♀️ L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
   * [Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
   * [Responsable produit](preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md)
   * [Expert en Recherche Utilisateur](preparer-et-lancer/les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
@@ -24,7 +24,7 @@
     * [Vision produit](preparer-et-lancer/organisation-produit/ressources/vision-produit.md)
     * [La roadmap](preparer-et-lancer/organisation-produit/ressources/la-roadmap.md)
     * [Les indicateurs](preparer-et-lancer/organisation-produit/ressources/les-indicateurs.md)
-* [Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
+* [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
 * [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [Grist](preparer-et-lancer/communs-grist.md)
 * [🛎️ Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
