@@ -1,5 +1,5 @@
 ---
-icon: bullseye-arrow
+icon: vial
 ---
 
 # Stratégies de tests
