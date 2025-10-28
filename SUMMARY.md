@@ -5,6 +5,7 @@
   * [🌀 Cycle de vie produit](readme/cycle-de-vie-produit.md)
 
 ## PREPARER ET LANCER
+
 * [L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
   * [Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
   * [Responsable produit](preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md)
@@ -24,7 +25,7 @@
     * [La roadmap](preparer-et-lancer/organisation-produit/ressources/la-roadmap.md)
     * [Les indicateurs](preparer-et-lancer/organisation-produit/ressources/les-indicateurs.md)
 * [Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
-* [Communs numériques](preparer-et-lancer/communs-numeriques.md)
+* [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [Grist](preparer-et-lancer/communs-grist.md)
 * [Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
   * [Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
