@@ -1,4 +1,4 @@
-# Animer la communauté produit
+# Animation de la communauté
 
 Le produit à des adhésions avec des processus et une organisation.&#x20;
 

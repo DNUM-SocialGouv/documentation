@@ -2,7 +2,7 @@
 icon: map
 ---
 
-# Engager un processus de design
+# Processus de design
 
 ## Pourquoi faire du design ?
 

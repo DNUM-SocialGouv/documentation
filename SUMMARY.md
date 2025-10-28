@@ -35,7 +35,7 @@
     * [Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)
     * [\[TEMPLATE\] Offre accompagnement technique](preparer-et-lancer/accompagnement-tech/template-offre-accompagnement-technique-1.md)
 * [Concevoir](concevoir/README.md)
-  * [Engager un processus de design](concevoir/processus-general.md)
+  * [Processus de design](concevoir/processus-general.md)
   * [Recherche Utilisateur](concevoir/ru/README.md)
     * [Principes](concevoir/ru/ru_principes.md)
     * [Application](concevoir/ru/ru_application.md)
@@ -78,29 +78,24 @@
 ## DEVELOPPER
 
 ## DEPLOYER
-* [Déployer](securiser-et-surveiller/README.md)
-  * [Cloud](securiser-et-surveiller/cloud.md)
-  * [Sécurité](securiser-et-surveiller/securite/README.md)
-    * [Sécurité](securiser-et-surveiller/securite/securite.md)
-    * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
-    * [Antivirus](securiser-et-surveiller/securite/antivirus.md)
-    * [Chiffrement des données](securiser-et-surveiller/securite/chiffrement.md)
-  * [Observabilité](securiser-et-surveiller/observabilite.md)
-    * [Métriques de performance applicative (APM)](securiser-et-surveiller/observabilite/metriques-de-performance-applicative-apm.md)
-* [Conduire le changement](conduire-le-changement/README.md)
-  * [Communiquer et promouvoir](conduire-le-changement/communiquer.md)
-  * [Accompagner](conduire-le-changement/accompagner/README.md)
-    * [Former](conduire-le-changement/accompagner/former.md)
-    * [Aider au démarrage](conduire-le-changement/accompagner/dispositif-daide-au-demarrage.md)
-    * [S'engager au support utilisateur](conduire-le-changement/accompagner/support-utilisateur.md)
-  * [Animer la communauté produit](conduire-le-changement/animer-la-communaute-produit/README.md)
-    * [Questionner l'efficience](conduire-le-changement/animer-la-communaute-produit/questionner-lefficience.md)
+* [Hébergements](securiser-et-surveiller/hebergements.md)
+* [Sécurité](securiser-et-surveiller/securite/securite.md)
+  * [Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
+  * [Antivirus](securiser-et-surveiller/securite/antivirus.md)
+  * [Chiffrement des données](securiser-et-surveiller/securite/chiffrement.md)
+* [Observabilité](securiser-et-surveiller/observabilite.md)
+  * [Métriques de performance applicative (APM)](securiser-et-surveiller/metriques-de-performance-applicative-apm.md)
+* [Conduite du changement](conduire-le-changement/README.md)
+  * [Communiquer et promouvoir](conduire-le-changement/communication-promotion.md)
+  * [Formation](conduire-le-changement/formation.md)
+  * [Aide au démarrage](conduire-le-changement/aide-au-demarrage.md)
+  * [Support utilisateur](conduire-le-changement/support-utilisateur.md)
+  * [Animation de la communauté](conduire-le-changement/communaute.md)
 
 ## NOS PRODUITS
 * [Santé](nos-produits/sante.md)
 * [Offre de soin](nos-produits/offre-de-soin.md)
 * [Transverse](nos-produits/transverse.md)
 
-## ---
-
+## AIDE
 * [Contribuer au guide](contribuer.md)
