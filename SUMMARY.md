@@ -5,7 +5,6 @@
   * [🌀 Cycle de vie produit](readme/cycle-de-vie-produit.md)
 
 ## PREPARER ET LANCER
-* [Préparer et lancer](preparer-et-lancer/README.md)
 * [L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
   * [Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
   * [Responsable produit](preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md)
