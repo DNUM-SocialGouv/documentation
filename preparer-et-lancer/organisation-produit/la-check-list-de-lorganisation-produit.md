@@ -15,7 +15,7 @@ C’est une dynamique, un mode de fonctionnement fluide et efficace, où les bon
 * [ ] Toutes les parties prenantes la connaissent-elles et l’utilisent-elles comme référence ?
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir plus de détails sur la vision produit](ressources/vision-produit.md)
+Pour aller plus loin : [Voir plus de détails sur la vision produit](vision-produit.md)
 {% endhint %}
 
 ***

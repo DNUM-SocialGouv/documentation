@@ -13,7 +13,7 @@ Contrairement à un planning rigide sur plusieurs mois ou années, une roadmap p
 Elle définit les grandes étapes à court et moyen terme (3 à 6 mois), avec un focus sur les résultats à atteindre, plutôt que sur des livrables figés.
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les détails d'une roadmap](ressources/la-roadmap.md)
+Pour aller plus loin : [Voir les détails d'une roadmap](la-roadmap.md)
 {% endhint %}
 
 Ce que cela implique :

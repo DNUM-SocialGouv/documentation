@@ -6,6 +6,7 @@
 
 ## PREPARER ET LANCER
 
+* [Les piliers d’une organisation produit](preparer-et-lancer/les-piliers-dune-organisation-produit.md)
 * [👷‍♀️ L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
   * [👷‍♀️ Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
   * [👷‍♀️ Responsable produit](preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md)
@@ -17,13 +18,11 @@
   * [👷‍♀️ Expert Ops](preparer-et-lancer/les-differents-roles-et-metiers/devops.md)
   * [👷‍♀️ Expert accessibilité](preparer-et-lancer/les-differents-roles-et-metiers/expert-accessibilite.md)
 * [L'organisation produit](preparer-et-lancer/organisation-produit/README.md)
-  * [Les piliers d’une organisation produit](preparer-et-lancer/organisation-produit/les-piliers-dune-organisation-produit.md)
   * [Le fonctionnement quotidien](preparer-et-lancer/organisation-produit/le-fonctionnement-quotidien.md)
   * [La check-list de l'organisation produit](preparer-et-lancer/organisation-produit/la-check-list-de-lorganisation-produit.md)
-  * [Ressources](preparer-et-lancer/organisation-produit/ressources/README.md)
-    * [Vision produit](preparer-et-lancer/organisation-produit/ressources/vision-produit.md)
-    * [La roadmap](preparer-et-lancer/organisation-produit/ressources/la-roadmap.md)
-    * [Les indicateurs](preparer-et-lancer/organisation-produit/ressources/les-indicateurs.md)
+  * [Vision produit](preparer-et-lancer/organisation-produit/vision-produit.md)
+  * [La roadmap](preparer-et-lancer/organisation-produit/la-roadmap.md)
+  * [Les indicateurs](preparer-et-lancer/organisation-produit/les-indicateurs.md)
 * [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [♻️ Grist](preparer-et-lancer/communs-grist.md)
@@ -31,7 +30,7 @@
   * [💡 Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
   * [🧭 Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
   * [💰 Analyse de devis](preparer-et-lancer/accompagnement-tech/analyse-de-devis-et-recommandations.md)
-  * [👨‍💻 Aide au recrutement](preparer-et-lancer/accompagnement-tech/aide-au-recrutement.md)
+  * [Aide au recrutement](preparer-et-lancer/accompagnement-tech/aide-au-recrutement.md)
   * [🩺 Diagnostic technique](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
   * [👨‍💻 Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
   * [👨‍💻 Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)

@@ -15,7 +15,7 @@ Une équipe produit réunit plusieurs expertises : produit, technique, design, a
 Elle est responsable du produit de bout en bout : de la compréhension des besoins à la mise en production, jusqu’au suivi de l’impact.
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les différents métiers](../les-differents-roles-et-metiers/)
+Pour aller plus loin : [Voir les différents métiers](les-differents-roles-et-metiers/)
 {% endhint %}
 
 Ce que cela implique :
@@ -31,7 +31,7 @@ Le produit est conçu avec les usagers, pas seulement pour eux.
 Les retours utilisateurs guident les choix, valident les hypothèses et révèlent les besoins réels.
 
 {% hint style="info" %}
-Pour aller plus loin : Voir les principes [de la recherche utilisateur](../../concevoir/ru/) et le métier d'[expert en recherche utilisateurs](../les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
+Pour aller plus loin : Voir les principes [de la recherche utilisateur](../concevoir/ru/) et le métier d'[expert en recherche utilisateurs](les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
 {% endhint %}
 
 Ce que cela implique :
@@ -45,7 +45,7 @@ Ce que cela implique :
 Ce n’est pas la complétude fonctionnelle qui fait le succès d’un produit, mais sa capacité à produire un effet utile et mesurable.
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateurs.md)
+Pour aller plus loin : [Voir les indicateurs produits](../concevoir/indicateurs.md)
 {% endhint %}
 
 Ce que ça implique :

@@ -13,7 +13,7 @@ Fixer des indicateurs permet d’aligner toutes les parties prenantes sur la str
 ## Les différents types d'indicateurs
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les indicateurs produits](../../../concevoir/indicateurs.md)
+Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateurs.md)
 {% endhint %}
 
 <details>
@@ -22,7 +22,7 @@ Pour aller plus loin : [Voir les indicateurs produits](../../../concevoir/indica
 
 Ces indicateurs mesurent si un produit atteint ses objectifs stratégiques. Ils traduisent la vision produit en résultats concrets et mesurables.
 
-#### Exemples °1 :
+**Exemples °1 :**
 
 * Taux d’usage.
 * Audience.
@@ -38,9 +38,9 @@ Les KPIs répondent à une question clé : « Est-ce que notre produit atteint l
 
 Ces indicateurs servent à évaluer les effets des initiatives produit sur les usagers, les utilisateurs ou l’organisation. Ils permettent de valider que chaque action apporte une valeur réelle.
 
-#### Exemples °2 :
+**Exemples °2 :**
 
-* Économies réalisées : évaluer les gains financiers, notamment via l'utilisation de [communs numériques](../../communs-numeriques.md) et la réduction des doublons.
+* Économies réalisées : évaluer les gains financiers, notamment via l'utilisation de [communs numériques](../communs-numeriques.md) et la réduction des doublons.
 * Augmentation du taux de dématérialisation.
   * Réduction du délai d'instruction de dossiers par 2.
   * Constitution d'un dossier en moins de 10 minutes.
@@ -56,7 +56,7 @@ Ces indicateurs relient directement les décisions de l'équipe produit à des r
 
 Ces indicateurs agissent comme des garde-fous, des signaux d'alerte et permettent de vérifier que l'on progresse bien vers les objectifs.
 
-#### Exemples :
+**Exemples :**
 
 * Une durée de session sur un site de consultation peut mesurer l'intérêt des utilisateurs pour le contenu proposé
   * Objectif : connaître les intérêts de consultations
