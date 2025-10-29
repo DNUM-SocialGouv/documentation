@@ -3,10 +3,9 @@ description: >-
   Règles d'usages pour représenter son produit dans l'en-tête du site, utiliser
   le bloc-marque du ministère ou le bloc-marque République Française et un
   logotype.
-icon: seal
 ---
 
-# Représenter son produit dans les en-têtes des sites
+# 🇫🇷 Représenter son produit dans les en-têtes des sites
 
 Tout site porté par l’Etat et ses opérateurs doit respecter les règles d’usage de la marque Etat. Dans le cas des sites soumis à agrément du SIG, le non-respect des règles d’usage entrainera le refus de l’agrément.
 

@@ -45,7 +45,7 @@
   * [Principes](concevoir/ru/ru_principes.md)
   * [Application](concevoir/ru/ru_application.md)
 * [Bonnes pratiques de design](concevoir/bonnes-pratiques-design.md)
-* [Représenter son produit dans les en-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
+* [🇫🇷 Représenter son produit dans les en-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [🚦 Exemples d'indicateurs](concevoir/indicateurs.md)
 * [Accessibilité](concevoir/accessibilite.md)
 * [🌳 Eco-conception](concevoir/eco-conception.md)
