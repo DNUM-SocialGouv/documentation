@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Le fonctionnement quotidien
 
 L’organisation produit repose sur un fonctionnement itératif, collaboratif et orienté impact. Au-delà des principes, cela se traduit par des pratiques concrètes qui rythment la vie des équipes.

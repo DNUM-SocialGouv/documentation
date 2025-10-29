@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Ressources
 
 Construire un produit utile, utilisable et utilisé ne repose pas uniquement sur une organisation efficace.

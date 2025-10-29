@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Vision produit
 
 La vision produit exprime de manière claire et inspirante l'objectif que le produit cherche à atteindre, ainsi que la valeur qu'il apporte aux utilisateurs et à l'organisation.

@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Les piliers d’une organisation produit
 
 Une organisation produit repose sur quelques principes simples.

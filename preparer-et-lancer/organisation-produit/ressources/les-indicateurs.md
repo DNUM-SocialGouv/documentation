@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # Les indicateurs
 
 Les indicateurs jouent un rôle central dans notre capacité à piloter nos produits efficacement.

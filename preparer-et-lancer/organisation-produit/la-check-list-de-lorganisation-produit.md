@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # La check-list de l'organisation produit
 
 Une bonne organisation produit ne se résume pas à un organigramme ou à une liste de rôles / métiers.

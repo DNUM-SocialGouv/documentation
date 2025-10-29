@@ -1,3 +1,7 @@
+---
+icon: cubes
+---
+
 # La roadmap
 
 ### Pourquoi une roadmap court terme ?
