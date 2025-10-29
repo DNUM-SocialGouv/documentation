@@ -1,6 +1,6 @@
 # ♻️ Démarche de rationalisation
 
-## Enjeu et objectifs
+## Objectifs
 
 L'architecture des SI répond aux enjeux de gestion du patrimoine applicatif par une vision transverse des applications, SI, services et besoins auxquels ils répondent.
 
