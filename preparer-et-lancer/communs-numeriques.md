@@ -7,12 +7,12 @@ Un commun numérique est une ressource numérique produite et gérée par une co
 Mon produit est un(e)...
 
 * **Site éditorial public**
-  * pour un CMS : voir comment [choisir entre le Socle Ondine et Sites Faciles](./#choisir-entre-socle-ondine-et-sites-faciles)
+  * pour un CMS : voir comment [choisir entre le Socle Ondine et Sites Faciles](communs-numeriques.md#choisir-entre-socle-ondine-et-sites-faciles)
   * pour un Wiki, une base de connaissance : GitBook (cf. infra)
 * **Démarche administrative en ligne**
   * pour le **front usager** :
     * utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
-      * utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir comment [choisir entre Démarches Simplifiées et Démat Social](./#choisir-entre-démarches-simplifiées-et-démat-social)
+      * utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir comment [choisir entre Démarches Simplifiées et Démat Social](communs-numeriques.md#choisir-entre-démarches-simplifiées-et-démat-social)
     * en dernier recours, envisager le développement spécifique du front usager
   * pour le **back-office agent** :
     * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarches Simplifiées (ou Démat Social)
@@ -20,14 +20,14 @@ Mon produit est un(e)...
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Référentiel de données**
   * Si possible paramétrage front et back sur [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne ou à portée et criticité modérée
-  * Sinon développement front spécifique sur la base d'un [backend-as-a-service](./#backends-as-a-service)
+  * Sinon développement front spécifique sur la base d'un [backend-as-a-service](communs-numeriques.md#backends-as-a-service)
   * Sinon envisager le développement spécifique complet du référentiel
 
 Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
 
-* [les communs numériques](./#communs-numériques-au-mas)
-* [les API internes et externes](./#api-externes-et-internes)
-* [les frameworks et librairies standards](./#frameworks-et-librairies-standards)
+* [les communs numériques](communs-numeriques.md#communs-numériques-au-mas)
+* [les API internes et externes](communs-numeriques.md#api-externes-et-internes)
+* [les frameworks et librairies standards](communs-numeriques.md#frameworks-et-librairies-standards)
 
 ## Solutions transverses et communs numériques au MAS
 
@@ -64,16 +64,16 @@ API particulièrement intéressantes pour le MAS :
 
 ## Frameworks et librairies standards
 
-* [Authentification](../authentification.md)
+* [Authentification](../concevoir/authentification.md)
 * Stockage documentaire et GED (type S3, …)
 * Notifications (envois emails)
 * Publipostage (gestion des templates avec balises + production de documents)
-* [Stockage et accès aux données](../data/)
-* [API Gateway](../api/api-gateway.md)
+* [Stockage et accès aux données](../concevoir/data/)
+* [API Gateway](../concevoir/api/api-gateway.md)
 * Workflow
 * Statistiques (tableaux de bord, production de fichiers CSV, BI)
   * Metabase ? Superset ?
-  * [Matomo pour la mesure d'audience](./#matomo-pour-la-mesure-daudience)
+  * [Matomo pour la mesure d'audience](communs-numeriques.md#matomo-pour-la-mesure-daudience)
 * Chatbot
 * IA
 * ETL/ELT : Talend EE

@@ -45,7 +45,7 @@ Ce que cela implique :
 Ce n’est pas la complétude fonctionnelle qui fait le succès d’un produit, mais sa capacité à produire un effet utile et mesurable.
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les indicateurs produits](../cadrer/organisation-produit/indicateurs.md)
+Pour aller plus loin : [Voir les indicateurs produits](../concevoir/indicateurs.md)
 {% endhint %}
 
 Ce que ça implique :

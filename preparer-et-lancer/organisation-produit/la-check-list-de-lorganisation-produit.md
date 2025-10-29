@@ -43,7 +43,7 @@ Pour aller plus loin : [Voir les rôles et métiers](../les-differents-roles-et-
 * [ ] La roadmap évolue-t-elle en fonction des apprentissages ?
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les indicateurs produits](../../cadrer/organisation-produit/indicateurs.md)
+Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateurs.md)
 {% endhint %}
 
 ***

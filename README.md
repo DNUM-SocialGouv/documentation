@@ -24,12 +24,20 @@ Nous notons des opportunités à travers cette démarche :
 * Améliorer l'expérience de toutes et tous (rapidité de développement, qualité - sécurité, design, expérience utilisateur) et favoriser le bien-être au travail
 * Optimiser les coûts
 
+## Pourquoi ce cadre organisationnel
+
+Lorsqu'il est bien implémenté, le mode produit permet notamment :
+
+* De **dé-risquer les services publics numériques**
+* D'**aligner les parties prenantes** sur les objectifs, pour éviter des dépenses sans atterrissage
+* De **mieux concevoir**, car les équipes sont dotées ou ont accès à toutes les expertises (architecture, design, recherche utilisateur, etc.)
+
 ## Cadre organisationnel
 
 Nous expérimentons un cadre organisationnel qui permette de :
 
 1. Assurer la cohérence globale
-   * Création du [**comité produit**](cadrer/cadre-organisationnel.md) qui se réunit toutes les semaines pour passer en revue les nouveaux produits, refontes, et petit à petit des produits où il existe une opportunité de pivoter
+   * Création du [**comité produit**](readme/cadre-organisationnel.md) qui se réunit toutes les semaines pour passer en revue les nouveaux produits, refontes, et petit à petit des produits où il existe une opportunité de pivoter
    * Publication de **bonnes pratiques** (ici même) afin de guider et d'harmoniser la conception des produits
 2. Construire un **catalogue de bonnes pratiques et de communs numériques** et ainsi identifier les points de mutualisation entre différents besoins ou services (librairies, plateformes, référentiels)
 3. Accompagner les équipes produits :

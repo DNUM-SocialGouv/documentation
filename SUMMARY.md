@@ -4,8 +4,8 @@
 
 ## CADRER
 
-* [🏛️ Comité produit](cadrer/cadre-organisationnel.md)
-* [🌀 Cycle de vie produit](cadrer/cycle-de-vie-produit.md)
+* [🏛️ Comité produit](readme/cadre-organisationnel.md)
+* [🌀 Cycle de vie produit](readme/cycle-de-vie-produit.md)
 * [Les piliers d’une organisation produit](preparer-et-lancer/les-piliers-dune-organisation-produit.md)
 * [👷‍♀️ L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
   * [👷‍♀️ Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
@@ -23,7 +23,7 @@
   * [Vision produit](preparer-et-lancer/organisation-produit/vision-produit.md)
   * [La roadmap](preparer-et-lancer/organisation-produit/la-roadmap.md)
   * [Les indicateurs](preparer-et-lancer/organisation-produit/les-indicateurs.md)
-  * [🚦 Exemples d'indicateurs](cadrer/organisation-produit/indicateurs.md)
+  * [🚦 Exemples d'indicateurs](concevoir/indicateurs.md)
 
 ## CONCEVOIR
 
@@ -32,9 +32,9 @@
 * [Recherche Utilisateur](concevoir/ru/README.md)
   * [Principes](concevoir/ru/ru_principes.md)
   * [Application](concevoir/ru/ru_application.md)
-* [♻️ Communs numériques](concevoir/communs-numeriques/README.md)
-  * [♻️ Démarche de rationalisation](concevoir/communs-numeriques/rationalisation.md)
-  * [♻️ Grist](concevoir/communs-numeriques/communs-grist.md)
+* [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
+  * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
+  * [♻️ Grist](preparer-et-lancer/communs-grist.md)
 * [✅ Bonnes pratiques de design](concevoir/bonnes-pratiques-design.md)
 * [🇫🇷 Représenter son produit dans les en-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [🩼 Accessibilité](concevoir/accessibilite.md)
@@ -49,15 +49,15 @@
   * [🔌 Exposition d'API](concevoir/api/api-gateway.md)
   * [🔌 PISTE](concevoir/api/api-piste.md)
   * [🔌 Sécurisation d'API](concevoir/api/api-securite.md)
-* [🛎️ Accompagnement technique](concevoir/accompagnement-tech/README.md)
-  * [💡 Échange rapide](concevoir/accompagnement-tech/echange-rapide.md)
-  * [🧭 Orientation vers des offres adaptées](concevoir/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
-  * [💰 Analyse de devis](concevoir/accompagnement-tech/analyse-de-devis-et-recommandations.md)
-  * [Aide au recrutement](concevoir/accompagnement-tech/aide-au-recrutement.md)
-  * [🩺 Diagnostic technique](concevoir/accompagnement-tech/diagnostic-et-recommandations.md)
-  * [👨‍💻 Accompagnement pour définir l'architecture](concevoir/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
-  * [👨‍💻 Mise en œuvre](concevoir/accompagnement-tech/mise-en-oeuvre.md)
-  * [\[TEMPLATE\] Offre accompagnement technique](concevoir/accompagnement-tech/template-offre-accompagnement-technique-1.md)
+* [🛎️ Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
+  * [💡 Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
+  * [🧭 Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
+  * [💰 Analyse de devis](preparer-et-lancer/accompagnement-tech/analyse-de-devis-et-recommandations.md)
+  * [Aide au recrutement](preparer-et-lancer/accompagnement-tech/aide-au-recrutement.md)
+  * [🩺 Diagnostic technique](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
+  * [👨‍💻 Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
+  * [👨‍💻 Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)
+  * [\[TEMPLATE\] Offre accompagnement technique](preparer-et-lancer/accompagnement-tech/template-offre-accompagnement-technique-1.md)
 * [Architecture Decision Records](concevoir/architecture-decision-record.md)
 
 ## DEVELOPPER
