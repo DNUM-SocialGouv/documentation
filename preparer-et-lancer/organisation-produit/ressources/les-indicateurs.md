@@ -36,7 +36,7 @@ Les KPIs répondent à une question clé : « Est-ce que notre produit atteint l
 
 <summary><strong>Les indicateurs d’impact</strong></summary>
 
-Ces indicateurs servent à évaluer les effets des initiatives produit sur les usagers, les utilisateurs ou sur l’organisation. Ils permettent de valider que vos actions apportent une valeur réelle.
+Ces indicateurs servent à évaluer les effets des initiatives produit sur les usagers, les utilisateurs ou l’organisation. Ils permettent de valider que chaque action apporte une valeur réelle.
 
 #### Exemples °2 :
 
@@ -46,7 +46,7 @@ Ces indicateurs servent à évaluer les effets des initiatives produit sur les u
   * Constitution d'un dossier en moins de 10 minutes.
 * Efficacité opérationnelle : réduction des délais, des erreurs ou optimisation des processus métiers.
 
-Ces indicateurs d’impact relient directement vos décisions produit à des résultats tangibles.
+Ces indicateurs relient directement les décisions de l'équipe produit à des résultats tangibles.
 
 </details>
 
@@ -54,7 +54,7 @@ Ces indicateurs d’impact relient directement vos décisions produit à des ré
 
 <summary><strong>Les indicateurs de direction (progrès/tendance)</strong></summary>
 
-Ces indicateurs permettent de vérifier que l'on progresse dans la bonne direction. Ils agissent comme des garde-fous et des signaux d'alerte pour garantir que vous avancez vers vos objectifs.
+Ces indicateurs agissent comme des garde-fous, des signaux d'alerte et permettent de vérifier que l'on progresse bien vers les objectifs.
 
 #### Exemples :
 

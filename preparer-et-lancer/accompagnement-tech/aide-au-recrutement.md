@@ -15,7 +15,7 @@ Nous aidons à y voir plus clair 🔎:
 
 Nous intervenons dans le choix d'un profil, qu’il s’agisse d’un développeur, d’un lead technique ou pourquoi pas, d’un chef de projet avec des responsabilités techniques.
 
-Notre accompagnement est **modulable “à la carte”**, selon vos besoins :
+Notre accompagnement est **modulable “à la carte”**, selon les besoins :
 
 * **Regard externe** sur un profil ou une fiche de poste.
 * **Préparation d’un cadre d’évaluation** adapté au contexte.

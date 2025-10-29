@@ -39,4 +39,4 @@ _<mark style="color:red;">#UNE\_QUESTION\_UNE\_RÉPONSE</mark>_
 **Ce que nous ne faisons pas :**&#x20;
 
 * **Faire perdre du temps** : si un échange bref peut vous éclairer, nous proposons une solution adaptée.
-* **Prendre une décision** : nous répondons à vos questions, et vous êtes responsables de la prise de décision.
+* **Prendre une décision** : nous répondons aux questions, mais c'est l'équipe qui prend la décision.
