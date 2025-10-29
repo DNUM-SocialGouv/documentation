@@ -1,5 +1,5 @@
 ---
-icon: user
+icon: user-magnifying-glass
 ---
 
 # Recherche Utilisateur

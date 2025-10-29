@@ -1,8 +1,4 @@
----
-icon: list-check
----
-
-# Bonnes pratiques de design
+# ✅ Bonnes pratiques de design
 
 Ces bonnes pratiques garantissent que chaque produit numérique respecte les principes de base de conception d'expérience utilisateur.
 

@@ -1,8 +1,4 @@
----
-icon: map
----
-
-# Processus de design
+# 🎨 Processus de design
 
 ## Pourquoi faire du design ?
 
@@ -36,8 +32,7 @@ En intégrant un designer et expert en recherche utilisateur au plus tôt. Ces e
 
 Il est recommandé d'engager un processus de design si le produit a :
 
-* **100 usagers particuliers ou plus**
-  Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).
+* **100 usagers particuliers ou plus** Utilisateurs qui cherchent des services administratifs (allocations, déclarations, informations). Une attention particulière est apportée aux utilisateurs des [250 démarches essentielles](https://observatoire.numerique.gouv.fr/).
 * **100 usagers professionnels ou plus**\
   Incluent des experts comme des responsables d'établissement, des professionnels de santé qui utilisent les services dans le cadre de leur métier. Ils ont besoin d’outils efficaces et qui ne nécessitent aucune formation.
 * **10 agents publics**\
@@ -45,7 +40,7 @@ Il est recommandé d'engager un processus de design si le produit a :
 * **10 partenaires métiers**\
   Profils spécifiques au sein des ministères (juristes, pilotes de politique public, etc.) ou des collectivités locale (Directions Départementales, Directions Régionales) avec des besoins parfois complexes ou inédits.
 
-Le processus de design sera adapté à votre réalité et à votre besoin, il a pour priorité de d'aider à rencontrer nos utilisateurs.&#x20;
+Le processus de design sera adapté à votre réalité et à votre besoin, il a pour priorité de d'aider à rencontrer nos utilisateurs.
 
 {% hint style="info" %}
 Ressources utiles :

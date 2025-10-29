@@ -1,3 +1,7 @@
+---
+icon: user-magnifying-glass
+---
+
 # Principes
 
 ## Comprendre les besoins et les motivations des utilisateurs

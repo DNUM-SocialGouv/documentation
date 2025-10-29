@@ -39,15 +39,15 @@
 
 ## CONCEVOIR
 
-* [Concevoir](concevoir/README.md)
-* [Processus de design](concevoir/processus-general.md)
+* [🎨 Concevoir](concevoir/README.md)
+* [🎨 Processus de design](concevoir/processus-general.md)
 * [Recherche Utilisateur](concevoir/ru/README.md)
   * [Principes](concevoir/ru/ru_principes.md)
   * [Application](concevoir/ru/ru_application.md)
-* [Bonnes pratiques de design](concevoir/bonnes-pratiques-design.md)
+* [✅ Bonnes pratiques de design](concevoir/bonnes-pratiques-design.md)
 * [🇫🇷 Représenter son produit dans les en-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [🚦 Exemples d'indicateurs](concevoir/indicateurs.md)
-* [Accessibilité](concevoir/accessibilite.md)
+* [🩼 Accessibilité](concevoir/accessibilite.md)
 * [🌳 Eco-conception](concevoir/eco-conception.md)
 * [🔒 Authentification des utilisateurs](concevoir/authentification.md)
   * [🔒 ProConnect](concevoir/authentification-proconnect.md)
@@ -63,12 +63,12 @@
 
 ## DEVELOPPER
 
-* [Checklist projet](constuire-developper-deployer/checklist-projet.md)
+* [✅ Checklist projet](constuire-developper-deployer/checklist-projet.md)
 * [👩‍💻 Principes de développement](constuire-developper-deployer/principes-de-developpement/README.md)
   * [Open Source par défaut](constuire-developper-deployer/open-source.md)
   * [☁️ Application cloud native](constuire-developper-deployer/principes-de-developpement/cloud-native.md)
-  * [Traitements asynchrones](constuire-developper-deployer/principes-de-developpement/processus-asynchrones.md)
-  * [Gestion des accès](constuire-developper-deployer/principes-de-developpement/gestion-des-access.md)
+  * [⌛ Traitements asynchrones](constuire-developper-deployer/principes-de-developpement/processus-asynchrones.md)
+  * [🔒 Gestion des accès](constuire-developper-deployer/principes-de-developpement/gestion-des-access.md)
 * [🌐 Front web](constuire-developper-deployer/front-web/README.md)
   * [🩼 Accessibilité](constuire-developper-deployer/web-front/accessibilite.md)
   * [🇫🇷 Portages DSFR](constuire-developper-deployer/web-front/portages-dsfr.md)

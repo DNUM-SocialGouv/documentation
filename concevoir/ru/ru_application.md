@@ -1,3 +1,7 @@
+---
+icon: user-magnifying-glass
+---
+
 # Application
 
 ## La recherche exploratoire en cas de refonte

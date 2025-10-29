@@ -1,8 +1,4 @@
----
-icon: list-check
----
-
-# Checklist projet
+# ✅ Checklist projet
 
 Tous les projets doivent :
 
