@@ -13,7 +13,7 @@ Fixer des indicateurs permet d’aligner toutes les parties prenantes sur la str
 ## Les différents types d'indicateurs
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateurs.md)
+Pour aller plus loin : [Voir les indicateurs produits](indicateurs.md)
 {% endhint %}
 
 <details>
@@ -40,7 +40,7 @@ Ces indicateurs servent à évaluer les effets des initiatives produit sur les u
 
 **Exemples °2 :**
 
-* Économies réalisées : évaluer les gains financiers, notamment via l'utilisation de [communs numériques](../communs-numeriques.md) et la réduction des doublons.
+* Économies réalisées : évaluer les gains financiers, notamment via l'utilisation de [communs numériques](../preparer-et-lancer/communs-numeriques.md) et la réduction des doublons.
 * Augmentation du taux de dématérialisation.
   * Réduction du délai d'instruction de dossiers par 2.
   * Constitution d'un dossier en moins de 10 minutes.

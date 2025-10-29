@@ -30,7 +30,7 @@ Pour aller plus loin : [Voir plus de détails sur la vision produit](vision-prod
 * [ ] Les attentes sont-elles alignées entre les différentes parties prenantes ?
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les rôles et métiers](../les-differents-roles-et-metiers/)
+Pour aller plus loin : [Voir les rôles et métiers](../preparer-et-lancer/les-differents-roles-et-metiers/)
 {% endhint %}
 
 ***
@@ -43,7 +43,7 @@ Pour aller plus loin : [Voir les rôles et métiers](../les-differents-roles-et-
 * [ ] La roadmap évolue-t-elle en fonction des apprentissages ?
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateurs.md)
+Pour aller plus loin : [Voir les indicateurs produits](indicateurs.md)
 {% endhint %}
 
 ***
@@ -56,7 +56,7 @@ Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateu
 * [ ] Des tests ou expérimentations sont-ils menés avant d’engager trop de ressources sur une solution ?
 
 {% hint style="info" %}
-Pour aller plus loin : Voir la [recherche utilisateurs](../../concevoir/ru/)
+Pour aller plus loin : Voir la [recherche utilisateurs](../concevoir/ru/)
 {% endhint %}
 
 ***

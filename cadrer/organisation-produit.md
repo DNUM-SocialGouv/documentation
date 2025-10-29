@@ -13,7 +13,7 @@ Cette organisation repose sur une conviction simple : il faut se concentrer sur 
 {% hint style="info" %}
 Pour aller plus loin :
 
-* [Les piliers d'une organisation produit](../les-piliers-dune-organisation-produit.md)
+* [Les piliers d'une organisation produit](../preparer-et-lancer/les-piliers-dune-organisation-produit.md)
 * [Le fonctionnement quotidien](le-fonctionnement-quotidien.md)
 * [La check-list de l'organisation produit](la-check-list-de-lorganisation-produit.md)
 * [Ressources (roadmap, vision, indicateurs)](broken-reference)

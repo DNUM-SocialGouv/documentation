@@ -3,5 +3,5 @@ title: 'Pour aller plus loin : Voir...'
 ---
 
 {% hint style="info" %}
-Pour aller plus loin : [Voir les indicateurs produits](../../concevoir/indicateurs.md)
+Pour aller plus loin : [Voir les indicateurs produits](../../cadrer/indicateurs.md)
 {% endhint %}
