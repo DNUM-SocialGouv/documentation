@@ -1,4 +1,4 @@
-# Expert en Recherche Utilisateur
+# 👷‍♀️ Expert en Recherche Utilisateur
 
 Le chercheur utilisateur étudie les comportements, besoins et attentes des utilisateurs pour aider l’équipe à concevoir des produits adaptés.
 

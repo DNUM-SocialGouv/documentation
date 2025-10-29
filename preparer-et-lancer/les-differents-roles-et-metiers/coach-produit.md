@@ -1,4 +1,4 @@
-# Coach produit
+# 👷‍♀️ Coach produit
 
 Le coach produit accompagne les équipes dans l’adoption des pratiques agiles et produit pour améliorer leur efficacité et leur collaboration.
 

@@ -1,4 +1,4 @@
-# Expert Ops
+# 👷‍♀️ Expert Ops
 
 L'Ops facilite et automatise le déploiement des applications tout en garantissant leur fiabilité, leur sécurité et leur scalabilité. Il rapproche les équipes de développement et des opérations techniques pour améliorer la qualité et la rapidité des mises en production.
 

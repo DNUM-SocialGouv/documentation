@@ -1,4 +1,4 @@
-# Responsable produit
+# 👷‍♀️ Responsable produit
 
 Le responsable produit intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
 
@@ -11,6 +11,7 @@ Dans certains cas, lorsque le produit est développé par et pour la DNUM, le pr
 ## En quoi ce rôle est important ?
 
 Le responsable produit joue un rôle essentiel dans la mise en œuvre concrète de la stratégie produit. Il permet :
+
 * De veiller à la soutenabilité du dispositif et au bien-être des équipes
 * D'assurer la fluidité des développements
 * De veiller au respect des standards de qualité et de sécurité

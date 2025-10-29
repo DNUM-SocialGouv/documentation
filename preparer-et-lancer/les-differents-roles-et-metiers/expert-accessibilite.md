@@ -1,4 +1,4 @@
-# Expert accessibilité
+# 👷‍♀️ Expert accessibilité
 
 L'expert en accessibilité s’assure que les services numériques sont utilisables par tous les publics, y compris les personnes en situation de handicap. Il veille au respect du Référentiel Général d’Amélioration de l’Accessibilité (RGAA) et sensibilise les équipes à ces enjeux.
 
