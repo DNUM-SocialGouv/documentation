@@ -4,7 +4,7 @@
   * [🏛️ Cadre organisationnel](readme/cadre-organisationnel.md)
   * [🌀 Cycle de vie produit](readme/cycle-de-vie-produit.md)
 
-## PREPARER ET LANCER
+## CADRER
 
 * [Les piliers d’une organisation produit](preparer-et-lancer/les-piliers-dune-organisation-produit.md)
 * [👷‍♀️ L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
