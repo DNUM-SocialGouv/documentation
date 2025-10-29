@@ -4,11 +4,11 @@
 
 ## CADRER
 
-* [Les piliers d’une organisation produit](preparer-et-lancer/les-piliers-dune-organisation-produit.md)
-* [L'organisation produit](cadrer/organisation-produit.md)
+* [Piliers d’une organisation produit](preparer-et-lancer/les-piliers-dune-organisation-produit.md)
+* [Organisation produit](cadrer/organisation-produit.md)
 * [🌀 Cycle de vie produit](readme/cycle-de-vie-produit.md)
 * [🏛️ Comité produit](readme/cadre-organisationnel.md)
-* [👷‍♀️ L'équipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
+* [👷‍♀️ Equipe produit](preparer-et-lancer/les-differents-roles-et-metiers/README.md)
   * [👷‍♀️ Responsable métier](preparer-et-lancer/les-differents-roles-et-metiers/responsable-metier.md)
   * [👷‍♀️ Responsable produit](preparer-et-lancer/les-differents-roles-et-metiers/responsable-produit.md)
   * [👷‍♀️ Expert en Recherche Utilisateur](preparer-et-lancer/les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
@@ -18,11 +18,11 @@
   * [👷‍♀️ Coach produit](preparer-et-lancer/les-differents-roles-et-metiers/coach-produit.md)
   * [👷‍♀️ Expert Ops](preparer-et-lancer/les-differents-roles-et-metiers/devops.md)
   * [👷‍♀️ Expert accessibilité](preparer-et-lancer/les-differents-roles-et-metiers/expert-accessibilite.md)
-* [Le fonctionnement quotidien](cadrer/le-fonctionnement-quotidien.md)
-* [La check-list de l'organisation produit](cadrer/la-check-list-de-lorganisation-produit.md)
+* [Au quotidien](cadrer/le-fonctionnement-quotidien.md)
+* [Checklist produit](cadrer/la-check-list-de-lorganisation-produit.md)
 * [Vision produit](cadrer/vision-produit.md)
-* [La roadmap](cadrer/la-roadmap.md)
-* [Les indicateurs](cadrer/les-indicateurs.md)
+* [Roadmap](cadrer/la-roadmap.md)
+* [Indicateurs](cadrer/les-indicateurs.md)
 * [🚦 Exemples d'indicateurs](cadrer/indicateurs.md)
 
 ## CONCEVOIR
