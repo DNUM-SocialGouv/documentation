@@ -2,9 +2,11 @@
 
 ## Guides de développement
 
-Des guides, tels que le [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/fr) ou le [RGAA](https://accessibilite.numerique.gouv.fr/), existent afin de permettre et faciliter les pratiques de développement :
+Des guides permettent la prise en compte de l'accessibilité numérique dans les développements :
 
-* Les notices d'intégration de [AcceDe Web](https://www.accede-web.com/notices/html-et-css/) ;
+* [WCAG](https://www.w3.org/WAI/standards-guidelines/wcag/fr)
+* [RGAA](https://accessibilite.numerique.gouv.fr/)
+* Notices d'intégration de [AcceDe Web](https://www.accede-web.com/notices/html-et-css/)
 
 ## Outils et pratiques
 
