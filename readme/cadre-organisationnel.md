@@ -1,14 +1,8 @@
 # 🏛️ Comité produit
 
-##
-
-## Le comité produit
-
 {% hint style="warning" %}
-**Le comité produit est en version bêta et son organisation évolue.**
+**Le comité produit est en version bêta et son organisation évolue. Il accompagne les équipes en identifiant leurs besoins, en les orientant, en les aidant et en leur proposant des solutions.**
 {% endhint %}
-
-> <mark style="color:purple;background-color:purple;">**Le comité produit accompagne et soutient les équipes en identifiant leurs besoins, en les orientant, en les aidant et surtout en leur proposant des solutions.**</mark>
 
 ### Rôles du comité
 

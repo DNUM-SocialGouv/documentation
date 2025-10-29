@@ -2,9 +2,7 @@
 icon: cubes
 ---
 
-# Les piliers d’une organisation produit
-
-Une organisation produit repose sur quelques principes simples.
+# Piliers d’une organisation produit
 
 Ces piliers structurent la manière dont les équipes travaillent, prennent des décisions et améliorent les services publics numériques dans la durée.
 

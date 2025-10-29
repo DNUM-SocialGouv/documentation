@@ -5,7 +5,7 @@ description: >-
   vie.
 ---
 
-# 👷‍♀️ L'équipe produit
+# 👷‍♀️ Equipe produit
 
 ### Les rôles de l'équipe produit
 
