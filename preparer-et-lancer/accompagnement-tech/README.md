@@ -15,7 +15,7 @@ layout:
     visible: true
 ---
 
-# 🛎️ Accompagnement technique
+# 🛎️ Etre accompagnés
 
 ## Offre d'accompagnement technique
 

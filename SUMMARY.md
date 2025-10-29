@@ -93,13 +93,13 @@
 
 ## AIDE
 
-* [🛎️ Demander un accompagnement](aide/accompagnement-tech/README.md)
-  * [💡 Échange rapide](aide/accompagnement-tech/echange-rapide.md)
-  * [🧭 Orientation vers des offres adaptées](aide/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
-  * [💰 Analyse de devis](aide/accompagnement-tech/analyse-de-devis-et-recommandations.md)
-  * [Aide au recrutement](aide/accompagnement-tech/aide-au-recrutement.md)
-  * [🩺 Diagnostic technique](aide/accompagnement-tech/diagnostic-et-recommandations.md)
-  * [👨‍💻 Accompagnement pour définir l'architecture](aide/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
-  * [👨‍💻 Mise en œuvre](aide/accompagnement-tech/mise-en-oeuvre.md)
-  * [\[TEMPLATE\] Offre accompagnement technique](aide/accompagnement-tech/template-offre-accompagnement-technique-1.md)
+* [🛎️ Etre accompagnés](preparer-et-lancer/accompagnement-tech/README.md)
+  * [💡 Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
+  * [🧭 Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
+  * [💰 Analyse de devis](preparer-et-lancer/accompagnement-tech/analyse-de-devis-et-recommandations.md)
+  * [Aide au recrutement](preparer-et-lancer/accompagnement-tech/aide-au-recrutement.md)
+  * [🩺 Diagnostic technique](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
+  * [👨‍💻 Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
+  * [👨‍💻 Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)
+  * [\[TEMPLATE\] Offre accompagnement technique](preparer-et-lancer/accompagnement-tech/template-offre-accompagnement-technique-1.md)
 * [✒️ Contribuer au guide](contribuer.md)
