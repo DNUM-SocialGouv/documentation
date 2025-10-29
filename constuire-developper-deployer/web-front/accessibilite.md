@@ -1,8 +1,4 @@
----
-icon: universal-access
----
-
-# Accessibilité
+# 🩼 Accessibilité
 
 ## Guides de développement
 
