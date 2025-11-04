@@ -1,6 +1,11 @@
-# 🩼 Accessibilité
+---
+description: >-
+  Conception des produits numériques de manière à ce que tous les utilisateurs,
+  y compris ceux qui ont des handicaps, puissent les comprendre, naviguer et
+  interagir avec eux de façon simple et efficace.
+---
 
-L'accessibilité numérique fait référence à la conception de produits informatiques et de technologies mobiles de manière à ce que tous les utilisateurs, y compris ceux qui ont des handicaps visuels, auditifs, moteurs, ou cognitifs, puissent les comprendre, naviguer et interagir avec eux de façon simple et efficace.
+# 🩼 Accessibilité
 
 ## Cadres Réglementaires en Accessibilité
 

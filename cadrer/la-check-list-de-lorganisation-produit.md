@@ -2,7 +2,7 @@
 icon: cubes
 ---
 
-# La check-list de l'organisation produit
+# Checklist produit
 
 Une bonne organisation produit ne se résume pas à un organigramme ou à une liste de rôles / métiers.
 
@@ -56,7 +56,7 @@ Pour aller plus loin : [Voir les indicateurs produits](indicateurs.md)
 * [ ] Des tests ou expérimentations sont-ils menés avant d’engager trop de ressources sur une solution ?
 
 {% hint style="info" %}
-Pour aller plus loin : Voir la [recherche utilisateurs](../concevoir/ru/)
+Pour aller plus loin : Voir la [recherche utilisateurs](../concevoir/ru.md)
 {% endhint %}
 
 ***

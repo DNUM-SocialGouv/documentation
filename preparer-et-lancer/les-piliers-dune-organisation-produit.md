@@ -29,7 +29,7 @@ Le produit est conçu avec les usagers, pas seulement pour eux.
 Les retours utilisateurs guident les choix, valident les hypothèses et révèlent les besoins réels.
 
 {% hint style="info" %}
-Pour aller plus loin : Voir les principes [de la recherche utilisateur](../concevoir/ru/) et le métier d'[expert en recherche utilisateurs](les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
+Pour aller plus loin : Voir les principes [de la recherche utilisateur](../concevoir/ru.md) et le métier d'[expert en recherche utilisateurs](les-differents-roles-et-metiers/expert-en-recherche-utilisateur.md)
 {% endhint %}
 
 Ce que cela implique :

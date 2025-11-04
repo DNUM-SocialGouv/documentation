@@ -28,13 +28,8 @@
 
 ## CONCEVOIR
 
-* [🎨 Concevoir](concevoir/README.md)
-* [🎨 Processus de design](concevoir/processus-general.md)
-* [Recherche Utilisateur](concevoir/ru/README.md)
-  * [Principes](concevoir/ru/ru_principes.md)
-  * [Application](concevoir/ru/ru_application.md)
-* [✅ Bonnes pratiques de design](concevoir/bonnes-pratiques-design.md)
-* [🇫🇷 Représenter son produit dans les en-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
+* [🎨 Démarche de design](concevoir/README.md)
+* [Recherche utilisateur](concevoir/ru.md)
 * [🩼 Accessibilité](concevoir/accessibilite.md)
 * [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
@@ -42,6 +37,7 @@
 * [🌳 Eco-conception](concevoir/eco-conception.md)
 * [🔒 Authentification des utilisateurs](concevoir/authentification.md)
   * [🔒 ProConnect](concevoir/authentification-proconnect.md)
+* [🇫🇷 En-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [Data](concevoir/data/README.md)
   * [PostgreSQL](concevoir/data/postgresql.md)
   * [🔍 ElasticSearch](concevoir/data/elasticsearch.md)
