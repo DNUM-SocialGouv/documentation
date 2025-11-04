@@ -24,7 +24,8 @@
 * [Roadmap](cadrer/la-roadmap.md)
 * [Indicateurs](cadrer/les-indicateurs.md)
 * [🚦 Exemples d'indicateurs](cadrer/indicateurs.md)
-* [Procédure d’agrément SIG](cadrer/procedure-agrement-sig.md)
+* [🏛️ Procédure d’agrément SIG](cadrer/procedure-agrement-sig.md)
+
 ## CONCEVOIR
 
 * [🎨 Concevoir](concevoir/README.md)
@@ -99,7 +100,7 @@
   * [💰 Analyse de devis](preparer-et-lancer/accompagnement-tech/analyse-de-devis-et-recommandations.md)
   * [Aide au recrutement](preparer-et-lancer/accompagnement-tech/aide-au-recrutement.md)
   * [🩺 Diagnostic technique](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
-  * [👨‍💻 Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
+  * [Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
   * [👨‍💻 Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)
   * [\[TEMPLATE\] Offre accompagnement technique](preparer-et-lancer/accompagnement-tech/template-offre-accompagnement-technique-1.md)
 * [✒️ Contribuer au guide](contribuer.md)
