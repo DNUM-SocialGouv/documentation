@@ -24,7 +24,7 @@
 * [Roadmap](cadrer/la-roadmap.md)
 * [Indicateurs](cadrer/les-indicateurs.md)
 * [🚦 Exemples d'indicateurs](cadrer/indicateurs.md)
-
+* [Procédure d’agrément SIG](cadrer/procedure-agrement-sig.md)
 ## CONCEVOIR
 
 * [🎨 Concevoir](concevoir/README.md)
@@ -36,7 +36,8 @@
 * [🇫🇷 Représenter son produit dans les en-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [🩼 Accessibilité](concevoir/accessibilite.md)
 * [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
-  * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
+  * [♻️ Démarche de ration
+* [Procédure d’agrément SIG](cadrer/procedure-agrement-sig.md)alisation](preparer-et-lancer/rationalisation.md)
   * [♻️ Grist](preparer-et-lancer/communs-grist.md)
 * [🌳 Eco-conception](concevoir/eco-conception.md)
 * [🔒 Authentification des utilisateurs](concevoir/authentification.md)
