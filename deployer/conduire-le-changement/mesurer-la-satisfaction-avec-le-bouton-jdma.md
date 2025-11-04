@@ -40,7 +40,7 @@ Ressources et références :
 
 1. **Question 1 :** **Expérience générale**&#x20;
    1. Question posée : _De façon générale, comment ça s’est passé ?_&#x20;
-   2. Note de satisfaction de 1 à 3.
+   2. Note de satisfaction de 1 à 3. Cette note est transformée en note sur 10 (1=0, 2=5, 3=10), la moyenne sur 10 est communiquée.&#x20;
 2. **Question 2 :** **Clarté (optionnelle, recommandée)**
    1. Question posée : _Qu’avez-vous pensé des informations et des instructions fournies ?_&#x20;
    2. Sur une échelle de 1 à 5, 1 n'est pas clair du tout et 5 est très clair.
