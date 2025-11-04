@@ -78,6 +78,7 @@
   * [👀 Métriques de performance applicative (APM)](securiser-et-surveiller/metriques-de-performance-applicative-apm.md)
 * [⏩ Conduite du changement](conduire-le-changement/README.md)
   * [📢 Communiquer et promouvoir](conduire-le-changement/communication-promotion.md)
+  * [Mesurer la satisfaction avec le bouton JDMA](deployer/conduire-le-changement/mesurer-la-satisfaction-avec-le-bouton-jdma.md)
   * [🧑‍🎓 Formation](conduire-le-changement/formation.md)
   * [▶️ Aide au démarrage](conduire-le-changement/aide-au-demarrage.md)
   * [❔ Support utilisateur](conduire-le-changement/support-utilisateur.md)
