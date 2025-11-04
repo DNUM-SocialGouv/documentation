@@ -1,7 +1,7 @@
 ---
 description: >-
-  Pourquoi, comment et où utiliser le bouton Je Donne Mon Avis sur votre sites
-  et produits.
+  Pourquoi, les questions posées, comment et où utiliser le bouton Je Donne Mon
+  Avis sur votre sites et produits.
 icon: star-sharp-half-stroke
 ---
 
@@ -36,6 +36,8 @@ Ressources et références :
 
 <figure><img src="../../.gitbook/assets/2.jpg" alt=""><figcaption></figcaption></figure>
 
+#### **Détails des questions posées**
+
 1. **Question 1 :** **Expérience générale**&#x20;
    1. Question posée : _De façon générale, comment ça s’est passé ?_&#x20;
    2. Note de satisfaction de 1 à 3.
@@ -59,28 +61,19 @@ Ressources et références :
 
 En fonction de votre site, il y a deux emplacements à considérer :&#x20;
 
-* Celui où l’usager a terminé son parcours (en fin de démarche),
-* Celui où l'usager peut donner une impression globale sans interrompre son usage.
+* En fin de démarche,
+* En bas de page ou là où l'usager peut donner une impression globale sans interrompre son usage.
 
 Le bon emplacement va dépendre du type de produit et de sa cible principale :&#x20;
 
-* &#x20;Types de produits : démarche / vitrine / applicatif
-* Public cible : grand public (usagers particuliers et professionnels) ou internes (usagers agents ou partenaires)
+* Types de produits : démarche ou vitrine/applicatif
+* Publics cibles :&#x20;
+  * Grand public (usagers particuliers et professionnels),
+  * Interne (agents ou partenaires).
 
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-
-| Type de produit                    | Public cible               | Page ou emplacement recommandé                  | Spécificités                                                                       |
-| ---------------------------------- | -------------------------- | ----------------------------------------------- | ---------------------------------------------------------------------------------- |
-| Site de démarche                   | Grand public               | Page de confirmation, résumé ou fin de parcours | Permet une évaluation à chaud de la satisfaction globale.                          |
-| Site de démarche                   |  Agents                    | Page de confirmation, résumé ou fin de parcours | Supprimer la question 3.                                                           |
-| Site vitrine institutionnelle      | Grand public               | Pied de page                                    | Favorise une évaluation continue et discrète.                                      |
-| Site vitrine thématique            | Grand public / partenaires | Pied de page                                    | Possibilité d’un questionnaire simplifié centré sur la clarté et la pertinence.    |
-| Application métier / outil interne | Agents / professionnels    | Pied de page                                    | Retirer la question 3 (« Avez-vous eu besoin d’aide ? ») pour éviter la confusion. |
-
-Exemple de configuration :
-
-* > Sites grand public : conserver les 3 questions.
-* > Sites applications métiers : conserver seulement les questions 1, 2 et 4.
+<p align="center"><mark style="color:$info;">Emplacement générique et modification du formulaire en fonction du public et du type de site</mark></p>
 
 ***
 
