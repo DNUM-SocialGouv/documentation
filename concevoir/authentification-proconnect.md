@@ -59,12 +59,18 @@ Ainsi à la connexion :
 
 _Si le 2FA par défaut de ProConnect n'est pas satisfaisant d'un point de vue métier ("1.5FA"), c'est au FS d'implémenter son propre 2FA (Authenticator, carte à puce, etc.). Un 2FA par email ou SMS hors-ProConnect ne présente que peu d'intérêt._
 
-### Faut-il un autre moyen d'authentification ?
-
-**Non, ProConnect suffit à authentifier tous les professionnels**. Il est fortement déconseillé de proposer une authentification par email et mot de passe (moindre niveau global de sécurité, complexité des écrans et de l'application, pas de ROI, charge de support...).\
+## FAQ
+* **Faut-il un autre moyen d'authentification ?**
+Non, ProConnect suffit à authentifier tous les professionnels. Il est fortement déconseillé de proposer une authentification par email et mot de passe (moindre niveau global de sécurité, complexité des écrans et de l'application, pas de ROI, charge de support...).\
 Exception : Pro Santé Connect surpasse ProConnect en termes d'obligation réglementaire et s'impose donc pour l'authentification des PS dans l'exercice de la médecine.\_
 
-### Faut-il un serveur Keycloak avec ProConnect ?
-
-**Non, un serveur d'authentification Keycloak est inutile dans la plupart des cas.**\
+* **Faut-il un serveur Keycloak avec ProConnect ?**
+Non, un serveur d'authentification Keycloak est inutile dans la plupart des cas.\
 Exception : l'application métier est un progiciel dont le paramétrage ne permet pas de satisfaire aux spécifications de ProConnect.
+
+## Sources de veille
+* Salon Tchap "ProConnect - Support et retex"
+* [Releases ProConnect (core)](https://github.com/proconnect-gouv/federation/releases)
+* [Releases ProConnect Identité](https://github.com/proconnect-gouv/proconnect-identite/releases)
+* [Feuille de route](https://www.proconnect.gouv.fr/feuille-de-route)
+* [Canal Mattermost BetaGouv (privé)](https://mattermost.incubateur.net/betagouv/channels/startup--proconnect)

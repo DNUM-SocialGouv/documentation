@@ -15,15 +15,12 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 | Homologation RGS             | Non                                      | Oui                                               |
 
 ## Ressources
-
 * [Webinaire d'introduction](https://tube.numerique.gouv.fr/w/hMJ8DMj1beqv1D12vpgBKq)
 * [Webinaire permissions avancées](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
-* [Doc API](https://support.getgrist.com/fr/api/)
-* [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
-* [Info techniques sur l'hébergement Grist](https://pad.numerique.gouv.fr/s/l45y9IfKS#Pourquoi-grist-est-en-%E2%80%9Cbeta%E2%80%9D-)
+* [Info techniques sur l'hébergement Grist DINUM](https://pad.numerique.gouv.fr/s/l45y9IfKS#Pourquoi-grist-est-en-%E2%80%9Cbeta%E2%80%9D-)
 
 ## API
-
+* [Doc API](https://support.getgrist.com/fr/api/)
 * webhooks (envoi vers service externe) déclenchés sur opérations C+U+D ou explicitement par un bouton d'action
 
 ## Notes
@@ -46,3 +43,11 @@ Si la source n'est pas officielle, il est préférable de copier-coller le conte
 * Plugin gouv de publipostage PDF: https://github.com/betagouv/grist-custom-widgets-fr-admin/tree/main/app/omFiller
 * Plugin gouv pour Kanban : https://github.com/gristgouv/grist-widget-varamil/tree/main/kanban
 * Initiative de référencement des plugins Grist : https://docs.getgrist.com/9DZa7JFegUxz/GristHub/p/1
+
+## Sources de veille
+- Salon Tchap "Grist - Annonces"
+- Salon Tchap "Grist - Utilisateurs"
+- Salon Tchap "Grist - Contributions"
+- [Newsletter Grist FR](https://support.getgrist.com/fr/newsletters/)
+- [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
+- [Forum de la communauté Grist FR](https://forum.grist.libre.sh/)
