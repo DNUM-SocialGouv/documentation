@@ -1,3 +1,7 @@
+---
+hidden: true
+---
+
 # ✅ Cadre de Cohérence Technique
 
 ## Idée 1
