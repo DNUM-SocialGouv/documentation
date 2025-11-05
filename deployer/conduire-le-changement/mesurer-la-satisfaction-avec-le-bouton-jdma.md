@@ -18,15 +18,24 @@ Le bouton JDMA répond à plusieurs exigences des circulaires du 7 et 13 juillet
 
 > Son intégration est obligatoire pour les démarches recensées dans l’[Observatoire de la qualité des services numériques](https://observatoire.numerique.gouv.fr/), et fortement recommandée pour les autres produits et outils numériques de l’État.
 
+{% hint style="info" %}
+A noter :&#x20;
+
+* Le bouton s'intègre directement dans votre site en une ligne de code. Ce code contient même le visuel qui s'affichera automatiquement sur votre site. C'est fait en 5 minutes !&#x20;
+* Le bouton n'impacte pas votre score RGAA et est compatible avec le DSFR.
+* En cas de doute sur l'utilisation, l'emplacement ou la sémantique contactez votre responsable du design ou son équipe.&#x20;
+{% endhint %}
+
 Ressources et références :
 
 * [https://jedonnemonavis.numerique.gouv.fr/](https://jedonnemonavis.numerique.gouv.fr/)
 * [Circulaire 6411-SG du 7 juillet 2023](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)
 * [Note d'application de la DINUM](https://www.systeme-de-design.gouv.fr/static/file/Note_DINUM_qualite_des_services_numeriques_17_07_2023.pdf)
+* [Fichier Figma avec les ressources visuelles de cette page](https://www.figma.com/design/1F77YLcBVbNw4CCEUr9PSQ/Mod%C3%A8les-Social-Gouv--composants--pages-?node-id=4497-58322\&t=flzakH2os0yZBXc6-11)
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">Bouton "Je donne mon avis", novembre 2025</p>
+<p align="center"><mark style="color:$info;">Bouton "Je donne mon avis", novembre 2025</mark></p>
 
 ***
 
@@ -73,7 +82,7 @@ Le bon emplacement va dépendre du type de produit et de sa cible principale :
 
 <figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">Emplacement générique et modification du formulaire en fonction du public et du type de site</p>
+<p align="center"><mark style="color:$info;">Emplacement générique et modification du formulaire en fonction du public et du type de site</mark></p>
 
 ***
 
@@ -81,8 +90,8 @@ Le bon emplacement va dépendre du type de produit et de sa cible principale :
 
 Le module s’intègre via un script unique, disponible sur [https://jedonnemonavis.numerique.gouv.fr/](https://jedonnemonavis.numerique.gouv.fr/)
 
-* Connectez vous sur le site
-* Ajoutez un service en suivant la nomenclature suivante : \[Ministères Sociaux] DAC A DAC B DAC C - Nom du produit. Exemples :
+* Connectez vous sur le site JDMA
+* Ajoutez un service **en suivant la nomenclature suivante** \[Ministères Sociaux] DAC A DAC B DAC C - Nom du produit. Exemples :
   * \[Ministères Sociaux] DGCS DGS - VAO,
   * \[Ministères Sociaux] DNUM - Portail de connexion à ProConnect
 * Suivez les étapes de création de votre formulaire.
@@ -93,3 +102,16 @@ Le module s’intègre via un script unique, disponible sur [https://jedonnemona
 {% hint style="info" %}
 A noter : vous pouvez faire plusieurs emplacements du même lien et suivre la satisfaction associée.
 {% endhint %}
+
+***
+
+### Exemples
+
+1. Placement du bouton JDMA en fin de démarche. Placer le bloc du bouton en fin après les informations essentielles pour l'utilisateur. S'assurer que le bloc qui contient le bouton JDMA est aligné avec le corps de page.
+
+<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+
+2. Placement en bas de page. Positionner juste au dessus du footer.
+
+<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+
