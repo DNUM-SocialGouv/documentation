@@ -4,6 +4,15 @@
 
 [ProConnect](https://partenaires.proconnect.gouv.fr/) identifie et authentifie les **utilisateurs professionnels publics et privés**. Il résulte de la fusion des anciens services AgentConnect, MonComptePro et InclusionConnect. Cette synthèse oriente les équipes produits ans se substituer à la [documentation officielle de ProConnect](https://partenaires.proconnect.gouv.fr/docs).
 
+## Avantages
+Pour se donner du courage, voici les avantages à migrer vers ProConnect :
+- **Economie sur l'hébergement et l'exploitation** : on se passe de 2 instances Keycloak
+- **Sécurité renforcée** : plus de mots de passe en base, moins de composants, moins d'obsolescence
+- **2FA natif**
+- **Gestion des accès automatisable** basée sur l'email et l'entité d'appartenance de l'utilisateur
+- **Gain en UX** : SSO ProConnect, environnement visuel normalisé
+- Et toutes les futures évolutions de ProConnect
+
 ## ProConnect vs FranceConnect
 
 ProConnect possède certaines caractéristiques de FranceConnect :
@@ -15,7 +24,7 @@ ProConnect possède certaines caractéristiques de FranceConnect :
 
 ProConnect diffère de FranceConnect sur ces points notables :
 
-* Pas de choix explicite du FI (routage par l'adresse email)
+* Pas de choix explicite du FI (routage implicite par l'adresse email)
 * Pas de redressement des traits d'identité au RNIPP
 * Possibilité légale d'utiliser ProConnect comme moyen d'authentification unique pour accéder à un service public numérique
 * Pas de notion de Fournisseurs de Données (FD)
