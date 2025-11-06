@@ -15,21 +15,21 @@ Chaque personne est encouragée à contribuer à ce guide et à mettre au défi 
 * **Contribution intermédiaire** : proposer un contenu par email à l'un des contributeurs principaux
 * **Contribution avancée** : demander la création d'un compte contributeur à l'un des administrateurs
 
-## Sur le contenu
+## Sur le fond
 
-* **Aller à l'essentiel** en écrivant peu
-* **Expliquer les enjeux et bénéfices** de chaque pratique commune
-* **Donner envie d’appliquer les bonnes pratiques** par intérêt, pas par obligation, et si le contexte s'y prête. Toutefois si une règle est obligatoire, l’indiquer clairement. On PEUT utiliser des mots clés comme PEUT, DOIT (PAS), DEVRAIT (PAS). Cf [convention internationale](https://datatracker.ietf.org/doc/html/rfc2119)
-* **Privilégier les checklists et exemples concrets** aux longues explications
-* **Inclure des liens vers des ressources** existantes internes ou externes
-* **S'assurer que la page vaut bien son temps de lecture !**
+* **Aller à l'essentiel**
+* **Expliquer les enjeux et bénéfices** de chaque pratique
+* **Donner envie d’appliquer les recommandations** par intérêt, non par obligation. Toutefois si une règle est obligatoire, l’indiquer clairement. On PEUT utiliser des mots clés comme PEUT, DOIT, DEVRAIT.
+* **Privilégier les exemples concrets** aux longues explications
+* **Inclure des liens** vers des ressources existantes
+* **S'assurer que la page vaut son temps de lecture**
 
 ## Sur la forme
 
-* Adresser un seul sujet bien ciblé par page
+* Adresser un seul sujet par page
 * S'inspirer de la structure d'autres pages
 * Écrire au présent, avec un ton neutre et direct
 * Faire des phrases courtes
 * Éviter le jargon, les anglicismes
 * Éviter l'opposition nous/vous, car nous sommes tous utilisateurs de ce guide
-* Repasser régulièrement sur ses contenus pour les simplifier !
+* Relire régulièrement ses contenus pour les simplifier !
