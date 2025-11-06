@@ -15,3 +15,6 @@ icon: database
 * etc.
 
 Des arguments mesurables, concrets et ciblés doivent être apportés. Un exemple de questionnement est présent sur la page [Elasticsearch](elasticsearch.md).
+
+## Sources de veille
+- [Versions](https://www.postgresql.org/support/versioning/)
