@@ -5,11 +5,19 @@ Cette synthèse oriente les équipes produits sans se substituer à la [document
 
 ## Avantages
 Pour se donner du courage, voici les avantages à migrer vers ProConnect :
-- **Economie sur l'hébergement et l'exploitation** : on se passe de 2 instances Keycloak, [support centralisé](https://proconnect.crisp.help/fr/)
-- **Sécurité renforcée** : plus de mots de passe en base, 2FA natif, moins de composants, moins d'obsolescence
-- **Gestion des accès automatisable** basée sur l'email et l'entité d'appartenance de l'utilisateur
-- **Gain en UX** : SSO ProConnect, environnement visuel normalisé
-- Et toutes les futures évolutions de ProConnect
+* **Economie sur l'hébergement et l'exploitation** :
+  * **Moins de composants** : on se passe de 2 instances Keycloak
+  * [Support centralisé](https://proconnect.crisp.help/fr/)
+  * **Gestion des accès automatisable** basée sur l'email et l'entité d'appartenance de l'utilisateur
+* **Sécurité renforcée** :
+  * Plus de mots de passe en base
+  * 2FA natif
+  * Moins de composants, moins d'obsolescence
+  * Possibilité de limiter l'accès aux seuls agents publics
+* **Gain en UX** :
+  * SSO ProConnect
+  * Environnement visuel normalisé
+* Et toutes les futures évolutions de ProConnect qu'on n'aura pas besoin d'implémenter sur chaque application !
 
 ## ProConnect vs FranceConnect
 
@@ -82,6 +90,5 @@ Exception : l'application métier est un progiciel dont le paramétrage ne perme
 * [Feuille de route](https://www.proconnect.gouv.fr/feuille-de-route)
 * [Canal Mattermost BetaGouv (privé)](https://mattermost.incubateur.net/betagouv/channels/startup--proconnect)
 
-## A faire :
+## TODO
 * A noter aussi que le Fournisseur de Service choisit sa surface d'exposition lors du raccordement à ProConnect : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), Hybride (accès FS public via FI @RIE).
-* Limitation d'un FS aux agents publics
