@@ -35,7 +35,9 @@ PISTE est particulièrement intéressant pour **exposer une API à un nombre sig
 * PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
 * PISTE permet des scopes OAuth2 pour gérer des droits plus fins par client
 * PISTE permet la mise en place de quotas d'utilisation, par client ou pour tous les clients d'une API
-* PISTE renvoie une erreur 403 en cas de contenu tronqué ou inconsistant (ex : une balise XML pas fermée). Par sécurité, une telle erreur est considérée comme une utilisation non autorisée de l'API et n'arrivera pas à l'application métier.
+* PISTE renvoie une erreur 403
+  * en cas d'accès non autorisé (ex : pas de consentement CGU, accès non demandé via le portail)
+  * au lieu d'une erreur 400, en cas de contenu tronqué ou inconsistant (ex : une balise XML pas fermée). Par sécurité, une telle erreur est considérée comme une utilisation non autorisée de l'API et n'arrivera pas à l'application métier.
 
 ## Administration des accès
 
@@ -64,3 +66,6 @@ Contre-exemples de projets avec décision de ne pas passer par PISTE :
 
 * Mi-2025, PISTE absorbe en moyenne 40M appels/j et en pic 60000 appels/s
 * L'API qui génère le plus d'appels est CaptchEtat
+
+## Sources de veille
+* [Guide utilisateur](https://piste.gouv.fr/help-center/guide)

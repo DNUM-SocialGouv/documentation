@@ -1,6 +1,8 @@
 # ♻️ Grist
 
-## Différences entre les instances SaaS et DINUM
+[Grist](https://grist.numerique.gouv.fr/) est le tableur collaboratif et souverain de l'Etat pour centraliser, analyser et partager nos données.
+
+## Différences entre instances SaaS et DINUM
 
 La version SaaS n'a pas vocation à être utilisée en production. En revanche elle est utile pour certains tests, et il est important de comprendre les différences entre l'instance SaaS et l'instance interministérielle :
 
@@ -9,8 +11,8 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 | Niveau de licence            | Basic (gratuit) ou Premium (payant)      | Open-Source (gratuit)                             |
 | Entité responsable           | getgrist.com                             | SPN/DINUM/OPI                                     |
 | Hébergement                  | getgrist.com                             | SecNumCloud@Outscale                              |
-| ProConnect et PC Identité    | Non                                      | Oui                                               |
-| Envoi d'invitation par email | Oui                                      | Non                                               |
+| ProConnect                   | Non                                      | Oui                                               |
+| Envoi d'invitation par email | Oui                                      | Non (partager le lien aux utilisateurs)           |
 | Webhooks - urls autorisées   | \*                                       | \*.gouv.fr                                        |
 | Homologation RGS             | Non                                      | Oui                                               |
 
@@ -25,8 +27,7 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 
 ## Notes
 
-* L'instance DINUM grist.numerique.gouv.fr n'envoie pas d'invitation aux nouveaux utilisateurs. Il faut copier le lien et l'envoyer par un autre canal.
-* Forcer un retour à la ligne à l'intérieur d'une cellule se fait avec SHIFT+ENTRER
+* SHIFT+ENTRER pour forcer un retour à la ligne à l'intérieur d'une cellule
 * "?embed=true" a la fin d'une URL donne une vue simplifiée juste avec le contenu Grist
 * illustration de lookupOne pour initialiser un champ de type Référence. Ici le réseau de l'utilisateur connecté : Users.lookupOne(Email=user.Email).Reseau
 * Renseigner systématiquement un message explicatif pour chaque permission avancée. Ce message est affiché à l'utilisateur en cas d'erreur.
@@ -45,9 +46,9 @@ Si la source n'est pas officielle, il est préférable de copier-coller le conte
 * Initiative de référencement des plugins Grist : https://docs.getgrist.com/9DZa7JFegUxz/GristHub/p/1
 
 ## Sources de veille
-- Salon Tchap "Grist - Annonces"
-- Salon Tchap "Grist - Utilisateurs"
-- Salon Tchap "Grist - Contributions"
-- [Newsletter Grist FR](https://support.getgrist.com/fr/newsletters/)
-- [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
-- [Forum de la communauté Grist FR](https://forum.grist.libre.sh/)
+* [Newsletter Grist FR](https://support.getgrist.com/fr/newsletters/)
+* [Forum de la communauté Grist FR](https://forum.grist.libre.sh/)
+* [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
+* Salon Tchap "Grist - Annonces"
+* Salon Tchap "Grist - Utilisateurs"
+* Salon Tchap "Grist - Contributions"

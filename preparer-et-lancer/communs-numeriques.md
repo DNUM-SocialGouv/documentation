@@ -16,10 +16,10 @@ Mon produit est un(e)...
     * en dernier recours, envisager le développement spécifique du front usager
   * pour le **back-office agent** :
     * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarches Simplifiées (ou Démat Social)
-    * si cela ne suffit pas, envisager un back-office complémentaire à DS, sur la base de [Grist](https://grist.numerique.gouv.fr/)
+    * si cela ne suffit pas, envisager un back-office complémentaire à DS, sur la base de [Grist](communs-grist.md)
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Référentiel de données**
-  * Si possible paramétrage front et back sur [Grist](https://grist.numerique.gouv.fr/) pour une application de gestion interne ou à portée et criticité modérée
+  * Si possible paramétrage front et back sur [Grist](communs-grist.md) pour une application de gestion interne ou à portée et criticité modérée
   * Sinon développement front spécifique sur la base d'un [backend-as-a-service](communs-numeriques.md#backends-as-a-service)
   * Sinon envisager le développement spécifique complet du référentiel
 
