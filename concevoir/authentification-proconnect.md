@@ -14,6 +14,7 @@ Pour se donner du courage, voici les avantages à migrer vers ProConnect :
   * 2FA natif
   * Moins de composants, moins d'obsolescence
   * Possibilité de limiter l'accès aux seuls agents publics
+  * Choix de son exposition par chaque FS : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), "Hybridge" (accès FS public via FI @RIE).
 * **Gain en UX** :
   * SSO ProConnect
   * Environnement visuel normalisé
@@ -89,6 +90,3 @@ Exception : l'application métier est un progiciel dont le paramétrage ne perme
 * [Releases ProConnect Identité](https://github.com/proconnect-gouv/proconnect-identite/releases)
 * [Feuille de route](https://www.proconnect.gouv.fr/feuille-de-route)
 * [Canal Mattermost BetaGouv (privé)](https://mattermost.incubateur.net/betagouv/channels/startup--proconnect)
-
-## TODO
-* A noter aussi que le Fournisseur de Service choisit sa surface d'exposition lors du raccordement à ProConnect : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), Hybride (accès FS public via FI @RIE).
