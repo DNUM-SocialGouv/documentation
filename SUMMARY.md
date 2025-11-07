@@ -34,7 +34,7 @@
 * [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [♻️ Grist](preparer-et-lancer/communs-grist.md)
-  * [♻️ Ondine](preparer-et-lancer/communs-ondine.md)
+  * [♻️ CMS Ondine](preparer-et-lancer/communs-ondine.md)
 * [🌳 Eco-conception](concevoir/eco-conception.md)
 * [🔒 Authentification des utilisateurs](concevoir/authentification.md)
   * [🔒 ProConnect](concevoir/authentification-proconnect.md)
