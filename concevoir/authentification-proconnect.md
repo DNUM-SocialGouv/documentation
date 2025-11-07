@@ -1,8 +1,7 @@
 # 🔒 ProConnect
 
-## ProConnect
-
-[ProConnect](https://partenaires.proconnect.gouv.fr/) identifie et authentifie les **utilisateurs professionnels publics et privés**. Il résulte de la fusion des anciens services AgentConnect, MonComptePro et InclusionConnect. Cette synthèse oriente les équipes produits ans se substituer à la [documentation officielle de ProConnect](https://partenaires.proconnect.gouv.fr/docs).
+[ProConnect](https://partenaires.proconnect.gouv.fr/) identifie et authentifie les **utilisateurs professionnels publics et privés**. Il résulte de la fusion des anciens services AgentConnect, MonComptePro et InclusionConnect.\
+Cette synthèse oriente les équipes produits sans se substituer à la [documentation officielle de ProConnect](https://partenaires.proconnect.gouv.fr/docs).
 
 ## Avantages
 Pour se donner du courage, voici les avantages à migrer vers ProConnect :
@@ -83,3 +82,7 @@ Exception : l'application métier est un progiciel dont le paramétrage ne perme
 * [Releases ProConnect Identité](https://github.com/proconnect-gouv/proconnect-identite/releases)
 * [Feuille de route](https://www.proconnect.gouv.fr/feuille-de-route)
 * [Canal Mattermost BetaGouv (privé)](https://mattermost.incubateur.net/betagouv/channels/startup--proconnect)
+
+## A faire :
+* A noter aussi que le Fournisseur de Service choisit sa surface d'exposition lors du raccordement à ProConnect : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), Hybride (accès FS public via FI @RIE).
+* Limitation d'un FS aux agents publics

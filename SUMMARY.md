@@ -37,6 +37,7 @@
 * [🌳 Eco-conception](concevoir/eco-conception.md)
 * [🔒 Authentification des utilisateurs](concevoir/authentification.md)
   * [🔒 ProConnect](concevoir/authentification-proconnect.md)
+  * [🔒 Plage / Pasrel](concevoir/authentification-plage-pasrel.md)
 * [🇫🇷 En-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [Data](concevoir/data/README.md)
   * [PostgreSQL](concevoir/data/postgresql.md)
