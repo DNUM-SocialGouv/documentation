@@ -14,7 +14,7 @@ Pour se donner du courage, voici les avantages à migrer vers ProConnect :
   * 2FA natif
   * Moins de composants, moins d'obsolescence
   * Possibilité de limiter l'accès aux seuls agents publics
-  * Choix de son exposition par chaque FS : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), "Hybridge" (accès FS public via FI @RIE).
+  * Chaque FI/FS choisit son exposition : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), "Hybridge" (accès FS public via FI @RIE).
 * **Gain en UX** :
   * SSO ProConnect
   * Environnement visuel normalisé
