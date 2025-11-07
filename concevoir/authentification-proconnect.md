@@ -5,7 +5,7 @@ Cette synthèse oriente les équipes produits sans se substituer à la [document
 
 ## Avantages
 Pour se donner du courage, voici les avantages à migrer vers ProConnect :
-- **Economie sur l'hébergement et l'exploitation** : on se passe de 2 instances Keycloak
+- **Economie sur l'hébergement et l'exploitation** : on se passe de 2 instances Keycloak, [support centralisé](https://proconnect.crisp.help/fr/)
 - **Sécurité renforcée** : plus de mots de passe en base, moins de composants, moins d'obsolescence
 - **2FA natif**
 - **Gestion des accès automatisable** basée sur l'email et l'entité d'appartenance de l'utilisateur
