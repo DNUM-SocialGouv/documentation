@@ -38,7 +38,7 @@ _Ces solutions ne sont pas toujours exclusives : le tableau peut être reparcour
 [**FranceConnect**](https://franceconnect.gouv.fr/franceconnect) permet de déléguer l'authentification d'un Particulier à un Fournisseur d'Identité connu. Il convient cependant de réconcilier les identités à la première connexion (création ou rapprochement de compte dans l'application) et lors des connexions suivantes.\
 2FA : Non
 
-[**FranceConnect+**](https://franceconnect.gouv.fr/franceconnect-plus) est utilisé par le Fournisseur de Service dans le cas de démarches avec données particulièrement sensibles, données de santé et flux financiers. Dans ce cas un 2FA est porté par l'application mobile [France Identité](https://france-identite.gouv.fr/).\
+[**FranceConnect+**](https://franceconnect.gouv.fr/franceconnect-plus) est utilisé par le Fournisseur de Service dans le cas de démarches avec données particulièrement sensibles, données de santé et flux financiers. Dans ce cas un 2FA est porté par l'application mobile [France Identité](https://france-identite.gouv.fr/) ou celle de La Poste.\
 2FA : Oui
 
 [**EFP Connect**](https://info.efpconnect.emploi.gouv.fr/) est le vecteur d'authentificaiton pour les démarches de la sphère Emploi (DGEFP), et progressivement de la sphère travail (DGT). EFP Connect centralise la gestion des rôles et habilitations pour les applications métier de son périmètre.\
