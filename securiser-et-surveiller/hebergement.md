@@ -40,7 +40,7 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
 
 ## Quel hébergement cloud pour quel cas d'usage ?
 
-3 offres de cloud sont déployées en plus de l'existant Rosny/Dusquene :
+3 offres de cloud sont déployées en plus de l'intranet Rosny/Dusquene :
 
 * **Cloud générique (Atlas@OVH)** : applications sans contrainte réglementaire spécifique
 * **Cloud HDS (auj. Cegedim, demain Atlas@OVH-HDS)** : applications manipulant des données de santé et nécessitant une [certification HDS](https://esante.gouv.fr/produits-services/hds) de l'hébergement et/ou de l'infogérance
@@ -48,10 +48,10 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
   * elles doivent être sensibles soit par nature (parce qu’identifiées comme un secret légal) soit du fait de leur emploi (parce qu’impliquées dans une mission essentielle de l’État)
   * leur violation aurait pour conséquence une atteinte à l’ordre public, la sécurité publique, la santé, la vie des personnes ou la propriété intellectuelle.
 
-Les "clouds internes" de l'Etat Pi (MININT) et Nubo (DGFIP) ne sont pas utilisés au Ministère :
+Les "clouds internes" de l'Etat Pi (MININT) et Nubo (DGFIP) ne sont pas ou peu utilisés au Ministère :
 
-* nous n'avons pas besoin du niveau "diffusion restreinte" du cloud Pi
-* nous préférons l'offre SecNumCloud d'OVH au Cloud Nubo
+* Pas besoin du niveau "diffusion restreinte" du cloud Pi
+* Offre SecNumCloud d'OVH préférée au cloud Nubo 
 
 ## Caractéristiques des plateformes d'hébergement
 
@@ -61,7 +61,7 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 * leurs modes d'exploitation (infogérance, CI/CD)
 * les exigences réglementaires auxquelles elles répondent (HDS, SecNumCloud)
 
-| Plateforme           | Type de cloud | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ  |
+| Plateforme           | Type d'infra  | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ  |
 | -------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ------------- |
 | **Atlas@OVH**        | CaaS          | O          | O         | O             | N              | N           | 2-3-3-3   | API@ClamAV    |
 | **Atlas@OVH-SNC**    | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV    |
