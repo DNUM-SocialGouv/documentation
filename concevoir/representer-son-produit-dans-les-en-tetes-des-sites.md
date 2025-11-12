@@ -5,7 +5,7 @@ description: >-
   logotype.
 ---
 
-# 🇫🇷 Représenter son produit dans les en-têtes des sites
+# 🇫🇷 En-têtes des sites
 
 Tout site porté par l’Etat et ses opérateurs doit respecter les règles d’usage de la marque Etat. Dans le cas des sites soumis à agrément du SIG, le non-respect des règles d’usage entrainera le refus de l’agrément.
 
@@ -21,7 +21,7 @@ Les bloc-marques évoluant au rythme des changements ministériels, ceux présen
 
 Ressources utiles :
 
-* [L'architecture de marque de l’État.](https://www.info.gouv.fr/marque-de-letat/l-architecture-de-marque-de-l-etat)
+* [L'architecture de marque de l’État](https://www.info.gouv.fr/marque-de-letat/l-architecture-de-marque-de-l-etat)
 * [Circulaire 6411-SG du 7 juillet 2023](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)
 * [Jaune budgétaire 2025 (section "accès rapide" en bas de page)](https://www.budget.gouv.fr/documentation/documents-budgetaires/exercice-2025/projet-loi-finances-les/jaunes-budgetaires-2025-plf-2025)
 * [Modèles d'en-têtes à utiliser (maquettes Figma)](https://www.figma.com/design/1F77YLcBVbNw4CCEUr9PSQ/Mod%C3%A8les-de-pages-et-standards-d-espacements?node-id=4355-3259\&p=f\&t=6AiqhwsDt4COtXlj-11)
