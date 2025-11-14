@@ -1,4 +1,4 @@
-# 👷‍♀️ Responsable métier
+# 👷‍♀️ Responsable métier (PM)
 
 Les métiers, au sein des ministères, sont les experts des politiques publiques et des services administratifs. Ils définissent les objectifs stratégiques des services numériques en lien avec la politique publique.
 

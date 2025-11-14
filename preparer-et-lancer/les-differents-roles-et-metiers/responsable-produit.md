@@ -1,4 +1,4 @@
-# 👷‍♀️ Responsable produit
+# 👷‍♀️ Responsable produit (PO)
 
 Le responsable produit intervient aux côtés du responsable métier pour porter le développement et le déploiement d’un service numérique.
 
