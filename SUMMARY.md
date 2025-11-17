@@ -55,6 +55,8 @@
 * [✅ Cadre de Cohérence Technique](constuire-developper-deployer/cct.md)
 * [✅ Checklist projet](constuire-developper-deployer/checklist-projet.md)
 * [👩‍💻 Principes de développement](constuire-developper-deployer/principes-de-developpement/README.md)
+  * [Clean Code](developper/principes-de-developpement/clean-code/README.md)
+    * [Clean Code (TypeScript)](developper/principes-de-developpement/clean-code/clean-code-typescript.md)
   * [Open Source par défaut](constuire-developper-deployer/open-source.md)
   * [☁️ Application cloud native](constuire-developper-deployer/principes-de-developpement/cloud-native.md)
   * [⌛ Traitements asynchrones](constuire-developper-deployer/principes-de-developpement/processus-asynchrones.md)
