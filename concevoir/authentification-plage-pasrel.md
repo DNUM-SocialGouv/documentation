@@ -10,7 +10,6 @@ Plage est un portail d'accès aux services métier qui utilisent ce compte Pasre
 * SSO sur le domaine
 
 ## Inconvénients
-* Technologie CAS obsolète
 * Pas de 2FA
 
 ## Sources de veille
