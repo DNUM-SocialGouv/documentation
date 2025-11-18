@@ -49,6 +49,6 @@ Si la source n'est pas officielle, il est préférable de copier-coller le conte
 * [Newsletter Grist FR](https://support.getgrist.com/fr/newsletters/)
 * [Forum de la communauté Grist FR](https://forum.grist.libre.sh/)
 * [Backlog officiel Grist](https://github.com/orgs/gristlabs/projects/4/views/1). Suivre cette évolution qui permettra peut-être de rendre un widget public : https://github.com/gristlabs/grist-core/issues/348.
-* Salon Tchap "Grist - Annonces"
-* Salon Tchap "Grist - Utilisateurs"
-* Salon Tchap "Grist - Contributions"
+* [Salon Tchap "Grist - Annonces"](https://www.tchap.gouv.fr/#/room/!yYdrqZlxydxriafaRE:agent.dinum.tchap.gouv.fr)
+* [Salon Tchap "Grist - Utilisateurs"](https://www.tchap.gouv.fr/#/room/!TLRWBCVNfbjgrNKmox:agent.dinum.tchap.gouv.fr)
+* [Salon Tchap "Grist - Contributions"](https://www.tchap.gouv.fr/#/room/!kkwhrcxoMcnAGMXMIM:agent.dinum.tchap.gouv.fr)
