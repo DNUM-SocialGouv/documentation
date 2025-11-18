@@ -47,3 +47,6 @@ _Ces solutions ne sont pas toujours exclusives : le tableau peut être reparcour
 [**Pro Santé Connect**](https://esante.gouv.fr/produits-services/pro-sante-connect) authentifie et identifie obligatoirement les Professionnels de Santé dans l'exercice de la médecine. Il repose sur les cartes professionnelles CPS et e-CPS, et le répertoire RPPS. Le raccordement d'un service est assez lourd.\
 Service obligatoire pour les professionnels de santé dans l'exercice de la médecine.\
 2FA : Oui
+
+## Sources de veille
+- [Salon Tchap "FranceConnect - Communications partenaires"](https://www.tchap.gouv.fr/#/room/#franceconnect:agent.dinum.tchap.gouv.fr)
