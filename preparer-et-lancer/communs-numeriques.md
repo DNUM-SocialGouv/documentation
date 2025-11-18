@@ -153,5 +153,7 @@ Synthèse :
 * **Manifest.build** est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
 
 ## Sources de veille
+* [Releases Démarches Simplifiées](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
+* [Salon Tchap "Démarches Simplifiées"](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)
 * [Releases Sites-Faciles](https://github.com/numerique-gouv/sites-faciles/releases)
 * [Canal Mattermost BetaGouv de Sites-Faciles (privé)](https://mattermost.incubateur.net/betagouv/channels/startup-cms)
