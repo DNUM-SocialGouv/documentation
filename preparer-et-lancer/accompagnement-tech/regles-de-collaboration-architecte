@@ -1,1 +1,9 @@
+1 - Clarifier les attentes
+Pourquoi ?
+- Pour éviter les zones d’ombre et garantir que l’accompagnement répond bien aux besoins du produit.
+Ce qui est attendu :
+- Le chef de produit doit décrire précisément :
+Le type d’accompagnement souhaité (ex. : cadrage technique, validation d’architecture, support sur un sujet spécifique).
+Les objectifs à atteindre (ex. : sécuriser la conformité, améliorer la performance, préparer une évolution).
 
+Le chef de produit reste responsable de la mise à jour du Document d’Architecture (DA), mais il peut demander à l’architecte de contribuer ou de le mettre à jour.
