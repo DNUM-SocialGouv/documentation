@@ -7,7 +7,7 @@ Plage est un portail d'accès aux services métier qui utilisent ce compte Pasre
 
 * Pasrel repose sur le répertoire FINESS des établissements de santé et de leurs collaborateurs
 * Pasrel centralise les rôles et habilitations des applications métier de son domaine, à l'image d'EFPConnect
-* SSO sur le domaine de l'ATIH
+* SSO/SLO pour 50 applications du domaine de l'ATIH
 * Protocole OIDC
 
 ## Inconvénients
