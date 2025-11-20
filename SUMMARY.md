@@ -97,6 +97,7 @@
 ## AIDE
 
 * [🛎️ Etre accompagnés](preparer-et-lancer/accompagnement-tech/README.md)
+  * [📄 Dossier d'Architecture](preparer-et-lancer/accompagnement-tech/règles-de-collaboration-architecte.md)
   * [💡 Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
   * [🧭 Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
   * [💰 Analyse de devis](preparer-et-lancer/accompagnement-tech/analyse-de-devis-et-recommandations.md)
