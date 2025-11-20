@@ -1,6 +1,6 @@
 # Transverse
 
-### DAPHNÉ – Gestion des concours & examens
+## DAPHNÉ – Gestion des concours & examens
 
 Le SI Daphné permet la gestion des concours & examens gérés par la DRH des ministères sociaux (concours d'entrée dans les ministères, examens professionnels ou concours internes).
 
