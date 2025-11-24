@@ -43,25 +43,19 @@ Le parcours de raccordement est [détaillé ici](https://industriels.esante.gouv
 
 
 ## Notes
-
-*Le raccordement à l'environnement de bac à sable (BAS) peut se faire rapidement et permets de commencer à travailler 
-à l'intégration de PSC dans nos applications. Il y a également une application Android eCPS BAS qui permets de tester 
-l'authentification via PSC.*
-
-*Attention pour la validation de notre compte iSC, pour les comptes de l'organisation DNUM
-des collègues sont déjà existants dans iSC en tant que référents. En même temps que la demande il est conseillé 
-de contacter M. Lascombes ou M. Borgis.*
-
-*Pro Santé Connect a fait le choix de ne pas gérer les "profils" mais envoie toutes les informations 
+* Le raccordement à l'environnement de bac à sable (BAS) peut se faire rapidement et permet de commencer à travailler 
+à l'intégration de PSC dans nos applications. Une application Android eCPS BAS permet de tester 
+l'authentification via PSC.
+* Attention pour la validation de notre compte iSC, pour les comptes de l'organisation DNUM
+des collègues sont déjà existants dans iSC en tant que référents. Il est conseillé de les contacter en même temps que la demande.
+* Pro Santé Connect a fait le choix de ne pas gérer les "profils" mais envoie toutes les informations 
 nécessaires (Exercices et activités) dans l'endpoint UserInfo. C'est à la charge de l'application si besoin
-de proposer les profils disponibles.*
-
-*Pour notre projet nous ne savions pas exactement quels attributs allaient être renseignés dans le retour JSON
+de proposer les profils disponibles.
+* Pour notre projet nous ne savions pas exactement quels attributs allaient être renseignés dans le retour JSON
 de l'endpoint UserInfo. L'ANS propose un [simulateur](https://essaietaecps.eservices.esante.gouv.fr/) pour avoir cette visibilité.
-De cette manière on peut récupérer un JSON de nos utilisateurs en production et l'affecter dans nos profils de test via
-leur autre outil [EDIT](https://edit.esante.gouv.fr/login)*
-
-*Le support Pro Santé Connect réponds en général efficacement sous quelques jours : prosanteconnect.editeurs@esante.gouv.fr*
+On peut ainsi récupérer un JSON de nos utilisateurs en production et l'affecter dans nos profils de test via
+un autre outil [EDIT](https://edit.esante.gouv.fr/login)
+* Le support Pro Santé Connect répond en général efficacement sous quelques jours : prosanteconnect.editeurs@esante.gouv.fr
 
 ## Sources de veille
 [Documentation officielle](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect)
