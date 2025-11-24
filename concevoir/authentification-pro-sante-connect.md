@@ -1,39 +1,33 @@
-# 🔒 Authentification via Pro Santé Connect
+# 🔒 Pro Santé Connect
 
-## Intro
+Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Professionnels de Santé (PS) en France. PSC est :
+* Développé et maintenu par l'Agence du Numérique en Santé (ANS)
+* Basé sur les PS dans l'Annuaire Santé, lui-même alimenté par le répertoire RPPS
+* Basé sur le protocole standard OpenID Connect
+* Gratuit
+* Conforme aux exigences réglementaires
+* Obligatoire depuis 2023 pour tous les services numériques en santé dits "sensibles" (au sens défini dans la PGSSI-S)
 
-Cette page synthétise quelques informations de présentations de PSC disponibles [ici](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect)
-et répertorie les actions à effectuer pour activer l'authentification via PSC.
+**Quelques chiffres :**
 
-## Présentation 
-
-Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel du secteur de la santé en France, développé et maintenu par l'Agence du Numérique en Santé (ANS). Il s'agit d'un service standard basé sur le protocole OpenID Connect, gratuit et conforme aux exigences réglementaires.
-Grâce à Pro Santé Connect, les professionnels de santé recensés dans l'Annuaire Santé (alimenté par le répertoire RPPS) peuvent s'authentifier de manière simple, sécurisée et unifiée sur les services numériques en santé.
-Depuis le 1er janvier 2023, l'implémentation de PSC est **obligatoire** pour tous les services numériques en santé dits "sensibles" (au sens défini dans la PGSSI-S).
-
-**Quelques chiffres**
-
-* 611 services raccordés en production
-* Plus de 2 millions d'authentifications sur le dernier mois
-* 38% d'authentifications par e-CPS (carte électronique)
-* Jusqu'à 11 millions d'authentifications mensuelles au pic d'utilisation
+* Plus de 600 services raccordés en production
+* Plusieurs millions d'authentifications par mois et jusqu'à 11 millions en pic
+* 38% d'authentifications par e-CPS (carte électronique sur smartphone)
 
 ## Pré-requis
 
 1. Créer un compte responsable technique sur iSC
-   Inscrivez-vous sur iSC (Fournisseur d'Identité de l'ANS pour les Industriels). Ce compte unique vous donnera accès à tous les services clés de l'ANS :
+   S'inscrire sur iSC (Fournisseur d'Identité de l'ANS pour les Industriels). Ce compte unique donne accès à tous les services clés de l'ANS :
 
    * Espace Authentifié du Portail Industriels
    * Plateforme Convergence
    * Statistiques PSC
-   * Et autres services ANS
+   * Etc.
 
 (Délai : immédiat)
 
 2. Effectuer une demande d'accès à l'API Pro Santé Connect
-   L'accès aux fonctionnalités PSC nécessite une demande DataPass spécifique à chaque besoin.
-
-    Important : Une demande DataPass distincte est requise pour chaque service que vous souhaitez raccorder.
+   L'accès aux fonctionnalités PSC nécessite une demande DataPass, distincte pour chaque service à raccorder.
 
 (Délai : variable selon validation)
 
@@ -45,10 +39,10 @@ Depuis le 1er janvier 2023, l'implémentation de PSC est **obligatoire** pour to
 
 ## Parcours de raccordement
 
-Le parcours de raccordement est détaillé [ici](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect/parcours-raccordement).
+Le parcours de raccordement est [détaillé ici](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect/parcours-raccordement).
 
 
-## Notes : 
+## Notes
 
 *Le raccordement à l'environnement de bac à sable (BAS) peut se faire rapidement et permets de commencer à travailler 
 à l'intégration de PSC dans nos applications. Il y a également une application Android eCPS BAS qui permets de tester 
@@ -68,3 +62,6 @@ De cette manière on peut récupérer un JSON de nos utilisateurs en production 
 leur autre outil [EDIT](https://edit.esante.gouv.fr/login)*
 
 *Le support Pro Santé Connect réponds en général efficacement sous quelques jours : prosanteconnect.editeurs@esante.gouv.fr*
+
+## Sources de veille
+[Documentation officielle](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect)
