@@ -45,7 +45,7 @@ Si vous ne savez pas dans quelle catégorie votre site se situe, contactez votre
 
 ### Comment représenter mon produit dans l'en-tête de mon site ?
 
-<table data-header-hidden><thead><tr><th width="141.859375">Type de site</th><th>Bloc-marque</th><th>Logo possible ?</th><th>Exemple</th></tr></thead><tbody><tr><td>Type de site</td><td>Bloc-marque</td><td>Logo possible ?</td><td>Exemple</td></tr><tr><td>Ministère</td><td>Ministériel</td><td>❌ Non</td><td>sante.gouv.fr</td></tr><tr><td>Opérateur</td><td>RF ou Ministériel</td><td>✅ Oui</td><td>ARS IDF</td></tr><tr><td>Serviciel</td><td>RF ou Ministériel</td><td>✅ Oui (après validation DICOM/DNUM)</td><td>egapro.travail.gouv.fr</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th width="141.859375">Type de site</th><th>Bloc-marque</th><th>Logo possible ?</th><th>Exemple</th></tr></thead><tbody><tr><td>Type de site</td><td>Bloc-marque</td><td>Logo possible ?</td><td>Exemple</td></tr><tr><td>Ministère</td><td>Ministère ou Gouvernement</td><td>❌ Non</td><td>sante.gouv.fr</td></tr><tr><td>Opérateur</td><td>RF ou Ministériel</td><td>✅ Oui</td><td>ARS IDF</td></tr><tr><td>Serviciel</td><td>RF ou Ministériel</td><td>✅ Oui (après validation DICOM/DNUM)</td><td>egapro.travail.gouv.fr</td></tr></tbody></table>
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’é
 
 <p align="center">Bloc-marque MTSSF</p>
 
-<div align="center"><img src="../.gitbook/assets/image (7) (1).png" alt=""></div>
+<div align="center"><img src="broken-reference" alt=""></div>
 
 <p align="center">Bloc-marque gouvernement</p>
 
