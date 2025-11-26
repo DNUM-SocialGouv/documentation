@@ -18,6 +18,7 @@ L’espace de travail doit être partagé avec le groupe Accotech (demandez l’
 7. La nomenclature d’appellation du DA doit être respectée (cf. suivi des versions dans le template du DA).
 8. Lors de la collaboration avec notre équipe, aucun envoi du DA en pièce jointe par mail n’est autorisé. Seuls les liens de partage sont acceptés.
 9. Pour les schémas, il est doit être utilisé les templates Draw.io ou PowerPoint.
+10. Il ne doit exister qu’un seul DA, qui sera incrémenté au fur et à mesure des évolutions.Le suivi des modifications peut se faire via la validation des changements (Question : qui doit être validateur ?) et l’historique du fichier.
 
 ## Après Validation
-10. Le DA validé doit être stocké sur l’espace SharePoint de la mission Architecture.
+11. Le DA validé doit être stocké sur l’espace SharePoint de la mission Architecture.
