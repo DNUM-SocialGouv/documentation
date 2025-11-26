@@ -21,11 +21,17 @@ Il permet de s’assurer que tout nouveau site ou application :
 * s’inscrit dans la **stratégie de communication gouvernementale** pilotée par le SIG ;
 * contribue à la **rationalisation des sites publics** et à la **lisibilité de l’action de l’État**.
 
+## Ressources
+
+* [Circulaire n° 6411/SG du 7 juillet 2023 – Système de Design de l’État](https://www.systeme-de-design.gouv.fr)
+* [DSFR – Documentation officielle](https://www.systeme-de-design.gouv.fr)
+* [Contact DICOM : dicom-agrements-sites@sg.social.gouv.fr](mailto:dicom-agrements-sites@sg.social.gouv.fr)
+
 ***
 
 ## Quand une demande est-elle obligatoire ?
 
-Tout projet de **création** ou de **refonte majeure** de site ou d’application grand public émanant d’un service de l’État doit obtenir un **agrément préalable du SIG** — quelle que soit son URL (.gouv.fr, .fr, etc.).
+Tout projet de **création** ou de **refonte** de site ou d’application grand public émanant d’un service de l’État doit obtenir un **agrément préalable du SIG** — quelle que soit son URL (.gouv.fr, .fr, etc.).
 
 Sont concernés :
 
@@ -135,10 +141,3 @@ Un suivi des projets agréés est assuré conjointement par la DICOM et la DNUM 
 → pour évaluer les délais, les difficultés et la conformité des projets ;\
 → pour partager les mises à jour de la procédure et organiser une réunion annuelle avec les référents DAC.
 
-***
-
-## Ressources
-
-* [Circulaire n° 6411/SG du 7 juillet 2023 – Système de Design de l’État](https://www.systeme-de-design.gouv.fr)
-* [DSFR – Documentation officielle](https://www.systeme-de-design.gouv.fr)
-* [Contact DICOM : dicom-agrements-sites@sg.social.gouv.fr](mailto:dicom-agrements-sites@sg.social.gouv.fr)
