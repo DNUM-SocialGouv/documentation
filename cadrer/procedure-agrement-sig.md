@@ -100,10 +100,12 @@ Demandé **au moins un mois avant la mise à disposition du grand public**, il v
 
 Points de vérification :
 
-* Audit d’accessibilité (> 75 %, 100% 6 mois après le lancement)
+* Audit d’accessibilité RGAA (> 80 %, 100% 6 mois après le lancement)
 * Conformité DSFR et marque de l’État
 * Outil de mesure d’audience conforme CNIL
 * Restitution des tests utilisateurs (≥ 5 profils testés)
+* Homologation RGS
+* Conformité RGPD
 
 Délai d’instruction : environ **3 à 4 semaines**
 
