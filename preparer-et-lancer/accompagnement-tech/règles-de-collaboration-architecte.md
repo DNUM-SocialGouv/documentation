@@ -10,7 +10,7 @@ Cette page a pour objet de détailler les règles ou convention de collaboration
 Avant toute collaboration avec l’équipe des architectes, il convient de prendre connaissance du pack DA ainsi que de la gouvernance dans laquelle s’inscrit la modification du DA (disponible sur la page d’accueil de la mission Architecture).
 
 ## En amont de la rédaction des DA 
-1.Par défaut, l’équipe des architectes intervient pour relire, conseiller et valider la rédaction du DA. Dans certains cas, elle peut co-rédiger celui-ci avec l’équipe produit ou simplement le valider. En tout état de cause, un RACI doit être défini parmi ceux proposés afin que la collaboration se déroule dans les meilleures conditions.
+1. Par défaut, l’équipe des architectes intervient pour relire, conseiller et valider la rédaction du DA. Dans certains cas, elle peut co-rédiger celui-ci avec l’équipe produit ou simplement le valider. En tout état de cause, un RACI doit être défini parmi ceux proposés afin que la collaboration se déroule dans les meilleures conditions.
 2. Un espace de travail doit être mis à disposition par l’équipe produit avec la dernière version du DA validé.
 (Question : Est-ce que nous le fournissons via le SharePoint de stockage des DA ? Quid des DA qui ne passent pas en COAT ?)
 L’espace de travail doit être partagé avec le groupe Accotech (demander l’adresse à votre architecte) et le lien de partage doit être communiqué.
