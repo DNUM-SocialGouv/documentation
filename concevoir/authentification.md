@@ -50,3 +50,4 @@ Service obligatoire pour les professionnels de santé dans l'exercice de la méd
 
 ## Sources de veille
 - [Salon Tchap "FranceConnect - Communications partenaires"](https://www.tchap.gouv.fr/#/room/#franceconnect:agent.dinum.tchap.gouv.fr)
+- [FranceConnect - Documentation officielle"](https://docs.partenaires.franceconnect.gouv.fr/fs/)
