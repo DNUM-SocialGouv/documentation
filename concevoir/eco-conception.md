@@ -1,25 +1,21 @@
 # 🌳 Eco-conception
 
-### Pourquoi l'écoconception ? <a href="#pourquoi-lecoconception" id="pourquoi-lecoconception"></a>
+## Pourquoi l'écoconception ? <a href="#pourquoi-lecoconception" id="pourquoi-lecoconception"></a>
 
-L'internet est une immense source de consommation d'énergie. Si c'était un pays, il serait le 3ᵉ plus gros consommateur d’électricité au monde, juste derrière les États-Unis et la Chine.
+L'internet est une immense source de consommation d'énergie. Si c'était un pays, il serait le 3ᵉ plus gros consommateur d’électricité au monde, juste derrière les États-Unis et la Chine. Cependant, l'électricité n'est pas le seul facteur à considérer. Les services numériques ont également un impact sur :
 
-Cependant, l'électricité n'est pas le seul facteur à considérer. Les services numériques ont également un impact sur :
-
-* **Énergie** : Consommation d’électricité par les serveurs, réseaux et batteries.
-* **Gaz à effet de serre (GES)** : Émissions liées à la production et à l'utilisation des services numériques.
-* **Eau** : Consommation d’eau dans les processus de refroidissement des serveurs, entre autres.
-* **Ressources abiotiques** : Utilisation de ressources naturelles non vivantes comme la lumière, l'eau, l'azote et l'oxygène.
+* **Consommation électrique** des serveurs, réseaux et batteries.
+* **Gaz à effet de serre (GES)** émis par la production et l'utilisation des services numériques.
+* **Consommation d'eau** pour le refroidissement des serveurs, entre autres.
+* **Ressources abiotiques** : utilisation de ressources naturelles non vivantes comme la lumière, le minerais, l'azote et l'oxygène.
 
 Le plus gros impact provient des terminaux numériques (smartphones, ordinateurs, etc.). Par exemple, en France, **37 % des utilisateurs** renouvellent leur smartphone parce qu'il ne fonctionne plus correctement.
 
 👉 Pour réduire l'impact du numérique, il est crucial de créer des services numériques **utiles**, **sobres** et **durables**, ce qui permet d'allonger la durée de vie des appareils.
 
-Cette page décrit les bonnes pratiques de services numériques répondant à ces enjeux.
+## Les enjeux de l'écoconception <a href="#les-enjeux-de-lecoconception" id="les-enjeux-de-lecoconception"></a>
 
-### Les enjeux de l'écoconception <a href="#les-enjeux-de-lecoconception" id="les-enjeux-de-lecoconception"></a>
-
-#### Des services utiles <a href="#des-services-utiles" id="des-services-utiles"></a>
+### Des services utiles <a href="#des-services-utiles" id="des-services-utiles"></a>
 
 **Utile à l'échelle de la planète**
 
@@ -45,7 +41,7 @@ La mise en oeuvre recommandée par le RGESN correspond tout à fait à la métho
 * **Agilité** des process
 * **Observation** des statistiques d’usages
 
-#### Des service sobres <a href="#des-service-sobres" id="des-service-sobres"></a>
+### Des service sobres <a href="#des-service-sobres" id="des-service-sobres"></a>
 
 **Sobriété des fonctionnalités**
 
@@ -76,7 +72,7 @@ La sobriété technique concerne principalement :
 * La mise en **cache** des données pour éviter des requêtes inutiles.
 * L'utilisation minimale de l'**intelligence artificielle**.
 
-#### Des services durables <a href="#des-services-durables" id="des-services-durables"></a>
+### Des services durables <a href="#des-services-durables" id="des-services-durables"></a>
 
 Un service numérique durable doit être :
 
@@ -84,9 +80,9 @@ Un service numérique durable doit être :
 * **Interopérable** en utilisant des formats ouverts ou en proposant des API.
 * **Contre l'obsolescence**, en étant compatible avec les vieux terminaux et systèmes d'exploitation (OS) ; et en s'adaptant à différentes résolutions et différents appareils (responsive)
 
-### La démarche d’éco-conception <a href="#la-demarche-deco-conception" id="la-demarche-deco-conception"></a>
+## Démarche d’éco-conception <a href="#la-demarche-deco-conception" id="la-demarche-deco-conception"></a>
 
-#### Mesurer l'écoconception <a href="#mesurer-lecoconception" id="mesurer-lecoconception"></a>
+### Mesurer l'écoconception <a href="#mesurer-lecoconception" id="mesurer-lecoconception"></a>
 
 L’outil [**Ecoindex**](https://www.ecoindex.fr/) attribue une note de **A à G**, basée sur des métriques telles que :
 
@@ -98,7 +94,7 @@ En analysant un parcours, on peut ainsi évaluer l'impact d'un service.
 
 [Template d'atelier Écoindex](https://docs.google.com/spreadsheets/d/18JL9H32g9Rw_Sem2-zbGFtukho-QhW2_E9zVLMCbAJE/edit?gid=0#gid=0)
 
-#### Auditer avec le RGESN <a href="#auditer-avec-le-rgesn" id="auditer-avec-le-rgesn"></a>
+### Auditer avec le RGESN <a href="#auditer-avec-le-rgesn" id="auditer-avec-le-rgesn"></a>
 
 Le **RGESN** (Référentiel Général de l’Écoconception des Services Numériques) est un cadre officiel français. Ce référentiel est composé de **78 critères**, répartis en **9 catégories**. Il permet d’auditer un service numérique de manière déclarative, en interne. À l'issu d'un audit, un service dispose de :
 
