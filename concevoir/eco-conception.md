@@ -1,15 +1,12 @@
 # 🌳 Eco-conception
 
-## Pourquoi l'écoconception ? <a href="#pourquoi-lecoconception" id="pourquoi-lecoconception"></a>
-
-L'internet est une immense source de consommation d'énergie. Si c'était un pays, il serait le 3ᵉ plus gros consommateur d’électricité au monde, juste derrière les États-Unis et la Chine. Cependant, l'électricité n'est pas le seul facteur à considérer. Les services numériques ont également un impact sur :
-
-* **Consommation électrique** des serveurs, réseaux et batteries.
+Le numériques a de multiples impacts sur l'environnement :
+* **Consommation électrique** des serveurs, réseaux et batteries. Si c'était un pays, Internet serait le 3ᵉ plus gros consommateur d’électricité au monde, juste derrière les États-Unis et la Chine.
 * **Gaz à effet de serre (GES)** émis par la production et l'utilisation des services numériques.
 * **Consommation d'eau** pour le refroidissement des serveurs, entre autres.
-* **Ressources abiotiques** : utilisation de ressources naturelles non vivantes comme la lumière, le minerais, l'azote et l'oxygène.
+* **Consommation de ressources abiotiques** - ressources naturelles non vivantes - comme la lumière, le minerais, l'azote et l'oxygène.
 
-Le plus gros impact provient des terminaux numériques (smartphones, ordinateurs, etc.). Par exemple, en France, **37 % des utilisateurs** renouvellent leur smartphone parce qu'il ne fonctionne plus correctement.
+Le plus gros impact provient des terminaux numériques (smartphones, ordinateurs, tablettes, etc.). En France **37 % des utilisateurs** renouvellent leur smartphone parce qu'il ne fonctionne plus correctement.
 
 👉 Pour réduire l'impact du numérique, il est crucial de créer des services numériques **utiles**, **sobres** et **durables**, ce qui permet d'allonger la durée de vie des appareils.
 
