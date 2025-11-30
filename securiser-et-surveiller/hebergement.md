@@ -48,10 +48,9 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
   * elles doivent être sensibles soit par nature (parce qu’identifiées comme un secret légal) soit du fait de leur emploi (parce qu’impliquées dans une mission essentielle de l’État)
   * leur violation aurait pour conséquence une atteinte à l’ordre public, la sécurité publique, la santé, la vie des personnes ou la propriété intellectuelle.
 
-Les "clouds internes" de l'Etat Pi (MININT) et Nubo (DGFIP) ne sont pas ou peu utilisés au Ministère :
-
-* Pas besoin du niveau "diffusion restreinte" du cloud Pi
-* Offre SecNumCloud d'OVH préférée au cloud Nubo 
+_Les "clouds internes" de l'Etat ne sont pas ou peu utilisés au Ministère :
+* Pas besoin du niveau "diffusion restreinte" du cloud Pi (MININT)
+* Offre SecNumCloud d'OVH préférée au cloud Nubo (DGFIP) : coût élevé, pas prévu pour les petits déploiements_
 
 ## Caractéristiques des plateformes d'hébergement
 
