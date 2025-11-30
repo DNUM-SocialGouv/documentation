@@ -2,28 +2,25 @@
 hidden: true
 ---
 
-# Dossier d'Architecture (DA)
+# 📄 Dossier d'Architecture
 
-Cette page ... conventions blabla Dossier d'Architecture (DA) ensemble
+Cette page a pour objet de détailler les règles ou convention de collaboration sur le Dossier d'architecture (DA) 
 
-## En amont
-1. Clarifier les attentes
-Le chef de produit formalise le type d’accompagnement attendu et les objectifs. Il est responsable de la mise à jour du DA, mais peut solliciter l’architecte.
+## Pré-requis
+Avant toute collaboration avec l’équipe des architectes, il convient de prendre connaissance du pack DA ainsi que de la gouvernance dans laquelle s’inscrit la modification du DA (disponible sur la page d’accueil de la mission Architecture).
 
-2. Organisation et rôles
-Un architecte est assigné à un produit dès le début d'un changement ou d'une mise en place. Le chef de produit fournit un RACI (Chef de produit / Architecte / Équipe de développement).
+## En amont de la rédaction des DA 
+1. Par défaut, l’équipe des architectes intervient pour relire, conseiller et valider la rédaction du DA. Dans certains cas, elle peut co-rédiger celui-ci avec l’équipe produit ou simplement le valider. En tout état de cause, un RACI doit être défini parmi ceux proposés afin que la collaboration se déroule dans les meilleures conditions.
+2. Un espace de travail doit être mis à disposition par l’équipe produit avec la dernière version du DA validé.
+(Question : Est-ce que nous le fournissons via le SharePoint de stockage des DA ? Quid des DA qui ne passent pas en COAT ?)
+L’espace de travail doit être partagé avec le groupe Accotech (demander l’adresse à votre architecte) et le lien de partage doit être communiqué.
+## Rédaction du DA
+3.  La documentation fonctionnelle doit être fournie pour permettre d’appréhender le contexte et le sujet, ou un point de clarification doit être organisé.
+4.  Si c’est un nouveau produit, il ne faut pas démarrer la rédaction à partir d’un DA existant, mais utiliser le pack DA fourni par notre équipe.
+5. Dans le cas où le DA est ancien, il est impératif de vérifier la présence de l’encart de suivi des changements en fin de document (cf. pack DA).
+6. La nomenclature d’appellation du DA doit être respectée (cf. suivi des versions dans le template du DA).
+7. Lors de la collaboration avec notre équipe, l’envoi du DA en pièce jointe par mail est interdit. Seuls les liens de partage sont acceptés.
+9. Pour les schémas, il doit être utiliser les templates Draw.io ou PowerPoint.
 
-## Lors de l'accompagnement
-
-1. Espaces et outils
-SharePoint : espace officiel pour partager le DA et les documents. L'équipe produit fournit un espace de travail, qui est répertorié dans l'espace d’accompagnement de l'équipe.
-Draw.io : les schémas doivent être fournis sur Draw.io (obligatoirement ?) et un changelog doit être tenu pour relater les changements sur les schémas.
-
-2. Onboarding
-Un point d'intégration doit être organisé si le sujet est nouveau pour l’architecte, si le produit est complexe ou à sa demande. Dans le cas où un prestataire intervient, prévoir en accord avec l'architecte un point technique spécifique.
-
-3. Documentation
-Le chef de produit met à disposition la dernière version du DA en production dans le cas où la dernière version n'est pas passée en COAT (et donc qu'elle n'est pas présente sur le SharePoint des DA). À valider avec Igor et Patrice s’ils mettent à disposition même les DA qui ne passent pas en COAT. Tout document permettant de comprendre le contexte doit être founi (ex. : documentation fonctionnelle, contraintes techniques).
-
-4. **Gouvernance et rythme**
-Un rétroplanning doit être défini ainsi qu'un mode de collaboration dès le lancement. Le rythme est co-construit entre le chef de produit et l’architecte.
+## Rappel
+- Conformément à ce qui est indiqué dans le pack DA, les noms des composants et des utilisateurs présents dans la partie fonctionnelle du DA (zones 1 à 4) doivent être cohérents avec ceux indiqués dans la partie technique (zones 5 à 12).
