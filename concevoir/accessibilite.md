@@ -1,9 +1,3 @@
----
-description: Conception des produits numériques de manière à ce que tous les utilisateurs,
-  y compris ceux qui ont des handicaps, puissent les comprendre, naviguer et
-  interagir avec eux de façon simple et efficace.
----
-
 # 🩼 Accessibilité
 
 ## Cadre réglementaire
