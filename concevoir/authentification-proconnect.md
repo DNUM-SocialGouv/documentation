@@ -52,28 +52,21 @@ _Un paramétrage de ProConnect permet de restreindre l'accès à un FS aux seuls
 
 ### 2FA ProConnect
 
-Le fonctionnement du 2FA ProConnect est décrit [ici](https://partenaires.proconnect.gouv.fr/docs/fournisseur-service/double_authentification)
+Le fonctionnement du 2FA ProConnect di point de vue du FS est décrit [ici](https://partenaires.proconnect.gouv.fr/docs/fournisseur-service/double_authentification)
 
-Indépendamment des FI de chaque administration, ProConnect offre les mécanismes 2FA suivants :
+Chaque FS demande un niveau de sécurité, notamment :
+* **eidas1** : pas d'exigence 2FA, tout FI possible.
+* **eidas2** : le FI doit fournir un 2FA afin que la connexion soit acceptée par le FS. Sinon ProConnect affichera une erreur.
 
-* **Par défaut ProConnect envoie un code de vérification à 10 chiffres par email**. On peut alors parler de "1.5FA".
-* Sur son [compte ProConnect Identité](https://identite.proconnect.gouv.fr/connection-and-account), un utilisateur peut
-  * conserver le fonctionnement par défaut
-  * configurer un 2FA (Authenticator, passkey) déclenché uniquement pour les FS qui l'exigent
-  * déclencher ce 2FA systématiquement, pour tous les FS
-
-Ainsi à la connexion :
-
-* **Si** le FS exige un niveau _eidas1_
-  * **Alors** le 2FA ProConnect n'est pas déclenché (sauf vérification contextuelle ou périodique à l'initiative de ProConnect)
-* **Si** le FS exige un niveau _eidas2_ ou supérieur
-  * **Si** l'agent public se connecte avec le FI de son administration **Et** le FI offre déjà un niveau _eidas2_ ou supérieur
-    * **Alors** ProConnect ne déclenche pas de 2FA supplémentaire
-  * **Sinon Si** l'utilisateur public ou privé se connecte avec ProConnect Identité **Et** l'utilisateur a configuré le 2FA sur son compte
-    * **Alors** c'est la configuration de son compte qui s'applique
-  * **Sinon** ProConnect déclenche son 2FA par défaut
-
-_Si le 2FA par défaut de ProConnect n'est pas satisfaisant d'un point de vue métier ("1.5FA"), c'est au FS d'implémenter son propre 2FA (Authenticator, carte à puce, etc.). Un 2FA par email ou SMS hors-ProConnect ne présente que peu d'intérêt._
+Le mécanisme 2FA déclenché dépend donc de chaque FI :
+* **Notre FI Min Sociaux** :
+  * Un code de vérification est systématiquement envoyé par email (1.5FA)
+* **ProConnect Identité**
+  * Par défaut, ProConnect Identité envoie un code de vérification par email (1.5FA).
+  * Sur son [compte ProConnect Identité](https://identite.proconnect.gouv.fr/connection-and-account), un utilisateur peut
+    * soit ne rien faire et conserver le fonctionnement par défaut (1.5FA)
+    * soit configurer un 2FA (Authenticator, passkey). Ce 2FA est au choix déclenché pour les FS qui l'exigent, ou systématiquement pour tous les FS
+* **FI MEN** : _A faire_
 
 ## FAQ
 * **Faut-il un autre moyen d'authentification ?**
