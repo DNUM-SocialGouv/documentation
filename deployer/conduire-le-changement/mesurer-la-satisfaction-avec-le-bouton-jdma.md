@@ -19,11 +19,11 @@ Le bouton JDMA répond à plusieurs exigences des circulaires du 7 et 13 juillet
 > Son intégration est obligatoire pour les démarches recensées dans l’[Observatoire de la qualité des services numériques](https://observatoire.numerique.gouv.fr/), et fortement recommandée pour les autres produits et outils numériques de l’État.
 
 {% hint style="info" %}
-A noter :&#x20;
+A noter :
 
-* Le bouton s'intègre directement dans votre site en une ligne de code. Ce code contient même le visuel qui s'affichera automatiquement sur votre site. C'est fait en 5 minutes !&#x20;
+* Le bouton s'intègre directement dans votre site en une ligne de code. Ce code contient même le visuel qui s'affichera automatiquement sur votre site. C'est fait en 5 minutes !
 * Le bouton n'impacte pas votre score RGAA et est compatible avec le DSFR.
-* En cas de doute sur l'utilisation, l'emplacement ou la sémantique contactez votre responsable du design ou son équipe.&#x20;
+* En cas de doute sur l'utilisation, l'emplacement ou la sémantique contactez votre responsable du design ou son équipe.
 {% endhint %}
 
 Ressources et références :
@@ -35,7 +35,7 @@ Ressources et références :
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center"><mark style="color:$info;">Bouton "Je donne mon avis", novembre 2025</mark></p>
+<p align="center">Bouton "Je donne mon avis", novembre 2025</p>
 
 ***
 
@@ -90,28 +90,40 @@ Le bon emplacement va dépendre du type de produit et de sa cible principale :
 
 Le module s’intègre via un script unique, disponible sur [https://jedonnemonavis.numerique.gouv.fr/](https://jedonnemonavis.numerique.gouv.fr/)
 
-* Connectez vous sur le site JDMA
-* Ajoutez un service **en suivant la nomenclature suivante** \[Ministères Sociaux] DAC A DAC B DAC C - Nom du produit. Exemples :
-  * \[Ministères Sociaux] DGCS DGS - VAO,
-  * \[Ministères Sociaux] DNUM - Portail de connexion à ProConnect
-* Suivez les étapes de création de votre formulaire.
-* Prenez le code fourni à ajouter directement dans votre site.
-* Les retours collectés sont consultables en ligne par produit et exportables pour analyse.
-* Ajoutez l'adresse jdma@sg.social.gouv.fr en consultation de votre site
+1. Connectez vous sur le site JDMA via Proconnect
+2. Ajoutez un service **en suivant la nomenclature suivante** \[Ministères Sociaux] DAC A DAC B DAC C - Nom du produit. Exemples :
+   * \[Ministères Sociaux] DGCS DGS - VAO
+   * \[Ministères Sociaux] DNUM - Portail de connexion à ProConnect
+3. Suivez les étapes de création de votre formulaire.
+4. Prenez le code fourni à ajouter directement dans votre site.
+5. Les retours collectés sont consultables en ligne par produit et exportables pour analyse.
+6. Dans les "droits d'accès" : ajoutez l'adresse jdma@sg.social.gouv.fr en Administrateur du service.
 
 {% hint style="info" %}
-A noter : vous pouvez faire plusieurs emplacements du même lien et suivre la satisfaction associée.
+A noter : vous pouvez créer plusieurs emplacements du même formulaire et suivre le nombre de réponses en fonction des emplacements choisis.
 {% endhint %}
 
 ***
 
 ### Exemples
 
-1. Placement du bouton JDMA en fin de démarche. Placer le bloc du bouton en fin après les informations essentielles pour l'utilisateur. S'assurer que le bloc qui contient le bouton JDMA est aligné avec le corps de page.
+1. Placement du bouton JDMA en fin de démarche. Placer le bloc du bouton en fin après les informations essentielles pour l'utilisateur. S'assurer que le bloc qui contient le bouton JDMA est aligné avec le corps de page, travailler l'espacement et la hiérarchie visuelle.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+
+
 
 2. Placement en bas de page. Positionner juste au dessus du footer.
 
-<figure><img src="../../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (14).png" alt=""><figcaption></figcaption></figure>
 
+\
+3\. Emplacement dans un e-mail de confirmation de démarche
+
+<figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
+
+
+
+4. Emplacement dans un e-mail dédié
+
+<figure><img src="../../.gitbook/assets/image (17).png" alt=""><figcaption></figcaption></figure>
