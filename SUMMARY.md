@@ -42,6 +42,7 @@
   * [🔒 Plage / Pasrel](concevoir/authentification-plage-pasrel.md)
 * [🇫🇷 En-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [Data](concevoir/data/README.md)
+  * [Anonymisation des données](concevoir/data/anonymisation.md)
   * [PostgreSQL](concevoir/data/postgresql.md)
   * [🔍 ElasticSearch](concevoir/data/elasticsearch.md)
 * [🔌 API](concevoir/api/README.md)

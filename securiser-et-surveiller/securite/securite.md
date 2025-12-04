@@ -13,9 +13,7 @@
 
 ## Anonymisation des données
 
-* [ ] Générer un dump anonymisé de la DB?
-  * pour recharger en environnement d'intégration/preprod
-  * pour calculer des KPI
+Voir la page correspondante, [ici](../../concevoir/data/anonymisation.md).
 
 ## Confiance des commits
 
