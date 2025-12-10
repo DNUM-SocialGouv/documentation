@@ -36,7 +36,7 @@ ProConnect diffère de FranceConnect sur ces points notables :
 * Possibilité légale d'utiliser ProConnect comme moyen d'authentification unique pour accéder à un service public numérique
 * Pas de notion de Fournisseurs de Données (FD)
 
-### ProConnect vs ProConnect Identité
+## ProConnect vs ProConnect Identité
 
 Le fonctionnement de ProConnect diffère si l'utilisateur est connu ou pas d'un FI de l'administration :
 
@@ -50,7 +50,7 @@ Le fonctionnement de ProConnect diffère si l'utilisateur est connu ou pas d'un 
 
 _Un paramétrage de ProConnect permet de restreindre l'accès à un FS aux seuls agents publics._
 
-### 2FA ProConnect
+## 2FA ProConnect
 
 Le fonctionnement du 2FA ProConnect di point de vue du FS est décrit [ici](https://partenaires.proconnect.gouv.fr/docs/fournisseur-service/double_authentification)
 

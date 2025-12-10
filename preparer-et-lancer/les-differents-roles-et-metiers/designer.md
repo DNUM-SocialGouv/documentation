@@ -49,9 +49,9 @@ Au delà de la conception des expériences utilisateurs, le designer dispose d�
 
 ## Comment travailler avec un designer ?
 
-En lui laisser jouer son rôle : le designer doit pouvoir vous challenger sur une formulation, un parcours, un fonctionnement. C’est normal. Il est là pour porter la voix des utilisateurs et veiller à la qualité du service. Mais également :
+En lui laisser jouer son rôle : le designer doit pouvoir challenger sur une formulation, un parcours, un fonctionnement. C’est normal. Il est là pour porter la voix des utilisateurs et veiller à la qualité du service. Mais également :
 
 * **L’impliquer dès le début :** faites appel à lui dès la phase de cadrage. Plus il intervient tôt, plus il peut contribuer à bien poser le problème et éviter les mauvaises directions.
 * **Partager le maximum de contexte :** le designer a besoin de tout comprendre, les objectifs métier, contraintes techniques, contexte politique, échéances, historique du projet…
 * **Accepter l’itération :** le design avance par essais/erreurs. On teste, on ajuste, on apprend. Un bon projet est rarement linéaire, mais il progresse vite si on accepte l’incertitude.
-* **Prévoir du temps pour les utilisateurs :** tester avec les vrais usagers, écouter leur vécu, intégrer leurs retours… Le designer vous accompagnera là-dessus, mais cela demande du temps et de l’organisation.\\
+* **Prévoir du temps pour les utilisateurs :** tester avec les vrais usagers, écouter leur vécu, intégrer leurs retours… Le designer accompagne sur ces points, mais cela demande du temps et de l’organisation.

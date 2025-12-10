@@ -12,7 +12,7 @@ Tout site porté par l’Etat et ses opérateurs doit respecter les règles d’
 Ces règles permettent de garantir une meilleure lisibilité pour les usagers et de renforcer la confiance dans nos services en ligne.
 
 {% hint style="danger" %}
-Les bloc-marques évoluant au rythme des changements ministériels, ceux présentés sur cette page le sont à titre d'exemple. Reportez vous aux modèles mis à jour dans le fichier Figma présent dans les ressources utiles.
+Les bloc-marques évoluant au rythme des changements ministériels, ceux présentés sur cette page le sont à titre d'exemple. Se reporter aux modèles mis à jour dans le fichier Figma présent dans les ressources utiles.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
@@ -38,7 +38,7 @@ Il faut distinguer 3 types de site :
     * les entités ne disposant pas de service direct à l’usager.
 
 {% hint style="info" %}
-Si vous ne savez pas dans quelle catégorie votre site se situe, contactez votre DICOM et le responsable design avant toute décision.
+Si la catégorie d'un site n'est pas évidente, contactez la DICOM et le responsable design avant toute décision.
 {% endhint %}
 
 ***

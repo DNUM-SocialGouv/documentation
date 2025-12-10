@@ -1,7 +1,7 @@
 ---
 description: >-
   Pourquoi l'utiliser, les questions posées, comment et où placer le bouton Je
-  Donne Mon Avis sur vos sites et produits.
+  Donne Mon Avis sur nos sites et produits.
 icon: star-sharp-half-stroke
 ---
 

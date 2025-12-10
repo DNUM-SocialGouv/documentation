@@ -31,8 +31,8 @@ Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Profes
 
 (Délai : variable selon validation)
 
-3. Activer votre Espace Authentifié
-   Une fois votre compte iSC créé et validé, activez votre Espace Authentifié pour accéder à des informations personnalisées adaptées à vos besoins.
+3. Activer l'Espace Authentifié
+   Une fois le compte iSC créé et validé, activer l'Espace Authentifié pour accéder à des informations personnalisées adaptées aux besoins.
 
 (Délai : immédiat après validation du compte)
 

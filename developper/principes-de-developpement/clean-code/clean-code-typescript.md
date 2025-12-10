@@ -1,14 +1,8 @@
 # Clean Code (TypeScript)
 
-## Clean Code : les règles essentielles pour écrire du code lisible et maintenable
+## 🏗️ Règles de design
 
-Le clean code n'est pas une liste figée de règles, mais une philosophie : écrire du code que vous (et vos collègues) pourrez relire dans 6 mois sans souffrir.
-
-Voici les grands principes, organisés en thèmes, avec des exemples concrets.
-
-### 🏗️ Règles de design
-
-#### Gardez les constantes configurables accessibles
+### Garder les constantes configurables accessibles
 
 Les constantes doivent être faciles à modifier et centralisées.
 
@@ -21,9 +15,9 @@ AGE_MINIMUM = 18
 if age > AGE_MINIMUM: ...
 ```
 
-#### Préférez la composition aux if/else interminables
+### Préférer la composition aux if/else interminables
 
-Utilisez des objets de configuration et des fonctions spécialisées pour éviter les chaînes de conditions.
+Utiliser des objets de configuration et des fonctions spécialisées pour éviter les chaînes de conditions.
 
 ```typescript
 // ❌ Mauvais
@@ -51,13 +45,13 @@ function calculateAllocationAmount(recipient: Recipient): number {
 }
 ```
 
-#### Évitez la sur-configuration
+### Éviter la sur-configuration
 
-Ne préparez pas des options qui ne servent pas encore. Appliquez le principe YAGNI (You Aren't Gonna Need It).
+Ne pas préparer des options qui ne servent pas encore. Appliquer le principe YAGNI (You Aren't Gonna Need It).
 
-#### Séparation des responsabilités
+### Séparation des responsabilités
 
-En Node.js, utilisez le système de modules pour séparer les responsabilités plutôt que l'injection de dépendances complexe.
+En Node.js, utiliser le système de modules pour séparer les responsabilités plutôt que l'injection de dépendances complexe.
 
 ```typescript
 // ❌ Mauvais - Tout dans un seul fichier
@@ -99,7 +93,7 @@ export const userService = {
 };
 ```
 
-#### Loi de Déméter
+### Loi de Déméter
 
 Une fonction ne devrait connaître que ses dépendances directes, pas les dépendances de ses dépendances.
 
@@ -116,13 +110,13 @@ const getUserCountryCode = (user: User): string => {
 };
 ```
 
-### 👓 Astuces pour la compréhensibilité
+## 👓 Astuces pour la compréhensibilité
 
-#### Soyez cohérent
+### Etre cohérent
 
-Un style unique pour tout le projet. Utilisez des outils de formatage automatique.
+Un style unique pour tout le projet. Utiliser des outils de formatage automatique.
 
-#### Noms explicites
+### Noms explicites
 
 Les noms doivent révéler l'intention.
 
@@ -134,7 +128,7 @@ let d = 5;
 let joursAvantExpiration = 5;
 ```
 
-#### Encapsulez les conditions limites
+### Encapsuler les conditions limites
 
 Mieux vaut un endroit centralisé pour gérer les cas particuliers.
 
@@ -180,7 +174,7 @@ function hasValidEmail(application: Application): boolean {
 }
 ```
 
-#### Préférez des value objects
+### Préférer des value objects
 
 Plutôt que de manipuler des types primitifs partout.
 
@@ -228,13 +222,13 @@ const supplement = createAllocationAmount(100, "monthly");
 const total = addAllocationAmounts(baseAmount, supplement);
 ```
 
-#### Évitez les dépendances logiques
+### Éviter les dépendances logiques
 
-Une méthode qui dépend trop d'une autre est un piège. Réduisez le couplage.
+Une méthode qui dépend trop d'une autre est un piège. Réduire le couplage.
 
-#### Évitez les conditions négatives
+### Éviter les conditions négatives
 
-Préférez les conditions positives pour améliorer la lisibilité.
+Préférer les conditions positives pour améliorer la lisibilité.
 
 ```typescript
 // ❌ Mauvais
@@ -248,9 +242,9 @@ if (isInvalid) {
 }
 ```
 
-### 📝 Règles de nommage
+## 📝 Règles de nommage
 
-#### Noms descriptifs et sans ambiguïté
+### Noms descriptifs et sans ambiguïté
 
 Le nom doit révéler l'intention sans nécessiter de commentaire.
 
@@ -262,13 +256,13 @@ let d: number, t: number, u: User;
 let daysSinceCreation: number, totalAmount: number, user: User;
 ```
 
-#### Prononçables et recherchables
+### Prononçables et recherchables
 
-Préférez `nombreUtilisateurs` à `nbUsr` pour faciliter la recherche et la communication.
+Préférer `nombreUtilisateurs` à `nbUsr` pour faciliter la recherche et la communication.
 
-#### Pas de "magic numbers"
+### Pas de "magic numbers"
 
-Remplacez-les par des constantes avec des noms explicites.
+Les remplacer par des constantes avec des noms explicites.
 
 ```typescript
 // ❌ Mauvais
@@ -279,9 +273,9 @@ const AGE_MAJORITE: number = 18;
 if (user.age >= AGE_MAJORITE) { ... }
 ```
 
-#### Pas de préfixes inutiles
+### Pas de préfixes inutiles
 
-Évitez les préfixes comme `strName`, `intAge` qui n'apportent pas de valeur.
+Éviter les préfixes comme `strName`, `intAge` qui n'apportent pas de valeur.
 
 ```typescript
 // ❌ Mauvais
@@ -291,9 +285,9 @@ let strUserName: string, intUserAge: number;
 let userName: string, userAge: number;
 ```
 
-### ⚙️ Règles relatives aux fonctions
+## ⚙️ Règles relatives aux fonctions
 
-#### Courtes et concentrées
+### Courtes et concentrées
 
 Une seule responsabilité par fonction.
 
@@ -336,7 +330,7 @@ function sendWelcomeEmail(user: User): Promise<void> {
 }
 ```
 
-#### Nom descriptif qui dit ce que ça fait
+### Nom descriptif qui dit ce que ça fait
 
 Le nom de la fonction doit être un verbe qui décrit l'action.
 
@@ -350,7 +344,7 @@ function calculateTotalAllocations(recipients: Recipient[]): number { ... }
 function validateEmail(email: string): boolean { ... }
 ```
 
-#### Peu d'arguments (idéalement ≤ 3)
+### Peu d'arguments (idéalement ≤ 3)
 
 Plus il y a d'arguments, plus la fonction est difficile à utiliser et tester.
 
@@ -386,13 +380,13 @@ function createUser(userData: UserData): User { ... }
 function createUser(name: string, email: string, userProfile: UserProfile): User { ... }
 ```
 
-#### Pas d'effet de bord caché
+### Pas d'effet de bord caché
 
 La fonction ne doit pas modifier des variables globales ou des paramètres d'entrée.
 
-#### Pas de flags
+### Pas de flags
 
-Préférez deux fonctions claires plutôt qu'une fonction avec un booléen.
+Préférer deux fonctions claires plutôt qu'une fonction avec un booléen.
 
 ```typescript
 // ❌ Mauvais
@@ -403,11 +397,11 @@ function processAsAdmin(user: User): void { ... }
 function processAsUser(user: User): void { ... }
 ```
 
-### 💬 Règles relatives aux commentaires
+## 💬 Règles relatives aux commentaires
 
-#### Évitez le bruit
+### Éviter le bruit
 
-Ne commentez pas l'évidence.
+Ne pas commenter l'évidence.
 
 ```typescript
 // ❌ Mauvais
@@ -417,7 +411,7 @@ i++; // incrémente i
 i++; // Préparer l'index pour la prochaine itération
 ```
 
-#### Expliquez l'intention, pas l'évidence
+### Expliquer l'intention, pas l'évidence
 
 Les commentaires doivent expliquer le "pourquoi", pas le "quoi".
 
@@ -431,13 +425,13 @@ if (user.isConnected) { ... }
 if (user.isConnected) { ... }
 ```
 
-#### Ne commentez pas du code mort
+### Ne pas commenter du code mort
 
-Supprimez-le directement.
+Le supprimer directement.
 
-#### Avertissez des conséquences
+### Avertir des conséquences
 
-Si une partie du code est délicate, expliquez pourquoi et quelles sont les implications.
+Si une partie du code est délicate, expliquer pourquoi et quelles sont les implications.
 
 ```typescript
 // ⚠️ ATTENTION: Cette fonction modifie l'état global
@@ -445,15 +439,15 @@ Si une partie du code est délicate, expliquez pourquoi et quelles sont les impl
 function updateGlobalState(): void { ... }
 ```
 
-### 📐 Structure du code source
+## 📐 Structure du code source
 
-#### Regroupez verticalement ce qui est lié
+### Regrouper verticalement ce qui est lié
 
 Les concepts liés doivent être proches dans le code.
 
-#### Déclarez les variables près de leur usage
+### Déclarer les variables près de leur usage
 
-Réduisez la portée des variables au minimum nécessaire.
+Réduire la portée des variables au minimum nécessaire.
 
 ```typescript
 // ❌ Mauvais
@@ -472,19 +466,19 @@ const email: string = user.email;
 const isValid: boolean = validateEmail(email);
 ```
 
-#### Gardez les lignes courtes
+### Garder les lignes courtes
 
 Maximum 120 caractères par ligne pour une meilleure lisibilité.
 
-#### Indentation propre
+### Indentation propre
 
 Pas d'alignement artificiel qui casse à la moindre modification.
 
-### 🧩 Objets et structures de données
+## 🧩 Objets et structures de données
 
-#### Cachez les détails internes (encapsulation)
+### Cacher les détails internes (encapsulation)
 
-Exposez seulement ce qui est nécessaire pour l'utilisation du module.
+Exposer seulement ce qui est nécessaire pour l'utilisation du module.
 
 ```typescript
 // ❌ Mauvais - Détails internes exposés
@@ -512,23 +506,23 @@ export const userService = {
 };
 ```
 
-#### Une fonction = une responsabilité
+### Une fonction = une responsabilité
 
 Chaque fonction doit avoir une seule raison de changer.
 
-#### Peu de paramètres
+### Peu de paramètres
 
 Si une fonction a trop de paramètres, elle fait probablement trop de choses.
 
-#### Pas de dépendances circulaires
+### Pas de dépendances circulaires
 
-Évitez les dépendances circulaires entre modules.
+Éviter les dépendances circulaires entre modules.
 
-#### Préférez plusieurs petites fonctions
+### Préférer plusieurs petites fonctions
 
 Plutôt qu'une énorme fonction avec plein de paramètres.
 
-### ✅ Tests
+## ✅ Tests
 
 #### Un bon test est :
 
@@ -562,41 +556,41 @@ test("should set user as active by default", (): void => {
 });
 ```
 
-#### Utilisez un outil de couverture
+### Utiliser un outil de couverture
 
-Vérifiez ce qui est testé (et ce qui ne l'est pas) avec des outils comme Istanbul, Jest, ou SonarQube.
+Vérifier ce qui est testé (et ce qui ne l'est pas) avec des outils comme Istanbul, Jest, ou SonarQube.
 
-### 🚨 Indices d'un code "pas clean" (Code Smells)
+## 🚨 Indices d'un code "pas clean" (Code Smells)
 
-#### Rigidité
+### Rigidité
 
 Difficile à faire évoluer. Chaque changement nécessite de modifier de nombreux endroits.
 
-#### Fragilité
+### Fragilité
 
 Un petit changement casse autre chose. Le code est instable.
 
-#### Immobilité
+### Immobilité
 
 Difficile à réutiliser ailleurs. Le code est trop couplé à son contexte.
 
-#### Complexité inutile
+### Complexité inutile
 
 Code plus complexe que nécessaire pour résoudre le problème.
 
-#### Duplication
+### Duplication
 
 Même logique répétée à plusieurs endroits.
 
-#### Opacité
+### Opacité
 
 Difficile à comprendre. Le code ne révèle pas son intention.
 
-### ⚠️ Gestion des erreurs
+## ⚠️ Gestion des erreurs
 
-#### Séparez logique métier et gestion des erreurs
+### Séparer logique métier et gestion des erreurs
 
-Ne mélangez pas la logique principale avec la gestion des erreurs.
+Ne pas mélanger pas la logique principale avec la gestion des erreurs.
 
 ```typescript
 interface Recipient {
@@ -639,13 +633,13 @@ function calculateTotalAllocations(recipients: Recipient[]): number {
 }
 ```
 
-#### Utilisez des exceptions, pas des codes d'erreurs
+### Utilisrz des exceptions, pas des codes d'erreurs
 
 Les exceptions sont plus expressives et plus faciles à gérer.
 
-#### Évitez null pour les valeurs métier
+### Éviter null pour les valeurs métier
 
-Utilisez des valeurs explicites plutôt que `null` pour représenter des concepts métier.
+Utiliser des valeurs explicites plutôt que `null` pour représenter des concepts métier.
 
 ```typescript
 // ❌ Mauvais - null comme valeur métier
@@ -677,7 +671,7 @@ function buildACLValue(role: string): ACLValue {
 }
 ```
 
-#### Ajoutez du contexte aux exceptions
+### Ajouter du contexte aux exceptions
 
 Les messages d'erreur doivent être informatifs.
 
@@ -691,9 +685,9 @@ throw new Error(
 );
 ```
 
-### 🌍 Règles générales
+## 🌍 Règles générales
 
-#### KISS (Keep It Simple, Stupid)
+### KISS (Keep It Simple, Stupid)
 
 Le plus simple est presque toujours le meilleur choix.
 
@@ -709,24 +703,24 @@ if (isConnected && hasPermission) {
 }
 ```
 
-#### Règle du boy-scout
+### Règle du boy-scout
 
-Laissez le code un peu plus propre que vous ne l'avez trouvé. Chaque modification doit améliorer la qualité globale.
+Laisser le code un peu plus propre que nous l'avons trouvé. Chaque modification doit améliorer la qualité globale.
 
-#### Cherchez la cause racine
+### Chercher la cause racine
 
-Corriger le symptôme crée souvent de nouveaux bugs. Analysez le problème en profondeur.
+Corriger le symptôme crée souvent de nouveaux bugs. Analyser le problème en profondeur.
 
-#### Principe de moindre surprise
+### Principe de moindre surprise
 
-Votre code doit se comporter comme prévu, sans piège. Les noms de variables et fonctions doivent être explicites.
+Le code doit se comporter comme prévu, sans piège. Les noms de variables et fonctions doivent être explicites.
 
-#### DRY (Don't Repeat Yourself)
+### DRY (Don't Repeat Yourself)
 
-Évitez la duplication, mais attention à ne pas centraliser prématurément du code inutile. Trouvez le bon équilibre entre réutilisabilité et simplicité.
+Éviter la duplication, mais attention à ne pas centraliser prématurément du code inutile. Trouver le bon équilibre entre réutilisabilité et simplicité.
 
-### 🎯 Conclusion
+## 🎯 Conclusion
 
 Le clean code n'est pas une checklist à appliquer aveuglément. C'est une manière de coder en gardant en tête la **lisibilité**, la **simplicité** et la **maintenabilité**.
 
-Un bon indicateur : si vous pouvez relire votre code dans 6 mois et le comprendre immédiatement, vous êtes sur la bonne voie.
+Un bon indicateur : si nous pouvons relire le code dans 6 mois et le comprendre immédiatement, nous somme sur la bonne voie.

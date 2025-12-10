@@ -6,7 +6,7 @@ Nous suivons une checklist afin de nous assurer que la passation se déroule bie
 
 ## Utilisation
 
-Cette checklist est partagée entre les membres de l'équipe et la ou les personnes arrivant sur le projet. Pour chacune des cases à cocher, sentez-vous libre de supprimer les mentions inutiles, d'en ajouter de nouvelles propres au projet et d'ajouter des porteurs et des dates de réalisation pour chacune des actions.
+Cette checklist est partagée entre les membres de l'équipe et la ou les personnes arrivant sur le projet. Pour chacune des cases à cocher, sentons-nous libre de supprimer les mentions inutiles, d'en ajouter de nouvelles propres au projet et d'ajouter des porteurs et des dates de réalisation pour chacune des actions.
 
 Exemple :
 

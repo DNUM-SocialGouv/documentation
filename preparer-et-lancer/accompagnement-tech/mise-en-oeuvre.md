@@ -10,7 +10,7 @@ description: >-
 
 Confiez nous la mise en œuvre de votre produit !
 
-Que ce soit pour réaliser tout ou partie de votre projet, sur un sprint ou plusieurs, de la preuve de concept à sa généralisation, nous sommes là pour vous accompagner.
+Que ce soit pour réaliser tout ou partie de votre projet, sur un sprint ou plusieurs, de la preuve de concept à sa généralisation, nous sommes là pour accompagner.
 
 Nous pouvons travailler exclusivement au sein de notre équipe ou en équipe mixte avec votre maîtrise d'œuvre actuelle, qu'elle soit interne ou externe (sous réserve de possibilités contractuelles).
 
@@ -33,7 +33,7 @@ _<mark style="color:red;">#DEV #EXEMPLARITÉ #EXCELLENCE #ÇA\_MARCHE #C'EST\_MA
 
 **Conditions de réussite :**
 
-* Collaboration étroite entre notre équipe tech. et les parties prenantes de votre produit : vous, autres MOE, métier, utilisateurs.
+* Collaboration étroite entre l'architecte et les parties prenantes du produit : équipe produit, autres MOE, métier, utilisateurs.
 * Un embarquement réalisé par l'équipe produit : présentation du contexte, des attentes.
 * Un suivi (1 à 4 fois / mois) entre l'équipe produit et le responsable technologie ou responsable du bureau D\&D : partage des risques, ajustement du dispositif.
 * Selon la durée d'intervention, un financement nécessaire.

@@ -43,7 +43,7 @@ Quel que soit l'accompagnement proposé, nos engagements sont les mêmes :
 
 ## 1. Prise de contact
 
-Vous formulez une demande d'accompagnement par le canal de votre choix :
+Formuler une demande d'accompagnement par l'un des canaux :
 
 * Par email à l'[équipe d'accompagnement](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr).
 * Sous forme de décision lors d'un Comité Produit.

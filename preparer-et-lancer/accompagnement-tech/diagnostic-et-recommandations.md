@@ -6,9 +6,7 @@ description: Diagnostic et recommandations sur un problème technique ou de perf
 
 <figure><img src="../../.gitbook/assets/offre_accompagnement_tech_diagnostic.png" alt="Image offre diagnostic" width="375"><figcaption></figcaption></figure>
 
-Votre produit rencontre un problème récurrent ou impactant ?
-
-Vous bloquez dans sa résolution ?
+Le produit rencontre un problème récurrent ou impactant ? Il y a un blocage dans sa résolution ?
 
 
 
@@ -50,5 +48,5 @@ _<mark style="color:red;">#EXTERNE #INTERNE #AU\_SECOURS #APPEL\_À\_UN\_AMI</ma
 **Ce que nous ne faisons pas :**&#x20;
 
 * Agir au-delà de nos prérogatives ou se substituer à un acteur responsable.
-* Animer le dispositif (coordination des acteurs, mobilisations) : vous restez à la manœuvre.
-* Intervenir systématiquement : selon votre contexte, nous pouvons ne pas être pertinents.
+* Animer le dispositif (coordination des acteurs, mobilisations) : l'équipe produit reste à la manœuvre.
+* Intervenir systématiquement : selon le contexte, nous pouvons ne pas être pertinents.

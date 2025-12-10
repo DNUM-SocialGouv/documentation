@@ -6,7 +6,7 @@ description: Réponse à une question rapide, à une demande d'orientation
 
 <div data-full-width="false"><figure><img src="../../.gitbook/assets/offre_accompagnement_tech_orientation.png" alt="Image offre orientation" width="375"><figcaption></figcaption></figure></div>
 
-Vous avez une ou plusieurs questions mais ne voyez pas quelle offre est la plus adaptée ?
+Perdu dans les offres d'accompagnement ?
 
 **Pas de panique, cette offre est là pour ça.**
 
@@ -31,4 +31,4 @@ _<mark style="color:red;">#VULGARISATION #QUESTION\_OUVERTE #JE\_SUIS\_PERDU</ma
 
 **Ce que nous ne faisons pas :**
 
-* Solliciter ou coordonner les offres identifiées : à vous de jouer !
+* Solliciter ou coordonner les offres identifiées : c'est à l'équipe produit de jouer !

@@ -6,9 +6,9 @@ description: Analyse et recommandations sur le devis d'un prestataire de service
 
 <figure><img src="../../.gitbook/assets/offre_accompagnement_tech_analyse_devis.png" alt="Image analyse de devis" width="375"><figcaption></figcaption></figure>
 
-Le montant d'un devis vous surprend ? Vous cherchez des leviers d'optimisation ?
+Le montant d'un devis surprend ? Il nécessite des optimisations ?
 
-Ou vous souhaitez tout simplement un avis extérieur éclairé avant de prendre une décision ?
+Un avis extérieur est nécessaire avant de prendre une décision ?
 
 
 

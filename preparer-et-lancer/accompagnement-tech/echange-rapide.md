@@ -7,7 +7,7 @@ noRobotsIndex: true
 
 <figure><img src="../../.gitbook/assets/offre_accompagnement_tech_speedmeeting_image.png" alt="" width="256"><figcaption></figcaption></figure>
 
-Participez à une session courte pendant laquelle notre équipe vous apporte un regard structuré.
+Participer à une session courte pendant laquelle un architecte apporte à l'équipe produit un regard structuré.
 
 **Pas de solution miracle, mais un vrai temps d’écoute et de réflexion partagée.**
 
@@ -26,5 +26,5 @@ _<mark style="color:red;">#UNE\_QUESTION\_UNE\_RÉPONSE</mark>_
 
 **Ce que nous ne faisons pas :**
 
-* **Faire perdre du temps** : si un échange bref peut vous éclairer, nous proposons une solution adaptée.
+* **Faire perdre du temps** : si un échange bref suffit à éclairer l'équipe produit, nous proposons une solution adaptée.
 * **Prendre une décision** : nous répondons aux questions, mais c'est l'équipe qui prend la décision.
