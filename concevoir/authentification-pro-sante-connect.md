@@ -39,7 +39,7 @@ Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Profes
 
 ## Parcours de raccordement
 
-Le parcours de raccordement est [détaillé ici](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect/parcours-raccordement).
+Le parcours de raccordement est [détaillé ici](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect#paragraph-id--34273).
 
 
 ## Notes

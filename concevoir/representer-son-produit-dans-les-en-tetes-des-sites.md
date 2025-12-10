@@ -63,8 +63,6 @@ Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’é
 
 <p align="center">Bloc-marque MTSSF</p>
 
-<div align="center"><img src="broken-reference" alt=""></div>
-
 <p align="center">Bloc-marque gouvernement</p>
 
 <figure><img src="../.gitbook/assets/unknown (2).png" alt=""><figcaption></figcaption></figure>

@@ -4,23 +4,52 @@ hidden: true
 
 # 📄 Dossier d'Architecture
 
-Cette page a pour objet de détailler les règles ou convention de collaboration sur le Dossier d'architecture (DA) 
+Cette page présente les règles essentielles pour rédiger un DA conforme, réduire les itérations et faciliter la validation en COAT.
+
+## Acteurs concernés
+
+Deux acteurs interviennent dans la rédaction et la validation du DA :
+
+* L’équipe produit : responsable du DA.
+
+_Selon l’organisation interne, elle peut être représentée par le Tech Lead, un développeur, le Product Owner (PO), ou toute personne désignée par l’équipe._
+
+* L’équipe d’accompagnement technique : représentée par un architecte.
+
+_Elle apporte un rôle de conseil, de revue et peut faciliter les échanges avec d’autres parties prenantes (hébergeur, confnum, DO, etc.).
+Dans certains cas, elle peut co-rédiger le DA. La responsabilité du document reste toujours portée par l’équipe produit, même lorsque l’équipe d’accompagnement technique contribue à sa rédaction._
 
 ## Pré-requis
-Avant toute collaboration avec l’équipe des architectes, il convient de prendre connaissance du pack DA ainsi que de la gouvernance dans laquelle s’inscrit la modification du DA (disponible sur la page d’accueil de la mission Architecture).
+Avant toute collaboration avec l’équipe d'accompagnement technique, l'équipe produit doit prendre connaissance du pack DA ainsi que de la gouvernance associée à la modification du DA, [disponibles sur la page d’accueil de la mission Architecture.](https://msociauxfr.sharepoint.com/sites/DNUM_DA).
+👉 Le pack DA inclut : template Word, nomenclature, encart de suivi, modèles de schémas, exemples de DA rédigés.
 
-## En amont de la rédaction des DA 
-1. Par défaut, l’équipe des architectes intervient pour relire, conseiller et valider la rédaction du DA. Dans certains cas, elle peut co-rédiger celui-ci avec l’équipe produit ou simplement le valider. En tout état de cause, un RACI doit être défini parmi ceux proposés afin que la collaboration se déroule dans les meilleures conditions.
-2. Un espace de travail doit être mis à disposition par l’équipe produit avec la dernière version du DA validé.
-(Question : Est-ce que nous le fournissons via le SharePoint de stockage des DA ? Quid des DA qui ne passent pas en COAT ?)
-L’espace de travail doit être partagé avec le groupe Accotech (demander l’adresse à votre architecte) et le lien de partage doit être communiqué.
-## Rédaction du DA
-3.  La documentation fonctionnelle doit être fournie pour permettre d’appréhender le contexte et le sujet, ou un point de clarification doit être organisé.
-4.  Si c’est un nouveau produit, il ne faut pas démarrer la rédaction à partir d’un DA existant, mais utiliser le pack DA fourni par notre équipe.
-5. Dans le cas où le DA est ancien, il est impératif de vérifier la présence de l’encart de suivi des changements en fin de document (cf. pack DA).
-6. La nomenclature d’appellation du DA doit être respectée (cf. suivi des versions dans le template du DA).
-7. Lors de la collaboration avec notre équipe, l’envoi du DA en pièce jointe par mail est interdit. Seuls les liens de partage sont acceptés.
-9. Pour les schémas, il doit être utiliser les templates Draw.io ou PowerPoint.
+## Pour une collaboration efficace
+1. Par défaut, l’équipe d’accompagnement technique intervient pour revue, conseil ou clarification des points incertains du DA. 
+* Si nécessaire, l’équipe d’accompagnement technique peut identifier le bon interlocuteur (DO, hébergeur, confnum, etc.) et faciliter les échanges.
+* Dans certains cas, elle peut co-rédiger le DA avec l’équipe produit.
+* Dans tous les cas, l'équipe produit reste responsable de ce document.
 
-## Rappel
-- Conformément à ce qui est indiqué dans le pack DA, les noms des composants et des utilisateurs présents dans la partie fonctionnelle du DA (zones 1 à 4) doivent être cohérents avec ceux indiqués dans la partie technique (zones 5 à 12).
+2. L'équipe produit doit fournir le DA via des liens SharePoint éditables.
+
+✅ Un premier lien doit mener au document Word ; un second aux sources des schémas.
+
+ℹ️ Si l'équipe produit ne dispose pas d’un SharePoint projet, l'équipe d'accompagnement technique peut fournir sur demande un dossier dans notre SharePoint de travail.
+
+❌ Nous n’intervenons pas sur un DA envoyé en pièce jointe par mail : risque important de versions concurrentes rendant notre intervention inefficace.
+
+3.  L'équipe produit doit fournir une documentation fonctionnelle pour permettre d’appréhender le contexte et le sujet ; ou organiser un point de clarification.
+
+## Pour un DA correctement rédigé (et maximiser les chances de validation en COAT)
+
+ℹ️ Rappel de quelques règles déjà exposées dans le [pack DA](https://msociauxfr.sharepoint.com/sites/DNUM_DA), fréquemment enfreintes, qui engendrent une inefficacité des COAT (échanges supplémentaires, itérations sur le document, etc.).
+
+✅ L'équipe produit peut utiliser ces éléments comme une liste de contrôles avant soumission du DA.
+
+4.  Pour un nouveau DA, l'équipe produit doit partir du pack DA.
+
+     ❌  Partir d’un autre DA expose à des incohérences avec le modèle actuel (et une charge de travail supplémentaire pour reporter les nouveautés).
+
+5. L'équipe produit doit vérifier la présence et la mise à jour de l’encart de suivi des changements (dernière page ou bloc 17 pour les anciens DA).
+6. L'équipe produit doit respecter la nomenclature définie dans l’encart de suivi (exemple : DA-NomProjet-V1.0.3.docx).
+7. L'équipe produit doit utiliser les templates Draw.io ou PowerPoint fournis dans le pack DA pour vos schémas.
+8. L'équipe produit doit assurer la cohérence des noms des composants et des utilisateurs entre la partie fonctionnelle (blocs 1 à 4) et la partie technique (blocs 5 à 12).

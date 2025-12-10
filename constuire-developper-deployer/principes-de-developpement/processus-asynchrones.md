@@ -27,8 +27,6 @@ Néanmoins :
 
 Dans le cas d'un processus synchrone, lorsqu'un utilisateur envoie une requête via l'interface, sa réponse arrive lorsque le serveur a terminé de la traiter.
 
-<figure><img src="broken-reference" alt="Traitement synchrone"><figcaption><p>Traitement synchrone</p></figcaption></figure>
-
 1. L'utilisateur exécute une action sur l'interface,
 2. Une requête est envoyée au serveur,
 3. Le serveur la traite,
