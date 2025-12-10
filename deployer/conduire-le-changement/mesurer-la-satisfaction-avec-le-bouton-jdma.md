@@ -21,9 +21,9 @@ Le bouton JDMA répond à plusieurs exigences des circulaires du 7 et 13 juillet
 {% hint style="info" %}
 A noter :
 
-* Le bouton s'intègre directement dans votre site en une ligne de code. Ce code contient même le visuel qui s'affichera automatiquement sur votre site. C'est fait en 5 minutes !
-* Le bouton n'impacte pas votre score RGAA et est compatible avec le DSFR.
-* En cas de doute sur l'utilisation, l'emplacement ou la sémantique contactez votre responsable du design ou son équipe.
+* Le bouton s'intègre directement sur le site en une ligne de code. Ce code contient même le visuel qui s'affichera automatiquement sur le site. C'est fait en 5 minutes !
+* Le bouton n'impacte pas le score RGAA et est compatible avec le DSFR.
+* En cas de doute sur l'utilisation, l'emplacement ou la sémantique, contacter l'équipe design.
 {% endhint %}
 
 Ressources et références :
@@ -68,7 +68,7 @@ Ressources et références :
 
 ### Où placer le bouton ?
 
-En fonction de votre site, il y a deux emplacements à considérer :
+En fonction du site, il y a deux emplacements à considérer :
 
 * En fin de démarche,
 * En bas de page ou là où l'usager peut donner une impression globale sans interrompre son usage.
@@ -86,21 +86,21 @@ Le bon emplacement va dépendre du type de produit et de sa cible principale :
 
 ***
 
-### Intégration sur votre site
+### Intégration sur le site
 
 Le module s’intègre via un script unique, disponible sur [https://jedonnemonavis.numerique.gouv.fr/](https://jedonnemonavis.numerique.gouv.fr/)
 
-1. Connectez vous sur le site JDMA via Proconnect
-2. Ajoutez un service **en suivant la nomenclature suivante** \[Ministères Sociaux] DAC A DAC B DAC C - Nom du produit. Exemples :
+1. Se connecter au site JDMA via ProConnect
+2. Ajouter un service **en suivant la nomenclature suivante** \[Ministères Sociaux] DAC A DAC B DAC C - Nom du produit. Exemples :
    * \[Ministères Sociaux] DGCS DGS - VAO
    * \[Ministères Sociaux] DNUM - Portail de connexion à ProConnect
-3. Suivez les étapes de création de votre formulaire.
-4. Prenez le code fourni à ajouter directement dans votre site.
-5. Les retours collectés sont consultables en ligne par produit et exportables pour analyse.
-6. Dans les "droits d'accès" : ajoutez l'adresse jdma@sg.social.gouv.fr en Administrateur du service.
+3. Suivre les étapes de création du formulaire
+4. Ajouter le code fourni au site
+5. Consulter en ligne ou exporter pour analyse, les retours collectés pour chaque produit
+6. Dans les "droits d'accès", ajouter l'adresse [jdma@sg.social.gouv.fr](mailto:jdma@sg.social.gouv.fr) en Administrateur du service
 
 {% hint style="info" %}
-A noter : vous pouvez créer plusieurs emplacements du même formulaire et suivre le nombre de réponses en fonction des emplacements choisis.
+Il est possible de créer plusieurs emplacements du même formulaire et suivre le nombre de réponses en fonction des emplacements choisis.
 {% endhint %}
 
 ***

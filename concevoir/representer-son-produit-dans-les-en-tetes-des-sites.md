@@ -38,7 +38,7 @@ Il faut distinguer 3 types de site :
     * les entités ne disposant pas de service direct à l’usager.
 
 {% hint style="info" %}
-Si la catégorie d'un site n'est pas évidente, contactez la DICOM et le responsable design avant toute décision.
+Si la catégorie d'un site n'est pas évidente, contacter la DICOM et le responsable design avant toute décision.
 {% endhint %}
 
 ***
@@ -86,7 +86,7 @@ Les entités rendant un service à l’usager peuvent afficher un logotype à c�
 Pour les nouveaux logos : l’utilisation d’un logotype est soumise à approbation au cas par cas par arbitrage DICOM/DNUM-SIG afin de limiter l’inflation d’identités graphiques auxquelles sont exposés les citoyens.
 
 {% hint style="info" %}
-Dans le doute, demandez à votre DICOM et responsable du design avant d’engager la création d’un logo.
+Dans le doute, demander à la DICOM et au responsable du design avant d’engager la création d’un logo.
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>

@@ -17,7 +17,7 @@ Il est fortement recommandé d'utiliser un outil d'observabilité comme **Sentry
 Plusieurs métriques existent :
 
 * FCP : le temps que prend le premier contenu à apparaître.
-* Vitesse de chargement : le temps que prend une page pour se charger chez le client.
+* Vitesse de chargement : le temps que prend une page pour se charger côté client.
 * TBT : le temps où l'utilisateur ne peut utiliser son application.
 * LCP : le temps que prend le contenu le plus grand pour apparaître.
 

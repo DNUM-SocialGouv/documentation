@@ -40,7 +40,7 @@ _<mark style="color:red;">#EXTERNE #INTERNE #AU\_SECOURS #APPEL\_À\_UN\_AMI</ma
 
 **Conditions de réussite :**&#x20;
 
-* Fourniture des éléments liés à votre problème : traces, conclusions, code source, etc.
+* Fourniture des éléments liés au problème : traces, conclusions, code source, etc.
 * Disponibilité et implication des acteurs concernés : TMA, hébergeur, infogérant, métier, etc.
 
 

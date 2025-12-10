@@ -51,5 +51,5 @@ Avant toute collaboration avec l’équipe d'accompagnement technique, l'équipe
 
 5. L'équipe produit doit vérifier la présence et la mise à jour de l’encart de suivi des changements (dernière page ou bloc 17 pour les anciens DA).
 6. L'équipe produit doit respecter la nomenclature définie dans l’encart de suivi (exemple : DA-NomProjet-V1.0.3.docx).
-7. L'équipe produit doit utiliser les templates Draw.io ou PowerPoint fournis dans le pack DA pour vos schémas.
+7. L'équipe produit doit utiliser les templates Draw.io ou PowerPoint fournis dans le pack DA pour les schémas.
 8. L'équipe produit doit assurer la cohérence des noms des composants et des utilisateurs entre la partie fonctionnelle (blocs 1 à 4) et la partie technique (blocs 5 à 12).

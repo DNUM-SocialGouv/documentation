@@ -33,7 +33,7 @@ Pour s’assurer que la démarche de design est correctement mise en œuvre, les
 
 * [ ] S’appuyer sur un·e designer référent·e
   * [ ] Organiser un atelier de lancement avec les parties prenantes.
-  * [ ] S'assurer de la présence de votre référent dans toutes les instances de vie du produit.
+  * [ ] S'assurer de la présence du référent dans toutes les instances de vie du produit.
   * [ ] Créer un canal de conversation partagé avec toutes les parties prenantes.
   * [ ] Créer un espace de documentation.
 * [ ] Centraliser les maquettes dans un fichier Figma partagé sur l'espace DNUM.
@@ -45,7 +45,7 @@ Pour s’assurer que la démarche de design est correctement mise en œuvre, les
   * [ ] la marque Etat,
   * [ ] le RGAA,&#x20;
   * [ ] le RGESN,&#x20;
-  * [ ] et intégrent les annotations d’accessibilité et de responsive design.
+  * [ ] et intègrent les annotations d’accessibilité et de responsive design.
 * [ ] Organiser des tests utilisateurs (au moins cinq par profil d'utilisateur, tous les 3 mois) et itérer selon les retours.
 * [ ] Évaluer l’effort et l’impact de chaque évolution et garder la documentation à jour.
 

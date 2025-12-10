@@ -21,7 +21,7 @@ _<mark style="color:red;">#UNE\_QUESTION\_UNE\_RÉPONSE</mark>_
 
 **Livrables :**
 
-* Un regard neuf sur votre problématique, et un début de solution (conseil, documentation, etc.)
+* Un regard neuf sur la problématique, et un début de solution (conseil, documentation, etc.)
 * Orientation vers des accompagnements au sein du bureau D\&D.
 
 **Ce que nous ne faisons pas :**

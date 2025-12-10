@@ -26,8 +26,8 @@ Nous proposons différents accompagnements techniques pour répondre à chaque s
 * [**Second avis sur un devis**](analyse-de-devis-et-recommandations.md) : analyse et recommandations sur le devis d'un prestataire de service.
 * [**Aide au recrutement**](aide-au-recrutement.md) : appui technique à la carte pour sécuriser les recrutements.
 * [**Problème technique**](diagnostic-et-recommandations.md) : diagnostic et recommandations sur un problème technique ou de performance.
-* [**Accompagnement d'architecture**](accompagnement-pour-definir-larchitecture.md) : accompagnement complet pour la définition de l'architecture de votre produit.
-* [**Mise en œuvre**](mise-en-oeuvre.md) : nous mettons en œuvre votre produit au travers d'un PoC ou de sprints avec votre équipe.
+* [**Accompagnement d'architecture**](accompagnement-pour-definir-larchitecture.md) : accompagnement complet pour la définition de l'architecture du produit.
+* [**Mise en œuvre**](mise-en-oeuvre.md) : nous réalisons le produit au travers d'un PoC ou de sprints avec l'équipe.
 
 ***
 
@@ -35,7 +35,7 @@ Nous proposons différents accompagnements techniques pour répondre à chaque s
 
 Quel que soit l'accompagnement proposé, nos engagements sont les mêmes :
 
-* Nous faisons notre maximum pour ne pas ralentir votre projet.
+* Nous faisons notre maximum pour ne pas ralentir le projet.
 * Nous assumons pleinement toutes nos préconisations.
 * Nous ne nous substituons pas aux experts du projet.
 * Nous conseillons et nous aidons, mais nous ne décidons pas à la place du projet.
@@ -51,20 +51,20 @@ Formuler une demande d'accompagnement par l'un des canaux :
 
 ## 2. Cadrage
 
-* **Prise de connaissance** : nous prenons connaissance de votre demande et du DA du projet, s'il existe.
+* **Prise de connaissance** : nous prenons connaissance de la demande et du DA du projet, s'il existe.
 * **Réunion de cadrage** : nous convenons d'un RDV pour cadrer ensemble l'accompagnement : contexte et situation, précision de la demande, périmètre de l'accompagnement, contraintes de planning, offre d'accompagnement et équipe pressenties.
 * **Proposition d'accompagnement** : à l'issue du cadrage nous proposons un dispositif d'accompagnement (équipe, engagement).
-* **Acceptation** : un simple retour de votre part déclenche la réalisation de l'accompagnement.
+* **Acceptation** : un simple retour déclenche l'accompagnement.
 
 ## 3. Réalisation
 
-* **Prérequis** : accès à votre répertoire projet.
+* **Prérequis** : accès au répertoire projet.
 * **Analyse de l'existant** : sur la base de la documentation projet ou d'un atelier avec les "sachants".
 * **Ateliers** : un ou plusieurs ateliers suivant la nature de l'accompagnement.
 * **Livrable** : email récapitulatif ou document de synthèse.
 
 ## 4. Conclusion
 
-* **Feedback** : nous recueillons votre feedback formel ou informel.
+* **Feedback** : nous recueillons tout feedback formel ou informel.
 * **Capitalisation** : nous tirons des enseignements de l'accompagnement, et mettons à jour cette documentation, pour en faire profiter les autres projets.
-* **Suivi** : nous menons des actions de suivi à votre demande ou de manière opportune.
+* **Suivi** : nous menons des actions de suivi à la demande ou de manière opportune.
