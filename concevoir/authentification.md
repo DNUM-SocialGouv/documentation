@@ -1,10 +1,6 @@
----
-description: >-
-  Présentation des solutions d'authentification pour les différentes populations
-  d'utilisateurs.
----
-
 # 🔒 Authentification des utilisateurs
+
+Présentation des solutions d'authentification pour les différentes populations d'utilisateurs.
 
 ## Solutions par population d'utilisateurs
 
