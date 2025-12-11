@@ -23,7 +23,7 @@ Il permet de s’assurer que tout nouveau site ou application :
 
 ## Ressources
 
-* [Circulaire n° 6411/SG du 7 juillet 2023 – Système de Design de l’État](https://www.systeme-de-design.gouv.fr)
+* [Procédure des agréments](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/procedure-des-agrements)
 * [DSFR – Documentation officielle](https://www.systeme-de-design.gouv.fr)
 * [Contact DICOM : dicom-agrements-sites@sg.social.gouv.fr](mailto:dicom-agrements-sites@sg.social.gouv.fr)
 
@@ -140,4 +140,3 @@ Un nouvel agrément doit être demandé en cas d’évolution majeure de l’int
 Un suivi des projets agréés est assuré conjointement par la DICOM et la DNUM :\
 → pour évaluer les délais, les difficultés et la conformité des projets ;\
 → pour partager les mises à jour de la procédure et organiser une réunion annuelle avec les référents DAC.
-
