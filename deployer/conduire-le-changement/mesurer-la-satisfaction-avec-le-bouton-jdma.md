@@ -22,8 +22,6 @@ Le bouton JDMA répond à plusieurs exigences des circulaires du 7 et 13 juillet
 > Son intégration est obligatoire pour les démarches recensées dans l’[Observatoire de la qualité des services numériques](https://observatoire.numerique.gouv.fr/), et fortement recommandée pour les autres produits et outils numériques de l’État.
 
 {% hint style="info" %}
-A noter :
-
 * Le bouton s'intègre directement sur le site en une ligne de code. Ce code contient même le visuel qui s'affichera automatiquement sur le site. C'est fait en 5 minutes !
 * Le bouton n'impacte pas le score RGAA et est compatible avec le DSFR.
 * En cas de doute sur l'utilisation, l'emplacement ou la sémantique, contacter l'équipe design.
@@ -35,10 +33,11 @@ Ressources et références :
 * [Circulaire 6411-SG du 7 juillet 2023](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)
 * [Note d'application de la DINUM](https://www.systeme-de-design.gouv.fr/static/file/Note_DINUM_qualite_des_services_numeriques_17_07_2023.pdf)
 * [Fichier Figma avec les ressources visuelles de cette page](https://www.figma.com/design/1F77YLcBVbNw4CCEUr9PSQ/Mod%C3%A8les-Social-Gouv--composants--pages-?node-id=4497-58322\&t=flzakH2os0yZBXc6-11)
+* [Démarche de test - Exemple de formulaire JDMA](https://jedonnemonavis.numerique.gouv.fr/Demarches/3119)
+* [Démarche de test - Exemple de statistiques disponibles](https://jedonnemonavis.numerique.gouv.fr/public/product/3119/stats)
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">Bouton "Je donne mon avis", novembre 2025</p>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="Bouton JDMA, novembre 2025"><figcaption>Bouton JDMA, novembre 2025</figcaption></figure>
 
 ***
 
