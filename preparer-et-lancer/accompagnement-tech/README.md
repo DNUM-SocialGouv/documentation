@@ -15,56 +15,84 @@ layout:
     visible: true
 ---
 
-# 🛎️ Etre accompagnés
+# 🛎️ Accompagnement technique
 
-## Offre d'accompagnement technique
+{% hint style="info" %}
+**Envoyer une demande à l'équipe d'accompagnement à [dnum-sdpsn.accotech@sg.social.gouv.fr](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr)**
+{% endhint %}
 
-Nous proposons différents accompagnements techniques pour répondre à chaque situation :
+L'équipe d'architecture DNUM/SDPSN/DD propose différents accompagnements suivant la situation :
 
-* [**Échange rapide**](echange-rapide.md) : discussion autour d'une situation, avec une réponse à la clé.
-* [**Orientation**](orientation-vers-des-offres-adaptees.md) : réponse à une question, une demande.
-* [**Second avis sur un devis**](analyse-de-devis-et-recommandations.md) : analyse et recommandations sur le devis d'un prestataire de service.
-* [**Aide au recrutement**](aide-au-recrutement.md) : appui technique à la carte pour sécuriser les recrutements.
-* [**Problème technique**](diagnostic-et-recommandations.md) : diagnostic et recommandations sur un problème technique ou de performance.
-* [**Accompagnement d'architecture**](accompagnement-pour-definir-larchitecture.md) : accompagnement complet pour la définition de l'architecture du produit.
-* [**Mise en œuvre**](mise-en-oeuvre.md) : nous réalisons le produit au travers d'un PoC ou de sprints avec l'équipe.
+* [**Échange rapide**](#échange-rapide) : discussion formelle ou informelle autour d'une situation précise
+* [**Choix de solution**](#choix-de-solution) : analyse de solutions pour une problématique particulière
+* [**Problème technique**](#problème-technique) : diagnostic et recommandations sur un problème technique ou de performance
+* [**Accompagnement d'architecture**](#accompagnement-darchitecture) : accompagnement complet pour la définition de l'architecture du produit et son suivi dans le temps
+* [**Analyse de devis**](#analyse-de-devis) : apporter un second avis et des recommandations sur le devis d'un prestataire
+* [**Aide au recrutement**](#aide-au-recrutement)
 
-***
+## Engagements pour un accompagnement réussi
+L'architecte s'engage à :
+* Conseiller l'équipe produit au mieux de ses connaissances et en tenant compte du contexte
+* Assumer ses préconisations
+* Ne pas se substituer aux experts techniques du produit
+* Perturber l'équipe produit le moins possible
+* Faire preuve de bienveillance
+* Assurer un suivi, à la demande du projet ou de manière opportune
+* Capitaliser - dans ce guide notamment - pour en faire profiter les autres équipes
 
-## Engagements de l'équipe
+L'équipe produit s'engage à :
+* Fournir un accès au répertoire projet, au Dossier d'Architecture (DA) notamment
+* Fournir un accès au code source, si nécessaire
+* Se rendre disponible pour embarquer l'architecte (contexte, planning, questions, objectifs, etc.)
+* Prendre ses responsabilités et être transparent quant à sa décision finale
+* Partager un feedback - même informel - en fin d'accompagnement
 
-Quel que soit l'accompagnement proposé, nos engagements sont les mêmes :
+## Offres d'accompagnement
 
-* Nous faisons notre maximum pour ne pas ralentir le projet.
-* Nous assumons pleinement toutes nos préconisations.
-* Nous ne nous substituons pas aux experts du projet.
-* Nous conseillons et nous aidons, mais nous ne décidons pas à la place du projet.
-* L'accompagnement n'engendre pas de surcoût pour le projet.
+### Échange rapide
+* **Objectif** :
+* **Exemples d'activités**
+* **Exemples de livrables**
 
-## 1. Prise de contact
+### Choix de solution
+* **Objectif** :
+* **Exemples d'activités**
+* **Exemples de livrables**
 
-Formuler une demande d'accompagnement par l'un des canaux :
+### Problème technique
+* **Objectif** :
+* **Exemples d'activités**
+* **Exemples de livrables**
 
-* Par email à l'[équipe d'accompagnement](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr).
-* Sous forme de décision lors d'un Comité Produit.
-* Sur la page du [Bureau Design et Développement](https://msociauxfr.sharepoint.com/teams/BureauDesignDev/SitePages/AccueilDD.aspx).
+### Accompagnement d'architecture
+* **Objectif** :
+* **Exemples d'activités**
+* **Exemples de livrables**
 
-## 2. Cadrage
+### Analyse de devis
+* **Objectif** : challenger d'abord la complexité, puis le coût d'un devis
+* **Exemples d'activités**
+  * Entretien ave cle prestataire pour mieux comprendre l'intention
+  * Proposer une solution technique alternative, plus simple
+  * Identifier le chiffrage excessif d'une tâche, d'une fonctionnalité
+* **Exemples de livrables**
+  * Avis formalisé sur la pertinence du devis : solution, complexité, chiffrage
+  * Contre-propositions
 
-* **Prise de connaissance** : nous prenons connaissance de la demande et du DA du projet, s'il existe.
-* **Réunion de cadrage** : nous convenons d'un RDV pour cadrer ensemble l'accompagnement : contexte et situation, précision de la demande, périmètre de l'accompagnement, contraintes de planning, offre d'accompagnement et équipe pressenties.
-* **Proposition d'accompagnement** : à l'issue du cadrage nous proposons un dispositif d'accompagnement (équipe, engagement).
-* **Acceptation** : un simple retour déclenche l'accompagnement.
+### Aide au recrutement
+
+* **Objectif** : éviter l'erreur de recrutement d'un profil technique (développeur, lead tech, chef de projet technique), et favoriser sa bonne intégration dans une équipe produit.
+* **Exemples d'activités**
+  * Apporter un regard externe sur une fiche de poste
+  * Lever un doute sur la pertinence technique d’un profil
+  * Sécuriser une décision de recrutement ou d’intégration dans une équipe produit
+  * Donner une orientation plus technique aux entretiens
+* **Exemples de livrables**
+  * Avis formalisé ou contribution à une fiche de poste
+  * Avis formalisé sur un CV
+  * Participation à un entretien et debriefing
 
 ## 3. Réalisation
 
-* **Prérequis** : accès au répertoire projet.
-* **Analyse de l'existant** : sur la base de la documentation projet ou d'un atelier avec les "sachants".
 * **Ateliers** : un ou plusieurs ateliers suivant la nature de l'accompagnement.
 * **Livrable** : email récapitulatif ou document de synthèse.
-
-## 4. Conclusion
-
-* **Feedback** : nous recueillons tout feedback formel ou informel.
-* **Capitalisation** : nous tirons des enseignements de l'accompagnement, et mettons à jour cette documentation, pour en faire profiter les autres projets.
-* **Suivi** : nous menons des actions de suivi à la demande ou de manière opportune.
