@@ -1,5 +1,8 @@
 ---
 description: Réponse à une question rapide, à une demande d'orientation
+layout:
+  description:
+    visible: false
 ---
 
 # 🧭 Orientation vers des offres adaptées

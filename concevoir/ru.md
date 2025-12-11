@@ -3,6 +3,9 @@ description: >-
   Observer et comprendre les besoins, motivations et contraintes des usagers et
   des agents afin de proposer des parcours adaptés et inclusifs
 icon: user-magnifying-glass
+layout:
+  description:
+    visible: false
 ---
 
 # Recherche utilisateur

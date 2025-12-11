@@ -1,6 +1,8 @@
 ---
 description: Échange rapide sur une situation, avec une réponse à la clé
-noRobotsIndex: true
+layout:
+  description:
+    visible: false
 ---
 
 # 💡 Échange rapide

@@ -3,6 +3,9 @@ description: >-
   Une équipe pluridisciplinaire qui partage la vision produit, réalise sa
   conception, met en place son développement et le suit au cours de son cycle de
   vie.
+layout:
+  description:
+    visible: false
 ---
 
 # 👷‍♀️ Equipe produit

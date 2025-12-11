@@ -1,5 +1,8 @@
 ---
 description: (Faire vivre le produit)
+layout:
+  description:
+    visible: false
 ---
 
 # ⏩ Conduite du changement

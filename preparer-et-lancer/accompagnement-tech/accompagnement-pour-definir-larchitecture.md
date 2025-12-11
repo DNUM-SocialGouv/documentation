@@ -1,6 +1,9 @@
 ---
 description: Accompagnement complet pour la définition de l'architecture du produit
 icon: sitemap
+layout:
+  description:
+    visible: false
 ---
 
 # 👨‍💻 Accompagnement pour définir l'architecture

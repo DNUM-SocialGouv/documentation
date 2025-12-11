@@ -1,6 +1,9 @@
 ---
 description: >-
   Nous réalisons un produit au travers d'un PoC ou de sprints avec l'équipe produit
+layout:
+  description:
+    visible: false
 ---
 
 # 👨‍💻 Mise en œuvre

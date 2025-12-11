@@ -1,5 +1,8 @@
 ---
 description: Diagnostic et recommandations sur un problème technique ou de performance
+layout:
+  description:
+    visible: false
 ---
 
 # 🩺 Diagnostic technique

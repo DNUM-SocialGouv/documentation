@@ -1,5 +1,8 @@
 ---
 description: Produits de la Direction générale de la santé (DGS).
+layout:
+  description:
+    visible: false
 ---
 
 # Santé

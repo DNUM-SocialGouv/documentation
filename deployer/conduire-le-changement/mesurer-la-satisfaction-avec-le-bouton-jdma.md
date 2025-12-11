@@ -3,6 +3,9 @@ description: >-
   Pourquoi l'utiliser, les questions posées, comment et où placer le bouton Je
   Donne Mon Avis sur nos sites et produits.
 icon: star-sharp-half-stroke
+layout:
+  description:
+    visible: false
 ---
 
 # Mesurer la satisfaction avec le bouton JDMA
