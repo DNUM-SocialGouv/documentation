@@ -47,8 +47,6 @@ Ressources et références :
 
 <figure><img src="../../.gitbook/assets/2.jpg" alt=""><figcaption></figcaption></figure>
 
-#### **Détails des questions posées**
-
 1. **Question 1 :** **Expérience générale**
    1. Question posée : _De façon générale, comment ça s’est passé ?_
    2. Note de satisfaction de 1 à 3. Cette note est transformée en note sur 10 (1=0, 2=5, 3=10), la moyenne sur 10 est communiquée.
@@ -73,9 +71,9 @@ Ressources et références :
 En fonction du site, il y a deux emplacements à considérer :
 
 * En fin de démarche,
-* En bas de page ou là où l'usager peut donner une impression globale sans interrompre son usage.
+* En bas de page, ou là où l'usager peut donner une impression globale sans interrompre son usage.
 
-Le bon emplacement va dépendre du type de produit et de sa cible principale :
+Le bon emplacement dépend du type de produit et de sa cible principale :
 
 * Types de produits : démarche ou vitrine/applicatif
 * Publics cibles :
