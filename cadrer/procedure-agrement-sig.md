@@ -1,15 +1,7 @@
----
-description: >-
-  Applicable à toute création ou refonte de site internet ou d’application
-  mobile au sein des ministères sociaux.
----
-
 # 🏛️ Procédure d’agrément SIG
 
-***
-
 {% hint style="warning" %}
-Note en cours d'écriture. Le contenu peut être amené à évoluer suite aux retours des chefs de projets et produits numérique. Tout retour est le bienvenu par commentaire direct ou à norman.wozniak@sg.social.gouv.fr, merci.
+Note en cours d'écriture. Le contenu peut être amené à évoluer suite aux retours des chefs de projets et produits numérique. Tout retour est le bienvenu par commentaire direct sur cette page, merci.
 {% endhint %}
 
 ## Objectif
@@ -25,7 +17,7 @@ Il permet de s’assurer que tout nouveau site ou application :
 
 * [Procédure des agréments](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/procedure-des-agrements)
 * [DSFR – Documentation officielle](https://www.systeme-de-design.gouv.fr)
-* [Contact DICOM : dicom-agrements-sites@sg.social.gouv.fr](mailto:dicom-agrements-sites@sg.social.gouv.fr)
+* Contact DICOM : [dicom-agrements-sites@sg.social.gouv.fr](mailto:dicom-agrements-sites@sg.social.gouv.fr)
 
 ***
 
