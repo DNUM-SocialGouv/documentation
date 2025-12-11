@@ -89,12 +89,6 @@
   * [Mesurer la satisfaction avec le bouton JDMA](deployer/conduire-le-changement/mesurer-la-satisfaction-avec-le-bouton-jdma.md)
   * [❔ Support utilisateur](conduire-le-changement/support-utilisateur.md)
 
-## NOS PRODUITS
-
-* [Santé](nos-produits/sante.md)
-* [Offre de soin](nos-produits/offre-de-soin.md)
-* [Transverse](nos-produits/transverse.md)
-
 ## AIDE
 
 * 🛎️ Etre accompagné
