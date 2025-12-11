@@ -3,6 +3,9 @@ description: >-
   Un service conçu avec soin renforce la confiance, réduit la charge de
   formation ou de support et améliore la satisfaction de toutes les parties
   prenantes.
+layout:
+  description:
+    visible: false
 ---
 
 # 🎨 Démarche de design
