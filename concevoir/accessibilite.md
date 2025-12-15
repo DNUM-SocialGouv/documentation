@@ -29,14 +29,11 @@ Le taux de conformité à la norme peut indiquer :
     * Un critère est "applicable" s’il l'est sur une seule page de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur toutes les pages de l’échantillon sans exception.
 * Soit le **taux moyen de conformité du service en ligne** obtenu en faisant la moyenne des taux de conformité de chaque page.
 
-À partir de l’adresse Obligations légales - RGAA (numerique.gouv.fr)
-
 Dans la déclaration d'accessibilité, il faut indiquer le taux de conformité global et une information sur les critères (en nombre ou en pourcentage).
 Pour un taux de conformité de 75%, l'état de l’accessibilité sera « partiellement conforme » et les correctifs à poursuivre porteront sur le taux de conformité aux 106 critères du RGAA (dans sa dernière version). 
 
 ## Ressources
-* Exemples de déclaration d’accessibilité :
-    * https://design.numerique.gouv.fr/outils/exemple-declaration-accessibilite/
+* Exemple de déclaration d’accessibilité : https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/
 * Générateur de déclaration de conformité : https://betagouv.github.io/a11y-generateur-declaration/#create
 
 ## Exemples de sites accessibles à 100%
