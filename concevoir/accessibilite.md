@@ -21,8 +21,8 @@ L'adoption de l'accessibilité numérique suit ces étapes clés :
 * **Amélioration continue** : utiliser à la fois des tests automatisés et des évaluations manuelles par des utilisateurs ayant un handicap pour s'assurer que les améliorations sont efficaces.
 
 ## Exemples de sites accessibles à 100%
-[Mon Parcours Handicap](https://www.monparcourshandicap.gouv.fr/)
-[Service Public](https://www.service-public.gouv.fr/)
-[Crit'Air](https://www.certificat-air.gouv.fr/)
-[Choisir le service public](https://choisirleservicepublic.gouv.fr/)
-[L'aide juridictionnelle](https://www.aidejuridictionnelle.justice.fr/)
+* [Mon Parcours Handicap](https://www.monparcourshandicap.gouv.fr/)
+* [Service Public](https://www.service-public.gouv.fr/)
+* [Crit'Air](https://www.certificat-air.gouv.fr/)
+* [Choisir le service public](https://choisirleservicepublic.gouv.fr/)
+* [L'aide juridictionnelle](https://www.aidejuridictionnelle.justice.fr/)
