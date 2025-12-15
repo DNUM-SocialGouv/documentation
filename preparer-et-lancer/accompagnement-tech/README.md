@@ -18,21 +18,22 @@ layout:
 # 🛎️ Accompagnement technique
 
 {% hint style="info" %}
-**Envoyer une demande à l'équipe d'accompagnement à [dnum-sdpsn.accotech@sg.social.gouv.fr](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr)**
+**Pour demander un accompagnement : [dnum-sdpsn.accotech@sg.social.gouv.fr](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr)**
 {% endhint %}
 
-L'équipe d'architecture DNUM/SDPSN/DD propose différents accompagnements suivant la situation :
+L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques pour chaque situation :
 
-* [**Échange rapide**](#échange-rapide) : discussion formelle ou informelle autour d'une situation précise
+* [🧭 **Orientation rapide**](#échange-rapide) : échange formel ou informel autour d'une situation précise
 * [**Choix de solution**](#choix-de-solution) : analyse de solutions pour une problématique particulière
-* [**Problème technique**](#problème-technique) : diagnostic et recommandations sur un problème technique ou de performance
+* [🚧 **Problème technique**](#problème-technique) : diagnostic et recommandations sur un problème technique ou de performance
 * [**Accompagnement d'architecture**](#accompagnement-darchitecture) : accompagnement complet pour la définition de l'architecture du produit et son suivi dans le temps
 * [**Analyse de devis**](#analyse-de-devis) : apporter un second avis et des recommandations sur le devis d'un prestataire
 * [**Aide au recrutement**](#aide-au-recrutement)
 
 ## Engagements pour un accompagnement réussi
 L'architecte s'engage à :
-* Conseiller l'équipe produit au mieux de ses connaissances et en tenant compte du contexte
+* Conseiller l'équipe produit au mieux de ses connaissances
+* Ne pas être dogmatique et tenir compte du contexte
 * Assumer ses préconisations
 * Ne pas se substituer aux experts techniques du produit
 * Perturber l'équipe produit le moins possible
@@ -49,17 +50,30 @@ L'équipe produit s'engage à :
 
 ## Offres d'accompagnement
 
-### Échange rapide
-* **Objectif** :
+### 🧭 Orientation rapide
+* **Objectif** : éclairer rapidement sur une problématique
 * **Exemples d'activités**
+  * Rechercher une solution technique
+  * Donner un avis sur une solution
+  * Identifier les risques et la fiabilité d'une solution
+  * Comparer rapidement des solutions ou scénarios
+  * Apporter un regard neuf sur une problématique
 * **Exemples de livrables**
+  * Orientation vers la bonne offre d'accompagnement : architecture, design, accessibilité, devops, produit, etc.
+  * Avis formalisé avec un début de solution, des recommandations
 
 ### Choix de solution
 * **Objectif** :
 * **Exemples d'activités**
+  * Identification des critères de comparaison pertinent dans un
+  * Analyse de risques
+  * Analyse d'écart par rapport à une cible
+   Analyser des scénarios
 * **Exemples de livrables**
+  * Grille comparative de solutions technologiques
+  * Grille comparative de scénarios d'architecture
 
-### Problème technique
+### 🚧 Problème technique
 * **Objectif** :
 * **Exemples d'activités**
 * **Exemples de livrables**
@@ -79,7 +93,7 @@ L'équipe produit s'engage à :
   * Avis formalisé sur la pertinence du devis : solution, complexité, chiffrage
   * Contre-propositions
 
-### Aide au recrutement
+###  Aide au recrutement
 
 * **Objectif** : éviter l'erreur de recrutement d'un profil technique (développeur, lead tech, chef de projet technique), et favoriser sa bonne intégration dans une équipe produit.
 * **Exemples d'activités**
@@ -91,8 +105,3 @@ L'équipe produit s'engage à :
   * Avis formalisé ou contribution à une fiche de poste
   * Avis formalisé sur un CV
   * Participation à un entretien et debriefing
-
-## 3. Réalisation
-
-* **Ateliers** : un ou plusieurs ateliers suivant la nature de l'accompagnement.
-* **Livrable** : email récapitulatif ou document de synthèse.

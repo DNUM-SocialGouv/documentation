@@ -94,8 +94,6 @@
 * 🛎️ Etre accompagné
   * [🛎️ Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
   * [📄 Dossier d'Architecture](preparer-et-lancer/accompagnement-tech/règles-de-collaboration-architecte.md)
-  * [💡 Échange rapide](preparer-et-lancer/accompagnement-tech/echange-rapide.md)
-  * [🧭 Orientation vers des offres adaptées](preparer-et-lancer/accompagnement-tech/orientation-vers-des-offres-adaptees.md)
   * [🩺 Diagnostic technique](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
   * [Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
   * [👨‍💻 Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)
