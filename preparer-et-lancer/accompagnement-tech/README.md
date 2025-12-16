@@ -54,12 +54,12 @@ L'équipe produit s'engage à :
 * **Objectif** : éclairer rapidement sur une problématique
 * **Exemples d'activités**
   * Rechercher une solution technique
-  * Donner un avis sur une solution
   * Identifier les risques et la fiabilité d'une solution
   * Comparer rapidement des solutions ou scénarios
   * Apporter un regard neuf sur une problématique
 * **Exemples de livrables**
   * Orientation vers la bonne offre d'accompagnement : architecture, design, accessibilité, devops, produit, etc.
+  * Avis sur une solution envisagée
   * Avis formalisé avec un début de solution, des recommandations
 
 ### 🎯 Choix de solution
