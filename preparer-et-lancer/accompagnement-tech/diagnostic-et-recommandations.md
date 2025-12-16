@@ -7,27 +7,9 @@ layout:
 
 # 🩺 Diagnostic technique
 
-<figure><img src="../../.gitbook/assets/offre_accompagnement_tech_diagnostic.png" alt="Image offre diagnostic" width="375"><figcaption></figcaption></figure>
-
 Le produit rencontre un problème récurrent ou impactant ? Il y a un blocage dans sa résolution ?
 
-
-
 **Nous pouvons aider au diagnostic, en fonction de l'hébergement et des technologies.**&#x20;
-
-
-
-_<mark style="color:red;">#EXTERNE #INTERNE #AU\_SECOURS #APPEL\_À\_UN\_AMI</mark>_
-
-***
-
-
-
-* **Délai d'intervention :** 2 semaines
-* **Durée d'intervention :** 1 à 4 jours
-* **Cycle de vie du produit :** Itération, suivi, amélioration
-
-
 
 **Livrables :**&#x20;
 
@@ -38,8 +20,6 @@ _<mark style="color:red;">#EXTERNE #INTERNE #AU\_SECOURS #APPEL\_À\_UN\_AMI</ma
   * Révision des choix de conception,
   * Développement ciblé,
   * etc.
-
-
 
 **Conditions de réussite :**&#x20;
 

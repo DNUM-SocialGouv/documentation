@@ -24,11 +24,11 @@ layout:
 L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques pour chaque situation :
 
 * [🧭 **Orientation rapide**](#échange-rapide) : échange formel ou informel autour d'une situation précise
-* [**Choix de solution**](#choix-de-solution) : analyse de solutions pour une problématique particulière
+* [🎯 **Choix de solution**](#choix-de-solution) : analyse de solutions pour une problématique particulière
 * [🚧 **Problème technique**](#problème-technique) : diagnostic et recommandations sur un problème technique ou de performance
-* [**Accompagnement d'architecture**](#accompagnement-darchitecture) : accompagnement complet pour la définition de l'architecture du produit et son suivi dans le temps
-* [**Analyse de devis**](#analyse-de-devis) : apporter un second avis et des recommandations sur le devis d'un prestataire
-* [**Aide au recrutement**](#aide-au-recrutement)
+* [⚙️ **Accompagnement d'architecture**](#accompagnement-darchitecture) : accompagnement complet pour la définition de l'architecture du produit et son suivi dans le temps
+* [🫰 **Analyse de devis**](#analyse-de-devis) : apporter un second avis et des recommandations sur le devis d'un prestataire
+* [👷 **Aide au recrutement**](#aide-au-recrutement)
 
 ## Engagements pour un accompagnement réussi
 L'architecte s'engage à :
@@ -62,46 +62,38 @@ L'équipe produit s'engage à :
   * Orientation vers la bonne offre d'accompagnement : architecture, design, accessibilité, devops, produit, etc.
   * Avis formalisé avec un début de solution, des recommandations
 
-### Choix de solution
-* **Objectif** :
-* **Exemples d'activités**
-  * Identification des critères de comparaison pertinent dans un
-  * Analyse de risques
-  * Analyse d'écart par rapport à une cible
-   Analyser des scénarios
+### 🎯 Choix de solution
+* **Objectif** : aider l'équipe produit à prendre une décision structurante
 * **Exemples de livrables**
-  * Grille comparative de solutions technologiques
-  * Grille comparative de scénarios d'architecture
+  * Identification des critères de choix importants dans le contexte
+  * Grille comparative de technologies, de solutions, de scénarios d'architecture
+  * Analyse d'écart par rapport à une cible et solutions transitoires éventuelles
+  * Analyse de risque
 
 ### 🚧 Problème technique
+* **Objectif** : aider l'équipe produit a surmonter rapidement - puis durablement - un problème technique lié à la stabilité ou la performance.
+* **Exemples de livrables**
+  * Eléments de diagnostic (analyse de cause racine)
+  * Revue de conception
+  * Recommandations techniques, voire organisationnelles
+  * Renforcement des compétences (méthodologie, littérature de référence, etc.)
+
+### ⚙️ Accompagnement d'architecture
 * **Objectif** :
-* **Exemples d'activités**
 * **Exemples de livrables**
 
-### Accompagnement d'architecture
-* **Objectif** :
-* **Exemples d'activités**
+### 🫰 Analyse de devis
+* **Objectif** : challenger la complexité d'un devis
 * **Exemples de livrables**
+  * CR d'entretien avec le prestataire pour mieux comprendre l'intention
+  * Avis formalisé sur la pertinence du devis :
+    * complexité de la solution
+    * chiffrage raisonnable ou excessif d'une tâche, d'une fonctionnalité
+  * Contre-proposition fonctionnelle ou technique plus simple
 
-### Analyse de devis
-* **Objectif** : challenger d'abord la complexité, puis le coût d'un devis
-* **Exemples d'activités**
-  * Entretien ave cle prestataire pour mieux comprendre l'intention
-  * Proposer une solution technique alternative, plus simple
-  * Identifier le chiffrage excessif d'une tâche, d'une fonctionnalité
-* **Exemples de livrables**
-  * Avis formalisé sur la pertinence du devis : solution, complexité, chiffrage
-  * Contre-propositions
-
-###  Aide au recrutement
-
+### 👷 Aide au recrutement
 * **Objectif** : éviter l'erreur de recrutement d'un profil technique (développeur, lead tech, chef de projet technique), et favoriser sa bonne intégration dans une équipe produit.
-* **Exemples d'activités**
-  * Apporter un regard externe sur une fiche de poste
-  * Lever un doute sur la pertinence technique d’un profil
-  * Sécuriser une décision de recrutement ou d’intégration dans une équipe produit
-  * Donner une orientation plus technique aux entretiens
 * **Exemples de livrables**
-  * Avis formalisé ou contribution à une fiche de poste
-  * Avis formalisé sur un CV
-  * Participation à un entretien et debriefing
+  * Avis formalisé, voire contribution à une fiche de poste
+  * Avis formalisé sur un CV et son intégration au sein de l'équipe
+  * Participation à un entretien pour lui donner une orientation plus technique
