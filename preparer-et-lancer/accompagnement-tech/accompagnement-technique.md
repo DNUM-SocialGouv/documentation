@@ -23,28 +23,12 @@ layout:
 
 L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques pour chaque situation :
 
-* [🧭 **Orientation rapide**](#échange-rapide) : échange formel ou informel autour d'une situation précise
-* [🎯 **Choix de solution**](#choix-de-solution) : analyse de solutions pour une problématique particulière
-* [🚧 **Problème technique**](#problème-technique) : diagnostic et recommandations sur un problème technique ou de performance
-* [⚙️ **Accompagnement d'architecture**](#accompagnement-darchitecture) : accompagnement complet pour la définition de l'architecture du produit et son suivi dans le temps
-* [🫰 **Analyse de devis**](#analyse-de-devis) : apporter un second avis et des recommandations sur le devis d'un prestataire
+* [🧭 **Orientation rapide**](#échange-rapide)
+* [🎯 **Choix de solution**](#choix-de-solution)
+* [⚙️ **Définition de l'architecture**](#️-définition-de-larchitecture)
+* [🚧 **Problème technique**](#problème-technique)
+* [🫰 **Analyse de devis**](#analyse-de-devis)
 * [👷 **Aide au recrutement**](#aide-au-recrutement)
-
-## Engagements pour un accompagnement réussi
-L'architecte s'engage à :
-* Conseiller l'équipe produit sans dogmatisme, en tenant compte du contexte
-* Assumer ses préconisations, sans toutefois se substituer aux experts techniques du produit
-* Perturber l'équipe produit le moins possible
-* Faire preuve de bienveillance
-* Assurer un suivi, à la demande du projet ou de manière opportune
-* Capitaliser - dans ce guide notamment - pour en faire profiter les autres équipes
-
-L'équipe produit s'engage à :
-* Donner accès à la documentation produit, au Dossier d'Architecture notamment
-* Donner accès au code source, si nécessaire
-* Se rendre disponible pour embarquer l'architecte (contexte, planning, questions, objectifs...)
-* Prendre ses responsabilités et être transparent quant à ses décisions
-* Idéalement partager un feedback - même informel - en fin d'accompagnement
 
 ## Offres d'accompagnement
 
@@ -63,6 +47,21 @@ L'équipe produit s'engage à :
   * Grille comparative de technologies, de solutions, de scénarios d'architecture
   * Analyse d'écart par rapport à une cible et solutions transitoires éventuelles
 
+### ⚙️ Définition de l'architecture
+* **Objectif** : accompagner l'architecture d'un produit sur un temps long pour gagner en maitrise technique
+* **Exemples de livrables**
+  * Rapport d'audit de l'existant (architecture, code source, infrastructure)
+  * Scénarios de cible et de trajectoire
+  * Différents degrés de contribution au Dossier d'Architecture :
+    * Commentaires sur un DA
+    * Mise à niveau (rattrapage, rétro-documentation, correction...)
+    * Mise à jour dans le cadre d'une évolution
+    * Prise en charge complète dans la durée
+  * Participation au COAT pour soutenir le DA
+  * Accompagnement du processus d'homologation de sécurité
+  * Accompagnement move-to-cloud
+  * Support aux différentes étapes, prise en charge des nouveaux sujets
+
 ### 🚧 Problème technique
 * **Objectif** : aider l'équipe produit a surmonter rapidement - puis durablement - un problème technique lié à la stabilité ou la performance.
 * **Exemples de livrables**
@@ -70,10 +69,6 @@ L'équipe produit s'engage à :
   * Revue de conception
   * Recommandations techniques, voire organisationnelles
   * Renforcement des compétences (méthodologie, littérature de référence, etc.)
-
-### ⚙️ Accompagnement d'architecture
-* **Objectif** :
-* **Exemples de livrables**
 
 ### 🫰 Analyse de devis
 * **Objectif** : questionner la complexité d'un devis
@@ -90,3 +85,19 @@ L'équipe produit s'engage à :
   * Avis formalisé, voire contribution à une fiche de poste
   * Avis formalisé sur un CV et son intégration au sein de l'équipe
   * Participation à un entretien pour lui donner une orientation plus technique
+
+## Engagements pour un accompagnement réussi
+L'architecte s'engage à :
+* Conseiller l'équipe produit sans dogmatisme, en tenant compte du contexte
+* Assumer ses préconisations, sans toutefois se substituer aux experts techniques du produit
+* Perturber l'équipe produit le moins possible
+* Faire preuve de bienveillance
+* Assurer un suivi, à la demande du projet ou de manière opportune
+* Capitaliser - dans ce guide notamment - pour en faire profiter les autres équipes
+
+L'équipe produit s'engage à :
+* Donner accès à la documentation produit, au Dossier d'Architecture notamment
+* Donner accès au code source, si nécessaire
+* Se rendre disponible pour embarquer l'architecte (contexte, planning, questions, objectifs...)
+* Prendre ses responsabilités et être transparent quant à ses décisions
+* Partager un feedback rapide en fin d'accompagnement
