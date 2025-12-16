@@ -35,6 +35,7 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 * Grist comme Backend-as-a-service : pour cas très simples seulement car
   * pas possible de propager l'authentification ProConnect au backend Grist
   * pas possible de récupérer les permissions par API
+* Grist DINUM supporte au moins 100 000 lignes dans une même table (REX)
 
 ## Sélection de plugins
 
