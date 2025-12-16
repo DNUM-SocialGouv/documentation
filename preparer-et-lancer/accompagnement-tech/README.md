@@ -32,35 +32,29 @@ L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques po
 
 ## Engagements pour un accompagnement réussi
 L'architecte s'engage à :
-* Conseiller l'équipe produit au mieux de ses connaissances
-* Ne pas être dogmatique et tenir compte du contexte
-* Assumer ses préconisations
-* Ne pas se substituer aux experts techniques du produit
+* Conseiller l'équipe produit sans dogmatisme, en tenant compte du contexte
+* Assumer ses préconisations, sans toutefois se substituer aux experts techniques du produit
 * Perturber l'équipe produit le moins possible
 * Faire preuve de bienveillance
 * Assurer un suivi, à la demande du projet ou de manière opportune
 * Capitaliser - dans ce guide notamment - pour en faire profiter les autres équipes
 
 L'équipe produit s'engage à :
-* Fournir un accès au répertoire projet, au Dossier d'Architecture (DA) notamment
-* Fournir un accès au code source, si nécessaire
-* Se rendre disponible pour embarquer l'architecte (contexte, planning, questions, objectifs, etc.)
-* Prendre ses responsabilités et être transparent quant à sa décision finale
-* Partager un feedback - même informel - en fin d'accompagnement
+* Donner accès à la documentation produit, au Dossier d'Architecture notamment
+* Donner accès au code source, si nécessaire
+* Se rendre disponible pour embarquer l'architecte (contexte, planning, questions, objectifs...)
+* Prendre ses responsabilités et être transparent quant à ses décisions
+* Idéalement partager un feedback - même informel - en fin d'accompagnement
 
 ## Offres d'accompagnement
 
 ### 🧭 Orientation rapide
 * **Objectif** : éclairer rapidement sur une problématique
-* **Exemples d'activités**
-  * Rechercher une solution technique
-  * Identifier les risques et la fiabilité d'une solution
-  * Comparer rapidement des solutions ou scénarios
-  * Apporter un regard neuf sur une problématique
 * **Exemples de livrables**
+  * Regard neuf sur une problématique
+  * Avis sur une solution envisagée et ses risques
+  * Pistes de solution et recommandations formalisées
   * Orientation vers la bonne offre d'accompagnement : architecture, design, accessibilité, devops, produit, etc.
-  * Avis sur une solution envisagée
-  * Avis formalisé avec un début de solution, des recommandations
 
 ### 🎯 Choix de solution
 * **Objectif** : aider l'équipe produit à prendre une décision structurante
@@ -68,7 +62,6 @@ L'équipe produit s'engage à :
   * Identification des critères de choix importants dans le contexte
   * Grille comparative de technologies, de solutions, de scénarios d'architecture
   * Analyse d'écart par rapport à une cible et solutions transitoires éventuelles
-  * Analyse de risque
 
 ### 🚧 Problème technique
 * **Objectif** : aider l'équipe produit a surmonter rapidement - puis durablement - un problème technique lié à la stabilité ou la performance.
@@ -83,7 +76,7 @@ L'équipe produit s'engage à :
 * **Exemples de livrables**
 
 ### 🫰 Analyse de devis
-* **Objectif** : challenger la complexité d'un devis
+* **Objectif** : questionner la complexité d'un devis
 * **Exemples de livrables**
   * CR d'entretien avec le prestataire pour mieux comprendre l'intention
   * Avis formalisé sur la pertinence du devis :
