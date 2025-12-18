@@ -27,3 +27,6 @@ Voici différentes manières de sécuriser une API REST au niveau transport, du 
 * **Rupture de protocole** : dès lors que l'API est exposée sur Internet, il faut au moins un intermédiaire de type [Ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/), [Reverse Proxy](https://fr.wikipedia.org/wiki/Proxy_inverse) ou [API Gateway](api-gateway.md) pour réduire le risque de trafic non sollicité et autres intrusions.
 * **Certificats SSL mutuels** (2 Way SSL) : double authentification des parties. Nécessite le paramétrage de certificats SSL de chaque côté, dans un reverse proxy ou une API Gateway.
 * **Certificat SSL simple** : déploiement de certificat côté API seulement. Convient pour une API publique ou une API partenaire pas trop sensible.
+
+## Ressources
+[Recommandations CNIL](https://www.cnil.fr/fr/api-les-recommandations-de-la-cnil-sur-le-partage-de-donnees)
