@@ -232,23 +232,23 @@ Le choix entre les deux stacks se fera par le Ministère.
 
 ### Stack Java/Spring Boot
 
-| Catégorie              | Technologies                                                                                                             |
-| ---------------------- |--------------------------------------------------------------------------------------------------------------------------|
-| **Langage**            | Java 21 ou 25 (LTS)<br>avec records, pattern matching avec Temurin (OpenJDK)                                             |
-| **Framework Backend**  | Spring Boot 3.x+ avec Spring Framework 6.x+<br>Architecture en couches via Spring Data et Spring Security                |
-| **Base de données**    | PostgreSQL avec Spring Data JPA et Hibernate comme ORM<br>Liquibase pour les migrations de base de données               |
-| **Validation**         | Bean Validation (Jakarta Validation) avec annotations                                                                    |
-| **Authentification**   | Spring Security avec ProConnect (OAuth2/OIDC) et JWT pour les APIs stateless<br>JWT dans les cookies                     |
-| **Documentation API**  | SpringDoc OpenAPI (Swagger) pour la documentation automatique des APIs REST                                              |
-| **Tests**              | JUnit 5 et Mockito<br>Spring Boot Test avec @SpringBootTest<br>Testcontainers pour les tests avec base de données réelle |
-| **Linting/Analyse**    | Checkstyle, PMD, SpotBugs pour la détection de code smells et vulnérabilités                                             |
-| **Framework Frontend** | Angular avec TypeScript                                                                                                  |
-| **État Frontend**      | Signals Angular (gestion réactive moderne) et Services Angular                                                           |
-| **Styling Frontend**   | DSFR via [lib ngx-dsfr](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr)<br>Tailwind CSS                               |
-| **Tests Frontend**     | Jest ou Jasmine + Karma pour les tests unitaires<br>Playwright pour les tests E2E                                        |
-| **Build Frontend**     | Angular CLI (build intégré)                                                                                              |
-| **Dépendances/Build**  | Maven/Gradle avec wrapper pour garantir la version                                                                       |
-| **CI/CD**              | PIC interne (GitLab CI)                                                                                                  |
-| **Conteneurisation**   | Docker avec images multi-stages optimisées basées sur OpenJDK Alpine                                                     |
-| **Monitoring**         | Sentry (Erreurs et APM), Outil pour les logs                                                                             |
-| **Logging**            | Logback ou Log4j2 avec SLF4J pour le logging structuré (format JSON en production)                                       |
+| Catégorie              | Technologies                                                                                                                         |
+| ---------------------- |--------------------------------------------------------------------------------------------------------------------------------------|
+| **Langage**            | Java 21 ou 25 (LTS)<br>avec records, pattern matching avec Temurin (OpenJDK)                                                         |
+| **Framework Backend**  | Spring Boot 3.x+ avec Spring Framework 6.x+<br>Architecture en couches via Spring Data et Spring Security                            |
+| **Base de données**    | PostgreSQL avec Spring Data JPA et Hibernate comme ORM<br>Liquibase pour les migrations de base de données                           |
+| **Validation**         | Bean Validation (Jakarta Validation) avec annotations                                                                                |
+| **Authentification**   | Spring Security avec ProConnect (OAuth2/OIDC) et JWT pour les APIs stateless<br>JWT dans les cookies                                 |
+| **Documentation API**  | SpringDoc OpenAPI (Swagger) pour la documentation automatique des APIs REST                                                          |
+| **Tests**              | JUnit 5 ou Assert4j et Mockito<br>Spring Boot Test avec @SpringBootTest<br>Testcontainers pour les tests avec base de données réelle |
+| **Linting/Analyse**    | Checkstyle, PMD, SpotBugs pour la détection de code smells et vulnérabilités                                                         |
+| **Framework Frontend** | Angular avec TypeScript                                                                                                              |
+| **État Frontend**      | Signals Angular (gestion réactive moderne) et Services Angular                                                                       |
+| **Styling Frontend**   | DSFR via [lib ngx-dsfr](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr)<br>Tailwind CSS                                           |
+| **Tests Frontend**     | Jest ou Jasmine + Karma pour les tests unitaires<br>Playwright pour les tests E2E                                                    |
+| **Build Frontend**     | Angular CLI (build intégré)                                                                                                          |
+| **Dépendances/Build**  | Maven/Gradle avec wrapper pour garantir la version                                                                                   |
+| **CI/CD**              | PIC interne (GitLab CI)                                                                                                              |
+| **Conteneurisation**   | Docker avec images multi-stages optimisées basées sur OpenJDK Alpine                                                                 |
+| **Monitoring**         | Sentry (Erreurs et APM), Outil pour les logs                                                                                         |
+| **Logging**            | Logback ou Log4j2 avec SLF4J pour le logging structuré (format JSON en production)                                                   |
