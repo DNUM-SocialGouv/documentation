@@ -31,7 +31,7 @@ Structurer de façon simple et stable afin de faciliter l'évolution à coût ma
 
 - **Séparation des responsabilités** : Organiser une arborescence claire avec séparation des couches (présentation, métier, données) et des modules cohérents/autonomes pour faciliter la navigation et les changements localisés. Appliquer le principe de dépendance inversée (Dependency Inversion Principle) : les couches hautes ne doivent pas dépendre des couches basses, mais des abstractions communes.
 - **Injection des dépendances** : Privilégier l'injection de dépendances aux imports. Une injection systématique des dépendances facilite la rédaction des tests et la pratique de refactorings.
-  - Privilégier l'injection de dépendances par constructeur plutôt que par injecteurs (setters, factories...)
+  - Privilégier l'injection de dépendances par constructeur plutôt que par injecteurs (setters, factories, builders...)
 - **Principes SOLID** :
   - **Single Responsibility Principle (SRP)** : Chaque classe/module doit avoir une seule raison d'être. Une classe ne doit gérer qu'un seul aspect de la fonctionnalité.
   - **Open/Closed Principle (OCP)** : Les entités doivent être ouvertes à l'extension, mais fermées à la modification. Utiliser la composition ou les mécanismes d'extension propres au langage pour étendre sans modifier le code existant.
