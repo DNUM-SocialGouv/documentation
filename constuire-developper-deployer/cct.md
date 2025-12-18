@@ -236,7 +236,7 @@ Le choix entre les deux stacks se fera par le Ministère.
 | ---------------------- |------------------------------------------------------------------------------------------------------------------------------|
 | **Langage**            | Java 21 ou 25 (LTS)<br>avec records, pattern matching avec Temurin (OpenJDK)                                                 |
 | **Framework Backend**  | Spring Boot 3.x+ ou 4 avec Spring Framework 6.x+ ou 7<br>Architecture en couches via Spring Data et Spring Security          |
-| **Base de données**    | PostgreSQL avec Spring Data JPA et Hibernate comme ORM<br>Liquibase pour les migrations de base de données                   |
+| **Base de données**    | PostgreSQL avec Spring Data JPA et Hibernate comme ORM<br>Flyway ou Liquibase pour les migrations de base de données         |
 | **Validation**         | Bean Validation (Jakarta Validation) avec annotations                                                                        |
 | **Authentification**   | Spring Security avec ProConnect (OAuth2/OIDC) et JWT pour les APIs stateless<br>JWT dans les cookies                         |
 | **Documentation API**  | SpringDoc OpenAPI (Swagger) pour la documentation automatique des APIs REST                                                  |
