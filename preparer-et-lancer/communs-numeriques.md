@@ -42,25 +42,29 @@ Solutions et communs numériques inter-ministériels :
 
 * [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
 * [**Sites Faciles**](https://sites-faciles.beta.numerique.gouv.fr/) : base de site web CMS
-* [**Grist**](https://grist.numerique.gouv.fr/) : tableur avancé open source, enrichi et hébergé par la DINUM
+* [**Grist**](communs-grist.md) : tableur avancé open source, enrichi et hébergé par la DINUM
 
 Solutions et communs numériques internes :
 
 * [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé au MAS.
 * **Ondine**
 
-## API externes et internes
-
-API particulièrement intéressantes pour le MAS :
+## API externes particulièrement intéressantes pour le MAS :
 
 * Les API Entreprise
   * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/) : pas de recherche multicritères
   * [API SIRENE de l'INSEE](https://portail-api.insee.fr/catalog/api/2ba0e549-5587-3ef1-9082-99cd865de66f) pour les besoins simples de recherche
   * [API Recherche Entreprise](https://www.data.gouv.fr/fr/dataservices/api-recherche-dentreprises/) : recherche par SIRET/nom ET filtrage sur critères (codes d'activité, géographie...)
-  * [API des établissements de santé](https://arssante.opendatasoft.com/) : données FINESS
-  * [API des professionnels de santé](https://arssante.opendatasoft.com/) : données RPPS
   * [API Association du Compte Asso (DJEPVA) via API Entreprise](https://www.data.gouv.fr/dataservices/api-donnees-associations-djepva-bouquet-api-entreprise/) : intègre Alsace-Moselle et les données des autres API (RNA, SIRENE, DILA)
 * [API Base d'Adresse Nationale (BAN)](https://www.data.gouv.fr/dataservices/api-adresse-base-adresse-nationale-ban/)
+* [API Recherche des personnes physiques (SFiP)](https://www.data.gouv.fr/dataservices/api-service-finances-publiques-sfip/) : données personnelles d'un citoyen (état civil complet, dernière adresse connue de l’administration fiscale, identifiant fiscal ou SPI).
+
+La plupart des APIs du service public sont référencées sur [https://www.data.gouv.fr/dataservices](https://www.data.gouv.fr/dataservices)
+
+## API internes
+Les API [https://arssante.opendatasoft.com/](https://arssante.opendatasoft.com/) :
+* API des établissements de santé (données FINESS)
+* API des professionnels de santé (données RPPS)
 
 ## Frameworks et librairies standards
 
