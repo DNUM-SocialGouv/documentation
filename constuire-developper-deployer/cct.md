@@ -247,7 +247,7 @@ Le choix entre les deux stacks se fera par le Ministère.
 | **Styling Frontend**   | DSFR via [lib ngx-dsfr](https://www.npmjs.com/package/@edugouvfr/ngx-dsfr)<br>Tailwind CSS                               |
 | **Tests Frontend**     | Jest ou Jasmine + Karma pour les tests unitaires<br>Playwright pour les tests E2E                                        |
 | **Build Frontend**     | Angular CLI (build intégré)                                                                                              |
-| **Dépendances/Build**  | Gradle avec wrapper pour garantir la version                                                                             |
+| **Dépendances/Build**  | Maven/Gradle avec wrapper pour garantir la version                                                                       |
 | **CI/CD**              | PIC interne (GitLab CI)                                                                                                  |
 | **Conteneurisation**   | Docker avec images multi-stages optimisées basées sur OpenJDK Alpine                                                     |
 | **Monitoring**         | Sentry (Erreurs et APM), Outil pour les logs                                                                             |
