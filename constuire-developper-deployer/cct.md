@@ -233,8 +233,8 @@ Le choix entre les deux stacks se fera par le Ministère.
 ### Stack Java/Spring Boot
 
 | Catégorie              | Technologies                                                                                                             |
-| ---------------------- | ------------------------------------------------------------------------------------------------------------------------ |
-| **Langage**            | Java 21+ (LTS)<br>avec records, pattern matching, virtual threads                                                        |
+| ---------------------- |--------------------------------------------------------------------------------------------------------------------------|
+| **Langage**            | Java 21 ou 25 (LTS)<br>avec records, pattern matching avec Temurin (OpenJDK)                                             |
 | **Framework Backend**  | Spring Boot 3.x+ avec Spring Framework 6.x+<br>Architecture en couches via Spring Data et Spring Security                |
 | **Base de données**    | PostgreSQL avec Spring Data JPA et Hibernate comme ORM<br>Liquibase pour les migrations de base de données               |
 | **Validation**         | Bean Validation (Jakarta Validation) avec annotations                                                                    |
