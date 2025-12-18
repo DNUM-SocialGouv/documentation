@@ -178,7 +178,7 @@ Optimiser le front pour garantir une expérience utilisateur fluide et sécuris�
 
 Encadrer les pratiques d'équipe pour favoriser la pérennité et la transmission de connaissances, en appliquant les principes du clean code pour la maintenabilité et le refactoring continu.
 
-- **Documentation maintenue** : Maintenir une documentation à jour et accessible : README complet avec instructions d'installation/déploiement, documentation des APIs (OpenAPI/Swagger), diagrammes d'architecture pour les décisions clés, et changelog régulier pour suivre l'évolution ; la documentation doit être revue et mise à jour lors des changements majeurs. Maintenir des ADR (Architecture Decision Records) pour toutes les décisions architecturales majeures, avec contexte, options considérées, décision prise et conséquences anticipées.
+- **Documentation maintenue** : Maintenir une documentation à jour et accessible : README complet avec instructions d'installation/déploiement, [documentation des APIs](#12-création-et-partage-dapis) (OpenAPI/Swagger), diagrammes d'architecture pour les décisions clés, et changelog régulier pour suivre l'évolution ; la documentation doit être revue et mise à jour lors des changements majeurs. Maintenir des ADR (Architecture Decision Records) pour toutes les décisions architecturales majeures, avec contexte, options considérées, décision prise et conséquences anticipées.
 - **Revue de code et collaboration** : Pratiquer systématiquement la revue de code avec au moins un relecteur pour chaque PR, des conventions de branches (GitFlow, GitHub Flow) et de commits standardisés (Conventional Commits) pour garder un historique clair, des PRs descriptives avec contexte et tests associés. Créer et maintenir un glossaire métier partagé (termes métiers et techniques) versionné avec le code. Les revues de code doivent vérifier non seulement la fonctionnalité, mais aussi l'application des principes de clean code (nommage, simplicité, testabilité).
 - **Refactoring continu** :
   - **Boy Scout Rule** : Laisser le code dans un meilleur état qu'on ne l'a trouvé. Chaque modification doit améliorer légèrement la qualité du code, même si ce n'est pas l'objectif principal de la tâche.
@@ -191,7 +191,33 @@ Encadrer les pratiques d'équipe pour favoriser la pérennité et la transmissio
 - **Post-mortems et apprentissage** : Conduire des post-mortems blameless après chaque incident majeur : analyse des causes racines, actions correctives documentées, partage public si pertinent pour favoriser la transparence et l'apprentissage collectif.
 - **Licences et contributions** : Documenter explicitement les licences de tous les composants (code source, dépendances) et fournir un guide de contribution clair si le dépôt est partagé ou ouvert, avec une politique de sécurité (déclaration de vulnérabilités) et un code de conduite pour encadrer les contributions. Le guide de contribution doit inclure les standards de clean code attendus dans le projet.
 
-## 12. Conformité et réglementation
+## 12. Création et partage d'APIs
+
+Pour les APIs publiques (ex : protocole HTTP) :
+- **Utilisation du standard OpenAPI** : Utiliser une spécification OpenAPI permet de documenter les APIs de manière homogène et standard avec les pratiques de l'industrie.
+- **Gestion propre des erreurs** : Suivant le protocole (souvent HTTP), la signification des erreurs par codes de status (4XX, 5XX) avec corps de réponse et en-têtes adaptés.
+- **Sécurisation adaptée** : En fonction de la sensibilité des données, des cas d'utilisation (lecture, écriture), des consommateurs (internes ou externes) et des typologies de communication (client <> serveur, serveur <> serveur, etc.), une stratégie de sécurisation doit être mise en place (clés d'APIs, jetons de session, etc.)
+- **Ouverture à l'essai** : Fournir une collection Bruno, Postman ou autre, permet aux consommateurs de rapidement tester l'API et de faciliter sa consommation par une application.
+- **Versionnement des ressources** : Un type de versionnement d'API devra être choisi afin qu'il respecte les principes suivants :
+  - Rétrocompatibilité dans la limite du possible
+  - Gestion des dépréciations et des migrations de version
+  - Gestion de la communication à ce sujet et de l'accès facile à cette information
+
+Un complément est disponible [ici](../concevoir/api/api-design.md).
+
+Pour les autres APIs publiques (ex : bibliothèques logicielles) :
+- **Documentation exhaustive des interfaces exposées** : Chaque entrée de l'API doit contenir :
+  - Le type d'entrée et de sortie
+  - Les erreurs prévues et les exceptions possibles
+  - Les paramètres obligatoires et facultatifs
+  - Les exemples d'utilisation
+  - Les notices de dépréciation et de migration
+  - ...
+- **Politique publique/privée** : Le code public et exposé ne change quasiment pas, ou il a de très bonnes raisons pour changer. Le code qui peut évoluer rapidement et/ou qui est sujet à des modifications fréquentes doit rester privé.
+- **Support d'installation dédié** : Pour chaque moyen d'installation possible (ex : maven et gradle pour Java), des indications facilitant l'installation sont fournies.
+- **Ouvertes aux contributions** : Si possible et applicable, un moyen de contribuer à améliorer la bibliothèque doit être fourni à des fins d'amélioration continue (ex : politique de branches, Pull Requests, etc.)
+
+## 13. Conformité et réglementation
 
 Respecter rigoureusement les obligations légales et sectorielles applicables aux services publics numériques français.
 
@@ -205,7 +231,7 @@ Respecter rigoureusement les obligations légales et sectorielles applicables au
 - **Open data** : pour les données publiques réutilisables, prévoir dès la conception leur extraction et publication en formats ouverts (CSV, JSON, XML) conformément à la loi pour une République numérique et au Code des relations entre le public et l'administration ; documenter les métadonnées selon le standard DCAT-AP et publier sur data.gouv.fr ou portail sectoriel approprié.
 - **Formation et sensibilisation** : organiser une formation RGPD obligatoire pour toute l'équipe (renouvellement annuel) et une sensibilisation continue à la sécurité (phishing tests, newsletters, retours d'expérience sur incidents) pour maintenir une culture de vigilance.
 
-## 13. Technologies recommandées
+## 14. Technologies recommandées
 
 Ce cadre technique recommande les stacks **Node.js/React (TypeScript)** et **Java/Spring Boot** comme stacks de référence pour tous les nouveaux projets de développement d'applications web. Ces stacks sont préconisées car elles offrent une forte agilité, une productivité élevée et un écosystème moderne adapté au développement rapide d'applications web.
 
