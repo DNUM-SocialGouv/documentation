@@ -30,12 +30,15 @@ Favoriser une compréhension rapide et homogène du code, sans règles lourdes, 
 Structurer de façon simple et stable afin de faciliter l'évolution à coût maîtrisé.
 
 - **Séparation des responsabilités** : Organiser une arborescence claire avec séparation des couches (présentation, métier, données) et des modules cohérents/autonomes pour faciliter la navigation et les changements localisés. Appliquer le principe de dépendance inversée (Dependency Inversion Principle) : les couches hautes ne doivent pas dépendre des couches basses, mais des abstractions communes.
+- **Injection des dépendances** : Privilégier l'injection de dépendances aux imports. Une injection systématique des dépendances facilite la rédaction des tests et la pratique de refactorings.
+  - Privilégier l'injection de dépendances par constructeur plutôt que par injecteurs (setters, factories...)
 - **Principes SOLID** :
   - **Single Responsibility Principle (SRP)** : Chaque classe/module doit avoir une seule raison d'être. Une classe ne doit gérer qu'un seul aspect de la fonctionnalité.
   - **Open/Closed Principle (OCP)** : Les entités doivent être ouvertes à l'extension, mais fermées à la modification. Utiliser la composition ou les mécanismes d'extension propres au langage pour étendre sans modifier le code existant.
-  - **Liskov Substitution Principle (LSP)** : Les objets d'un type parent doivent pouvoir être remplacés par des instances de leurs types dérivés sans casser le comportement attendu.
+    - **Composition plutôt qu'héritage** : Privilégier la composition grâce à l'injection de dépendances plutôt que l'héritage, qui peut rendre plus délicats les refactorings et limiter la compréhension du code.
+  - **Liskov Substitution Principle (LSP)** : Les objets d'un type parent doivent pouvoir être remplacés par des instances de leurs types dérivés sans changer le comportement attendu.
   - **Interface Segregation Principle (ISP)** : Ne pas forcer les classes à implémenter des interfaces qu'elles n'utilisent pas. Créer des interfaces spécifiques et ciblées plutôt que des interfaces « god ».
-  - **Dependency Inversion Principle (DIP)** : Quand possible, dépendre des abstractions (interfaces) plutôt que des implémentations concrètes. Les modules de haut niveau ne doivent pas dépendre des modules de bas niveau.
+  - **Dependency Inversion Principle (DIP)** : Dépendre des abstractions (interfaces) plutôt que des implémentations concrètes. Les modules de haut niveau ne doivent pas dépendre des modules de bas niveau.
 - **Principes Domain-Driven Design (DDD)** : Structurer le code autour du domaine métier pour améliorer la compréhension et la maintenabilité du code.
   - **Langage omniprésent (Ubiquitous Language)** : Utiliser systématiquement le vocabulaire métier dans le code, les conversations et la documentation. Les termes techniques doivent correspondre exactement aux concepts métier, favorisant une communication claire entre développeurs et experts métier.
   - **Contexte borné (Bounded Context)** : Délimiter clairement les frontières des modèles de domaine. Chaque contexte borné possède son propre modèle de domaine et son vocabulaire, évitant ainsi les ambiguïtés et les conflits de sens entre différents domaines.
