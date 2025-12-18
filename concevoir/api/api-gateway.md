@@ -12,7 +12,7 @@ L'API Gateway adresse l'interopérabilité et la sécurisation des échanges. C'
 * Supervision, traçabilité, audit...
 * _Eviter de transformer les flux ou d'implémenter des règles métier dans l'API Gateway, même si elle le permet._
 
-## Enjeux des API dans le contexte du MAS
+## Enjeux des API dans le contexte des Ministères Sociaux
 
 * Plusieurs centaines d'applications métier
 * Toujours plus d'ouverture des SI : dématérialisation, OpenData par défaut, DLNUF, échanges et réutilisation inter-administrations...
@@ -52,9 +52,7 @@ Instancier et gérer une seule API Gateway par hébergement :
 * Passer par [PISTE](api-piste.md) si c'est pertinent et si les conditions sont réunies
 * Eviter d'héberger une API Gateway dédiée par application
 
-## Solutions d'API Gateway dans le contexte MAS
-
-Solution utilisées aux MAS, à différents niveaux :
+## Solutions d'API Gateway aux Ministères Sociaux
 
 * **Gravitee.io** utilisé par 2 produits
 * [**PISTE**](api-piste.md)
@@ -62,7 +60,7 @@ Solution utilisées aux MAS, à différents niveaux :
 
 ## Pistes explorées et décisions d'architecture
 
-Aucune autre solution sur le marché ne semble présenter d'intérêt particulier pour le MAS. Ex :
+Aucune autre solution sur le marché ne semble présenter d'intérêt particulier dans le contexte. Ex :
 
 * **Hasura.io** est un Data-as-a-Service qui offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
 * **MuleSoft Anypoint** trop orienté éditeur

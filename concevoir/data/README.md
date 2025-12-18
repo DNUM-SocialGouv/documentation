@@ -10,7 +10,7 @@ icon: binary-circle-check
   * Exception : MySQL ou MariaDB lorsqu'il vient avec la solution (ex : Drupal)
 * **Stockage de documents** :
   * **Stockage simple** : privilégier le stockage type S3 plutôt que NAS si l'hébergement le permet
-  * **Pas de solution GED standard et souveraine** à date au MAS. Ne considérer une solution de GED dédiée que s'il y a manipulation intensive de documents, et le besoin fort de fonctionnalités au-delà de la consultation (partage à des acteurs externes, travail collaboratif en édition...).
+  * **Pas de solution GED standard et souveraine** à date aux Ministères Sociaux. Ne considérer une solution de GED dédiée que s'il y a manipulation intensive de documents, et le besoin fort de fonctionnalités au-delà de la consultation (partage à des acteurs externes, travail collaboratif en édition...).
 * **Base de données NoSQL** : pas de besoin identifié.
   * Des traces de MongoDB dans l'organisation
   * des [indications sur Elasticsearch ici](elasticsearch.md)

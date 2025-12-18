@@ -61,7 +61,7 @@ Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’é
 
 <figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
-<p align="center">Bloc-marque MTSSF</p>
+<p align="center">Bloc-marque Ministères Sociaux</p>
 
 <p align="center">Bloc-marque gouvernement</p>
 
@@ -71,7 +71,7 @@ Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’é
 
 #### Pour les opérateurs de l'Etat
 
-Les opérateurs inscrits au jaune budgétaire ont la possibilité d’afficher leur logotype à côté du bloc-marque République Française. En revanche, les opérateurs qui le souhaitent peuvent afficher un attachement avec leur ministère en utilisant le bloc-marque du ministère et le nom de leur site en HTML. Cette décision doit être prise en collaboration avec la DICOM du MTSSF.
+Les opérateurs inscrits au jaune budgétaire ont la possibilité d’afficher leur logotype à côté du bloc-marque République Française. En revanche, les opérateurs qui le souhaitent peuvent afficher un attachement avec leur ministère en utilisant le bloc-marque du ministère et le nom de leur site en HTML. Cette décision doit être prise en collaboration avec la DICOM des Ministères Sociaux.
 
 ⚠️ L’utilisation d’un logotype n’est pas possible avec le bloc-marque du ministère.
 

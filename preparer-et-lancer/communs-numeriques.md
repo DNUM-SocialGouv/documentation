@@ -23,13 +23,14 @@ Mon produit est un(e)...
   * Sinon développement front spécifique sur la base d'un [backend-as-a-service](communs-numeriques.md#backends-as-a-service)
   * Sinon envisager le développement spécifique complet du référentiel
 
-Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum :
+Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum les communs listés ci-dessous
 
-* [les communs numériques](communs-numeriques.md#communs-numériques-au-mas)
-* [les API internes et externes](communs-numeriques.md#api-externes-et-internes)
+* [les communs numériques](communs-numeriques.md#solutions-transverses-et-communs-numériques)
+* [les API externes](communs-numeriques.md#api-externes)
+* [les API internes](communs-numeriques.md#api-internes)
 * [les frameworks et librairies standards](communs-numeriques.md#frameworks-et-librairies-standards)
 
-## Solutions transverses et communs numériques au MAS
+## Solutions transverses et communs numériques
 
 Solutions et communs numériques grand public (solutions open source ou SaaS) :
 
@@ -46,10 +47,10 @@ Solutions et communs numériques inter-ministériels :
 
 Solutions et communs numériques internes :
 
-* [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé au MAS.
+* [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé aux Ministères Sociaux.
 * **Ondine**
 
-## API externes particulièrement intéressantes pour le MAS :
+## API externes
 
 * Les API Entreprise
   * [API Entreprise complète](https://www.data.gouv.fr/fr/dataservices/api-entreprise/) : pas de recherche multicritères
@@ -107,7 +108,7 @@ Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle
 
 |                                     | [Démarches Simplifiées](https://demarches.numerique.gouv.fr) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
 | ----------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| Entité responsable                  | SPM/DINUM                                                    | MAS/DNUM                                                                                           |
+| Entité responsable                  | SPM/DINUM                                                    | DNUM des Ministères Sociaux                                                                        |
 | Hébergement                         | SecNumCloud@OVH                                              | HDS@Cegedim                                                                                        |
 | Connexion FranceConnect             | Oui                                                          | Non                                                                                                |
 | Connexion ProConnect                | Oui                                                          | Non                                                                                                |
