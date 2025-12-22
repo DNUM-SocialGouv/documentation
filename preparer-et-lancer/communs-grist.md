@@ -11,10 +11,10 @@ L'offre SaaS n'a pas vocation à être utilisée en production. En revanche il e
 | Niveau de licence            | Basic (gratuit) ou Premium (payant)      | Open-Source (gratuit)                              |
 | Entité responsable           | getgrist.com                             | SPN/DINUM/OPI                                      |
 | Hébergement                  | getgrist.com                             | SecNumCloud@Outscale                               |
-| ProConnect                   | Non                                      | Oui                                                |
-| Envoi d'invitation par email | Oui                                      | Non (partager le lien aux utilisateurs)            |
+| ProConnect                   | ❌                                      | ✅                                                 |
+| Envoi d'invitation par email | ✅                                      | ❌ (partager le lien aux utilisateurs)             |
 | Webhooks - urls autorisées   | \*                                       | \*.gouv.fr                                         |
-| Homologation RGS             | Non                                      | Oui                                                |
+| Homologation RGS             | ❌                                      | ✅                                                 |
 
 ## Ressources
 * [Webinaire d'introduction](https://tube.numerique.gouv.fr/w/hMJ8DMj1beqv1D12vpgBKq)
