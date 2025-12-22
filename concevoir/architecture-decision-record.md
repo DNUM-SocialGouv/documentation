@@ -1,5 +1,6 @@
 ---
 icon: stamp
+visible: false
 ---
 
 # Architecture Decision Records
