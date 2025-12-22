@@ -6,17 +6,21 @@ Un commun numérique est une ressource numérique produite et gérée par une co
 
 Mon produit est un(e)...
 
-* **Site éditorial public**
+* **Site éditorial (ou avec une part significative de contenu éditorial)**
   * pour un gestionnaire de contenus (CMS) : [voir la page dédiée aux CMS](communs-cms.md)
-  * pour un Wiki, une base de connaissance : GitBook (cf. infra)
+  * pour un Wiki, une base de connaissance : [**GitBook**](https://www.gitbook.com/) est un Wiki SaaS gratuit avec contenu stocké sur GitHub. Exemples d'usages :
+    * Le présent [guide DNUM](https://dnum-ministeres-sociaux.gitbook.io/ressources/) (instance DNUM partagée)
+    * [Base de connaissance VAO](https://dnum-ministeres-sociaux.gitbook.io/vao-documentation/t1eK0jUdXMliu8S6UWUr) (instance DNUM partagée)
+    * [Base de connaissance Mon Suivi Social](https://mon-suivi-social.gitbook.io/mon-suivi-social) (instance dédiée)
+    * Documentation produit
 * **Démarche administrative en ligne**
   * pour le **front usager** :
-    * utiliser Démarches Simplifiées ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
-      * utiliser Démarches Simplifiées plutôt que Démat Social si possible. Voir comment [choisir entre Démarches Simplifiées et Démat Social](communs-numeriques.md#choisir-entre-démarches-simplifiées-et-démat-social)
+    * utiliser Démarche Numérique ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
+      * utiliser Démarche Numérique plutôt que Démat Social si possible. Voir comment [choisir entre Démarche Numérique et Démat Social](communs-numeriques.md#choisir-entre-démarche-numérique-et-démat-social)
     * en dernier recours, envisager le développement spécifique du front usager
   * pour le **back-office agent** :
-    * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarches Simplifiées (ou Démat Social)
-    * si cela ne suffit pas, envisager un back-office complémentaire à DS, sur la base de [Grist](communs-grist.md)
+    * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarche Numérique (ou Démat Social)
+    * si cela ne suffit pas, envisager un back-office complémentaire à Démarche Numérique, sur la base de [Grist](communs-grist.md)
     * en dernier recours seulement, envisager le développement complet du back-office
 * **Référentiel de données**
   * Si possible paramétrage front et back sur [Grist](communs-grist.md) pour une application de gestion interne ou à portée et criticité modérée
@@ -31,22 +35,9 @@ Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au max
 * [les frameworks et librairies standards](communs-numeriques.md#frameworks-et-librairies-standards)
 
 ## Solutions transverses et communs numériques
-
-Solutions et communs numériques grand public (solutions open source ou SaaS) :
-
-* [**GitBook**](https://www.gitbook.com/) : Wiki SaaS gratuit avec contenu stocké sur GitHub. Exemples d'utilisation :
-  * Le présent [guide DNUM](https://dnum-ministeres-sociaux.gitbook.io/ressources/) (instance DNUM partagée)
-  * [Base de connaissance VAO](https://dnum-ministeres-sociaux.gitbook.io/vao-documentation/t1eK0jUdXMliu8S6UWUr) (instance DNUM partagée)
-  * [Base de connaissance Mon Suivi Social](https://mon-suivi-social.gitbook.io/mon-suivi-social) (instance dédiée)
-
-Solutions et communs numériques inter-ministériels :
-
-* [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
+* [**Démarche Numérique**](https://demarche.numerique.gouv.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
 * [**Grist**](communs-grist.md) : tableur avancé open source, enrichi et hébergé par la DINUM
-
-Solutions et communs numériques internes :
-
-* [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé aux Ministères Sociaux.
+* [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarche Numérique, déployé aux Ministères Sociaux.
 
 ## API externes
 
@@ -68,18 +59,18 @@ Les API [https://arssante.opendatasoft.com/](https://arssante.opendatasoft.com/)
 ## Frameworks et librairies standards
 
 * [Authentification](../concevoir/authentification.md)
-* Stockage documentaire et GED (type S3, …)
+* Stockage documentaire et GED (type S3…)
 * Notifications (envois emails)
 * Publipostage (gestion des templates avec balises + production de documents)
 * [Stockage et accès aux données](../concevoir/data/)
 * [API Gateway](../concevoir/api/api-gateway.md)
 * Workflow
-* Statistiques (tableaux de bord, production de fichiers CSV, BI)
-  * Metabase ? Superset ?
+* Statistiques (tableaux de bord, production de fichiers CSV, décisionnel)
+  * Metabase
   * [Matomo pour la mesure d'audience](communs-numeriques.md#matomo-pour-la-mesure-daudience)
 * Chatbot
 * IA
-* ETL/ELT : Talend EE
+* ETL/ELT : Talend EE, Kestra
 
 ## Backends as a Service
 
@@ -101,9 +92,9 @@ Les API [https://arssante.opendatasoft.com/](https://arssante.opendatasoft.com/)
 
 Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle n'est pas privilégiée.
 
-## Choisir entre Démarches Simplifiées et Démat Social
+## Choisir entre Démarche Numérique et Démat Social
 
-|                                     | [Démarches Simplifiées](https://demarche.numerique.gouv.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
+|                                     | [Démarche Numérique](https://demarche.numerique.gouv.fr/)    | [Démat Social](https://demat.social.gouv.fr/)                                                      |
 | ----------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | Entité responsable                  | SPM/DINUM                                                    | DNUM des Ministères Sociaux                                                                        |
 | Hébergement                         | SecNumCloud@OVH                                              | HDS@Cegedim                                                                                        |
@@ -121,5 +112,5 @@ Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle
 * **Directus.io** est un Backend-as-a-Service satisfaisant mais a été écarté à cause de son coût de licence
 
 ## Sources de veille
-* [Releases Démarches Simplifiées](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
-* [Salon Tchap "Démarches Simplifiées"](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)
+* [Releases Démarche Numérique](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
+* [Salon Tchap "Démarche Numérique"](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)
