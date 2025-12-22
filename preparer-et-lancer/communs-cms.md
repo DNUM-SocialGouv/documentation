@@ -21,7 +21,7 @@ Points communs :
 
 |                          | **Socle Ondine**       | **Sites Conformes**         | **Strapi**           | **Grist**          |
 | ------------------------ | ---------------------- | --------------------------- | -------------------- | ------------------ |
-| CMS Headful (IHM)        | ✅        l            | ✅                         | Non                  | Non                |
+| CMS Headful (IHM)        | ✅                    | ✅                         | Non                  | Non                |
 | CMS Headless             | Non                    | ✅                         | ✅                   | ✅ (contenu brut) |
 | Entité porteuse          | SG/DICOM               | SPM/DINUM                   | Strapi               | SPM/DINUM          |
 | Permet le dév spécifique | Non                    | ✅                         | ✅                   | ✅                |
