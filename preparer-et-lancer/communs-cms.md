@@ -37,3 +37,7 @@ Points communs :
 | Conformité RGS           | ✅                    | n/a                         | n/a                   | ✅                |
 | Montées de version       | Par l'équipe socle     | Par l'équipe produit        | Par l'équipe produit | Par l'équipe socle |
 | Hébergement Min Sociaux  | Cegedim (cible Atlas)  | Atlas                       | Atlas                | n/a (SaaS)         |
+
+## Sources de veille
+* [Releases Sites Conformes](https://github.com/numerique-gouv/sites-faciles/releases)
+* [Canal Mattermost BetaGouv de Sites Conformes (privé)](https://mattermost.incubateur.net/betagouv/channels/startup-cms)

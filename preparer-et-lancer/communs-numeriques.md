@@ -103,7 +103,7 @@ Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle
 
 ## Choisir entre Démarches Simplifiées et Démat Social
 
-|                                     | [Démarches Simplifiées](https://demarches.numerique.gouv.fr) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
+|                                     | [Démarches Simplifiées](https://demarche.numerique.gouv.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
 | ----------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
 | Entité responsable                  | SPM/DINUM                                                    | DNUM des Ministères Sociaux                                                                        |
 | Hébergement                         | SecNumCloud@OVH                                              | HDS@Cegedim                                                                                        |
@@ -123,5 +123,3 @@ Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle
 ## Sources de veille
 * [Releases Démarches Simplifiées](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
 * [Salon Tchap "Démarches Simplifiées"](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)
-* [Releases Sites Conformes](https://github.com/numerique-gouv/sites-faciles/releases)
-* [Canal Mattermost BetaGouv de Sites Conformes (privé)](https://mattermost.incubateur.net/betagouv/channels/startup-cms)
