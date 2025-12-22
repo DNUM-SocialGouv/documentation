@@ -49,7 +49,6 @@
   * [🔌 Exposition d'API](concevoir/api/api-gateway.md)
   * [🔌 PISTE](concevoir/api/api-piste.md)
   * [🔌 Sécurisation d'API](concevoir/api/api-securite.md)
-* [Architecture Decision Records](concevoir/architecture-decision-record.md)
 
 ## DEVELOPPER
 
@@ -72,6 +71,7 @@
 * [✅ Intégration continue (CI)](constuire-developper-deployer/ci.md)
 * [📲 Déploiement continu (CD)](constuire-developper-deployer/cd.md)
 * [🔁 Passation des projets](constuire-developper-deployer/passation.md)
+* [🗒️Architecture Decision Records](concevoir/architecture-decision-record.md)
 
 ## DEPLOYER
 
