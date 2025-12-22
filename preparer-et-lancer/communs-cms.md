@@ -9,7 +9,7 @@ Les solutions de CMS répondent à différents besoins :
 
 ## Les CMS aux Ministères Sociaux
 * **Ondine** est le socle des sites éditoriaux des Ministères Sociaux
-* [**Sites Conformes (anc. Sites Faciles**](https://sites.beta.gouv.fr/) est un commun numérique interministériel et vient challenger le socle Ondine.
+* [**Sites Conformes (anc. Sites Faciles)**](https://sites.beta.gouv.fr/) est un commun numérique interministériel et vient challenger le socle Ondine.
 * [**Strapi**](https://strapi.io) est un CMS headless Open source français très utilisé dans la sphère BetaGouv
 * [**Grist**](communs-grist.md) permet de construire un CMS headless minimal et 0-déploiement
 
