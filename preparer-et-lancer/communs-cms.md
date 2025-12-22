@@ -4,7 +4,8 @@
 
 Les solutions de CMS répondent à différents besoins :
 * **Site institutionnel ou éditorial** : un CMS Headful est adapté, mais ne permet pas d'implémenter de logique métier
-* **Application métier avec des contenus éditoriaux embarqués** : un CMS headless est plus approprié
+* **Application métier avec contenus éditoriaux embarqués simples** : ajouter des options de paramétrage à l'application métier suffit parfois
+* **Application métier avec contenus éditoriaux embarqués riches/complexe** : un CMS headless est recommandé
 * **Approche hybride application métier / site éditorial** : pas de solution simple et transparente. Il faut faire des compromis (2 solutions avec un style similaire, sous-domaines DNS, gestion du contenu par l'équipe produit, etc.)
 
 ## Les CMS aux Ministères Sociaux
