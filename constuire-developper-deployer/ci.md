@@ -6,20 +6,20 @@ L'intégration continue est la pratique de contrôle qualité automatique de l'a
 
 La CI doit inclure :
 
-* [ ] les tests (unitaires, intégration, end-to-end)
-  * Attention particulière portée à la partie API et authentification
-  * Avoir un scenario complet nominal en test end-to-end
-  * Inclure des tests d'accessibilité pour le frontend
-  * Pour le frontend, ajouter un test automatisé de Lighthouse (par exemple via une [GitHub Action](https://github.com/GoogleChrome/lighthouse-ci)) et avoir obligatoirement un résultat de 100 % pour l'accessibilité
-* [ ] le formatage du code (ex: prettier en js)
-* [ ] qualité de code (analyse statique du code)
+* [ ] Les tests (unitaires, intégration, end-to-end)
+  * Attention particulière sur la partie API et authentification
+  * Scenario complet nominal en test end-to-end
+  * Pour le frontend, des tests d'accessibilité
+  * Pour le frontend, un test automatisé de Lighthouse (par exemple via une [GitHub Action](https://github.com/GoogleChrome/lighthouse-ci)) avec obligatoirement un résultat de 100 % pour l'accessibilité
+* [ ] Formatage du code (ex : prettier en JS)
+* [ ] Qualité de code (analyse statique du code)
   * [ ] linter
   * [ ] SonarQube
-    * code smells
-    * duplication
-    * complexité
-    * security hotspots
-* [ ] mises à jour régulières des dépendances
-  * systématiquement pour les versions mineures
-  * attention aux failles de sécurité
-  * utilisation d'un outil supplémentaire en fonction de l'écosystème (par ex SocketSecurity dans le monde javascript) pour vérifier les vulnérabilités des dépendances utilisées.
+    * Code smells
+    * Duplication
+    * Complexité
+    * Security hotspots
+* [ ] Mises à jour régulières des dépendances
+  * Systématiquement pour les versions mineures
+  * Attention aux failles de sécurité
+  * Utilisation d'un outil supplémentaire en fonction de l'écosystème (ex : SocketSecurity dans le monde JS) pour vérifier les vulnérabilités des dépendances utilisées.
