@@ -20,19 +20,19 @@ Points communs :
 
 |                          | **Socle Ondine**       | **Sites Conformes**         | **Strapi**           | **Grist**          |
 | ------------------------ | ---------------------- | --------------------------- | -------------------- | ------------------ |
-| CMS Headful (IHM)        | Oui       l            | Oui                         | Non                  | Non                |
-| CMS Headless             | Non                    | Oui                         | Oui                  | Oui (contenu brut) |
+| CMS Headful (IHM)        | ✅        l            | ✅                         | Non                  | Non                |
+| CMS Headless             | Non                    | ✅                         | ✅                   | ✅ (contenu brut) |
 | Entité porteuse          | SG/DICOM               | SPM/DINUM                   | Strapi               | SPM/DINUM          |
-| Permet le dév spécifique | Non                    | Oui                         | Oui                  | Oui                |
-| Recherche full-text      | Oui                    | Oui                         | Oui                  | Non                |
-| ProConnect natif         | Non                    | Oui                         | n/a                  | n/a                |
-| Conformité RGAA          | 50% des critères       | 82% des critères            | Non                  | n/a                |
-| DSFR natif               | Oui                    | Oui                         | n/a                  | n/a                |
-| Open source              | Non                    | Oui                         | Oui                  | Oui                |
+| Permet le dév spécifique | Non                    | ✅                         | ✅                   | ✅                |
+| Recherche full-text      | ✅                     | ✅                         | ✅                  | Non                |
+| ProConnect natif         | Non                    | ✅                         | n/a                  | n/a                |
+| Conformité RGAA          | 50% des critères       | 82% des critères            | n/a                  | n/a                |
+| DSFR natif               | ✅                     | ✅                         | n/a                  | n/a                |
+| Open source              | Non                    | ✅                         | ✅                   | ✅                |
 | Stack technique          | Varnish + Drupal + PHP | Wagtail + Django + Python   | Node.js              | Python             |
 | Stockage de données      | MariaDB                | PostgreSQL                  | PostgreSQL           | n/a (SaaS)         |
 | Stockage index           | Solr                   | PostgreSQL ou Elasticsearch | PostgreSQL, ES...    | n/a (SaaS)         |
 | Stockage de documents    | GlusterFS              | S3                          | S3                   | n/a (SaaS)         |
-| Conformité RGS           | Oui                    | n/a                         | n/a                  | Oui                |
+| Conformité RGS           | ✅                     | n/a                         | n/a                  | ✅                |
 | Montées de version       | Par l'équipe socle     | Par l'équipe produit        | Par l'équipe produit | Par l'équipe socle |
 | Hébergement Min Sociaux  | Cegedim (cible Atlas)  | Atlas                       | Atlas                | n/a (SaaS)         |
