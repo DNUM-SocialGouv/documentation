@@ -7,7 +7,7 @@ Un commun numérique est une ressource numérique produite et gérée par une co
 Mon produit est un(e)...
 
 * **Site éditorial public**
-  * pour un CMS : voir comment [choisir entre le Socle Ondine et Sites Faciles](communs-numeriques.md#choisir-entre-socle-ondine-et-sites-faciles)
+  * pour un gestionnaire de contenus (CMS) : [voir la page dédiée aux CMS](communs-cms.md)
   * pour un Wiki, une base de connaissance : GitBook (cf. infra)
 * **Démarche administrative en ligne**
   * pour le **front usager** :
@@ -42,13 +42,11 @@ Solutions et communs numériques grand public (solutions open source ou SaaS) :
 Solutions et communs numériques inter-ministériels :
 
 * [**Démarches Simplifiées**](https://doc.demarches-simplifiees.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
-* [**Sites Faciles**](https://sites-faciles.beta.numerique.gouv.fr/) : base de site web CMS
 * [**Grist**](communs-grist.md) : tableur avancé open source, enrichi et hébergé par la DINUM
 
 Solutions et communs numériques internes :
 
 * [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarches Simplifiées, déployé aux Ministères Sociaux.
-* **Ondine**
 
 ## API externes
 
@@ -89,7 +87,6 @@ Les API [https://arssante.opendatasoft.com/](https://arssante.opendatasoft.com/)
   * Les permissions avancées ne sont pas accessibles par API
   * Pas de propagation de l'authentification ProConnect par API : compte de service seulement
   * l'API de l'instance DINUM est limitée à 10 appels en parallèle par document Grist
-* Directus.io est satisfaisant mais a un coût de licence
 * Manifest.build a été écarté car trop limité
 
 ## Matomo pour la mesure d'audience
@@ -117,48 +114,14 @@ Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle
 | Numérotation des versions           | AAAA-MM-DD-version                                           | x.y.z                                                                                              |
 | Accès Administrateur et Instructeur | Internet                                                     | RIE seulement                                                                                      |
 
-## Choisir entre Socle Ondine et Sites Faciles
-
-Points communs :
-
-* Solution de type CMS
-* DSFR natif
-* API pour usage CMS headless
-* Formulaires simples
-* Contributions possibles au produit
-* Produit maintenu, mais montées de versions à effectuer soi-même
-* A héberger en interne sur Intranet ou Cegedim ; sauf à faire évoluer Atlas pour PHP ou Python
-* Recherche texte intégrale, y compris dans les pièces-jointes
-
-Différences dans notre contexte:
-
-|                      | Socle Ondine         | [Sites Faciles](https://sites-faciles.beta.numerique.gouv.fr/) |
-| -------------------- | -------------------- | -------------------------------------------------------------- |
-| Entité responsable   | SG/DICOM             | SPM/DINUM/OPI                                                  |
-| Open source          | Non                  | Oui                                                            |
-| Stack technique      | Varnish/Drupal/PHP   | Wagtail(CMS)/Django/Python                                     |
-| Stockage de données  | MariaDB              | PostgreSQL                                                     |
-| Stockage index       | Solr                 | PostgreSQL ou Elasticsearch                                    |
-| Stockage de fichiers | GlusterFS (ou S3?)   | Filesystem ou S3                                               |
-| Instance multi-sites | Oui                  | Non                                                            |
-| ProConnect natif     | Non                  | Oui                                                            |
-| Conformité RGAA      | RGAA 4 à 75%         | RGAA 4.1 partiel                                               |
-| Conformité RGS       | Oui                  | n/c                                                            |
-| Dév spécifique       | Non                  | Oui                                                            |
-| Montées de version   | A la charge du socle | A la charge des équipes produits                               |
-
-Synthèse :
-
-* Le socle Ondine est industrialisé pour être hébergé en interne. Sa migration sur la cible Cloud est prévue. Il bénéficie des forces et faiblesses de Drupal.
-* Sites Faciles est plus moderne en termes de technologies et peut-être hébergé plus facilement sur un cloud.
-
 ## Pistes explorées et décisions d'architecture
 
 * **GLPI** écarté en 04/2025 (workflow pas assez contraignant pour le métier et pas paramétrable ; pas 12-factors (stockage FS) ; peu accessible)
-* **Manifest.build** est un backend-as-a-service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
+* **Manifest.build** est un Backend-as-a-Service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
+* **Directus.io** est un Backend-as-a-Service satisfaisant mais a été écarté à cause de son coût de licence
 
 ## Sources de veille
 * [Releases Démarches Simplifiées](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
 * [Salon Tchap "Démarches Simplifiées"](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)
-* [Releases Sites-Faciles](https://github.com/numerique-gouv/sites-faciles/releases)
-* [Canal Mattermost BetaGouv de Sites-Faciles (privé)](https://mattermost.incubateur.net/betagouv/channels/startup-cms)
+* [Releases Sites Conformes](https://github.com/numerique-gouv/sites-faciles/releases)
+* [Canal Mattermost BetaGouv de Sites Conformes (privé)](https://mattermost.incubateur.net/betagouv/channels/startup-cms)
