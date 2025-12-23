@@ -92,19 +92,6 @@ Les API [https://arssante.opendatasoft.com/](https://arssante.opendatasoft.com/)
 
 Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle n'est pas privilégiée.
 
-## Choisir entre Démarche Numérique et Démat Social
-
-|                                     | [Démarche Numérique](https://demarche.numerique.gouv.fr/)    | [Démat Social](https://demat.social.gouv.fr/)                                                      |
-| ----------------------------------- | ------------------------------------------------------------ | -------------------------------------------------------------------------------------------------- |
-| Entité responsable                  | SPM/DINUM                                                    | DNUM des Ministères Sociaux                                                                        |
-| Hébergement                         | SecNumCloud@OVH                                              | HDS@Cegedim                                                                                        |
-| Connexion FranceConnect             | Oui                                                          | Non                                                                                                |
-| Connexion ProConnect                | Oui                                                          | Non                                                                                                |
-| Champs spécifiques                  | n/a                                                          | <p>Champ NIR sécurisé<br>2 champs FINESS (avec lookup FINESS)<br>Champ RPPS (avec lookup RPPS)</p> |
-| Montées de version                  | \~tous les jours                                             | 3-12 mois de retard                                                                                |
-| Numérotation des versions           | AAAA-MM-DD-version                                           | x.y.z                                                                                              |
-| Accès Administrateur et Instructeur | Internet                                                     | RIE seulement                                                                                      |
-
 ## Pistes explorées et décisions d'architecture
 
 * **GLPI** écarté en 04/2025 (workflow pas assez contraignant pour le métier et pas paramétrable ; pas 12-factors (stockage FS) ; peu accessible)
@@ -112,5 +99,3 @@ Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle
 * **Directus.io** est un Backend-as-a-Service satisfaisant mais a été écarté à cause de son coût de licence
 
 ## Sources de veille
-* [Releases Démarche Numérique](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
-* [Salon Tchap "Démarche Numérique"](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)

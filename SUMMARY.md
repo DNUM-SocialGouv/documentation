@@ -35,6 +35,7 @@
   * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [♻️ Grist](preparer-et-lancer/communs-grist.md)
   * [♻️ Gestion de contenus (CMS)](preparer-et-lancer/communs-cms.md)
+  * [♻️ Démarche Numérique et Démat Social](preparer-et-lancer/communs-demarche-numerique.md)
 * [🌳 Eco-conception](concevoir/eco-conception.md)
 * [🔒 Authentification des utilisateurs](concevoir/authentification.md)
   * [🔒 ProConnect](concevoir/authentification-proconnect.md)
