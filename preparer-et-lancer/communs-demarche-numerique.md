@@ -1,58 +1,53 @@
 # ♻️ Démarche Numérique et Démat Social
 
-## Usages
+* [**Démarche Numérique**](https://demarche.numerique.gouv.fr/) (anc. Démarches Simplifiées) est un SaaS interministériel de dématérialisation des démarches administratives.
+* [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarche Numérique, instancié et déployé sur HDS par et pour les Ministères Sociaux.
 
-Les solutions de CMS répondent à différents besoins :
-* **Site institutionnel ou éditorial** : un CMS Headful est adapté, mais ne permet pas d'implémenter de logique métier
-* **Application métier avec contenus éditoriaux embarqués simples** : ajouter des options de paramétrage à l'application métier peut suffire. L'ajout d'une page se fait par l'équipe technique.
-* **Application métier avec contenus éditoriaux embarqués riches/complexe** : un CMS headless est recommandé
-* **Approche hybride application métier / site éditorial** : pas de solution simple et transparente. Il faut faire des compromis (2 solutions avec un style similaire, sous-domaines DNS, gestion du contenu par l'équipe produit, etc.)
+## Ce que permet Démarche Numérique
 
-## Les CMS aux Ministères Sociaux
-* **Ondine** est le socle des sites éditoriaux des Ministères Sociaux
-* [**Sites Conformes (anc. Sites Faciles)**](https://sites.beta.gouv.fr/) est un commun numérique interministériel et vient challenger le socle Ondine.
-* [**Strapi**](https://strapi.io) est un CMS headless Open source français très utilisé dans la sphère BetaGouv
-* [**Grist**](communs-grist.md) permet de construire un CMS headless minimal et 0-déploiement
+### Pour le déposant
 
-## Comparaison des CMS
+### Pour l'instructeur
+* De faire intervenir ponctuellement des experts externes
+* D'échanger par message avec le déposant
 
-Points communs :
-* Recherche texte intégrale, y compris dans les pièces-jointes
+### Pour l'administrateur
+* Délivrer une attestation PDF en fin de parcours
+* De finement
 
-|                          | **Socle Ondine**       | **Sites Conformes**         | **Strapi**           | **Grist**          |
-| ------------------------ | ---------------------- | --------------------------- | -------------------- | ------------------ |
-| CMS Headful (IHM)        | ✅                    | ✅                          | ❌                   | ❌                |
-| CMS Headless (API)       | ❌                    | ✅                          | ✅                   | ✅ (contenu brut) |
-| Entité porteuse          | SG/DICOM               | SPM/DINUM                   | Strapi               | SPM/DINUM          |
-| Permet le dév spécifique | ❌                    | ✅                          | ✅                   | ✅                |
-| Recherche full-text      | ✅                    | ✅                          | ✅                   | ❌                |
-| ProConnect natif         | ❌                    | ✅                          | n/a                  | n/a                |
-| Conformité RGAA          | 75% des critères       | 82% des critères            | n/a                  | n/a                |
-| DSFR natif               | ✅                    | ✅                          | n/a                  | n/a                |
-| Open source              | ❌                    | ✅                          | ✅                   | ✅                |
-| Stack technique          | Varnish + Drupal + PHP | Wagtail + Django + Python   | Node.js              | Python             |
-| Stockage de données      | MariaDB                | PostgreSQL                  | PostgreSQL           | n/a (SaaS)         |
-| Stockage index           | Solr                   | PostgreSQL ou Elasticsearch | PostgreSQL, ES...    | n/a (SaaS)         |
-| Stockage de documents    | GlusterFS              | S3                          | S3                   | n/a (SaaS)         |
-| Conformité RGS           | ✅                    | n/a                         | n/a                   | ✅                |
-| Hébergement              | Cegedim (cible Atlas)  | Atlas                       | Atlas                | n/a (SaaS)         |
-| Exploitation             | Equipe socle           | Equipe produit              | Equipe produit       | Equipe socle       |
+### Pour le développeur d'application métier
+* API GraphQL pour récupérer facilement les données nécessaires sur un ensemble de dossiers
 
-## Sources de veille
-* [Nouveautés de Démarche Numérique](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
-* [Salon Tchap "Démarche Numérique"](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)
+## Ce que ne permet PAS Démarche Numérique
+* Personnaliser le workflow de validation des dossiers. L'instruction dans Démarche Numérique reste volontairement assez simple pour ne pas encourager la sur-administration.
+* Conserver des données au-delà de 12 mois. Démarche Numérique n'est pas fait pour gérer un référentiel d'information.
+* Dupliquer une démarche précédente
+* Pour un instructeur, de modifier le dépôt initial du déclarant
+* API REST
 
-## Choisir entre Démarche Numérique et Démat Social
+## Bien choisir entre Démarche Numérique et Démat Social
+
+{% hint style="info" %}
+**Sauf contrainte HDS, il est préférable d'utiliser Démarche Numérique plutôt que Démat Social.**
+{% endhint %}
 
 |                                | [Démarche Numérique](https://demarche.numerique.gouv.fr/) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
 | ------------------------------ | --------------------------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | Entité porteuse                | SPM/DINUM                                                 | DNUM des Ministères Sociaux                                                                        |
-| Hébergement                    | OVH                                                       | Cegedim                                                                                            |
 | SecNumCloud                    | ✅                                                       | ❌                                                                                                 |
 | HDS                            | ❌                                                       | ✅                                                                                                 |
 | Connexion FranceConnect        | ✅                                                       | ❌                                                                                                 |
-| Connexion ProConnect           | ✅                                                       | ❌                                                                                                 |
+| Connexion ProConnect           | ✅                                                       | ❌ (en cours)                                                                                      |
 | Champs spécifiques Min Sociaux | n/a                                                       | <p>Champ NIR sécurisé<br>2 champs FINESS (avec lookup FINESS)<br>Champ RPPS (avec lookup RPPS)</p> |
-| Montées de version             | \~tous les jours                                          | 3-12 mois de retard                                                                                |
-| Numérotation des versions      | AAAA-MM-DD-version                                        | x.y.z                                                                                              |
+| Homologation RGS               | ✅                                                       | ✅                                                                                                 |
+| Version en production          | 2025-12-23                                                | 2023-12-22 (24 mois de retard sur DN)                                                              |
 | Accès Admin et Instructeur     | Internet et RIE                                           | RIE seulement                                                                                      |
+| Hébergement                    | OVH                                                       | Cegedim                                                                                            |
+| Exploitation                   | SPM/DINUM                                                 | Cegedim                                                                                            |
+| Homologation RGS               | ✅                                                       | ✅                                                                                                |
+| Open source                    | ✅                                                       | ❌                                                                                                |
+
+## Sources de veille
+* [Documentation complète Démarche Numérique](https://doc.demarches-simplifiees.fr/)
+* [Nouveautés de Démarche Numérique](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
+* [Salon Tchap de Démarche Numérique](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)

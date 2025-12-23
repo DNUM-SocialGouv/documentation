@@ -15,8 +15,7 @@ Mon produit est un(e)...
     * Documentation produit
 * **Démarche administrative en ligne**
   * pour le **front usager** :
-    * utiliser Démarche Numérique ou Démat Social autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
-      * utiliser Démarche Numérique plutôt que Démat Social si possible. Voir comment [choisir entre Démarche Numérique et Démat Social](communs-numeriques.md#choisir-entre-démarche-numérique-et-démat-social)
+    * utiliser [Démarche Numérique (ou Démat Social)](communs-demarche-numerique.md) autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
     * en dernier recours, envisager le développement spécifique du front usager
   * pour le **back-office agent** :
     * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarche Numérique (ou Démat Social)
@@ -26,18 +25,6 @@ Mon produit est un(e)...
   * Si possible paramétrage front et back sur [Grist](communs-grist.md) pour une application de gestion interne ou à portée et criticité modérée
   * Sinon développement front spécifique sur la base d'un [backend-as-a-service](communs-numeriques.md#backends-as-a-service)
   * Sinon envisager le développement spécifique complet du référentiel
-
-Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum les communs listés ci-dessous
-
-* [les communs numériques](communs-numeriques.md#solutions-transverses-et-communs-numériques)
-* [les API externes](communs-numeriques.md#api-externes)
-* [les API internes](communs-numeriques.md#api-internes)
-* [les frameworks et librairies standards](communs-numeriques.md#frameworks-et-librairies-standards)
-
-## Solutions transverses et communs numériques
-* [**Démarche Numérique**](https://demarche.numerique.gouv.fr/) : solution SaaS interministérielle de dématérialisation des démarches administratives.
-* [**Grist**](communs-grist.md) : tableur avancé open source, enrichi et hébergé par la DINUM
-* [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarche Numérique, déployé aux Ministères Sociaux.
 
 ## API externes
 
@@ -58,19 +45,23 @@ Les API [https://arssante.opendatasoft.com/](https://arssante.opendatasoft.com/)
 
 ## Frameworks et librairies standards
 
-* [Authentification](../concevoir/authentification.md)
+Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au maximum les "building blocks" listés ci-dessous :
+
+* [**Authentification**](../concevoir/authentification.md)
+* [**Stockage et accès aux données**](../concevoir/data/)
+* [**API Gateway**](../concevoir/api/api-gateway.md)
 * Stockage documentaire et GED (type S3…)
-* Notifications (envois emails)
-* Publipostage (gestion des templates avec balises + production de documents)
-* [Stockage et accès aux données](../concevoir/data/)
-* [API Gateway](../concevoir/api/api-gateway.md)
-* Workflow
-* Statistiques (tableaux de bord, production de fichiers CSV, décisionnel)
-  * Metabase
-  * [Matomo pour la mesure d'audience](communs-numeriques.md#matomo-pour-la-mesure-daudience)
+* **Emailing transactionnel** (templating et envois) : Sarbacane Sendkit (anc. Tipimail)
+* Publipostage PDF (gestion des templates avec balises + production de documents)
+* Workflow : pas de solution pertinente identifiée
+* **Décisionnel** (tableaux de bord, production de fichiers CSV, DataViz, etc.) : [Metabase](https://www.metabase.com/start/oss/)
+* **Mesure d'audience** : [Matomo](communs-numeriques.md#matomo-pour-la-mesure-daudience)
+* **ETL/ELT**
+  * ETL lightweight embarqué dans les projets : SpringBatch en Java, _à définir en JS_
+  * Projet à dominante ETL : Talend EE (géré par le bureau DATA)
+  * Orchestrateur de flux : Kestra (géré par le bureau DATA)
 * Chatbot
-* IA
-* ETL/ELT : Talend EE, Kestra
+* IA : YAGNI :-)
 
 ## Backends as a Service
 
@@ -97,5 +88,3 @@ Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle
 * **GLPI** écarté en 04/2025 (workflow pas assez contraignant pour le métier et pas paramétrable ; pas 12-factors (stockage FS) ; peu accessible)
 * **Manifest.build** est un Backend-as-a-Service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
 * **Directus.io** est un Backend-as-a-Service satisfaisant mais a été écarté à cause de son coût de licence
-
-## Sources de veille
