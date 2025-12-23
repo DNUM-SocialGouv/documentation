@@ -26,18 +26,19 @@ Points communs :
 | Entité porteuse          | SG/DICOM               | SPM/DINUM                   | Strapi               | SPM/DINUM          |
 | Permet le dév spécifique | ❌                    | ✅                          | ✅                   | ✅                |
 | Recherche full-text      | ✅                    | ✅                          | ✅                   | ❌                |
-| ProConnect natif         | ❌                    | ✅                          | n/a                   | n/a               |
+| ProConnect natif         | ❌                    | ✅                          | n/a                  | n/a                |
 | Conformité RGAA          | 50% des critères       | 82% des critères            | n/a                  | n/a                |
-| DSFR natif               | ✅                    | ✅                          | n/a                   | n/a               |
+| DSFR natif               | ✅                    | ✅                          | n/a                  | n/a                |
 | Open source              | ❌                    | ✅                          | ✅                   | ✅                |
 | Stack technique          | Varnish + Drupal + PHP | Wagtail + Django + Python   | Node.js              | Python             |
 | Stockage de données      | MariaDB                | PostgreSQL                  | PostgreSQL           | n/a (SaaS)         |
 | Stockage index           | Solr                   | PostgreSQL ou Elasticsearch | PostgreSQL, ES...    | n/a (SaaS)         |
 | Stockage de documents    | GlusterFS              | S3                          | S3                   | n/a (SaaS)         |
 | Conformité RGS           | ✅                    | n/a                         | n/a                   | ✅                |
-| Montées de version       | Par l'équipe socle     | Par l'équipe produit        | Par l'équipe produit | Par l'équipe socle |
-| Hébergement Min Sociaux  | Cegedim (cible Atlas)  | Atlas                       | Atlas                | n/a (SaaS)         |
+| Hébergement              | Cegedim (cible Atlas)  | Atlas                       | Atlas                | n/a (SaaS)         |
+| Exploitation             | Equipe socle           | Equipe produit              | Equipe produit       | Equipe socle       |
 
 ## Sources de veille
 * [Releases Sites Conformes](https://github.com/numerique-gouv/sites-faciles/releases)
 * [Canal Mattermost BetaGouv de Sites Conformes (privé)](https://mattermost.incubateur.net/betagouv/channels/startup-cms)
+* [Page interne du Socle Ondine (privé)](https://msociauxfr.sharepoint.com/:u:/r/sites/DNUM_Portail_Services_Numeriques/SitePages/OSSI.aspx?csf=1&web=1&e=AELqsj)
