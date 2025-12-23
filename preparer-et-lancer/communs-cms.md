@@ -16,9 +16,6 @@ Les solutions de CMS répondent à différents besoins :
 
 ## Comparaison des CMS
 
-Points communs :
-* Recherche texte intégrale, y compris dans les pièces-jointes
-
 |                          | **Socle Ondine**       | **Sites Conformes**         | **Strapi**           | **Grist**          |
 | ------------------------ | ---------------------- | --------------------------- | -------------------- | ------------------ |
 | CMS Headful (IHM)        | ✅                    | ✅                          | ❌                   | ❌                |
@@ -26,6 +23,7 @@ Points communs :
 | Entité porteuse          | SG/DICOM               | SPM/DINUM                   | Strapi               | SPM/DINUM          |
 | Permet le dév spécifique | ❌                    | ✅                          | ✅                   | ✅                |
 | Recherche full-text      | ✅                    | ✅                          | ✅                   | ❌                |
+| Recherche dans les docs  | ✅                    | ✅                          | ✅                   | ❌                |
 | ProConnect natif         | ❌                    | ✅                          | n/a                  | n/a                |
 | Conformité RGAA          | 75% des critères       | 82% des critères            | n/a                  | n/a                |
 | DSFR natif               | ✅                    | ✅                          | n/a                  | n/a                |
