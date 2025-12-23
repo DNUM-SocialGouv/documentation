@@ -62,6 +62,6 @@ Instancier et gérer une seule API Gateway par hébergement :
 
 Aucune autre solution sur le marché ne semble présenter d'intérêt particulier dans le contexte. Ex :
 
-* **Hasura.io** est un Data-as-a-Service qui offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'une application métier.
+* **Hasura.io** est un Data-as-a-Service qui offre un développement rapide mais une moindre exploitabilité et testabilité. Peut être intéressant pour un projet pure Data, mais pas en complément d'un produit.
 * **MuleSoft Anypoint** trop orienté éditeur
 * **Kong Gateway** équivalent à Gravitee

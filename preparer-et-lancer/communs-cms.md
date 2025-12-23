@@ -4,9 +4,9 @@
 
 Les solutions de CMS répondent à différents besoins :
 * **Site institutionnel ou éditorial** : un CMS Headful est adapté, mais ne permet pas d'implémenter de logique métier
-* **Application métier avec contenus éditoriaux embarqués simples** : ajouter des options de paramétrage à l'application métier peut suffire. L'ajout d'une page se fait par l'équipe technique.
-* **Application métier avec contenus éditoriaux embarqués riches/complexe** : un CMS headless est recommandé
-* **Approche hybride application métier / site éditorial** : pas de solution simple et transparente. Il faut faire des compromis (2 solutions avec un style similaire, sous-domaines DNS, gestion du contenu par l'équipe produit, etc.)
+* **Produit spécifique avec contenu éditorial simple** : ajouter des options de paramétrage au produit peut suffire. L'ajout d'une page se fait par l'équipe technique.
+* **produit spécifique avec contenu éditorial riche/complexe** : un CMS headless est recommandé
+* **Approche hybride produit spécifique / site éditorial** : pas de solution simple et transparente. Il faut faire des compromis (2 solutions avec un style similaire, sous-domaines DNS, gestion du contenu par l'équipe produit, etc.)
 
 ## Les CMS aux Ministères Sociaux
 * **Ondine** est le socle des sites éditoriaux des Ministères Sociaux

@@ -26,7 +26,7 @@ PISTE est particulièrement intéressant pour **exposer une API à un nombre sig
 * L'application [MPSS](https://mpss.piste.gouv.fr/) permet de créer des bouchons pour simuler nos APIs.
 * Un environnement bac-à-sable "sandbox" permet d'exposer des API de test.
 * PISTE ne limite pas la taille des contenus
-* PISTE a un timeout de 30 secondes entre PISTE et l'application métier exposée.
+* PISTE a un timeout de 30 secondes entre PISTE et le produit exposé.
 * PISTE conserve systématiquement les traces pendant 10 jours. PISTE ne permet pas d'accès direct aux traces. Il faut s'adresser au support de PISTE pour tout diagnostic.
 * PISTE n'offre pas de supervision par l'administrateur fonctionnel
 * PISTE offre un service (non-documenté) dédié au transfert de pièces-jointes volumineuses (> 10Mo)
@@ -34,13 +34,13 @@ PISTE est particulièrement intéressant pour **exposer une API à un nombre sig
 ## Sécurisation de l'API
 
 * On peut demander aux équipes PISTE l'anonymisation définitive des traces.
-* Le trafic entre PISTE et l'application métier repasse nécessairement par Internet. Le filtrage IP et DNS est fortement recommandé. Un VPN existant entre PISTE et le RIE, peut éventuellement permettre une route plus sécurisée vers l'application métier.
-* PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et l'application métier. Un jeton JWT peut véhiculer les informations utilisateur vers l'application métier.
+* Le trafic entre PISTE et le produit repasse nécessairement par Internet. Le filtrage IP et DNS est fortement recommandé. Un VPN existant entre PISTE et le RIE, peut éventuellement permettre une route plus sécurisée vers le produit.
+* PISTE se charge de la sécurisation OAuth2 avec les clients. OAuth2 n'est donc pas nécessaire entre PISTE et le produit. Un jeton JWT peut véhiculer les informations utilisateur vers le produit.
 * PISTE permet des scopes OAuth2 pour gérer des droits plus fins par client
 * PISTE permet la mise en place de quotas d'utilisation, par client ou pour tous les clients d'une API
 * PISTE renvoie une erreur 403
   * en cas d'accès non autorisé (ex : pas de consentement CGU, accès non demandé via le portail)
-  * au lieu d'une erreur 400, en cas de contenu tronqué ou inconsistant (ex : une balise XML pas fermée). Par sécurité, une telle erreur est considérée comme une utilisation non autorisée de l'API et n'arrivera pas à l'application métier.
+  * au lieu d'une erreur 400, en cas de contenu tronqué ou inconsistant (ex : une balise XML pas fermée). Par sécurité, une telle erreur est considérée comme une utilisation non autorisée de l'API et n'arrivera pas au produit.
 
 ## Administration des accès
 
