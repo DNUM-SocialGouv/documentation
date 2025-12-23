@@ -4,7 +4,7 @@
 
 Les solutions de CMS répondent à différents besoins :
 * **Site institutionnel ou éditorial** : un CMS Headful est adapté, mais ne permet pas d'implémenter de logique métier
-* **Application métier avec contenus éditoriaux embarqués simples** : ajouter des options de paramétrage à l'application métier suffit parfois
+* **Application métier avec contenus éditoriaux embarqués simples** : ajouter des options de paramétrage à l'application métier peut suffire. L'ajout d'une page se fait par l'équipe technique.
 * **Application métier avec contenus éditoriaux embarqués riches/complexe** : un CMS headless est recommandé
 * **Approche hybride application métier / site éditorial** : pas de solution simple et transparente. Il faut faire des compromis (2 solutions avec un style similaire, sous-domaines DNS, gestion du contenu par l'équipe produit, etc.)
 
@@ -27,7 +27,7 @@ Points communs :
 | Permet le dév spécifique | ❌                    | ✅                          | ✅                   | ✅                |
 | Recherche full-text      | ✅                    | ✅                          | ✅                   | ❌                |
 | ProConnect natif         | ❌                    | ✅                          | n/a                  | n/a                |
-| Conformité RGAA          | 50% des critères       | 82% des critères            | n/a                  | n/a                |
+| Conformité RGAA          | 75% des critères       | 82% des critères            | n/a                  | n/a                |
 | DSFR natif               | ✅                    | ✅                          | n/a                  | n/a                |
 | Open source              | ❌                    | ✅                          | ✅                   | ✅                |
 | Stack technique          | Varnish + Drupal + PHP | Wagtail + Django + Python   | Node.js              | Python             |
