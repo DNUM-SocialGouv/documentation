@@ -1,26 +1,31 @@
-# ♻️ Communs numériques
+# ♻️ Solutions et communs numériques
 
-Un commun numérique est une ressource numérique produite et gérée par une communauté d'utilisateurs en selon des règles de gouvernance conjointement élaborées. Tout projet DOIT tenter de réutiliser des communs numériques en suivant ce guide, et PEUT y contribuer.
+La réutilisation de solutions et communs numériques découle d'une [démarche de rationalisation](rationalisation.md).
 
-## Quel commun numérique pour quel projet ?
+Parmi les différentes solutions numériques au catalogue, les communs numériques sont des ressources produites et gérées par une communauté d'utilisateurs selon des règles de gouvernance conjointement élaborées.
+
+Tout produit DOIT réutiliser au maximum les solutions et communs numériques, en suivant les recommandations de ce guide.
+
+## Quelle solution commun numérique pour quel produit ?
 
 Mon produit est un(e)...
 
-* **Site éditorial (ou avec une part significative de contenu éditorial)**
+* **Site éditorial** (ou produit à forte composante éditoriale)
   * pour un gestionnaire de contenus (CMS) : [voir la page dédiée aux CMS](communs-cms.md)
-  * pour un Wiki, une base de connaissance : [**GitBook**](https://www.gitbook.com/) est un Wiki SaaS gratuit avec contenu stocké sur GitHub. Exemples d'usages :
+  * pour un Wiki, une base de connaissance, une FAQ : [**GitBook**](https://www.gitbook.com/) est un Wiki SaaS gratuit avec contenu stocké sur GitHub. Exemples d'usages :
     * Le présent [guide DNUM](https://dnum-ministeres-sociaux.gitbook.io/ressources/) (instance DNUM partagée)
     * [Base de connaissance VAO](https://dnum-ministeres-sociaux.gitbook.io/vao-documentation/t1eK0jUdXMliu8S6UWUr) (instance DNUM partagée)
     * [Base de connaissance Mon Suivi Social](https://mon-suivi-social.gitbook.io/mon-suivi-social) (instance dédiée)
-    * Documentation produit
+    * Documentation produit interne
+    * [Base de connaissance / FAQ DACCORD](https://docs.accord-depot.travail.gouv.fr/)
 * **Démarche administrative en ligne**
-  * pour le **front usager** :
-    * utiliser [Démarche Numérique (ou Démat Social)](communs-demarche-numerique.md) autant que possible, plutôt que de développer une application front spécifique pour chaque besoin métier
-    * en dernier recours, envisager le développement spécifique du front usager
+  * pour le **front-office usager** :
+    * utiliser [Démarche Numérique (ou Démat Social)](communs-demarche-numerique.md) pour éviter le développement spécifique
+    * en dernier recours, envisager le développement spécifique du front-office
   * pour le **back-office agent** :
-    * utiliser les nombreuses fonctionnalités d'administration et d'instruction de Démarche Numérique (ou Démat Social)
-    * si cela ne suffit pas, envisager un back-office complémentaire à Démarche Numérique, sur la base de [Grist](communs-grist.md)
-    * en dernier recours seulement, envisager le développement complet du back-office
+    * utiliser les nombreuses fonctionnalités d'administration et d'instruction de [Démarche Numérique (ou Démat Social)](communs-demarche-numerique.md)
+    * si cela ne suffit pas, envisager un back-office _complémentaire_ à Démarche Numérique (intégration par API)
+    * en dernier recours, envisager le développement spécifique complet du produit
 * **Référentiel de données**
   * Si possible paramétrage front et back sur [Grist](communs-grist.md) pour une application de gestion interne ou à portée et criticité modérée
   * Sinon développement front spécifique sur la base d'un [backend-as-a-service](communs-numeriques.md#backends-as-a-service)

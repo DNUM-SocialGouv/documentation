@@ -1,31 +1,46 @@
 # ♻️ Démarche Numérique et Démat Social
 
-* [**Démarche Numérique**](https://demarche.numerique.gouv.fr/) (anc. Démarches Simplifiées) est un SaaS interministériel de dématérialisation des démarches administratives.
-* [**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarche Numérique, instancié et déployé sur HDS par et pour les Ministères Sociaux.
+[**Démarche Numérique**](https://demarche.numerique.gouv.fr/) (anc. Démarches Simplifiées) est un SaaS interministériel de dématérialisation des démarches administratives.\
+[**Démat Social**](https://demat.social.gouv.fr/) est un fork de Démarche Numérique, déployé sur HDS par et pour les Ministères Sociaux.
 
-## Ce que permet Démarche Numérique
+## Fonctionnalités notables de Démarche Numérique
 
-### Pour le déposant
+### Pour l'usager (particulier, entreprise, association)
+* Déposer un dossier pour soi ou pour autrui
+* Transférer son dossier à une personne pour se faire aider
+* Afficher une interface en anglais
+* Récupérer automatiquement des données sur API Entreprises (DLNUF)
+* Redresser automatiquement une adresse postale via la Base Adresse Nationale
 
-### Pour l'instructeur
-* De faire intervenir ponctuellement des experts externes
-* D'échanger par message avec le déposant
+### Pour l'agent instructeur
+* Echanger par message avec le déposant
+* Annoter un dossier avec des champs et des pièces-jointes propre à l'instruction
+* Faire intervenir ponctuellement des experts externes pour enrichir l'instruction
 
-### Pour l'administrateur
+### Pour l'administrateur de la démarche
+* Paramétrer finement un formulaire avec un large choix de type de données
+* Récupérer automatiquement des données dans un référentiel externe (DLNUF)
+* Inviter des usagers à compléter un formulaire prérempli par l'administration (DLNUF)
+* Définir les règles d'éligibilité à la démarche (ex : déploiement national progressif par région)
+* Paramétrer le routage automatique des dossiers vers les équipes d'instruction (ex : par découpage géographique)
 * Délivrer une attestation PDF en fin de parcours
-* De finement
+* Définir les règles juridiques de la démarche en termes de Silence Vaut Accord (SVA) et Silence Vaut Rejet (SVR)
+* Mesurer la satisfaction grâce au bouton Je donne mon avis (JDMA)
+* S'inspirer des [50 000 démarches déjà existantes dans Démarche Numérique](https://demarche.numerique.gouv.fr/admin/procedures/all)
 
-### Pour le développeur d'application métier
+### Pour le développeur d'application back-office
 * API GraphQL pour récupérer facilement les données nécessaires sur un ensemble de dossiers
+* API GraphQL pour mettre à jour un dossier (statut, message à l'usager...)
 
-## Ce que ne permet PAS Démarche Numérique
-* Personnaliser le workflow de validation des dossiers. L'instruction dans Démarche Numérique reste volontairement assez simple pour ne pas encourager la sur-administration.
-* Conserver des données au-delà de 12 mois. Démarche Numérique n'est pas fait pour gérer un référentiel d'information.
-* Dupliquer une démarche précédente
-* Pour un instructeur, de modifier le dépôt initial du déclarant
-* API REST
+## Limitations de Démarche Numérique
+* Pas de personnaliser du workflow d'instruction. Démarche Numérique reste simple pour ne pas encourager la sur-administration.
+* Pas de conservation des données vivantes au-delà de 12 mois. En revanche il est possible de demander l'archivage sur 5 ans.
+* Pas de duplication ou de mise à jour d'une démarche précédemment terminée
+* Pas de modification des données déposées par l'instructeur (L'instructeur doit demander des modifications à l'usager)
+* Pas d'API REST
+* Pas de garantie de livraison des webhooks (messages sortant vers un autre système). A date, la perte possible d'information limite l'intérêt du webhook au seul déclenchement périodique de batch, dans une logique d'éco-conception.
 
-## Bien choisir entre Démarche Numérique et Démat Social
+## Choisir entre Démarche Numérique et Démat Social
 
 {% hint style="info" %}
 **Sauf contrainte HDS, il est préférable d'utiliser Démarche Numérique plutôt que Démat Social.**
@@ -49,5 +64,5 @@
 
 ## Sources de veille
 * [Documentation complète Démarche Numérique](https://doc.demarches-simplifiees.fr/)
-* [Nouveautés de Démarche Numérique](https://github.com/demarches-simplifiees/demarches-simplifiees.fr/releases)
+* [Nouveautés de Démarche Numérique](https://demarche.numerique.gouv.fr/release_notes)
 * [Salon Tchap de Démarche Numérique](https://www.tchap.gouv.fr/#/room/#demarchessimplifieesS454OP0:agent.dinum.tchap.gouv.fr)

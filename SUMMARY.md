@@ -31,7 +31,7 @@
 * [🎨 Démarche de design](concevoir/README.md)
 * [Recherche utilisateur](concevoir/ru.md)
 * [🩼 Accessibilité](concevoir/accessibilite.md)
-* [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
+* [♻️ Solutions et communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [♻️ Grist](preparer-et-lancer/communs-grist.md)
   * [♻️ Gestion de contenus (CMS)](preparer-et-lancer/communs-cms.md)
