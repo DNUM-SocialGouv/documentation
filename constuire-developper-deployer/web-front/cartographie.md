@@ -45,3 +45,6 @@ Inconvénients d'ArcGIS :
 
 * Vendor lock-in : on implémente dans l'outil, et non autour ou à-côté.
 * Moindre CI/CD
+
+## Sources de veille
+ [Infolettre uMap](https://umap.incubateur.anct.gouv.fr/infolettres/)
