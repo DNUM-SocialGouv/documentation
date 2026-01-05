@@ -19,7 +19,7 @@
 
 ### Pour l'administrateur de la démarche
 * Paramétrer finement un formulaire avec un large choix de type de données
-* Récupérer automatiquement des données dans un référentiel externe (DLNUF)
+* Récupérer automatiquement des données dans un référentiel externe (DLNUF), avec ou sans autosuggestion
 * Inviter des usagers à compléter un formulaire prérempli par l'administration (DLNUF)
 * Définir les règles d'éligibilité à la démarche (ex : déploiement national progressif par région)
 * Paramétrer le routage automatique des dossiers vers les équipes d'instruction (ex : par découpage géographique)
