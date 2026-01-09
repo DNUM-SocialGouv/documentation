@@ -99,6 +99,8 @@ API particulièrement intéressantes pour le MAS :
 
 Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle n'est pas privilégiée.
 
+Pour la mise en place du tracking de votre produit sur MATOMO [lien](./communs-matomo-tracking.md) 
+
 ## Choisir entre Démarches Simplifiées et Démat Social
 
 |                                     | [Démarches Simplifiées](https://demarches.numerique.gouv.fr) | [Démat Social](https://demat.social.gouv.fr/)                                                      |
