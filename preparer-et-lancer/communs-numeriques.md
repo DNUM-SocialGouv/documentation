@@ -88,7 +88,7 @@ Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au max
 
 Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle n'est pas privilégiée.
 
-Pour la mise en place du tracking de votre produit sur MATOMO [lien](./communs-matomo-tracking.md) 
+Pour la mise en place du tracking de votre produit sur MATOMO [lien](communs-matomo-tracking.md) 
 
 ## Pistes explorées et décisions d'architecture
 
