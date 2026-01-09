@@ -166,10 +166,4 @@ with configure_scope() as scope:
         sentry_sdk.capture_message("Test with tag")
 ```
 
-## Contribuer / Licence
-- Contribuer: standard PR, tests, description.
-- Licence: dépend de votre projet / organisation Sentry (SaaS ou self-hosted).
 
----
-
-Pour aller plus loin: lier la documentation avec votre process CI pour automatiser la création de releases et l'upload de sourcemaps, et définir des playbooks d'alerte/triage.
