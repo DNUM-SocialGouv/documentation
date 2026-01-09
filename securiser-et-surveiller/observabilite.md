@@ -21,7 +21,7 @@
 * [ ] Ajouter des alertes et des notifications sur l'environnement de production.
   * Ex : alerte si le P95 des requêtes back-end dépasse 1s.
 
-Pour la mise en place de l'observabilité avec Sentry [lien](/securiser-et-surveiller/documentation-sentry.md) 
+Pour la mise en place de l'observabilité avec Sentry [lien](../securiser-et-surveiller/documentation-sentry.md) 
 
 ## Logs
 
