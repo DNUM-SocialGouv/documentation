@@ -98,7 +98,7 @@ Sans configuration spécifique, Matomo ne collecte pas :
 
 ---
 
-### 4.2 Plan de marquage global
+### 4.2 Exemple de plan de marquage global
 
 | Page | Interaction | Catégorie | Action | Label |
 |----|------------|----------|--------|-------|
@@ -112,13 +112,13 @@ Sans configuration spécifique, Matomo ne collecte pas :
 
 ---
 
-## 7. Implémentation techniques
+## 5. Implémentation techniques
 
 Cette section décrit les événements personnalisés suivis avec Matomo afin de mesurer les interactions clés des utilisateurs.
 
 ---
 
-### 7.1 Clic sur un bouton (CTA)
+### 5.1 Clic sur un bouton (CTA)
 
 **Objectif**  
 Mesurer les clics sur les boutons d’appel à l’action.
@@ -136,7 +136,7 @@ document.getElementById('signup-btn').addEventListener('click', function () {
 });
 </script>
 ```
-### 7.2 Soumission de formulaire
+### 5.2 Soumission de formulaire
 
 **Objectif**  
 Mesurer les soumissions de formulaire
