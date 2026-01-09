@@ -4,22 +4,22 @@
 
 ## Différences entre instances SaaS et DINUM
 
-La version SaaS n'a pas vocation à être utilisée en production. En revanche elle est utile pour certains tests, et il est important de comprendre les différences entre l'instance SaaS et l'instance interministérielle :
+L'offre SaaS n'a pas vocation à être utilisée en production. En revanche il est important de comprendre les différences entre les instances SaaS et DINUM :
 
-|                              | [Version SaaS](https://www.getgrist.com) | [Version DINUM](https://grist.numerique.gouv.fr/) |
-| ---------------------------- | ---------------------------------------- | ------------------------------------------------- |
-| Niveau de licence            | Basic (gratuit) ou Premium (payant)      | Open-Source (gratuit)                             |
-| Entité responsable           | getgrist.com                             | SPN/DINUM/OPI                                     |
-| Hébergement                  | getgrist.com                             | SecNumCloud@Outscale                              |
-| ProConnect                   | Non                                      | Oui                                               |
-| Envoi d'invitation par email | Oui                                      | Non (partager le lien aux utilisateurs)           |
-| Webhooks - urls autorisées   | \*                                       | \*.gouv.fr                                        |
-| Homologation RGS             | Non                                      | Oui                                               |
+|                              | [Offre SaaS](https://www.getgrist.com)   | [Instance DINUM](https://grist.numerique.gouv.fr/) |
+| ---------------------------- | ---------------------------------------- | -------------------------------------------------- |
+| Niveau de licence            | Basic (gratuit) ou Premium (payant)      | Open-Source (gratuit)                              |
+| Entité responsable           | getgrist.com                             | SPN/DINUM/OPI                                      |
+| Hébergement                  | getgrist.com                             | SecNumCloud@Outscale                               |
+| ProConnect                   | ❌                                      | ✅                                                 |
+| Envoi d'invitation par email | ✅                                      | ❌ (partager le lien aux utilisateurs)             |
+| Webhooks - urls autorisées   | \*                                       | \*.gouv.fr                                         |
+| Homologation RGS             | ❌                                      | ✅                                                 |
 
 ## Ressources
 * [Webinaire d'introduction](https://tube.numerique.gouv.fr/w/hMJ8DMj1beqv1D12vpgBKq)
-* [Webinaire permissions avancées](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
-* [Info techniques sur l'hébergement Grist DINUM](https://pad.numerique.gouv.fr/s/l45y9IfKS#Pourquoi-grist-est-en-%E2%80%9Cbeta%E2%80%9D-)
+* [Webinaire pour comprendre les permissions avancées](https://tube.numerique.gouv.fr/w/3u3QfzMv66euFsa4zQDMhm)
+* [Info techniques sur l'hébergement Grist DINUM](https://docs.numerique.gouv.fr/docs/3537d3d6-e8c2-43fb-b530-73b3361083c1/)
 
 ## API
 * [Doc API](https://support.getgrist.com/fr/api/)
@@ -35,6 +35,7 @@ La version SaaS n'a pas vocation à être utilisée en production. En revanche e
 * Grist comme Backend-as-a-service : pour cas très simples seulement car
   * pas possible de propager l'authentification ProConnect au backend Grist
   * pas possible de récupérer les permissions par API
+* Grist DINUM supporte au moins 100 000 lignes dans une même table (REX)
 
 ## Sélection de plugins
 

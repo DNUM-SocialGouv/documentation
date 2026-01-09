@@ -1,7 +1,3 @@
----
-icon: stamp
----
-
 # Architecture Decision Records
 
 Une Fiche de Décision d'Architecture est un document qui capture une décision d'architecture importante. Cette fiche contient le contexte et les conséquences de cette décision.

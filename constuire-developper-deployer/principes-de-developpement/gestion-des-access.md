@@ -25,7 +25,7 @@ La gestion des accès implique nécessairement la recherche de compromis entre :
 1. **Automatiser le provisionnement des accès autant que possible**
 
 * Pour les usagers personnes morales (entreprises, associations), utiliser les **SIRET renvoyés par ProConnect**
-* Pour les agents publics en administration centrale (MAS) ou gérés en central (ARS, DREETS), utiliser :
+* Pour les agents publics en administration centrale (Ministères Sociaux) ou gérés en central (ARS, DREETS), utiliser :
   * l’**entité d’appartenance renvoyée par ProConnect** au format DNUM/SDPSN/DD
   * ou à défaut, le **nom de domaine FQDN de l’email** (ex: @ars.sante.fr, @oise.gouv.fr)
 * Pour les collectivités territoriales, utiliser :

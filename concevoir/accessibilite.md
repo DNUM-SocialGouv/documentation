@@ -20,9 +20,25 @@ L'adoption de l'accessibilité numérique suit ces étapes clés :
 * **Intégration des pratiques d'accessibilité** : appliquer les directives d'accessibilité, comme celles fournies par le DSFR et le RGAA, lors de la conception et du développement de nouveaux produits ou de la mise à jour des produits existants.
 * **Amélioration continue** : utiliser à la fois des tests automatisés et des évaluations manuelles par des utilisateurs ayant un handicap pour s'assurer que les améliorations sont efficaces.
 
+## Déclaration d'accessibilité
+La déclaration d'accessibilité est renseignée par l'auditeur et/ou le chef de projet DNUM. Il est souhaitable d'utiliser la police Marianne.
+
+Le taux de conformité à la norme peut indiquer :
+* Soit le **pourcentage de critères RGAA respectés** obtenu en divisant le nombre de critères validés par le nombre de critères applicables.
+    * Un critère est "validé" s’il est validé sur toutes les pages de l’échantillon. Si un critère est invalidé sur une seule page de l’échantillon, il n'est pas considéré comme valide pour le calcul du taux.
+    * Un critère est "applicable" s’il l'est sur une seule page de l’échantillon. Ce qui a pour corollaire qu’un critère est non applicable s’il est non applicable sur toutes les pages de l’échantillon sans exception.
+* Soit le **taux moyen de conformité du service en ligne** obtenu en faisant la moyenne des taux de conformité de chaque page.
+
+Dans la déclaration d'accessibilité, il faut indiquer le taux de conformité global et une information sur les critères (en nombre ou en pourcentage).
+Pour un taux de conformité de 75%, l'état de l’accessibilité sera « partiellement conforme » et les correctifs à poursuivre porteront sur le taux de conformité aux 106 critères du RGAA (dans sa dernière version). 
+
+## Ressources
+* Exemple de déclaration d’accessibilité : https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/
+* Générateur de déclaration de conformité : https://betagouv.github.io/a11y-generateur-declaration/#create
+
 ## Exemples de sites accessibles à 100%
-[Mon Parcours Handicap](https://www.monparcourshandicap.gouv.fr/)
-[Service Public](https://www.service-public.gouv.fr/)
-[Crit'Air](https://www.certificat-air.gouv.fr/)
-[Choisir le service public](https://choisirleservicepublic.gouv.fr/)
-[L'aide juridictionnelle](https://www.aidejuridictionnelle.justice.fr/)
+* [Mon Parcours Handicap](https://www.monparcourshandicap.gouv.fr/)
+* [Service Public](https://www.service-public.gouv.fr/)
+* [Crit'Air](https://www.certificat-air.gouv.fr/)
+* [Choisir le service public](https://choisirleservicepublic.gouv.fr/)
+* [L'aide juridictionnelle](https://www.aidejuridictionnelle.justice.fr/)

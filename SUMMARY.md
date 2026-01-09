@@ -31,10 +31,11 @@
 * [🎨 Démarche de design](concevoir/README.md)
 * [Recherche utilisateur](concevoir/ru.md)
 * [🩼 Accessibilité](concevoir/accessibilite.md)
-* [♻️ Communs numériques](preparer-et-lancer/communs-numeriques.md)
+* [♻️ Solutions et communs numériques](preparer-et-lancer/communs-numeriques.md)
   * [♻️ Démarche de rationalisation](preparer-et-lancer/rationalisation.md)
   * [♻️ Grist](preparer-et-lancer/communs-grist.md)
-  * [♻️ CMS Ondine](preparer-et-lancer/communs-ondine.md)
+  * [♻️ Gestion de contenus (CMS)](preparer-et-lancer/communs-cms.md)
+  * [♻️ Démarche Numérique et Démat Social](preparer-et-lancer/communs-demarche-numerique.md)
 * [🌳 Eco-conception](concevoir/eco-conception.md)
 * [🔒 Authentification des utilisateurs](concevoir/authentification.md)
   * [🔒 ProConnect](concevoir/authentification-proconnect.md)
@@ -49,7 +50,6 @@
   * [🔌 Exposition d'API](concevoir/api/api-gateway.md)
   * [🔌 PISTE](concevoir/api/api-piste.md)
   * [🔌 Sécurisation d'API](concevoir/api/api-securite.md)
-* [Architecture Decision Records](concevoir/architecture-decision-record.md)
 
 ## DEVELOPPER
 
@@ -71,7 +71,8 @@
   * [🧪 Tests de performance](constuire-developper-deployer/tests-et-strategies/tests-de-performance.md)
 * [✅ Intégration continue (CI)](constuire-developper-deployer/ci.md)
 * [📲 Déploiement continu (CD)](constuire-developper-deployer/cd.md)
-* [🔁 Passation des projets](constuire-developper-deployer/passation.md)
+* [🔁 Passation des projets internes](constuire-developper-deployer/passation.md)
+* [🗒️ Architecture Decision Records](concevoir/architecture-decision-record.md)
 
 ## DEPLOYER
 
@@ -92,9 +93,6 @@
 ## AIDE
 
 * 🛎️ Etre accompagné
-  * [🛎️ Accompagnement technique](preparer-et-lancer/accompagnement-tech/README.md)
+  * [🛎️ Accompagnement technique](preparer-et-lancer/accompagnement-tech/accompagnement-technique.md)
   * [📄 Dossier d'Architecture](preparer-et-lancer/accompagnement-tech/règles-de-collaboration-architecte.md)
-  * [🩺 Diagnostic technique](preparer-et-lancer/accompagnement-tech/diagnostic-et-recommandations.md)
-  * [Accompagnement pour définir l'architecture](preparer-et-lancer/accompagnement-tech/accompagnement-pour-definir-larchitecture.md)
-  * [👨‍💻 Mise en œuvre](preparer-et-lancer/accompagnement-tech/mise-en-oeuvre.md)
 * [✒️ Contribuer au guide](contribuer.md)

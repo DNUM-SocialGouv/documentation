@@ -75,7 +75,7 @@ Exception : Pro Santé Connect surpasse ProConnect en termes d'obligation régle
 
 * **Faut-il un serveur Keycloak avec ProConnect ?**
 Non, un serveur d'authentification Keycloak est inutile dans la plupart des cas.\
-Exception : l'application métier est un progiciel dont le paramétrage ne permet pas de satisfaire aux spécifications de ProConnect.
+Exception : le produit est un progiciel dont le paramétrage ne permet pas de satisfaire aux spécifications de ProConnect.
 
 ## Sources de veille
 * [Salon Tchap "ProConnect - Support et retex"](https://www.tchap.gouv.fr/#/room/!kBghcRpyMNThkFQjdW:agent.dinum.tchap.gouv.fr)
