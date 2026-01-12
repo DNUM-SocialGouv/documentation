@@ -127,15 +127,7 @@ Exemple de règle: "Alerter si > 5 erreurs nouvelles en 5 minutes".
 - Activer debug/logging SDK (ex: debug: true) pour voir en local.
 - Vérifier quotas et ingestion dans Sentry.
 
-## FAQ (rapide)
-Q: Comment tracker une exception manuellement ?
-A: use captureException(e) ou captureMessage("...").
-
-Q: Comment associer une release à des commits ?
-A: Lier repository (GitHub/GitLab) et envoyer release via API ou CI.
-
-## Exemple de tableau
-Tableau présentant les SDKs supportés et l'usage recommandé:
+## Tableau présentant les SDKs supportés et l'usage recommandé:
 
 | Langage / Plateforme | SDK recommandé           | Usage principal        |
 |----------------------|-------------------------|------------------------|
@@ -145,7 +137,7 @@ Tableau présentant les SDKs supportés et l'usage recommandé:
 | Java                 | sentry-java / sentry-spring | Applications JVM     |
 | mobile (iOS/Android) | sentry-cocoa / sentry-android | Applications mobiles |
 
-## Exemples rapides
+## Exemples 
 Capturer une erreur manuelle (JS):
 ```javascript
 try {
