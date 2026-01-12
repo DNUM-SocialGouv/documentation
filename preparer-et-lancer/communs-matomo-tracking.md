@@ -2,20 +2,19 @@
 
 ---
 
-## 1. Introduction
-Ce document a pour objectif de fourir les connaissance de base pour la mise en place du tracking avec Matomo
-
-### Objectifs principaux du tracking
-- Comprendre le comportement des utilisateurs 
-- Mesurer la performance du site 
-- Optimiser les conversions
+## Objectifs principaux du tracking
+Ce document a pour objectif de fournir les connaissances de base pour la mise en place du tracking avec Matomo
+ 
+- Comprendre le comportement des utilisateurs
+- Mesurer la performance du site
 - Aider à la prise de décision
 - Améliorer l’expérience utilisateur
 - Respecter les obligations légales (RGPD)
+- _Optimiser les conversions_
 
 ---
 
-## 2. Architecture du tracking
+## Architecture du tracking
 
 ### Outils
 - Matomo Analytics
@@ -25,20 +24,19 @@ Ce document a pour objectif de fourir les connaissance de base pour la mise en p
 ### Types de données collectées
 - Données d'audience
 - Données de navigation
-- Données d'intéraction
-- Données de Conversions (Goals)
-- Données E-commerce
-- Données performance
+- Données d'interaction
+- Données de performance
+- _Données de conversions (Goals)_
 
 ---
 
-## 3. Mise en place du tracking Matomo
-Demander à l'administrateur la création d'un compte Matomo pour votre produit, il vous fournira : 
-- Le tracking code 
+## Mise en place du tracking Matomo
+Demander à l'administrateur la création d'un compte Matomo pour le produit. Il fournira : 
+- Le tracking code
 - l'URL du serveur Matomo (MATOMO_URL)
-- l'identifiant du site de suiv dans Matomo (IDSITE)
+- l'identifiant du site de suivi dans Matomo (IDSITE)
 
-### 3.1 Ajout du tracking code 
+### Ajout du tracking code 
 
 À intégrer sur toutes les pages du site, juste après la balise `<body>` (ou dans la balise `<head>`)
 
@@ -59,7 +57,7 @@ Demander à l'administrateur la création d'un compte Matomo pour votre produit,
 <!-- End Matomo Code -->
 ```
 
-### 3.2 Éléments trackés par défaut avec le code tracking Matomo 
+### Éléments trackés par défaut avec le code tracking Matomo 
 
 | Catégorie                        | Tracké par défaut |
 | -------------------------------- | ----------------- |
@@ -75,7 +73,7 @@ Demander à l'administrateur la création d'un compte Matomo pour votre produit,
 | Données personnelles             | ❌                 |
 * si enableLinkTracking() est présent.
 
-### 3.3 Éléments NON trackés par défaut
+### Éléments NON trackés par défaut
 Sans configuration spécifique, Matomo ne collecte pas :
 - Événements personnalisés (clics sur boutons)
 - Soumissions de formulaires
@@ -85,9 +83,9 @@ Sans configuration spécifique, Matomo ne collecte pas :
 - Données personnelles nominatives (nom, email, etc.)
 - Contenu des formulaires
 
-## 4. Plan de marquage (Measurement Plan)
+## Plan de marquage (Measurement Plan)
 
-### 4.1 Conventions de nommage
+### Conventions de nommage
 
 | Élément | Règle |
 |-------|------|
@@ -98,7 +96,7 @@ Sans configuration spécifique, Matomo ne collecte pas :
 
 ---
 
-### 4.2 Exemple de plan de marquage global
+### Exemple de plan de marquage global
 
 | Page | Interaction | Catégorie | Action | Label |
 |----|------------|----------|--------|-------|
@@ -112,13 +110,11 @@ Sans configuration spécifique, Matomo ne collecte pas :
 
 ---
 
-## 5. Implémentation techniques
+## Implémentation techniques
 
 Cette section décrit les événements personnalisés suivis avec Matomo afin de mesurer les interactions clés des utilisateurs.
 
----
-
-### 5.1 Clic sur un bouton (CTA)
+### Clic sur un bouton (CTA)
 
 **Objectif**  
 Mesurer les clics sur les boutons d’appel à l’action.
@@ -136,7 +132,7 @@ document.getElementById('signup-btn').addEventListener('click', function () {
 });
 </script>
 ```
-### 5.2 Soumission de formulaire
+### Soumission de formulaire
 
 **Objectif**  
 Mesurer les soumissions de formulaire
