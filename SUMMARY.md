@@ -83,6 +83,7 @@
   * [🔒 Chiffrement des données](securiser-et-surveiller/securite/chiffrement.md)
 * [👀 Observabilité](securiser-et-surveiller/observabilite.md)
   * [👀 Métriques de performance applicative (APM)](securiser-et-surveiller/metriques-de-performance-applicative-apm.md)
+  * [👀 Sentry](securiser-et-surveiller/documentation-sentry.md)
 * [⏩ Conduite du changement](conduire-le-changement/README.md)
   * [📢 Communiquer et promouvoir](conduire-le-changement/communication-promotion.md)
   * [🧑‍🎓 Formation](conduire-le-changement/formation.md)
