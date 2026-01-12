@@ -11,16 +11,16 @@ Document destiné aux développeurs et ingénieurs DevOps souhaitant intégrer S
 ## Prérequis
 - Compte Sentry (self-hosted ou SaaS)
 - DSN (Data Source Name) fourni par Sentry
-- Accès au dépôt et CI/CD si vous utilisez releases
+- Accès au dépôt et CI/CD si "releases" est utilisé
 
 ## Installation rapide
-Remplacez `YOUR_DSN` par votre DSN réel (ne pas le publier en clair).
+Remplacer `YOUR_DSN` par le DSN réel (ne pas le publier en clair).
 
-JavaScript (browser):
+JavaScript (browser) :
 ```bash
 npm install @sentry/browser
 ```
-Python:
+Python :
 ```bash
 pip install sentry-sdk
 ```
@@ -80,16 +80,16 @@ DSN
 - Chaîne utilisée par les SDK pour authentifier et adresser les événements vers le projet Sentry.
 
 Environnements & Releases
-- Environnement: "production", "staging", "development".
-- Release: version de l'application utilisée pour associer erreurs et commits.
+- Environnement : "production", "staging", "development".
+- Release : version de l'application utilisée pour associer erreurs et commits.
 
 Breadcrumbs
 - Petits indices (logs, requêtes) qui mènent à l'erreur. À enrichir (user actions, network).
 
 Tags / Context / Scope
-- Tags: paires clé/valeur pour filtrer et regrouper.
-- Context: informations structurées (OS, runtime, custom).
-- User: id, email pour identifier les utilisateurs affectés.
+- Tags : paires clé/valeur pour filtrer et regrouper.
+- Context : informations structurées (OS, runtime, custom).
+- User : id, email pour identifier les utilisateurs affectés.
 
 Grouping & Issues
 - Sentry groupe les événements similaires en "issues". Configurable via fingerprinting.
@@ -99,8 +99,8 @@ Performance (Tracing)
 
 ## Alerting & Notifications
 - Règles d'alerte basées sur events, frequency, regression, adoption.
-- Intégrations: Slack, PagerDuty, Email, Webhooks.
-Exemple de règle: "Alerter si > 5 erreurs nouvelles en 5 minutes".
+- Intégrations : Slack, PagerDuty, Email, Webhooks.
+Exemple de règle : "Alerter si > 5 erreurs nouvelles en 5 minutes".
 
 ## Intégrations courantes
 - Source maps (JS)
@@ -113,18 +113,18 @@ Exemple de règle: "Alerter si > 5 erreurs nouvelles en 5 minutes".
 - Ne pas logguer de données sensibles (PII).
 - Utiliser releases et associer commits.
 - Filtrer les erreurs non-actionnables (bots, healthchecks).
-- Régler sample rate pour éviter coûts élevés.
+- Régler sample rate pour éviter des coûts élevés.
 - Tester les intégrations (captureMessage, captureException).
 
 ## Sécurité et confidentialité
-- Masquer/filtrer champs sensibles via beforeSend ou transformations.
+- Masquer/filtrer les champs sensibles via beforeSend ou transformations.
 - Ne pas inclure de tokens/credentials dans le payload.
 - Respecter la GDPR en anonymisant les données personnelles.
 
 ## Dépannage
 - Vérifier que le DSN est correct.
 - Contrôler la configuration réseau/proxy.
-- Activer debug/logging SDK (ex: debug: true) pour voir en local.
+- Activer debug/logging SDK (ex : debug: true) pour voir en local.
 - Vérifier quotas et ingestion dans Sentry.
 
 ## Tableau présentant les SDKs supportés et l'usage recommandé:
@@ -138,7 +138,7 @@ Exemple de règle: "Alerter si > 5 erreurs nouvelles en 5 minutes".
 | mobile (iOS/Android) | sentry-cocoa / sentry-android | Applications mobiles |
 
 ## Exemples 
-Capturer une erreur manuelle (JS):
+Capturer une erreur manuelle (JS) :
 ```javascript
 try {
     doSomething();
@@ -147,7 +147,7 @@ try {
 }
 ```
 
-Ajouter un tag (Python):
+Ajouter un tag (Python) :
 ```python
 from sentry_sdk import configure_scope
 
@@ -157,5 +157,3 @@ with configure_scope() as scope:
         # then capture
         sentry_sdk.capture_message("Test with tag")
 ```
-
-
