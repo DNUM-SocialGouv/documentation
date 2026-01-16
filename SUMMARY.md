@@ -70,6 +70,7 @@
 * [🧪 Stratégies de tests](constuire-developper-deployer/tests-et-strategies/README.md)
   * [🧪 Tests de bout en bout](constuire-developper-deployer/tests-et-strategies/tests-de-bout-en-bout.md)
   * [🧪 Tests de performance](constuire-developper-deployer/tests-et-strategies/tests-de-performance.md)
+* [🧩 Anonymisation des données : cadre opérationnel & trajectoire PCN](developper/anonymisation-des-donnees-cadre-operationnel-and-trajectoire-pcn.md)
 * [✅ Intégration continue (CI)](constuire-developper-deployer/ci.md)
 * [📲 Déploiement continu (CD)](constuire-developper-deployer/cd.md)
 * [🔁 Passation des projets internes](constuire-developper-deployer/passation.md)
