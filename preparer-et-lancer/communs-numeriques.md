@@ -44,7 +44,9 @@ Mon produit est un(e)...
 La plupart des APIs du service public sont référencées sur [https://www.data.gouv.fr/dataservices](https://www.data.gouv.fr/dataservices)
 
 ## API internes
+
 Les API [https://arssante.opendatasoft.com/](https://arssante.opendatasoft.com/) :
+
 * API des établissements de santé (données FINESS)
 * API des professionnels de santé (données RPPS)
 
@@ -76,6 +78,12 @@ Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au max
   * l'API de l'instance DINUM est limitée à 10 appels en parallèle par document Grist
 * Manifest.build a été écarté car trop limité
 
+### Pistes explorées et décisions d'architecture
+
+* **GLPI** écarté en 04/2025 (workflow pas assez contraignant pour le métier et pas paramétrable ; pas 12-factors (stockage FS) ; peu accessible)
+* **Manifest.build** est un Backend-as-a-Service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
+* **Directus.io** est un Backend-as-a-Service satisfaisant mais a été écarté à cause de son coût de licence
+
 ## Matomo pour la mesure d'audience
 
 [Matomo](https://matomo.org/) est la solution de mesure d'audience et d'utilisation de nos services numériques (web analytics). Tout projet DEVRAIT réutiliser l'une des 3 instances de Matomo existantes :
@@ -88,10 +96,5 @@ Des lors qu'il y a développement spécifique, le projet DOIT réutiliser au max
 
 Bien qu'[Eulerian](https://www.eulerian.com/) soit une solution souveraine, elle n'est pas privilégiée.
 
-Pour la mise en place du tracking de votre produit sur MATOMO [lien](communs-matomo-tracking.md) 
+Pour la mise en place du tracking de votre produit sur MATOMO [lien](communs-matomo-tracking.md)
 
-## Pistes explorées et décisions d'architecture
-
-* **GLPI** écarté en 04/2025 (workflow pas assez contraignant pour le métier et pas paramétrable ; pas 12-factors (stockage FS) ; peu accessible)
-* **Manifest.build** est un Backend-as-a-Service open source en JS. Convient pour des besoins CRUD simple. Très limité sur l'authentification et la gestion des droits.
-* **Directus.io** est un Backend-as-a-Service satisfaisant mais a été écarté à cause de son coût de licence

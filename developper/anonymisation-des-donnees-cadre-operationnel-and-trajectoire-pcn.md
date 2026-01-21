@@ -32,7 +32,7 @@ Elle ne couvre pas (encore) :
 L’anonymisation vise à rendre impossible, en pratique et de manière irréversible, l’identification d’une personne. Lorsqu’elle est correctement réalisée, la donnée sort du champ RGPD.\
 La pseudonymisation, elle, remplace un identifiant par un alias, mais la ré‑identification reste possible via une clé séparée : **le RGPD continue de s’appliquer**.
 
-Pour aller plus loin : <br>
+
 
 #### **2.2 Risques à éviter**
 
@@ -115,7 +115,7 @@ Ne collecter que les données nécessaires, supprimer ce qui ne sert plus.\
 
 #### **6.2 Pas de données personnelles réelles en non‑prod**
 
-C’est un principe dur, non négociable. Toute circulation vers non‑prod doit être **anonymisée au préalable**.
+Toute circulation vers non‑prod doit être **anonymisée au préalable**.
 
 #### **6.3 Logs et traces sans données personnelles identifiables**
 
@@ -176,11 +176,6 @@ L’équipe met en place son anonymisation à l’aide de :
 * Faible traçabilité RGPD.
 * Scalabilité limitée si volumes importants.
 
-#### Remarque structurante
-
-> _Mieux vaut disposer d’une anonymisation simple, perfectible, mais réellement en place, que d’attendre une solution future encore incertaine._\
-> &#xNAN;_&#x4C;’important est de réduire le risque et d’éviter la circulation de données réelles hors prod._
-
 ***
 
 ### **Option B — Appui sur un outil existant**
@@ -203,7 +198,7 @@ Masquage dynamique+statique au niveau base.\
 #### Limites
 
 * Besoin de coordination avec les hébergeurs.
-* Pas activable partout immédiatement.
+* Pas activable partout immédiatement ([un accompagnement](../preparer-et-lancer/accompagnement-tech/accompagnement-technique.md) peut être déclenchée pour faciliter la mise en œuvre dans votre contexte).
 
 ***
 
