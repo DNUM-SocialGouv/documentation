@@ -236,7 +236,7 @@ Les projets en tension (délais, volumes, risques) doivent **remonter** leur bes
 
 ***
 
-## **9. Acteurs impliqués (version narrative, sans RACI)**
+## **9. Acteurs impliqués**
 
 #### **Équipe produit**
 
@@ -273,7 +273,6 @@ Les projets en tension (délais, volumes, risques) doivent **remonter** leur bes
 Cette page propose une trajectoire **réaliste, progressive et adaptée** à la diversité de nos produits et à la maturité actuelle de l’organisation.
 
 * **Court terme** : une solution simple, autonome, “qui marche”.
-* **Moyen terme** : plusieurs chemins possibles, à prioriser plus tard.
+* **Moyen terme** : plusieurs chemins possibles, à prioriser.
 * **Cap général** : ne pas laisser circuler de données personnelles réelles hors production, et avancer même si la solution n’est pas idéale.
 
-La maturité viendra progressivement : l’essentiel est d’être **en mouvement**, en cohérence avec les exigences réglementaires et les moyens réels des équipes.
