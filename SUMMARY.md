@@ -43,6 +43,7 @@
   * [🔒 Pro Santé Connect](concevoir/authentification-pro-sante-connect.md)
   * [🔒 Plage / Pasrel](concevoir/authentification-plage-pasrel.md)
 * [🇫🇷 En-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
+* [📄 Dossier d'Architecture](concevoir/dossier-architecture.md)
 * [Data](concevoir/data/README.md)
   * [PostgreSQL](concevoir/data/postgresql.md)
   * [🔍 ElasticSearch](concevoir/data/elasticsearch.md)
@@ -97,5 +98,4 @@
 
 * [🛎️ Etre accompagné](aide/etre-accompagne/README.md)
   * [🛎️ Accompagnement technique](preparer-et-lancer/accompagnement-tech/accompagnement-technique.md)
-  * [📄 Dossier d'Architecture](preparer-et-lancer/accompagnement-tech/règles-de-collaboration-architecte.md)
 * [✒️ Contribuer au guide](contribuer.md)
