@@ -4,8 +4,19 @@ description: >-
   formation ou de support et améliore la satisfaction de toutes les parties
   prenantes.
 layout:
+  width: default
+  title:
+    visible: true
   description:
     visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # 🎨 Démarche de design
@@ -32,9 +43,9 @@ Le processus de design se déroule en trois grandes étapes :
 
 ### Check‑list de bonnes pratiques
 
-Pour s’assurer que la démarche de design est correctement mise en œuvre, les chefs de produit et designers peuvent suivre cette check‑list :
+Pour s’assurer que la démarche de design est correctement mise en œuvre, les chefs de produit et leur designer peuvent suivre cette check‑list :
 
-* [ ] S’appuyer sur un·e designer référent·e
+* [ ] S’appuyer sur le designer pour :
   * [ ] Organiser un atelier de lancement avec les parties prenantes.
   * [ ] S'assurer de la présence du référent dans toutes les instances de vie du produit.
   * [ ] Créer un canal de conversation partagé avec toutes les parties prenantes.
@@ -44,10 +55,10 @@ Pour s’assurer que la démarche de design est correctement mise en œuvre, les
 * [ ] Collecter des inspirations et analogies pour nourrir la conception.
 * [ ] Proposer plusieurs pistes d’interface par parcours (au moins trois idées) et choisir sur la base des tests.
 * [ ] Veiller à ce que les maquettes respectent :
-  * [ ] le DSFR,&#x20;
+  * [ ] le DSFR,
   * [ ] la marque Etat,
-  * [ ] le RGAA,&#x20;
-  * [ ] le RGESN,&#x20;
+  * [ ] le RGAA,
+  * [ ] le RGESN,
   * [ ] et intègrent les annotations d’accessibilité et de responsive design.
 * [ ] Organiser des tests utilisateurs (au moins cinq par profil d'utilisateur, tous les 3 mois) et itérer selon les retours.
 * [ ] Évaluer l’effort et l’impact de chaque évolution et garder la documentation à jour.

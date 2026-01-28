@@ -40,9 +40,11 @@ Ne sont **pas soumis** à agrément :
 
 ## Les acteurs impliqués
 
-<table><thead><tr><th width="195.7734375">Acteur</th><th>Rôle principal</th></tr></thead><tbody><tr><td><strong>DICOM</strong></td><td>Guichet unique pour les demandes d’agrément SIG. Centralise les dossiers et assure la cohérence de la communication gouvernementale.</td></tr><tr><td><strong>DNUM</strong></td><td>Garantit la conformité technique, la qualité du design et l’accessibilité des services numériques.</td></tr><tr><td><strong>Responsable design</strong></td><td>Veille à l’intégration du DSFR et à la conception centrée usagers.</td></tr><tr><td><strong>SIG</strong></td><td>Délivre les agréments de principe et définitifs pour tous les sites et applications publics de l’État.</td></tr><tr><td><strong>Référents DAC</strong></td><td>Assurent la sensibilisation et le suivi des produits de leur direction.</td></tr></tbody></table>
+<table><thead><tr><th width="195.7734375">Acteur</th><th>Rôle principal</th></tr></thead><tbody><tr><td><strong>SIG</strong></td><td>Délivre les agréments de principe et définitifs pour tous les sites et applications publics de l’État.</td></tr><tr><td><strong>DICOM</strong></td><td>Guichet unique pour les demandes d’agrément SIG. Centralise les dossiers et assure la cohérence de la communication gouvernementale.</td></tr><tr><td><strong>DNUM</strong></td><td>Garantit la conformité technique, la qualité du design et l’accessibilité des services numériques.</td></tr><tr><td><strong>Responsable design</strong></td><td>Veille à l’intégration du DSFR et à la conception centrée usagers.</td></tr><tr><td><strong>Référents DAC</strong></td><td>Assurent la sensibilisation et le suivi des produits de leur direction.</td></tr></tbody></table>
 
 ***
+
+<figure><img src="../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
 
 ## Détail des étapes
 
@@ -58,7 +60,7 @@ Fournir un **formulaire de cadrage** précisant :
 * Type (création/refonte)
 * Calendrier et budget prévisionnel
 * URL envisagée
-* Engagements de conformité (DSFR, RGAA ≥ 75 %, CNIL, etc.)
+* Engagements de conformité (DSFR, RGAA ≥ 80 %, CNIL, etc.)
 
 Une **réunion de coordination** est ensuite organisée entre la DICOM, la DNUM et le responsable design.
 
@@ -101,7 +103,7 @@ Points de vérification :
 * Audit d’accessibilité RGAA (> 80 %, 100% 6 mois après le lancement)
 * Conformité DSFR et marque de l’État
 * Outil de mesure d’audience conforme CNIL
-* Restitution des tests utilisateurs (≥ 5 profils testés)
+* Restitution des tests utilisateurs (≥ 5 personnes testés par profil usager)
 * Homologation RGS
 * Conformité RGPD
 
@@ -115,6 +117,8 @@ L’agrément définitif peut être :
 
 ***
 
+<figure><img src="../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
+
 ## Cas particuliers
 
 ### Noms de domaine et redirections
@@ -125,10 +129,22 @@ Toute nouvelle URL ou redirection vers un site en `.gouv.fr` nécessite égaleme
 
 Un nouvel agrément doit être demandé en cas d’évolution majeure de l’interface ou du périmètre d’usage.
 
+### Méthode produit et phases de test&#x20;
+
+Dans une logique de fonctionnement itératif propre à la méthode produit, il peut être nécessaire de lancer un service en environnement de test, en pré-production ou en version bêta afin d’évaluer des hypothèses d’usage, de mesurer l’impact des évolutions ou de conduire des tests utilisateurs.&#x20;
+
+Dans ces situations, l'agrément de principe doit être obtenu. L'agrément de principe autorise la mise en ligne contrôlée du service dans un périmètre restreint, sous-domaine ou dispositif expérimental, à condition que :&#x20;
+
+* l’équipe produit s’engage à respecter les exigences minimales de conformité (DSFR, accessibilité, sécurité, marque de l’État) nécessaires à une exposition publique même limitée ;&#x20;
+* le périmètre de l’expérimentation, la durée et les modalités d’accès soient clairement définis ;&#x20;
+* les retours utilisateurs recueillis pendant cette phase soient utilisés pour itérer en vue de l’agrément définitif.&#x20;
+
+L’agrément définitif reste obligatoire avant une mise en production générale ou une ouverture grand public.&#x20;
+
 ***
 
 ## Suivi et accompagnement
 
 Un suivi des projets agréés est assuré conjointement par la DICOM et la DNUM :\
 → pour évaluer les délais, les difficultés et la conformité des projets ;\
-→ pour partager les mises à jour de la procédure et organiser une réunion annuelle avec les référents DAC.
+→ pour partager les mises à jour de la procédure.
