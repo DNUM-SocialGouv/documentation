@@ -93,6 +93,6 @@ Dans le doute, demander à la DICOM et au responsable du design avant d’engage
 
 <p align="center">Exemple d'en-tête de site serviciel sans logo avec le bloc-marque ministériel, le nom du site et sa description</p>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Exemple d'en-tête de site serviciel avec le bloc-marque République Française, le nom du site et sa description</p>

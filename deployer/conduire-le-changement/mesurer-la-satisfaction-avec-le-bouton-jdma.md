@@ -4,20 +4,38 @@ description: >-
   Donne Mon Avis sur nos sites et produits.
 icon: star-sharp-half-stroke
 layout:
+  width: default
+  title:
+    visible: true
   description:
     visible: false
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+  metadata:
+    visible: true
 ---
 
 # Mesurer la satisfaction avec le bouton JDMA
 
-Le bouton Je donne mon avis (JDMA) est un module standardisé, intégré dans les sites ou applications publiques, composé de quatre étapes principales qui permet aux usagers et agents de donner un retour rapide sur la qualité d’un service numérique de l’État.
+Le bouton **Je donne mon avis (JDMA)** est un module standardisé permettant de recueillir, directement depuis une interface numérique de l’État, le ressenti des usagers comme des agents sur leur expérience.
 
-Le bouton JDMA répond à plusieurs exigences des circulaires du 7 et 13 juillet 2023 (DINUM et SIG) :
+Intégré à un site, une démarche en ligne ou une application métier, il offre un moyen simple et rapide de mesurer la satisfaction, de collecter des verbatim exploitables et d’identifier certains irritants du parcours réel.
 
-* Mesurer la satisfaction des usagers directement depuis les interfaces de service.
-* Recueillir des verbatim exploitables pour guider les améliorations continues.
-* Contribuer à l’objectif interministériel : atteindre un indice de satisfaction supérieur à 8/10.
-* Appuyer la conception centrée usager et l’évaluation qualitative du parcours.
+Le bouton JDMA répond à plusieurs exigences des circulaires du 7 juillet 2023 (DINUM et SIG) :
+
+* mesurer la satisfaction au plus près de l’usage, sans interrompre le parcours.
+* recueillir des verbatim exploitables pour guider les améliorations continues.
+* contribuer à l’objectif interministériel : atteindre un indice de satisfaction supérieur à 8/10.
+* appuyer une démarche de conception centrée utilisateur.
+
+Afin de maximiser le nombre de retours et d’en assurer la pertinence, le bouton JDMA doit être intégré de manière :
+
+* **contextuelle** : placé au bon endroit et au bon moment du parcours ;
+* **pertinente** : associé à une demande claire, compréhensible et adaptée au public cible (usager ou agent).
 
 > Son intégration est obligatoire pour les démarches recensées dans l’[Observatoire de la qualité des services numériques](https://observatoire.numerique.gouv.fr/), et fortement recommandée pour les autres produits et outils numériques de l’État.
 
@@ -36,12 +54,13 @@ Ressources et références :
 * [Démarche de test - Exemple de formulaire JDMA](https://jedonnemonavis.numerique.gouv.fr/Demarches/3119)
 * [Démarche de test - Exemple de statistiques disponibles](https://jedonnemonavis.numerique.gouv.fr/public/product/3119/stats)
 
-
-<figure><img src="../../.gitbook/assets/image (3).png" alt="Bouton JDMA, novembre 2025"><figcaption>Bouton JDMA, novembre 2025</figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt="Bouton JDMA, novembre 2025"><figcaption><p>Bouton JDMA, novembre 2025</p></figcaption></figure>
 
 ***
 
 ### Questions du formulaire "Je donne mon avis"
+
+Le formulaire est composé de 4 questions, donc deux sont optionnelles.
 
 <figure><img src="../../.gitbook/assets/1.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -78,11 +97,17 @@ Le bon emplacement dépend du type de produit et de sa cible principale :
 * Types de produits : démarche ou vitrine/applicatif
 * Publics cibles :
   * Grand public (usagers particuliers et professionnels),
-  * Interne (agents ou partenaires).
+  * Interne (application métier pour les agents ou partenaires).
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><mark style="color:$info;">Emplacement générique et modification du formulaire en fonction du public et du type de site</mark></p>
+
+<p align="center"></p>
+
+<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+<p align="center"><mark style="color:$info;">Exemple de paramétrage du formulaire pour une application interne, application métier.</mark></p>
 
 ***
 
@@ -105,13 +130,11 @@ Il est possible de créer plusieurs emplacements du même formulaire et suivre l
 
 ***
 
-### Exemples
+### Exemples de bonnes pratiques
 
-1. Placement du bouton JDMA en fin de démarche. Placer le bloc du bouton en fin après les informations essentielles pour l'utilisateur. S'assurer que le bloc qui contient le bouton JDMA est aligné avec le corps de page, travailler l'espacement et la hiérarchie visuelle.
+1. Placement du bouton JDMA en fin de démarche. Placer le bloc du bouton en bas de page après les informations essentielles pour l'utilisateur. S'assurer que le bloc qui contient le bouton JDMA est aligné avec le corps de page, travailler l'espacement et la hiérarchie visuelle.
 
 <figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
-
-
 
 2. Placement en bas de page. Positionner juste au dessus du footer.
 
@@ -121,8 +144,6 @@ Il est possible de créer plusieurs emplacements du même formulaire et suivre l
 3\. Emplacement dans un e-mail de confirmation de démarche
 
 <figure><img src="../../.gitbook/assets/image (16).png" alt=""><figcaption></figcaption></figure>
-
-
 
 4. Emplacement dans un e-mail dédié
 
