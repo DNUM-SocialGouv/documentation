@@ -32,8 +32,6 @@ Elle ne couvre pas (encore) :
 L’anonymisation vise à rendre impossible, en pratique et de manière irréversible, l’identification d’une personne. Lorsqu’elle est correctement réalisée, la donnée sort du champ RGPD.\
 La pseudonymisation, elle, remplace un identifiant par un alias, mais la ré‑identification reste possible via une clé séparée : **le RGPD continue de s’appliquer**.
 
-
-
 #### **2.2 Risques à éviter**
 
 Les trois risques classiques à maîtriser sont :
@@ -56,14 +54,27 @@ _Lecture (en diagonale à minima) recommandée avant de poursuivre la lecture de
 ### **3. Schéma simple – Avant / Après**
 
 ```
-        ┌─────────────┐         Export / Copie          ┌─────────────────┐
-        │   PROD       │   -------------------------->   │ Schéma travail  │
-        │  (réel)      │                                 │ (anonymisé)     │
-        └─────────────┘                                   └─────────────────┘
-                                 Anonymisation
-                                         \
-                                          \------> Environnements non‑prod
-                                                 (intégration, préprod, TNR, perfs…)
+              ┌───────────────┐
+              │Collecte (prod)│
+              └──────┬────────┘
+                     │
+                     ▼
+             ┌────────────────────┐
+             │ Données réelles    │
+             │  (production)      │
+             └──────┬─────────────┘
+                     │
+                     ▼
+        ┌────────────────────────────┐
+        │ Anonymisation (règles +    │
+        │ génération d’un jeu dédié) │
+        └──────┬────────────┬────────┘
+               │            │
+               ▼            ▼
+     ┌────────────────┐   ┌─────────────────────────┐
+     │ Environnements │   │ Usages en production     │
+     │   non‑prod     │   │ (stats, BI, open data…) │
+     └────────────────┘   └─────────────────────────┘
 ```
 
 ***
@@ -82,27 +93,37 @@ L’enjeu est de leur donner un **cadre lisible** et plusieurs trajectoires poss
 
 #### **4.3 Usages légitimes des données anonymisées**
 
-* Production de statistiques internes ;
-* Reproduction de bugs ou analyse d’incidents ;
-* Jeux de données pour intégration, préproduction, TNR, performance.
+Les données anonymisées peuvent être utilisées dans différents contextes (non exhaustifs) :
+
+* **Hors production (**&#x69;ntégration, préproduction, etc.) pour réaliser différents tests (fonctionnels, non régression, performance, etc.)
+* **Diagnostic et support** :
+  * reproduction de bugs
+  * analyses d’incidents,
+  * investigation fonctionnelle ou technique.
+* **Usages en production** :
+  * analyses statistiques internes,
+  * alimentation de tableaux de bord décisionnels,
+  * études ad hoc (ex. simulations, analyses transverses),
+  * publication en open data lorsque c’est pertinent.
+
+Ces usages reposent sur un **jeu anonymisé distinct** des données réelles, généré à partir des règles définies par l’équipe produit.
 
 ***
 
 ### **5. Constat DNUM**
 
-Plusieurs éléments structurent notre contexte :
+Le sujet de l’anonymisation s’inscrit dans un paysage technique varié, construit par strates successives. Cela se traduit par une pluralité de pratiques :
 
-* Une gouvernance encore peu mature sur le sujet de l’anonymisation : il n’existe pas aujourd’hui de solution “clé en main” ou d’obligation homogène.
-* Une réorganisation en cours, avec émergence de services socles ou communs : opportunité pour plus tard, pas pour demain.
-* Des équipes déjà très sollicitées : nécessité de solutions **réalistes**, activables sans dépendance forte.
-* Un existant hétérogène :
-  * **DOT‑A** : outil historique, non gouverné, désengagement et licence expirée.
-  * Scripts artisanaux (`sh`).
-  * UO dédiées via certains hébergeurs (ex. Cegedim).
-  * Parfois le sujet n’a jamais été traité.
+* un outil historique (DOT‑A) qui arrive aujourd’hui au terme de son cycle,
+* des scripts spécifiques intégrés dans certains produits,
+* la mise en place d'outils spécialisés (et parfois sous-exploités) dans d'autres produits,
+* des opérations d’anonymisation réalisées au niveau hébergeur,
+* et, dans certains cas, des besoins encore récents ou inexistants.
 
-**Conséquence directe** :\
-👉 Nous devons proposer **au moins une solution utilisable immédiatement par les équipes**, même si elle n’est pas parfaite.
+La réorganisation en cours devrait faciliter une évolution vers une approche plus homogène, mais ce n’est pas le cas à court terme.
+
+**Conséquence :**\
+La priorité est d’offrir aux équipes un **cadre simple et immédiatement activable**, sans attendre l’arrivée d’un socle mutualisé.
 
 ***
 
@@ -122,13 +143,7 @@ Toute circulation vers non‑prod doit être **anonymisée au préalable**.
 Limiter les logs aux identifiants techniques.\
 C’est un prérequis autant sécurité que conformité.
 
-#### **6.4 Séparation claire des usages**
-
-* PROD : données réelles.
-* Schéma de travail en PROD : pour y réaliser l'anonymisation.
-* Intégration / préprod / TNR / perfs : données anonymisées.
-
-#### **6.5 Données sensibles à anonymiser**&#x20;
+#### **6.4 Données sensibles à anonymiser**&#x20;
 
 * Identité : nom, prénom, identifiants.
 * Coordonnées : email, téléphone, adresse.
@@ -142,24 +157,22 @@ Pour aller plus loin, [identifier les données à caractères personnelles](http
 
 ## **7. Court terme – Ce que les équipes peuvent faire immédiatement**
 
-L’objectif du court terme est simple : **mettre en mouvement** et rendre possible une anonymisation sur chaque projet, dès maintenant.\
+Objectif : rendre possible une anonymisation sur chaque projet, dès maintenant.\
 On cherche une solution réalisable, pas “la solution parfaite”.
 
 {% hint style="warning" %}
 &#x41;_&#x73;sumer une solution imparfaite mais en place vaut mieux qu’une solution idéale jamais mise en œuvre_.
 {% endhint %}
 
-Deux options neutres, toutes deux parfaitement valides.
+Si vous explorez une autre option à court terme, ✉️ [parlons-en](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr) rapidement en amont : cela permettra de confirmer qu’elle est compatible avec notre environnement et, le cas échéant, d'enrichir cette documentation.
 
 ***
 
 ### **Option A — Approche “autonomie produit”**
 
-#### Ce que c’est
-
 L’équipe met en place son anonymisation à l’aide de :
 
-* scripts (`sh`, Python, batch dans la stack du projet),
+* scripts utilisant la stack existante du produit (`sh`, Python, java, node, etc.),
 * ou anonymisation au niveau du code (Java, Node, etc.),
 * exécutés sur un **schéma de travail** dans la base de production,
 * puis diffusés en non‑prod selon les besoins.
@@ -175,10 +188,11 @@ L’équipe met en place son anonymisation à l’aide de :
 * Hétérogénéité d’un produit à l’autre.
 * Faible traçabilité RGPD.
 * Scalabilité limitée si volumes importants.
+* Approche limitée en cas de besoins avancées (plusieurs dizaines de champs de tables différentes à anonymiser avec des règles différentes).
 
 ***
 
-### **Option B — Appui sur un outil existant**
+### **Option B — S'appuyer sur un outil existant**
 
 #### Greenmask
 
@@ -198,6 +212,7 @@ Masquage dynamique+statique au niveau base.\
 #### Limites
 
 * Besoin de coordination avec les hébergeurs.
+* ROI à considérer puisque vous allez le porter au niveau produit (outil "overkill" pour anonymiser quelques champs de différentes tables)
 * Pas activable partout immédiatement ([un accompagnement](../preparer-et-lancer/accompagnement-tech/accompagnement-technique.md) peut être déclenchée pour faciliter la mise en œuvre dans votre contexte).
 
 ***
