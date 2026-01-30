@@ -61,7 +61,7 @@ Ressources et références :
 
 ### Questions du formulaire "Je donne mon avis"
 
-Le formulaire est composé de 4 questions, donc deux sont optionnelles.
+Le formulaire est composé de 4 questions dont deux sont optionnelles.
 
 <figure><img src="../../.gitbook/assets/1.jpg" alt=""><figcaption></figcaption></figure>
 
