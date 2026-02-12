@@ -14,7 +14,7 @@ Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Profes
 * Plusieurs millions d'authentifications par mois et jusqu'à 11 millions en pic
 * 38% d'authentifications par e-CPS (carte électronique sur smartphone)
 
-## Parcours pour une raccordement standard
+## Parcours pour un raccordement standard
 
 1. Créer un compte responsable technique sur iSC
    S'inscrire sur iSC (Fournisseur d'Identité de l'ANS pour les Industriels). Ce compte unique donne accès à tous les services clés de l'ANS :
@@ -51,14 +51,14 @@ Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Profes
 6. Testez
    Testez votre MIE de test sur le portail PSC BAS
 
-## Parcours de raccordement
+## Parcours de raccordement exhaustif
 
 Ce parcours de raccordement standard est extrait de [cette page](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect#paragraph-id--34273).
 
 ## Passage en production
 
 Concernant cette étape il faut mieux l'anticiper car elle nécessite une délai de traitement d'une à deux semaines. 
-Il demande notamment le numéro Datapass reçu.
+Le formulaire requiert notamment le numéro Datapass reçu.
 
 
 ## Notes
