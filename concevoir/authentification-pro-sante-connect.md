@@ -14,7 +14,7 @@ Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Profes
 * Plusieurs millions d'authentifications par mois et jusqu'à 11 millions en pic
 * 38% d'authentifications par e-CPS (carte électronique sur smartphone)
 
-## Pré-requis
+## Parcours pour une raccordement standard
 
 1. Créer un compte responsable technique sur iSC
    S'inscrire sur iSC (Fournisseur d'Identité de l'ANS pour les Industriels). Ce compte unique donne accès à tous les services clés de l'ANS :
@@ -24,7 +24,7 @@ Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Profes
    * Statistiques PSC
    * Etc.
 
-(Délai : immédiat)
+(Délai : immédiat à deux semaines)
 
 2. Effectuer une demande d'accès à l'API Pro Santé Connect
    L'accès aux fonctionnalités PSC nécessite une demande DataPass, distincte pour chaque service à raccorder.
@@ -34,12 +34,31 @@ Pro Santé Connect (PSC) est le Fournisseur d'Identité (FI) officiel des Profes
 3. Activer l'Espace Authentifié
    Une fois le compte iSC créé et validé, activer l'Espace Authentifié pour accéder à des informations personnalisées adaptées aux besoins.
 
+
 (Délai : immédiat après validation du compte)
 
+4. Effectuer une demande de raccordement au Bac à Sable (BAS)
+   Depuis la rubrique "Mon raccordement à Pro Santé Connect" de votre Espace Authentifié, accédez au formulaire vous permettant de gérer vos services PSC.
+
+(Délai : 2 semaines)
+
+5. Récupérer un moyen d'identification électronique de test, 2 possibilités
+   - avec lecteur PC/SC => commandez une carte de test via le formulaire F414
+   - sans lecteur PC/SC => générez une identité de test via EDIT
+
+(Délai respectivement 1 semaine et instantané)
+
+6. Testez
+   Testez votre MIE de test sur le portail PSC BAS
 
 ## Parcours de raccordement
 
-Le parcours de raccordement est [détaillé ici](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect#paragraph-id--34273).
+Ce parcours de raccordement standard est extrait de [cette page](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect#paragraph-id--34273).
+
+## Passage en production
+
+Concernant cette étape il faut mieux l'anticiper car elle nécessite une délai de traitement d'une à deux semaines. 
+Il demande notamment le numéro Datapass reçu.
 
 
 ## Notes
@@ -49,8 +68,9 @@ l'authentification via PSC.
 * Attention pour la validation de notre compte iSC, pour les comptes de l'organisation DNUM
 des collègues sont déjà existants dans iSC en tant que référents. Il est conseillé de les contacter en même temps que la demande.
 * Pro Santé Connect a fait le choix de ne pas gérer les "profils" mais envoie toutes les informations 
-nécessaires (Exercices et activités) dans l'endpoint UserInfo. C'est à la charge de l'application si besoin
+nécessaires (Exercices et activités) dans l'endpoint [UserInfo](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect/documentation-technique#paragraph-id--2754). C'est à la charge de l'application si besoin
 de proposer les profils disponibles.
+* Les données renvoyées par l'endpoint UserInfo sont décrites dans la [documentation technique](https://industriels.esante.gouv.fr/produits-et-services/pro-sante-connect/mapping-donnees-userinfo-et-correspondance-avec-le-mos).
 * Pour notre projet nous ne savions pas exactement quels attributs allaient être renseignés dans le retour JSON
 de l'endpoint UserInfo. L'ANS propose un [simulateur](https://essaietaecps.eservices.esante.gouv.fr/) pour avoir cette visibilité.
 On peut ainsi récupérer un JSON de nos utilisateurs en production et l'affecter dans nos profils de test via
