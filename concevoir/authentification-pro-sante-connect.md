@@ -57,9 +57,11 @@ Ce parcours de raccordement standard est extrait de [cette page](https://industr
 
 ## Passage en production
 
-Concernant cette étape il faut mieux l'anticiper car elle nécessite une délai de traitement d'une à deux semaines. 
-Le formulaire requiert notamment le numéro Datapass reçu.
+Depuis la rubrique "Mon raccordement à Pro Santé Connect" de votre Espace Authentifié, 
+accédez au formulaire vous permettant de gérer vos services PSC.
+Ce formulaire requiert notamment le numéro Datapass reçu.
 
+(Délai : 2 semaines)
 
 ## Notes
 * Le raccordement à l'environnement de bac à sable (BAS) peut se faire rapidement et permet de commencer à travailler 
