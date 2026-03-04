@@ -35,6 +35,7 @@ Pour un taux de conformité de 75%, l'état de l’accessibilité sera « partie
 ## Ressources
 * Exemple de déclaration d’accessibilité : https://accessibilite.numerique.gouv.fr/obligations/declaration-accessibilite/
 * Générateur de déclaration de conformité : https://betagouv.github.io/a11y-generateur-declaration/#create
+* Outil officiel de l'ARCOM pour l'ai au contrôle de conformité : https://acces-cible.beta.gouv.fr/
 
 ## Exemples de sites accessibles à 100%
 * [Mon Parcours Handicap](https://www.monparcourshandicap.gouv.fr/)
