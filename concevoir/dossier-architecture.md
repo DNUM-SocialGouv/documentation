@@ -1,60 +1,48 @@
----
-hidden : true
----
-
 # 📄 Dossier d'Architecture
 
-Cette page présente les bonnes pratiques essentielles autour du Dossier d'Architecture (DA), pour :
-* Faciliter la collaboration avec l'ensemble des acteurs concernés par le DA
+Cette page présente les bonnes pratiques essentielles autour du Dossier d'Architecture (DA) des produits DNUM/SDPC, pour :
+* Collaborer efficacement avec l'ensemble des acteurs concernés par le DA
 * Rédiger un DA conforme aux exigences de la DNUM
-* Faciliter la validation en Comité d'Architecture (COAT) en réduisant les itérations
+* Faciliter la validation en Comité d'Architecture (COAT) en limitant les itérations
 
 ## Acteurs concernés
 
 De nombreux acteurs interviennent tout au long du cycle de vie d'un DA :
-* Le **responsable du DA** au sein de l’équipe produit. Il peut s'agir d'un responsable produit, d'un architecte technique, d'un Tech Lead, interne DNUM ou externe.
-* L'**équipe d'accompagnement technique** qui doit valider chaque DA l'ensemble des DA prend en charge certains DA et qui valident l'ensemble des DA des produits
-* La **Mission Architecture (MA)** en relecture afin d'anticiper les remarques du COAT
-* Les **COAT** pour valider les nouveaux DA et les changements majeurs en production (composants, flux)
-
-_Elle apporte un rôle de conseil, de revue et peut faciliter les échanges avec d’autres parties prenantes (hébergeur, confnum, DO, etc.).
-Dans certains cas, elle peut co-rédiger le DA. La responsabilité du document reste toujours portée par l’équipe produit, même lorsque l’équipe d’accompagnement technique contribue à sa rédaction._
-
-* Toute personne (nouvel arrivant, auditeur...) souhaitant s'informer sur le projet peut, après avoir obtenu les droits, consulter et apporter des commentaires au DA sur le répertoire partagé du projet 
+* Le **responsable du DA** au sein de l’équipe produit. Il s'agit d'un responsable produit, architecte technique ou responsable technique, interne DNUM ou externe.
+* Les **membres du COAT** pour valider les nouveaux DA et les changements majeurs en production (composants, flux)
+* Les **architectes SDPC (DNUM/SDPC/ST)** valide chaque DA SDPC avant passage en COAT. Elle peut faciliter les échanges avec d’autres parties prenantes (hébergeur, ConfNum, partenaires...).
+    * Lors d'un accompagnement soutenu, elle peut co-rédiger le DA avec l'équipe produit, qui porte toujours la responsabilité du DA.
+    * Elle peut aussi rédiger et porter la responsabilité du DA pour les produits réalisés en interne.
+* Les **architectes SDCID (DNUM/SDCID/MA)** en relecture afin d'anticiper les remarques du COAT
+* Toute personne (nouvel arrivant, auditeur...) souhaitant s'informer sur un produit peut, après avoir obtenu les droits, consulter et apporter des commentaires au DA.
 
 ## Pré-requis
-Avant toute contribution à un DA, l’équipe produit concernée doit prendre connaissance :
+Avant toute contribution au DA, l’équipe produit prend connaissance :
 * du [**Pack DA**](https://msociauxfr.sharepoint.com/sites/DNUM_DA) qui inclut un modèle de DA, des modèles de schémas, des nomenclatures et des exemples de DA rédigés.
 * des [**règles de gouvernance du DA**](https://msociauxfr.sharepoint.com/sites/DNUM_DA)
-* de **DA existants** représentatifs de son domaine métier, son hébergement et ses technologies
+* d'exemples de **DA existants** représentatifs de son domaine métier, son hébergement et ses technologies
+* des **bonnes pratiques** ci-dessous
 
 ## Pour une collaboration efficace
-1. Par défaut, l’équipe d’accompagnement technique intervient pour revue, conseil ou clarification des points incertains du DA. 
-* Si nécessaire, l’équipe d’accompagnement technique peut identifier le bon interlocuteur (DO, hébergeur, confnum, etc.) et faciliter les échanges.
-* Dans certains cas, elle peut co-rédiger le DA avec l’équipe produit.
-* Dans tous les cas, l'équipe produit reste responsable de ce document.
-
-2. L'équipe produit doit fournir le DA via des liens SharePoint éditables.
-
-✅ Un premier lien doit mener au document Word ; un second aux sources des schémas.
-
-ℹ️ Si l'équipe produit ne dispose pas d’un SharePoint projet, l'équipe d'accompagnement technique peut fournir sur demande un dossier dans notre SharePoint de travail.
-
-❌ Nous n’intervenons pas sur un DA envoyé en pièce jointe par mail : risque important de versions concurrentes rendant notre intervention inefficace.
-
-3.  L'équipe produit doit fournir une documentation fonctionnelle pour permettre d’appréhender le contexte et le sujet ; ou organiser un point de clarification.
+* 📄**Nommage et versioning du DA** :
+    * Respecter le nommage des fichiers définit dans le Pack DA
+        * Ex : "DA - NomProjet - v1.0.3.docx".
+    * Le DA et les schémas sources suivent le même numéro de version, même s'il n'y a pas de modification des schémas.
+        * Ex : "DA - NomProjet - v1.0.3.docx" et "DA - NomProjet - v1.0.3.pptx"
+    * Commencer le versioning à 1.0.0
+    * Le DA et les schémas ont le même nom de fichier. Seule l'extension diffère : .docx pour le DA, .pptx ou .drawio pour les schémas
+* 📂 **Partage de DA** :
+    * Le DA de référence et les schémas sources sont et restent dans le répertoire partagé du produit. Si l'équipe produit n'a pas encore mis en place un répertoire projet, les architectes SDPC peuvent fournir un répertoire provisoire.
+    * Le DA est partagé via des liens SharePoint, et non par email (sécurité, risque important de versions divergentes...)
+    * L'équipe produit donne les droits d'accès en écriture sur le répertoire du DA, afin de pouvoir commenter ou co-rediger le document.
+* 👨‍💼Un architecte SDPC, après validation du DA, dépose une copie dans le répertoire de la MA (SDCID). Les schémas ne sont pas nécessaires pour que la MA commente le DA.
+    * TODO à clarifier : comment le DA devrait être partagé au COAT, aujourd'hui par email
 
 ## Points d'auto-contrôle pour maximiser les chances de validation en COAT
-Ces règles déjà exposées dans le Pack DA sont fréquemment enfreintes, ce qui engendre une moindre efficacité des COAT (échanges supplémentaires, validation avec réserve, rejet, repassage en COAT, etc.).
-
-✅ L'équipe produit peut utiliser ces éléments comme une liste de contrôles avant soumission du DA.
-
-* **Conformité au modèle de DA** : baser tout nouveau DA sur le modèle du Pack DA, ou à défaut intégrer les nouveautés jusqu'au modèle de DA le plus récent
-5. Vérifier la présence et la mise à jour de l’encart de suivi des changements (dernière page ou bloc 17 pour les anciens DA).
-6. Respecter la nomenclature définie dans l’encart de suivi (exemple : DA-NomProjet-V1.0.3.docx).
-7. Utiliser les templates Draw.io ou PowerPoint fournis dans le pack DA pour les schémas.
-8. Assurer la cohérence des noms de catégories d'utilisateurs et de composants dans toutes les rubriques du DA.
-
-## FAQ
-* Faut-il intégrer les nouveautés du pack DA à relivraison du DA ?
- * Non obligatoire, mais mise à niveau occasionnelle recommandée et bienvenue
+Rappel de quelques règles fréquemment enfreintes, qui engendrent des allers-retours, validation avec réserve, rejet, repassage en COAT :
+* **Remplir les éléments de contexte** Remplissage exemplaire du DICT** : clair (ex : "L'appli 2 est la refonte de l'appli 1) et argumenté.
+* **Remplissage exemplaire du DICT** : clair (ex : T2 incompatible avec C4) et argumenté.
+* **Matrice des flux** : bien remplir la description de chaque flux. Clarifier l'objectif du flux, les mécanismes et protocoles d'authentification et de chiffrement par exemple.
+* **Conformité au modèle de DA** : baser tout nouveau DA sur le modèle du Pack DA, ou à défaut intégrer les nouveautés jusqu'au modèle de DA le plus récent, y compris pour les modèles de schémas. Il n'est pas nécessaire d'intégrer les nouveautés du pack DA à chaque version du DA, mais une mise à jour opportuniste (cherry picking) est recommandée.
+* Assurer la **cohérence des noms** de populations d'utilisateurs et composants dans toutes les rubriques du DA.
+* **Suivi des changements** : bien mettre à jour l’encart de suivi des changements. Ne pas hésiter à utiliser ce log pour tracer les décisions (ADR)
