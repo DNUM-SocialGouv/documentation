@@ -32,7 +32,7 @@ Avant toute contribution au DA, l’équipe produit prend connaissance :
     * Commencer le versioning à 1.0.0
     * Le DA et les schémas ont le même nom de fichier. Seule l'extension diffère : .docx pour le DA, .pptx ou .drawio pour les schémas
 * 📂 **Partage de DA** :
-    * Le DA de référence et les schémas sources sont et restent dans le répertoire partagé du produit. Si l'équipe produit n'a pas encore mis en place un répertoire projet, les architectes SDPC peuvent fournir un répertoire provisoire.
+    * Le DA de référence et les schémas sources sont et restent dans le répertoire partagé du produit. Si l'équipe produit n'a pas encore mis en place un répertoire produit, les architectes SDPC peuvent fournir un répertoire provisoire.
     * Le DA est partagé via des liens SharePoint, et non par email (sécurité, risque important de versions divergentes...)
     * L'équipe produit donne les droits d'accès en écriture sur le répertoire du DA, afin de pouvoir commenter ou co-rediger le document.
 * 👨‍💼Un architecte SDPC, après validation du DA, dépose une copie dans le répertoire de la MA (SDCID). Les schémas ne sont pas nécessaires pour que la MA commente le DA.
