@@ -1,8 +1,8 @@
 # 🔒 Antivirus
 
-L'enjeu est de s'assurer que toute pièce-jointe uploadée et downloadée sur un produit, par interface ou par API, fait systématiquement l'objet d'un contrôle antivirus. Les solutions diffèrent en partie suivant l'hébergement :
+Toute pièce-jointe téléchargée sur un produit - par IHM ou par API - fait systématiquement l'objet d'un contrôle antivirus. Les solutions diffèrent en partie suivant l'hébergement :
 
-## Intranet Rosny/Dusquesne
+## Intranet Rosny/Duquesne
 
 Les flux entrants dans l'Intranet sont passés automatiquement à l'antivirus via le protocole [ICAP](antivirus.md#icap). S'assurer tout-de-même :
 
@@ -15,7 +15,7 @@ Similaire à l'Intranet.
 
 ## Atlas@OVH
 
-En cible le contrôle antivirus des pièces-jointes se fera automatiquement via l'Ingress-Controler de Kubernetes (Traefik). En attendant cette cible les applications appellent explicitement un antivirus ClamAV par API depuis le code de l'application.
+En cible le contrôle antivirus des pièces-jointes se fera automatiquement via l'Ingress-Controller de Kubernetes (Traefik). En attendant cette cible les applications appellent explicitement un antivirus ClamAV par API depuis le code de l'application. Cet antivirus est un composant géré par l'application et non par la plateforme Atlas.
 
 ## ICAP
 
