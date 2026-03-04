@@ -54,12 +54,12 @@ PISTE est particulièrement intéressant pour **exposer une API à un nombre sig
 * L'administrateur de l'API a la main pour révoquer des accès à tout moment.
 * Support : [Formulaire en ligne](https://piste.gouv.fr/support/) ou email à [piste.aife@finances.gouv.fr](mailto:piste.aife@finances.gouv.fr)
 
-## Projets concernés par PISTE
+## Produits concernés par PISTE
 * AQUA-SISE : API Référentiels, API Signalements, API Labos
 * ONVS (en cours) : exposition d'API aux Etablissements de Santé
 * SIVSS (en cours) : exposition d'API aux ARS et autres administrations
 
-Contre-exemples de projets avec décision de ne pas passer par PISTE :
+Contre-exemples de produits avec décision de ne pas passer par PISTE :
 * PTT : interfaçage de PPT et SUIT, 2 applications métier internes bien que sur des hébergements différents
 * MEDLE : un seul éditeur de logiciel partenaire, en expérimentation
 

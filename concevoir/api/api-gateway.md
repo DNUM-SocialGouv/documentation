@@ -25,7 +25,7 @@ L'API Gateway adresse l'interopérabilité et la sécurisation des échanges. C'
 
 Instancier et gérer une seule API Gateway par hébergement :
 
-* 1 Gateway Rosny et/ou Dusquene
+* 1 Gateway Rosny et/ou Duquesne
 * 1 Gateway Cegedim
 * 1 Gateway OVH
 * 1 Gateway OVH-SecNumCloud
@@ -48,7 +48,7 @@ Instancier et gérer une seule API Gateway par hébergement :
 3. **Identifier quelle API Gateway réutiliser**
 
 * Si possible, utiliser l'API Gateway unique de l'hébergement visé (ex : future API Gateway Atlas ?)
-* Sinon instancier une API Gateway par domaine métier ET par hébergement (ex : API Gateway DGEFP sur Rosny/Dusquene)
+* Sinon instancier une API Gateway par domaine métier ET par hébergement (ex : API Gateway DGEFP sur Rosny/Duquesne)
 * Passer par [PISTE](api-piste.md) si c'est pertinent et si les conditions sont réunies
 * Eviter d'héberger une API Gateway dédiée par application
 

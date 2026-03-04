@@ -40,7 +40,7 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
 
 ## Quel hébergement cloud pour quel cas d'usage ?
 
-3 offres de cloud sont déployées en plus de l'intranet Rosny/Dusquene :
+3 offres de cloud sont déployées en plus de l'intranet Rosny/Duquesne :
 
 * **Cloud générique (Atlas@OVH)** : applications sans contrainte réglementaire spécifique
 * **Cloud HDS (auj. Cegedim, demain Atlas@OVH-HDS)** : applications manipulant des données de santé et nécessitant une [certification HDS](https://esante.gouv.fr/produits-services/hds) de l'hébergement et/ou de l'infogérance
@@ -66,7 +66,7 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 | **Atlas@OVH-SNC**    | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV    |
 | **Cegedim HDS**      | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto) |
 | **Rosny (Travail)**  | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)  |
-| **Dusquene (Santé)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)  |
+| **Duquesne (Santé)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)  |
 
 Précisions :
 
@@ -78,12 +78,12 @@ Précisions :
 
 Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
 
-|                   | Atlas@OVH  | Cegedim   | Rosny     | Dusquene  | Atlas@OVH-SNC |
+|                   | Atlas@OVH  | Cegedim   | Rosny     | Duquesne  | Atlas@OVH-SNC |
 | ----------------- | ---------- | --------- | --------- | --------- | ------------- |
 | **Atlas@OVH**     | ========== | ========= | ========= | ========= | ============= |
 | **Cegedim**       | N          | ========= | ========= | ========= | ============= |
 | **Rosny**         | N          | VPN ?     | ========= | ========= | ============= |
-| **Dusquene**      | N          | VPN ?     | O (RIE ?) | ========= | ============= |
+| **Duquesne**      | N          | VPN ?     | O (RIE ?) | ========= | ============= |
 | **Atlas@OVH-SNC** | VPN IPSec  | N         | ?         | ?         | ============= |
 
 ## Notes sur HDS
