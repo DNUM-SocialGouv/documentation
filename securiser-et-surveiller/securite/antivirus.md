@@ -21,7 +21,7 @@ En attendant cette cible, les applications appellent explicitement un antivirus 
 La cible nécessite clarification :
 * L'ICAP sera t-il implémenté au niveau de l'Ingress-Controller (Traefik) ou en amont ?
 * Sera t-il possible de désactiver l'ICAP pour une url donnée, pour des raisons de performance et de contrôle antivirus asynchrone ? (Ex : batch par API sur SICLE, document volumineux type blueprint de chantier)
-* Par défaut l'ICAP sera t-il activé sur les flux sortants également (download d'un document depuis l'application métier vers le poste utilisateur) ?
+* L'ICAP sera t-il possible sur les flux sortants également (download d'un document depuis l'application métier vers le poste utilisateur) ?
 * A quelle date l'évolution ICAP sera disponible ?
 
 ## Autres hébergements à date
