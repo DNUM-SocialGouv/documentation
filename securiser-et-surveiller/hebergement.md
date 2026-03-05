@@ -60,31 +60,31 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 * leurs modes d'exploitation (infogérance, CI/CD)
 * les exigences réglementaires auxquelles elles répondent (HDS, SecNumCloud)
 
-| Plateforme           | Type d'infra  | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus PJ  |
-| -------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | ------------- |
-| **Atlas@OVH**        | CaaS          | O          | O         | O             | N              | N           | 2-3-3-3   | API@ClamAV    |
-| **Atlas@OVH-SNC**    | CaaS          | N          | N         | O             | N              | O           | 4-3-3-3   | API@ClamAV    |
-| **Cegedim HDS**      | CaaS/IaaS     | O          | O         | O             | O              | O           | 4-3-3-3   | ICAP@RP(auto) |
-| **Rosny (Travail)**  | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)  |
-| **Duquesne (Santé)** | CaaS/IaaS     | N          | O         | N             | N              | O           | 4-3-3-3   | ICAP (auto?)  |
+| Plateforme           | Type d'infra  | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus ICAP |
+| -------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | -------------- |
+| **Atlas@OVH**        | CaaS          | ✅         | ✅       | ✅            | ❌            | ❌          | 2-3-3-3   | ❌            |
+| **Atlas@OVH-SNC**    | CaaS          | ❌         | ❌       | ✅            | ❌            | ✅          | 4-3-3-3   | ❌            |
+| **Cegedim HDS**      | CaaS/IaaS     | ✅         | ✅       | ✅            | ✅            | ✅          | 4-3-3-3   | ✅            |
+| **Rosny (Travail)**  | CaaS/IaaS     | ❌         | ❌       | ❌            | ❌            | ✅          | 4-3-3-3   | ✅            |
+| **Duquesne (Santé)** | CaaS/IaaS     | ❌         | ❌       | ❌            | ❌            | ✅          | 4-3-3-3   | ✅            |
 
 Précisions :
 
 * OVH propose un S3 standard et un S3 haute-performance
-* Généralement le stockage en bloc (ou FS partagé sur SAN) est disponible seulement si avec les offres IaaS (VM traditionnelle). Préférer S3 de toute façon
-* Aujourd'hui OVH-SNC n'accueille que Champollion mais à vocation à devenir l'hébergement hautement sécurisé du ministère
+* Préférer le stockage objet (ex : S3) au stockage en bloc persistant (ex : SAN), qui n'est pas toujours disponible et pas approprié à un hébergement cloud.
+* Aujourd'hui OVH-SNC n'accueille que Champollion mais a vocation à devenir l'hébergement hautement sécurisé du ministère
 
 ## Interconnexions sécurisées
 
-Voici les interconnexions sécurisées entre hébergements via le RIE ou VPN
+Voici les interconnexions sécurisées entre les principaux hébergements :
 
-|                   | Atlas@OVH  | Cegedim   | Rosny     | Duquesne  | Atlas@OVH-SNC |
-| ----------------- | ---------- | --------- | --------- | --------- | ------------- |
-| **Atlas@OVH**     | ========== | ========= | ========= | ========= | ============= |
-| **Cegedim**       | N          | ========= | ========= | ========= | ============= |
-| **Rosny**         | N          | VPN ?     | ========= | ========= | ============= |
-| **Duquesne**      | N          | VPN ?     | O (RIE ?) | ========= | ============= |
-| **Atlas@OVH-SNC** | VPN IPSec  | N         | ?         | ?         | ============= |
+|                   | Atlas@OVH  | Cegedim   | Rosny      | Duquesne  | Atlas@OVH-SNC |
+| ----------------- | ---------- | --------- | ---------- | --------- | ------------- |
+| **Atlas@OVH**     | ========== | ========= | ========== | ========= | ============= |
+| **Cegedim**       | ❌         | ========= | ========== | ========= | ============= |
+| **Rosny**         | ❌         | VPN ?     | ========== | ========= | ============= |
+| **Duquesne**      | ❌         | VPN ?     | ✅ (RIE)  | ========= | ============= |
+| **Atlas@OVH-SNC** | VPN IPSec  | ❌        | ❌        | ❌        | ============= |
 
 ## Notes sur HDS
 
