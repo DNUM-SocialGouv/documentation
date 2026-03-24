@@ -1,31 +1,15 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: false
-  metadata:
-    visible: true
----
-
 # 🛎️ Accompagnement technique
 
 L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques pour chaque situation.
 
 {% hint style="info" %}
-**Pour demander un accompagnement : [dnum-sdpsn.accotech@sg.social.gouv.fr](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr)**
+**Pour demander un accompagnement :** [**dnum-sdpsn.accotech@sg.social.gouv.fr**](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr)
 {% endhint %}
 
 ## Offres d'accompagnement
 
 ### 🧭 Orientation rapide
+
 * **Objectif** : éclairer rapidement sur une problématique
 * **Exemples de livrables**
   * Regard neuf sur une problématique
@@ -34,6 +18,7 @@ L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques po
   * Orientation vers la bonne offre d'accompagnement : architecture, design, accessibilité, devops, produit, etc.
 
 ### 🎯 Choix de solution
+
 * **Objectif** : aider l'équipe produit à prendre une décision structurante
 * **Exemples de livrables**
   * Identification des critères de choix importants dans le contexte
@@ -41,6 +26,7 @@ L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques po
   * Analyse d'écart par rapport à une cible et solutions transitoires éventuelles
 
 ### ⚙️ Définition de l'architecture
+
 * **Objectif** : accompagner l'architecture d'un produit sur un temps long pour gagner en maitrise technique
 * **Exemples de livrables**
   * Rapport d'audit de l'existant (architecture, code source, infrastructure)
@@ -56,6 +42,7 @@ L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques po
   * Support aux différentes étapes, prise en charge des nouveaux sujets
 
 ### 🚧 Problème technique
+
 * **Objectif** : aider l'équipe produit a surmonter rapidement - puis durablement - un problème technique lié à la stabilité ou la performance.
 * **Exemples de livrables**
   * Eléments de diagnostic (analyse de cause racine)
@@ -64,6 +51,7 @@ L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques po
   * Renforcement des compétences (méthodologie, littérature de référence, etc.)
 
 ### 🫰 Analyse de devis
+
 * **Objectif** : questionner la complexité d'un devis
 * **Exemples de livrables**
   * CR d'entretien avec le prestataire pour mieux comprendre l'intention
@@ -73,6 +61,7 @@ L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques po
   * Contre-proposition fonctionnelle ou technique plus simple
 
 ### 👷 Aide au recrutement
+
 * **Objectif** : éviter l'erreur de recrutement d'un profil technique (développeur, lead tech, chef de projet technique), et favoriser sa bonne intégration dans une équipe produit.
 * **Exemples de livrables**
   * Avis formalisé, voire contribution à une fiche de poste
@@ -80,7 +69,9 @@ L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques po
   * Participation à un entretien pour lui donner une orientation plus technique
 
 ## Engagements pour un accompagnement réussi
+
 L'architecte s'engage à :
+
 * Conseiller l'équipe produit sans dogmatisme, en tenant compte du contexte
 * Assumer ses préconisations, sans toutefois se substituer aux experts techniques du produit
 * Perturber l'équipe produit le moins possible
@@ -89,6 +80,7 @@ L'architecte s'engage à :
 * Capitaliser - dans ce guide notamment - pour en faire profiter les autres équipes
 
 L'équipe produit s'engage à :
+
 * Donner accès à la documentation produit, au Dossier d'Architecture notamment
 * Donner accès au code source, si nécessaire
 * Se rendre disponible pour embarquer l'architecte (contexte, planning, questions, objectifs...)

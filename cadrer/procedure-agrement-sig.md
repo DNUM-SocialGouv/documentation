@@ -23,17 +23,17 @@ Il permet de s’assurer que tout nouveau site ou application :
 
 ## Quand une demande est-elle obligatoire ?
 
-Tout projet de **création** ou de **refonte** de site ou d’application grand public émanant d’un service de l’État doit obtenir un **agrément préalable du SIG** — quelle que soit son URL (.gouv.fr, .fr, etc.).
+Tout projet de **création,** de **refonte** ou d'évolution fonctionnelle majeure de site ou d’application grand public émanant d’un service de l’État doit obtenir un **agrément préalable du SIG** — quelle que soit son URL (.gouv.fr, .fr, etc.).
 
 Sont concernés :
 
 * Les sites institutionnels ou thématiques (ex. : `sante.gouv.fr`, `handicap.gouv.fr`)
-* Les sites de démarches ou services en ligne
+* Les sites de démarches ou services en ligne pour le grand public (usagers particuliers et professionnels)
 * Les applications mobiles publiques
 
 Ne sont **pas soumis** à agrément :
 
-* Les outils internes (intranets, extranets, outils métiers)
+* Les outils internes (intranets, extranets, outils métiers) pour les agents de la fonction publique&#x20;
 * Les produits sans diffusion publique
 
 ***
@@ -44,7 +44,7 @@ Ne sont **pas soumis** à agrément :
 
 ***
 
-<figure><img src="../.gitbook/assets/unknown.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Processus général.jpg" alt="" width="563"><figcaption><p>Processus général</p></figcaption></figure>
 
 ## Détail des étapes
 
@@ -62,7 +62,7 @@ Fournir un **formulaire de cadrage** précisant :
 * URL envisagée
 * Engagements de conformité (DSFR, RGAA ≥ 80 %, CNIL, etc.)
 
-Une **réunion de coordination** est ensuite organisée entre la DICOM, la DNUM et le responsable design.
+Une **réunion de coordination** est ensuite organisée entre la DICOM, la DNUM et le responsable du design.
 
 ***
 
@@ -117,7 +117,7 @@ L’agrément définitif peut être :
 
 ***
 
-<figure><img src="../.gitbook/assets/unknown (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Processus agrément SIG.jpg" alt=""><figcaption><p>Processus agrément SIG</p></figcaption></figure>
 
 ## Cas particuliers
 

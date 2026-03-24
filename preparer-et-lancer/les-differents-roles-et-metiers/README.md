@@ -3,9 +3,6 @@ description: >-
   Une équipe pluridisciplinaire qui partage la vision produit, réalise sa
   conception, met en place son développement et le suit au cours de son cycle de
   vie.
-layout:
-  description:
-    visible: false
 ---
 
 # 👷‍♀️ Equipe produit
@@ -17,8 +14,6 @@ layout:
 ### Les soutiens experts
 
 <table data-view="cards"><thead><tr><th data-type="content-ref"></th><th data-hidden></th></tr></thead><tbody><tr><td><a href="expert-accessibilite.md">expert-accessibilite.md</a></td><td>Appui architecture et solutions</td></tr><tr><td><a href="coach-produit.md">coach-produit.md</a></td><td>Appui Devops</td></tr><tr><td><a href="expert-en-recherche-utilisateur.md">expert-en-recherche-utilisateur.md</a></td><td>Expert Recherche Utilisateur</td></tr><tr><td><a href="devops.md">devops.md</a></td><td>Auditeurs et expert code accessibilité</td></tr><tr><td><a href="responsable-data.md">responsable-data.md</a></td><td>Appui homologations</td></tr><tr><td></td><td>Appui data</td></tr></tbody></table>
-
-
 
 ### Porter un produit, c'est :
 
