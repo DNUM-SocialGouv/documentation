@@ -53,6 +53,7 @@ Le module s’intègre via un script unique, disponible sur [https://jedonnemona
 2. Ajouter un service puis **sélectionnez votre organisation**. Si votre organisation n'est pas présente, veuillez contacter votre responsable du design. Organisations disponibles :
    * DGCS
    * DGEFP
+   * DGOS
    * DGS
    * DSS
    * DGT
