@@ -3,20 +3,6 @@ description: >-
   Pourquoi l'utiliser, les questions posées, comment et où placer le bouton Je
   Donne Mon Avis sur nos sites et produits.
 icon: star-sharp-half-stroke
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
 ---
 
 # Mesurer la satisfaction avec le bouton JDMA
@@ -25,7 +11,7 @@ Le bouton **Je donne mon avis (JDMA)** est un module standardisé permettant de 
 
 Intégré à un site, une démarche en ligne ou une application métier, il offre un moyen simple et rapide de mesurer la satisfaction, de collecter des verbatim exploitables et d’identifier certains irritants du parcours réel.
 
-Le bouton JDMA répond à plusieurs exigences des circulaires du 7 juillet 2023 (DINUM et SIG) :
+Le bouton JDMA répond à plusieurs exigences de la circulaire du 7 juillet 2023 (DINUM et SIG) :
 
 * mesurer la satisfaction au plus près de l’usage, sans interrompre le parcours.
 * recueillir des verbatim exploitables pour guider les améliorations continues.
@@ -49,13 +35,36 @@ Ressources et références :
 
 * [https://jedonnemonavis.numerique.gouv.fr/](https://jedonnemonavis.numerique.gouv.fr/)
 * [Circulaire 6411-SG du 7 juillet 2023](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)
-* [Note d'application de la DINUM](https://www.systeme-de-design.gouv.fr/static/file/Note_DINUM_qualite_des_services_numeriques_17_07_2023.pdf)
+  * [Note d'application de la DINUM](https://www.systeme-de-design.gouv.fr/static/file/Note_DINUM_qualite_des_services_numeriques_17_07_2023.pdf)
 * [Fichier Figma Design Social Gouv - les ressources visuelles](https://www.figma.com/design/1F77YLcBVbNw4CCEUr9PSQ/Mod%C3%A8les-Social-Gouv--composants--pages-?node-id=4497-58322\&t=flzakH2os0yZBXc6-11)
 * Exemple avec une démarche "test"
   * [Démarche de test - Exemple de formulaire JDMA](https://jedonnemonavis.numerique.gouv.fr/Demarches/3119)
   * [Démarche de test - Exemple de statistiques disponibles](https://jedonnemonavis.numerique.gouv.fr/public/product/3119/stats)
 
 <figure><img src="../../.gitbook/assets/image (3).png" alt="Bouton JDMA, novembre 2025"><figcaption><p>Bouton JDMA, novembre 2025</p></figcaption></figure>
+
+***
+
+### Comment ajouter le bouton ?
+
+Le module s’intègre via un script unique, disponible sur [https://jedonnemonavis.numerique.gouv.fr/](https://jedonnemonavis.numerique.gouv.fr/)
+
+1. Se connecter au site JDMA via ProConnect
+2. Ajouter un service puis **sélectionnez votre organisation**. Si votre organisation n'est pas présente, veuillez contacter votre responsable du design. Organisations disponibles :
+   * DGCS
+   * DGEFP
+   * DGOS
+   * DGS
+   * DSS
+   * DGT
+   * DNUM : organisation à prioriser pour les directions du secrétariat général
+3. Suivre les étapes de création du formulaire,
+4. Ajouter le code fourni au site,
+5. Consulter en ligne ou exporter pour analyse, les retours collectés pour chaque produit.
+
+{% hint style="info" %}
+Il est possible de créer plusieurs emplacements du même formulaire et suivre le nombre de réponses en fonction des emplacements choisis.
+{% endhint %}
 
 ***
 
@@ -90,44 +99,27 @@ Le formulaire est composé de 4 questions dont deux sont optionnelles.
 
 En fonction du site, il y a deux emplacements à considérer :
 
-* En fin de démarche,
-* En bas de page, ou là où l'usager peut donner une impression globale sans interrompre son usage.
+* Pour une démarche : en fin de démarche,
+* Pour un site vitrine ou applicatif : en bas de page ou là où l'usager peut donner une impression globale sans interrompre son usage.
 
-Le bon emplacement dépend du type de produit et de sa cible principale :
+Le bouton peut également être placé dans un e-mail :&#x20;
 
-* Types de produits : démarche ou vitrine/applicatif
-* Publics cibles :
-  * Grand public (usagers particuliers et professionnels),
-  * Interne (application métier pour les agents ou partenaires).
+* Pour une démarche : en bas de l'e-mail de récapitulatif de la démarche,
+* Autre : dans une e-mail dédié de demande de recueil d'avis.&#x20;
+
+
+
+### En résumé : emplacement du bouton et adaptation du formulaire selon vos usages
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><mark style="color:$info;">Emplacement générique et modification du formulaire en fonction du public et du type de site</mark></p>
 
-<p align="center"></p>
+
 
 <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center"><mark style="color:$info;">Exemple de paramétrage du formulaire pour une application interne, application métier.</mark></p>
-
-***
-
-### Intégration sur le site
-
-Le module s’intègre via un script unique, disponible sur [https://jedonnemonavis.numerique.gouv.fr/](https://jedonnemonavis.numerique.gouv.fr/)
-
-1. Se connecter au site JDMA via ProConnect
-2. Ajouter un service **en suivant la nomenclature suivante** \[Ministères Sociaux] DAC A DAC B DAC C - Nom du produit. Exemples :
-   * \[Ministères Sociaux] DGCS DGS - VAO
-   * \[Ministères Sociaux] DNUM - Portail de connexion à ProConnect
-3. Suivre les étapes de création du formulaire
-4. Ajouter le code fourni au site
-5. Consulter en ligne ou exporter pour analyse, les retours collectés pour chaque produit
-6. Dans les "droits d'accès", ajouter l'adresse [jdma@sg.social.gouv.fr](mailto:jdma@sg.social.gouv.fr) en Administrateur du service
-
-{% hint style="info" %}
-Il est possible de créer plusieurs emplacements du même formulaire et suivre le nombre de réponses en fonction des emplacements choisis.
-{% endhint %}
 
 ***
 

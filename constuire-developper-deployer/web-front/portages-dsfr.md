@@ -1,20 +1,3 @@
----
-layout:
-  width: default
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
-  metadata:
-    visible: true
----
-
 # 🇫🇷 Portages DSFR
 
 Nos produits éligibles utilisent le [Système de Design de l'Etat (DSFR)](https://www.systeme-de-design.gouv.fr/). Nous nous demandons quels portages sont les plus pertinents sur la base de différents critères :

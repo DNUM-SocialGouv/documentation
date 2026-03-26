@@ -1,8 +1,5 @@
 ---
 description: Aussi nommés tests end-to-end, ou e2e.
-layout:
-  description:
-    visible: false
 ---
 
 # 🧪 Tests de bout en bout
