@@ -57,7 +57,7 @@ Le module s’intègre via un script unique, disponible sur [https://jedonnemona
    * DGS
    * DSS
    * DGT
-   * DNUM : orgnaisation à prioriser
+   * DNUM : organisation à prioriser pour les directions du secrétariat général
 3. Suivre les étapes de création du formulaire,
 4. Ajouter le code fourni au site,
 5. Consulter en ligne ou exporter pour analyse, les retours collectés pour chaque produit.
