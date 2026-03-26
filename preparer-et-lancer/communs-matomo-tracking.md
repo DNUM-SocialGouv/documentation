@@ -59,29 +59,20 @@ Demander à l'administrateur la création d'un compte Matomo pour le produit. Il
 
 ### Éléments trackés par défaut avec le code tracking Matomo 
 
-| Catégorie                        | Tracké par défaut |
-| -------------------------------- | ----------------- |
-| Pages vues                       | ✅                 |
-| Sessions                         | ✅                 |
-| Sources de trafic                | ✅                 |
-| Données techniques               | ✅                 |
-| Localisation                     | ✅                 |
-| Temps passé                      | ✅                 |
-| Liens sortants / téléchargements | ✅*                |
-| Événements personnalisés         | ❌                 |
-| Conversions / objectifs          | ❌                 |
-| Données personnelles             | ❌                 |
-* si enableLinkTracking() est présent.
-
-### Éléments NON trackés par défaut
-Sans configuration spécifique, Matomo ne collecte pas :
-- Événements personnalisés (clics sur boutons)
-- Soumissions de formulaires
-- Objectifs (conversions)
-- E-commerce
-- User ID
-- Données personnelles nominatives (nom, email, etc.)
-- Contenu des formulaires
+| Catégorie                                       | Tracké par défaut                       |
+| ----------------------------------------------- | --------------------------------------- |
+| Pages vues                                      | ✅                                     |
+| Sessions                                        | ✅                                     |
+| Sources de trafic                               | ✅                                     |
+| Données techniques                              | ✅                                     |
+| Localisation                                    | ✅                                     |
+| Temps passé                                     | ✅                                     |
+| Liens sortants / téléchargements                | ✅(si enableLinkTracking() est présent)|
+| Événements personnalisés (clics sur boutons)    | ❌                                     |
+| Formulaires (contenu, soumission)               | ❌                                     |
+| Données personnelles nominatives (nom, email...)| ❌                                     |
+| User ID                                         | ❌                                     |
+| E-Commerce (objectifs, conversions)             | ❌                                     |
 
 ## Plan de marquage (Measurement Plan)
 
