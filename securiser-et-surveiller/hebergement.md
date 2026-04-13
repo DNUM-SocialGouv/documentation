@@ -62,11 +62,11 @@ Connaitre ses caractéristiques permet de mieux choisir et anticiper l'atterriss
 
 | Plateforme           | Type d'infra  | BDD managé | S3 managé | HDS Hébergeur | HDS Infogéreur | SecNumCloud | EBIOS max | Antivirus ICAP |
 | -------------------- | ------------- | ---------- | --------- | ------------- | -------------- | ----------- | --------- | -------------- |
-| **Atlas@OVH**        | CaaS          | ✅         | ✅       | ✅            | ❌            | ❌          | 2-3-3-3   | ❌            |
+| **Atlas@OVH v2**     | CaaS          | ✅         | ✅       | ✅            | ❌            | ❌          | 2-3-3-3   | ❌            |
 | **Atlas@OVH-SNC**    | CaaS          | ❌         | ❌       | ✅            | ❌            | ✅          | 4-3-3-3   | ❌            |
 | **Cegedim HDS**      | CaaS/IaaS     | ✅         | ✅       | ✅            | ✅            | ✅          | 4-3-3-3   | ✅            |
-| **Rosny (Travail)**  | CaaS/IaaS     | ❌         | ❌       | ❌            | ❌            | ✅          | 4-3-3-3   | ✅            |
-| **Duquesne (Santé)** | CaaS/IaaS     | ❌         | ❌       | ❌            | ❌            | ✅          | 4-3-3-3   | ✅            |
+| **Rosny (Travail)**  | CaaS/IaaS     | ❌         | ❌       | ❌            | ❌            | ↔️          | 4-3-3-3   | ✅            |
+| **Duquesne (Santé)** | CaaS/IaaS     | ❌         | ❌       | ❌            | ❌            | ↔️          | 4-3-3-3   | ✅            |
 
 Précisions :
 
@@ -78,13 +78,11 @@ Précisions :
 
 Voici les interconnexions sécurisées entre les principaux hébergements :
 
-|                   | Atlas@OVH  | Cegedim   | Rosny      | Duquesne  | Atlas@OVH-SNC |
-| ----------------- | ---------- | --------- | ---------- | --------- | ------------- |
-| **Atlas@OVH**     | ========== | ========= | ========== | ========= | ============= |
-| **Cegedim**       | ❌         | ========= | ========== | ========= | ============= |
-| **Rosny**         | ❌         | VPN ?     | ========== | ========= | ============= |
-| **Duquesne**      | ❌         | VPN ?     | ✅ (RIE)  | ========= | ============= |
-| **Atlas@OVH-SNC** | VPN IPSec  | ❌        | ❌        | ❌        | ============= |
+|                    | Atlas@OVH v2  | Cegedim       | Rosny/Duquesne |
+| ------------------ | ------------- | ------------- | --------------- |
+| **Cegedim**        | ❌           | n/a           | ✅ VPN          |
+| **Rosny/Duquesne** | ✅ VPN       | ✅ VPN        | ✅ RIE         |
+| **Atlas@OVH-SNC**  | ✅ VPN       | ❌            | ❌             |
 
 ## Notes sur HDS
 
