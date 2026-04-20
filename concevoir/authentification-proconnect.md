@@ -31,7 +31,7 @@ ProConnect possède certaines caractéristiques de FranceConnect :
 
 ProConnect diffère de FranceConnect sur ces points notables :
 
-* Pas de choix explicite du FI (routage implicite par l'adresse email)
+* Pas de choix explicite du FI (routage implicite sur l'adresse email)
 * Pas de redressement des traits d'identité au RNIPP
 * Possibilité légale d'utiliser ProConnect comme moyen d'authentification unique pour accéder à un service public numérique
 * Pas de notion de Fournisseurs de Données (FD)
