@@ -64,18 +64,18 @@ Le mécanisme 2FA déclenché dépend donc de chaque FI :
   * Un code de vérification est systématiquement envoyé par email (1.5FA)
 * **ProConnect Identité**
   * Par défaut, ProConnect Identité envoie un code de vérification par email (1.5FA).
-  * Sur son [compte ProConnect Identité](https://identite.proconnect.gouv.fr/connection-and-account), un utilisateur peut
+  * Sur son [compte ProConnect Identité](https://identite.proconnect.gouv.fr/connection-and-account), chaque utilisateur peut
     * soit ne rien faire et conserver le fonctionnement par défaut (1.5FA)
     * soit configurer un 2FA (Authenticator, passkey). Ce 2FA est au choix déclenché pour les FS qui l'exigent, ou systématiquement pour tous les FS
 * **FI MEN** : _A faire_
 
 ## FAQ
 * **Faut-il un autre moyen d'authentification ?**
-Non, ProConnect suffit à authentifier tous les professionnels. Il est fortement déconseillé de proposer une authentification par email et mot de passe (moindre niveau global de sécurité, complexité des écrans et de l'application, pas de ROI, charge de support...).\
+Non, ProConnect suffit à authentifier tous les professionnels. Il est fortement déconseillé de proposer une authentification par email et mot de passe (moindre niveau de sécurité, complexité des écrans et de l'application, pas de ROI, charge de support...).\
 Exception : Pro Santé Connect surpasse ProConnect en termes d'obligation réglementaire et s'impose donc pour l'authentification des PS dans l'exercice de la médecine.\_
 
 * **Faut-il un serveur Keycloak avec ProConnect ?**
-Non, un serveur d'authentification Keycloak est inutile dans la plupart des cas.\
+Non, un serveur d'authentification intermédiaire est inutile et contre-productif dans la plupart des cas.\
 Exception : le produit est un progiciel dont le paramétrage ne permet pas de satisfaire aux spécifications de ProConnect.
 
 ## Sources de veille
