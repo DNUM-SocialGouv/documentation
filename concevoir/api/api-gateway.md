@@ -54,7 +54,7 @@ Instancier et gérer une seule API Gateway par hébergement :
 
 ## Solutions d'API Gateway aux Ministères Sociaux
 
-* **Gravitee.io** utilisé par 2 produits
+* **Gravitee Enterprise** à la DGEFP et Gravitee sur un autre projet
 * [**PISTE**](api-piste.md)
 * **Hasura.io** utilisé en interne sur un projet pur Data.
 
