@@ -4,25 +4,25 @@ Présentation des solutions d'authentification pour les différentes populations
 
 ## Solutions par population d'utilisateurs
 
-| Population cible                                                                                                                                        | Solution(s) préconisée(s)                                                                                        |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------- |----------------------------------------------------------------------------------------------------------------- |
-| <p><strong>Agent des Ministères Sociaux</strong><br><strong>Agent d'autres Ministères</strong><br><strong>Service déconcentré (hors DDETS)</strong></p> | <p>[ProConnect](authentification-proconnect.md)<br><em>(FI ProConnect des Ministères Sociaux)</em></p>           |
-| <p><strong>Service déconcentré DDETS</strong><br>@departement.gouv.fr</p>                                                                               | <p>[ProConnect Identité](authentification-proconnect.md)<br><em>(en attendant un FI ProConnect du MIOM)</em></p> |
-| <p><strong>Collectivité territoriale</strong><br>(région, département, commune)</p>                                                                     | <p>[ProConnect Identité](authentification-proconnect.md)<br><em>(pas de FI ProConnect identifié à date)</em></p> |
-| **Entreprise du secteur privé**                                                                                                                         | [ProConnect Identité](authentification-proconnect.md)                                                            |
-| **Association loi 1901/1908 avec/sans SIRET**                                                                                                           | [ProConnect Identité](authentification-proconnect.md)                                                            |
-| <p><strong>Domaine DGEFP</strong><br>(entreprises, agents, associations)</p>                                                                            | EFP Connect                                                                                                      |
-| <p><strong>Domaine DGT</strong><br>(entreprises, agents, associations)</p>                                                                              | [ProConnect](authentification-proconnect.md)                                                                     |
-| **Particulier**                                                                                                                                         | <p>Obligatoire : Solution spécifique (email, lien magique)<br>Facultatif : FranceConnect OU FranceConnect+</p>   |
-| <p><strong>Professionnel de Santé</strong><br>dans l'exercice de la médecine</p>                                                                        | [Pro Santé Connect](authentification-pro-sante-connect.md) (carte CPS / e-CPS)                                   |
-| <p><strong>Santé et Médico-Social</strong><br>hors champ médical stricte</p>                                                                            | [Plage / Pasrel](authentification-plage-pasrel.md)                                                               |
+| Population cible                                                                                                                                        | Solution(s) préconisée(s)                                                                                                   |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| <p><strong>Agent des Ministères Sociaux</strong><br><strong>Agent d'autres Ministères</strong><br><strong>Service déconcentré (hors DDETS)</strong></p> | <p><a href="authentification-proconnect.md">ProConnect</a><br><em>(FI ProConnect des Ministères Sociaux)</em></p>           |
+| <p><strong>Service déconcentré DDETS</strong><br>@departement.gouv.fr</p>                                                                               | <p><a href="authentification-proconnect.md">ProConnect Identité</a><br><em>(en attendant un FI ProConnect du MIOM)</em></p> |
+| <p><strong>Collectivité territoriale</strong><br>(région, département, commune)</p>                                                                     | <p><a href="authentification-proconnect.md">ProConnect Identité</a><br><em>(pas de FI ProConnect identifié à date)</em></p> |
+| **Entreprise du secteur privé**                                                                                                                         | [ProConnect Identité](authentification-proconnect.md)                                                                       |
+| **Association loi 1901/1908 avec/sans SIRET**                                                                                                           | [ProConnect Identité](authentification-proconnect.md)                                                                       |
+| <p><strong>Domaine DGEFP</strong><br>(entreprises, agents, associations)</p>                                                                            | EFP Connect                                                                                                                 |
+| <p><strong>Domaine DGT</strong><br>(entreprises, agents, associations)</p>                                                                              | [ProConnect](authentification-proconnect.md)                                                                                |
+| **Particulier**                                                                                                                                         | <p>Obligatoire : Solution spécifique (email, lien magique)<br>Facultatif : FranceConnect OU FranceConnect+</p>              |
+| <p><strong>Professionnel de Santé</strong><br>dans l'exercice de la médecine</p>                                                                        | [Pro Santé Connect](authentification-pro-sante-connect.md) (carte CPS / e-CPS)                                              |
+| <p><strong>Santé et Médico-Social</strong><br>hors champ médical stricte</p>                                                                            | [Plage / Pasrel](authentification-plage-pasrel.md)                                                                          |
 
 _Ces solutions ne sont pas nécessairement exclusives, une application pouvant parfois cumuler les méthodes d'authentification._
 
 ## Solutions existantes
 
 **Solution spécifique - SSO LDAP** repose sur des annuaires LDAP et une authentification intégrée à l'application : framework type Spring Security et/ou serveur IAM dédié Keycloak.\
-_A noter que les annuaires LDAP ne sont pas accessibles depuis un cloud public._\
+&#xNAN;_&#x41; noter que les annuaires LDAP ne sont pas accessibles depuis un cloud public._\
 2FA : Oui avec Keycloak
 
 **Solution spécifique - Sans SSO** repose sur une gestion locale (mot de passe en base de données) des comptes utilisateurs. Cette solution legacy ne DOIT PAS être mise en œuvre pour les professionnels.\
@@ -45,5 +45,6 @@ Service obligatoire pour les professionnels de santé dans l'exercice de la méd
 2FA : Oui
 
 ## Sources de veille
-- [Salon Tchap "FranceConnect - Communications partenaires"](https://www.tchap.gouv.fr/#/room/#franceconnect:agent.dinum.tchap.gouv.fr)
-- [FranceConnect - Documentation officielle](https://docs.partenaires.franceconnect.gouv.fr/fs/)
+
+* [Salon Tchap "FranceConnect - Communications partenaires"](https://www.tchap.gouv.fr/#/room/#franceconnect:agent.dinum.tchap.gouv.fr)
+* [FranceConnect - Documentation officielle](https://docs.partenaires.franceconnect.gouv.fr/fs/)

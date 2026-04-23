@@ -63,6 +63,8 @@ Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’é
 
 <p align="center">Bloc-marque Ministères Sociaux</p>
 
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
 <p align="center">Bloc-marque gouvernement</p>
 
 <figure><img src="../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure>
