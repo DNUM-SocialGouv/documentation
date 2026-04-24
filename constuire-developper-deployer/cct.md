@@ -205,7 +205,7 @@ Respecter rigoureusement les obligations légales et sectorielles applicables au
 
 Ce cadre technique recommande les stacks **Node.js/React (TypeScript)** et **Java/Spring Boot** comme stacks de référence pour tous les nouveaux projets de développement d'applications web. Ces stacks sont préconisées car elles offrent une forte agilité, une productivité élevée et un écosystème moderne adapté au développement rapide d'applications web.
 
-Le choix entre les deux stacks se fera par le Ministère.
+Le choix entre les deux stacks se fait par la DNUM.
 
 ### Stack Node.js/React
 

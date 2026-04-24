@@ -4,7 +4,7 @@ Il existe plusieurs solutions de représentation cartographique du territoire, s
 
 * Si la cartographie ne présente pas de données sensibles, considérer l'[instance uMap interministérielle](cartographie.md#instance-umap-interministérielle)
 * Si la cartographie est une fonctionnalité spécifique d'un produit, implémenter la [cartographie souveraine minimum](cartographie.md#cartographie-souveraine-minimum)
-* Si la cartographie est la finalité du produit, envisager le [Système d'Information Géographique du Ministère](cartographie.md#sig-arcgis-du-ministère)
+* Si la cartographie est la finalité du produit, envisager le [Système d'Information Géographique des Ministères Sociaux](cartographie.md#sig-arcgis-du-ministère)
 
 ## Instance uMap interministérielle
 L'[instance uMap (OpenStreetMap) de l'ANCT](https://umap.incubateur.anct.gouv.fr/fr/) est accessible librement par tout agent public.
@@ -32,9 +32,9 @@ Exemple de projet implémentant cette solution : SILAV
 
 Partant de cette solution minimum, il est possible de l'enrichir : traçage de polygones, calcul de distances, etc.
 
-## SIG ArcGIS du Ministère
+## SIG ArcGIS des Ministères Sociaux
 
-Un [Système d'Information Géographique (SIG)](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d'information_g%C3%A9ographique) est une solution complète de collecte, de traitement et de publication de données géographiques. Le bureau DATA du Ministère met en oeuvre la solution commerciale [ArcGIS](https://www.arcgis.com/).
+Un [Système d'Information Géographique (SIG)](https://fr.wikipedia.org/wiki/Syst%C3%A8me_d'information_g%C3%A9ographique) est une solution complète de collecte, de traitement et de publication de données géographiques. Le bureau DATA des Ministères Sociaux met en oeuvre la solution commerciale [ArcGIS](https://www.arcgis.com/).
 
 Avantages d'ArcGIS :
 

@@ -4,7 +4,7 @@
 
 * Basée sur la solution commerciale **Axway API Gateway**
 * Hébergement **OVH-SecNumCloud**
-* Convention de refacturation déjà établie entre AIFE et Ministère. Refacturation d'un coût fixe pour chaque API.
+* Convention de refacturation déjà établie entre AIFE et Ministères Sociaux. Refacturation d'un coût fixe pour chaque API.
 * Mi-2025, PISTE absorbe en moyenne 40M appels/j et en pic 60K appels/s. L'API qui génère le plus d'appels est CaptchEtat.
 
 {% hint style="info" %}

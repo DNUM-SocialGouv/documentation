@@ -37,4 +37,4 @@ La gestion des accès implique nécessairement la recherche de compromis entre :
 3. **Déléguer la gestion des comptes partenaires**\
    La gestion des comptes partenaires (identités, rôles, habilitations) DEVRAIT être déléguée aux partenaires eux-mêmes, par exemple via les espaces partenaires d'EFPConnect, ProConnect et Plage.
 
-/!\ Les annuaires AD du Ministère ne contiennent ni rôles ni habilitations.
+/!\ Les annuaires AD des Ministères Sociaux ne contiennent ni rôles ni habilitations.
