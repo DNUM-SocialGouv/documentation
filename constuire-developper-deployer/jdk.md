@@ -34,7 +34,7 @@ Ce standard s’applique à :
 
 ## ⚙️ Préconisations
 
-- Cibler une version LTS supportée (Java 25)  
+- Cibler une version LTS supportée (ex: Java 25)  
 - Privilégier la dernière version LTS stable disponible  
 - Maintenir une cohérence de version entre les environnements (DEV → PROD)  
 - Mettre en place une politique de mise à jour régulière (patchs sécurité / CPU)  
