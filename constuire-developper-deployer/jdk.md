@@ -5,7 +5,7 @@
 Ce document définit le **cadre de cohérence** pour le choix d’**Eclipse Temurin** comme distribution Java (JDK/JRE) de référence pour les produits de la DNUM.
 
 Il vise à garantir :
-- la cohérence des choix techniques des produits développés en Java ,
+- la cohérence des choix techniques des produits développés en Java,
 - la pérennité des architectures,
 - la maîtrise des risques (techniques, sécurité, conformité),
 - la conformité open source et réglementaire,
