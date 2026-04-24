@@ -1,7 +1,5 @@
 # 📊 Matomo – Documentation de tracking & plan de marquage
 
----
-
 ## Objectifs principaux du tracking
 Ce document a pour objectif de fournir les connaissances de base pour la mise en place du tracking avec Matomo
  
@@ -11,8 +9,6 @@ Ce document a pour objectif de fournir les connaissances de base pour la mise en
 - Améliorer l’expérience utilisateur
 - Respecter les obligations légales (RGPD)
 - _Optimiser les conversions_
-
----
 
 ## Architecture du tracking
 
@@ -27,8 +23,6 @@ Ce document a pour objectif de fournir les connaissances de base pour la mise en
 - Données d'interaction
 - Données de performance
 - _Données de conversions (Goals)_
-
----
 
 ## Mise en place du tracking Matomo
 Demander à l'administrateur la création d'un compte Matomo pour le produit. Il fournira : 
@@ -74,7 +68,46 @@ Demander à l'administrateur la création d'un compte Matomo pour le produit. Il
 | User ID                                         | ❌                                     |
 | E-Commerce (objectifs, conversions)             | ❌                                     |
 
+## ✅ Configuration Matomo en mode « exempté de consentement » (CNIL)
+La CNIL autorise l’utilisation de Matomo sans consentement sous conditions strictes. Dans la mesure ou les conditions sont respectées les produits DNUM pourrons opter pour cette configuration en exemptée de consentement, ci-dessous les critères; 
+
+### Conditions indispensables
+- Anonymiser les adresses IP
+- Désactiver User ID, E‑commerce, heatmaps, session recordings, cookies tiers et cross‑domain tracking
+- Désactiver les fonctionnalités « Live »
+- Ne collecter aucune donnée personnelle
+- Limiter durée des cookies à 13 mois
+- Conserver les données 25 mois maximum
+- Informer l’utilisateur + fournir une page opt‑out
+
+### 📄 Page d’opt‑out Matomo
+Matomo fournit un module d’opt‑out permettant à l’utilisateur de désactiver la mesure d’audience. Selon la documentation Matomo, il faut intégrer l’iframe suivante :
+
+```html
+<div id='matomo-opt-out'>
+  <iframe style="border: 0; height: 200px; width: 100%;" src="MATOMO_URL/index.php?module=CoreAdminHome&action=optOut&language=fr"></iframe>
+</div>
+```
+L’iframe affiche :
+- Le statut actuel du suivi
+- Un bouton permettant de le désactiver ou réactiver
+
+Cette page doit être accessible depuis la politique de confidentialité.
+
+Voici le [*guide*](https://www.cnil.fr/sites/cnil/files/atoms/files/matomo_analytics_-_exemption_-_guide_de_configuration.pdf) Matomo pour la configuration exemptée de consentement
+
+Exemple d'une configuration opt-out [code su travail](https://code.travail.gouv.fr/politique-confidentialite)
+
 ## Plan de marquage (Measurement Plan)
+
+Pour répondre à des besoins de mesure d’audience plus avancés ou ciblés, il peut être nécessaire de mettre en place un plan de marquage enrichi.
+
+L’activation de ces fonctionnalités rend impossible l’utilisation du mode “exempté de consentement” défini par la CNIL
+
+Dès lors, le produit devra se conformer pleinement aux obligations CNIL et RGPD, notamment :
+- Passer en mode soumis au consentement,
+- Mettre en place un bandeau de consentement conforme
+- Ne déclencher le tracking Matomo qu’après obtention du consentement explicite de l’utilisateur.
 
 ### Conventions de nommage
 
@@ -84,8 +117,6 @@ Demander à l'administrateur la création d'un compte Matomo pour le produit. Il
 | Action | Verbe (`click`, `submit`, `scroll`) |
 | Label | Élément précis (`contact_form`) |
 | Valeur | Numérique (optionnelle) |
-
----
 
 ### Exemple de plan de marquage global
 
@@ -99,9 +130,7 @@ Demander à l'administrateur la création d'un compte Matomo pour le produit. Il
 | Produit | Add to cart | ecommerce | add_to_cart | product_name |
 | Checkout | Achat | ecommerce | purchase | order_id |
 
----
-
-## Implémentation techniques
+### Implémentation techniques
 
 Cette section décrit les événements personnalisés suivis avec Matomo afin de mesurer les interactions clés des utilisateurs.
 

@@ -74,6 +74,7 @@
 * [🧩 Anonymisation des données : cadre opérationnel & trajectoire PCN](developper/anonymisation-des-donnees-cadre-operationnel-and-trajectoire-pcn.md)
 * [✅ Intégration continue (CI)](constuire-developper-deployer/ci.md)
 * [📲 Déploiement continu (CD)](constuire-developper-deployer/cd.md)
+* [🧿 Déploiement continu (Choix JDK/JRE)](constuire-developper-deployer/jdk.md)
 * [🔁 Passation des projets internes](constuire-developper-deployer/passation.md)
 * [🗒️ Architecture Decision Records](concevoir/architecture-decision-record.md)
 
