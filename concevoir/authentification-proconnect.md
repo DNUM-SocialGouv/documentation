@@ -1,24 +1,26 @@
 # 🔒 ProConnect
 
 [ProConnect](https://partenaires.proconnect.gouv.fr/) identifie et authentifie les **utilisateurs professionnels publics et privés**. Il résulte de la fusion des anciens services AgentConnect, MonComptePro et InclusionConnect.\
-Cette synthèse oriente les équipes produits sans se substituer à la [documentation officielle de ProConnect](https://partenaires.proconnect.gouv.fr/docs).
+Cette synthèse vise à orienter les équipes produits, sans se substituer à la [documentation officielle de ProConnect](https://partenaires.proconnect.gouv.fr/docs).
 
-## Avantages
-Pour se donner du courage, voici les avantages à migrer vers ProConnect :
-* **Economie sur l'hébergement et l'exploitation** :
-  * **Moins de composants** : on se passe de 2 instances Keycloak
-  * [Support centralisé](https://proconnect.crisp.help/fr/)
-  * **Gestion des accès automatisable** basée sur l'email et l'entité d'appartenance de l'utilisateur
-* **Sécurité renforcée** :
+## Avantages de ProConnect
+* **Sécurité renforcée**
   * Plus de mots de passe en base
-  * 2FA natif
-  * Moins de composants, moins d'obsolescence
-  * Possibilité de limiter l'accès aux seuls agents publics
-  * Chaque FI/FS choisit son exposition : Internet (accès FS public via FI public), RIE (accès FS @RIE via FI @RIE), "Hybridge" (accès FS public via FI @RIE).
-* **Gain en UX** :
+  * MFA natif et aligné sur les standards étatiques
+  * Solution standard => moins de code spécifique => moins de failles
+  * Moindre obsolescence
+  * Révocation centralisée des accès en cas de départ de l’entité
+  * SLO ProConnect (Single Log-Out)
+* **Gains d’UX**
   * SSO ProConnect
+  * Connexion silencieuse par défaut (pas besoin de cliquer sur le « bouton ProConnect »)
   * Environnement visuel normalisé
-* Et toutes les futures évolutions de ProConnect qu'on n'aura pas besoin d'implémenter sur chaque application !
+* **Economie sur l'hébergement**
+  * ProConnect c’est souvent l’occasion de décommissionner des VMs Keycloak (ex : 2 instances x 3 env = 6 VM)
+* **Economie sur l'exploitation**
+  * Support utilisateur niveau 1 reporté en partie sur ProConnect (https://proconnect.crisp.help/fr/)
+  * Gestion des accès partiellement automatisable
+* **Et toutes les fonctionnalités futures de ProConnect, qu'on n'aura pas à implémenter sur chaque application !**
 
 ## ProConnect vs FranceConnect
 
@@ -41,7 +43,7 @@ ProConnect diffère de FranceConnect sur ces points notables :
 
 Le fonctionnement de ProConnect diffère si l'utilisateur est connu ou pas d'un FI de l'administration :
 
-| Aspect                                               | ProConnect (avec FI)                                                                                                                                                                                                                                                         | ProConnect Identité                                                                                                                                                        |
+|                                                      | ProConnect (avec FI)                                                                                                                                                                                                                                                         | ProConnect Identité                                                                                                                                                        |
 | ---------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Authentification                                     | Authentification portée par un FI du public. Routage vers le bon FI basé sur le nom de domaine de l’email. [La table de correspondance est portée par ProConnect](https://grist.numerique.gouv.fr/o/docs/3kQ829mp7bTy/AgentConnect-Configuration-des-Fournisseurs-dIdentite) | Compte email à créer sur ProConnect. Pas d’authentification par FI pour les comptes ProConnect Identité. C’est ProConnect qui porte une authentification par mot de passe. |
 | Traits d’identité et données individuelles           | Fourni par le FI                                                                                                                                                                                                                                                             | Déclaratif (ou définie périodiquement via une connexion à FranceConnect pour les noms de domaines gratuits)                                                                |
@@ -53,11 +55,11 @@ _Un paramétrage de ProConnect permet de restreindre l'accès à un FS aux seuls
 
 ## 2FA ProConnect
 
-Le fonctionnement du 2FA ProConnect di point de vue du FS est décrit [ici](https://partenaires.proconnect.gouv.fr/docs/fournisseur-service/double_authentification)
+Le fonctionnement du 2FA ProConnect du point de vue du FS est décrit [ici](https://partenaires.proconnect.gouv.fr/docs/fournisseur-service/double_authentification)
 
-Chaque FS demande un niveau de sécurité, notamment :
+Chaque FS demande un niveau de sécurité :
 * **eidas1** : pas d'exigence 2FA, tout FI possible.
-* **eidas2** : le FI doit fournir un 2FA afin que la connexion soit acceptée par le FS. Sinon ProConnect affichera une erreur.
+* **eidas2** : le FI doit fournir un 2FA afin que la connexion soit acceptée. Sinon ProConnect affiche une erreur.
 
 Le mécanisme 2FA déclenché dépend donc de chaque FI :
 * **Notre FI Ministères Sociaux** :
@@ -67,12 +69,14 @@ Le mécanisme 2FA déclenché dépend donc de chaque FI :
   * Sur son [compte ProConnect Identité](https://identite.proconnect.gouv.fr/connection-and-account), chaque utilisateur peut
     * soit ne rien faire et conserver le fonctionnement par défaut (1.5FA)
     * soit configurer un 2FA (Authenticator, passkey). Ce 2FA est au choix déclenché pour les FS qui l'exigent, ou systématiquement pour tous les FS
-* **FI MEN** : _A faire_
+* **FI MEN** : _A faire. Multiples IDP._
+* **FI MIOM** : _A faire_
 
 ## FAQ
 * **Faut-il un autre moyen d'authentification ?**
-Non, ProConnect suffit à authentifier tous les professionnels. Il est fortement déconseillé de proposer une authentification par email et mot de passe (moindre niveau de sécurité, complexité des écrans et de l'application, pas de ROI, charge de support...).\
-Exception : Pro Santé Connect surpasse ProConnect en termes d'obligation réglementaire et s'impose donc pour l'authentification des PS dans l'exercice de la médecine.\_
+Non, ProConnect suffit à authentifier la plupart des professionnels. Il est fortement déconseillé de proposer une authentification par email et mot de passe, sauf exceptions :\
+  * Entreprise ou association sans SIRET
+  * Pro Santé Connect surpasse ProConnect en termes d'obligation réglementaire et s'impose donc pour l'authentification des Professionnels de Santé.\_
 
 * **Faut-il un serveur Keycloak avec ProConnect ?**
 Non, un serveur d'authentification intermédiaire est inutile et contre-productif dans la plupart des cas.\
