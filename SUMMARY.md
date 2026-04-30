@@ -55,7 +55,8 @@
 
 ## DEVELOPPER
 
-* [✅ Cadre de Cohérence Technique](constuire-developper-deployer/cct.md)
+* [✅ Cadre de Cohérence Technique](developper/cct/README.md)
+  * [🧿 Standard JDK/JRE](developper/cct/jdk.md)
 * [✅ Checklist projet](constuire-developper-deployer/checklist-projet.md)
 * [👩‍💻 Principes de développement](constuire-developper-deployer/principes-de-developpement/README.md)
   * [Clean Code](developper/principes-de-developpement/clean-code/README.md)
@@ -74,7 +75,6 @@
 * [🧩 Anonymisation des données : cadre opérationnel & trajectoire PCN](developper/anonymisation-des-donnees-cadre-operationnel-and-trajectoire-pcn.md)
 * [✅ Intégration continue (CI)](constuire-developper-deployer/ci.md)
 * [📲 Déploiement continu (CD)](constuire-developper-deployer/cd.md)
-* [🧿 Standard JDK/JRE ](constuire-developper-deployer/jdk.md)
 * [🔁 Passation des projets internes](constuire-developper-deployer/passation.md)
 * [🗒️ Architecture Decision Records](concevoir/architecture-decision-record.md)
 
