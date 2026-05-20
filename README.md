@@ -1,45 +1,16 @@
 # 👋 Bienvenue
 
-Voici un ensemble de ressources destinées aux agents de la Direction du Numérique (DNUM) des Ministères Sociaux, ainsi qu'à ses prestataires de service et à ses partenaires.
+Ce site rassemble les ressources, méthodes et bonnes pratiques de la sous-direction des produits et communs numériques (SDPC) de la Direction du Numérique des Ministères Sociaux. On y partage la façon dont nous concevons, construisons et faisons vivre nos produits : pour outiller les équipes, accueillir les nouvelles et nouveaux arrivants, et faciliter le travail avec nos partenaires.
 
 {% hint style="info" %}
 **Ce document est public et ne contient pas d'informations confidentielles. S'il peut inspirer d'autres organisations et donner envie à des personnes de nous rejoindre, alors tant mieux.💛**
 {% endhint %}
 
-## Constats
+## Notre approche
 
-La sous-direction gère un parc de **250 applications** portées par 50 chefs de produit, en lien avec les équipes métiers.
+Nous développons et faisons évoluer nos produits numériques **en mode produit** : partir d'un problème réel d'utilisateurs, construire avec une équipe pluridisciplinaire et autonome, livrer une première version utile rapidement, puis améliorer en continu — en pilotant par l'impact plutôt que par le volume livré.
 
-Au regard de ce parc, on note des enjeux d'optimisation :
+C'est l'approche portée par la DINUM (initialement par [beta.gouv.fr](https://beta.gouv.fr/approche/)), mais plus largement dans le monde du numérique, que nous mettons en œuvre à l'échelle d'un patrimoine de **plus de 300 applications**.
 
-* **Livraisons inégales** : retards, instabilité, lenteur de la conception à la mise en production, qualité de l'expérience utilisateur, qualité du code
-* **Manque de maitrise** : hétérogénéité technologique, code-source non maitrisé, absence d'intégration continue, obsolescence, sécurité imparfaite
-* **Investissements épars** : à chaque nouveau besoin, une nouvelle application
 
-## Opportunités
 
-Nous notons des opportunités à travers cette démarche :
-
-* Faciliter le quotidien des équipes (meilleure maîtrise des systèmes, déploiement continu)
-* Améliorer l'expérience de toutes et tous (rapidité de développement, qualité - sécurité, design, expérience utilisateur) et favoriser le bien-être au travail
-* Optimiser les coûts
-
-## Pourquoi ce cadre organisationnel
-
-Lorsqu'il est bien implémenté, le mode produit permet notamment :
-
-* De **dé-risquer les services publics numériques**
-* D'**aligner les parties prenantes** sur les objectifs, pour éviter des dépenses sans atterrissage
-* De **mieux concevoir**, car les équipes sont dotées ou ont accès à toutes les expertises (architecture, design, recherche utilisateur, etc.)
-
-## Cadre organisationnel
-
-Nous expérimentons un cadre organisationnel qui permette de :
-
-1. Assurer la cohérence globale
-   * Création du [**comité produit**](readme/cadre-organisationnel.md) qui se réunit toutes les semaines pour passer en revue les nouveaux produits, refontes, et petit à petit des produits où il existe une opportunité de pivoter
-   * Publication de **bonnes pratiques** (ici même) afin de guider et d'harmoniser la conception des produits
-2. Construire un **catalogue de bonnes pratiques et de communs numériques** et ainsi identifier les points de mutualisation entre différents besoins ou services (librairies, plateformes, référentiels)
-3. Accompagner les équipes produits :
-   * en design, recherche utilisateur, accessibilité, méthodologie... je contacte le [bureau Design et Développement](https://msociauxfr.sharepoint.com/teams/BureauDesignDev)
-   * en architecture, sécurité, développement... je contacte l'[équipe d'accompagnement technique](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr)
