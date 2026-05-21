@@ -7,17 +7,19 @@ description: >-
 
 # 🎨 Démarche de design
 
-La conception d’un service numérique sert à imaginer et préparer un produit simple, accessible et efficace avant de lancer le développement. Elle permet de s’appuyer sur les besoins réels des utilisatrices et utilisateurs et d’éviter des développements coûteux et inutiles.
+La conception d’un service numérique sert à imaginer un produit simple, accessible et efficace avant de lancer le développement. Elle permet de s’appuyer sur les besoins réels des utilisatrices et utilisateurs et d’éviter des développements coûteux et inutiles.
 
 ### Quand engager un processus de design ?
 
-On recommande d’engager une démarche de design dès qu’un produit ou un service s’adresse à plusieurs centaines de citoyennes ou citoyens, à une centaine d’agents ou professionnels, ou à un groupe de partenaires ou expertes. Le processus doit être engagé dès le début pour bâtir sur des besoins réels en cohérence avec les contraintes de l'équipe et du produit.
+Dès qu’un produit ou un service s’adresse à plusieurs centaines de citoyennes ou citoyens, à une centaine d’agents ou professionnels. Le processus doit être engagé dès le début pour bâtir sur des besoins réels en cohérence avec les contraintes de l'équipe et du produit.
 
 Ressources utiles :
 
 * [Circulaire 6411-SG du 7 juillet 2023 relative à l’amélioration de la lisibilité des sites Internet de l’État et de la qualité des démarches numériques](https://www.systeme-de-design.gouv.fr/version-courante/fr/premiers-pas/perimetre-d-application)
 * [Modèles à utiliser (maquettes Figma)](https://www.figma.com/files/1329725315060483030/project/332534121)
 * [DSFR – Documentation officielle](https://www.systeme-de-design.gouv.fr)
+
+***
 
 ### Étapes du processus
 
@@ -27,15 +29,18 @@ Le processus de design se déroule en trois grandes étapes :
 * **Imaginer :** à partir des enseignements recueillis, imaginer des parcours et des interfaces adaptés. On crée des maquettes ou prototypes et on les teste rapidement auprès des futurs utilisateurs pour valider les hypothèses.
 * **Fabriquer :** transformer les idées en produit en travaillant étroitement avec les équipes techniques, tout en continuant à tester et à itérer pour améliorer les fonctionnalités selon les retours.
 
+***
+
 ### Check‑list de bonnes pratiques
 
-Pour s’assurer que la démarche de design est correctement mise en œuvre, les chefs de produit et leur designer peuvent suivre cette check‑list :
+Pour s’assurer que la démarche de design est correctement mise en œuvre, les chefs de produit et leur designer doivent :
 
 * [ ] S’appuyer sur le designer pour :
-  * [ ] Organiser un atelier de lancement avec les parties prenantes.
-  * [ ] S'assurer de la présence du référent dans toutes les instances de vie du produit.
-  * [ ] Créer un canal de conversation partagé avec toutes les parties prenantes.
-  * [ ] Créer un espace de documentation.
+  * [ ] Organiser un atelier de lancement avec les parties prenantes,
+  * [ ] S'assurer de la présence du référent dans toutes les instances de vie du produit,
+  * [ ] Créer un canal de conversation partagé avec toutes les parties prenantes,
+  * [ ] Créer un espace de documentation,
+  * [ ] Planifier les travaux et prévoir plusieurs itérations sur l'expérience avant développements.
 * [ ] Centraliser les maquettes dans un fichier Figma partagé sur l'espace DNUM.
 * [ ] Définir les profils utilisateurs et leurs parcours prioritaires (carte d’empathie, user journey, etc.).
 * [ ] Collecter des inspirations et analogies pour nourrir la conception.
@@ -46,7 +51,7 @@ Pour s’assurer que la démarche de design est correctement mise en œuvre, les
   * [ ] le RGAA,
   * [ ] le RGESN,
   * [ ] et intègrent les annotations d’accessibilité et de responsive design.
-* [ ] Organiser des tests utilisateurs (au moins cinq par profil d'utilisateur, tous les 3 mois) et itérer selon les retours.
+* [ ] Organiser des tests utilisateurs (au moins cinq par profil d'utilisateur) et itérer selon les retours.
 * [ ] Évaluer l’effort et l’impact de chaque évolution et garder la documentation à jour.
 
 #### Ressources et obligations pratiques

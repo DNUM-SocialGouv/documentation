@@ -15,7 +15,7 @@ Ces règles permettent de garantir une meilleure lisibilité pour les usagers et
 Les bloc-marques évoluant au rythme des changements ministériels, ceux présentés sur cette page le sont à titre d'exemple. Se reporter aux modèles mis à jour dans le fichier Figma présent dans les ressources utiles.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Exemple d'un bloc-marque ministériel avec le nom du produit en titre et sa baseline</p>
 
@@ -47,7 +47,7 @@ Si la catégorie d'un site n'est pas évidente, contacter la DICOM et le respons
 
 <table data-header-hidden><thead><tr><th width="141.859375">Type de site</th><th>Bloc-marque</th><th>Logo possible ?</th><th>Exemple</th></tr></thead><tbody><tr><td>Type de site</td><td>Bloc-marque</td><td>Logo possible ?</td><td>Exemple</td></tr><tr><td>Ministère</td><td>Ministère ou Gouvernement</td><td>❌ Non</td><td>sante.gouv.fr</td></tr><tr><td>Opérateur</td><td>RF ou Ministériel</td><td>✅ Oui</td><td>ARS IDF</td></tr><tr><td>Serviciel</td><td>RF ou Ministériel</td><td>✅ Oui (après validation DICOM/DNUM)</td><td>egapro.travail.gouv.fr</td></tr></tbody></table>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Représentation des droits d'utilisation des bloc-marques et logo en fonction des entités émettrices</p>
 
@@ -59,15 +59,15 @@ Le bloc-marque du ministère est obligatoire. Si plusieurs ministères portent l
 
 Que faire si un site ministériel a déjà un logo ? En cas de refonte ou d’évolution, le logo devra être retiré lors d’une prochaine mise en production.
 
-<figure><img src="../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Bloc-marque Ministères Sociaux</p>
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Bloc-marque gouvernement</p>
 
-<figure><img src="../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unknown (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Exemple d'en-tête de site ministériel</p>
 
@@ -77,7 +77,7 @@ Les opérateurs inscrits au jaune budgétaire ont la possibilité d’afficher l
 
 ⚠️ L’utilisation d’un logotype n’est pas possible avec le bloc-marque du ministère.
 
-<div align="center"><img src="../.gitbook/assets/unknown (3).png" alt=""> <img src="../.gitbook/assets/unknown (4).png" alt=""></div>
+<div align="center"><img src="../../.gitbook/assets/unknown (3).png" alt=""> <img src="../../.gitbook/assets/unknown (4).png" alt=""></div>
 
 <p align="center">Exemple d'en-têtes d'opérateurs, sites de l'ARS Ile de France et de France Travail</p>
 
@@ -91,10 +91,10 @@ Pour les nouveaux logos : l’utilisation d’un logotype est soumise à approba
 Dans le doute, demander à la DICOM et au responsable du design avant d’engager la création d’un logo.
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Exemple d'en-tête de site serviciel sans logo avec le bloc-marque ministériel, le nom du site et sa description</p>
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
 <p align="center">Exemple d'en-tête de site serviciel avec le bloc-marque République Française, le nom du site et sa description</p>

@@ -28,7 +28,9 @@
 
 ## CONCEVOIR
 
-* [🎨 Démarche de design](concevoir/README.md)
+* [🎨 Démarche de design](concevoir/concevoir/README.md)
+  * [🇫🇷 En-têtes des sites](concevoir/concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
+  * [✨ IA - Charte d'utilisation responsable](concevoir/concevoir/ia-charte-dutilisation-responsable.md)
 * [Recherche utilisateur](concevoir/ru.md)
 * [🩼 Accessibilité](concevoir/accessibilite.md)
 * [♻️ Solutions et communs numériques](preparer-et-lancer/communs-numeriques.md)
@@ -42,7 +44,6 @@
   * [🔒 ProConnect](concevoir/authentification-proconnect.md)
   * [🔒 Pro Santé Connect](concevoir/authentification-pro-sante-connect.md)
   * [🔒 Plage / Pasrel](concevoir/authentification-plage-pasrel.md)
-* [🇫🇷 En-têtes des sites](concevoir/representer-son-produit-dans-les-en-tetes-des-sites.md)
 * [📄 Dossier d'Architecture](concevoir/dossier-architecture.md)
 * [Data](concevoir/data/README.md)
   * [PostgreSQL](concevoir/data/postgresql.md)
