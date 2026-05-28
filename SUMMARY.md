@@ -81,7 +81,8 @@
 
 ## DEPLOYER
 
-* [☁️ Hébergement](securiser-et-surveiller/hebergement.md)
+* [☁️ Hébergement](deployer/hebergement/README.md)
+  * [Gestion du stockage S3 chez CEGEDIM](deployer/hebergement/gestion-du-stockage-s3-chez-cegedim.md)
 * [🔒 Sécurité](securiser-et-surveiller/securite/securite.md)
   * [🔒 Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
   * [🔒 Antivirus](securiser-et-surveiller/securite/antivirus.md)
