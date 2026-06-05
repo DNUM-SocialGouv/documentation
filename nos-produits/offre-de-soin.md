@@ -56,7 +56,7 @@ La plateforme « signalement ONVS » recueille les déclarations des situations 
 
 L'application est basée sur la saisie d'une fiche de signalement détaillée.​
 
-​Un nouveau SI a été initié par la Fabrique Numérique de la DNUM puis transféré à SDPSN/SMS fin 2021, la version antérieure de 2005 étant obsolète, et les données recueillies incomplètes.​ Ce nouveau SI est en service depuis janvier 2023.​
+​Un nouveau SI a été initié par la Fabrique Numérique de la DNUM puis transféré à SDPC/SANTE fin 2021, la version antérieure de 2005 étant obsolète, et les données recueillies incomplètes.​ Ce nouveau SI est en service depuis janvier 2023.​
 
 ✅ **Statut** : En production\
 👷‍♂️ **Utilisateurs :** professionnels de santé (libéraux, ordres, établissements)\

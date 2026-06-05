@@ -1,6 +1,6 @@
 # 🛎️ Accompagnement technique
 
-L'équipe d'architecture DNUM/SDPSN/DD propose des accompagnements techniques pour chaque situation.
+Les architectes du Studio Technique (DNUM/SDPC/ST) proposent des accompagnements techniques pour chaque situation.
 
 {% hint style="info" %}
 **Pour demander un accompagnement :** [**dnum-sdpsn.accotech@sg.social.gouv.fr**](mailto:dnum-sdpsn.accotech@sg.social.gouv.fr)
