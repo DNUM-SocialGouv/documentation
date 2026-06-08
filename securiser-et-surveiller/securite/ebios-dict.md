@@ -4,7 +4,7 @@ L'ANSSI définit la méthode de référence EBIOS de gestion des risques.
 En complément, la ConfNum (SSI DNUM) édite la matrice DICT suivante, pour identifier les besoins de sécurité :
 <figure><img src="./dict.png" alt="Matrice DICT EBIOS DNUM"></figure>
 
-En voici une aide à la lecture pour les produits :
+Cette grille étant sujette à interprétation dans un contexte cyber changeant, voici une aide à la lecture pour nos équipes produits :
 
 ## Disponibilité
 Voici quelques grands repères pour orienter :
