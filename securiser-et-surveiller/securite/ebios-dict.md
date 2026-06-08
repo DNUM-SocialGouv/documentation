@@ -19,7 +19,7 @@ Quelques nuances :
 
 ## Intégrité
 *	I2 suffit à la grande majorité des applications métier. Il s’agit ici de détecter l’altération des données _a priori ou posteriori_ (fichier tronqué, transaction BDD en échec, contrôles de cohérence...) via les mécanismes habituels d’observabilité (logs d’erreurs, alerte email...)
-*	I4 implique un contrôle accru de l’intégrité des données _a priori_ (checksum, preuve mathématique, etc.)
+*	I4 implique un contrôle accru de l’intégrité des données _a priori_ (vérification de checksum, preuve formelle, etc.)
 *	I3 et sa correction automatique des données n'a que peu de réalité technique. Les technologies distribuées type NoSQL et Blockchain sont très peu présentes dans notre contexte, bien que le "consensus" permette parfois de corriger automatiquement la corruption d’un ou plusieurs nœuds.
 
 ## Confidentialité
