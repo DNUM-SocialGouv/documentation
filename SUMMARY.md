@@ -84,6 +84,7 @@
 * [☁️ Hébergement](deployer/hebergement/README.md)
   * [Gestion du stockage S3 chez CEGEDIM](deployer/hebergement/gestion-du-stockage-s3-chez-cegedim.md)
 * [🔒 Sécurité](securiser-et-surveiller/securite/securite.md)
+  * [🔒 DICT (EBIOS)](securiser-et-surveiller/securite/ebios-dict.md)
   * [🔒 Sécurité anti-bots](securiser-et-surveiller/securite/anti-bots.md)
   * [🔒 Antivirus](securiser-et-surveiller/securite/antivirus.md)
   * [🔒 Chiffrement des données](securiser-et-surveiller/securite/chiffrement.md)
