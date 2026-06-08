@@ -26,7 +26,7 @@ Quelques nuances :
 * C3 couvre la majorité de nos applications métier, car c'est le niveau qui implique une gestion des droits d'accès (type RBAC).
 * C4 convient particulièrement à la protection des publics les plus vulnérables (ex : Mandoline, SIRENA, DOMIFA) et aux sujets de démocratie (ex : TPE).
 
-_A noter qu'il n'y a pas d'équivalence automatique entre le DICT et la norme HDS pour l'hébergement de données de santé. Néanmoins dans le cadre de données nominatives de santé, on s'attend naturellement à avoir un niveau de confidentialité C3 ou C4.
+_A noter : il n'y a pas d'équivalence automatique entre le DICT et la norme HDS pour l'hébergement de données de santé. Néanmoins dans le cadre de données nominatives de santé, on s'attend naturellement à avoir un niveau de confidentialité C3 ou C4._
 
 ## Traçabilité et Preuve
 *	T4 nécessite la signature électronique et l’horodatage **par un service externe certifié**.
