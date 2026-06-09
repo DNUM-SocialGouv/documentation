@@ -4,7 +4,7 @@ L'ANSSI définit la méthode de référence EBIOS de gestion des risques. En com
 
 <figure><img src="../../.gitbook/assets/dict.png" alt="Matrice DICT EBIOS DNUM"><figcaption></figcaption></figure>
 
-Cette grille étant sujette à interprétation dans un contexte cyber changeant, voici une aide à la lecture pour nos équipes produits :
+Cette grille étant sujette à interprétation dans un contexte cyber changeant, voici une aide à la lecture pour nos équipes produits. A noter que **seul le processus complet d'homologation SSI permet d'identifier et valider les bonnes valeurs DICT**.
 
 ## Disponibilité
 
