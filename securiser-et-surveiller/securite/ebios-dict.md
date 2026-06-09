@@ -35,7 +35,7 @@ _A noter : il n'y a pas d'équivalence automatique entre le DICT et la norme HDS
 
 ## Traçabilité et Preuve
 
-* T4 peut nécessiter la signature électronique et l’horodatage **par un service externe certifié**.
+* T4 nécessite la signature électronique et l’horodatage. Il reste à clarifier si cela droit être fait par un service externe certifié.
 * La documentation EBIOS insiste sur la traçabilité métier et l'imputabilité des actes de gestion, mais il est essentiel de considérer aussi la traçabilité de l'administration technique des SI (accès, changements).
 
 _A noter que la DNUM utilise toujours le terme historique "DICT", mais il a depuis évolué en "DICP". Rechercher DICP sur Internet renvoie ainsi des contenus plus récents._
