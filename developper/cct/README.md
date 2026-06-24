@@ -212,7 +212,7 @@ Le choix entre les deux stacks se fait par la DNUM.
 | Catégorie              | Technologies                                                                                                                                    |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Runtime/Langage**    | <p>Node.js (LTS, version 24 minimum)<br>TypeScript (version 5+ avec configuration stricte)</p>                                                  |
-| **Framework Backend**  | ExpressJS (typage et validation des routes partagés via client RPC)                                                                             |
+| **Framework Backend**  | ExpressJS (typage et validation des routes partagés via client)                                                                             |
 | **Base de données**    | <p>PostgreSQL avec Prisma<br>Migrations de base de données via l'ORM</p>                                                                        |
 | **Validation**         | Zod ou class-validator                                                                                                                          |
 | **Authentification**   | ProConnect (OAuth2/OIDC) / JWT                                                                                                                  |
