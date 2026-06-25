@@ -211,44 +211,44 @@ Le choix entre les deux stacks se fait par la DNUM.
 
 | Catégorie              | Technologies                                                                                                                                    |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Runtime/Langage**    | <p>Node.js (LTS, version 22 minimum)<br>TypeScript (version 5+ avec configuration stricte)</p>                                                  |
-| **Framework Backend**  | Hono (typage et validation des routes partagés via client RPC)                                                                                  |
+| **Runtime/Langage**    | <p>Node.js (LTS, version 24 minimum)<br>TypeScript (version 5+ avec configuration stricte)</p>                                                  |
+| **Framework Backend**  | ExpressJS (typage et validation des routes partagés via client)                                                                             |
 | **Base de données**    | <p>PostgreSQL avec Prisma<br>Migrations de base de données via l'ORM</p>                                                                        |
 | **Validation**         | Zod ou class-validator                                                                                                                          |
 | **Authentification**   | ProConnect (OAuth2/OIDC) / JWT                                                                                                                  |
 | **Documentation API**  | OpenAPI/Swagger automatique                                                                                                                     |
-| **Tests backend**      | Vitest (TU), Supertest et Testcontainers (TI)                                                                                                   |
+| **Tests Backend**      | Vitest (TU), Supertest et Testcontainers (TI)                                                                                                   |
 | **Linting/Analyse**    | ESLint (règles TypeScript strictes), Prettier, Biome                                                                                            |
-| **Framework Frontend** | React 18+ avec TypeScript ou Next.js 14+ pour le SSR/SSG                                                                                        |
+| **Framework Frontend** | React 19+ avec TypeScript ou Next.js 16+ pour le SSR/SSG                                                                                        |
 | **État Frontend**      | <p>TanStack Query (React.js)<br>Pinia (Vue.js)</p>                                                                                              |
 | **Styling Frontend**   | <p>DSFR, via <a href="https://github.com/codegouvfr/react-dsfr">lib react-ds</a><br>Tailwind CSS ou CSS Modules avec approche utility-first</p> |
 | **Tests Frontend**     | <p>Vitest + React Testing Library pour les tests unitaires<br>Playwright pour les tests E2E</p>                                                 |
-| **Build Frontend**     | <p>Vite ou Next.js (React - préconisé)<br>Vite</p>                                                                                              |
+| **Build Frontend**     | Vite ou Next.js (React - préconisé)                                                                                                             |
 | **Dépendances**        | Yarn                                                                                                                                            |
-| **CI/CD**              | PIC interne (Gitlab)                                                                                                                            |
+| **CI/CD**              | PIC interne (GitLab)                                                                                                                            |
 | **Conteneurisation**   | Docker avec images multi-stages optimisées basées sur Node.js slim                                                                              |
-| **Monitoring**         | Sentry (Erreurs et APM), Outil pour les logs                                                                                                    |
+| **Monitoring**         | Sentry (Erreurs et APM)                                                                                                                         |
 | **Logging**            | Pino                                                                                                                                            |
 
 ### Stack Java/Spring Boot
 
 | Catégorie              | Technologies                                                                                                                    |
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
-| **Langage**            | <p>Java 25+, <a href="jdk.md">Temurin</a> (LTS)<br>avec records, pattern matching, virtual threads</p>                          |
-| **Framework Backend**  | <p>Spring Boot 3.x+ avec Spring Framework 6.x+<br>Architecture en couches via Spring Data et Spring Security</p>                |
+| **Langage**            | <p>Java 25+, <a href="jdk.md">JDK Temurin</a> (LTS)<br>avec records, pattern matching, virtual threads</p>                      |
+| **Framework Backend**  | <p>Spring Boot 4.x+ avec Spring Framework 7.x+<br>Architecture en couches via Spring Data et Spring Security</p>                |
 | **Base de données**    | <p>PostgreSQL avec Spring Data JPA et Hibernate comme ORM<br>Liquibase pour les migrations de base de données</p>               |
 | **Validation**         | Bean Validation (Jakarta Validation) avec annotations                                                                           |
-| **Authentification**   | <p>Spring Security avec ProConnect (OAuth2/OIDC) et JWT pour les APIs stateless<br>JWT dans les cookies</p>                     |
+| **Authentification**   | <p>Spring Security avec : ProConnect (IHM) et JWT dans les cookies (APIs)</p>                                                   |
 | **Documentation API**  | SpringDoc OpenAPI (Swagger) pour la documentation automatique des APIs REST                                                     |
 | **Tests**              | <p>JUnit 5 et Mockito<br>Spring Boot Test avec @SpringBootTest<br>Testcontainers pour les tests avec base de données réelle</p> |
 | **Linting/Analyse**    | Checkstyle, PMD, SpotBugs pour la détection de code smells et vulnérabilités                                                    |
-| **Framework Frontend** | Angular avec TypeScript                                                                                                         |
+| **Framework Frontend** | Angular 22 avec TypeScript                                                                                                      |
 | **État Frontend**      | Signals Angular (gestion réactive moderne) et Services Angular                                                                  |
 | **Styling Frontend**   | <p>DSFR via <a href="https://www.npmjs.com/package/@edugouvfr/ngx-dsfr">lib ngx-dsfr</a><br>Tailwind CSS</p>                    |
 | **Tests Frontend**     | <p>Jest ou Jasmine + Karma pour les tests unitaires<br>Playwright pour les tests E2E</p>                                        |
 | **Build Frontend**     | Angular CLI (build intégré)                                                                                                     |
 | **Dépendances/Build**  | Gradle avec wrapper pour garantir la version                                                                                    |
-| **CI/CD**              | PIC interne (GitLab CI)                                                                                                         |
+| **CI/CD**              | PIC interne (GitLab)                                                                                                            |
 | **Conteneurisation**   | Docker avec images multi-stages optimisées basées sur OpenJDK Alpine                                                            |
-| **Monitoring**         | Sentry (Erreurs et APM), Outil pour les logs                                                                                    |
+| **Monitoring**         | Sentry (Erreurs et APM)                                                                                                         |
 | **Logging**            | Logback ou Log4j2 avec SLF4J pour le logging structuré (format JSON en production)                                              |
