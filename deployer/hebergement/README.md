@@ -25,18 +25,15 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
 
 ## Grands principes
 
-* Le passage au cloud nécessite d'adopter de nouveaux paradigmes :
+* Le passage au cloud implique de nouveaux paradigmes :
   * volet RH (formation des agents, internalisation des compétences-clés, accompagnement des équipes)
   * transformation des architectures applicatives (cloud native, 12 factors)
   * ré-organisation des équipes (DevOps, CI/CD, tests automatisés)
-  * optimisation financière (FinOps) et environnementale (RGESN, GreenOps)
+  * optimisation financière (FinOps)
 * Privilégier l’utilisation des fonctionnalités natives des fournisseurs de cloud
-  * privilégier le SaaS si la souveraineté et le coût le permettent; sinon
-  * privilégier le PaaS au CaaS (_sans raison évidente, le PaaS ne fait pas partie de la stratégie DNUM à l'heure actuelle_)
-  * privilégier le CaaS au IaaS
 * Les nouvelles applications (incluant les refontes) vont par défaut dans le cloud
-  * l’hébergement interne est réservé aux périmètres non cloudifiables, mais suivent a minima une logique de conteneurisation
-  * la bascule « telle quelle » est limitée aux cas extrêmes (ex : migration de masse avant fermeture de DC)
+  * l’hébergement interne est réservé aux périmètres non cloudifiables, qui suivent a minima une logique de conteneurisation
+  * la bascule « telle quelle » est limitée aux cas extrêmes (ex : migration contrainte par la fermeture d'un hébergement)
 
 ## Quel hébergement cloud pour quel cas d'usage ?
 
@@ -49,7 +46,7 @@ La stratégie cloud de la DNUM répond aux enjeux suivants :
   * leur violation aurait pour conséquence une atteinte à l’ordre public, la sécurité publique, la santé, la vie des personnes ou la propriété intellectuelle.
 
 _Les "clouds internes" de l'Etat ne sont pas ou peu utilisés aux Ministères Sociaux :
-* Pas besoin du niveau "diffusion restreinte" du cloud Pi (MININT)
+* Pas besoin du niveau "diffusion restreinte" du cloud Pi (MIOM)
 * Offre SecNumCloud d'OVH préférée au cloud Nubo (DGFIP) : coût élevé, pas prévu pour les petits déploiements_
 
 ## Caractéristiques des plateformes d'hébergement
